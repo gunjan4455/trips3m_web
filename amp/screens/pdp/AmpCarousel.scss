@@ -1,0 +1,27 @@
+.highlight-deals-banner.slider-amp-text{
+  padding: 5px 50px;
+  min-height: 42px;
+  background: rgb(255, 192, 87);
+}
+.package-slider-img .slider-deals{
+  height: auto;
+  top: 15px;
+  left: 15px;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 6px;
+}
+
+.sliderImage-overlay:after{
+  content: "";
+  background: #000;
+  opacity: .3;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  z-index: 9;
+}
+

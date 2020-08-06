@@ -1,0 +1,21 @@
+:local {
+  .loader {
+    height: 222px;
+    & img {
+      opacity: 0.2;
+      height: 65px;
+      min-width: auto !important;
+      min-height: auto !important
+    }
+  }
+  .icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    & svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+}

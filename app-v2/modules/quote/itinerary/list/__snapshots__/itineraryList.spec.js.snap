@@ -1,0 +1,958 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Itinerary: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItineraryList
+    itineraryInfo={
+      Array [
+        Object {
+          "0": Object {
+            "description": "A representative will meet and take you to you to your hotel.",
+            "eventTime": "15:35 - India Standard Time - 2 hours",
+            "imagesUrl": Array [
+              "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+              "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+            ],
+            "order": "1",
+            "sectionType": "cab",
+            "title": "Private Transfer from Airport to Hotel",
+          },
+          "1": Object {
+            "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+            "eventTime": "Monday, 24 August, 2019",
+            "imagesUrl": Array [],
+            "order": "4",
+            "sectionType": "itinerary",
+            "title": "Arrival at Dubai Airport.",
+          },
+          "2": Object {
+            "description": "hotel detail",
+            "eventTime": "hotel timing",
+            "imagesUrl": Array [
+              "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+            ],
+            "order": "2",
+            "otherDetails": Object {
+              "category": "",
+              "email": "",
+              "hotelDesc": "hotel description",
+              "lat": "28.489743",
+              "long": "77.074602",
+              "name": "hotel",
+              "phone": "44445454",
+              "rating": 5,
+              "tripAdvisorId": "",
+              "web_url": "",
+            },
+            "sectionType": "hotel",
+            "title": "hotel details",
+          },
+          "3": Object {
+            "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+            "eventTime": "15:35 - India Standard Time",
+            "imagesUrl": Array [],
+            "order": "3",
+            "sectionType": "attraction",
+            "title": "Night Safari",
+          },
+          "4": Object {
+            "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+            "eventTime": "15:35 - India Standard Time",
+            "order": "4",
+            "otherDetails": Object {
+              "address": "abc",
+              "airport_des": "airport description",
+              "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+              "lat": "28.489743",
+              "long": "77.074602",
+              "name": "prashant",
+              "phone": "33434",
+              "rating": 4.3,
+              "web_url": "",
+            },
+            "sectionType": "flight",
+            "title": "Arrival",
+          },
+          "5": Object {
+            "description": "going back to hotel after sight seeing",
+            "eventTime": "15:35 - India Standard Time",
+            "imagesUrl": Array [],
+            "order": "3",
+            "sectionType": "attraction",
+            "title": "Back to Hotel",
+          },
+        },
+      ]
+    }
+    quoteId={222222}
+    setPdmCategory={[Function]}
+    showHidePdmView={[Function]}
+    tracksegment={[MockFunction]}
+    tripId={111111}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <div
+        className="pfc3 f14 sbcw mt8"
+      >
+        <QuoteCardHeader
+          category=""
+          chatButtonName="Edit Package"
+          handleChatClick={[Function]}
+          heading="Itinerary"
+          icon={<IconSvg />}
+        />
+        <div>
+          <Link
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/requested_trips/111111/quotes/222222/itinerary?day=1"
+          >
+            <div
+              className="flex alignCenter spaceBetween p15 bt at_itinerarylist"
+            >
+              <div
+                className="flexFull"
+              >
+                <div
+                  className="flex alignCenter"
+                >
+                  <h4
+                    className="f16 fw9 pfc3 m0 mr8"
+                  >
+                    Day 1
+                  </h4>
+                  <p
+                    className="f12 pfc4 m0 at_eventTime"
+                  >
+                    Monday, 24 August, 2019
+                  </p>
+                </div>
+                <p
+                  className="f14 pfc3 mt5"
+                >
+                  Arrival at Dubai Airport.
+                </p>
+              </div>
+              <ForwardRef(render)
+                className="input-24 block p5 flex alignCenter justifyCenter"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+            </div>
+          </Link>
+        </div>
+      </div>,
+      "name": "itinerary-sec",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <QuoteCardHeader
+            category=""
+            chatButtonName="Edit Package"
+            handleChatClick={[Function]}
+            heading="Itinerary"
+            icon={<IconSvg />}
+          />,
+          <div>
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/requested_trips/111111/quotes/222222/itinerary?day=1"
+            >
+              <div
+                className="flex alignCenter spaceBetween p15 bt at_itinerarylist"
+              >
+                <div
+                  className="flexFull"
+                >
+                  <div
+                    className="flex alignCenter"
+                  >
+                    <h4
+                      className="f16 fw9 pfc3 m0 mr8"
+                    >
+                      Day 1
+                    </h4>
+                    <p
+                      className="f12 pfc4 m0 at_eventTime"
+                    >
+                      Monday, 24 August, 2019
+                    </p>
+                  </div>
+                  <p
+                    className="f14 pfc3 mt5"
+                  >
+                    Arrival at Dubai Airport.
+                  </p>
+                </div>
+                <ForwardRef(render)
+                  className="input-24 block p5 flex alignCenter justifyCenter"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+              </div>
+            </Link>
+          </div>,
+        ],
+        "className": "pfc3 f14 sbcw mt8",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "category": "",
+            "chatButtonName": "Edit Package",
+            "handleChatClick": [Function],
+            "heading": "Itinerary",
+            "icon": <IconSvg />,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              Array [
+                undefined,
+                <Link
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/requested_trips/111111/quotes/222222/itinerary?day=1"
+                >
+                  <div
+                    className="flex alignCenter spaceBetween p15 bt at_itinerarylist"
+                  >
+                    <div
+                      className="flexFull"
+                    >
+                      <div
+                        className="flex alignCenter"
+                      >
+                        <h4
+                          className="f16 fw9 pfc3 m0 mr8"
+                        >
+                          Day 1
+                        </h4>
+                        <p
+                          className="f12 pfc4 m0 at_eventTime"
+                        >
+                          Monday, 24 August, 2019
+                        </p>
+                      </div>
+                      <p
+                        className="f14 pfc3 mt5"
+                      >
+                        Arrival at Dubai Airport.
+                      </p>
+                    </div>
+                    <ForwardRef(render)
+                      className="input-24 block p5 flex alignCenter justifyCenter"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>
+                  </div>
+                </Link>,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "children": <div
+                  className="flex alignCenter spaceBetween p15 bt at_itinerarylist"
+                >
+                  <div
+                    className="flexFull"
+                  >
+                    <div
+                      className="flex alignCenter"
+                    >
+                      <h4
+                        className="f16 fw9 pfc3 m0 mr8"
+                      >
+                        Day 1
+                      </h4>
+                      <p
+                        className="f12 pfc4 m0 at_eventTime"
+                      >
+                        Monday, 24 August, 2019
+                      </p>
+                    </div>
+                    <p
+                      className="f14 pfc3 mt5"
+                    >
+                      Arrival at Dubai Airport.
+                    </p>
+                  </div>
+                  <ForwardRef(render)
+                    className="input-24 block p5 flex alignCenter justifyCenter"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                </div>,
+                "onlyActiveOnIndex": false,
+                "style": Object {},
+                "to": "/requested_trips/111111/quotes/222222/itinerary?day=1",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="flexFull"
+                    >
+                      <div
+                        className="flex alignCenter"
+                      >
+                        <h4
+                          className="f16 fw9 pfc3 m0 mr8"
+                        >
+                          Day 1
+                        </h4>
+                        <p
+                          className="f12 pfc4 m0 at_eventTime"
+                        >
+                          Monday, 24 August, 2019
+                        </p>
+                      </div>
+                      <p
+                        className="f14 pfc3 mt5"
+                      >
+                        Arrival at Dubai Airport.
+                      </p>
+                    </div>,
+                    <ForwardRef(render)
+                      className="input-24 block p5 flex alignCenter justifyCenter"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>,
+                  ],
+                  "className": "flex alignCenter spaceBetween p15 bt at_itinerarylist",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="flex alignCenter"
+                        >
+                          <h4
+                            className="f16 fw9 pfc3 m0 mr8"
+                          >
+                            Day 1
+                          </h4>
+                          <p
+                            className="f12 pfc4 m0 at_eventTime"
+                          >
+                            Monday, 24 August, 2019
+                          </p>
+                        </div>,
+                        <p
+                          className="f14 pfc3 mt5"
+                        >
+                          Arrival at Dubai Airport.
+                        </p>,
+                      ],
+                      "className": "flexFull",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <h4
+                              className="f16 fw9 pfc3 m0 mr8"
+                            >
+                              Day 1
+                            </h4>,
+                            <p
+                              className="f12 pfc4 m0 at_eventTime"
+                            >
+                              Monday, 24 August, 2019
+                            </p>,
+                          ],
+                          "className": "flex alignCenter",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Day 1",
+                              "className": "f16 fw9 pfc3 m0 mr8",
+                            },
+                            "ref": null,
+                            "rendered": "Day 1",
+                            "type": "h4",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Monday, 24 August, 2019",
+                              "className": "f12 pfc4 m0 at_eventTime",
+                            },
+                            "ref": null,
+                            "rendered": "Monday, 24 August, 2019",
+                            "type": "p",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Arrival at Dubai Airport.",
+                          "className": "f14 pfc3 mt5",
+                        },
+                        "ref": null,
+                        "rendered": "Arrival at Dubai Airport.",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "input-24 block p5 flex alignCenter justifyCenter",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "span",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "transform": "rotateZ(-90deg)",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(span)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="pfc3 f14 sbcw mt8"
+        >
+          <QuoteCardHeader
+            category=""
+            chatButtonName="Edit Package"
+            handleChatClick={[Function]}
+            heading="Itinerary"
+            icon={<IconSvg />}
+          />
+          <div>
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/requested_trips/111111/quotes/222222/itinerary?day=1"
+            >
+              <div
+                className="flex alignCenter spaceBetween p15 bt at_itinerarylist"
+              >
+                <div
+                  className="flexFull"
+                >
+                  <div
+                    className="flex alignCenter"
+                  >
+                    <h4
+                      className="f16 fw9 pfc3 m0 mr8"
+                    >
+                      Day 1
+                    </h4>
+                    <p
+                      className="f12 pfc4 m0 at_eventTime"
+                    >
+                      Monday, 24 August, 2019
+                    </p>
+                  </div>
+                  <p
+                    className="f14 pfc3 mt5"
+                  >
+                    Arrival at Dubai Airport.
+                  </p>
+                </div>
+                <ForwardRef(render)
+                  className="input-24 block p5 flex alignCenter justifyCenter"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+              </div>
+            </Link>
+          </div>
+        </div>,
+        "name": "itinerary-sec",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <QuoteCardHeader
+              category=""
+              chatButtonName="Edit Package"
+              handleChatClick={[Function]}
+              heading="Itinerary"
+              icon={<IconSvg />}
+            />,
+            <div>
+              <Link
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/requested_trips/111111/quotes/222222/itinerary?day=1"
+              >
+                <div
+                  className="flex alignCenter spaceBetween p15 bt at_itinerarylist"
+                >
+                  <div
+                    className="flexFull"
+                  >
+                    <div
+                      className="flex alignCenter"
+                    >
+                      <h4
+                        className="f16 fw9 pfc3 m0 mr8"
+                      >
+                        Day 1
+                      </h4>
+                      <p
+                        className="f12 pfc4 m0 at_eventTime"
+                      >
+                        Monday, 24 August, 2019
+                      </p>
+                    </div>
+                    <p
+                      className="f14 pfc3 mt5"
+                    >
+                      Arrival at Dubai Airport.
+                    </p>
+                  </div>
+                  <ForwardRef(render)
+                    className="input-24 block p5 flex alignCenter justifyCenter"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                </div>
+              </Link>
+            </div>,
+          ],
+          "className": "pfc3 f14 sbcw mt8",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "category": "",
+              "chatButtonName": "Edit Package",
+              "handleChatClick": [Function],
+              "heading": "Itinerary",
+              "icon": <IconSvg />,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                Array [
+                  undefined,
+                  <Link
+                    onlyActiveOnIndex={false}
+                    style={Object {}}
+                    to="/requested_trips/111111/quotes/222222/itinerary?day=1"
+                  >
+                    <div
+                      className="flex alignCenter spaceBetween p15 bt at_itinerarylist"
+                    >
+                      <div
+                        className="flexFull"
+                      >
+                        <div
+                          className="flex alignCenter"
+                        >
+                          <h4
+                            className="f16 fw9 pfc3 m0 mr8"
+                          >
+                            Day 1
+                          </h4>
+                          <p
+                            className="f12 pfc4 m0 at_eventTime"
+                          >
+                            Monday, 24 August, 2019
+                          </p>
+                        </div>
+                        <p
+                          className="f14 pfc3 mt5"
+                        >
+                          Arrival at Dubai Airport.
+                        </p>
+                      </div>
+                      <ForwardRef(render)
+                        className="input-24 block p5 flex alignCenter justifyCenter"
+                      >
+                        <IconSvg />
+                      </ForwardRef(render)>
+                    </div>
+                  </Link>,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                ],
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "class",
+                "props": Object {
+                  "children": <div
+                    className="flex alignCenter spaceBetween p15 bt at_itinerarylist"
+                  >
+                    <div
+                      className="flexFull"
+                    >
+                      <div
+                        className="flex alignCenter"
+                      >
+                        <h4
+                          className="f16 fw9 pfc3 m0 mr8"
+                        >
+                          Day 1
+                        </h4>
+                        <p
+                          className="f12 pfc4 m0 at_eventTime"
+                        >
+                          Monday, 24 August, 2019
+                        </p>
+                      </div>
+                      <p
+                        className="f14 pfc3 mt5"
+                      >
+                        Arrival at Dubai Airport.
+                      </p>
+                    </div>
+                    <ForwardRef(render)
+                      className="input-24 block p5 flex alignCenter justifyCenter"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>
+                  </div>,
+                  "onlyActiveOnIndex": false,
+                  "style": Object {},
+                  "to": "/requested_trips/111111/quotes/222222/itinerary?day=1",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="flexFull"
+                      >
+                        <div
+                          className="flex alignCenter"
+                        >
+                          <h4
+                            className="f16 fw9 pfc3 m0 mr8"
+                          >
+                            Day 1
+                          </h4>
+                          <p
+                            className="f12 pfc4 m0 at_eventTime"
+                          >
+                            Monday, 24 August, 2019
+                          </p>
+                        </div>
+                        <p
+                          className="f14 pfc3 mt5"
+                        >
+                          Arrival at Dubai Airport.
+                        </p>
+                      </div>,
+                      <ForwardRef(render)
+                        className="input-24 block p5 flex alignCenter justifyCenter"
+                      >
+                        <IconSvg />
+                      </ForwardRef(render)>,
+                    ],
+                    "className": "flex alignCenter spaceBetween p15 bt at_itinerarylist",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="flex alignCenter"
+                          >
+                            <h4
+                              className="f16 fw9 pfc3 m0 mr8"
+                            >
+                              Day 1
+                            </h4>
+                            <p
+                              className="f12 pfc4 m0 at_eventTime"
+                            >
+                              Monday, 24 August, 2019
+                            </p>
+                          </div>,
+                          <p
+                            className="f14 pfc3 mt5"
+                          >
+                            Arrival at Dubai Airport.
+                          </p>,
+                        ],
+                        "className": "flexFull",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <h4
+                                className="f16 fw9 pfc3 m0 mr8"
+                              >
+                                Day 1
+                              </h4>,
+                              <p
+                                className="f12 pfc4 m0 at_eventTime"
+                              >
+                                Monday, 24 August, 2019
+                              </p>,
+                            ],
+                            "className": "flex alignCenter",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Day 1",
+                                "className": "f16 fw9 pfc3 m0 mr8",
+                              },
+                              "ref": null,
+                              "rendered": "Day 1",
+                              "type": "h4",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Monday, 24 August, 2019",
+                                "className": "f12 pfc4 m0 at_eventTime",
+                              },
+                              "ref": null,
+                              "rendered": "Monday, 24 August, 2019",
+                              "type": "p",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Arrival at Dubai Airport.",
+                            "className": "f14 pfc3 mt5",
+                          },
+                          "ref": null,
+                          "rendered": "Arrival at Dubai Airport.",
+                          "type": "p",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": <IconSvg />,
+                        "className": "input-24 block p5 flex alignCenter justifyCenter",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "span",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "transform": "rotateZ(-90deg)",
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(span)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

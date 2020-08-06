@@ -1,0 +1,2812 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Itinerary For Particular Day Render Correctly  Should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItineraryByDay
+    day={2}
+    defaultOpen={false}
+    detail={
+      Object {
+        "0": Object {
+          "description": "A representative will meet and take you to you to your hotel.",
+          "eventTime": "15:35 - India Standard Time - 2 hours",
+          "imagesUrl": Array [
+            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+          ],
+          "order": "1",
+          "sectionType": "cab",
+          "title": "Private Transfer from Airport to Hotel",
+        },
+        "1": Object {
+          "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+          "eventTime": "Monday, 24 August, 2019",
+          "imagesUrl": Array [],
+          "order": "4",
+          "sectionType": "itinerary",
+          "title": "Arrival at Dubai Airport.",
+        },
+        "2": Object {
+          "description": "hotel detail",
+          "eventTime": "hotel timing",
+          "imagesUrl": Array [
+            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+          ],
+          "order": "2",
+          "otherDetails": Object {
+            "category": "",
+            "email": "",
+            "hotelDesc": "hotel description",
+            "lat": "28.489743",
+            "long": "77.074602",
+            "name": "hotel",
+            "phone": "44445454",
+            "rating": 5,
+            "tripAdvisorId": "",
+            "web_url": "",
+          },
+          "sectionType": "hotel",
+          "title": "hotel details",
+        },
+        "3": Object {
+          "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+          "eventTime": "15:35 - India Standard Time",
+          "imagesUrl": Array [],
+          "order": "3",
+          "sectionType": "attraction",
+          "title": "Night Safari",
+        },
+        "4": Object {
+          "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+          "eventTime": "15:35 - India Standard Time",
+          "order": "4",
+          "otherDetails": Object {
+            "address": "abc",
+            "airport_des": "airport description",
+            "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+            "lat": "28.489743",
+            "long": "77.074602",
+            "name": "prashant",
+            "phone": "33434",
+            "rating": 4.3,
+            "web_url": "",
+          },
+          "sectionType": "flight",
+          "title": "Arrival",
+        },
+        "5": Object {
+          "description": "going back to hotel after sight seeing",
+          "eventTime": "15:35 - India Standard Time",
+          "imagesUrl": Array [],
+          "order": "3",
+          "sectionType": "attraction",
+          "title": "Back to Hotel",
+        },
+      }
+    }
+    setPdmCategory={[Function]}
+    showHidePdmView={[Function]}
+    trackSegmentEvent={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <input
+          className="nblock itineraryday_checkbox"
+          defaultChecked={false}
+          id="itineraryday_2"
+          name="quote_itinerary"
+          type="radio"
+        />,
+        <label
+          className="block clearfix"
+          htmlFor="itineraryday_2"
+        >
+          <div
+            className="itineraryByDayData"
+          >
+            <div
+              className="itineraryByDayHead"
+            >
+              <ItineraryHeading
+                days={2}
+                item={
+                  Object {
+                    "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                    "eventTime": "Monday, 24 August, 2019",
+                    "imagesUrl": Array [],
+                    "order": "4",
+                    "sectionType": "itinerary",
+                    "title": "Arrival at Dubai Airport.",
+                  }
+                }
+                trackSegmentEvent={[Function]}
+              />
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "A representative will meet and take you to you to your hotel.",
+                      "eventTime": "15:35 - India Standard Time - 2 hours",
+                      "imagesUrl": Array [
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      ],
+                      "order": "1",
+                      "sectionType": "cab",
+                      "title": "Private Transfer from Airport to Hotel",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ShowMore
+                  defaultOpen={false}
+                  isDefaultShowMore={true}
+                  moreText=""
+                  showLessText="Read Less"
+                  showMoreText="Read More"
+                  trackSegment={[Function]}
+                  wrapText={
+                    Array [
+                      <span>
+                        Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                      </span>,
+                    ]
+                  }
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "hotel detail",
+                      "eventTime": "hotel timing",
+                      "imagesUrl": Array [
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      ],
+                      "order": "2",
+                      "otherDetails": Object {
+                        "category": "",
+                        "email": "",
+                        "hotelDesc": "hotel description",
+                        "lat": "28.489743",
+                        "long": "77.074602",
+                        "name": "hotel",
+                        "phone": "44445454",
+                        "rating": 5,
+                        "tripAdvisorId": "",
+                        "web_url": "",
+                      },
+                      "sectionType": "hotel",
+                      "title": "hotel details",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                      "eventTime": "15:35 - India Standard Time",
+                      "imagesUrl": Array [],
+                      "order": "3",
+                      "sectionType": "attraction",
+                      "title": "Night Safari",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                      "eventTime": "15:35 - India Standard Time",
+                      "order": "4",
+                      "otherDetails": Object {
+                        "address": "abc",
+                        "airport_des": "airport description",
+                        "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        "lat": "28.489743",
+                        "long": "77.074602",
+                        "name": "prashant",
+                        "phone": "33434",
+                        "rating": 4.3,
+                        "web_url": "",
+                      },
+                      "sectionType": "flight",
+                      "title": "Arrival",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "going back to hotel after sight seeing",
+                      "eventTime": "15:35 - India Standard Time",
+                      "imagesUrl": Array [],
+                      "order": "3",
+                      "sectionType": "attraction",
+                      "title": "Back to Hotel",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+          </div>
+        </label>,
+      ],
+      "className": "sbcw radius2 mb8",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "nblock itineraryday_checkbox",
+          "defaultChecked": false,
+          "id": "itineraryday_2",
+          "name": "quote_itinerary",
+          "type": "radio",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="itineraryByDayData"
+          >
+            <div
+              className="itineraryByDayHead"
+            >
+              <ItineraryHeading
+                days={2}
+                item={
+                  Object {
+                    "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                    "eventTime": "Monday, 24 August, 2019",
+                    "imagesUrl": Array [],
+                    "order": "4",
+                    "sectionType": "itinerary",
+                    "title": "Arrival at Dubai Airport.",
+                  }
+                }
+                trackSegmentEvent={[Function]}
+              />
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "A representative will meet and take you to you to your hotel.",
+                      "eventTime": "15:35 - India Standard Time - 2 hours",
+                      "imagesUrl": Array [
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      ],
+                      "order": "1",
+                      "sectionType": "cab",
+                      "title": "Private Transfer from Airport to Hotel",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ShowMore
+                  defaultOpen={false}
+                  isDefaultShowMore={true}
+                  moreText=""
+                  showLessText="Read Less"
+                  showMoreText="Read More"
+                  trackSegment={[Function]}
+                  wrapText={
+                    Array [
+                      <span>
+                        Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                      </span>,
+                    ]
+                  }
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "hotel detail",
+                      "eventTime": "hotel timing",
+                      "imagesUrl": Array [
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      ],
+                      "order": "2",
+                      "otherDetails": Object {
+                        "category": "",
+                        "email": "",
+                        "hotelDesc": "hotel description",
+                        "lat": "28.489743",
+                        "long": "77.074602",
+                        "name": "hotel",
+                        "phone": "44445454",
+                        "rating": 5,
+                        "tripAdvisorId": "",
+                        "web_url": "",
+                      },
+                      "sectionType": "hotel",
+                      "title": "hotel details",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                      "eventTime": "15:35 - India Standard Time",
+                      "imagesUrl": Array [],
+                      "order": "3",
+                      "sectionType": "attraction",
+                      "title": "Night Safari",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                      "eventTime": "15:35 - India Standard Time",
+                      "order": "4",
+                      "otherDetails": Object {
+                        "address": "abc",
+                        "airport_des": "airport description",
+                        "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        "lat": "28.489743",
+                        "long": "77.074602",
+                        "name": "prashant",
+                        "phone": "33434",
+                        "rating": 4.3,
+                        "web_url": "",
+                      },
+                      "sectionType": "flight",
+                      "title": "Arrival",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+            <div
+              className="itineraryByDayBody"
+            >
+              <ForwardRef(render)
+                className="p15 relative"
+              >
+                <ItineraryCard
+                  day={2}
+                  item={
+                    Object {
+                      "description": "going back to hotel after sight seeing",
+                      "eventTime": "15:35 - India Standard Time",
+                      "imagesUrl": Array [],
+                      "order": "3",
+                      "sectionType": "attraction",
+                      "title": "Back to Hotel",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </ForwardRef(render)>
+            </div>
+          </div>,
+          "className": "block clearfix",
+          "htmlFor": "itineraryday_2",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              Array [
+                undefined,
+                <div
+                  className="itineraryByDayHead"
+                >
+                  <ItineraryHeading
+                    days={2}
+                    item={
+                      Object {
+                        "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                        "eventTime": "Monday, 24 August, 2019",
+                        "imagesUrl": Array [],
+                        "order": "4",
+                        "sectionType": "itinerary",
+                        "title": "Arrival at Dubai Airport.",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </div>,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ],
+              Array [
+                <div
+                  className="itineraryByDayBody"
+                >
+                  <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "A representative will meet and take you to you to your hotel.",
+                          "eventTime": "15:35 - India Standard Time - 2 hours",
+                          "imagesUrl": Array [
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          ],
+                          "order": "1",
+                          "sectionType": "cab",
+                          "title": "Private Transfer from Airport to Hotel",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>
+                </div>,
+                <div
+                  className="itineraryByDayBody"
+                >
+                  <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ShowMore
+                      defaultOpen={false}
+                      isDefaultShowMore={true}
+                      moreText=""
+                      showLessText="Read Less"
+                      showMoreText="Read More"
+                      trackSegment={[Function]}
+                      wrapText={
+                        Array [
+                          <span>
+                            Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                          </span>,
+                        ]
+                      }
+                    />
+                  </ForwardRef(render)>
+                </div>,
+                <div
+                  className="itineraryByDayBody"
+                >
+                  <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "hotel detail",
+                          "eventTime": "hotel timing",
+                          "imagesUrl": Array [
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          ],
+                          "order": "2",
+                          "otherDetails": Object {
+                            "category": "",
+                            "email": "",
+                            "hotelDesc": "hotel description",
+                            "lat": "28.489743",
+                            "long": "77.074602",
+                            "name": "hotel",
+                            "phone": "44445454",
+                            "rating": 5,
+                            "tripAdvisorId": "",
+                            "web_url": "",
+                          },
+                          "sectionType": "hotel",
+                          "title": "hotel details",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>
+                </div>,
+                <div
+                  className="itineraryByDayBody"
+                >
+                  <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                          "eventTime": "15:35 - India Standard Time",
+                          "imagesUrl": Array [],
+                          "order": "3",
+                          "sectionType": "attraction",
+                          "title": "Night Safari",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>
+                </div>,
+                <div
+                  className="itineraryByDayBody"
+                >
+                  <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                          "eventTime": "15:35 - India Standard Time",
+                          "order": "4",
+                          "otherDetails": Object {
+                            "address": "abc",
+                            "airport_des": "airport description",
+                            "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                            "lat": "28.489743",
+                            "long": "77.074602",
+                            "name": "prashant",
+                            "phone": "33434",
+                            "rating": 4.3,
+                            "web_url": "",
+                          },
+                          "sectionType": "flight",
+                          "title": "Arrival",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>
+                </div>,
+                <div
+                  className="itineraryByDayBody"
+                >
+                  <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "going back to hotel after sight seeing",
+                          "eventTime": "15:35 - India Standard Time",
+                          "imagesUrl": Array [],
+                          "order": "3",
+                          "sectionType": "attraction",
+                          "title": "Back to Hotel",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>
+                </div>,
+              ],
+            ],
+            "className": "itineraryByDayData",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ItineraryHeading
+                  days={2}
+                  item={
+                    Object {
+                      "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                      "eventTime": "Monday, 24 August, 2019",
+                      "imagesUrl": Array [],
+                      "order": "4",
+                      "sectionType": "itinerary",
+                      "title": "Arrival at Dubai Airport.",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />,
+                "className": "itineraryByDayHead",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "days": 2,
+                  "item": Object {
+                    "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                    "eventTime": "Monday, 24 August, 2019",
+                    "imagesUrl": Array [],
+                    "order": "4",
+                    "sectionType": "itinerary",
+                    "title": "Arrival at Dubai Airport.",
+                  },
+                  "trackSegmentEvent": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "A representative will meet and take you to you to your hotel.",
+                        "eventTime": "15:35 - India Standard Time - 2 hours",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "1",
+                        "sectionType": "cab",
+                        "title": "Private Transfer from Airport to Hotel",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>,
+                "className": "itineraryByDayBody",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "A representative will meet and take you to you to your hotel.",
+                        "eventTime": "15:35 - India Standard Time - 2 hours",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "1",
+                        "sectionType": "cab",
+                        "title": "Private Transfer from Airport to Hotel",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />,
+                  "className": "p15 relative",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "day": 2,
+                    "item": Object {
+                      "description": "A representative will meet and take you to you to your hotel.",
+                      "eventTime": "15:35 - India Standard Time - 2 hours",
+                      "imagesUrl": Array [
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      ],
+                      "order": "1",
+                      "sectionType": "cab",
+                      "title": "Private Transfer from Airport to Hotel",
+                    },
+                    "trackSegmentEvent": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "&::after": Object {
+                        "background": "#F2F2F2",
+                        "bottom": "0",
+                        "content": "' '",
+                        "height": "1px",
+                        "position": "absolute",
+                        "right": "0",
+                        "width": "100%",
+                      },
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ShowMore
+                    defaultOpen={false}
+                    isDefaultShowMore={true}
+                    moreText=""
+                    showLessText="Read Less"
+                    showMoreText="Read More"
+                    trackSegment={[Function]}
+                    wrapText={
+                      Array [
+                        <span>
+                          Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                        </span>,
+                      ]
+                    }
+                  />
+                </ForwardRef(render)>,
+                "className": "itineraryByDayBody",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ShowMore
+                    defaultOpen={false}
+                    isDefaultShowMore={true}
+                    moreText=""
+                    showLessText="Read Less"
+                    showMoreText="Read More"
+                    trackSegment={[Function]}
+                    wrapText={
+                      Array [
+                        <span>
+                          Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                        </span>,
+                      ]
+                    }
+                  />,
+                  "className": "p15 relative",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultOpen": false,
+                    "isDefaultShowMore": true,
+                    "moreText": "",
+                    "showLessText": "Read Less",
+                    "showMoreText": "Read More",
+                    "trackSegment": [Function],
+                    "wrapText": Array [
+                      <span>
+                        Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "&::after": Object {
+                        "background": "#F2F2F2",
+                        "bottom": "0",
+                        "content": "' '",
+                        "height": "1px",
+                        "position": "absolute",
+                        "right": "0",
+                        "width": "100%",
+                      },
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "hotel detail",
+                        "eventTime": "hotel timing",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "2",
+                        "otherDetails": Object {
+                          "category": "",
+                          "email": "",
+                          "hotelDesc": "hotel description",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "hotel",
+                          "phone": "44445454",
+                          "rating": 5,
+                          "tripAdvisorId": "",
+                          "web_url": "",
+                        },
+                        "sectionType": "hotel",
+                        "title": "hotel details",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>,
+                "className": "itineraryByDayBody",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "hotel detail",
+                        "eventTime": "hotel timing",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "2",
+                        "otherDetails": Object {
+                          "category": "",
+                          "email": "",
+                          "hotelDesc": "hotel description",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "hotel",
+                          "phone": "44445454",
+                          "rating": 5,
+                          "tripAdvisorId": "",
+                          "web_url": "",
+                        },
+                        "sectionType": "hotel",
+                        "title": "hotel details",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />,
+                  "className": "p15 relative",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "day": 2,
+                    "item": Object {
+                      "description": "hotel detail",
+                      "eventTime": "hotel timing",
+                      "imagesUrl": Array [
+                        "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      ],
+                      "order": "2",
+                      "otherDetails": Object {
+                        "category": "",
+                        "email": "",
+                        "hotelDesc": "hotel description",
+                        "lat": "28.489743",
+                        "long": "77.074602",
+                        "name": "hotel",
+                        "phone": "44445454",
+                        "rating": 5,
+                        "tripAdvisorId": "",
+                        "web_url": "",
+                      },
+                      "sectionType": "hotel",
+                      "title": "hotel details",
+                    },
+                    "trackSegmentEvent": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "&::after": Object {
+                        "background": "#F2F2F2",
+                        "bottom": "0",
+                        "content": "' '",
+                        "height": "1px",
+                        "position": "absolute",
+                        "right": "0",
+                        "width": "100%",
+                      },
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Night Safari",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>,
+                "className": "itineraryByDayBody",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Night Safari",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />,
+                  "className": "p15 relative",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "day": 2,
+                    "item": Object {
+                      "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                      "eventTime": "15:35 - India Standard Time",
+                      "imagesUrl": Array [],
+                      "order": "3",
+                      "sectionType": "attraction",
+                      "title": "Night Safari",
+                    },
+                    "trackSegmentEvent": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "&::after": Object {
+                        "background": "#F2F2F2",
+                        "bottom": "0",
+                        "content": "' '",
+                        "height": "1px",
+                        "position": "absolute",
+                        "right": "0",
+                        "width": "100%",
+                      },
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                        "eventTime": "15:35 - India Standard Time",
+                        "order": "4",
+                        "otherDetails": Object {
+                          "address": "abc",
+                          "airport_des": "airport description",
+                          "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "prashant",
+                          "phone": "33434",
+                          "rating": 4.3,
+                          "web_url": "",
+                        },
+                        "sectionType": "flight",
+                        "title": "Arrival",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>,
+                "className": "itineraryByDayBody",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                        "eventTime": "15:35 - India Standard Time",
+                        "order": "4",
+                        "otherDetails": Object {
+                          "address": "abc",
+                          "airport_des": "airport description",
+                          "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "prashant",
+                          "phone": "33434",
+                          "rating": 4.3,
+                          "web_url": "",
+                        },
+                        "sectionType": "flight",
+                        "title": "Arrival",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />,
+                  "className": "p15 relative",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "day": 2,
+                    "item": Object {
+                      "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                      "eventTime": "15:35 - India Standard Time",
+                      "order": "4",
+                      "otherDetails": Object {
+                        "address": "abc",
+                        "airport_des": "airport description",
+                        "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        "lat": "28.489743",
+                        "long": "77.074602",
+                        "name": "prashant",
+                        "phone": "33434",
+                        "rating": 4.3,
+                        "web_url": "",
+                      },
+                      "sectionType": "flight",
+                      "title": "Arrival",
+                    },
+                    "trackSegmentEvent": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "&::after": Object {
+                        "background": "#F2F2F2",
+                        "bottom": "0",
+                        "content": "' '",
+                        "height": "1px",
+                        "position": "absolute",
+                        "right": "0",
+                        "width": "100%",
+                      },
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "going back to hotel after sight seeing",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Back to Hotel",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>,
+                "className": "itineraryByDayBody",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "going back to hotel after sight seeing",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Back to Hotel",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />,
+                  "className": "p15 relative",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "day": 2,
+                    "item": Object {
+                      "description": "going back to hotel after sight seeing",
+                      "eventTime": "15:35 - India Standard Time",
+                      "imagesUrl": Array [],
+                      "order": "3",
+                      "sectionType": "attraction",
+                      "title": "Back to Hotel",
+                    },
+                    "trackSegmentEvent": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "&::after": Object {
+                        "background": "#F2F2F2",
+                        "bottom": "0",
+                        "content": "' '",
+                        "height": "1px",
+                        "position": "absolute",
+                        "right": "0",
+                        "width": "100%",
+                      },
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "label",
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        Object {
+          "& .itineraryday_checkbox + label": Object {
+            "& .itineraryByDayBody": Object {
+              "height": "0",
+              "overflow": "hidden",
+            },
+          },
+          "& .itineraryday_checkbox:checked + label": Object {
+            "& .itineraryByDayBody": Object {
+              "height": "auto",
+            },
+            "& .itineraryDownArrow": Object {
+              "transform": "rotate(180deg)",
+            },
+          },
+        },
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <input
+            className="nblock itineraryday_checkbox"
+            defaultChecked={false}
+            id="itineraryday_2"
+            name="quote_itinerary"
+            type="radio"
+          />,
+          <label
+            className="block clearfix"
+            htmlFor="itineraryday_2"
+          >
+            <div
+              className="itineraryByDayData"
+            >
+              <div
+                className="itineraryByDayHead"
+              >
+                <ItineraryHeading
+                  days={2}
+                  item={
+                    Object {
+                      "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                      "eventTime": "Monday, 24 August, 2019",
+                      "imagesUrl": Array [],
+                      "order": "4",
+                      "sectionType": "itinerary",
+                      "title": "Arrival at Dubai Airport.",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "A representative will meet and take you to you to your hotel.",
+                        "eventTime": "15:35 - India Standard Time - 2 hours",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "1",
+                        "sectionType": "cab",
+                        "title": "Private Transfer from Airport to Hotel",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ShowMore
+                    defaultOpen={false}
+                    isDefaultShowMore={true}
+                    moreText=""
+                    showLessText="Read Less"
+                    showMoreText="Read More"
+                    trackSegment={[Function]}
+                    wrapText={
+                      Array [
+                        <span>
+                          Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                        </span>,
+                      ]
+                    }
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "hotel detail",
+                        "eventTime": "hotel timing",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "2",
+                        "otherDetails": Object {
+                          "category": "",
+                          "email": "",
+                          "hotelDesc": "hotel description",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "hotel",
+                          "phone": "44445454",
+                          "rating": 5,
+                          "tripAdvisorId": "",
+                          "web_url": "",
+                        },
+                        "sectionType": "hotel",
+                        "title": "hotel details",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Night Safari",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                        "eventTime": "15:35 - India Standard Time",
+                        "order": "4",
+                        "otherDetails": Object {
+                          "address": "abc",
+                          "airport_des": "airport description",
+                          "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "prashant",
+                          "phone": "33434",
+                          "rating": 4.3,
+                          "web_url": "",
+                        },
+                        "sectionType": "flight",
+                        "title": "Arrival",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "going back to hotel after sight seeing",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Back to Hotel",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+            </div>
+          </label>,
+        ],
+        "className": "sbcw radius2 mb8",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "nblock itineraryday_checkbox",
+            "defaultChecked": false,
+            "id": "itineraryday_2",
+            "name": "quote_itinerary",
+            "type": "radio",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="itineraryByDayData"
+            >
+              <div
+                className="itineraryByDayHead"
+              >
+                <ItineraryHeading
+                  days={2}
+                  item={
+                    Object {
+                      "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                      "eventTime": "Monday, 24 August, 2019",
+                      "imagesUrl": Array [],
+                      "order": "4",
+                      "sectionType": "itinerary",
+                      "title": "Arrival at Dubai Airport.",
+                    }
+                  }
+                  trackSegmentEvent={[Function]}
+                />
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "A representative will meet and take you to you to your hotel.",
+                        "eventTime": "15:35 - India Standard Time - 2 hours",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "1",
+                        "sectionType": "cab",
+                        "title": "Private Transfer from Airport to Hotel",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ShowMore
+                    defaultOpen={false}
+                    isDefaultShowMore={true}
+                    moreText=""
+                    showLessText="Read Less"
+                    showMoreText="Read More"
+                    trackSegment={[Function]}
+                    wrapText={
+                      Array [
+                        <span>
+                          Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                        </span>,
+                      ]
+                    }
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "hotel detail",
+                        "eventTime": "hotel timing",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "2",
+                        "otherDetails": Object {
+                          "category": "",
+                          "email": "",
+                          "hotelDesc": "hotel description",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "hotel",
+                          "phone": "44445454",
+                          "rating": 5,
+                          "tripAdvisorId": "",
+                          "web_url": "",
+                        },
+                        "sectionType": "hotel",
+                        "title": "hotel details",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Night Safari",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                        "eventTime": "15:35 - India Standard Time",
+                        "order": "4",
+                        "otherDetails": Object {
+                          "address": "abc",
+                          "airport_des": "airport description",
+                          "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "prashant",
+                          "phone": "33434",
+                          "rating": 4.3,
+                          "web_url": "",
+                        },
+                        "sectionType": "flight",
+                        "title": "Arrival",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="itineraryByDayBody"
+              >
+                <ForwardRef(render)
+                  className="p15 relative"
+                >
+                  <ItineraryCard
+                    day={2}
+                    item={
+                      Object {
+                        "description": "going back to hotel after sight seeing",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Back to Hotel",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />
+                </ForwardRef(render)>
+              </div>
+            </div>,
+            "className": "block clearfix",
+            "htmlFor": "itineraryday_2",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                Array [
+                  undefined,
+                  <div
+                    className="itineraryByDayHead"
+                  >
+                    <ItineraryHeading
+                      days={2}
+                      item={
+                        Object {
+                          "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                          "eventTime": "Monday, 24 August, 2019",
+                          "imagesUrl": Array [],
+                          "order": "4",
+                          "sectionType": "itinerary",
+                          "title": "Arrival at Dubai Airport.",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </div>,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                ],
+                Array [
+                  <div
+                    className="itineraryByDayBody"
+                  >
+                    <ForwardRef(render)
+                      className="p15 relative"
+                    >
+                      <ItineraryCard
+                        day={2}
+                        item={
+                          Object {
+                            "description": "A representative will meet and take you to you to your hotel.",
+                            "eventTime": "15:35 - India Standard Time - 2 hours",
+                            "imagesUrl": Array [
+                              "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                              "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                            ],
+                            "order": "1",
+                            "sectionType": "cab",
+                            "title": "Private Transfer from Airport to Hotel",
+                          }
+                        }
+                        trackSegmentEvent={[Function]}
+                      />
+                    </ForwardRef(render)>
+                  </div>,
+                  <div
+                    className="itineraryByDayBody"
+                  >
+                    <ForwardRef(render)
+                      className="p15 relative"
+                    >
+                      <ShowMore
+                        defaultOpen={false}
+                        isDefaultShowMore={true}
+                        moreText=""
+                        showLessText="Read Less"
+                        showMoreText="Read More"
+                        trackSegment={[Function]}
+                        wrapText={
+                          Array [
+                            <span>
+                              Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                            </span>,
+                          ]
+                        }
+                      />
+                    </ForwardRef(render)>
+                  </div>,
+                  <div
+                    className="itineraryByDayBody"
+                  >
+                    <ForwardRef(render)
+                      className="p15 relative"
+                    >
+                      <ItineraryCard
+                        day={2}
+                        item={
+                          Object {
+                            "description": "hotel detail",
+                            "eventTime": "hotel timing",
+                            "imagesUrl": Array [
+                              "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                            ],
+                            "order": "2",
+                            "otherDetails": Object {
+                              "category": "",
+                              "email": "",
+                              "hotelDesc": "hotel description",
+                              "lat": "28.489743",
+                              "long": "77.074602",
+                              "name": "hotel",
+                              "phone": "44445454",
+                              "rating": 5,
+                              "tripAdvisorId": "",
+                              "web_url": "",
+                            },
+                            "sectionType": "hotel",
+                            "title": "hotel details",
+                          }
+                        }
+                        trackSegmentEvent={[Function]}
+                      />
+                    </ForwardRef(render)>
+                  </div>,
+                  <div
+                    className="itineraryByDayBody"
+                  >
+                    <ForwardRef(render)
+                      className="p15 relative"
+                    >
+                      <ItineraryCard
+                        day={2}
+                        item={
+                          Object {
+                            "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                            "eventTime": "15:35 - India Standard Time",
+                            "imagesUrl": Array [],
+                            "order": "3",
+                            "sectionType": "attraction",
+                            "title": "Night Safari",
+                          }
+                        }
+                        trackSegmentEvent={[Function]}
+                      />
+                    </ForwardRef(render)>
+                  </div>,
+                  <div
+                    className="itineraryByDayBody"
+                  >
+                    <ForwardRef(render)
+                      className="p15 relative"
+                    >
+                      <ItineraryCard
+                        day={2}
+                        item={
+                          Object {
+                            "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                            "eventTime": "15:35 - India Standard Time",
+                            "order": "4",
+                            "otherDetails": Object {
+                              "address": "abc",
+                              "airport_des": "airport description",
+                              "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                              "lat": "28.489743",
+                              "long": "77.074602",
+                              "name": "prashant",
+                              "phone": "33434",
+                              "rating": 4.3,
+                              "web_url": "",
+                            },
+                            "sectionType": "flight",
+                            "title": "Arrival",
+                          }
+                        }
+                        trackSegmentEvent={[Function]}
+                      />
+                    </ForwardRef(render)>
+                  </div>,
+                  <div
+                    className="itineraryByDayBody"
+                  >
+                    <ForwardRef(render)
+                      className="p15 relative"
+                    >
+                      <ItineraryCard
+                        day={2}
+                        item={
+                          Object {
+                            "description": "going back to hotel after sight seeing",
+                            "eventTime": "15:35 - India Standard Time",
+                            "imagesUrl": Array [],
+                            "order": "3",
+                            "sectionType": "attraction",
+                            "title": "Back to Hotel",
+                          }
+                        }
+                        trackSegmentEvent={[Function]}
+                      />
+                    </ForwardRef(render)>
+                  </div>,
+                ],
+              ],
+              "className": "itineraryByDayData",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ItineraryHeading
+                    days={2}
+                    item={
+                      Object {
+                        "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                        "eventTime": "Monday, 24 August, 2019",
+                        "imagesUrl": Array [],
+                        "order": "4",
+                        "sectionType": "itinerary",
+                        "title": "Arrival at Dubai Airport.",
+                      }
+                    }
+                    trackSegmentEvent={[Function]}
+                  />,
+                  "className": "itineraryByDayHead",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "days": 2,
+                    "item": Object {
+                      "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.",
+                      "eventTime": "Monday, 24 August, 2019",
+                      "imagesUrl": Array [],
+                      "order": "4",
+                      "sectionType": "itinerary",
+                      "title": "Arrival at Dubai Airport.",
+                    },
+                    "trackSegmentEvent": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              undefined,
+              undefined,
+              undefined,
+              undefined,
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "A representative will meet and take you to you to your hotel.",
+                          "eventTime": "15:35 - India Standard Time - 2 hours",
+                          "imagesUrl": Array [
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          ],
+                          "order": "1",
+                          "sectionType": "cab",
+                          "title": "Private Transfer from Airport to Hotel",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>,
+                  "className": "itineraryByDayBody",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "A representative will meet and take you to you to your hotel.",
+                          "eventTime": "15:35 - India Standard Time - 2 hours",
+                          "imagesUrl": Array [
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          ],
+                          "order": "1",
+                          "sectionType": "cab",
+                          "title": "Private Transfer from Airport to Hotel",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />,
+                    "className": "p15 relative",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "day": 2,
+                      "item": Object {
+                        "description": "A representative will meet and take you to you to your hotel.",
+                        "eventTime": "15:35 - India Standard Time - 2 hours",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "1",
+                        "sectionType": "cab",
+                        "title": "Private Transfer from Airport to Hotel",
+                      },
+                      "trackSegmentEvent": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "&::after": Object {
+                          "background": "#F2F2F2",
+                          "bottom": "0",
+                          "content": "' '",
+                          "height": "1px",
+                          "position": "absolute",
+                          "right": "0",
+                          "width": "100%",
+                        },
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ShowMore
+                      defaultOpen={false}
+                      isDefaultShowMore={true}
+                      moreText=""
+                      showLessText="Read Less"
+                      showMoreText="Read More"
+                      trackSegment={[Function]}
+                      wrapText={
+                        Array [
+                          <span>
+                            Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                          </span>,
+                        ]
+                      }
+                    />
+                  </ForwardRef(render)>,
+                  "className": "itineraryByDayBody",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ShowMore
+                      defaultOpen={false}
+                      isDefaultShowMore={true}
+                      moreText=""
+                      showLessText="Read Less"
+                      showMoreText="Read More"
+                      trackSegment={[Function]}
+                      wrapText={
+                        Array [
+                          <span>
+                            Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                          </span>,
+                        ]
+                      }
+                    />,
+                    "className": "p15 relative",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultOpen": false,
+                      "isDefaultShowMore": true,
+                      "moreText": "",
+                      "showLessText": "Read Less",
+                      "showMoreText": "Read More",
+                      "trackSegment": [Function],
+                      "wrapText": Array [
+                        <span>
+                          Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Check in to hotel.
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "&::after": Object {
+                          "background": "#F2F2F2",
+                          "bottom": "0",
+                          "content": "' '",
+                          "height": "1px",
+                          "position": "absolute",
+                          "right": "0",
+                          "width": "100%",
+                        },
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "hotel detail",
+                          "eventTime": "hotel timing",
+                          "imagesUrl": Array [
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          ],
+                          "order": "2",
+                          "otherDetails": Object {
+                            "category": "",
+                            "email": "",
+                            "hotelDesc": "hotel description",
+                            "lat": "28.489743",
+                            "long": "77.074602",
+                            "name": "hotel",
+                            "phone": "44445454",
+                            "rating": 5,
+                            "tripAdvisorId": "",
+                            "web_url": "",
+                          },
+                          "sectionType": "hotel",
+                          "title": "hotel details",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>,
+                  "className": "itineraryByDayBody",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "hotel detail",
+                          "eventTime": "hotel timing",
+                          "imagesUrl": Array [
+                            "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          ],
+                          "order": "2",
+                          "otherDetails": Object {
+                            "category": "",
+                            "email": "",
+                            "hotelDesc": "hotel description",
+                            "lat": "28.489743",
+                            "long": "77.074602",
+                            "name": "hotel",
+                            "phone": "44445454",
+                            "rating": 5,
+                            "tripAdvisorId": "",
+                            "web_url": "",
+                          },
+                          "sectionType": "hotel",
+                          "title": "hotel details",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />,
+                    "className": "p15 relative",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "day": 2,
+                      "item": Object {
+                        "description": "hotel detail",
+                        "eventTime": "hotel timing",
+                        "imagesUrl": Array [
+                          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        ],
+                        "order": "2",
+                        "otherDetails": Object {
+                          "category": "",
+                          "email": "",
+                          "hotelDesc": "hotel description",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "hotel",
+                          "phone": "44445454",
+                          "rating": 5,
+                          "tripAdvisorId": "",
+                          "web_url": "",
+                        },
+                        "sectionType": "hotel",
+                        "title": "hotel details",
+                      },
+                      "trackSegmentEvent": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "&::after": Object {
+                          "background": "#F2F2F2",
+                          "bottom": "0",
+                          "content": "' '",
+                          "height": "1px",
+                          "position": "absolute",
+                          "right": "0",
+                          "width": "100%",
+                        },
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                          "eventTime": "15:35 - India Standard Time",
+                          "imagesUrl": Array [],
+                          "order": "3",
+                          "sectionType": "attraction",
+                          "title": "Night Safari",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>,
+                  "className": "itineraryByDayBody",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                          "eventTime": "15:35 - India Standard Time",
+                          "imagesUrl": Array [],
+                          "order": "3",
+                          "sectionType": "attraction",
+                          "title": "Night Safari",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />,
+                    "className": "p15 relative",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "day": 2,
+                      "item": Object {
+                        "description": "At night, you will be taken for a memorable Night Safari experience. Being the first wildlife night park, it shows you nocturnal animals’ behavior in their natural habitat. This open-air zoo is known to house nearly 130 species of animals. After an exceptional experience, return to your hotel and stay overnight. Tip: Don't feed animals at the Night Safari",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Night Safari",
+                      },
+                      "trackSegmentEvent": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "&::after": Object {
+                          "background": "#F2F2F2",
+                          "bottom": "0",
+                          "content": "' '",
+                          "height": "1px",
+                          "position": "absolute",
+                          "right": "0",
+                          "width": "100%",
+                        },
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                          "eventTime": "15:35 - India Standard Time",
+                          "order": "4",
+                          "otherDetails": Object {
+                            "address": "abc",
+                            "airport_des": "airport description",
+                            "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                            "lat": "28.489743",
+                            "long": "77.074602",
+                            "name": "prashant",
+                            "phone": "33434",
+                            "rating": 4.3,
+                            "web_url": "",
+                          },
+                          "sectionType": "flight",
+                          "title": "Arrival",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>,
+                  "className": "itineraryByDayBody",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                          "eventTime": "15:35 - India Standard Time",
+                          "order": "4",
+                          "otherDetails": Object {
+                            "address": "abc",
+                            "airport_des": "airport description",
+                            "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                            "lat": "28.489743",
+                            "long": "77.074602",
+                            "name": "prashant",
+                            "phone": "33434",
+                            "rating": 4.3,
+                            "web_url": "",
+                          },
+                          "sectionType": "flight",
+                          "title": "Arrival",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />,
+                    "className": "p15 relative",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "day": 2,
+                      "item": Object {
+                        "description": "Arrival at Dubai Airport at Evening, meet and greet at Airport and we transfer you toyour hotel. Chk in to hotel.",
+                        "eventTime": "15:35 - India Standard Time",
+                        "order": "4",
+                        "otherDetails": Object {
+                          "address": "abc",
+                          "airport_des": "airport description",
+                          "image_url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          "lat": "28.489743",
+                          "long": "77.074602",
+                          "name": "prashant",
+                          "phone": "33434",
+                          "rating": 4.3,
+                          "web_url": "",
+                        },
+                        "sectionType": "flight",
+                        "title": "Arrival",
+                      },
+                      "trackSegmentEvent": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "&::after": Object {
+                          "background": "#F2F2F2",
+                          "bottom": "0",
+                          "content": "' '",
+                          "height": "1px",
+                          "position": "absolute",
+                          "right": "0",
+                          "width": "100%",
+                        },
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ForwardRef(render)
+                    className="p15 relative"
+                  >
+                    <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "going back to hotel after sight seeing",
+                          "eventTime": "15:35 - India Standard Time",
+                          "imagesUrl": Array [],
+                          "order": "3",
+                          "sectionType": "attraction",
+                          "title": "Back to Hotel",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />
+                  </ForwardRef(render)>,
+                  "className": "itineraryByDayBody",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <ItineraryCard
+                      day={2}
+                      item={
+                        Object {
+                          "description": "going back to hotel after sight seeing",
+                          "eventTime": "15:35 - India Standard Time",
+                          "imagesUrl": Array [],
+                          "order": "3",
+                          "sectionType": "attraction",
+                          "title": "Back to Hotel",
+                        }
+                      }
+                      trackSegmentEvent={[Function]}
+                    />,
+                    "className": "p15 relative",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "day": 2,
+                      "item": Object {
+                        "description": "going back to hotel after sight seeing",
+                        "eventTime": "15:35 - India Standard Time",
+                        "imagesUrl": Array [],
+                        "order": "3",
+                        "sectionType": "attraction",
+                        "title": "Back to Hotel",
+                      },
+                      "trackSegmentEvent": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "&::after": Object {
+                          "background": "#F2F2F2",
+                          "bottom": "0",
+                          "content": "' '",
+                          "height": "1px",
+                          "position": "absolute",
+                          "right": "0",
+                          "width": "100%",
+                        },
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "label",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "& .itineraryday_checkbox + label": Object {
+              "& .itineraryByDayBody": Object {
+                "height": "0",
+                "overflow": "hidden",
+              },
+            },
+            "& .itineraryday_checkbox:checked + label": Object {
+              "& .itineraryByDayBody": Object {
+                "height": "auto",
+              },
+              "& .itineraryDownArrow": Object {
+                "transform": "rotate(180deg)",
+              },
+            },
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

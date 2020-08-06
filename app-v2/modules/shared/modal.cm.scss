@@ -1,0 +1,12 @@
+:local{
+  .close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    z-index: 2;
+    overflow: hidden;
+  }
+}

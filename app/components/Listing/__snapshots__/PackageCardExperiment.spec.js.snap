@@ -1,0 +1,3757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackageCardExperiment test suit should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PackageCardExperiment
+    addToComparingPackages={[Function]}
+    card={
+      Object {
+        "cities": Array [
+          "Dubai",
+          "Dubai",
+          "Dubai",
+          "Dubai",
+          "Dubai",
+          "Dubai",
+        ],
+        "city_list_with_days": Object {
+          "Dubai": 6,
+        },
+        "currency": "Rupee",
+        "days": 6,
+        "destinations": Array [
+          Object {
+            "id": 151,
+            "name": "Dubai",
+          },
+        ],
+        "discount_percentage": 9.09091,
+        "discounted_price": 46000,
+        "family_packages": Object {
+          "334": Array [
+            3,
+            46000,
+            50600,
+          ],
+          "335": Array [
+            4,
+            47000,
+            51700,
+          ],
+          "336": Array [
+            5,
+            49000,
+            53900,
+          ],
+        },
+        "id": "334",
+        "image_url": "https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg",
+        "imagekit_url": "https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg",
+        "inclusions": Array [
+          Object {
+            "available": true,
+            "key": "hotel",
+            "text": "Upto 3 Stars",
+          },
+          Object {
+            "available": false,
+            "key": "flights",
+            "text": "Flights",
+          },
+          Object {
+            "available": true,
+            "key": "meals",
+            "text": "Meals",
+          },
+          Object {
+            "available": true,
+            "key": "sightseeing",
+            "text": "Sightseeing",
+          },
+          Object {
+            "available": true,
+            "key": "transfer",
+            "text": "Airport Transfer",
+          },
+          Object {
+            "available": true,
+            "key": "entrytickets",
+            "text": "Entry Tickets",
+          },
+          Object {
+            "available": true,
+            "key": "visa",
+            "text": "Visa",
+          },
+        ],
+        "labels": Array [
+          "Stay at Atlantis",
+          "Cruises",
+          "Burj Khalifa",
+          "Adventure",
+          "Desert Safari",
+          "Sightseeing",
+          "Nightlife",
+          "Budget",
+        ],
+        "mini_desc": "Per Person on twin sharing",
+        "mvp_tags": Array [],
+        "name": "Luxurious Dubai Tour Package With Atlantis",
+        "nights": 5,
+        "overview": "Time to take that much-needed break with this customizable 5 night 6 days Dubai package and jaunt away on the most memorable journey of your life. Get pampered with this mind-blowing exclusive Dubai itinerary for 6 days where you shall embark on a guided tour of Dubai and get a chance to cruise lavishly through the Dubai Creek. Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Explore the sights and sounds of Dubai with our customizable itinerary for 6 days.",
+        "p2l": 0,
+        "price_total": 50600,
+        "promo_tag": 0,
+        "set_url": "5nights-6days-dubai-palm-atlantis-tour",
+        "share_url": "https://browsing-qa1.ttdev.in/packages/5nights-6days-dubai-palm-atlantis-tour?id=334",
+        "tnc": "Exact prices may vary based on availability.",
+        "trip_types": Array [
+          Object {
+            "id": 1,
+            "name": "Romantic",
+          },
+          Object {
+            "id": 4,
+            "name": "Family",
+          },
+          Object {
+            "id": 2,
+            "name": "Adventure",
+          },
+          Object {
+            "id": 13,
+            "name": "Cruises",
+          },
+        ],
+      }
+    }
+    comparingPackages={Array []}
+    formToLocation={null}
+    heading="plp"
+    index={2}
+    isMultiDestination={false}
+    multiDestinationTexts={Array []}
+    promoTag={0}
+    removeFromComparingPackages={[Function]}
+    setActiveHotels={[Function]}
+    trackLeadFunnelClick={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Link
+          className="sfcw"
+          onClick={[Function]}
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+        >
+          <div
+            className="relative"
+          >
+            <PackageImgTitle
+              altText="5nights-6days-dubai-palm-atlantis-tour"
+              imageUrl="https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+              imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+              isLargeImg={true}
+              name="Luxurious Dubai Tour Package With Atlantis"
+            />
+          </div>
+        </Link>,
+        <VisibilitySensor
+          active={true}
+          containment={null}
+          delayedCall={false}
+          intervalCheck={true}
+          intervalDelay={3000}
+          minTopValue={0}
+          offset={Object {}}
+          onChange={[Function]}
+          partialVisibility={false}
+          resizeCheck={false}
+          resizeDelay={250}
+          resizeThrottle={-1}
+          scrollCheck={false}
+          scrollDelay={250}
+          scrollThrottle={-1}
+        >
+          <span />
+        </VisibilitySensor>,
+        <div
+          className="addCompareDiv"
+        >
+          <input
+            checked={false}
+            className="fixed-menu-button"
+            id="AddCompareCheckBox-334"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="sfcw f14 fw7"
+            htmlFor="AddCompareCheckBox-334"
+          >
+            Add To Compare
+          </label>
+        </div>,
+        <div
+          className="row row- sbcw p8"
+        >
+          <div
+            className="pl8 pr8"
+          >
+            <div
+              className="row row-"
+            >
+              <div
+                className="col-xs-12 pl0 pr0 f10"
+              >
+                <PackageCities
+                  cities={
+                    Object {
+                      "Dubai": 6,
+                    }
+                  }
+                  isDealsCard={false}
+                />
+              </div>
+            </div>
+            <div
+              className="row row-"
+            >
+              <div
+                className="iblock pl0"
+              >
+                <PackageDaysDiscountExperiment
+                  days={6}
+                  nights={5}
+                />
+              </div>
+              <div
+                className="block"
+              >
+                <div
+                  className="row row- star-ratings-selection more-than-three-stars"
+                >
+                  <div
+                    className="iblock hotelStarItem mr8"
+                  >
+                    <input
+                      checked={true}
+                      className="checkbox-common radio-common-round"
+                      id="input_334_334"
+                      name="plp_hotel_star_input_334"
+                      onChange={[Function]}
+                      type="radio"
+                      value="334"
+                    />
+                    <label
+                      className=""
+                      htmlFor="input_334_334"
+                    >
+                      3
+                       Star
+                    </label>
+                  </div>
+                  <div
+                    className="iblock hotelStarItem mr8"
+                  >
+                    <input
+                      checked={false}
+                      className="checkbox-common radio-common-round"
+                      id="input_334_335"
+                      name="plp_hotel_star_input_334"
+                      onChange={[Function]}
+                      type="radio"
+                      value="335"
+                    />
+                    <label
+                      className=""
+                      htmlFor="input_334_335"
+                    >
+                      4
+                       Star
+                    </label>
+                  </div>
+                  <div
+                    className="iblock hotelStarItem mr8"
+                  >
+                    <input
+                      checked={false}
+                      className="checkbox-common radio-common-round"
+                      id="input_334_336"
+                      name="plp_hotel_star_input_334"
+                      onChange={[Function]}
+                      type="radio"
+                      value="336"
+                    />
+                    <label
+                      className=""
+                      htmlFor="input_334_336"
+                    >
+                      5
+                       Star
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row row-"
+            >
+              <div
+                className="col-xs-12 pl0 pr8"
+              >
+                <PackagePriceExperiment
+                  currency="Rupee"
+                  discount={4600}
+                  displayRange={false}
+                  hideDiscount={false}
+                  price={50600}
+                  priceFrom={null}
+                  priceTo={null}
+                  priceUnit="Per Person on twin sharing"
+                  promoTag={0}
+                  totalDiscount={4600}
+                  totalPrice={50600}
+                />
+              </div>
+            </div>
+            <div
+              className="row inclusion-height-box mt8"
+            >
+              <PackageIncExc
+                hotelInfo={
+                  Array [
+                    3,
+                    46000,
+                    50600,
+                  ]
+                }
+                id="card_334"
+                inclusions={
+                  Array [
+                    Object {
+                      "available": true,
+                      "key": "hotel",
+                      "text": "Upto 3 Stars",
+                    },
+                    Object {
+                      "available": false,
+                      "key": "flights",
+                      "text": "Flights",
+                    },
+                    Object {
+                      "available": true,
+                      "key": "meals",
+                      "text": "Meals",
+                    },
+                    Object {
+                      "available": true,
+                      "key": "sightseeing",
+                      "text": "Sightseeing",
+                    },
+                    Object {
+                      "available": true,
+                      "key": "transfer",
+                      "text": "Airport Transfer",
+                    },
+                    Object {
+                      "available": true,
+                      "key": "entrytickets",
+                      "text": "Entry Tickets",
+                    },
+                    Object {
+                      "available": true,
+                      "key": "visa",
+                      "text": "Visa",
+                    },
+                  ]
+                }
+                isPackageRevamp={false}
+                noScroll={false}
+              />
+            </div>
+          </div>
+          <div
+            className="row row- pt8"
+          >
+            <div
+              className="col-xs-6 pl0 pr4"
+            >
+              <Link
+                className="btn-pri wfull ripple"
+                onClick={[Function]}
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+              >
+                <div
+                  className="wave-dark"
+                />
+                View Details
+              </Link>
+            </div>
+            <div
+              className="col-xs-6 pl4 pr0"
+            >
+              <Connect(FormOneCTA)
+                clickHandler={[Function]}
+                rtProps={
+                  Object {
+                    "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                    "cta": "Customize",
+                    "object": "Package/334",
+                    "packageId": "334",
+                    "page": "Package List Page",
+                    "section": "Package List",
+                    "to_loc": "Dubai",
+                    "trip_days": "6",
+                  }
+                }
+              >
+                <div
+                  className="btn-filled-pri wfull customized-variation "
+                  data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                >
+                  <div
+                    className="wave"
+                  />
+                  Customize
+                </div>
+              </Connect(FormOneCTA)>
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "row row- mb8 mt8 relative exp-1 package-card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div
+            className="relative"
+          >
+            <PackageImgTitle
+              altText="5nights-6days-dubai-palm-atlantis-tour"
+              imageUrl="https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+              imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+              isLargeImg={true}
+              name="Luxurious Dubai Tour Package With Atlantis"
+            />
+          </div>,
+          "className": "sfcw",
+          "onClick": [Function],
+          "onlyActiveOnIndex": false,
+          "style": Object {},
+          "to": "/packages/5nights-6days-dubai-palm-atlantis-tour?id=334",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <PackageImgTitle
+                altText="5nights-6days-dubai-palm-atlantis-tour"
+                imageUrl="https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+                imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+                isLargeImg={true}
+                name="Luxurious Dubai Tour Package With Atlantis"
+              />,
+              null,
+            ],
+            "className": "relative",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "altText": "5nights-6days-dubai-palm-atlantis-tour",
+                "imageUrl": "https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg",
+                "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg",
+                "isLargeImg": true,
+                "name": "Luxurious Dubai Tour Package With Atlantis",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "active": true,
+          "children": <span />,
+          "containment": null,
+          "delayedCall": false,
+          "intervalCheck": true,
+          "intervalDelay": 3000,
+          "minTopValue": 0,
+          "offset": Object {},
+          "onChange": [Function],
+          "partialVisibility": false,
+          "resizeCheck": false,
+          "resizeDelay": 250,
+          "resizeThrottle": -1,
+          "scrollCheck": false,
+          "scrollDelay": 250,
+          "scrollThrottle": -1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              checked={false}
+              className="fixed-menu-button"
+              id="AddCompareCheckBox-334"
+              onChange={[Function]}
+              type="checkbox"
+            />,
+            <label
+              className="sfcw f14 fw7"
+              htmlFor="AddCompareCheckBox-334"
+            >
+              Add To Compare
+            </label>,
+          ],
+          "className": "addCompareDiv",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "checked": false,
+              "className": "fixed-menu-button",
+              "id": "AddCompareCheckBox-334",
+              "onChange": [Function],
+              "type": "checkbox",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Add To Compare",
+              "className": "sfcw f14 fw7",
+              "htmlFor": "AddCompareCheckBox-334",
+            },
+            "ref": null,
+            "rendered": "Add To Compare",
+            "type": "label",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="pl8 pr8"
+            >
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr0 f10"
+                >
+                  <PackageCities
+                    cities={
+                      Object {
+                        "Dubai": 6,
+                      }
+                    }
+                    isDealsCard={false}
+                  />
+                </div>
+              </div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="iblock pl0"
+                >
+                  <PackageDaysDiscountExperiment
+                    days={6}
+                    nights={5}
+                  />
+                </div>
+                <div
+                  className="block"
+                >
+                  <div
+                    className="row row- star-ratings-selection more-than-three-stars"
+                  >
+                    <div
+                      className="iblock hotelStarItem mr8"
+                    >
+                      <input
+                        checked={true}
+                        className="checkbox-common radio-common-round"
+                        id="input_334_334"
+                        name="plp_hotel_star_input_334"
+                        onChange={[Function]}
+                        type="radio"
+                        value="334"
+                      />
+                      <label
+                        className=""
+                        htmlFor="input_334_334"
+                      >
+                        3
+                         Star
+                      </label>
+                    </div>
+                    <div
+                      className="iblock hotelStarItem mr8"
+                    >
+                      <input
+                        checked={false}
+                        className="checkbox-common radio-common-round"
+                        id="input_334_335"
+                        name="plp_hotel_star_input_334"
+                        onChange={[Function]}
+                        type="radio"
+                        value="335"
+                      />
+                      <label
+                        className=""
+                        htmlFor="input_334_335"
+                      >
+                        4
+                         Star
+                      </label>
+                    </div>
+                    <div
+                      className="iblock hotelStarItem mr8"
+                    >
+                      <input
+                        checked={false}
+                        className="checkbox-common radio-common-round"
+                        id="input_334_336"
+                        name="plp_hotel_star_input_334"
+                        onChange={[Function]}
+                        type="radio"
+                        value="336"
+                      />
+                      <label
+                        className=""
+                        htmlFor="input_334_336"
+                      >
+                        5
+                         Star
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr8"
+                >
+                  <PackagePriceExperiment
+                    currency="Rupee"
+                    discount={4600}
+                    displayRange={false}
+                    hideDiscount={false}
+                    price={50600}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="Per Person on twin sharing"
+                    promoTag={0}
+                    totalDiscount={4600}
+                    totalPrice={50600}
+                  />
+                </div>
+              </div>
+              <div
+                className="row inclusion-height-box mt8"
+              >
+                <PackageIncExc
+                  hotelInfo={
+                    Array [
+                      3,
+                      46000,
+                      50600,
+                    ]
+                  }
+                  id="card_334"
+                  inclusions={
+                    Array [
+                      Object {
+                        "available": true,
+                        "key": "hotel",
+                        "text": "Upto 3 Stars",
+                      },
+                      Object {
+                        "available": false,
+                        "key": "flights",
+                        "text": "Flights",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "meals",
+                        "text": "Meals",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "sightseeing",
+                        "text": "Sightseeing",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "transfer",
+                        "text": "Airport Transfer",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "entrytickets",
+                        "text": "Entry Tickets",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "visa",
+                        "text": "Visa",
+                      },
+                    ]
+                  }
+                  isPackageRevamp={false}
+                  noScroll={false}
+                />
+              </div>
+            </div>,
+            <div
+              className="row row- pt8"
+            >
+              <div
+                className="col-xs-6 pl0 pr4"
+              >
+                <Link
+                  className="btn-pri wfull ripple"
+                  onClick={[Function]}
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+                >
+                  <div
+                    className="wave-dark"
+                  />
+                  View Details
+                </Link>
+              </div>
+              <div
+                className="col-xs-6 pl4 pr0"
+              >
+                <Connect(FormOneCTA)
+                  clickHandler={[Function]}
+                  rtProps={
+                    Object {
+                      "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                      "cta": "Customize",
+                      "object": "Package/334",
+                      "packageId": "334",
+                      "page": "Package List Page",
+                      "section": "Package List",
+                      "to_loc": "Dubai",
+                      "trip_days": "6",
+                    }
+                  }
+                >
+                  <div
+                    className="btn-filled-pri wfull customized-variation "
+                    data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                  >
+                    <div
+                      className="wave"
+                    />
+                    Customize
+                  </div>
+                </Connect(FormOneCTA)>
+              </div>
+            </div>,
+          ],
+          "className": "row row- sbcw p8",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12 pl0 pr0 f10"
+                  >
+                    <PackageCities
+                      cities={
+                        Object {
+                          "Dubai": 6,
+                        }
+                      }
+                      isDealsCard={false}
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="iblock pl0"
+                  >
+                    <PackageDaysDiscountExperiment
+                      days={6}
+                      nights={5}
+                    />
+                  </div>
+                  <div
+                    className="block"
+                  >
+                    <div
+                      className="row row- star-ratings-selection more-than-three-stars"
+                    >
+                      <div
+                        className="iblock hotelStarItem mr8"
+                      >
+                        <input
+                          checked={true}
+                          className="checkbox-common radio-common-round"
+                          id="input_334_334"
+                          name="plp_hotel_star_input_334"
+                          onChange={[Function]}
+                          type="radio"
+                          value="334"
+                        />
+                        <label
+                          className=""
+                          htmlFor="input_334_334"
+                        >
+                          3
+                           Star
+                        </label>
+                      </div>
+                      <div
+                        className="iblock hotelStarItem mr8"
+                      >
+                        <input
+                          checked={false}
+                          className="checkbox-common radio-common-round"
+                          id="input_334_335"
+                          name="plp_hotel_star_input_334"
+                          onChange={[Function]}
+                          type="radio"
+                          value="335"
+                        />
+                        <label
+                          className=""
+                          htmlFor="input_334_335"
+                        >
+                          4
+                           Star
+                        </label>
+                      </div>
+                      <div
+                        className="iblock hotelStarItem mr8"
+                      >
+                        <input
+                          checked={false}
+                          className="checkbox-common radio-common-round"
+                          id="input_334_336"
+                          name="plp_hotel_star_input_334"
+                          onChange={[Function]}
+                          type="radio"
+                          value="336"
+                        />
+                        <label
+                          className=""
+                          htmlFor="input_334_336"
+                        >
+                          5
+                           Star
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>,
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12 pl0 pr8"
+                  >
+                    <PackagePriceExperiment
+                      currency="Rupee"
+                      discount={4600}
+                      displayRange={false}
+                      hideDiscount={false}
+                      price={50600}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="Per Person on twin sharing"
+                      promoTag={0}
+                      totalDiscount={4600}
+                      totalPrice={50600}
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="row inclusion-height-box mt8"
+                >
+                  <PackageIncExc
+                    hotelInfo={
+                      Array [
+                        3,
+                        46000,
+                        50600,
+                      ]
+                    }
+                    id="card_334"
+                    inclusions={
+                      Array [
+                        Object {
+                          "available": true,
+                          "key": "hotel",
+                          "text": "Upto 3 Stars",
+                        },
+                        Object {
+                          "available": false,
+                          "key": "flights",
+                          "text": "Flights",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "meals",
+                          "text": "Meals",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "sightseeing",
+                          "text": "Sightseeing",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "transfer",
+                          "text": "Airport Transfer",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "entrytickets",
+                          "text": "Entry Tickets",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "visa",
+                          "text": "Visa",
+                        },
+                      ]
+                    }
+                    isPackageRevamp={false}
+                    noScroll={false}
+                  />
+                </div>,
+              ],
+              "className": "pl8 pr8",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-xs-12 pl0 pr0 f10"
+                  >
+                    <PackageCities
+                      cities={
+                        Object {
+                          "Dubai": 6,
+                        }
+                      }
+                      isDealsCard={false}
+                    />
+                  </div>,
+                  "className": "row row-",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PackageCities
+                      cities={
+                        Object {
+                          "Dubai": 6,
+                        }
+                      }
+                      isDealsCard={false}
+                    />,
+                    "className": "col-xs-12 pl0 pr0 f10",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "cities": Object {
+                        "Dubai": 6,
+                      },
+                      "isDealsCard": false,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="iblock pl0"
+                    >
+                      <PackageDaysDiscountExperiment
+                        days={6}
+                        nights={5}
+                      />
+                    </div>,
+                    <div
+                      className="block"
+                    >
+                      <div
+                        className="row row- star-ratings-selection more-than-three-stars"
+                      >
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={true}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_334"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="334"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_334"
+                          >
+                            3
+                             Star
+                          </label>
+                        </div>
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={false}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_335"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="335"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_335"
+                          >
+                            4
+                             Star
+                          </label>
+                        </div>
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={false}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_336"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="336"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_336"
+                          >
+                            5
+                             Star
+                          </label>
+                        </div>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "row row-",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <PackageDaysDiscountExperiment
+                        days={6}
+                        nights={5}
+                      />,
+                      "className": "iblock pl0",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "days": 6,
+                        "isPackageRevamp": undefined,
+                        "nights": 5,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="row row- star-ratings-selection more-than-three-stars"
+                      >
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={true}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_334"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="334"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_334"
+                          >
+                            3
+                             Star
+                          </label>
+                        </div>
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={false}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_335"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="335"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_335"
+                          >
+                            4
+                             Star
+                          </label>
+                        </div>
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={false}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_336"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="336"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_336"
+                          >
+                            5
+                             Star
+                          </label>
+                        </div>
+                      </div>,
+                      "className": "block",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={true}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_334"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="334"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_334"
+                            >
+                              3
+                               Star
+                            </label>
+                          </div>,
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={false}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_335"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="335"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_335"
+                            >
+                              4
+                               Star
+                            </label>
+                          </div>,
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={false}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_336"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="336"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_336"
+                            >
+                              5
+                               Star
+                            </label>
+                          </div>,
+                        ],
+                        "className": "row row- star-ratings-selection more-than-three-stars",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": "334",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                checked={true}
+                                className="checkbox-common radio-common-round"
+                                id="input_334_334"
+                                name="plp_hotel_star_input_334"
+                                onChange={[Function]}
+                                type="radio"
+                                value="334"
+                              />,
+                              <label
+                                className=""
+                                htmlFor="input_334_334"
+                              >
+                                3
+                                 Star
+                              </label>,
+                            ],
+                            "className": "iblock hotelStarItem mr8",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "checked": true,
+                                "className": "checkbox-common radio-common-round",
+                                "id": "input_334_334",
+                                "name": "plp_hotel_star_input_334",
+                                "onChange": [Function],
+                                "type": "radio",
+                                "value": "334",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  3,
+                                  " Star",
+                                ],
+                                "className": "",
+                                "htmlFor": "input_334_334",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                3,
+                                " Star",
+                              ],
+                              "type": "label",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "335",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                checked={false}
+                                className="checkbox-common radio-common-round"
+                                id="input_334_335"
+                                name="plp_hotel_star_input_334"
+                                onChange={[Function]}
+                                type="radio"
+                                value="335"
+                              />,
+                              <label
+                                className=""
+                                htmlFor="input_334_335"
+                              >
+                                4
+                                 Star
+                              </label>,
+                            ],
+                            "className": "iblock hotelStarItem mr8",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "checked": false,
+                                "className": "checkbox-common radio-common-round",
+                                "id": "input_334_335",
+                                "name": "plp_hotel_star_input_334",
+                                "onChange": [Function],
+                                "type": "radio",
+                                "value": "335",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  4,
+                                  " Star",
+                                ],
+                                "className": "",
+                                "htmlFor": "input_334_335",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                4,
+                                " Star",
+                              ],
+                              "type": "label",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "336",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <input
+                                checked={false}
+                                className="checkbox-common radio-common-round"
+                                id="input_334_336"
+                                name="plp_hotel_star_input_334"
+                                onChange={[Function]}
+                                type="radio"
+                                value="336"
+                              />,
+                              <label
+                                className=""
+                                htmlFor="input_334_336"
+                              >
+                                5
+                                 Star
+                              </label>,
+                            ],
+                            "className": "iblock hotelStarItem mr8",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "checked": false,
+                                "className": "checkbox-common radio-common-round",
+                                "id": "input_334_336",
+                                "name": "plp_hotel_star_input_334",
+                                "onChange": [Function],
+                                "type": "radio",
+                                "value": "336",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": "input",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  5,
+                                  " Star",
+                                ],
+                                "className": "",
+                                "htmlFor": "input_334_336",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                5,
+                                " Star",
+                              ],
+                              "type": "label",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-xs-12 pl0 pr8"
+                  >
+                    <PackagePriceExperiment
+                      currency="Rupee"
+                      discount={4600}
+                      displayRange={false}
+                      hideDiscount={false}
+                      price={50600}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="Per Person on twin sharing"
+                      promoTag={0}
+                      totalDiscount={4600}
+                      totalPrice={50600}
+                    />
+                  </div>,
+                  "className": "row row-",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PackagePriceExperiment
+                      currency="Rupee"
+                      discount={4600}
+                      displayRange={false}
+                      hideDiscount={false}
+                      price={50600}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="Per Person on twin sharing"
+                      promoTag={0}
+                      totalDiscount={4600}
+                      totalPrice={50600}
+                    />,
+                    "className": "col-xs-12 pl0 pr8",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "currency": "Rupee",
+                      "discount": 4600,
+                      "displayRange": false,
+                      "hideDiscount": false,
+                      "price": 50600,
+                      "priceFrom": null,
+                      "priceTo": null,
+                      "priceUnit": "Per Person on twin sharing",
+                      "promoTag": 0,
+                      "totalDiscount": 4600,
+                      "totalPrice": 50600,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PackageIncExc
+                    hotelInfo={
+                      Array [
+                        3,
+                        46000,
+                        50600,
+                      ]
+                    }
+                    id="card_334"
+                    inclusions={
+                      Array [
+                        Object {
+                          "available": true,
+                          "key": "hotel",
+                          "text": "Upto 3 Stars",
+                        },
+                        Object {
+                          "available": false,
+                          "key": "flights",
+                          "text": "Flights",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "meals",
+                          "text": "Meals",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "sightseeing",
+                          "text": "Sightseeing",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "transfer",
+                          "text": "Airport Transfer",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "entrytickets",
+                          "text": "Entry Tickets",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "visa",
+                          "text": "Visa",
+                        },
+                      ]
+                    }
+                    isPackageRevamp={false}
+                    noScroll={false}
+                  />,
+                  "className": "row inclusion-height-box mt8",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "hotelInfo": Array [
+                      3,
+                      46000,
+                      50600,
+                    ],
+                    "id": "card_334",
+                    "inclusions": Array [
+                      Object {
+                        "available": true,
+                        "key": "hotel",
+                        "text": "Upto 3 Stars",
+                      },
+                      Object {
+                        "available": false,
+                        "key": "flights",
+                        "text": "Flights",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "meals",
+                        "text": "Meals",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "sightseeing",
+                        "text": "Sightseeing",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "transfer",
+                        "text": "Airport Transfer",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "entrytickets",
+                        "text": "Entry Tickets",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "visa",
+                        "text": "Visa",
+                      },
+                    ],
+                    "isPackageRevamp": false,
+                    "noScroll": false,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-xs-6 pl0 pr4"
+                >
+                  <Link
+                    className="btn-pri wfull ripple"
+                    onClick={[Function]}
+                    onlyActiveOnIndex={false}
+                    style={Object {}}
+                    to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+                  >
+                    <div
+                      className="wave-dark"
+                    />
+                    View Details
+                  </Link>
+                </div>,
+                <div
+                  className="col-xs-6 pl4 pr0"
+                >
+                  <Connect(FormOneCTA)
+                    clickHandler={[Function]}
+                    rtProps={
+                      Object {
+                        "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                        "cta": "Customize",
+                        "object": "Package/334",
+                        "packageId": "334",
+                        "page": "Package List Page",
+                        "section": "Package List",
+                        "to_loc": "Dubai",
+                        "trip_days": "6",
+                      }
+                    }
+                  >
+                    <div
+                      className="btn-filled-pri wfull customized-variation "
+                      data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                    >
+                      <div
+                        className="wave"
+                      />
+                      Customize
+                    </div>
+                  </Connect(FormOneCTA)>
+                </div>,
+              ],
+              "className": "row row- pt8",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    className="btn-pri wfull ripple"
+                    onClick={[Function]}
+                    onlyActiveOnIndex={false}
+                    style={Object {}}
+                    to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+                  >
+                    <div
+                      className="wave-dark"
+                    />
+                    View Details
+                  </Link>,
+                  "className": "col-xs-6 pl0 pr4",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="wave-dark"
+                      />,
+                      "View Details",
+                    ],
+                    "className": "btn-pri wfull ripple",
+                    "onClick": [Function],
+                    "onlyActiveOnIndex": false,
+                    "style": Object {},
+                    "to": "/packages/5nights-6days-dubai-palm-atlantis-tour?id=334",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "wave-dark",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    "View Details",
+                  ],
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Connect(FormOneCTA)
+                    clickHandler={[Function]}
+                    rtProps={
+                      Object {
+                        "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                        "cta": "Customize",
+                        "object": "Package/334",
+                        "packageId": "334",
+                        "page": "Package List Page",
+                        "section": "Package List",
+                        "to_loc": "Dubai",
+                        "trip_days": "6",
+                      }
+                    }
+                  >
+                    <div
+                      className="btn-filled-pri wfull customized-variation "
+                      data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                    >
+                      <div
+                        className="wave"
+                      />
+                      Customize
+                    </div>
+                  </Connect(FormOneCTA)>,
+                  "className": "col-xs-6 pl4 pr0",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <div
+                      className="btn-filled-pri wfull customized-variation "
+                      data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                    >
+                      <div
+                        className="wave"
+                      />
+                      Customize
+                    </div>,
+                    "clickHandler": [Function],
+                    "rtProps": Object {
+                      "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                      "cta": "Customize",
+                      "object": "Package/334",
+                      "packageId": "334",
+                      "page": "Package List Page",
+                      "section": "Package List",
+                      "to_loc": "Dubai",
+                      "trip_days": "6",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="wave"
+                        />,
+                        "Customize",
+                      ],
+                      "className": "btn-filled-pri wfull customized-variation ",
+                      "data-obj": "{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "wave",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "Customize",
+                    ],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            className="sfcw"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+          >
+            <div
+              className="relative"
+            >
+              <PackageImgTitle
+                altText="5nights-6days-dubai-palm-atlantis-tour"
+                imageUrl="https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+                imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+                isLargeImg={true}
+                name="Luxurious Dubai Tour Package With Atlantis"
+              />
+            </div>
+          </Link>,
+          <VisibilitySensor
+            active={true}
+            containment={null}
+            delayedCall={false}
+            intervalCheck={true}
+            intervalDelay={3000}
+            minTopValue={0}
+            offset={Object {}}
+            onChange={[Function]}
+            partialVisibility={false}
+            resizeCheck={false}
+            resizeDelay={250}
+            resizeThrottle={-1}
+            scrollCheck={false}
+            scrollDelay={250}
+            scrollThrottle={-1}
+          >
+            <span />
+          </VisibilitySensor>,
+          <div
+            className="addCompareDiv"
+          >
+            <input
+              checked={false}
+              className="fixed-menu-button"
+              id="AddCompareCheckBox-334"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="sfcw f14 fw7"
+              htmlFor="AddCompareCheckBox-334"
+            >
+              Add To Compare
+            </label>
+          </div>,
+          <div
+            className="row row- sbcw p8"
+          >
+            <div
+              className="pl8 pr8"
+            >
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr0 f10"
+                >
+                  <PackageCities
+                    cities={
+                      Object {
+                        "Dubai": 6,
+                      }
+                    }
+                    isDealsCard={false}
+                  />
+                </div>
+              </div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="iblock pl0"
+                >
+                  <PackageDaysDiscountExperiment
+                    days={6}
+                    nights={5}
+                  />
+                </div>
+                <div
+                  className="block"
+                >
+                  <div
+                    className="row row- star-ratings-selection more-than-three-stars"
+                  >
+                    <div
+                      className="iblock hotelStarItem mr8"
+                    >
+                      <input
+                        checked={true}
+                        className="checkbox-common radio-common-round"
+                        id="input_334_334"
+                        name="plp_hotel_star_input_334"
+                        onChange={[Function]}
+                        type="radio"
+                        value="334"
+                      />
+                      <label
+                        className=""
+                        htmlFor="input_334_334"
+                      >
+                        3
+                         Star
+                      </label>
+                    </div>
+                    <div
+                      className="iblock hotelStarItem mr8"
+                    >
+                      <input
+                        checked={false}
+                        className="checkbox-common radio-common-round"
+                        id="input_334_335"
+                        name="plp_hotel_star_input_334"
+                        onChange={[Function]}
+                        type="radio"
+                        value="335"
+                      />
+                      <label
+                        className=""
+                        htmlFor="input_334_335"
+                      >
+                        4
+                         Star
+                      </label>
+                    </div>
+                    <div
+                      className="iblock hotelStarItem mr8"
+                    >
+                      <input
+                        checked={false}
+                        className="checkbox-common radio-common-round"
+                        id="input_334_336"
+                        name="plp_hotel_star_input_334"
+                        onChange={[Function]}
+                        type="radio"
+                        value="336"
+                      />
+                      <label
+                        className=""
+                        htmlFor="input_334_336"
+                      >
+                        5
+                         Star
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr8"
+                >
+                  <PackagePriceExperiment
+                    currency="Rupee"
+                    discount={4600}
+                    displayRange={false}
+                    hideDiscount={false}
+                    price={50600}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="Per Person on twin sharing"
+                    promoTag={0}
+                    totalDiscount={4600}
+                    totalPrice={50600}
+                  />
+                </div>
+              </div>
+              <div
+                className="row inclusion-height-box mt8"
+              >
+                <PackageIncExc
+                  hotelInfo={
+                    Array [
+                      3,
+                      46000,
+                      50600,
+                    ]
+                  }
+                  id="card_334"
+                  inclusions={
+                    Array [
+                      Object {
+                        "available": true,
+                        "key": "hotel",
+                        "text": "Upto 3 Stars",
+                      },
+                      Object {
+                        "available": false,
+                        "key": "flights",
+                        "text": "Flights",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "meals",
+                        "text": "Meals",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "sightseeing",
+                        "text": "Sightseeing",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "transfer",
+                        "text": "Airport Transfer",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "entrytickets",
+                        "text": "Entry Tickets",
+                      },
+                      Object {
+                        "available": true,
+                        "key": "visa",
+                        "text": "Visa",
+                      },
+                    ]
+                  }
+                  isPackageRevamp={false}
+                  noScroll={false}
+                />
+              </div>
+            </div>
+            <div
+              className="row row- pt8"
+            >
+              <div
+                className="col-xs-6 pl0 pr4"
+              >
+                <Link
+                  className="btn-pri wfull ripple"
+                  onClick={[Function]}
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+                >
+                  <div
+                    className="wave-dark"
+                  />
+                  View Details
+                </Link>
+              </div>
+              <div
+                className="col-xs-6 pl4 pr0"
+              >
+                <Connect(FormOneCTA)
+                  clickHandler={[Function]}
+                  rtProps={
+                    Object {
+                      "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                      "cta": "Customize",
+                      "object": "Package/334",
+                      "packageId": "334",
+                      "page": "Package List Page",
+                      "section": "Package List",
+                      "to_loc": "Dubai",
+                      "trip_days": "6",
+                    }
+                  }
+                >
+                  <div
+                    className="btn-filled-pri wfull customized-variation "
+                    data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                  >
+                    <div
+                      className="wave"
+                    />
+                    Customize
+                  </div>
+                </Connect(FormOneCTA)>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "row row- mb8 mt8 relative exp-1 package-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <div
+              className="relative"
+            >
+              <PackageImgTitle
+                altText="5nights-6days-dubai-palm-atlantis-tour"
+                imageUrl="https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+                imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+                isLargeImg={true}
+                name="Luxurious Dubai Tour Package With Atlantis"
+              />
+            </div>,
+            "className": "sfcw",
+            "onClick": [Function],
+            "onlyActiveOnIndex": false,
+            "style": Object {},
+            "to": "/packages/5nights-6days-dubai-palm-atlantis-tour?id=334",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PackageImgTitle
+                  altText="5nights-6days-dubai-palm-atlantis-tour"
+                  imageUrl="https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+                  imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg"
+                  isLargeImg={true}
+                  name="Luxurious Dubai Tour Package With Atlantis"
+                />,
+                null,
+              ],
+              "className": "relative",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "altText": "5nights-6days-dubai-palm-atlantis-tour",
+                  "imageUrl": "https://img.traveltriangle.com/stage//attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg",
+                  "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/841473/original/aerial_view_of_Dubai-1.jpg",
+                  "isLargeImg": true,
+                  "name": "Luxurious Dubai Tour Package With Atlantis",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              null,
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": true,
+            "children": <span />,
+            "containment": null,
+            "delayedCall": false,
+            "intervalCheck": true,
+            "intervalDelay": 3000,
+            "minTopValue": 0,
+            "offset": Object {},
+            "onChange": [Function],
+            "partialVisibility": false,
+            "resizeCheck": false,
+            "resizeDelay": 250,
+            "resizeThrottle": -1,
+            "scrollCheck": false,
+            "scrollDelay": 250,
+            "scrollThrottle": -1,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                checked={false}
+                className="fixed-menu-button"
+                id="AddCompareCheckBox-334"
+                onChange={[Function]}
+                type="checkbox"
+              />,
+              <label
+                className="sfcw f14 fw7"
+                htmlFor="AddCompareCheckBox-334"
+              >
+                Add To Compare
+              </label>,
+            ],
+            "className": "addCompareDiv",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "checked": false,
+                "className": "fixed-menu-button",
+                "id": "AddCompareCheckBox-334",
+                "onChange": [Function],
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add To Compare",
+                "className": "sfcw f14 fw7",
+                "htmlFor": "AddCompareCheckBox-334",
+              },
+              "ref": null,
+              "rendered": "Add To Compare",
+              "type": "label",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="pl8 pr8"
+              >
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12 pl0 pr0 f10"
+                  >
+                    <PackageCities
+                      cities={
+                        Object {
+                          "Dubai": 6,
+                        }
+                      }
+                      isDealsCard={false}
+                    />
+                  </div>
+                </div>
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="iblock pl0"
+                  >
+                    <PackageDaysDiscountExperiment
+                      days={6}
+                      nights={5}
+                    />
+                  </div>
+                  <div
+                    className="block"
+                  >
+                    <div
+                      className="row row- star-ratings-selection more-than-three-stars"
+                    >
+                      <div
+                        className="iblock hotelStarItem mr8"
+                      >
+                        <input
+                          checked={true}
+                          className="checkbox-common radio-common-round"
+                          id="input_334_334"
+                          name="plp_hotel_star_input_334"
+                          onChange={[Function]}
+                          type="radio"
+                          value="334"
+                        />
+                        <label
+                          className=""
+                          htmlFor="input_334_334"
+                        >
+                          3
+                           Star
+                        </label>
+                      </div>
+                      <div
+                        className="iblock hotelStarItem mr8"
+                      >
+                        <input
+                          checked={false}
+                          className="checkbox-common radio-common-round"
+                          id="input_334_335"
+                          name="plp_hotel_star_input_334"
+                          onChange={[Function]}
+                          type="radio"
+                          value="335"
+                        />
+                        <label
+                          className=""
+                          htmlFor="input_334_335"
+                        >
+                          4
+                           Star
+                        </label>
+                      </div>
+                      <div
+                        className="iblock hotelStarItem mr8"
+                      >
+                        <input
+                          checked={false}
+                          className="checkbox-common radio-common-round"
+                          id="input_334_336"
+                          name="plp_hotel_star_input_334"
+                          onChange={[Function]}
+                          type="radio"
+                          value="336"
+                        />
+                        <label
+                          className=""
+                          htmlFor="input_334_336"
+                        >
+                          5
+                           Star
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12 pl0 pr8"
+                  >
+                    <PackagePriceExperiment
+                      currency="Rupee"
+                      discount={4600}
+                      displayRange={false}
+                      hideDiscount={false}
+                      price={50600}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="Per Person on twin sharing"
+                      promoTag={0}
+                      totalDiscount={4600}
+                      totalPrice={50600}
+                    />
+                  </div>
+                </div>
+                <div
+                  className="row inclusion-height-box mt8"
+                >
+                  <PackageIncExc
+                    hotelInfo={
+                      Array [
+                        3,
+                        46000,
+                        50600,
+                      ]
+                    }
+                    id="card_334"
+                    inclusions={
+                      Array [
+                        Object {
+                          "available": true,
+                          "key": "hotel",
+                          "text": "Upto 3 Stars",
+                        },
+                        Object {
+                          "available": false,
+                          "key": "flights",
+                          "text": "Flights",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "meals",
+                          "text": "Meals",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "sightseeing",
+                          "text": "Sightseeing",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "transfer",
+                          "text": "Airport Transfer",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "entrytickets",
+                          "text": "Entry Tickets",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "visa",
+                          "text": "Visa",
+                        },
+                      ]
+                    }
+                    isPackageRevamp={false}
+                    noScroll={false}
+                  />
+                </div>
+              </div>,
+              <div
+                className="row row- pt8"
+              >
+                <div
+                  className="col-xs-6 pl0 pr4"
+                >
+                  <Link
+                    className="btn-pri wfull ripple"
+                    onClick={[Function]}
+                    onlyActiveOnIndex={false}
+                    style={Object {}}
+                    to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+                  >
+                    <div
+                      className="wave-dark"
+                    />
+                    View Details
+                  </Link>
+                </div>
+                <div
+                  className="col-xs-6 pl4 pr0"
+                >
+                  <Connect(FormOneCTA)
+                    clickHandler={[Function]}
+                    rtProps={
+                      Object {
+                        "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                        "cta": "Customize",
+                        "object": "Package/334",
+                        "packageId": "334",
+                        "page": "Package List Page",
+                        "section": "Package List",
+                        "to_loc": "Dubai",
+                        "trip_days": "6",
+                      }
+                    }
+                  >
+                    <div
+                      className="btn-filled-pri wfull customized-variation "
+                      data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                    >
+                      <div
+                        className="wave"
+                      />
+                      Customize
+                    </div>
+                  </Connect(FormOneCTA)>
+                </div>
+              </div>,
+            ],
+            "className": "row row- sbcw p8",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="row row-"
+                  >
+                    <div
+                      className="col-xs-12 pl0 pr0 f10"
+                    >
+                      <PackageCities
+                        cities={
+                          Object {
+                            "Dubai": 6,
+                          }
+                        }
+                        isDealsCard={false}
+                      />
+                    </div>
+                  </div>,
+                  <div
+                    className="row row-"
+                  >
+                    <div
+                      className="iblock pl0"
+                    >
+                      <PackageDaysDiscountExperiment
+                        days={6}
+                        nights={5}
+                      />
+                    </div>
+                    <div
+                      className="block"
+                    >
+                      <div
+                        className="row row- star-ratings-selection more-than-three-stars"
+                      >
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={true}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_334"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="334"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_334"
+                          >
+                            3
+                             Star
+                          </label>
+                        </div>
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={false}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_335"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="335"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_335"
+                          >
+                            4
+                             Star
+                          </label>
+                        </div>
+                        <div
+                          className="iblock hotelStarItem mr8"
+                        >
+                          <input
+                            checked={false}
+                            className="checkbox-common radio-common-round"
+                            id="input_334_336"
+                            name="plp_hotel_star_input_334"
+                            onChange={[Function]}
+                            type="radio"
+                            value="336"
+                          />
+                          <label
+                            className=""
+                            htmlFor="input_334_336"
+                          >
+                            5
+                             Star
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>,
+                  <div
+                    className="row row-"
+                  >
+                    <div
+                      className="col-xs-12 pl0 pr8"
+                    >
+                      <PackagePriceExperiment
+                        currency="Rupee"
+                        discount={4600}
+                        displayRange={false}
+                        hideDiscount={false}
+                        price={50600}
+                        priceFrom={null}
+                        priceTo={null}
+                        priceUnit="Per Person on twin sharing"
+                        promoTag={0}
+                        totalDiscount={4600}
+                        totalPrice={50600}
+                      />
+                    </div>
+                  </div>,
+                  <div
+                    className="row inclusion-height-box mt8"
+                  >
+                    <PackageIncExc
+                      hotelInfo={
+                        Array [
+                          3,
+                          46000,
+                          50600,
+                        ]
+                      }
+                      id="card_334"
+                      inclusions={
+                        Array [
+                          Object {
+                            "available": true,
+                            "key": "hotel",
+                            "text": "Upto 3 Stars",
+                          },
+                          Object {
+                            "available": false,
+                            "key": "flights",
+                            "text": "Flights",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "meals",
+                            "text": "Meals",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "sightseeing",
+                            "text": "Sightseeing",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "transfer",
+                            "text": "Airport Transfer",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "entrytickets",
+                            "text": "Entry Tickets",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "visa",
+                            "text": "Visa",
+                          },
+                        ]
+                      }
+                      isPackageRevamp={false}
+                      noScroll={false}
+                    />
+                  </div>,
+                ],
+                "className": "pl8 pr8",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="col-xs-12 pl0 pr0 f10"
+                    >
+                      <PackageCities
+                        cities={
+                          Object {
+                            "Dubai": 6,
+                          }
+                        }
+                        isDealsCard={false}
+                      />
+                    </div>,
+                    "className": "row row-",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <PackageCities
+                        cities={
+                          Object {
+                            "Dubai": 6,
+                          }
+                        }
+                        isDealsCard={false}
+                      />,
+                      "className": "col-xs-12 pl0 pr0 f10",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "cities": Object {
+                          "Dubai": 6,
+                        },
+                        "isDealsCard": false,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="iblock pl0"
+                      >
+                        <PackageDaysDiscountExperiment
+                          days={6}
+                          nights={5}
+                        />
+                      </div>,
+                      <div
+                        className="block"
+                      >
+                        <div
+                          className="row row- star-ratings-selection more-than-three-stars"
+                        >
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={true}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_334"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="334"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_334"
+                            >
+                              3
+                               Star
+                            </label>
+                          </div>
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={false}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_335"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="335"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_335"
+                            >
+                              4
+                               Star
+                            </label>
+                          </div>
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={false}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_336"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="336"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_336"
+                            >
+                              5
+                               Star
+                            </label>
+                          </div>
+                        </div>
+                      </div>,
+                    ],
+                    "className": "row row-",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <PackageDaysDiscountExperiment
+                          days={6}
+                          nights={5}
+                        />,
+                        "className": "iblock pl0",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "days": 6,
+                          "isPackageRevamp": undefined,
+                          "nights": 5,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <div
+                          className="row row- star-ratings-selection more-than-three-stars"
+                        >
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={true}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_334"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="334"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_334"
+                            >
+                              3
+                               Star
+                            </label>
+                          </div>
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={false}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_335"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="335"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_335"
+                            >
+                              4
+                               Star
+                            </label>
+                          </div>
+                          <div
+                            className="iblock hotelStarItem mr8"
+                          >
+                            <input
+                              checked={false}
+                              className="checkbox-common radio-common-round"
+                              id="input_334_336"
+                              name="plp_hotel_star_input_334"
+                              onChange={[Function]}
+                              type="radio"
+                              value="336"
+                            />
+                            <label
+                              className=""
+                              htmlFor="input_334_336"
+                            >
+                              5
+                               Star
+                            </label>
+                          </div>
+                        </div>,
+                        "className": "block",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <div
+                              className="iblock hotelStarItem mr8"
+                            >
+                              <input
+                                checked={true}
+                                className="checkbox-common radio-common-round"
+                                id="input_334_334"
+                                name="plp_hotel_star_input_334"
+                                onChange={[Function]}
+                                type="radio"
+                                value="334"
+                              />
+                              <label
+                                className=""
+                                htmlFor="input_334_334"
+                              >
+                                3
+                                 Star
+                              </label>
+                            </div>,
+                            <div
+                              className="iblock hotelStarItem mr8"
+                            >
+                              <input
+                                checked={false}
+                                className="checkbox-common radio-common-round"
+                                id="input_334_335"
+                                name="plp_hotel_star_input_334"
+                                onChange={[Function]}
+                                type="radio"
+                                value="335"
+                              />
+                              <label
+                                className=""
+                                htmlFor="input_334_335"
+                              >
+                                4
+                                 Star
+                              </label>
+                            </div>,
+                            <div
+                              className="iblock hotelStarItem mr8"
+                            >
+                              <input
+                                checked={false}
+                                className="checkbox-common radio-common-round"
+                                id="input_334_336"
+                                name="plp_hotel_star_input_334"
+                                onChange={[Function]}
+                                type="radio"
+                                value="336"
+                              />
+                              <label
+                                className=""
+                                htmlFor="input_334_336"
+                              >
+                                5
+                                 Star
+                              </label>
+                            </div>,
+                          ],
+                          "className": "row row- star-ratings-selection more-than-three-stars",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": "334",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  checked={true}
+                                  className="checkbox-common radio-common-round"
+                                  id="input_334_334"
+                                  name="plp_hotel_star_input_334"
+                                  onChange={[Function]}
+                                  type="radio"
+                                  value="334"
+                                />,
+                                <label
+                                  className=""
+                                  htmlFor="input_334_334"
+                                >
+                                  3
+                                   Star
+                                </label>,
+                              ],
+                              "className": "iblock hotelStarItem mr8",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "checked": true,
+                                  "className": "checkbox-common radio-common-round",
+                                  "id": "input_334_334",
+                                  "name": "plp_hotel_star_input_334",
+                                  "onChange": [Function],
+                                  "type": "radio",
+                                  "value": "334",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": Array [
+                                    3,
+                                    " Star",
+                                  ],
+                                  "className": "",
+                                  "htmlFor": "input_334_334",
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  3,
+                                  " Star",
+                                ],
+                                "type": "label",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": "335",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  checked={false}
+                                  className="checkbox-common radio-common-round"
+                                  id="input_334_335"
+                                  name="plp_hotel_star_input_334"
+                                  onChange={[Function]}
+                                  type="radio"
+                                  value="335"
+                                />,
+                                <label
+                                  className=""
+                                  htmlFor="input_334_335"
+                                >
+                                  4
+                                   Star
+                                </label>,
+                              ],
+                              "className": "iblock hotelStarItem mr8",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "checked": false,
+                                  "className": "checkbox-common radio-common-round",
+                                  "id": "input_334_335",
+                                  "name": "plp_hotel_star_input_334",
+                                  "onChange": [Function],
+                                  "type": "radio",
+                                  "value": "335",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": Array [
+                                    4,
+                                    " Star",
+                                  ],
+                                  "className": "",
+                                  "htmlFor": "input_334_335",
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  4,
+                                  " Star",
+                                ],
+                                "type": "label",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": "336",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <input
+                                  checked={false}
+                                  className="checkbox-common radio-common-round"
+                                  id="input_334_336"
+                                  name="plp_hotel_star_input_334"
+                                  onChange={[Function]}
+                                  type="radio"
+                                  value="336"
+                                />,
+                                <label
+                                  className=""
+                                  htmlFor="input_334_336"
+                                >
+                                  5
+                                   Star
+                                </label>,
+                              ],
+                              "className": "iblock hotelStarItem mr8",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "checked": false,
+                                  "className": "checkbox-common radio-common-round",
+                                  "id": "input_334_336",
+                                  "name": "plp_hotel_star_input_334",
+                                  "onChange": [Function],
+                                  "type": "radio",
+                                  "value": "336",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": Array [
+                                    5,
+                                    " Star",
+                                  ],
+                                  "className": "",
+                                  "htmlFor": "input_334_336",
+                                },
+                                "ref": null,
+                                "rendered": Array [
+                                  5,
+                                  " Star",
+                                ],
+                                "type": "label",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="col-xs-12 pl0 pr8"
+                    >
+                      <PackagePriceExperiment
+                        currency="Rupee"
+                        discount={4600}
+                        displayRange={false}
+                        hideDiscount={false}
+                        price={50600}
+                        priceFrom={null}
+                        priceTo={null}
+                        priceUnit="Per Person on twin sharing"
+                        promoTag={0}
+                        totalDiscount={4600}
+                        totalPrice={50600}
+                      />
+                    </div>,
+                    "className": "row row-",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <PackagePriceExperiment
+                        currency="Rupee"
+                        discount={4600}
+                        displayRange={false}
+                        hideDiscount={false}
+                        price={50600}
+                        priceFrom={null}
+                        priceTo={null}
+                        priceUnit="Per Person on twin sharing"
+                        promoTag={0}
+                        totalDiscount={4600}
+                        totalPrice={50600}
+                      />,
+                      "className": "col-xs-12 pl0 pr8",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "currency": "Rupee",
+                        "discount": 4600,
+                        "displayRange": false,
+                        "hideDiscount": false,
+                        "price": 50600,
+                        "priceFrom": null,
+                        "priceTo": null,
+                        "priceUnit": "Per Person on twin sharing",
+                        "promoTag": 0,
+                        "totalDiscount": 4600,
+                        "totalPrice": 50600,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PackageIncExc
+                      hotelInfo={
+                        Array [
+                          3,
+                          46000,
+                          50600,
+                        ]
+                      }
+                      id="card_334"
+                      inclusions={
+                        Array [
+                          Object {
+                            "available": true,
+                            "key": "hotel",
+                            "text": "Upto 3 Stars",
+                          },
+                          Object {
+                            "available": false,
+                            "key": "flights",
+                            "text": "Flights",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "meals",
+                            "text": "Meals",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "sightseeing",
+                            "text": "Sightseeing",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "transfer",
+                            "text": "Airport Transfer",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "entrytickets",
+                            "text": "Entry Tickets",
+                          },
+                          Object {
+                            "available": true,
+                            "key": "visa",
+                            "text": "Visa",
+                          },
+                        ]
+                      }
+                      isPackageRevamp={false}
+                      noScroll={false}
+                    />,
+                    "className": "row inclusion-height-box mt8",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "hotelInfo": Array [
+                        3,
+                        46000,
+                        50600,
+                      ],
+                      "id": "card_334",
+                      "inclusions": Array [
+                        Object {
+                          "available": true,
+                          "key": "hotel",
+                          "text": "Upto 3 Stars",
+                        },
+                        Object {
+                          "available": false,
+                          "key": "flights",
+                          "text": "Flights",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "meals",
+                          "text": "Meals",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "sightseeing",
+                          "text": "Sightseeing",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "transfer",
+                          "text": "Airport Transfer",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "entrytickets",
+                          "text": "Entry Tickets",
+                        },
+                        Object {
+                          "available": true,
+                          "key": "visa",
+                          "text": "Visa",
+                        },
+                      ],
+                      "isPackageRevamp": false,
+                      "noScroll": false,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-xs-6 pl0 pr4"
+                  >
+                    <Link
+                      className="btn-pri wfull ripple"
+                      onClick={[Function]}
+                      onlyActiveOnIndex={false}
+                      style={Object {}}
+                      to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+                    >
+                      <div
+                        className="wave-dark"
+                      />
+                      View Details
+                    </Link>
+                  </div>,
+                  <div
+                    className="col-xs-6 pl4 pr0"
+                  >
+                    <Connect(FormOneCTA)
+                      clickHandler={[Function]}
+                      rtProps={
+                        Object {
+                          "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                          "cta": "Customize",
+                          "object": "Package/334",
+                          "packageId": "334",
+                          "page": "Package List Page",
+                          "section": "Package List",
+                          "to_loc": "Dubai",
+                          "trip_days": "6",
+                        }
+                      }
+                    >
+                      <div
+                        className="btn-filled-pri wfull customized-variation "
+                        data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                      >
+                        <div
+                          className="wave"
+                        />
+                        Customize
+                      </div>
+                    </Connect(FormOneCTA)>
+                  </div>,
+                ],
+                "className": "row row- pt8",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Link
+                      className="btn-pri wfull ripple"
+                      onClick={[Function]}
+                      onlyActiveOnIndex={false}
+                      style={Object {}}
+                      to="/packages/5nights-6days-dubai-palm-atlantis-tour?id=334"
+                    >
+                      <div
+                        className="wave-dark"
+                      />
+                      View Details
+                    </Link>,
+                    "className": "col-xs-6 pl0 pr4",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="wave-dark"
+                        />,
+                        "View Details",
+                      ],
+                      "className": "btn-pri wfull ripple",
+                      "onClick": [Function],
+                      "onlyActiveOnIndex": false,
+                      "style": Object {},
+                      "to": "/packages/5nights-6days-dubai-palm-atlantis-tour?id=334",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "wave-dark",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "View Details",
+                    ],
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Connect(FormOneCTA)
+                      clickHandler={[Function]}
+                      rtProps={
+                        Object {
+                          "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                          "cta": "Customize",
+                          "object": "Package/334",
+                          "packageId": "334",
+                          "page": "Package List Page",
+                          "section": "Package List",
+                          "to_loc": "Dubai",
+                          "trip_days": "6",
+                        }
+                      }
+                    >
+                      <div
+                        className="btn-filled-pri wfull customized-variation "
+                        data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                      >
+                        <div
+                          className="wave"
+                        />
+                        Customize
+                      </div>
+                    </Connect(FormOneCTA)>,
+                    "className": "col-xs-6 pl4 pr0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <div
+                        className="btn-filled-pri wfull customized-variation "
+                        data-obj="{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}"
+                      >
+                        <div
+                          className="wave"
+                        />
+                        Customize
+                      </div>,
+                      "clickHandler": [Function],
+                      "rtProps": Object {
+                        "addtl_info": "Traveler has expressed interest in 6 Days , 5 nights with cities Dubai,Dubai,Dubai,Dubai,Dubai,Dubai. For more details, see the <a href='/packages/5nights-6days-dubai-palm-atlantis-tour'>link</a>",
+                        "cta": "Customize",
+                        "object": "Package/334",
+                        "packageId": "334",
+                        "page": "Package List Page",
+                        "section": "Package List",
+                        "to_loc": "Dubai",
+                        "trip_days": "6",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="wave"
+                          />,
+                          "Customize",
+                        ],
+                        "className": "btn-filled-pri wfull customized-variation ",
+                        "data-obj": "{\\"to_loc\\":\\"Dubai\\",\\"trip_days\\":\\"6\\"}",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "wave",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "div",
+                        },
+                        "Customize",
+                      ],
+                      "type": "div",
+                    },
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

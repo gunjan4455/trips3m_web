@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/testimonials/DestinationAndFilters.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app-v2/modules/testimonials</a> DestinationAndFilters.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>10/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">80% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>8/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>6/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>8/8</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+&nbsp;
+import Filters from 'modules/testimonials/Filters';
+import FiltersView from 'modules/testimonials/FiltersView';
+import { parseFilters } from 'screens/testimonials/reducer';
+import Destination from 'modules/testimonials/Destination';
+import DestinationView from './DestinationView';
+import config from 'appConfig';
+import Img from 'components/Common/Img';
+&nbsp;
+class DestinationAndFilters extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showFilterPopup: false,
+      showDestinationPopup: false,
+      selectedFilters: parseFilters(this.props.location.query, ['ratings[]']).ratings || [],
+    };
+  }
+&nbsp;
+  destinationToggle = () =&gt; {
+    this.setState((state) =&gt; ({ showDestinationPopup: !state.showDestinationPopup }));
+  };
+&nbsp;
+  filterToggle = () =&gt; {
+    this.setState((state) =&gt; ({ showFilterPopup: !state.showFilterPopup }));
+  };
+&nbsp;
+  render() {
+    const { filters, location, updateUrl, breadcrumbs, totalRating, testimonialDisplay, params } = this.props;
+    const icon = `${config.assets.images}/public-product/Group_2.png`;
+    return (
+      &lt;div&gt;
+        &lt;div className="sbcw flex bs4 fleft wfull"&gt;
+          &lt;div className='at_destination flexFull br' onClick={this.destinationToggle}&gt;
+            &lt;Destination breadcrumbs={breadcrumbs} /&gt;
+          &lt;/div&gt;
+          &lt;div className='at_filter flexFull bl' onClick={this.filterToggle}&gt;
+            &lt;Filters initialFilters={this.state.selectedFilters} /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className={this.state.showDestinationPopup ? '' : 'hide'}&gt;
+          &lt;DestinationView
+            filters={filters}
+            destinationToggle={this.destinationToggle}
+            location={location}
+            params={params}
+            breadcrumbs={breadcrumbs}
+          /&gt;
+        &lt;/div&gt;
+        &lt;div className={this.state.showFilterPopup ? '' : 'hide'}&gt;
+          &lt;FiltersView
+            ratingFilters={filters.ratings}
+            location={location}
+            updateUrl={updateUrl}
+            initialFilters={this.state.selectedFilters}
+            filterToggle={this.filterToggle}
+          /&gt;
+        &lt;/div&gt;
+&nbsp;
+        &lt;div className="sbc5 pt15 pr15 pb15 pl15 clear wfull"&gt;
+          &lt;h3 className="f16a pfc2 pfc3 pb2"&gt;What People Say&lt;/h3&gt;
+          {
+            totalRating &gt; 25 ?
+<span class="branch-0 cbranch-no" title="branch not covered" >              &lt;p className="pfc4 fw7 f10"&gt;Displaying Testimonial {`1-${testimonialDisplay}`} of {totalRating} in total</span>
+              &lt;/p&gt; :
+              &lt;p className="pfc4 fw7 f10 "&gt;{`Displaying ${totalRating} Testimonials`} &lt;/p&gt;
+          }
+        &lt;/div&gt;
+        {
+          totalRating === 0 ?
+<span class="branch-0 cbranch-no" title="branch not covered" >            &lt;div className='text-center'&gt;</span>
+              &lt;div className='relative'&gt;
+                &lt;Img width={320} height={100} src={icon} ikSrc={icon} alt={'no result found'} /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt; : null
+        }
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+DestinationAndFilters.propTypes = {
+  filters: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired,
+  updateUrl: PropTypes.func.isRequired,
+  breadcrumbs: PropTypes.array,
+  totalRating: PropTypes.number.isRequired,
+  testimonialDisplay: PropTypes.number.isRequired,
+  params: PropTypes.object,
+};
+&nbsp;
+export default DestinationAndFilters;
+&nbsp;
+&nbsp;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

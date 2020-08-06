@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/quote/QuoteDetailHeader.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app-v2/modules/quote</a> QuoteDetailHeader.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">83.33% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>10/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>1/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">81.82% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>9/11</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import glamorous from 'glamorous';
+import PropTypes from 'prop-types';
+&nbsp;
+import { ORGANISM_CLICKED } from 'actions/segmentEvents';
+import { CompareIconWhite, DownArrow } from 'helpers/Icon/Icon';
+import { compareQuotesPath } from 'helpers/urlHelpers';
+import QuotePrice from './shared/price/QuotePrice';
+import Modal from 'modules/shared/GenericModal';
+import QuoteListModal from './QuoteListModal';
+&nbsp;
+const GAgentSelectionDiv = glamorous.div({
+  border: '1px solid #d4d4d4',
+});
+&nbsp;
+const QuoteDetailHeader = ({ quotesList, currentQuoteId, tripId, location, trackSegment }) =&gt; {
+&nbsp;
+  const trackSegmentEvent = <span class="fstat-no" title="function not covered" >(e</span>vent, section, object, cta) =&gt; {
+<span class="cstat-no" title="statement not covered" >    trackSegment({</span>
+      event,
+      section,
+      object,
+      cta
+    });
+  };
+&nbsp;
+  const currentQuote = quotesList.filter(q =&gt; q.id === currentQuoteId)[0];
+&nbsp;
+  const renderCurrentQuote = () =&gt; (
+    &lt;div className="flexFull"&gt;
+      &lt;GAgentSelectionDiv className="pr8 pt8 pl8 pb8 flex flexFull alignCenter"&gt;
+        &lt;div className="flexFull"&gt;
+          &lt;p className="pfc3 f12"&gt;{currentQuote.agent.name}&lt;/p&gt;
+          &lt;QuotePrice {...currentQuote.priceInformation} {...currentQuote.discountInformation}
+                      showOriginalPrice={false} /&gt;
+        &lt;/div&gt;
+        &lt;span className="input-24 iblock p8 flex alignCenter justifyCenter"&gt;&lt;DownArrow /&gt;&lt;/span&gt;
+      &lt;/GAgentSelectionDiv&gt;
+    &lt;/div&gt;
+  );
+&nbsp;
+  return (&lt;div className="sbcw pb8"&gt;
+      &lt;div className="row row-"&gt;
+        &lt;div className="col-xs-12"&gt;
+          &lt;p className="pfc3 f14 fw9 pt15 pb15"&gt;You have received {quotesList.length} Quotes
+            for {currentQuote.destination}&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div className="flex alignCenter pl8 pr8"&gt;
+        &lt;div className="flexFull"&gt;
+          &lt;Modal
+            trigger={renderCurrentQuote()} hasNoClose
+          &gt;
+            &lt;QuoteListModal quotesList={quotesList} currentQuoteId={currentQuoteId} tripId={tripId} location={location}/&gt;
+          &lt;/Modal&gt;
+        &lt;/div&gt;
+        &lt;div className="ml8 compare__btn "&gt;
+          &lt;a
+            className={`sbc1 sfcw pt8 pl15 pb8 pr15 iblock flex alignCenter ${quotesList.length &gt; 1 ? <span class="branch-0 cbranch-no" title="branch not covered" >'' </span>: 'disabled'}`}
+            onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >trackSegmentEvent(ORGANISM_CLICKED, 'Compare', '', 'Compare Quotes')}</span>
+            href={compareQuotesPath(tripId)}&gt;
+            &lt;span className="iblock input-24 mr5"&gt;&lt;CompareIconWhite /&gt;&lt;/span&gt;&lt;span&gt;Compare&lt;/span&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+QuoteDetailHeader.propTypes = {
+  quotesList: PropTypes.array.isRequired,
+  currentQuoteId: PropTypes.number.isRequired,
+  tripId: PropTypes.number.isRequired,
+  location: PropTypes.object.isRequired,
+  trackSegment: PropTypes.func
+};
+&nbsp;
+QuoteDetailHeader.defaultProps = {
+  trackSegment: <span class="fstat-no" title="function not covered" >()</span> =&gt; {}
+};
+&nbsp;
+export default QuoteDetailHeader;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

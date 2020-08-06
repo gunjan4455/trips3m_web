@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Weekend_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Side_Menu" transform="translate(-16.000000, -275.000000)">
+            <g id="Group-14" transform="translate(0.000000, 24.000000)">
+                <g id="Weekend-Getaways" transform="translate(16.000000, 252.000000)">
+                    <g id="Weekend_icon">
+                        <g id="WeekEnd" transform="translate(1.000000, 0.000000)">
+                            <polygon id="Stroke-1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="13.7812 2.06686667 13.7812 17.8008667 3.11453333 17.8008667 3.11453333 2.06686667"/>
+                            <path d="M7.6354,9.4002 L2.44606667,9.4002 C2.07806667,9.4002 1.7794,9.10153333 1.7794,8.73353333 L1.7794,3.1122 C1.7794,2.37553333 2.37673333,1.77886667 3.11273333,1.77886667 L13.7827333,1.77886667 C14.5194,1.77886667 15.1160667,2.37553333 15.1160667,3.1122 L15.1160667,8.73353333 C15.1160667,9.10153333 14.8180667,9.4002 14.4494,9.4002 L9.26073333,9.4002" id="Stroke-3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.6666667,17.8006 L13.7813333,17.8006 L13.7813333,12.2212667 L15,12.2212667 C15.736,12.2212667 16.3333333,12.8179333 16.3333333,13.5546 L16.3333333,17.1339333 C16.3333333,17.5019333 16.0346667,17.8006 15.6666667,17.8006 Z" id="Stroke-5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M1,17.8006 L3.11466667,17.8006 L3.11466667,12.2212667 L1.66666667,12.2212667 C0.930666667,12.2212667 0.333333333,12.8179333 0.333333333,13.5546 L0.333333333,17.1339333 C0.333333333,17.5019333 0.632,17.8006 1,17.8006 Z" id="Stroke-7" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.44786667,10.8156 L8.44786667,10.8156 C7.9992,10.8156 7.6352,10.4522667 7.6352,10.0029333 L7.6352,8.9196 C7.6352,8.47093333 7.9992,8.1076 8.44786667,8.1076 C8.89653333,8.1076 9.26053333,8.47093333 9.26053333,8.9196 L9.26053333,10.0029333 C9.26053333,10.4522667 8.89653333,10.8156 8.44786667,10.8156 Z" id="Stroke-9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16.3333333,14.2957333 L13.7813333,14.2957333" id="Stroke-11" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2.8854,14.2957333 L0.3334,14.2957333" id="Stroke-13" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <polygon id="Fill-15" fill="#009688" points="5.78133333 17.8005333 11.1146667 17.8005333 11.1146667 12.4672 5.78133333 12.4672"/>
+                            <polygon id="Stroke-17" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="5.78133333 17.8005333 11.1146667 17.8005333 11.1146667 12.4672 5.78133333 12.4672"/>
+                            <path d="M4.89546667,1.7788 L3.45013333,1.7788 L3.45013333,1.00013333 C3.45013333,0.631466667 3.74813333,0.333466667 4.1168,0.333466667 L4.2288,0.333466667 C4.5968,0.333466667 4.89546667,0.631466667 4.89546667,1.00013333 L4.89546667,1.7788 Z" id="Stroke-18" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.5074667,1.7788 L12.0621333,1.7788 L12.0621333,1.00013333 C12.0621333,0.631466667 12.3608,0.333466667 12.7288,0.333466667 L12.8408,0.333466667 C13.2088,0.333466667 13.5074667,0.631466667 13.5074667,1.00013333 L13.5074667,1.7788 Z" id="Stroke-19" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <rect id="Rectangle-9" x="0" y="0" width="18" height="18"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

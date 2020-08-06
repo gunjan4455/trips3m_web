@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/quote/agentCard/AgentCard.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/quote/agentCard</a> AgentCard.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">66.67% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>6/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">16.67% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>1/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">16.67% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">66.67% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>6/9</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router';
+&nbsp;
+import { CallUs, ChatIcon } from 'helpers/Icon/Icon';
+import { ORGANISM_CLICKED } from 'actions/segmentEvents';
+import RequestCallback from 'modules/requestCallback';
+import AgentChatButton from 'modules/quote/shared/AgentChatButton';
+import BasicInfo from './components/BasicInfo';
+import DiscountOffer from 'modules/discountEngine';
+import AgentDetail from './components/AgentDetail';
+&nbsp;
+const AgentCard = ({
+                     tripId, quoteId, agent, userDetails, destination, tripStatus, priceInformation,
+                     discountInformation, downloadQuote, showRoster, trackSegment
+                   }) =&gt; {
+&nbsp;
+  const trackSegmentEvent = <span class="fstat-no" title="function not covered" >(e</span>vent, section, object, cta) =&gt; {
+<span class="cstat-no" title="statement not covered" >    trackSegment({</span>
+      event,
+      section: section || 'Agent',
+      object: object || `Agent/${agent.id}`,
+      cta
+    });
+  };
+&nbsp;
+  const hasDiscountApplied = discountInformation.discount &gt; 0;
+&nbsp;
+  return (&lt;div className="sbcw mt8 mb8"&gt;
+      &lt;div className="p15"&gt;
+        &lt;AgentDetail userDetails={userDetails} agent={agent} /&gt;
+        &lt;div className="mt15 flex alignCenter spaceBetween"&gt;
+          &lt;a href={`tel:${agent.phoneNumber}`} onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >trackSegmentEvent(ORGANISM_CLICKED, 'Agent', '', 'Call')}</span>
+             className="iblock flex alignCenter pfc3 fw7"&gt;
+            &lt;span className="input-24 mr8"&gt;&lt;CallUs /&gt;&lt;/span&gt;&lt;span className="pfc3"&gt;Call&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;RequestCallback /&gt;
+          &lt;Link to="" className="iblock flex alignCenter pfc3 fw7"&gt;
+            &lt;span className="input-24 mr8"&gt;&lt;ChatIcon /&gt;&lt;/span&gt;
+            &lt;AgentChatButton textClassName={'pfc3, fw7'} name="Message"
+                             handleChatClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >trackSegmentEvent(ORGANISM_CLICKED, 'Agent', '', 'Message')}</span> /&gt;
+          &lt;/Link&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;BasicInfo tripId={tripId} quoteId={quoteId} destination={destination}
+                 priceInformation={priceInformation} downloadQuote={downloadQuote}
+                 discountInformation={discountInformation} showRoster={showRoster}
+                 tripStatus={tripStatus} trackSegment={trackSegmentEvent} /&gt;
+&nbsp;
+      &lt;div className="pt8 sbc5" /&gt;
+      {
+        hasDiscountApplied
+          ? <span class="branch-0 cbranch-no" title="branch not covered" >&lt;DiscountOffer discountInformation={discountInformation}</span>
+                           tripId={tripId}
+                           renderAppliedCoupon={true} /&gt;
+          : null
+      }
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+AgentCard.propTypes = {
+  tripId: PropTypes.number.isRequired,
+  quoteId: PropTypes.number.isRequired,
+  agent: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    tripsSold: PropTypes.number.isRequired,
+    email: PropTypes.string.isRequired,
+    phoneNumber: PropTypes.string.isRequired,
+    imageUrl: PropTypes.string.isRequired,
+    star: PropTypes.number,
+    reviewsCount: PropTypes.number,
+    reviewLink: PropTypes.string
+  }),
+  userDetails: PropTypes.object.isRequired,
+  destination: PropTypes.string.isRequired,
+  tripStatus: PropTypes.string.isRequired,
+  priceInformation: PropTypes.object.isRequired,
+  discountInformation: PropTypes.object,
+  downloadQuote: PropTypes.func.isRequired,
+  showRoster: PropTypes.func,
+  trackSegment: PropTypes.func
+};
+&nbsp;
+AgentCard.defaultProps = {
+  agent: {
+    star: 0,
+    reviewsCount: 0,
+    reviewLink: ''
+  },
+  discountInformation: {},
+  showRoster: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  trackSegment: <span class="fstat-no" title="function not covered" >()</span> =&gt; {}
+};
+&nbsp;
+export default AgentCard;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

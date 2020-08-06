@@ -1,0 +1,109 @@
+:local {
+  .hotelRoomCard {
+    overflow: hidden;
+    border-radius: 4px;
+    background: #efefef;
+    min-width: 72px;
+    max-width: 72px;
+    height: 40px;
+
+    .selectedRoom {
+      min-width: 72px;
+      max-width: 72px;
+      height: 40px;
+      overflow: hidden;
+      border-radius: 4px;
+      background-color: #999999; // removed after execution
+    }
+  }
+
+  .amentiesCard {
+    ul {
+      li {
+        span {
+          width: 22px;
+          height: 21px;
+          background-color: #999999; // removed after execution
+        }
+        @media screen and (max-width: 320px) {
+          .amentiesName{
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .details {
+    max-width: 200px;
+  }
+
+  .priceDetail {
+    min-width: 125px;
+  }
+
+  .roomCount {
+    li {
+      width: 8px;
+      height: 12px;
+    }
+  }
+
+  .selectedRoomBtn {
+    min-width: 120px;
+    max-width: 120px;
+  }
+
+  .numberFormatter {
+    [class*='numberCount'] {
+      height: 32px;
+      width: 120px;
+      border: 1px solid #ff3e39;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+
+      input {
+        height: 100%;
+        border: 0;
+        color: #3e3e3e;
+      }
+      input ~ div {
+        height: 30px;
+        width: 30px;
+        left: 0;
+        padding: 0;
+        background: rgba(255, 255, 255, 0);
+        &:after {
+          width: 13px;
+          background: #ff3e39;
+          transform: translate(-50%, -50%);
+          left: 50%;
+          top: 50%;
+        }
+      }
+      input + div + div {
+        right: 0;
+        left: auto;
+        &:before {
+          content: "+";
+          color: #ff3e39;
+          background: rgba(255, 255, 255, 0);
+          font-size: 28px;
+          font-weight: 100;
+          text-align: center;
+          height: auto;
+          width: auto;
+          top: 50%;
+          left: auto;
+          right: 8px;
+          transform: translateY(-50%);
+          margin-top: -2px;
+        }
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1819 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Request
+    handleSubmit={[MockFunction]}
+    isCancelledTrip={false}
+    isConvertedTrip={false}
+    preferences={
+      Object {
+        "adults": 4,
+        "children": 0,
+        "days": 7,
+        "departureCity": "Chennai",
+        "departureDate": "2019-08-19",
+        "destination": "Singapore",
+        "nights": 6,
+        "tripDays": 7,
+        "tripStage": 3,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex alignCenter spaceBetween mb15"
+        >
+          <h6
+            className="flex alignCenter f16 fw9 m0 flexFull"
+          >
+            <span
+              className="block input-24 mr8"
+            >
+              <IconSvg />
+            </span>
+            <span
+              className="sfc6 at_headingRequest"
+            >
+              Request
+            </span>
+          </h6>
+          <ModalComponent
+            customClass=""
+            customCloseTrigger={false}
+            disabled={false}
+            fullView={true}
+            hasCustomClose={true}
+            hasNoClose={false}
+            isTriggerFullView={false}
+            isWhiteIcon={false}
+            onAfterModalOpen={[Function]}
+            onRequestCloseCustom={[Function]}
+            trigger={
+              <span
+                className="sfc1 f14 fw7 at_edit2"
+                onClick={[Function]}
+              >
+                Edit
+              </span>
+            }
+          >
+            <ReduxForm
+              initialValues={
+                Object {
+                  "adults": 4,
+                  "children": 0,
+                  "days": 7,
+                  "departureCity": "Chennai",
+                  "departureDate": "2019-08-19",
+                  "destination": "Singapore",
+                  "nights": 6,
+                  "tripDays": 7,
+                  "tripStage": 3,
+                }
+              }
+              onSubmit={[Function]}
+            />
+          </ModalComponent>
+        </div>,
+        <div
+          className="flex flexWrap"
+        >
+          <ForwardRef(render)
+            className="flexFull mb15 break-word"
+          >
+            <p>
+              Destination
+            </p>
+            <p
+              className="at_destination"
+            >
+              Singapore
+            </p>
+          </ForwardRef(render)>
+          <ForwardRef(render)
+            className="flexFull mb15 break-word"
+          >
+            <p>
+              Departure City
+            </p>
+            <p
+              className="at_departureCity"
+            >
+              Chennai
+            </p>
+          </ForwardRef(render)>
+          <ForwardRef(render)
+            className="flexFull mb15 break-word"
+          >
+            <p>
+              Departure Date
+            </p>
+            <p
+              className="at_departureDate"
+            >
+              19 Aug 2019
+            </p>
+          </ForwardRef(render)>
+          <ForwardRef(render)
+            className="flexFull mb15 break-word"
+          >
+            <p>
+              Duration
+            </p>
+            <p
+              className="at_duration"
+            >
+              7 Days & 6 Nights
+            </p>
+          </ForwardRef(render)>
+          <ForwardRef(render)
+            className="flexFull mb15 break-word"
+          >
+            <p>
+              Travelers
+            </p>
+            <p
+              className="at_travelers"
+            >
+              4 Adults & 0 Children
+            </p>
+          </ForwardRef(render)>
+          <ForwardRef(render)
+            className="flexFull mb15 break-word"
+          >
+            <p>
+              Trip Planning Stage
+            </p>
+            <p
+              className="at_tripStage"
+            >
+              I’m definitely going. I know which place… Let’s go!
+            </p>
+          </ForwardRef(render)>
+        </div>,
+      ],
+      "className": "sbcw p15 pb0 at_request",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h6
+              className="flex alignCenter f16 fw9 m0 flexFull"
+            >
+              <span
+                className="block input-24 mr8"
+              >
+                <IconSvg />
+              </span>
+              <span
+                className="sfc6 at_headingRequest"
+              >
+                Request
+              </span>
+            </h6>,
+            <ModalComponent
+              customClass=""
+              customCloseTrigger={false}
+              disabled={false}
+              fullView={true}
+              hasCustomClose={true}
+              hasNoClose={false}
+              isTriggerFullView={false}
+              isWhiteIcon={false}
+              onAfterModalOpen={[Function]}
+              onRequestCloseCustom={[Function]}
+              trigger={
+                <span
+                  className="sfc1 f14 fw7 at_edit2"
+                  onClick={[Function]}
+                >
+                  Edit
+                </span>
+              }
+            >
+              <ReduxForm
+                initialValues={
+                  Object {
+                    "adults": 4,
+                    "children": 0,
+                    "days": 7,
+                    "departureCity": "Chennai",
+                    "departureDate": "2019-08-19",
+                    "destination": "Singapore",
+                    "nights": 6,
+                    "tripDays": 7,
+                    "tripStage": 3,
+                  }
+                }
+                onSubmit={[Function]}
+              />
+            </ModalComponent>,
+          ],
+          "className": "flex alignCenter spaceBetween mb15",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="block input-24 mr8"
+                >
+                  <IconSvg />
+                </span>,
+                <span
+                  className="sfc6 at_headingRequest"
+                >
+                  Request
+                </span>,
+              ],
+              "className": "flex alignCenter f16 fw9 m0 flexFull",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <IconSvg />,
+                  "className": "block input-24 mr8",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Request",
+                  "className": "sfc6 at_headingRequest",
+                },
+                "ref": null,
+                "rendered": "Request",
+                "type": "span",
+              },
+            ],
+            "type": "h6",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <ReduxForm
+                initialValues={
+                  Object {
+                    "adults": 4,
+                    "children": 0,
+                    "days": 7,
+                    "departureCity": "Chennai",
+                    "departureDate": "2019-08-19",
+                    "destination": "Singapore",
+                    "nights": 6,
+                    "tripDays": 7,
+                    "tripStage": 3,
+                  }
+                }
+                onSubmit={[Function]}
+              />,
+              "customClass": "",
+              "customCloseTrigger": false,
+              "disabled": false,
+              "fullView": true,
+              "hasCustomClose": true,
+              "hasNoClose": false,
+              "isTriggerFullView": false,
+              "isWhiteIcon": false,
+              "onAfterModalOpen": [Function],
+              "onRequestCloseCustom": [Function],
+              "trigger": <span
+                className="sfc1 f14 fw7 at_edit2"
+                onClick={[Function]}
+              >
+                Edit
+              </span>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "errors": undefined,
+                "initialValues": Object {
+                  "adults": 4,
+                  "children": 0,
+                  "days": 7,
+                  "departureCity": "Chennai",
+                  "departureDate": "2019-08-19",
+                  "destination": "Singapore",
+                  "nights": 6,
+                  "tripDays": 7,
+                  "tripStage": 3,
+                },
+                "onSubmit": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Destination
+              </p>
+              <p
+                className="at_destination"
+              >
+                Singapore
+              </p>
+            </ForwardRef(render)>,
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Departure City
+              </p>
+              <p
+                className="at_departureCity"
+              >
+                Chennai
+              </p>
+            </ForwardRef(render)>,
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Departure Date
+              </p>
+              <p
+                className="at_departureDate"
+              >
+                19 Aug 2019
+              </p>
+            </ForwardRef(render)>,
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Duration
+              </p>
+              <p
+                className="at_duration"
+              >
+                7 Days & 6 Nights
+              </p>
+            </ForwardRef(render)>,
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Travelers
+              </p>
+              <p
+                className="at_travelers"
+              >
+                4 Adults & 0 Children
+              </p>
+            </ForwardRef(render)>,
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Trip Planning Stage
+              </p>
+              <p
+                className="at_tripStage"
+              >
+                I’m definitely going. I know which place… Let’s go!
+              </p>
+            </ForwardRef(render)>,
+          ],
+          "className": "flex flexWrap",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Destination
+                </p>,
+                <p
+                  className="at_destination"
+                >
+                  Singapore
+                </p>,
+              ],
+              "className": "flexFull mb15 break-word",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Destination",
+                },
+                "ref": null,
+                "rendered": "Destination",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Singapore",
+                  "className": "at_destination",
+                },
+                "ref": null,
+                "rendered": "Singapore",
+                "type": "p",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "fontSize": "14px",
+                    "lineHeight": "20px",
+                    "margin": "0",
+                  },
+                  "& p:first-child": Object {
+                    "color": "#b2b2b2",
+                  },
+                  "& p:last-child": Object {
+                    "color": "#3E3E3E",
+                  },
+                  ":nth-child(even)": Object {
+                    "paddingLeft": "12px",
+                  },
+                  ":nth-child(odd)": Object {
+                    "paddingRight": "12px",
+                  },
+                  "maxWidth": "50%",
+                  "minWidth": "50%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Departure City
+                </p>,
+                <p
+                  className="at_departureCity"
+                >
+                  Chennai
+                </p>,
+              ],
+              "className": "flexFull mb15 break-word",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Departure City",
+                },
+                "ref": null,
+                "rendered": "Departure City",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Chennai",
+                  "className": "at_departureCity",
+                },
+                "ref": null,
+                "rendered": "Chennai",
+                "type": "p",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "fontSize": "14px",
+                    "lineHeight": "20px",
+                    "margin": "0",
+                  },
+                  "& p:first-child": Object {
+                    "color": "#b2b2b2",
+                  },
+                  "& p:last-child": Object {
+                    "color": "#3E3E3E",
+                  },
+                  ":nth-child(even)": Object {
+                    "paddingLeft": "12px",
+                  },
+                  ":nth-child(odd)": Object {
+                    "paddingRight": "12px",
+                  },
+                  "maxWidth": "50%",
+                  "minWidth": "50%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Departure Date
+                </p>,
+                <p
+                  className="at_departureDate"
+                >
+                  19 Aug 2019
+                </p>,
+              ],
+              "className": "flexFull mb15 break-word",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Departure Date",
+                },
+                "ref": null,
+                "rendered": "Departure Date",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "19 Aug 2019",
+                  "className": "at_departureDate",
+                },
+                "ref": null,
+                "rendered": "19 Aug 2019",
+                "type": "p",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "fontSize": "14px",
+                    "lineHeight": "20px",
+                    "margin": "0",
+                  },
+                  "& p:first-child": Object {
+                    "color": "#b2b2b2",
+                  },
+                  "& p:last-child": Object {
+                    "color": "#3E3E3E",
+                  },
+                  ":nth-child(even)": Object {
+                    "paddingLeft": "12px",
+                  },
+                  ":nth-child(odd)": Object {
+                    "paddingRight": "12px",
+                  },
+                  "maxWidth": "50%",
+                  "minWidth": "50%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Duration
+                </p>,
+                <p
+                  className="at_duration"
+                >
+                  7 Days & 6 Nights
+                </p>,
+              ],
+              "className": "flexFull mb15 break-word",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Duration",
+                },
+                "ref": null,
+                "rendered": "Duration",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "7 Days & 6 Nights",
+                  "className": "at_duration",
+                },
+                "ref": null,
+                "rendered": "7 Days & 6 Nights",
+                "type": "p",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "fontSize": "14px",
+                    "lineHeight": "20px",
+                    "margin": "0",
+                  },
+                  "& p:first-child": Object {
+                    "color": "#b2b2b2",
+                  },
+                  "& p:last-child": Object {
+                    "color": "#3E3E3E",
+                  },
+                  ":nth-child(even)": Object {
+                    "paddingLeft": "12px",
+                  },
+                  ":nth-child(odd)": Object {
+                    "paddingRight": "12px",
+                  },
+                  "maxWidth": "50%",
+                  "minWidth": "50%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Travelers
+                </p>,
+                <p
+                  className="at_travelers"
+                >
+                  4 Adults & 0 Children
+                </p>,
+              ],
+              "className": "flexFull mb15 break-word",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Travelers",
+                },
+                "ref": null,
+                "rendered": "Travelers",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "4 Adults & 0 Children",
+                  "className": "at_travelers",
+                },
+                "ref": null,
+                "rendered": "4 Adults & 0 Children",
+                "type": "p",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "fontSize": "14px",
+                    "lineHeight": "20px",
+                    "margin": "0",
+                  },
+                  "& p:first-child": Object {
+                    "color": "#b2b2b2",
+                  },
+                  "& p:last-child": Object {
+                    "color": "#3E3E3E",
+                  },
+                  ":nth-child(even)": Object {
+                    "paddingLeft": "12px",
+                  },
+                  ":nth-child(odd)": Object {
+                    "paddingRight": "12px",
+                  },
+                  "maxWidth": "50%",
+                  "minWidth": "50%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p>
+                  Trip Planning Stage
+                </p>,
+                <p
+                  className="at_tripStage"
+                >
+                  I’m definitely going. I know which place… Let’s go!
+                </p>,
+              ],
+              "className": "flexFull mb15 break-word",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Trip Planning Stage",
+                },
+                "ref": null,
+                "rendered": "Trip Planning Stage",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "I’m definitely going. I know which place… Let’s go!",
+                  "className": "at_tripStage",
+                },
+                "ref": null,
+                "rendered": "I’m definitely going. I know which place… Let’s go!",
+                "type": "p",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "fontSize": "14px",
+                    "lineHeight": "20px",
+                    "margin": "0",
+                  },
+                  "& p:first-child": Object {
+                    "color": "#b2b2b2",
+                  },
+                  "& p:last-child": Object {
+                    "color": "#3E3E3E",
+                  },
+                  ":nth-child(even)": Object {
+                    "paddingLeft": "12px",
+                  },
+                  ":nth-child(odd)": Object {
+                    "paddingRight": "12px",
+                  },
+                  "maxWidth": "50%",
+                  "minWidth": "50%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex alignCenter spaceBetween mb15"
+          >
+            <h6
+              className="flex alignCenter f16 fw9 m0 flexFull"
+            >
+              <span
+                className="block input-24 mr8"
+              >
+                <IconSvg />
+              </span>
+              <span
+                className="sfc6 at_headingRequest"
+              >
+                Request
+              </span>
+            </h6>
+            <ModalComponent
+              customClass=""
+              customCloseTrigger={false}
+              disabled={false}
+              fullView={true}
+              hasCustomClose={true}
+              hasNoClose={false}
+              isTriggerFullView={false}
+              isWhiteIcon={false}
+              onAfterModalOpen={[Function]}
+              onRequestCloseCustom={[Function]}
+              trigger={
+                <span
+                  className="sfc1 f14 fw7 at_edit2"
+                  onClick={[Function]}
+                >
+                  Edit
+                </span>
+              }
+            >
+              <ReduxForm
+                initialValues={
+                  Object {
+                    "adults": 4,
+                    "children": 0,
+                    "days": 7,
+                    "departureCity": "Chennai",
+                    "departureDate": "2019-08-19",
+                    "destination": "Singapore",
+                    "nights": 6,
+                    "tripDays": 7,
+                    "tripStage": 3,
+                  }
+                }
+                onSubmit={[Function]}
+              />
+            </ModalComponent>
+          </div>,
+          <div
+            className="flex flexWrap"
+          >
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Destination
+              </p>
+              <p
+                className="at_destination"
+              >
+                Singapore
+              </p>
+            </ForwardRef(render)>
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Departure City
+              </p>
+              <p
+                className="at_departureCity"
+              >
+                Chennai
+              </p>
+            </ForwardRef(render)>
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Departure Date
+              </p>
+              <p
+                className="at_departureDate"
+              >
+                19 Aug 2019
+              </p>
+            </ForwardRef(render)>
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Duration
+              </p>
+              <p
+                className="at_duration"
+              >
+                7 Days & 6 Nights
+              </p>
+            </ForwardRef(render)>
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Travelers
+              </p>
+              <p
+                className="at_travelers"
+              >
+                4 Adults & 0 Children
+              </p>
+            </ForwardRef(render)>
+            <ForwardRef(render)
+              className="flexFull mb15 break-word"
+            >
+              <p>
+                Trip Planning Stage
+              </p>
+              <p
+                className="at_tripStage"
+              >
+                I’m definitely going. I know which place… Let’s go!
+              </p>
+            </ForwardRef(render)>
+          </div>,
+        ],
+        "className": "sbcw p15 pb0 at_request",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h6
+                className="flex alignCenter f16 fw9 m0 flexFull"
+              >
+                <span
+                  className="block input-24 mr8"
+                >
+                  <IconSvg />
+                </span>
+                <span
+                  className="sfc6 at_headingRequest"
+                >
+                  Request
+                </span>
+              </h6>,
+              <ModalComponent
+                customClass=""
+                customCloseTrigger={false}
+                disabled={false}
+                fullView={true}
+                hasCustomClose={true}
+                hasNoClose={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={
+                  <span
+                    className="sfc1 f14 fw7 at_edit2"
+                    onClick={[Function]}
+                  >
+                    Edit
+                  </span>
+                }
+              >
+                <ReduxForm
+                  initialValues={
+                    Object {
+                      "adults": 4,
+                      "children": 0,
+                      "days": 7,
+                      "departureCity": "Chennai",
+                      "departureDate": "2019-08-19",
+                      "destination": "Singapore",
+                      "nights": 6,
+                      "tripDays": 7,
+                      "tripStage": 3,
+                    }
+                  }
+                  onSubmit={[Function]}
+                />
+              </ModalComponent>,
+            ],
+            "className": "flex alignCenter spaceBetween mb15",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="block input-24 mr8"
+                  >
+                    <IconSvg />
+                  </span>,
+                  <span
+                    className="sfc6 at_headingRequest"
+                  >
+                    Request
+                  </span>,
+                ],
+                "className": "flex alignCenter f16 fw9 m0 flexFull",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "block input-24 mr8",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Request",
+                    "className": "sfc6 at_headingRequest",
+                  },
+                  "ref": null,
+                  "rendered": "Request",
+                  "type": "span",
+                },
+              ],
+              "type": "h6",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <ReduxForm
+                  initialValues={
+                    Object {
+                      "adults": 4,
+                      "children": 0,
+                      "days": 7,
+                      "departureCity": "Chennai",
+                      "departureDate": "2019-08-19",
+                      "destination": "Singapore",
+                      "nights": 6,
+                      "tripDays": 7,
+                      "tripStage": 3,
+                    }
+                  }
+                  onSubmit={[Function]}
+                />,
+                "customClass": "",
+                "customCloseTrigger": false,
+                "disabled": false,
+                "fullView": true,
+                "hasCustomClose": true,
+                "hasNoClose": false,
+                "isTriggerFullView": false,
+                "isWhiteIcon": false,
+                "onAfterModalOpen": [Function],
+                "onRequestCloseCustom": [Function],
+                "trigger": <span
+                  className="sfc1 f14 fw7 at_edit2"
+                  onClick={[Function]}
+                >
+                  Edit
+                </span>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "errors": undefined,
+                  "initialValues": Object {
+                    "adults": 4,
+                    "children": 0,
+                    "days": 7,
+                    "departureCity": "Chennai",
+                    "departureDate": "2019-08-19",
+                    "destination": "Singapore",
+                    "nights": 6,
+                    "tripDays": 7,
+                    "tripStage": 3,
+                  },
+                  "onSubmit": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef(render)
+                className="flexFull mb15 break-word"
+              >
+                <p>
+                  Destination
+                </p>
+                <p
+                  className="at_destination"
+                >
+                  Singapore
+                </p>
+              </ForwardRef(render)>,
+              <ForwardRef(render)
+                className="flexFull mb15 break-word"
+              >
+                <p>
+                  Departure City
+                </p>
+                <p
+                  className="at_departureCity"
+                >
+                  Chennai
+                </p>
+              </ForwardRef(render)>,
+              <ForwardRef(render)
+                className="flexFull mb15 break-word"
+              >
+                <p>
+                  Departure Date
+                </p>
+                <p
+                  className="at_departureDate"
+                >
+                  19 Aug 2019
+                </p>
+              </ForwardRef(render)>,
+              <ForwardRef(render)
+                className="flexFull mb15 break-word"
+              >
+                <p>
+                  Duration
+                </p>
+                <p
+                  className="at_duration"
+                >
+                  7 Days & 6 Nights
+                </p>
+              </ForwardRef(render)>,
+              <ForwardRef(render)
+                className="flexFull mb15 break-word"
+              >
+                <p>
+                  Travelers
+                </p>
+                <p
+                  className="at_travelers"
+                >
+                  4 Adults & 0 Children
+                </p>
+              </ForwardRef(render)>,
+              <ForwardRef(render)
+                className="flexFull mb15 break-word"
+              >
+                <p>
+                  Trip Planning Stage
+                </p>
+                <p
+                  className="at_tripStage"
+                >
+                  I’m definitely going. I know which place… Let’s go!
+                </p>
+              </ForwardRef(render)>,
+            ],
+            "className": "flex flexWrap",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Destination
+                  </p>,
+                  <p
+                    className="at_destination"
+                  >
+                    Singapore
+                  </p>,
+                ],
+                "className": "flexFull mb15 break-word",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Destination",
+                  },
+                  "ref": null,
+                  "rendered": "Destination",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Singapore",
+                    "className": "at_destination",
+                  },
+                  "ref": null,
+                  "rendered": "Singapore",
+                  "type": "p",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& p": Object {
+                      "fontSize": "14px",
+                      "lineHeight": "20px",
+                      "margin": "0",
+                    },
+                    "& p:first-child": Object {
+                      "color": "#b2b2b2",
+                    },
+                    "& p:last-child": Object {
+                      "color": "#3E3E3E",
+                    },
+                    ":nth-child(even)": Object {
+                      "paddingLeft": "12px",
+                    },
+                    ":nth-child(odd)": Object {
+                      "paddingRight": "12px",
+                    },
+                    "maxWidth": "50%",
+                    "minWidth": "50%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Departure City
+                  </p>,
+                  <p
+                    className="at_departureCity"
+                  >
+                    Chennai
+                  </p>,
+                ],
+                "className": "flexFull mb15 break-word",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Departure City",
+                  },
+                  "ref": null,
+                  "rendered": "Departure City",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Chennai",
+                    "className": "at_departureCity",
+                  },
+                  "ref": null,
+                  "rendered": "Chennai",
+                  "type": "p",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& p": Object {
+                      "fontSize": "14px",
+                      "lineHeight": "20px",
+                      "margin": "0",
+                    },
+                    "& p:first-child": Object {
+                      "color": "#b2b2b2",
+                    },
+                    "& p:last-child": Object {
+                      "color": "#3E3E3E",
+                    },
+                    ":nth-child(even)": Object {
+                      "paddingLeft": "12px",
+                    },
+                    ":nth-child(odd)": Object {
+                      "paddingRight": "12px",
+                    },
+                    "maxWidth": "50%",
+                    "minWidth": "50%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Departure Date
+                  </p>,
+                  <p
+                    className="at_departureDate"
+                  >
+                    19 Aug 2019
+                  </p>,
+                ],
+                "className": "flexFull mb15 break-word",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Departure Date",
+                  },
+                  "ref": null,
+                  "rendered": "Departure Date",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "19 Aug 2019",
+                    "className": "at_departureDate",
+                  },
+                  "ref": null,
+                  "rendered": "19 Aug 2019",
+                  "type": "p",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& p": Object {
+                      "fontSize": "14px",
+                      "lineHeight": "20px",
+                      "margin": "0",
+                    },
+                    "& p:first-child": Object {
+                      "color": "#b2b2b2",
+                    },
+                    "& p:last-child": Object {
+                      "color": "#3E3E3E",
+                    },
+                    ":nth-child(even)": Object {
+                      "paddingLeft": "12px",
+                    },
+                    ":nth-child(odd)": Object {
+                      "paddingRight": "12px",
+                    },
+                    "maxWidth": "50%",
+                    "minWidth": "50%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Duration
+                  </p>,
+                  <p
+                    className="at_duration"
+                  >
+                    7 Days & 6 Nights
+                  </p>,
+                ],
+                "className": "flexFull mb15 break-word",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Duration",
+                  },
+                  "ref": null,
+                  "rendered": "Duration",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "7 Days & 6 Nights",
+                    "className": "at_duration",
+                  },
+                  "ref": null,
+                  "rendered": "7 Days & 6 Nights",
+                  "type": "p",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& p": Object {
+                      "fontSize": "14px",
+                      "lineHeight": "20px",
+                      "margin": "0",
+                    },
+                    "& p:first-child": Object {
+                      "color": "#b2b2b2",
+                    },
+                    "& p:last-child": Object {
+                      "color": "#3E3E3E",
+                    },
+                    ":nth-child(even)": Object {
+                      "paddingLeft": "12px",
+                    },
+                    ":nth-child(odd)": Object {
+                      "paddingRight": "12px",
+                    },
+                    "maxWidth": "50%",
+                    "minWidth": "50%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Travelers
+                  </p>,
+                  <p
+                    className="at_travelers"
+                  >
+                    4 Adults & 0 Children
+                  </p>,
+                ],
+                "className": "flexFull mb15 break-word",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Travelers",
+                  },
+                  "ref": null,
+                  "rendered": "Travelers",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "4 Adults & 0 Children",
+                    "className": "at_travelers",
+                  },
+                  "ref": null,
+                  "rendered": "4 Adults & 0 Children",
+                  "type": "p",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& p": Object {
+                      "fontSize": "14px",
+                      "lineHeight": "20px",
+                      "margin": "0",
+                    },
+                    "& p:first-child": Object {
+                      "color": "#b2b2b2",
+                    },
+                    "& p:last-child": Object {
+                      "color": "#3E3E3E",
+                    },
+                    ":nth-child(even)": Object {
+                      "paddingLeft": "12px",
+                    },
+                    ":nth-child(odd)": Object {
+                      "paddingRight": "12px",
+                    },
+                    "maxWidth": "50%",
+                    "minWidth": "50%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <p>
+                    Trip Planning Stage
+                  </p>,
+                  <p
+                    className="at_tripStage"
+                  >
+                    I’m definitely going. I know which place… Let’s go!
+                  </p>,
+                ],
+                "className": "flexFull mb15 break-word",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Trip Planning Stage",
+                  },
+                  "ref": null,
+                  "rendered": "Trip Planning Stage",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "I’m definitely going. I know which place… Let’s go!",
+                    "className": "at_tripStage",
+                  },
+                  "ref": null,
+                  "rendered": "I’m definitely going. I know which place… Let’s go!",
+                  "type": "p",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& p": Object {
+                      "fontSize": "14px",
+                      "lineHeight": "20px",
+                      "margin": "0",
+                    },
+                    "& p:first-child": Object {
+                      "color": "#b2b2b2",
+                    },
+                    "& p:last-child": Object {
+                      "color": "#3E3E3E",
+                    },
+                    ":nth-child(even)": Object {
+                      "paddingLeft": "12px",
+                    },
+                    ":nth-child(odd)": Object {
+                      "paddingRight": "12px",
+                    },
+                    "maxWidth": "50%",
+                    "minWidth": "50%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

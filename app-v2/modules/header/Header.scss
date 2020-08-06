@@ -1,0 +1,363 @@
+// app-shell css part
+.tt-logo-container {
+  width: 140px;
+  height: 18px;
+  position: relative;
+  & svg {
+    width: 140px;
+    height: 18px;
+  }
+}
+header {
+  position: relative;
+  box-shadow: none;
+}
+.side-nav-con {
+  padding: 0;
+  background: #FFFFFF;
+  width: 280px;
+}
+.nav-con-links {
+  list-style: none;
+  padding: 24px 0;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #D4D4D4;
+  li {
+    display: block;
+  }
+  a {
+    color:#2B2B2B;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+  }
+  a:hover{
+    color:#2B2B2B;
+    text-decoration: none;
+  }
+}
+.header-con {
+  background: #20A397;
+  padding: 12px 10px;
+  position: relative;
+}
+.header-con-transparent {
+  background: transparent;
+  padding: 12px 10px;
+  position: relative;
+}
+.header-con-shadow {
+  box-shadow: none;
+}
+.header-con-first {
+  height: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.burger-menu {
+  width: 20px;
+  height: 16px;
+  float:left;
+  padding-top: 2px;
+}
+.burger-menu .sidenav-link{
+  width: 20px;
+  height: 14px;
+  display: block;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  position: relative;
+}
+.burger-menu .sidenav-link::before {
+  height: 0;
+  margin-top: -1px;
+  border-bottom: 1px solid #FFFFFF;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: '';
+}
+.tt-logo {
+  width: 140px;
+  float:left;
+  margin-left: 16px;
+}
+.add-to-screen {
+  width: 14px;
+  height: 20px;
+}
+.add-to-home {
+  border: 1px solid #FFFFFF;
+  height: 20px;
+  line-height: 18px;
+  width: 14px;
+  display: block;
+  border-radius: 2px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+.add-to-home::before {
+  content: '+';
+}
+.add-to-home-button {
+  display: none;
+}
+.add-to-home-button + label {
+  display: block;
+  float: right;
+  width: 14px;
+  height: 20px;
+}
+.add-to-home-info {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 12;
+  display: none;
+  overflow: hidden;
+}
+.add-to-home-button:checked + label .add-to-home-info{
+  display: block;
+}
+.addtohomeoverlay{
+  background-color:#20A397;
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    text-align:center;
+    position: relative;
+    top: 10px;
+}
+.search-header-large {
+  height: 48px;
+  background: #FFFFFF;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 2px;
+  padding: 16px 50px 16px 16px;
+  border: 0 none;
+}
+.search-header {border-radius: 2px; position: relative; margin-top: 0px; height: 48px;}
+.search-header::after {
+  content:'';
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: absolute;
+  right: 24px;
+  top: 16px;
+  border:1px solid #7F7F7F;
+}
+.search-header::before {
+  content: '';
+  width: 1px;
+  height: 10px;
+  position: absolute;
+  right: 22px;
+  background: #7F7F7F;
+  transform: rotate(-44deg);
+  top: 28px;
+}
+.search-header-common {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  float: right;
+  background-color: transparent;
+  border: 0 none;
+  padding-top: 22px;
+  overflow: hidden;
+}
+.search-header-common::after {
+  content: '';
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      position: absolute;
+      right: 6PX;
+      top: 0;
+      border: 1px solid #FFFFFF;
+}
+.search-header-common::before {
+  content: '';
+width: 1px;
+height: 10px;
+position: absolute;
+right: 5px;
+background: #FFFFFF;
+transform: rotate(-44deg);
+top: 12px;
+}
+.header-title {
+  background: #00786c;
+  padding: 12px 15px;
+}
+.header-title-p {
+  display: flex;
+}
+.back-arrow {
+width: 30px;
+min-width: 20px;
+height: 20px;
+float: left;
+display:  block;
+margin-right: 2px;
+position: relative;
+padding: 10px;
+text-indent: -100px;
+overflow: hidden;
+background-color: transparent;
+border: 0 none;
+}
+.back-arrow::before {
+content: '';
+width: 10px;
+height: 1px;
+background: #fff;
+transform: rotate(-45deg);
+display: block;
+position: absolute;
+top: 6px;
+left: 5px;
+}
+.back-arrow::after {
+content: '';
+  display: block;
+  width: 10px;
+  height: 1px;
+  background: #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 13px;
+  left: 5px;
+}
+.burger-menu-input {
+  display: none;
+}
+.burger-menu-input + label {
+  display: block;
+}
+.sidenav-container {
+  width: 280px;
+  background: #ffffff;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 21;
+  position: fixed;
+  display: none;
+  overflow: auto;
+}
+.sidenav-blacklayer {
+  z-index: 20;
+  position: fixed;
+  background: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+  left:0;
+  top: 0;
+  display: none;
+}
+.burger-menu-input:checked + label .sidenav-container , .burger-menu-input:checked + label .sidenav-blacklayer{
+  display: block;
+}
+.tap-tag-addtohome{line-height:24px;
+padding-right:6px;}
+// app-shell css ends here
+.down-arrow-destination {
+  width: 12px;
+  height: 6px;
+  position: relative;
+  margin-left: 20px;
+  display: inline-block;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      background: #FFFFFF;
+      height: 1px;
+      width: 7px;
+      top: 2px;
+    }
+    &:before {
+      transform: rotate(45deg);
+      left: 0;
+    }
+    &:after {
+      transform: rotate(135deg);
+      right: 0;
+    }
+}
+.category-list {
+  left: 0;
+  top: 90px;
+  z-index: 11;
+  ul {
+    margin:0;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+    background: #FFFFFF;
+    li {
+      list-style: none;
+      a {
+        color: #2B2B2B;
+        display: block;
+        padding: 15px;
+        &:hover, &:active, &:visited, &:focus {
+          color: #2B2B2B;
+        }
+        &.selected-category {
+          color: #FE5246;
+        }
+      }
+    }
+  }
+  .fix-layer-suggestion {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 90px;
+    left: 0;
+    z-index: 1;
+  }
+}
+.button-drop-category {
+  button {
+    background: transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+    min-width: 180px;
+  }
+}
+.transparent-cut {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -2015px;
+  right: -2015px;
+  background: transparent;
+  border-radius: 100%;
+  box-sizing: content-box;
+  border: 2000px solid #000;
+  opacity: 0.95;
+}
+.header-title .share-logo-right a {
+  height: 25px;
+  width: 25px;
+  display: block;
+}
+
+.homePage .header-con-transparent {
+  padding: 16px 10px;
+}
+.homePage .tt-logo {
+  margin-left: 0;
+}

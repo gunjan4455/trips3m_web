@@ -1,0 +1,920 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Itinerary Details Render Correctly Should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItineraryCard
+    day={2}
+    item={
+      Object {
+        "description": "A representative will meet and take you to you to your hotel.",
+        "eventTime": "15:35 - India Standard Time - 2 hours",
+        "imagesUrl": Array [
+          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+        ],
+        "order": "1",
+        "sectionType": "cab",
+        "title": "Private Transfer from Airport to Hotel",
+      }
+    }
+    trackSegmentEvent={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="input-24 block absolute l0 t5"
+        >
+          <IconSvg />
+        </span>,
+        <div
+          className="pl15"
+        >
+          <h4
+            className="f16 fw9 mb4"
+          >
+            Private Transfer from Airport to Hotel
+          </h4>
+          <p
+            className="f12 pfc4 mb8 at_eventTime"
+          >
+            15:35 - India Standard Time - 2 hours
+          </p>
+          <div
+            className="at_readMore"
+            onClick={[Function]}
+          >
+            <ShowMore
+              defaultOpen={false}
+              isDefaultShowMore={true}
+              moreText=""
+              showLessText="Read Less"
+              showMoreText="Read More"
+              trackSegment={[Function]}
+              wrapText={
+                Array [
+                  <span>
+                    A representative will meet and take you to you to your hotel.
+                  </span>,
+                ]
+              }
+            />
+          </div>
+          <ForwardRef(render)
+            className="row row- relative mt15 mb8 overflowh"
+          >
+            <Swiper
+              isFullWidthSwiper={false}
+              isSmallSwiper={false}
+              loadOnDocumentReady={false}
+              overflow="hidden"
+              rebuildOnUpdate={true}
+              showLoader={false}
+              slideClass="slide"
+              slidesPerView="auto"
+              spaceBetween={8}
+              ssrAnimation={Object {}}
+            >
+              <ItinerarySlider
+                images={
+                  Array [
+                    Object {
+                      "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                    },
+                    Object {
+                      "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                    },
+                  ]
+                }
+                imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+              />
+              <ItinerarySlider
+                images={
+                  Array [
+                    Object {
+                      "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                    },
+                    Object {
+                      "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                    },
+                  ]
+                }
+                imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+              />
+            </Swiper>
+          </ForwardRef(render)>
+        </div>,
+      ],
+      "className": "relative pl24",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "input-24 block absolute l0 t5",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4
+              className="f16 fw9 mb4"
+            >
+              Private Transfer from Airport to Hotel
+            </h4>,
+            <p
+              className="f12 pfc4 mb8 at_eventTime"
+            >
+              15:35 - India Standard Time - 2 hours
+            </p>,
+            <div
+              className="at_readMore"
+              onClick={[Function]}
+            >
+              <ShowMore
+                defaultOpen={false}
+                isDefaultShowMore={true}
+                moreText=""
+                showLessText="Read Less"
+                showMoreText="Read More"
+                trackSegment={[Function]}
+                wrapText={
+                  Array [
+                    <span>
+                      A representative will meet and take you to you to your hotel.
+                    </span>,
+                  ]
+                }
+              />
+            </div>,
+            <ForwardRef(render)
+              className="row row- relative mt15 mb8 overflowh"
+            >
+              <Swiper
+                isFullWidthSwiper={false}
+                isSmallSwiper={false}
+                loadOnDocumentReady={false}
+                overflow="hidden"
+                rebuildOnUpdate={true}
+                showLoader={false}
+                slideClass="slide"
+                slidesPerView="auto"
+                spaceBetween={8}
+                ssrAnimation={Object {}}
+              >
+                <ItinerarySlider
+                  images={
+                    Array [
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                    ]
+                  }
+                  imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                />
+                <ItinerarySlider
+                  images={
+                    Array [
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                    ]
+                  }
+                  imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                />
+              </Swiper>
+            </ForwardRef(render)>,
+            null,
+          ],
+          "className": "pl15",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Private Transfer from Airport to Hotel",
+              "className": "f16 fw9 mb4",
+            },
+            "ref": null,
+            "rendered": "Private Transfer from Airport to Hotel",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "15:35 - India Standard Time - 2 hours",
+              "className": "f12 pfc4 mb8 at_eventTime",
+            },
+            "ref": null,
+            "rendered": "15:35 - India Standard Time - 2 hours",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ShowMore
+                defaultOpen={false}
+                isDefaultShowMore={true}
+                moreText=""
+                showLessText="Read Less"
+                showMoreText="Read More"
+                trackSegment={[Function]}
+                wrapText={
+                  Array [
+                    <span>
+                      A representative will meet and take you to you to your hotel.
+                    </span>,
+                  ]
+                }
+              />,
+              "className": "at_readMore",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultOpen": false,
+                "isDefaultShowMore": true,
+                "moreText": "",
+                "showLessText": "Read Less",
+                "showMoreText": "Read More",
+                "trackSegment": [Function],
+                "wrapText": Array [
+                  <span>
+                    A representative will meet and take you to you to your hotel.
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Swiper
+                isFullWidthSwiper={false}
+                isSmallSwiper={false}
+                loadOnDocumentReady={false}
+                overflow="hidden"
+                rebuildOnUpdate={true}
+                showLoader={false}
+                slideClass="slide"
+                slidesPerView="auto"
+                spaceBetween={8}
+                ssrAnimation={Object {}}
+              >
+                <ItinerarySlider
+                  images={
+                    Array [
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                    ]
+                  }
+                  imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                />
+                <ItinerarySlider
+                  images={
+                    Array [
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                    ]
+                  }
+                  imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                />
+              </Swiper>,
+              "className": "row row- relative mt15 mb8 overflowh",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <ItinerarySlider
+                    images={
+                      Array [
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                      ]
+                    }
+                    imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                  />,
+                  <ItinerarySlider
+                    images={
+                      Array [
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                      ]
+                    }
+                    imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                  />,
+                ],
+                "isFullWidthSwiper": false,
+                "isSmallSwiper": false,
+                "loadOnDocumentReady": false,
+                "overflow": "hidden",
+                "rebuildOnUpdate": true,
+                "showLoader": false,
+                "slideClass": "slide",
+                "slidesPerView": "auto",
+                "spaceBetween": 8,
+                "ssrAnimation": Object {},
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "function",
+                  "props": Object {
+                    "images": Array [
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                    ],
+                    "imgSrc": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "function",
+                  "props": Object {
+                    "images": Array [
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                    ],
+                    "imgSrc": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& img": Object {
+                    "minHeight": "200px !important",
+                  },
+                  "height": "200px",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          null,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="input-24 block absolute l0 t5"
+          >
+            <IconSvg />
+          </span>,
+          <div
+            className="pl15"
+          >
+            <h4
+              className="f16 fw9 mb4"
+            >
+              Private Transfer from Airport to Hotel
+            </h4>
+            <p
+              className="f12 pfc4 mb8 at_eventTime"
+            >
+              15:35 - India Standard Time - 2 hours
+            </p>
+            <div
+              className="at_readMore"
+              onClick={[Function]}
+            >
+              <ShowMore
+                defaultOpen={false}
+                isDefaultShowMore={true}
+                moreText=""
+                showLessText="Read Less"
+                showMoreText="Read More"
+                trackSegment={[Function]}
+                wrapText={
+                  Array [
+                    <span>
+                      A representative will meet and take you to you to your hotel.
+                    </span>,
+                  ]
+                }
+              />
+            </div>
+            <ForwardRef(render)
+              className="row row- relative mt15 mb8 overflowh"
+            >
+              <Swiper
+                isFullWidthSwiper={false}
+                isSmallSwiper={false}
+                loadOnDocumentReady={false}
+                overflow="hidden"
+                rebuildOnUpdate={true}
+                showLoader={false}
+                slideClass="slide"
+                slidesPerView="auto"
+                spaceBetween={8}
+                ssrAnimation={Object {}}
+              >
+                <ItinerarySlider
+                  images={
+                    Array [
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                    ]
+                  }
+                  imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                />
+                <ItinerarySlider
+                  images={
+                    Array [
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                      Object {
+                        "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                      },
+                    ]
+                  }
+                  imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                />
+              </Swiper>
+            </ForwardRef(render)>
+          </div>,
+        ],
+        "className": "relative pl24",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "input-24 block absolute l0 t5",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4
+                className="f16 fw9 mb4"
+              >
+                Private Transfer from Airport to Hotel
+              </h4>,
+              <p
+                className="f12 pfc4 mb8 at_eventTime"
+              >
+                15:35 - India Standard Time - 2 hours
+              </p>,
+              <div
+                className="at_readMore"
+                onClick={[Function]}
+              >
+                <ShowMore
+                  defaultOpen={false}
+                  isDefaultShowMore={true}
+                  moreText=""
+                  showLessText="Read Less"
+                  showMoreText="Read More"
+                  trackSegment={[Function]}
+                  wrapText={
+                    Array [
+                      <span>
+                        A representative will meet and take you to you to your hotel.
+                      </span>,
+                    ]
+                  }
+                />
+              </div>,
+              <ForwardRef(render)
+                className="row row- relative mt15 mb8 overflowh"
+              >
+                <Swiper
+                  isFullWidthSwiper={false}
+                  isSmallSwiper={false}
+                  loadOnDocumentReady={false}
+                  overflow="hidden"
+                  rebuildOnUpdate={true}
+                  showLoader={false}
+                  slideClass="slide"
+                  slidesPerView="auto"
+                  spaceBetween={8}
+                  ssrAnimation={Object {}}
+                >
+                  <ItinerarySlider
+                    images={
+                      Array [
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                      ]
+                    }
+                    imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                  />
+                  <ItinerarySlider
+                    images={
+                      Array [
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                      ]
+                    }
+                    imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                  />
+                </Swiper>
+              </ForwardRef(render)>,
+              null,
+            ],
+            "className": "pl15",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Private Transfer from Airport to Hotel",
+                "className": "f16 fw9 mb4",
+              },
+              "ref": null,
+              "rendered": "Private Transfer from Airport to Hotel",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "15:35 - India Standard Time - 2 hours",
+                "className": "f12 pfc4 mb8 at_eventTime",
+              },
+              "ref": null,
+              "rendered": "15:35 - India Standard Time - 2 hours",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ShowMore
+                  defaultOpen={false}
+                  isDefaultShowMore={true}
+                  moreText=""
+                  showLessText="Read Less"
+                  showMoreText="Read More"
+                  trackSegment={[Function]}
+                  wrapText={
+                    Array [
+                      <span>
+                        A representative will meet and take you to you to your hotel.
+                      </span>,
+                    ]
+                  }
+                />,
+                "className": "at_readMore",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultOpen": false,
+                  "isDefaultShowMore": true,
+                  "moreText": "",
+                  "showLessText": "Read Less",
+                  "showMoreText": "Read More",
+                  "trackSegment": [Function],
+                  "wrapText": Array [
+                    <span>
+                      A representative will meet and take you to you to your hotel.
+                    </span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <Swiper
+                  isFullWidthSwiper={false}
+                  isSmallSwiper={false}
+                  loadOnDocumentReady={false}
+                  overflow="hidden"
+                  rebuildOnUpdate={true}
+                  showLoader={false}
+                  slideClass="slide"
+                  slidesPerView="auto"
+                  spaceBetween={8}
+                  ssrAnimation={Object {}}
+                >
+                  <ItinerarySlider
+                    images={
+                      Array [
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                      ]
+                    }
+                    imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                  />
+                  <ItinerarySlider
+                    images={
+                      Array [
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                      ]
+                    }
+                    imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                  />
+                </Swiper>,
+                "className": "row row- relative mt15 mb8 overflowh",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <ItinerarySlider
+                      images={
+                        Array [
+                          Object {
+                            "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          },
+                          Object {
+                            "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          },
+                        ]
+                      }
+                      imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                    />,
+                    <ItinerarySlider
+                      images={
+                        Array [
+                          Object {
+                            "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          },
+                          Object {
+                            "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                          },
+                        ]
+                      }
+                      imgSrc="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+                    />,
+                  ],
+                  "isFullWidthSwiper": false,
+                  "isSmallSwiper": false,
+                  "loadOnDocumentReady": false,
+                  "overflow": "hidden",
+                  "rebuildOnUpdate": true,
+                  "showLoader": false,
+                  "slideClass": "slide",
+                  "slidesPerView": "auto",
+                  "spaceBetween": 8,
+                  "ssrAnimation": Object {},
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "function",
+                    "props": Object {
+                      "images": Array [
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                      ],
+                      "imgSrc": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "function",
+                    "props": Object {
+                      "images": Array [
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                        Object {
+                          "url": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                        },
+                      ],
+                      "imgSrc": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& img": Object {
+                      "minHeight": "200px !important",
+                    },
+                    "height": "200px",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            null,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

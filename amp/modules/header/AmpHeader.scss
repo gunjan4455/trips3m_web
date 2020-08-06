@@ -1,0 +1,396 @@
+// placeholder
+.searchBox ::-webkit-input-placeholder { /* Edge */
+  color: #B2B2B2;
+}
+
+.searchBox :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #B2B2B2;
+}
+
+.searchBox ::placeholder {
+  color: #B2B2B2;
+}
+
+header {
+  position: relative;
+  box-shadow: none;
+}
+
+.header-con {
+  padding: 14px 20px;
+  position: relative;
+}
+
+.user-img-loggedin {
+  width: 48px;
+  height: 48px;
+  background: #ccc;
+  overflow: hidden;
+}
+
+.header-Amp {
+  height: 96px;
+}
+
+.sample-sidebar {
+  width: 280px;
+  background: #FFFFFF;
+
+}
+
+.previewOnly {
+  margin: 16px;
+}
+
+amp-sidebar[side=left] {
+  width: 280px;
+  background: #FFFFFF;
+}
+
+#sidebar-right nav.amp-sidebar-toolbar-target-shown {
+  display: none;
+}
+
+.amp-list-side-menu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.amp-list-side-menu a {
+  display: block;
+  color: #2b2b2b;
+  padding: 13px 16px 13px 60px;
+  font-size: 14px;
+  position: relative;
+  line-height: 14px;
+  height: 40px;
+}
+
+.amp-header-con-shadow {
+  box-shadow: none;
+}
+
+.tt-logo a {
+  width: 140px;
+  float: left;
+  margin-left: 16px;
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#TTlogo-usage") no-repeat;
+  height: 18px;
+}
+
+
+.hide {
+  display: none;
+}
+
+#siderbar-left {
+  width: 280px;
+  background: #FFFFFF;
+}
+
+// dropdown
+p.sidebar-list {
+  background-color: #fff;
+  border: 0;
+  display: block;
+  font-weight: 400;
+  padding: 13px 16px 13px 60px;
+  font-size: 14px;
+  position: relative;
+  line-height: 14px;
+  height: 40px;
+}
+
+p.sidebar-list a {
+  color: #2b2b2b;
+}
+
+.list-side-menu.listLink a {
+  padding-left: 15px;
+  margin: 0;
+
+}
+
+.list-side-menu.listLink p {
+  color: #3e3e3e;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 9px;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+.list-side-menu.listLink p a {
+  color: #2196f3;
+  padding: 0;
+  height: auto;
+}
+
+.load-more {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+
+/*    header title*/
+.header-title {
+  background: #00786c;
+  padding: 10px 15px;
+}
+
+.back-arrow {
+  width: 30px;
+  min-width: 20px;
+  height: 20px;
+  float: left;
+  display: block;
+  margin-right: 2px;
+  position: relative;
+  padding: 10px;
+  text-indent: -100px;
+  overflow: hidden;
+  background-color: transparent;
+  border: 0;
+}
+
+.back-arrow:after, .back-arrow:before {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background: #fff;
+  display: block;
+  position: absolute;
+  left: 5px;
+}
+
+.back-arrow:before {
+  transform: rotate(-45deg);
+  top: 6px;
+}
+
+.back-arrow:after {
+  transform: rotate(45deg);
+  top: 13px;
+}
+
+.header-title .share-logo-right a {
+  height: 25px;
+  width: 25px;
+  display: block;
+  /*background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#ShareWhite-usage") no-repeat;*/
+
+  .amp-social-share-system{
+    background-color: transparent;
+    background-size: 29px;
+    background-position: -2px -1px;
+  }
+
+}
+
+.sliderText {
+  position: absolute;
+  padding: 15px 15px 5px;
+  margin: 0;
+  color: #fff;
+  z-index: 9;
+  max-width: 230px;
+  display: flex;
+  justify-content: flex-end;
+  bottom: calc(100% - 190px);
+}
+
+.burgerMenu-amp {
+  width: 20px;
+  height: 15px;
+  float: left;
+  display: block;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  position: relative;
+}
+
+.burgerMenu-amp:before {
+  height: 0;
+  margin-top: -1px;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+}
+
+.sidenav-icons {
+  height: 40px;
+  width: 36px;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+.sidenav-icons.iconOne {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#ProfileIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.iconTwo {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#HomeIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.iconNine {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#FamilyIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.iconTen {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#WorkIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.iconEleven {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#OffersIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.iconTwelve {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#BlogIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.iconThirteen {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#TestimonailsIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.iconFourteen {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#FAQIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.iconFifteen {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#ContactIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.tour_packages {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#VactionIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.family_packages {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#FamilyIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.honeymoon_packages {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#HoneymoonPackages-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.hotels {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#SeasonalIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.destination_guide {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#InternationalIconBlack-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.sidenav-icons.holiday_themes {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#LocationMarkerIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+
+}
+
+.list-side-menu.subMenu {
+  padding-bottom: 15px;
+}
+
+.list-side-menu.subMenu li {
+  padding: 10px 0;
+}
+
+.list-side-menu.subMenu a {
+  color: #2b2b2b;
+}
+
+.sidenav-amp p .arrowDown {
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#DownArrow-usage") no-repeat;
+  position: absolute;
+  right: 14px;
+  width: 11px;
+  height: 10px;
+  top: 15px;
+}
+
+.customPills {
+  z-index: 9;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 4px #999;
+}
+
+.customPills .quicklinksContainer {
+  overflow: hidden;
+  height: 54px;
+  box-shadow: rgb(153, 153, 153) 0 2px 6px;
+}
+
+.customPills .noBeforeAfter {
+  height: 60px;
+}
+
+.noBeforeAfter a {
+  white-space: nowrap;
+  background-color: rgb(255, 255, 255);
+  color: rgb(62, 62, 62);
+}
+
+.noBeforeAfter button {
+  background: transparent;
+  border: 0;
+}
+
+.sidenav-amp p[aria-expanded="true"] .arrowDown {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.sidebar-button {
+  height: 20px;
+  width: 20px;
+}
+.header-title .share-logo-right a .amp-social-share-system:focus {
+  outline: 0;
+}

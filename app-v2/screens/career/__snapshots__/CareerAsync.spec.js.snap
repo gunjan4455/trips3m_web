@@ -1,0 +1,746 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`career module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Career
+    jobApply={[Function]}
+    jobDescription={
+      Object {
+        "careers": Object {
+          "development": Array [],
+          "salesAndOperations": Array [
+            Object {
+              "age": "",
+              "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+              "category": "Sales and Operations",
+              "education": "Graduation",
+              "experience": "0-3 years",
+              "goodToHave": "Experience in sales, operations and vendor management.",
+              "howToApply": "career Site",
+              "id": 25,
+              "location": "Gurgaon",
+              "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+              "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+              "subCategory": "​Travel Consultant",
+              "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+            },
+          ],
+        },
+      }
+    }
+    loaded={true}
+    location={Object {}}
+    params={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+        >
+          <meta
+            charSet="utf-8"
+          />
+          <title>
+            Career
+          </title>
+          <link
+            href="https://traveltriangle.com/career"
+            rel="canonical"
+          />
+        </HelmetWrapper>,
+        <Connect(HeaderCommon) />,
+        <ScrollPercentage
+          onChange={[Function]}
+          threshold={0}
+        >
+          <div
+            className="clearfix"
+          >
+            <HeaderTrialist />
+            <div
+              className="clearfix"
+            >
+              <BannerTrialist
+                bannerAlt="career banner"
+                bannerPath="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png"
+              />
+            </div>
+            <Career
+              careers={
+                Object {
+                  "development": Array [],
+                  "salesAndOperations": Array [
+                    Object {
+                      "age": "",
+                      "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                      "category": "Sales and Operations",
+                      "education": "Graduation",
+                      "experience": "0-3 years",
+                      "goodToHave": "Experience in sales, operations and vendor management.",
+                      "howToApply": "career Site",
+                      "id": 25,
+                      "location": "Gurgaon",
+                      "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                      "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                      "subCategory": "​Travel Consultant",
+                      "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                    },
+                  ],
+                }
+              }
+            />
+          </div>
+        </ScrollPercentage>,
+        <div
+          className="row row- pb8 pt0"
+        >
+          <Index />
+        </div>,
+      ],
+      "className": "clearfix",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <meta
+              charSet="utf-8"
+            />,
+            <title>
+              Career
+            </title>,
+            <link
+              href="https://traveltriangle.com/career"
+              rel="canonical"
+            />,
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "charSet": "utf-8",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Career",
+            },
+            "ref": null,
+            "rendered": "Career",
+            "type": "title",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://traveltriangle.com/career",
+              "rel": "canonical",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div
+            className="clearfix"
+          >
+            <HeaderTrialist />
+            <div
+              className="clearfix"
+            >
+              <BannerTrialist
+                bannerAlt="career banner"
+                bannerPath="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png"
+              />
+            </div>
+            <Career
+              careers={
+                Object {
+                  "development": Array [],
+                  "salesAndOperations": Array [
+                    Object {
+                      "age": "",
+                      "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                      "category": "Sales and Operations",
+                      "education": "Graduation",
+                      "experience": "0-3 years",
+                      "goodToHave": "Experience in sales, operations and vendor management.",
+                      "howToApply": "career Site",
+                      "id": 25,
+                      "location": "Gurgaon",
+                      "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                      "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                      "subCategory": "​Travel Consultant",
+                      "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                    },
+                  ],
+                }
+              }
+            />
+          </div>,
+          "onChange": [Function],
+          "threshold": 0,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <HeaderTrialist />,
+              <div
+                className="clearfix"
+              >
+                <BannerTrialist
+                  bannerAlt="career banner"
+                  bannerPath="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png"
+                />
+              </div>,
+              <Career
+                careers={
+                  Object {
+                    "development": Array [],
+                    "salesAndOperations": Array [
+                      Object {
+                        "age": "",
+                        "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                        "category": "Sales and Operations",
+                        "education": "Graduation",
+                        "experience": "0-3 years",
+                        "goodToHave": "Experience in sales, operations and vendor management.",
+                        "howToApply": "career Site",
+                        "id": 25,
+                        "location": "Gurgaon",
+                        "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                        "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                        "subCategory": "​Travel Consultant",
+                        "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                      },
+                    ],
+                  }
+                }
+              />,
+            ],
+            "className": "clearfix",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "path": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <BannerTrialist
+                  bannerAlt="career banner"
+                  bannerPath="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png"
+                />,
+                "className": "clearfix",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bannerAlt": "career banner",
+                  "bannerPath": "https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "careers": Object {
+                  "development": Array [],
+                  "salesAndOperations": Array [
+                    Object {
+                      "age": "",
+                      "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                      "category": "Sales and Operations",
+                      "education": "Graduation",
+                      "experience": "0-3 years",
+                      "goodToHave": "Experience in sales, operations and vendor management.",
+                      "howToApply": "career Site",
+                      "id": 25,
+                      "location": "Gurgaon",
+                      "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                      "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                      "subCategory": "​Travel Consultant",
+                      "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                    },
+                  ],
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Index />,
+          "className": "row row- pb8 pt0",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+          >
+            <meta
+              charSet="utf-8"
+            />
+            <title>
+              Career
+            </title>
+            <link
+              href="https://traveltriangle.com/career"
+              rel="canonical"
+            />
+          </HelmetWrapper>,
+          <Connect(HeaderCommon) />,
+          <ScrollPercentage
+            onChange={[Function]}
+            threshold={0}
+          >
+            <div
+              className="clearfix"
+            >
+              <HeaderTrialist />
+              <div
+                className="clearfix"
+              >
+                <BannerTrialist
+                  bannerAlt="career banner"
+                  bannerPath="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png"
+                />
+              </div>
+              <Career
+                careers={
+                  Object {
+                    "development": Array [],
+                    "salesAndOperations": Array [
+                      Object {
+                        "age": "",
+                        "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                        "category": "Sales and Operations",
+                        "education": "Graduation",
+                        "experience": "0-3 years",
+                        "goodToHave": "Experience in sales, operations and vendor management.",
+                        "howToApply": "career Site",
+                        "id": 25,
+                        "location": "Gurgaon",
+                        "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                        "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                        "subCategory": "​Travel Consultant",
+                        "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                      },
+                    ],
+                  }
+                }
+              />
+            </div>
+          </ScrollPercentage>,
+          <div
+            className="row row- pb8 pt0"
+          >
+            <Index />
+          </div>,
+        ],
+        "className": "clearfix",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <meta
+                charSet="utf-8"
+              />,
+              <title>
+                Career
+              </title>,
+              <link
+                href="https://traveltriangle.com/career"
+                rel="canonical"
+              />,
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "charSet": "utf-8",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Career",
+              },
+              "ref": null,
+              "rendered": "Career",
+              "type": "title",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://traveltriangle.com/career",
+                "rel": "canonical",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <div
+              className="clearfix"
+            >
+              <HeaderTrialist />
+              <div
+                className="clearfix"
+              >
+                <BannerTrialist
+                  bannerAlt="career banner"
+                  bannerPath="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png"
+                />
+              </div>
+              <Career
+                careers={
+                  Object {
+                    "development": Array [],
+                    "salesAndOperations": Array [
+                      Object {
+                        "age": "",
+                        "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                        "category": "Sales and Operations",
+                        "education": "Graduation",
+                        "experience": "0-3 years",
+                        "goodToHave": "Experience in sales, operations and vendor management.",
+                        "howToApply": "career Site",
+                        "id": 25,
+                        "location": "Gurgaon",
+                        "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                        "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                        "subCategory": "​Travel Consultant",
+                        "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                      },
+                    ],
+                  }
+                }
+              />
+            </div>,
+            "onChange": [Function],
+            "threshold": 0,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <HeaderTrialist />,
+                <div
+                  className="clearfix"
+                >
+                  <BannerTrialist
+                    bannerAlt="career banner"
+                    bannerPath="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png"
+                  />
+                </div>,
+                <Career
+                  careers={
+                    Object {
+                      "development": Array [],
+                      "salesAndOperations": Array [
+                        Object {
+                          "age": "",
+                          "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                          "category": "Sales and Operations",
+                          "education": "Graduation",
+                          "experience": "0-3 years",
+                          "goodToHave": "Experience in sales, operations and vendor management.",
+                          "howToApply": "career Site",
+                          "id": 25,
+                          "location": "Gurgaon",
+                          "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                          "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                          "subCategory": "​Travel Consultant",
+                          "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                        },
+                      ],
+                    }
+                  }
+                />,
+              ],
+              "className": "clearfix",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "path": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <BannerTrialist
+                    bannerAlt="career banner"
+                    bannerPath="https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png"
+                  />,
+                  "className": "clearfix",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bannerAlt": "career banner",
+                    "bannerPath": "https://d29m6q8e2acg44.cloudfront.net/public-product/Trialist/Job+Opening/Jobopening_Cover.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "careers": Object {
+                    "development": Array [],
+                    "salesAndOperations": Array [
+                      Object {
+                        "age": "",
+                        "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                        "category": "Sales and Operations",
+                        "education": "Graduation",
+                        "experience": "0-3 years",
+                        "goodToHave": "Experience in sales, operations and vendor management.",
+                        "howToApply": "career Site",
+                        "id": 25,
+                        "location": "Gurgaon",
+                        "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                        "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                        "subCategory": "​Travel Consultant",
+                        "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                      },
+                    ],
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Index />,
+            "className": "row row- pb8 pt0",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

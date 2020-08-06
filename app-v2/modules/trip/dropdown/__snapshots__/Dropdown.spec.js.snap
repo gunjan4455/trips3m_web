@@ -1,0 +1,642 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trip List: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown
+    currentTripId="2222"
+    push={[Function]}
+    trackSegment={[Function]}
+    trips={
+      Object {
+        "allIds": Array [],
+        "byId": Object {
+          "1111": Object {
+            "firstDestinationName": "Kerala",
+            "id": "1111",
+            "toLoc": "Kerala",
+          },
+          "2222": Object {
+            "firstDestinationName": "Himachal",
+            "id": "2222",
+            "toLoc": "Kerala",
+          },
+          "3333": Object {
+            "firstDestinationName": null,
+            "id": "3333",
+            "toLoc": "pakistan",
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <div
+        className="clearfix relative"
+      >
+        <div>
+          <ForwardRef(render)
+            className="radius2 at_tripListButton relative pr32 ellipsis"
+            onClick={[Function]}
+          >
+            <span
+              className="fw7 at_destinationname"
+            >
+              Himachal
+            </span>
+            <ForwardRef(render)
+              className=""
+            >
+              <IconSvg />
+            </ForwardRef(render)>
+          </ForwardRef(render)>
+          <ForwardRef(render)
+            className="dropDownList radius2 bs4 mt3 sbcw  dropdownClosed"
+          />
+        </div>
+      </div>,
+      "className": "flexFull relative sbcw radius2",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <ForwardRef(render)
+            className="radius2 at_tripListButton relative pr32 ellipsis"
+            onClick={[Function]}
+          >
+            <span
+              className="fw7 at_destinationname"
+            >
+              Himachal
+            </span>
+            <ForwardRef(render)
+              className=""
+            >
+              <IconSvg />
+            </ForwardRef(render)>
+          </ForwardRef(render)>
+          <ForwardRef(render)
+            className="dropDownList radius2 bs4 mt3 sbcw  dropdownClosed"
+          />
+        </div>,
+        "className": "clearfix relative",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(render)
+              className="radius2 at_tripListButton relative pr32 ellipsis"
+              onClick={[Function]}
+            >
+              <span
+                className="fw7 at_destinationname"
+              >
+                Himachal
+              </span>
+              <ForwardRef(render)
+                className=""
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+            </ForwardRef(render)>,
+            <ForwardRef(render)
+              className="dropDownList radius2 bs4 mt3 sbcw  dropdownClosed"
+            />,
+          ],
+        },
+        "ref": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="fw7 at_destinationname"
+                >
+                  Himachal
+                </span>,
+                <ForwardRef(render)
+                  className=""
+                >
+                  <IconSvg />
+                </ForwardRef(render)>,
+              ],
+              "className": "radius2 at_tripListButton relative pr32 ellipsis",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Himachal",
+                  "className": "fw7 at_destinationname",
+                },
+                "ref": null,
+                "rendered": "Himachal",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <IconSvg />,
+                  "className": "",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "span",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "& svg": Object {
+                        "height": "6px",
+                        "width": "10px",
+                      },
+                      "display": "block",
+                      "height": "6px",
+                      "lineHeight": "0",
+                      "position": "absolute",
+                      "right": "15px",
+                      "top": "50%",
+                      "transform": "translateY(-50%)",
+                      "transition": "transform 1s",
+                      "width": "10px",
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(span)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "button",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "height": "40px",
+                  "padding": "0 15px",
+                  "textAlign": "left",
+                  "width": "100%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(button)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": null,
+              "className": "dropDownList radius2 bs4 mt3 sbcw  dropdownClosed",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "ul",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& li": Object {
+                    "& a": Object {
+                      "& p": Object {
+                        "margin": "0",
+                      },
+                      "&:hover, &:active, &:focus": Object {
+                        "background": "#009688",
+                        "color": "#fff",
+                        "textDecoration": "none",
+                      },
+                      "color": "#3e3e3e",
+                      "display": "inline-block",
+                      "padding": "8px 15px",
+                      "width": "100%",
+                    },
+                    "display": "block",
+                    "listStyle": "none",
+                  },
+                  "& li.noTrips": Object {
+                    "padding": "15px",
+                  },
+                  "margin": "0",
+                  "padding": "0",
+                  "position": "absolute",
+                  "width": "100%",
+                  "zIndex": "101",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(ul)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        Object {
+          "& .arrowDown": Object {
+            "transform": "rotate(180deg)",
+          },
+          "& .dropDownList": Object {
+            "borderTop": "0 none",
+            "maxHeight": "160px",
+            "overflowX": "hidden",
+            "overflowY": "auto",
+            "transition": "max-height 0.2s",
+          },
+          "& .dropdownClosed": Object {
+            "border": "0 none",
+            "maxHeight": "0",
+          },
+          "& select": Object {
+            "appearance": "none",
+            "bottom": "0",
+            "left": "0",
+            "opacity": "1",
+            "position": "absolute",
+            "right": "0",
+            "top": "0",
+            "width": "100%",
+            "zIndex": "1",
+          },
+          "minHeight": "40px",
+        },
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <div
+          className="clearfix relative"
+        >
+          <div>
+            <ForwardRef(render)
+              className="radius2 at_tripListButton relative pr32 ellipsis"
+              onClick={[Function]}
+            >
+              <span
+                className="fw7 at_destinationname"
+              >
+                Himachal
+              </span>
+              <ForwardRef(render)
+                className=""
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+            </ForwardRef(render)>
+            <ForwardRef(render)
+              className="dropDownList radius2 bs4 mt3 sbcw  dropdownClosed"
+            />
+          </div>
+        </div>,
+        "className": "flexFull relative sbcw radius2",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div>
+            <ForwardRef(render)
+              className="radius2 at_tripListButton relative pr32 ellipsis"
+              onClick={[Function]}
+            >
+              <span
+                className="fw7 at_destinationname"
+              >
+                Himachal
+              </span>
+              <ForwardRef(render)
+                className=""
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+            </ForwardRef(render)>
+            <ForwardRef(render)
+              className="dropDownList radius2 bs4 mt3 sbcw  dropdownClosed"
+            />
+          </div>,
+          "className": "clearfix relative",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef(render)
+                className="radius2 at_tripListButton relative pr32 ellipsis"
+                onClick={[Function]}
+              >
+                <span
+                  className="fw7 at_destinationname"
+                >
+                  Himachal
+                </span>
+                <ForwardRef(render)
+                  className=""
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+              </ForwardRef(render)>,
+              <ForwardRef(render)
+                className="dropDownList radius2 bs4 mt3 sbcw  dropdownClosed"
+              />,
+            ],
+          },
+          "ref": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="fw7 at_destinationname"
+                  >
+                    Himachal
+                  </span>,
+                  <ForwardRef(render)
+                    className=""
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>,
+                ],
+                "className": "radius2 at_tripListButton relative pr32 ellipsis",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Himachal",
+                    "className": "fw7 at_destinationname",
+                  },
+                  "ref": null,
+                  "rendered": "Himachal",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "span",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "& svg": Object {
+                          "height": "6px",
+                          "width": "10px",
+                        },
+                        "display": "block",
+                        "height": "6px",
+                        "lineHeight": "0",
+                        "position": "absolute",
+                        "right": "15px",
+                        "top": "50%",
+                        "transform": "translateY(-50%)",
+                        "transition": "transform 1s",
+                        "width": "10px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(span)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "button",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "height": "40px",
+                    "padding": "0 15px",
+                    "textAlign": "left",
+                    "width": "100%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(button)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": null,
+                "className": "dropDownList radius2 bs4 mt3 sbcw  dropdownClosed",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "ul",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& li": Object {
+                      "& a": Object {
+                        "& p": Object {
+                          "margin": "0",
+                        },
+                        "&:hover, &:active, &:focus": Object {
+                          "background": "#009688",
+                          "color": "#fff",
+                          "textDecoration": "none",
+                        },
+                        "color": "#3e3e3e",
+                        "display": "inline-block",
+                        "padding": "8px 15px",
+                        "width": "100%",
+                      },
+                      "display": "block",
+                      "listStyle": "none",
+                    },
+                    "& li.noTrips": Object {
+                      "padding": "15px",
+                    },
+                    "margin": "0",
+                    "padding": "0",
+                    "position": "absolute",
+                    "width": "100%",
+                    "zIndex": "101",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(ul)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "& .arrowDown": Object {
+              "transform": "rotate(180deg)",
+            },
+            "& .dropDownList": Object {
+              "borderTop": "0 none",
+              "maxHeight": "160px",
+              "overflowX": "hidden",
+              "overflowY": "auto",
+              "transition": "max-height 0.2s",
+            },
+            "& .dropdownClosed": Object {
+              "border": "0 none",
+              "maxHeight": "0",
+            },
+            "& select": Object {
+              "appearance": "none",
+              "bottom": "0",
+              "left": "0",
+              "opacity": "1",
+              "position": "absolute",
+              "right": "0",
+              "top": "0",
+              "width": "100%",
+              "zIndex": "1",
+            },
+            "minHeight": "40px",
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

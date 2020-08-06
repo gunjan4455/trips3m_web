@@ -1,0 +1,150 @@
+:local {
+  .bannerImagePlaceholder {
+    width: 120px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+
+  .inputContainerPlaceholder {
+    width: 100%;
+    height: 48px;
+    border-radius: 2px;
+  }
+
+  .inputContainerPlaceholder.from {
+    margin-top: 25px;
+  }
+
+  .formPlaceholder .fieldContainer p {
+    margin-bottom: 8px;
+    font-size: 12px;
+    opacity: 0;
+  }
+
+  .formPlaceholder .fieldContainer {
+    padding: 16px 32px;
+    text-align: left;
+  }
+
+  .headerPlaceholder {
+    text-align: left;
+    border-bottom: 1px solid #dddfe2;
+    margin-bottom: 16px;
+    padding: 12px 0;
+  }
+
+  .headerPlaceholder h4 {
+    font-size: 16px;
+    margin: 0;
+    padding-left: 14px;
+    font-weight: 900;
+    margin-bottom: 8px;
+  }
+
+  .formPlaceholder {
+    text-align: center;
+    background: #fff;
+    color: #000;
+  }
+
+  .footerPlaceholder {
+    display: flex;
+    align-items: row;
+    justify-content: space-around;
+  }
+
+  .footerPlaceholder .footerPlaceholderButton {
+    flex: 1;
+    height: 48px;
+    max-width: 45%;
+    margin-top: 32px;
+  }
+
+  .placeholderBox {
+    position: relative;
+    background: #f7f7f7;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+
+  .placeholderBox::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(0);
+    background: #efefef;
+  }
+
+  .placeholderBox::after {
+    animation: wave-full 1.5s ease-in-out infinite;
+  }
+
+  @-webkit-keyframes wave-full {
+    0% {
+      transform: translateX(-100%)
+    }
+
+    50% {
+      transform: translateX(0)
+    }
+    to {
+      transform: translateX(100%)
+    }
+  }
+  .loads{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: placeload;
+    animation-name: placeload;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: -webkit-gradient(
+                    linear,
+                    left top,
+                    right top,
+                    color-stop(8%, #eeeeee),
+                    color-stop(18%, #ddd),
+                    color-stop(33%, #eeeeee)
+    );
+    background: -webkit-linear-gradient(
+                    left,
+                    #eeeeee 8%,
+                    #dddddd 18%,
+                    #eeeeee 33%
+    );
+    background: linear-gradient(to right, #eeeeee 8%, #ddd 18%, #eeeeee 33%);
+    -webkit-background-size: 800px 104px;
+    background-size: 1200px 104px;
+    position: relative;
+    height:100%;
+  }
+
+  @-webkit-keyframes placeload{
+    0% {
+      background-position: -468px 0;
+    }
+    100% {
+      background-position: 468px 0;
+    }
+  }
+
+  @keyframes placeload {
+    0% {
+      background-position: -468px 0;
+    }
+    100% {
+      background-position: 468px 0;
+    }
+  }
+}
+

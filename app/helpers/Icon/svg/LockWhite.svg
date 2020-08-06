@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rquest-Landing_Recently-booked-packages_locked" transform="translate(-659.000000, -1287.000000)">
+            <g id="Quote-2-Copy-4" transform="translate(308.000000, 1252.000000)">
+                <g id="Group-14" transform="translate(293.000000, 34.000000)">
+                    <g id="Group" transform="translate(57.000000, 0.000000)">
+                        <g id="Lock" transform="translate(2.000000, 1.333333)">
+                            <path d="M11.6048395,13.0864691 L0.740641975,13.0864691 C0.468049383,13.0864691 0.246814815,12.8652346 0.246814815,12.592642 L0.246814815,5.84251852 C0.246814815,5.5694321 0.468049383,5.34869136 0.740641975,5.34869136 L11.6048395,5.34869136 C11.8774321,5.34869136 12.0986667,5.5694321 12.0986667,5.84251852 L12.0986667,12.592642 C12.0986667,12.8652346 11.8774321,13.0864691 11.6048395,13.0864691 Z" id="Stroke-1" stroke="#FFFFFF" stroke-width="0.666666667" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.1357037,5.34844444 L3.20977778,5.34844444 L3.20977778,3.20967901 C3.20977778,1.5731358 4.53669136,0.246716049 6.17274074,0.246716049 C7.80928395,0.246716049 9.1357037,1.5731358 9.1357037,3.20967901 L9.1357037,5.34844444 Z" id="Stroke-3" stroke="#FFFFFF" stroke-width="0.666666667" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.07674074,9.4902716 C7.07674074,8.94508642 6.63476543,8.50261728 6.08908642,8.50261728 C5.54390123,8.50261728 5.1014321,8.94508642 5.1014321,9.4902716 C5.1014321,9.79150617 5.23920988,10.0581728 5.45204938,10.2394074 L5.1014321,12.3426173 L7.07674074,12.3426173 L6.72612346,10.2394074 C6.93896296,10.0581728 7.07674074,9.79150617 7.07674074,9.4902716" id="Fill-5" fill="#FFFFFF"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

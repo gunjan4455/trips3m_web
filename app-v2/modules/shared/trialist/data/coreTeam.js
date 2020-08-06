@@ -1,0 +1,103 @@
+import config from 'appConfig';
+
+export default [
+  {
+    "cMemberName": "Sankalp Agarwal",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/sankalp1.png`,
+    "cMemberDesignation": "Co-Founder & CEO",
+    "cMemberImgAlt": "Sankalp Agarwal",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/sankalpagarwal",
+  },
+  {
+    "cMemberName": "Prabhat Gupta",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/prabhat1.png`,
+    "cMemberDesignation": "Co-Founder & CTO",
+    "cMemberImgAlt": "Prabhat Gupta",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/prabhat7gupta/",
+  },
+  {
+    "cMemberName": "Sanjeev Misra",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/sanjeev1.png`,
+    "cMemberDesignation": "COO",
+    "cMemberImgAlt": "Sanjeev Misra",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/sanjeev-misra-83aa013/",
+  },
+  {
+    "cMemberName": "Amit Chand",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/_DSC1742.png`,
+    "cMemberDesignation": "CFO",
+    "cMemberImgAlt": "Amit Chand",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/amitchand1981/?ppe=1",
+  },
+  {
+    "cMemberName": "Aman Sharma",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/aman_sharma.png`,
+    "cMemberDesignation": "Head Of Technology",
+    "cMemberImgAlt": "Aman Sharma",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/amansharmaa/",
+  },
+  {
+    "cMemberName": "Vishnu Khandelwal",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/_DSC1702.png`,
+    "cMemberDesignation": "VP, Sales and Operations",
+    "cMemberImgAlt": "Vishnu Khandelwal",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/vishnu-khandelwal-4895a812/",
+  },
+  {
+    "cMemberName": "Kartik Bakshi",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/_DSC1704.png`,
+    "cMemberDesignation": "VP, Sales and Operations",
+    "cMemberImgAlt": "Kartik Bakshi",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/kartik-bakshi-67b59a9/",
+  },
+  {
+    "cMemberName": "Amit Nayak",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/_DSC1718.png`,
+    "cMemberDesignation": "AVP, Marketing",
+    "cMemberImgAlt": "Amit Nayak",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/amitnyk/",
+  },
+  {
+    "cMemberName": "Rohit Garhwal",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/_DSC1698.png`,
+    "cMemberDesignation": "VP, Sales and Operations",
+    "cMemberImgAlt": "Rohit Garhwal",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/rohit-garhwal-7472598/",
+  },
+  {
+    "cMemberName": "Suhaas Kaul",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/_DSC1726A+(1).png`,
+    "cMemberDesignation": "Product Head",
+    "cMemberImgAlt": "Suhaas Kaul",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/suhaaskaul/",
+  },
+  {
+    "cMemberName": "Sumanta Layak",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/sumanta1.png`,
+    "cMemberDesignation": "Associate Director, HR",
+    "cMemberImgAlt": "Sumanta Layak",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/sumanta-layak-a2741651/",
+  },
+  {
+    "cMemberName": "Yuvraj Khemani",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/_DSC1733.png`,
+    "cMemberDesignation": "Finance Controller",
+    "cMemberImgAlt": "Yuvraj Khemani",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/yuvraj-khemani-22496081/",
+  },
+  {
+    "cMemberName": "Aditya Chakravarty",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/adi1.png`,
+    "cMemberDesignation": "Associate Director, HR",
+    "cMemberImgAlt": "Aditya Chakravarty",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/aditya-chakravarty-78b01613/",
+  },
+  {
+    "cMemberName": "Sonu Dixit",
+    "cMemberImage": `${config.assets.images}/public-product/Trialist/CoreTeam/_DSC1712.png`,
+    "cMemberDesignation": "Sr. Manager, Strategy & Planning",
+    "cMemberImgAlt": "Sonu Dixit",
+    "cMemberLinkedIn": "https://www.linkedin.com/in/sonu-dixit-720aab19/",
+  },
+
+];

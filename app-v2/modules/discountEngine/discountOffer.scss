@@ -1,0 +1,244 @@
+.discountOffersModalContent {
+  width: 100%;
+  height: inherit;
+  background: #fff;
+  overflow-y: auto;
+  position: relative;
+
+  > .bannerBG {
+    height: 70px !important;
+  }
+}
+
+.bannerBG {
+  > svg {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+.discountOffersBox {
+  border: 1px dashed #3c8c40;
+  position: relative;
+
+  .offersBoxIconBig {
+    width: 72px;
+    height: 64px;
+    position: relative;
+  }
+}
+
+.discountOffersTitle {
+  .offersBoxIcon {
+    width: 40px;
+    height: 36px;
+    position: relative;
+  }
+}
+
+.formInputDividerWithText {
+  width:100%;
+  position:relative;
+  padding:20px 0;
+  margin:8px auto;
+}
+.formInputDividerWithText:before {
+  content:"OR";
+  position:absolute;
+  z-index:2;
+  top: 0;
+  left:50%;
+  transform:translateX(-50%);
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+  -ms-transform:translateX(-50%);
+  display:block;
+  width:40px;
+  height:40px;
+  text-align:center;
+  font-size:14px;
+  line-height:40px;
+  background:#fff;
+  border:1px solid #d4d4d4;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+}
+.formInputDividerWithText:after {
+  content:"";
+  position:absolute;
+  z-index:1;
+  top: 50%;
+  left:0;
+  transform:translateY(-50%);
+  -webkit-transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  display:block;
+  width:100%;
+  height:1px;
+  background: #d4d4d4;
+}
+
+.otherOfferList {
+  border: 2px dashed #d4d4d4;
+}
+
+.discountOfferList {
+  display: flex;
+  flex-direction: column;
+
+  .discountOfferItem {
+    flex: 1;
+
+    &.discountOfferItemApplied{
+      order: -1;
+    }
+  }
+}
+
+.discountOfferInput {
+  display: none;
+}
+
+.discountOfferInput + label {
+  margin: 0;
+  padding-left: 35px;
+  padding-right: 15px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #d4d4d4;
+  cursor: pointer;
+  margin-bottom: 8px;
+
+  &:before, &:after {
+    content: "";
+    width: 24px;
+    height: 12px;
+    background: #fff;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    position: absolute;
+    top: -1px;
+    left: 40px;
+  }
+
+  &:after {
+    top: auto;
+    bottom: -1px;
+    transform: rotateZ(180deg);
+  }
+
+  &:hover {
+    background: #efefef;
+    border-color: #3e3e3e;
+
+    &:before, &:after {
+      border-color: #3e3e3e;
+    }
+
+  }
+
+  .discountOfferExpiredMsg {
+    color: #cb4138;
+  }
+
+  .customRadio {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+  }
+
+}
+.discountOfferInput + label .customRadio:before,
+.discountOfferInput + label .customRadio:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.discountOfferInput + label .customRadio:before {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #3e3e3e;
+  border-radius: 100%;
+}
+.discountOfferInput + label .customRadio:after {
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  left: 4px;
+  background: #009688;
+  border-radius: 100%;
+  transform: scale(0);
+  transition: transform 0.35s ease-in-out;
+}
+
+.discountOfferInput:checked + label, .discountOfferInput.offerApplied + label {
+  border-color: #3c8c40;
+  background: #efefef;
+
+  &:before, &:after {
+    border-color: #009688;
+  }
+
+  .customRadio {
+    &:before {
+      border-color: #009688;
+    }
+    &:after {
+      transform: scale(1);
+    }
+  }
+
+  .discountValue {
+    .discountVal {
+      color: #4caf50 !important;
+    }
+  }
+
+  .discountValueInfo {
+    border-color: #419644;
+    & > h3, & > .offerDescription {
+      color: #4caf50 !important;
+    }
+  }
+}
+
+.discountOfferInput.offerApplied + label {
+  background: #e0e0e0;
+  border-color: #009688;
+
+  .discountOfferExpiredMsg {
+    display: block;
+  }
+
+  .discountValueInfo {
+    border-color: #4caf50;
+  }
+}
+
+.discountOfferData {
+  display: flex;
+}
+
+.discountValue {
+  width: 120px;
+  align-self: center;
+}
+
+.discountValueInfo {
+  flex: 1;
+  padding-left: 15px;
+  border-left:2px dashed #d4d4d4;
+}

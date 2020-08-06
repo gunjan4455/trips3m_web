@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Form/FormDateNum.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/Form</a> FormDateNum.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">8% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>2/25</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/23</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">8% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>2/25</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+&nbsp;
+import './FormLead/LeadForm.scss';
+&nbsp;
+class FormDateNum extends React.Component {
+<span class="fstat-no" title="function not covered" >  co</span>nstructor(props) {
+<span class="cstat-no" title="statement not covered" >    super(props);</span>
+<span class="cstat-no" title="statement not covered" >    this.state = {</span>
+      numberOfDays: this.props.days || props.rtData.trip_days || props.formValues.trip_days
+    };
+<span class="cstat-no" title="statement not covered" >    this.props.dispatchRxFormAction(this.state.numberOfDays, 'trip_days');</span>
+<span class="cstat-no" title="statement not covered" >    this.onChange = this.onChange.bind(this);</span>
+<span class="cstat-no" title="statement not covered" >    this.updateDays = this.updateDays.bind(this);</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  on</span>Change(e) {
+<span class="cstat-no" title="statement not covered" >    if (e.target.value &gt;= 2) {</span>
+<span class="cstat-no" title="statement not covered" >      this.setState({ numberOfDays: e.target.value });</span>
+    } else {
+<span class="cstat-no" title="statement not covered" >      this.setState({ numberOfDays: 0 });</span>
+    }
+<span class="cstat-no" title="statement not covered" >    this.props.dispatchRxFormAction(e.target.value, 'trip_days');</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  up</span>dateDays(action) {
+    let tempValue = <span class="cstat-no" title="statement not covered" >0;</span>
+    let newValue = <span class="cstat-no" title="statement not covered" >0;</span>
+    const currentValue = <span class="cstat-no" title="statement not covered" >this.state.numberOfDays ? this.state.numberOfDays : 1;</span>
+<span class="cstat-no" title="statement not covered" >    if (action === 'inc') {</span>
+<span class="cstat-no" title="statement not covered" >      tempValue = 1;</span>
+    } else {
+<span class="cstat-no" title="statement not covered" >      tempValue = -1;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    newValue = parseInt(currentValue, 10) + tempValue;</span>
+<span class="cstat-no" title="statement not covered" >    if (newValue &gt;= 2) {</span>
+<span class="cstat-no" title="statement not covered" >      this.setState({ numberOfDays: newValue });</span>
+<span class="cstat-no" title="statement not covered" >      this.props.dispatchRxFormAction(newValue.toString(), 'trip_days');</span>
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  re</span>nder() {
+    const { meta: { touched, error }, variation } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div className="col-xs-6 p0"&gt;
+        &lt;div className={this.props.showDays ? "col-xs-12 pr0 pl8" : "hide"}&gt;
+          &lt;label htmlFor="From" className="f14 fw9 pb8 iblock pfc3"&gt;Number Of Days&lt;em className="pfc2"&gt;*&lt;/em&gt;&lt;/label&gt;
+          &lt;div className="daysCount relative input-with-icon-box input-two-icons input-with-icon-box"&gt;
+            &lt;button type="button" onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >this.updateDays('dec')}</span>
+              className="min-date cursorP minus-icon" /&gt;
+            &lt;input
+              name="trip_days"
+              type="number"
+              placeholder="Days"
+              className={`input text-center duration ${variation &amp;&amp; touched &amp;&amp; (error &amp;&amp; 'input-error')}`}
+              value={this.state.numberOfDays || ''}
+              onChange={this.onChange}
+              id="trip_days_fnew"
+            /&gt;
+            &lt;button type="button" onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >this.updateDays('inc')}</span>
+              className="plus-date cursorP plus-icon" /&gt;
+          &lt;/div&gt;
+          {
+            this.props.meta
+            &amp;&amp; this.props.meta.touched
+            &amp;&amp; (this.props.meta.error
+            &amp;&amp; &lt;span className="input-error-text"&gt;{this.props.meta.error}&lt;/span&gt;)
+          }
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+FormDateNum.propTypes = {
+  showDays: PropTypes.bool,
+  variation: PropTypes.bool,
+  dispatchRxFormAction: PropTypes.func.isRequired,
+  rtData: PropTypes.object,
+  days: PropTypes.string,
+  meta: PropTypes.object.isRequired,
+  formValues: PropTypes.object.isRequired
+};
+&nbsp;
+FormDateNum.defaultProps = {
+  showDays: false,
+  rtData: {},
+  days: ''
+};
+&nbsp;
+export default FormDateNum;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

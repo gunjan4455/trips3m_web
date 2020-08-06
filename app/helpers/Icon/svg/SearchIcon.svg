@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Search/Gray</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Search/Gray" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <polygon id="Fill-1" points="0 24 24 24 24 0 0 0"></polygon>
+            <g id="Group-26" transform="translate(2.000000, 2.000000)" stroke="#20A397" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.9041905,7.69038095 C14.9041905,11.6741905 11.6746667,14.9046667 7.68990476,14.9046667 C3.70609524,14.9046667 0.476571429,11.6741905 0.476571429,7.69038095 C0.476571429,3.70561905 3.70609524,0.476095238 7.68990476,0.476095238 C11.6746667,0.476095238 14.9041905,3.70561905 14.9041905,7.69038095 Z" id="Stroke-1"></path>
+                <path d="M19.288,19.3667619 L12.5794286,12.9867619" id="Stroke-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

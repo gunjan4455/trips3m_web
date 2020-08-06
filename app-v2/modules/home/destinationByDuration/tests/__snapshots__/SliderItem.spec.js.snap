@@ -1,0 +1,542 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlideItem: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SlideItem
+    bestTimeToVisit={
+      Array [
+        2,
+        5,
+      ]
+    }
+    id={60}
+    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+    link="/tour-packages/andaman"
+    name="Andaman"
+    packageCount={104}
+    startingPrice={4000}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Link
+        onClick={[Function]}
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/tour-packages/andaman"
+      >
+        <div
+          className="radius4 overflowh"
+          style={
+            Object {
+              "height": "150px",
+              "width": "120px",
+            }
+          }
+        >
+          <Img
+            alt="Andaman"
+            defaultSrc={null}
+            height={150}
+            onDocumentLoad={false}
+            width={120}
+          />
+        </div>
+        <VisibilitySensor
+          active={true}
+          containment={null}
+          delayedCall={false}
+          intervalCheck={true}
+          intervalDelay={3000}
+          minTopValue={0}
+          offset={Object {}}
+          onChange={[Function]}
+          partialVisibility={false}
+          resizeCheck={false}
+          resizeDelay={250}
+          resizeThrottle={-1}
+          scrollCheck={false}
+          scrollDelay={250}
+          scrollThrottle={-1}
+        >
+          <span />
+        </VisibilitySensor>
+        <p
+          className="f14p fw9 pfc3 mt8"
+          style={
+            Object {
+              "width": "120px",
+            }
+          }
+        >
+          Andaman
+        </p>
+        <p
+          className="f10 pfc3 mt4"
+        >
+          Starting at: 
+          ₹4,000
+        </p>
+      </Link>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="radius4 overflowh"
+            style={
+              Object {
+                "height": "150px",
+                "width": "120px",
+              }
+            }
+          >
+            <Img
+              alt="Andaman"
+              defaultSrc={null}
+              height={150}
+              onDocumentLoad={false}
+              width={120}
+            />
+          </div>,
+          <VisibilitySensor
+            active={true}
+            containment={null}
+            delayedCall={false}
+            intervalCheck={true}
+            intervalDelay={3000}
+            minTopValue={0}
+            offset={Object {}}
+            onChange={[Function]}
+            partialVisibility={false}
+            resizeCheck={false}
+            resizeDelay={250}
+            resizeThrottle={-1}
+            scrollCheck={false}
+            scrollDelay={250}
+            scrollThrottle={-1}
+          >
+            <span />
+          </VisibilitySensor>,
+          <p
+            className="f14p fw9 pfc3 mt8"
+            style={
+              Object {
+                "width": "120px",
+              }
+            }
+          >
+            Andaman
+          </p>,
+          <p
+            className="f10 pfc3 mt4"
+          >
+            Starting at: 
+            ₹4,000
+          </p>,
+        ],
+        "onClick": [Function],
+        "onlyActiveOnIndex": false,
+        "style": Object {},
+        "to": "/tour-packages/andaman",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Img
+              alt="Andaman"
+              defaultSrc={null}
+              height={150}
+              onDocumentLoad={false}
+              width={120}
+            />,
+            "className": "radius4 overflowh",
+            "style": Object {
+              "height": "150px",
+              "width": "120px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "Andaman",
+              "defaultSrc": null,
+              "height": 150,
+              "ikSrc": undefined,
+              "onDocumentLoad": false,
+              "src": undefined,
+              "width": 120,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": true,
+            "children": <span />,
+            "containment": null,
+            "delayedCall": false,
+            "intervalCheck": true,
+            "intervalDelay": 3000,
+            "minTopValue": 0,
+            "offset": Object {},
+            "onChange": [Function],
+            "partialVisibility": false,
+            "resizeCheck": false,
+            "resizeDelay": 250,
+            "resizeThrottle": -1,
+            "scrollCheck": false,
+            "scrollDelay": 250,
+            "scrollThrottle": -1,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Andaman",
+            "className": "f14p fw9 pfc3 mt8",
+            "style": Object {
+              "width": "120px",
+            },
+          },
+          "ref": null,
+          "rendered": "Andaman",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Starting at: ",
+              "₹4,000",
+            ],
+            "className": "f10 pfc3 mt4",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Starting at: ",
+            "₹4,000",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Link
+          onClick={[Function]}
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/tour-packages/andaman"
+        >
+          <div
+            className="radius4 overflowh"
+            style={
+              Object {
+                "height": "150px",
+                "width": "120px",
+              }
+            }
+          >
+            <Img
+              alt="Andaman"
+              defaultSrc={null}
+              height={150}
+              onDocumentLoad={false}
+              width={120}
+            />
+          </div>
+          <VisibilitySensor
+            active={true}
+            containment={null}
+            delayedCall={false}
+            intervalCheck={true}
+            intervalDelay={3000}
+            minTopValue={0}
+            offset={Object {}}
+            onChange={[Function]}
+            partialVisibility={false}
+            resizeCheck={false}
+            resizeDelay={250}
+            resizeThrottle={-1}
+            scrollCheck={false}
+            scrollDelay={250}
+            scrollThrottle={-1}
+          >
+            <span />
+          </VisibilitySensor>
+          <p
+            className="f14p fw9 pfc3 mt8"
+            style={
+              Object {
+                "width": "120px",
+              }
+            }
+          >
+            Andaman
+          </p>
+          <p
+            className="f10 pfc3 mt4"
+          >
+            Starting at: 
+            ₹4,000
+          </p>
+        </Link>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="radius4 overflowh"
+              style={
+                Object {
+                  "height": "150px",
+                  "width": "120px",
+                }
+              }
+            >
+              <Img
+                alt="Andaman"
+                defaultSrc={null}
+                height={150}
+                onDocumentLoad={false}
+                width={120}
+              />
+            </div>,
+            <VisibilitySensor
+              active={true}
+              containment={null}
+              delayedCall={false}
+              intervalCheck={true}
+              intervalDelay={3000}
+              minTopValue={0}
+              offset={Object {}}
+              onChange={[Function]}
+              partialVisibility={false}
+              resizeCheck={false}
+              resizeDelay={250}
+              resizeThrottle={-1}
+              scrollCheck={false}
+              scrollDelay={250}
+              scrollThrottle={-1}
+            >
+              <span />
+            </VisibilitySensor>,
+            <p
+              className="f14p fw9 pfc3 mt8"
+              style={
+                Object {
+                  "width": "120px",
+                }
+              }
+            >
+              Andaman
+            </p>,
+            <p
+              className="f10 pfc3 mt4"
+            >
+              Starting at: 
+              ₹4,000
+            </p>,
+          ],
+          "onClick": [Function],
+          "onlyActiveOnIndex": false,
+          "style": Object {},
+          "to": "/tour-packages/andaman",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Img
+                alt="Andaman"
+                defaultSrc={null}
+                height={150}
+                onDocumentLoad={false}
+                width={120}
+              />,
+              "className": "radius4 overflowh",
+              "style": Object {
+                "height": "150px",
+                "width": "120px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "Andaman",
+                "defaultSrc": null,
+                "height": 150,
+                "ikSrc": undefined,
+                "onDocumentLoad": false,
+                "src": undefined,
+                "width": 120,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": true,
+              "children": <span />,
+              "containment": null,
+              "delayedCall": false,
+              "intervalCheck": true,
+              "intervalDelay": 3000,
+              "minTopValue": 0,
+              "offset": Object {},
+              "onChange": [Function],
+              "partialVisibility": false,
+              "resizeCheck": false,
+              "resizeDelay": 250,
+              "resizeThrottle": -1,
+              "scrollCheck": false,
+              "scrollDelay": 250,
+              "scrollThrottle": -1,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Andaman",
+              "className": "f14p fw9 pfc3 mt8",
+              "style": Object {
+                "width": "120px",
+              },
+            },
+            "ref": null,
+            "rendered": "Andaman",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Starting at: ",
+                "₹4,000",
+              ],
+              "className": "f10 pfc3 mt4",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Starting at: ",
+              "₹4,000",
+            ],
+            "type": "p",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

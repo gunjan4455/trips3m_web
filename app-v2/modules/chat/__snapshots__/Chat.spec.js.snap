@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Chat
+    addMessage={[Function]}
+    agentId={0}
+    agentName=""
+    chatKeys={Object {}}
+    clearMessages={[Function]}
+    createComment={[Function]}
+    currentQuote={
+      Object {
+        "destinationsList": Array [],
+      }
+    }
+    currentQuoteId={0}
+    currentTripId={0}
+    explainTheQuote={false}
+    fetchChatKeys={[Function]}
+    fetchHistory={[Function]}
+    loadMoreMessages={[Function]}
+    location={
+      Object {
+        "query": Object {},
+      }
+    }
+    messages={Array []}
+    pdmsInformation={Object {}}
+    remainingMessages={0}
+    showHidePdmView={[Function]}
+    userDetails={
+      Object {
+        "id": 2544153,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="relative chatBox__header"
+        >
+          <ChatHeader
+            agentId={0}
+            agentName=""
+            chatKeys={Object {}}
+            pdmsInformation={Object {}}
+            requestCallbackSegmentData={
+              Object {
+                "destination_id": 0,
+                "quote_id": undefined,
+                "quote_status": "",
+                "status": "",
+                "trip_id": undefined,
+              }
+            }
+            userDetails={
+              Object {
+                "id": 2544153,
+              }
+            }
+          />
+        </div>,
+        <ForwardRef(render)
+          className="absolute wfull chatBox__messages flexFull"
+        >
+          <ChatMessages
+            fetchHistory={[Function]}
+            messages={Array []}
+            pdmsInformation={Object {}}
+            remainingMessages={0}
+            userId={2544153}
+          />
+        </ForwardRef(render)>,
+        <div
+          className="chatBox__send fixed b0 l0 r0 wfull"
+          id="chatBoxSend"
+        >
+          <ChatInput
+            pdmsInformation={Object {}}
+            sendMessage={[Function]}
+            showHidePdmView={[Function]}
+          />
+        </div>,
+      ],
+      "className": "chatShadow flex flexDColumn hfull wfull sbcw fixed pbc1 t0 l0 wfull hfull",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ChatHeader
+            agentId={0}
+            agentName=""
+            chatKeys={Object {}}
+            pdmsInformation={Object {}}
+            requestCallbackSegmentData={
+              Object {
+                "destination_id": 0,
+                "quote_id": undefined,
+                "quote_status": "",
+                "status": "",
+                "trip_id": undefined,
+              }
+            }
+            userDetails={
+              Object {
+                "id": 2544153,
+              }
+            }
+          />,
+          "className": "relative chatBox__header",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "agentId": 0,
+            "agentName": "",
+            "chatKeys": Object {},
+            "pdmsInformation": Object {},
+            "requestCallbackSegmentData": Object {
+              "destination_id": 0,
+              "quote_id": undefined,
+              "quote_status": "",
+              "status": "",
+              "trip_id": undefined,
+            },
+            "userDetails": Object {
+              "id": 2544153,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <ChatMessages
+            fetchHistory={[Function]}
+            messages={Array []}
+            pdmsInformation={Object {}}
+            remainingMessages={0}
+            userId={2544153}
+          />,
+          "className": "absolute wfull chatBox__messages flexFull",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "fetchHistory": [Function],
+            "messages": Array [],
+            "pdmsInformation": Object {},
+            "quoteId": undefined,
+            "remainingMessages": 0,
+            "tripId": undefined,
+            "userId": 2544153,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "minHeight": "calc(100% - 108px)",
+              "top": "58px",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ChatInput
+            pdmsInformation={Object {}}
+            sendMessage={[Function]}
+            showHidePdmView={[Function]}
+          />,
+          "className": "chatBox__send fixed b0 l0 r0 wfull",
+          "id": "chatBoxSend",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "pdmsInformation": Object {},
+            "sendMessage": [Function],
+            "showHidePdmView": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="relative chatBox__header"
+          >
+            <ChatHeader
+              agentId={0}
+              agentName=""
+              chatKeys={Object {}}
+              pdmsInformation={Object {}}
+              requestCallbackSegmentData={
+                Object {
+                  "destination_id": 0,
+                  "quote_id": undefined,
+                  "quote_status": "",
+                  "status": "",
+                  "trip_id": undefined,
+                }
+              }
+              userDetails={
+                Object {
+                  "id": 2544153,
+                }
+              }
+            />
+          </div>,
+          <ForwardRef(render)
+            className="absolute wfull chatBox__messages flexFull"
+          >
+            <ChatMessages
+              fetchHistory={[Function]}
+              messages={Array []}
+              pdmsInformation={Object {}}
+              remainingMessages={0}
+              userId={2544153}
+            />
+          </ForwardRef(render)>,
+          <div
+            className="chatBox__send fixed b0 l0 r0 wfull"
+            id="chatBoxSend"
+          >
+            <ChatInput
+              pdmsInformation={Object {}}
+              sendMessage={[Function]}
+              showHidePdmView={[Function]}
+            />
+          </div>,
+        ],
+        "className": "chatShadow flex flexDColumn hfull wfull sbcw fixed pbc1 t0 l0 wfull hfull",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ChatHeader
+              agentId={0}
+              agentName=""
+              chatKeys={Object {}}
+              pdmsInformation={Object {}}
+              requestCallbackSegmentData={
+                Object {
+                  "destination_id": 0,
+                  "quote_id": undefined,
+                  "quote_status": "",
+                  "status": "",
+                  "trip_id": undefined,
+                }
+              }
+              userDetails={
+                Object {
+                  "id": 2544153,
+                }
+              }
+            />,
+            "className": "relative chatBox__header",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "agentId": 0,
+              "agentName": "",
+              "chatKeys": Object {},
+              "pdmsInformation": Object {},
+              "requestCallbackSegmentData": Object {
+                "destination_id": 0,
+                "quote_id": undefined,
+                "quote_status": "",
+                "status": "",
+                "trip_id": undefined,
+              },
+              "userDetails": Object {
+                "id": 2544153,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <ChatMessages
+              fetchHistory={[Function]}
+              messages={Array []}
+              pdmsInformation={Object {}}
+              remainingMessages={0}
+              userId={2544153}
+            />,
+            "className": "absolute wfull chatBox__messages flexFull",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "fetchHistory": [Function],
+              "messages": Array [],
+              "pdmsInformation": Object {},
+              "quoteId": undefined,
+              "remainingMessages": 0,
+              "tripId": undefined,
+              "userId": 2544153,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "minHeight": "calc(100% - 108px)",
+                "top": "58px",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ChatInput
+              pdmsInformation={Object {}}
+              sendMessage={[Function]}
+              showHidePdmView={[Function]}
+            />,
+            "className": "chatBox__send fixed b0 l0 r0 wfull",
+            "id": "chatBoxSend",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "pdmsInformation": Object {},
+              "sendMessage": [Function],
+              "showHidePdmView": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

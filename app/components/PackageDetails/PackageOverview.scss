@@ -1,0 +1,20 @@
+.heading-h2{
+    line-height: 24px;
+    font-size: 16px;
+    color: #20A397;
+}
+.expand--content {
+    display: none;
+}
+.expand {
+    display: none;
+}
+.expand + label {
+    display: block;
+}
+.expand:checked + label .expand--content {
+    display: block;
+}
+.expand:checked + label .expand--arrow{
+    transform: rotate(-180deg);
+}

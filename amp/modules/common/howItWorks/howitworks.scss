@@ -1,0 +1,29 @@
+.howItWorkBlock {
+    > div{
+      &:nth-child(2){
+        border-top:1px solid #EFEFEF;
+        border-bottom: 1px solid #EFEFEF;
+      }
+    }
+    .worksBox {
+      span {
+        height: 65px;
+        width: 95px;
+        margin: 0 auto;
+      }
+    }
+  }
+.PdpSelectPackage{
+  background: url('https://js.traveltriangle.com/public-product/amp-icons-v0.svg#PdpSelectPackage-usage') no-repeat;
+}
+.PdpQuotes{
+  background: url('https://js.traveltriangle.com/public-product/amp-icons-v0.svg#PdpQuotes-usage') no-repeat;
+}
+.IllusTraveler{
+  background: url('https://js.traveltriangle.com/public-product/amp-icons-v0.svg#IllusTraveler-usage') no-repeat;
+}
+
+
+
+
+

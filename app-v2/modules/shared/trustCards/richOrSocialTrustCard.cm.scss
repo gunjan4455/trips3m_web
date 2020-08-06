@@ -1,0 +1,14 @@
+:local{
+  .richCard{
+    min-height: 180px;
+    max-height: 200px;
+    .contentCard{
+      padding-right:145px;
+    }
+    .image{
+      min-width: 110px;
+      max-width: 110px;
+      max-height: 180px;
+    }
+  }
+}

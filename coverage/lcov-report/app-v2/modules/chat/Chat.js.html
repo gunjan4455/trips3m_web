@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/chat/Chat.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app-v2/modules/chat</a> Chat.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">22.22% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>10/45</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">32.26% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>10/31</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">25% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">22.22% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>10/45</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+&nbsp;
+import config from 'appConfig';
+import { timeBefore, currentDate, toTimeStamp } from 'helpers/DateTime';
+import { generateUniqueId } from 'helpers/utils';
+import { getRtmsConnection, MessageType, RtmsChannels } from 'helpers/rtms';
+import ChatInput from './components/ChatInput';
+import ChatMessages from './components/ChatMessages';
+import ChatHeader from './components/ChatHeader';
+import { PDM_CATEGORY_HOTEL, PDM_CATEGORY_ITINERARY, PDM_CATEGORY_INCLUSION } from "helpers/pdmHelpers";
+&nbsp;
+import { GChatMessagesDiv } from './G';
+&nbsp;
+class Chat extends React.Component {
+  static propTypes = {
+    tripId: PropTypes.number.isRequired,
+    quoteId: PropTypes.number.isRequired,
+    chatKeys: PropTypes.object.isRequired,
+    messages: PropTypes.array.isRequired,
+    remainingMessages: PropTypes.number,
+    userDetails: PropTypes.object.isRequired,
+    pdmsInformation: PropTypes.object.isRequired,
+    agentName: PropTypes.string.isRequired,
+    agentId: PropTypes.number.isRequired,
+    currentQuote: PropTypes.object.isRequired,
+    location: PropTypes.object.isRequired,
+&nbsp;
+    fetchChatKeys: PropTypes.func.isRequired,
+    fetchHistory: PropTypes.func.isRequired,
+    addMessage: PropTypes.func.isRequired,
+    createComment: PropTypes.func.isRequired,
+    clearMessages: PropTypes.func.isRequired,
+    loadMoreMessages: PropTypes.func.isRequired,
+    setPdmCategory: PropTypes.func.isRequired,
+    showHidePdmView: PropTypes.func.isRequired
+  };
+&nbsp;
+  static defaultProps = {
+    remainingMessages: 0,
+  };
+&nbsp;
+  constructor(props) {
+    super(props);
+    this.state = {
+      history: [],
+      agentOnline: false,
+      lastSubscribedChannel: '',
+      subscribed: false
+    };
+&nbsp;
+    this.sendMessage = this.sendMessage.bind(this);
+    this.initializeChat = this.initializeChat.bind(this);
+  }
+&nbsp;
+  componentDidMount() {
+    const { agentId, tripId, quoteId, location } = this.props;
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (agentId) {
+<span class="cstat-no" title="statement not covered" >      this.props.fetchChatKeys(agentId, quoteId);</span>
+<span class="cstat-no" title="statement not covered" >      this.props.fetchHistory(tripId, quoteId, timeBefore(1, 'day'));</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      this.initializeChat(this.props);</span>
+    }
+&nbsp;
+    const pdmCategory = location.query.pdmcategory;
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    if (pdmCategory === PDM_CATEGORY_HOTEL || pdmCategory === PDM_CATEGORY_INCLUSION</span>
+      || pdmCategory === PDM_CATEGORY_ITINERARY) {
+<span class="cstat-no" title="statement not covered" >      this.props.setPdmCategory(pdmCategory);</span>
+<span class="cstat-no" title="statement not covered" >      this.props.showHidePdmView(true);</span>
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>mponentDidUpdate(prevProps) {
+    const { agentId, tripId, quoteId } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+<span class="cstat-no" title="statement not covered" >    if (prevProps.quoteId !== quoteId) {</span>
+<span class="cstat-no" title="statement not covered" >      this.props.fetchChatKeys(agentId, quoteId);</span>
+<span class="cstat-no" title="statement not covered" >      this.props.fetchHistory(tripId, quoteId, timeBefore(1, 'day'));</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      this.initializeChat(this.props);</span>
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  as</span>ync initializeChatUsingRtms(props) {
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    if (config.useRtms) {</span>
+<span class="cstat-no" title="statement not covered" >      this.disposeExistingRtms();</span>
+    }
+&nbsp;
+    const userId = <span class="cstat-no" title="statement not covered" >props.userDetails.id;</span>
+    const channelId = <span class="cstat-no" title="statement not covered" >props.agentId;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    if (channelId &amp;&amp; userId) {</span>
+<span class="cstat-no" title="statement not covered" >      this.rtms_ = await getRtmsConnection({ userId, channel: RtmsChannels.CHAT });</span>
+<span class="cstat-no" title="statement not covered" >      this.currentSubscription_ = this.rtms_.subscribeToChannel({ channelId });</span>
+<span class="cstat-no" title="statement not covered" >      this.currentSubscription_.on(MessageType.MESSAGE, <span class="fstat-no" title="function not covered" >fu</span>nction (message) {</span>
+<span class="cstat-no" title="statement not covered" >        if (message.commentable_id === props.quoteId) {</span>
+<span class="cstat-no" title="statement not covered" >          props.addMessage(message, props.quoteId);</span>
+        }
+      }.bind(this));
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      this.currentSubscription_.on(MessageType.MY_MESSAGE, <span class="fstat-no" title="function not covered" >fu</span>nction (message) {</span>
+<span class="cstat-no" title="statement not covered" >        if (message.commentable_id === props.quoteId) {</span>
+<span class="cstat-no" title="statement not covered" >          props.addMessage(message, props.quoteId);</span>
+        }
+      }.bind(this));
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  cl</span>earMessages() {
+<span class="cstat-no" title="statement not covered" >    this.props.clearMessages();</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  in</span>itializeChat(props) {
+<span class="cstat-no" title="statement not covered" >    this.clearMessages();</span>
+<span class="cstat-no" title="statement not covered" >    this.initializeChatUsingRtms(props);</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  se</span>ndMessage(message) {
+    // get this information from API
+    const { tripId, quoteId } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+    const { id, name, email, avatar } = <span class="cstat-no" title="statement not covered" >this.props.userDetails;</span>
+    const messageObj = <span class="cstat-no" title="statement not covered" >{</span>
+      title: '#chat',
+      comment: message,
+      commentBy: 'TRAVELLER',
+      commentable_id: this.props.quoteId,
+      commentable_type: 'Quote',
+      role: 'traveller',
+      userId: id,
+      user_id: id,
+      userName: name,
+      email,
+      userPic: avatar,
+      createdAt: currentDate(),
+      created_at: new Date().toISOString().split('.')[0] + "+00:00",
+      uId: generateUniqueId(id, toTimeStamp(new Date()), message),
+      notification_sub_category: 'comment_added',
+      trip_id: parseInt(this.props.tripId.toString().replace(/[^0-9\.]/g, ''), 10),
+      isPending: 0,
+    };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    this.currentSubscription_.sendMessage({ content: messageObj });</span>
+<span class="cstat-no" title="statement not covered" >    this.props.createComment(tripId, quoteId, messageObj);</span>
+    // segment- this.props.quoteCommentAdded(this.props.quoteId);
+&nbsp;
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>mponentWillUnMount() {
+<span class="cstat-no" title="statement not covered" >    this.disposeExistingRtms();</span>
+  }
+&nbsp;
+  disposeExistingRtms = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+    // close web socket connection and remove all listners
+<span class="cstat-no" title="statement not covered" >    if (this.rtms_) {</span>
+<span class="cstat-no" title="statement not covered" >      this.rtms_.close();</span>
+    }
+  };
+&nbsp;
+  render() {
+    const {
+      tripId, quoteId, currentQuote,
+      agentId, agentName, pdmsInformation, showHidePdmView,
+      chatKeys, messages, remainingMessages, loadMoreMessages, userDetails
+    } = this.props;
+&nbsp;
+    const segmentData = {
+      trip_id: tripId,
+      quote_id: quoteId,
+      destination_id: currentQuote &amp;&amp; currentQuote.destinationsList.length ? <span class="branch-0 cbranch-no" title="branch not covered" >currentQuote.destinationsList[0].id </span>: 0,
+      status: currentQuote &amp;&amp; currentQuote.tripStatus || '',
+      quote_status: currentQuote &amp;&amp; currentQuote.status || ''
+    };
+&nbsp;
+    return (
+      &lt;div className={`chatShadow flex flexDColumn hfull wfull sbcw fixed pbc1 t0 l0 wfull hfull`}&gt;
+        &lt;div className="relative chatBox__header"&gt;
+          &lt;ChatHeader
+            agentName={agentName}
+            chatKeys={chatKeys}
+            pdmsInformation={pdmsInformation}
+            requestCallbackSegmentData={segmentData}
+            agentId={agentId}
+            userDetails={userDetails}
+          /&gt;
+        &lt;/div&gt;
+        &lt;GChatMessagesDiv className="absolute wfull chatBox__messages flexFull"&gt;
+          &lt;ChatMessages
+            messages={messages}
+            userId={userDetails.id}
+            remainingMessages={remainingMessages}
+            fetchHistory={loadMoreMessages}
+            pdmsInformation={pdmsInformation}
+            tripId={tripId}
+            quoteId={quoteId}
+          /&gt;
+        &lt;/GChatMessagesDiv&gt;
+        &lt;div id="chatBoxSend" className="chatBox__send fixed b0 l0 r0 wfull"&gt;
+          &lt;ChatInput
+            sendMessage={this.sendMessage}
+            pdmsInformation={pdmsInformation}
+            showHidePdmView={showHidePdmView}
+          /&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+export default Chat;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

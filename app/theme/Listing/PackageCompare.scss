@@ -1,0 +1,8 @@
+.checkbox-common.addto-compare + label {
+  padding:0 26px 0 8px;
+  text-align: right;
+  &::before {
+    left: auto;
+    right: 0;
+  }
+}

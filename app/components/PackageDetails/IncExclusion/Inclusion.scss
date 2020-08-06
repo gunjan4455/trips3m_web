@@ -1,0 +1,25 @@
+.incl-excl-list {
+
+}
+.incl-excl-list li {
+  padding-left: 24px;
+  position: relative;
+  margin-bottom: 15px;
+  list-style: none;
+}
+.incl-excl-list li:last-child {
+  margin-bottom: 0;
+}
+.incl-excl-list li::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 100%;
+  background: #4CAF50;
+  left: 0;
+  top: 5px;
+}
+.incl-excl-list.excl-list li::before {
+  background: #FE5246;
+}

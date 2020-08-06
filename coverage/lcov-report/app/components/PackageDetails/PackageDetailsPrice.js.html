@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/PackageDetails/PackageDetailsPrice.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/PackageDetails</a> PackageDetailsPrice.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">45.45% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>5/11</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">25% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">62.5% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>5/8</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+&nbsp;
+import PackagePrice from 'components/Listing/PackagePrice';
+import PackageDaysDiscount from 'components/Listing/PackageDaysDiscount';
+import PackageCities from 'components/Listing/PackageCities';
+import PackageIncExc from 'components/Listing/PackageIncExc';
+&nbsp;
+const PackageDetailsPrice = ({ pkg, dealsInfo }) =&gt; {
+  const { package_options } = pkg;
+  const { hotel_price_details } = package_options;
+  const hotelRatings = <span class="cstat-no" title="statement not covered" >hotel_price_details.map(<span class="fstat-no" title="function not covered" >ho</span>tel =&gt; <span class="cstat-no" title="statement not covered" >hotel.hotel_star)</span>.sort(<span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >a - b)</span>;</span>
+  const filteredHotelRatings = <span class="cstat-no" title="statement not covered" >hotelRatings.reduce(<span class="fstat-no" title="function not covered" >(u</span>nique, item) =&gt; <span class="cstat-no" title="statement not covered" >unique.includes(item) ? unique : [...unique, item],</span> []);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;div className="row row- pl8 pr8 mb8"&gt;
+      &lt;div className="row row- p8 pt15 sbcw"&gt;
+        &lt;div className="row row-"&gt;
+          {dealsInfo ?
+            &lt;div className='flex alignCenter mb8'&gt;
+              &lt;p className='f12 fw7'&gt;
+                {pkg.covers.days} Days &amp; {pkg.covers.nights} Nights
+              &lt;/p&gt;
+              {pkg.hotels.length ?
+                &lt;div className='flex alignCenter'&gt;&lt;span className='ml5 mr5 iblock'&gt;|&lt;/span&gt;
+                  &lt;p className='flex alignCenter at_hotelstar'&gt;
+                    {filteredHotelRatings.join(', ')}
+                    &lt;span className='f12 fw4 ml5'&gt;Star Hotels Included&lt;/span&gt;
+                  &lt;/p&gt;
+                &lt;/div&gt; : null
+              }
+            &lt;/div&gt;
+&nbsp;
+            : null
+          }
+          &lt;div className={`flex alignCenter pl0 ${dealsInfo ? 'col-xs-12 pr0' : 'col-xs-7 pr8'}`}&gt;
+            &lt;PackagePrice
+              price={pkg.price.total}
+              priceUnit={pkg.price.miniDesc}
+              currency={pkg.price.currency}
+              discount={pkg.price.discount}
+              priceFrom={pkg.price.from}
+              priceTo={pkg.price.to}
+              dealsInfo={dealsInfo}
+            /&gt;
+          &lt;/div&gt;
+          {dealsInfo ?
+            null :
+            &lt;div className="col-xs-5 pl8 pr0"&gt;
+              &lt;PackageDaysDiscount
+                days={pkg.covers.days}
+                nights={pkg.covers.nights}
+                price={pkg.price.total}
+                discount={pkg.price.discount}
+              /&gt;
+            &lt;/div&gt;
+          }
+          &lt;div className='col-xs-12 p0'&gt;
+            {
+              dealsInfo ?
+                &lt;p className='f12 mt8'&gt;&lt;strong&gt;Validity: &lt;/strong&gt; {dealsInfo.itinerary}&lt;/p&gt; :
+                null
+            }
+          &lt;/div&gt;
+          &lt;div className="col-xs-12 pl0 pr0"&gt;
+            &lt;PackageCities cities={pkg.city_list_with_days || {}} /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className="row row- inclusion-height-box"&gt;
+          &lt;PackageIncExc inclusions={pkg.inclusions} id={`details_${pkg.id}`} /&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+PackageDetailsPrice.propTypes = {
+  pkg: PropTypes.object.isRequired,
+  dealsInfo: PropTypes.bool
+};
+&nbsp;
+PackageDetailsPrice.defaultProps = {
+  dealsInfo: false
+};
+&nbsp;
+export default PackageDetailsPrice;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Icon/Share/Black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Share/Black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <g id="Group" transform="translate(2.000000, 2.000000)">
+                <path d="M7.10483569,8.32258216 L12.8951643,5.42741784 L7.10483569,8.32258216 C7.10483569,8.32258216 7.10483569,8.32258216 7.10483569,8.32258216 Z" id="Combined-Shape" stroke="#000000" stroke-linecap="square"></path>
+                <path d="M12.8951643,14.5725822 L7.10483569,11.6774178 L12.8951643,14.5725822 C12.8951643,14.5725822 12.8951643,14.5725822 12.8951643,14.5725822 Z" id="Combined-Shape" stroke="#000000" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#000000" cx="3.75" cy="10" r="3.25"></circle>
+                <circle id="Oval-Copy" stroke="#3E3E3E" cx="16.25" cy="3.75" r="3.25"></circle>
+                <circle id="Oval-Copy" stroke="#000000" cx="16.25" cy="3.75" r="3.25"></circle>
+                <circle id="Oval-Copy-2" stroke="#000000" cx="16.25" cy="16.25" r="3.25"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

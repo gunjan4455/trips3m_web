@@ -1,0 +1,1741 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post trip module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PostTripF2
+    invalid={false}
+    pristine={false}
+    setSliderMode={[MockFunction]}
+    submitting={false}
+    trackSegment={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "event": "organism_viewed",
+              "section": "Page 2",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex flexDColumn sbcw mb8"
+        >
+          <h3
+            className="m0 f16a fw9 pt24 pl15 pr15"
+          >
+            We constantly want to improve. Rate your experience with Travel Triangle 
+            <sup
+              className="pfc2"
+            >
+              *
+            </sup>
+          </h3>
+          <div
+            className="sbcw pt24 pb24 pl15 pr15 bb"
+          >
+            <div
+              className="flex alignCenter"
+            >
+              <div
+                className="input-24 mr15"
+              >
+                <IconSvg />
+              </div>
+              <p
+                className="flexFull"
+              >
+                Quality of Quotes
+              </p>
+            </div>
+            <Field
+              component={[Function]}
+              name="quotes_quality"
+            />
+          </div>
+          <div
+            className="sbcw pt24 pb24 pl15 pr15 bb"
+          >
+            <div
+              className="flex alignCenter"
+            >
+              <div
+                className="input-24 mr15"
+              >
+                <IconSvg />
+              </div>
+              <p
+                className="flexFull"
+              >
+                On Time Response
+              </p>
+            </div>
+            <Field
+              component={[Function]}
+              name="quotes_time"
+            />
+          </div>
+          <div
+            className="sbcw pt24 pb24 pl15 pr15"
+          >
+            <div
+              className="flex alignCenter"
+            >
+              <div
+                className="input-24 mr15"
+              >
+                <IconSvg />
+              </div>
+              <p
+                className="flexFull"
+              >
+                Ease of Payment Process
+              </p>
+            </div>
+            <Field
+              component={[Function]}
+              name="payment_process"
+            />
+          </div>
+        </div>,
+        <div
+          className="flex flexDColumn sbcw"
+        >
+          <h3
+            className="m0 f16a fw9 pt24 pl15 pr15"
+          >
+            How likely are you to recommend TravelTrinagle to a friend? 
+            <sup
+              className="pfc2"
+            >
+              *
+            </sup>
+          </h3>
+          <Field
+            component={[Function]}
+            defaultValue={8}
+            name="nps"
+            validate={[Function]}
+          />
+          <div
+            className="sbcw bt"
+          >
+            <ForwardRef(render)
+              className="flex wfull z10 pr15 pl15 pt8 pb8"
+            >
+              <button
+                className="flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7"
+                onClick={[Function]}
+              >
+                <span
+                  className="input-24 absolute l15 "
+                >
+                  <IconSvg />
+                </span>
+                Back
+              </button>
+              <div
+                className="flexFull"
+              >
+                <button
+                  className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                  disabled={false}
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </ForwardRef(render)>
+          </div>
+        </div>,
+      ],
+      "className": "pt48",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="m0 f16a fw9 pt24 pl15 pr15"
+            >
+              We constantly want to improve. Rate your experience with Travel Triangle 
+              <sup
+                className="pfc2"
+              >
+                *
+              </sup>
+            </h3>,
+            <div
+              className="sbcw pt24 pb24 pl15 pr15 bb"
+            >
+              <div
+                className="flex alignCenter"
+              >
+                <div
+                  className="input-24 mr15"
+                >
+                  <IconSvg />
+                </div>
+                <p
+                  className="flexFull"
+                >
+                  Quality of Quotes
+                </p>
+              </div>
+              <Field
+                component={[Function]}
+                name="quotes_quality"
+              />
+            </div>,
+            <div
+              className="sbcw pt24 pb24 pl15 pr15 bb"
+            >
+              <div
+                className="flex alignCenter"
+              >
+                <div
+                  className="input-24 mr15"
+                >
+                  <IconSvg />
+                </div>
+                <p
+                  className="flexFull"
+                >
+                  On Time Response
+                </p>
+              </div>
+              <Field
+                component={[Function]}
+                name="quotes_time"
+              />
+            </div>,
+            <div
+              className="sbcw pt24 pb24 pl15 pr15"
+            >
+              <div
+                className="flex alignCenter"
+              >
+                <div
+                  className="input-24 mr15"
+                >
+                  <IconSvg />
+                </div>
+                <p
+                  className="flexFull"
+                >
+                  Ease of Payment Process
+                </p>
+              </div>
+              <Field
+                component={[Function]}
+                name="payment_process"
+              />
+            </div>,
+          ],
+          "className": "flex flexDColumn sbcw mb8",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "We constantly want to improve. Rate your experience with Travel Triangle ",
+                <sup
+                  className="pfc2"
+                >
+                  *
+                </sup>,
+              ],
+              "className": "m0 f16a fw9 pt24 pl15 pr15",
+            },
+            "ref": null,
+            "rendered": Array [
+              "We constantly want to improve. Rate your experience with Travel Triangle ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "*",
+                  "className": "pfc2",
+                },
+                "ref": null,
+                "rendered": "*",
+                "type": "sup",
+              },
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="flex alignCenter"
+                >
+                  <div
+                    className="input-24 mr15"
+                  >
+                    <IconSvg />
+                  </div>
+                  <p
+                    className="flexFull"
+                  >
+                    Quality of Quotes
+                  </p>
+                </div>,
+                <Field
+                  component={[Function]}
+                  name="quotes_quality"
+                />,
+              ],
+              "className": "sbcw pt24 pb24 pl15 pr15 bb",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="input-24 mr15"
+                    >
+                      <IconSvg />
+                    </div>,
+                    <p
+                      className="flexFull"
+                    >
+                      Quality of Quotes
+                    </p>,
+                  ],
+                  "className": "flex alignCenter",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "input-24 mr15",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Quality of Quotes",
+                      "className": "flexFull",
+                    },
+                    "ref": null,
+                    "rendered": "Quality of Quotes",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "name": "quotes_quality",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="flex alignCenter"
+                >
+                  <div
+                    className="input-24 mr15"
+                  >
+                    <IconSvg />
+                  </div>
+                  <p
+                    className="flexFull"
+                  >
+                    On Time Response
+                  </p>
+                </div>,
+                <Field
+                  component={[Function]}
+                  name="quotes_time"
+                />,
+              ],
+              "className": "sbcw pt24 pb24 pl15 pr15 bb",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="input-24 mr15"
+                    >
+                      <IconSvg />
+                    </div>,
+                    <p
+                      className="flexFull"
+                    >
+                      On Time Response
+                    </p>,
+                  ],
+                  "className": "flex alignCenter",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "input-24 mr15",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "On Time Response",
+                      "className": "flexFull",
+                    },
+                    "ref": null,
+                    "rendered": "On Time Response",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "name": "quotes_time",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="flex alignCenter"
+                >
+                  <div
+                    className="input-24 mr15"
+                  >
+                    <IconSvg />
+                  </div>
+                  <p
+                    className="flexFull"
+                  >
+                    Ease of Payment Process
+                  </p>
+                </div>,
+                <Field
+                  component={[Function]}
+                  name="payment_process"
+                />,
+              ],
+              "className": "sbcw pt24 pb24 pl15 pr15",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="input-24 mr15"
+                    >
+                      <IconSvg />
+                    </div>,
+                    <p
+                      className="flexFull"
+                    >
+                      Ease of Payment Process
+                    </p>,
+                  ],
+                  "className": "flex alignCenter",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "input-24 mr15",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ease of Payment Process",
+                      "className": "flexFull",
+                    },
+                    "ref": null,
+                    "rendered": "Ease of Payment Process",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "name": "payment_process",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="m0 f16a fw9 pt24 pl15 pr15"
+            >
+              How likely are you to recommend TravelTrinagle to a friend? 
+              <sup
+                className="pfc2"
+              >
+                *
+              </sup>
+            </h3>,
+            <Field
+              component={[Function]}
+              defaultValue={8}
+              name="nps"
+              validate={[Function]}
+            />,
+            <div
+              className="sbcw bt"
+            >
+              <ForwardRef(render)
+                className="flex wfull z10 pr15 pl15 pt8 pb8"
+              >
+                <button
+                  className="flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7"
+                  onClick={[Function]}
+                >
+                  <span
+                    className="input-24 absolute l15 "
+                  >
+                    <IconSvg />
+                  </span>
+                  Back
+                </button>
+                <div
+                  className="flexFull"
+                >
+                  <button
+                    className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                    disabled={false}
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </ForwardRef(render)>
+            </div>,
+          ],
+          "className": "flex flexDColumn sbcw",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "How likely are you to recommend TravelTrinagle to a friend? ",
+                <sup
+                  className="pfc2"
+                >
+                  *
+                </sup>,
+              ],
+              "className": "m0 f16a fw9 pt24 pl15 pr15",
+            },
+            "ref": null,
+            "rendered": Array [
+              "How likely are you to recommend TravelTrinagle to a friend? ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "*",
+                  "className": "pfc2",
+                },
+                "ref": null,
+                "rendered": "*",
+                "type": "sup",
+              },
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "defaultValue": 8,
+              "name": "nps",
+              "validate": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ForwardRef(render)
+                className="flex wfull z10 pr15 pl15 pt8 pb8"
+              >
+                <button
+                  className="flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7"
+                  onClick={[Function]}
+                >
+                  <span
+                    className="input-24 absolute l15 "
+                  >
+                    <IconSvg />
+                  </span>
+                  Back
+                </button>
+                <div
+                  className="flexFull"
+                >
+                  <button
+                    className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                    disabled={false}
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </ForwardRef(render)>,
+              "className": "sbcw bt",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <button
+                    className="flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7"
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="input-24 absolute l15 "
+                    >
+                      <IconSvg />
+                    </span>
+                    Back
+                  </button>,
+                  <div
+                    className="flexFull"
+                  >
+                    <button
+                      className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                      disabled={false}
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>,
+                ],
+                "className": "flex wfull z10 pr15 pl15 pt8 pb8",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="input-24 absolute l15 "
+                      >
+                        <IconSvg />
+                      </span>,
+                      "Back",
+                    ],
+                    "className": "flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSvg />,
+                        "className": "input-24 absolute l15 ",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "span",
+                    },
+                    "Back",
+                  ],
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                      disabled={false}
+                      type="submit"
+                    >
+                      Submit
+                    </button>,
+                    "className": "flexFull",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Submit",
+                      "className": "flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large",
+                      "disabled": false,
+                      "type": "submit",
+                    },
+                    "ref": null,
+                    "rendered": "Submit",
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& button[disabled]": Object {
+                      "backgroundColor": "#efefef",
+                      "color": "#b2b2b2",
+                    },
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex flexDColumn sbcw mb8"
+          >
+            <h3
+              className="m0 f16a fw9 pt24 pl15 pr15"
+            >
+              We constantly want to improve. Rate your experience with Travel Triangle 
+              <sup
+                className="pfc2"
+              >
+                *
+              </sup>
+            </h3>
+            <div
+              className="sbcw pt24 pb24 pl15 pr15 bb"
+            >
+              <div
+                className="flex alignCenter"
+              >
+                <div
+                  className="input-24 mr15"
+                >
+                  <IconSvg />
+                </div>
+                <p
+                  className="flexFull"
+                >
+                  Quality of Quotes
+                </p>
+              </div>
+              <Field
+                component={[Function]}
+                name="quotes_quality"
+              />
+            </div>
+            <div
+              className="sbcw pt24 pb24 pl15 pr15 bb"
+            >
+              <div
+                className="flex alignCenter"
+              >
+                <div
+                  className="input-24 mr15"
+                >
+                  <IconSvg />
+                </div>
+                <p
+                  className="flexFull"
+                >
+                  On Time Response
+                </p>
+              </div>
+              <Field
+                component={[Function]}
+                name="quotes_time"
+              />
+            </div>
+            <div
+              className="sbcw pt24 pb24 pl15 pr15"
+            >
+              <div
+                className="flex alignCenter"
+              >
+                <div
+                  className="input-24 mr15"
+                >
+                  <IconSvg />
+                </div>
+                <p
+                  className="flexFull"
+                >
+                  Ease of Payment Process
+                </p>
+              </div>
+              <Field
+                component={[Function]}
+                name="payment_process"
+              />
+            </div>
+          </div>,
+          <div
+            className="flex flexDColumn sbcw"
+          >
+            <h3
+              className="m0 f16a fw9 pt24 pl15 pr15"
+            >
+              How likely are you to recommend TravelTrinagle to a friend? 
+              <sup
+                className="pfc2"
+              >
+                *
+              </sup>
+            </h3>
+            <Field
+              component={[Function]}
+              defaultValue={8}
+              name="nps"
+              validate={[Function]}
+            />
+            <div
+              className="sbcw bt"
+            >
+              <ForwardRef(render)
+                className="flex wfull z10 pr15 pl15 pt8 pb8"
+              >
+                <button
+                  className="flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7"
+                  onClick={[Function]}
+                >
+                  <span
+                    className="input-24 absolute l15 "
+                  >
+                    <IconSvg />
+                  </span>
+                  Back
+                </button>
+                <div
+                  className="flexFull"
+                >
+                  <button
+                    className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                    disabled={false}
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </ForwardRef(render)>
+            </div>
+          </div>,
+        ],
+        "className": "pt48",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="m0 f16a fw9 pt24 pl15 pr15"
+              >
+                We constantly want to improve. Rate your experience with Travel Triangle 
+                <sup
+                  className="pfc2"
+                >
+                  *
+                </sup>
+              </h3>,
+              <div
+                className="sbcw pt24 pb24 pl15 pr15 bb"
+              >
+                <div
+                  className="flex alignCenter"
+                >
+                  <div
+                    className="input-24 mr15"
+                  >
+                    <IconSvg />
+                  </div>
+                  <p
+                    className="flexFull"
+                  >
+                    Quality of Quotes
+                  </p>
+                </div>
+                <Field
+                  component={[Function]}
+                  name="quotes_quality"
+                />
+              </div>,
+              <div
+                className="sbcw pt24 pb24 pl15 pr15 bb"
+              >
+                <div
+                  className="flex alignCenter"
+                >
+                  <div
+                    className="input-24 mr15"
+                  >
+                    <IconSvg />
+                  </div>
+                  <p
+                    className="flexFull"
+                  >
+                    On Time Response
+                  </p>
+                </div>
+                <Field
+                  component={[Function]}
+                  name="quotes_time"
+                />
+              </div>,
+              <div
+                className="sbcw pt24 pb24 pl15 pr15"
+              >
+                <div
+                  className="flex alignCenter"
+                >
+                  <div
+                    className="input-24 mr15"
+                  >
+                    <IconSvg />
+                  </div>
+                  <p
+                    className="flexFull"
+                  >
+                    Ease of Payment Process
+                  </p>
+                </div>
+                <Field
+                  component={[Function]}
+                  name="payment_process"
+                />
+              </div>,
+            ],
+            "className": "flex flexDColumn sbcw mb8",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "We constantly want to improve. Rate your experience with Travel Triangle ",
+                  <sup
+                    className="pfc2"
+                  >
+                    *
+                  </sup>,
+                ],
+                "className": "m0 f16a fw9 pt24 pl15 pr15",
+              },
+              "ref": null,
+              "rendered": Array [
+                "We constantly want to improve. Rate your experience with Travel Triangle ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "*",
+                    "className": "pfc2",
+                  },
+                  "ref": null,
+                  "rendered": "*",
+                  "type": "sup",
+                },
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="flex alignCenter"
+                  >
+                    <div
+                      className="input-24 mr15"
+                    >
+                      <IconSvg />
+                    </div>
+                    <p
+                      className="flexFull"
+                    >
+                      Quality of Quotes
+                    </p>
+                  </div>,
+                  <Field
+                    component={[Function]}
+                    name="quotes_quality"
+                  />,
+                ],
+                "className": "sbcw pt24 pb24 pl15 pr15 bb",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="input-24 mr15"
+                      >
+                        <IconSvg />
+                      </div>,
+                      <p
+                        className="flexFull"
+                      >
+                        Quality of Quotes
+                      </p>,
+                    ],
+                    "className": "flex alignCenter",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSvg />,
+                        "className": "input-24 mr15",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Quality of Quotes",
+                        "className": "flexFull",
+                      },
+                      "ref": null,
+                      "rendered": "Quality of Quotes",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "name": "quotes_quality",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="flex alignCenter"
+                  >
+                    <div
+                      className="input-24 mr15"
+                    >
+                      <IconSvg />
+                    </div>
+                    <p
+                      className="flexFull"
+                    >
+                      On Time Response
+                    </p>
+                  </div>,
+                  <Field
+                    component={[Function]}
+                    name="quotes_time"
+                  />,
+                ],
+                "className": "sbcw pt24 pb24 pl15 pr15 bb",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="input-24 mr15"
+                      >
+                        <IconSvg />
+                      </div>,
+                      <p
+                        className="flexFull"
+                      >
+                        On Time Response
+                      </p>,
+                    ],
+                    "className": "flex alignCenter",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSvg />,
+                        "className": "input-24 mr15",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "On Time Response",
+                        "className": "flexFull",
+                      },
+                      "ref": null,
+                      "rendered": "On Time Response",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "name": "quotes_time",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="flex alignCenter"
+                  >
+                    <div
+                      className="input-24 mr15"
+                    >
+                      <IconSvg />
+                    </div>
+                    <p
+                      className="flexFull"
+                    >
+                      Ease of Payment Process
+                    </p>
+                  </div>,
+                  <Field
+                    component={[Function]}
+                    name="payment_process"
+                  />,
+                ],
+                "className": "sbcw pt24 pb24 pl15 pr15",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="input-24 mr15"
+                      >
+                        <IconSvg />
+                      </div>,
+                      <p
+                        className="flexFull"
+                      >
+                        Ease of Payment Process
+                      </p>,
+                    ],
+                    "className": "flex alignCenter",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <IconSvg />,
+                        "className": "input-24 mr15",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ease of Payment Process",
+                        "className": "flexFull",
+                      },
+                      "ref": null,
+                      "rendered": "Ease of Payment Process",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "name": "payment_process",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="m0 f16a fw9 pt24 pl15 pr15"
+              >
+                How likely are you to recommend TravelTrinagle to a friend? 
+                <sup
+                  className="pfc2"
+                >
+                  *
+                </sup>
+              </h3>,
+              <Field
+                component={[Function]}
+                defaultValue={8}
+                name="nps"
+                validate={[Function]}
+              />,
+              <div
+                className="sbcw bt"
+              >
+                <ForwardRef(render)
+                  className="flex wfull z10 pr15 pl15 pt8 pb8"
+                >
+                  <button
+                    className="flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7"
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="input-24 absolute l15 "
+                    >
+                      <IconSvg />
+                    </span>
+                    Back
+                  </button>
+                  <div
+                    className="flexFull"
+                  >
+                    <button
+                      className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                      disabled={false}
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </ForwardRef(render)>
+              </div>,
+            ],
+            "className": "flex flexDColumn sbcw",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "How likely are you to recommend TravelTrinagle to a friend? ",
+                  <sup
+                    className="pfc2"
+                  >
+                    *
+                  </sup>,
+                ],
+                "className": "m0 f16a fw9 pt24 pl15 pr15",
+              },
+              "ref": null,
+              "rendered": Array [
+                "How likely are you to recommend TravelTrinagle to a friend? ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "*",
+                    "className": "pfc2",
+                  },
+                  "ref": null,
+                  "rendered": "*",
+                  "type": "sup",
+                },
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "defaultValue": 8,
+                "name": "nps",
+                "validate": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  className="flex wfull z10 pr15 pl15 pt8 pb8"
+                >
+                  <button
+                    className="flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7"
+                    onClick={[Function]}
+                  >
+                    <span
+                      className="input-24 absolute l15 "
+                    >
+                      <IconSvg />
+                    </span>
+                    Back
+                  </button>
+                  <div
+                    className="flexFull"
+                  >
+                    <button
+                      className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                      disabled={false}
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </ForwardRef(render)>,
+                "className": "sbcw bt",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <button
+                      className="flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="input-24 absolute l15 "
+                      >
+                        <IconSvg />
+                      </span>
+                      Back
+                    </button>,
+                    <div
+                      className="flexFull"
+                    >
+                      <button
+                        className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                        disabled={false}
+                        type="submit"
+                      >
+                        Submit
+                      </button>
+                    </div>,
+                  ],
+                  "className": "flex wfull z10 pr15 pl15 pt8 pb8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="input-24 absolute l15 "
+                        >
+                          <IconSvg />
+                        </span>,
+                        "Back",
+                      ],
+                      "className": "flexFull link-pri fw7 wfull radius2 iblock at_Cancel sbcw sbc2 pfc2 f16 fw7",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <IconSvg />,
+                          "className": "input-24 absolute l15 ",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "span",
+                      },
+                      "Back",
+                    ],
+                    "type": "button",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <button
+                        className="flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large"
+                        disabled={false}
+                        type="submit"
+                      >
+                        Submit
+                      </button>,
+                      "className": "flexFull",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Submit",
+                        "className": "flexFull pbc2 wfull radius2 at_submit  f16 fw7 sfcw btn-filled-pri-large",
+                        "disabled": false,
+                        "type": "submit",
+                      },
+                      "ref": null,
+                      "rendered": "Submit",
+                      "type": "button",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "& button[disabled]": Object {
+                        "backgroundColor": "#efefef",
+                        "color": "#b2b2b2",
+                      },
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

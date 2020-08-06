@@ -1,0 +1,19 @@
+:local{
+    .nurtureIcon{
+        width:24px;
+        height:24px;
+    }
+    .bannerHeading{
+        min-height:181px;
+    }
+    .budgetWrap{
+        min-height:80px;
+        bottom:-13px;
+        .numberOfPeople{
+            left:23px;
+            right:23px;
+            bottom:-15px;
+            border-radius: 6px;
+        }
+    }
+}

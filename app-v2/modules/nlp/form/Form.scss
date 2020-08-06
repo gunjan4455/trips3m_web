@@ -1,0 +1,34 @@
+.active {
+  .HotelRating{
+    background: #fac22e;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    border-color: #fac22e;
+    &:after{
+      position: absolute;
+      content: "";
+      bottom: -7px;
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid #fac22e;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  }
+}
+.HotelRating{
+  top: -15px;
+  color: #3e3e3e;
+  border: 1px solid #d4d4d4;
+  width: 56px;
+  margin: 0 auto;
+}
+button:disabled .btn-filled-pri-large{
+  background:#b2b2b2;
+}
+
+

@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Compare Module should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CompareHotelsSection
+    hotels={
+      Array [
+        Object {
+          "days": Array [
+            1,
+          ],
+          "hotelInfos": Array [
+            Object {
+              "address": null,
+              "city": "Bardez",
+              "comments": "",
+              "dId": null,
+              "description": null,
+              "gId": null,
+              "hotelId": 359407,
+              "hotelImages": Array [],
+              "isAlternate": 0,
+              "name": "Rio Boutique",
+              "nights": "1",
+              "quoteCityId": 35268057,
+              "rating": 4,
+              "roomType": " Deluxe ",
+              "selectionStatus": null,
+              "taUrl": null,
+              "tripDayId": 38054614,
+            },
+          ],
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        Array [
+          <div
+            className="mb24 contentList"
+          >
+            <p
+              className="f14p"
+            >
+              Rio Boutique
+            </p>
+            <ForwardRef(render)
+              className="flex alignCenter justifyCenter p2 pl15 pr15 radius2 mt8 text-center"
+            >
+              <span
+                className="f14p mr2 at_ratingText"
+              >
+                4
+              </span>
+              <span
+                className="icon-14"
+              >
+                <IconSvg />
+              </span>
+            </ForwardRef(render)>
+          </div>,
+        ],
+      ],
+      "className": "flexFull p15",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "hotel_359407",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="f14p"
+            >
+              Rio Boutique
+            </p>,
+            <ForwardRef(render)
+              className="flex alignCenter justifyCenter p2 pl15 pr15 radius2 mt8 text-center"
+            >
+              <span
+                className="f14p mr2 at_ratingText"
+              >
+                4
+              </span>
+              <span
+                className="icon-14"
+              >
+                <IconSvg />
+              </span>
+            </ForwardRef(render)>,
+          ],
+          "className": "mb24 contentList",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Rio Boutique",
+              "className": "f14p",
+            },
+            "ref": null,
+            "rendered": "Rio Boutique",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="f14p mr2 at_ratingText"
+                >
+                  4
+                </span>,
+                <span
+                  className="icon-14"
+                >
+                  <IconSvg />
+                </span>,
+              ],
+              "className": "flex alignCenter justifyCenter p2 pl15 pr15 radius2 mt8 text-center",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 4,
+                  "className": "f14p mr2 at_ratingText",
+                },
+                "ref": null,
+                "rendered": 4,
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <IconSvg />,
+                  "className": "icon-14",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "span",
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "border": "1px solid #d4d4d4",
+                  "width": "48px",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          Array [
+            <div
+              className="mb24 contentList"
+            >
+              <p
+                className="f14p"
+              >
+                Rio Boutique
+              </p>
+              <ForwardRef(render)
+                className="flex alignCenter justifyCenter p2 pl15 pr15 radius2 mt8 text-center"
+              >
+                <span
+                  className="f14p mr2 at_ratingText"
+                >
+                  4
+                </span>
+                <span
+                  className="icon-14"
+                >
+                  <IconSvg />
+                </span>
+              </ForwardRef(render)>
+            </div>,
+          ],
+        ],
+        "className": "flexFull p15",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "hotel_359407",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="f14p"
+              >
+                Rio Boutique
+              </p>,
+              <ForwardRef(render)
+                className="flex alignCenter justifyCenter p2 pl15 pr15 radius2 mt8 text-center"
+              >
+                <span
+                  className="f14p mr2 at_ratingText"
+                >
+                  4
+                </span>
+                <span
+                  className="icon-14"
+                >
+                  <IconSvg />
+                </span>
+              </ForwardRef(render)>,
+            ],
+            "className": "mb24 contentList",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Rio Boutique",
+                "className": "f14p",
+              },
+              "ref": null,
+              "rendered": "Rio Boutique",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="f14p mr2 at_ratingText"
+                  >
+                    4
+                  </span>,
+                  <span
+                    className="icon-14"
+                  >
+                    <IconSvg />
+                  </span>,
+                ],
+                "className": "flex alignCenter justifyCenter p2 pl15 pr15 radius2 mt8 text-center",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 4,
+                    "className": "f14p mr2 at_ratingText",
+                  },
+                  "ref": null,
+                  "rendered": 4,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "icon-14",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "span",
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "border": "1px solid #d4d4d4",
+                    "width": "48px",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

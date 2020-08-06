@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Listing/PackageIncExc.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/Listing</a> PackageIncExc.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>15/15</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">77.27% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>17/22</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/3</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>15/15</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/* eslint-disable react/no-array-index-key */
+import React from 'react';
+import PropTypes from 'prop-types';
+&nbsp;
+import * as Icons from 'helpers/Icon/Icon';
+import { capitalizeFirstLetter } from '../../utils/parsers';
+import { InclusionNotification } from 'constants/Packages/InclusionNotification';
+import YellowDot from './../Common/YellowDot';
+import './PackageIncExc.scss';
+&nbsp;
+const getIconText = (inclusion, hotelInfo) =&gt; {
+  if (inclusion.key === 'hotel' &amp;&amp; hotelInfo) {
+    return `Upto ${hotelInfo[0]} Stars`;
+  }
+  return inclusion.text;
+};
+&nbsp;
+const PackageIncExc = ({ inclusions, id, noScroll, hotelInfo }) =&gt; {
+  const inclusionList = inclusions.map(
+    (inclusion, index) =&gt; {
+      const IconComponent = Icons[capitalizeFirstLetter(inclusion.key.replace(/[\s-_]/g, ''))] || <span class="branch-1 cbranch-no" title="branch not covered" >Icons.Default;</span>
+      const disabledElementClass = inclusion.available ? '' : 'not-included';
+      const disabledIconClass = inclusion.available ? '' : 'greyscale';
+      const inclusionTextHidden = inclusion.text ? '' : <span class="branch-1 cbranch-no" title="branch not covered" >'hide';</span>
+      const InclusionNotificationPresent = (inclusion.available &amp;&amp; (InclusionNotification.indexOf(inclusion.key) &gt; -1)) ? <span class="branch-0 cbranch-no" title="branch not covered" >'relative' </span>: '';
+&nbsp;
+      return (
+        &lt;div className={`incl-excl-box ${inclusionTextHidden} ${disabledElementClass} ${InclusionNotificationPresent}`} key={`${id}_${inclusion.key}_${index}`}&gt;
+          {
+            (inclusion.available &amp;&amp; (InclusionNotification.indexOf(inclusion.key) &gt; -1)) ?
+<span class="branch-0 cbranch-no" title="branch not covered" >            &lt;YellowDot id="flightMessage" dotBoxStyle={{ width: '10px', height: '10px', position: 'absolute', top: '6px', right: '3px' }} dotSmallBoxStyle={{ width: '5px', height: '5px' }} spinnerStyle={{ width: '10px', height: '10px', zIndex: '1' }}  hoverData="Flight prices are dynamic and may change at the time of booking" /&gt;</span>
+            : null
+          }
+          &lt;span className="incl-excl-img"&gt;
+            &lt;IconComponent key={`${id}_${inclusion.key}_${index}`} className={disabledIconClass} /&gt;
+          &lt;/span&gt;
+          &lt;p className="f10"&gt;{getIconText(inclusion, hotelInfo)}&lt;/p&gt;
+        &lt;/div&gt;
+      );
+    }
+  );
+&nbsp;
+  return (
+    &lt;div
+      className={`row row- incl-excl-con ${noScroll ? <span class="branch-0 cbranch-no" title="branch not covered" >'inc-no-scroll' </span>: ''} `}
+    &gt;
+      &lt;div className="row row- incl-excl-con-inner"&gt;
+        {inclusionList}
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+PackageIncExc.propTypes = {
+  inclusions: PropTypes.array.isRequired,
+  hotelInfo: PropTypes.array.isRequired,
+  id: PropTypes.string,
+  noScroll: PropTypes.bool
+};
+&nbsp;
+PackageIncExc.defaultProps = {
+  noScroll: false,
+  id: 'default_1'
+};
+&nbsp;
+&nbsp;
+export default PackageIncExc;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

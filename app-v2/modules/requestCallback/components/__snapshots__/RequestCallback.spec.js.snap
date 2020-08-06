@@ -1,0 +1,1667 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RequestCallBackPopup: Render Correctly should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RequestCallbackPopup
+    closeModal={[Function]}
+    quoteId={7124216}
+    requestCallbackConfirm={[MockFunction]}
+    requestCallbackReasons={
+      Object {
+        "request_cta_1": "I need some changes in the quote",
+        "request_cta_2": "I like this quote, need to finalize the price",
+        "request_cta_3": "Help me to compare with other destination",
+        "request_cta_4": "Other",
+      }
+    }
+    tripId={3918699}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ModalHeaderCustom
+          handleCrossClick={[Function]}
+          heading="Request a Call Back"
+        />,
+        <div
+          className="col-xs-12 sbcw z2 p0 flex flexDColumn pb64 flexFull"
+        >
+          <div
+            className="p24 pb15"
+          >
+            <p
+              className="f14p pfc3 mb0 fw7 at_requestCB-text"
+            >
+              Our Travel Agent will get in touch with you.
+            </p>
+          </div>
+          <div
+            className="flexFull pt0 p24 at_requestCB-reason"
+          >
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-request_cta_1"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="request_cta_1"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                htmlFor="reject-quote-request_cta_1"
+              >
+                I need some changes in the quote
+              </label>
+            </div>
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-request_cta_2"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="request_cta_2"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                htmlFor="reject-quote-request_cta_2"
+              >
+                I like this quote, need to finalize the price
+              </label>
+            </div>
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-request_cta_3"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="request_cta_3"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                htmlFor="reject-quote-request_cta_3"
+              >
+                Help me to compare with other destination
+              </label>
+            </div>
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-request_cta_4"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="request_cta_4"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                htmlFor="reject-quote-request_cta_4"
+              >
+                Other
+              </label>
+              <ForwardRef(render)
+                className="textarea"
+                onChange={[Function]}
+                placeholder="Enter reason for Quote Rejection"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="fixed b0 l0 r0 bs6"
+          >
+            <button
+              className="btn-filled-pri-large wfull radius2 pl8 pr8 at_requestCB-confirm"
+              onClick={[Function]}
+            >
+              Submit
+            </button>
+          </div>
+        </div>,
+      ],
+      "className": "flex hfull flexDColumn overflowa",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleCrossClick": [Function],
+          "heading": "Request a Call Back",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="p24 pb15"
+            >
+              <p
+                className="f14p pfc3 mb0 fw7 at_requestCB-text"
+              >
+                Our Travel Agent will get in touch with you.
+              </p>
+            </div>,
+            <div
+              className="flexFull pt0 p24 at_requestCB-reason"
+            >
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-request_cta_1"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="request_cta_1"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                  htmlFor="reject-quote-request_cta_1"
+                >
+                  I need some changes in the quote
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-request_cta_2"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="request_cta_2"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                  htmlFor="reject-quote-request_cta_2"
+                >
+                  I like this quote, need to finalize the price
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-request_cta_3"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="request_cta_3"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                  htmlFor="reject-quote-request_cta_3"
+                >
+                  Help me to compare with other destination
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-request_cta_4"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="request_cta_4"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                  htmlFor="reject-quote-request_cta_4"
+                >
+                  Other
+                </label>
+                <ForwardRef(render)
+                  className="textarea"
+                  onChange={[Function]}
+                  placeholder="Enter reason for Quote Rejection"
+                  value=""
+                />
+              </div>
+            </div>,
+            <div
+              className="fixed b0 l0 r0 bs6"
+            >
+              <button
+                className="btn-filled-pri-large wfull radius2 pl8 pr8 at_requestCB-confirm"
+                onClick={[Function]}
+              >
+                Submit
+              </button>
+            </div>,
+          ],
+          "className": "col-xs-12 sbcw z2 p0 flex flexDColumn pb64 flexFull",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p
+                className="f14p pfc3 mb0 fw7 at_requestCB-text"
+              >
+                Our Travel Agent will get in touch with you.
+              </p>,
+              "className": "p24 pb15",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Our Travel Agent will get in touch with you.",
+                "className": "f14p pfc3 mb0 fw7 at_requestCB-text",
+              },
+              "ref": null,
+              "rendered": "Our Travel Agent will get in touch with you.",
+              "type": "p",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-request_cta_1"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="request_cta_1"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                    htmlFor="reject-quote-request_cta_1"
+                  >
+                    I need some changes in the quote
+                  </label>
+                </div>,
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-request_cta_2"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="request_cta_2"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                    htmlFor="reject-quote-request_cta_2"
+                  >
+                    I like this quote, need to finalize the price
+                  </label>
+                </div>,
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-request_cta_3"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="request_cta_3"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                    htmlFor="reject-quote-request_cta_3"
+                  >
+                    Help me to compare with other destination
+                  </label>
+                </div>,
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-request_cta_4"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="request_cta_4"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                    htmlFor="reject-quote-request_cta_4"
+                  >
+                    Other
+                  </label>
+                  <ForwardRef(render)
+                    className="textarea"
+                    onChange={[Function]}
+                    placeholder="Enter reason for Quote Rejection"
+                    value=""
+                  />
+                </div>,
+              ],
+              "className": "flexFull pt0 p24 at_requestCB-reason",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "reject-quote-request_cta_1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-request_cta_1"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="request_cta_1"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                      htmlFor="reject-quote-request_cta_1"
+                    >
+                      I need some changes in the quote
+                    </label>,
+                    null,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-request_cta_1",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "request_cta_1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "I need some changes in the quote",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons",
+                      "htmlFor": "reject-quote-request_cta_1",
+                    },
+                    "ref": null,
+                    "rendered": "I need some changes in the quote",
+                    "type": "label",
+                  },
+                  null,
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "reject-quote-request_cta_2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-request_cta_2"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="request_cta_2"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                      htmlFor="reject-quote-request_cta_2"
+                    >
+                      I like this quote, need to finalize the price
+                    </label>,
+                    null,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-request_cta_2",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "request_cta_2",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "I like this quote, need to finalize the price",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons",
+                      "htmlFor": "reject-quote-request_cta_2",
+                    },
+                    "ref": null,
+                    "rendered": "I like this quote, need to finalize the price",
+                    "type": "label",
+                  },
+                  null,
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "reject-quote-request_cta_3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-request_cta_3"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="request_cta_3"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                      htmlFor="reject-quote-request_cta_3"
+                    >
+                      Help me to compare with other destination
+                    </label>,
+                    null,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-request_cta_3",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "request_cta_3",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Help me to compare with other destination",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons",
+                      "htmlFor": "reject-quote-request_cta_3",
+                    },
+                    "ref": null,
+                    "rendered": "Help me to compare with other destination",
+                    "type": "label",
+                  },
+                  null,
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "reject-quote-request_cta_4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-request_cta_4"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="request_cta_4"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                      htmlFor="reject-quote-request_cta_4"
+                    >
+                      Other
+                    </label>,
+                    <ForwardRef(render)
+                      className="textarea"
+                      onChange={[Function]}
+                      placeholder="Enter reason for Quote Rejection"
+                      value=""
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-request_cta_4",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "request_cta_4",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Other",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons",
+                      "htmlFor": "reject-quote-request_cta_4",
+                    },
+                    "ref": null,
+                    "rendered": "Other",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "className": "textarea",
+                      "onChange": [Function],
+                      "placeholder": "Enter reason for Quote Rejection",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "textarea",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "display": "none",
+                          "marginLeft": "30px",
+                          "resize": "none",
+                          "width": "calc(100% - 30px)",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(textarea)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="btn-filled-pri-large wfull radius2 pl8 pr8 at_requestCB-confirm"
+                onClick={[Function]}
+              >
+                Submit
+              </button>,
+              "className": "fixed b0 l0 r0 bs6",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Submit",
+                "className": "btn-filled-pri-large wfull radius2 pl8 pr8 at_requestCB-confirm",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Submit",
+              "type": "button",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        Object {
+          " .request-call-icon": Object {
+            "& svg": Object {
+              "height": "88.64px",
+              "width": "120px",
+            },
+            "height": "88.64px",
+            "position": "relative",
+            "width": "120px",
+          },
+          "width": "100%",
+        },
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ModalHeaderCustom
+            handleCrossClick={[Function]}
+            heading="Request a Call Back"
+          />,
+          <div
+            className="col-xs-12 sbcw z2 p0 flex flexDColumn pb64 flexFull"
+          >
+            <div
+              className="p24 pb15"
+            >
+              <p
+                className="f14p pfc3 mb0 fw7 at_requestCB-text"
+              >
+                Our Travel Agent will get in touch with you.
+              </p>
+            </div>
+            <div
+              className="flexFull pt0 p24 at_requestCB-reason"
+            >
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-request_cta_1"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="request_cta_1"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                  htmlFor="reject-quote-request_cta_1"
+                >
+                  I need some changes in the quote
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-request_cta_2"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="request_cta_2"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                  htmlFor="reject-quote-request_cta_2"
+                >
+                  I like this quote, need to finalize the price
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-request_cta_3"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="request_cta_3"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                  htmlFor="reject-quote-request_cta_3"
+                >
+                  Help me to compare with other destination
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-request_cta_4"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="request_cta_4"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                  htmlFor="reject-quote-request_cta_4"
+                >
+                  Other
+                </label>
+                <ForwardRef(render)
+                  className="textarea"
+                  onChange={[Function]}
+                  placeholder="Enter reason for Quote Rejection"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              className="fixed b0 l0 r0 bs6"
+            >
+              <button
+                className="btn-filled-pri-large wfull radius2 pl8 pr8 at_requestCB-confirm"
+                onClick={[Function]}
+              >
+                Submit
+              </button>
+            </div>
+          </div>,
+        ],
+        "className": "flex hfull flexDColumn overflowa",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleCrossClick": [Function],
+            "heading": "Request a Call Back",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="p24 pb15"
+              >
+                <p
+                  className="f14p pfc3 mb0 fw7 at_requestCB-text"
+                >
+                  Our Travel Agent will get in touch with you.
+                </p>
+              </div>,
+              <div
+                className="flexFull pt0 p24 at_requestCB-reason"
+              >
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-request_cta_1"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="request_cta_1"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                    htmlFor="reject-quote-request_cta_1"
+                  >
+                    I need some changes in the quote
+                  </label>
+                </div>
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-request_cta_2"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="request_cta_2"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                    htmlFor="reject-quote-request_cta_2"
+                  >
+                    I like this quote, need to finalize the price
+                  </label>
+                </div>
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-request_cta_3"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="request_cta_3"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                    htmlFor="reject-quote-request_cta_3"
+                  >
+                    Help me to compare with other destination
+                  </label>
+                </div>
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-request_cta_4"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="request_cta_4"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                    htmlFor="reject-quote-request_cta_4"
+                  >
+                    Other
+                  </label>
+                  <ForwardRef(render)
+                    className="textarea"
+                    onChange={[Function]}
+                    placeholder="Enter reason for Quote Rejection"
+                    value=""
+                  />
+                </div>
+              </div>,
+              <div
+                className="fixed b0 l0 r0 bs6"
+              >
+                <button
+                  className="btn-filled-pri-large wfull radius2 pl8 pr8 at_requestCB-confirm"
+                  onClick={[Function]}
+                >
+                  Submit
+                </button>
+              </div>,
+            ],
+            "className": "col-xs-12 sbcw z2 p0 flex flexDColumn pb64 flexFull",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p
+                  className="f14p pfc3 mb0 fw7 at_requestCB-text"
+                >
+                  Our Travel Agent will get in touch with you.
+                </p>,
+                "className": "p24 pb15",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Our Travel Agent will get in touch with you.",
+                  "className": "f14p pfc3 mb0 fw7 at_requestCB-text",
+                },
+                "ref": null,
+                "rendered": "Our Travel Agent will get in touch with you.",
+                "type": "p",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-request_cta_1"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="request_cta_1"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                      htmlFor="reject-quote-request_cta_1"
+                    >
+                      I need some changes in the quote
+                    </label>
+                  </div>,
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-request_cta_2"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="request_cta_2"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                      htmlFor="reject-quote-request_cta_2"
+                    >
+                      I like this quote, need to finalize the price
+                    </label>
+                  </div>,
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-request_cta_3"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="request_cta_3"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                      htmlFor="reject-quote-request_cta_3"
+                    >
+                      Help me to compare with other destination
+                    </label>
+                  </div>,
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-request_cta_4"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="request_cta_4"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                      htmlFor="reject-quote-request_cta_4"
+                    >
+                      Other
+                    </label>
+                    <ForwardRef(render)
+                      className="textarea"
+                      onChange={[Function]}
+                      placeholder="Enter reason for Quote Rejection"
+                      value=""
+                    />
+                  </div>,
+                ],
+                "className": "flexFull pt0 p24 at_requestCB-reason",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-request_cta_1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-request_cta_1"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="request_cta_1"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                        htmlFor="reject-quote-request_cta_1"
+                      >
+                        I need some changes in the quote
+                      </label>,
+                      null,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-request_cta_1",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "request_cta_1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "I need some changes in the quote",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons",
+                        "htmlFor": "reject-quote-request_cta_1",
+                      },
+                      "ref": null,
+                      "rendered": "I need some changes in the quote",
+                      "type": "label",
+                    },
+                    null,
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-request_cta_2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-request_cta_2"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="request_cta_2"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                        htmlFor="reject-quote-request_cta_2"
+                      >
+                        I like this quote, need to finalize the price
+                      </label>,
+                      null,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-request_cta_2",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "request_cta_2",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "I like this quote, need to finalize the price",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons",
+                        "htmlFor": "reject-quote-request_cta_2",
+                      },
+                      "ref": null,
+                      "rendered": "I like this quote, need to finalize the price",
+                      "type": "label",
+                    },
+                    null,
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-request_cta_3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-request_cta_3"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="request_cta_3"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                        htmlFor="reject-quote-request_cta_3"
+                      >
+                        Help me to compare with other destination
+                      </label>,
+                      null,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-request_cta_3",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "request_cta_3",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Help me to compare with other destination",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons",
+                        "htmlFor": "reject-quote-request_cta_3",
+                      },
+                      "ref": null,
+                      "rendered": "Help me to compare with other destination",
+                      "type": "label",
+                    },
+                    null,
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-request_cta_4",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-request_cta_4"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="request_cta_4"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons"
+                        htmlFor="reject-quote-request_cta_4"
+                      >
+                        Other
+                      </label>,
+                      <ForwardRef(render)
+                        className="textarea"
+                        onChange={[Function]}
+                        placeholder="Enter reason for Quote Rejection"
+                        value=""
+                      />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-request_cta_4",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "request_cta_4",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Other",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_requestCB-reasons",
+                        "htmlFor": "reject-quote-request_cta_4",
+                      },
+                      "ref": null,
+                      "rendered": "Other",
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "className": "textarea",
+                        "onChange": [Function],
+                        "placeholder": "Enter reason for Quote Rejection",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "textarea",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "display": "none",
+                            "marginLeft": "30px",
+                            "resize": "none",
+                            "width": "calc(100% - 30px)",
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(textarea)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  className="btn-filled-pri-large wfull radius2 pl8 pr8 at_requestCB-confirm"
+                  onClick={[Function]}
+                >
+                  Submit
+                </button>,
+                "className": "fixed b0 l0 r0 bs6",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Submit",
+                  "className": "btn-filled-pri-large wfull radius2 pl8 pr8 at_requestCB-confirm",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": "button",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            " .request-call-icon": Object {
+              "& svg": Object {
+                "height": "88.64px",
+                "width": "120px",
+              },
+              "height": "88.64px",
+              "position": "relative",
+              "width": "120px",
+            },
+            "width": "100%",
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,22 @@
+.recent-packages-pdp{
+    .recent-packages-container{
+        margin: 0 !important;
+        padding: 15px 24px !important;
+    }
+}
+.swiper-full-width{
+    margin-left: -24px !important;
+    width: 100vw;
+    & >div {
+        padding-left:24px !important;
+    }
+    .package-card{
+        margin-bottom:0 !important;
+    }
+}
+.faq-container-pdp{
+    .header-common-center,.faq-box{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

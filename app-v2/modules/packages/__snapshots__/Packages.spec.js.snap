@@ -1,0 +1,759 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Package card module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Packages
+    heading="Unlimited choices. Trusted agents. Best prices. Happy memories."
+    packages={
+      Array [
+        Object {
+          "currency": "Rupee",
+          "days": 6,
+          "destinations": "kerala",
+          "discount": 3648,
+          "discounted_price": 19717,
+          "id": 547,
+          "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+          "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+          "inclusions": Array [],
+          "mini_desc": "per person",
+          "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+          "nights": 5,
+          "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+          "price": 20065,
+        },
+      ]
+    }
+    title="Popular Packages"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex spaceBetween relative"
+        >
+          <div
+            className="flexFull"
+          >
+            <Heading
+              data={
+                Object {
+                  "heading": "Unlimited choices. Trusted agents. Best prices. Happy memories.",
+                  "title": "Popular Packages",
+                }
+              }
+              heading=""
+              isViewAllHidden={false}
+              styleHeading={Object {}}
+              styleSubHeading={Object {}}
+              title=""
+              type=""
+            />
+          </div>
+          <Link
+            className="iblock f14 fw7"
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/tour-packages/kerala"
+          >
+            View All
+          </Link>
+        </div>,
+        <div
+          className="swiper-full-width"
+        >
+          <Swiper
+            id="packagesSlider"
+            isFullWidthSwiper={false}
+            isSmallSwiper={false}
+            loadOnDocumentReady={false}
+            overflow="hidden"
+            rebuildOnUpdate={true}
+            showLoader={false}
+            slidesPerView="auto"
+            spaceBetween={15}
+            ssrAnimation={
+              Object {
+                "height": 342,
+                "width": 280,
+              }
+            }
+          >
+            <div>
+              <PackageCardExperiment
+                card={
+                  Object {
+                    "currency": "Rupee",
+                    "days": 6,
+                    "destinations": "kerala",
+                    "discount": 3648,
+                    "discounted_price": 19717,
+                    "id": 547,
+                    "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                    "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                    "inclusions": Array [],
+                    "mini_desc": "per person",
+                    "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                    "nights": 5,
+                    "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                    "price": 20065,
+                  }
+                }
+                isPackageRevamp={true}
+              />
+            </div>
+          </Swiper>
+        </div>,
+      ],
+      "className": "clearfix p15 sbcw",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="flexFull"
+            >
+              <Heading
+                data={
+                  Object {
+                    "heading": "Unlimited choices. Trusted agents. Best prices. Happy memories.",
+                    "title": "Popular Packages",
+                  }
+                }
+                heading=""
+                isViewAllHidden={false}
+                styleHeading={Object {}}
+                styleSubHeading={Object {}}
+                title=""
+                type=""
+              />
+            </div>,
+            <Link
+              className="iblock f14 fw7"
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/tour-packages/kerala"
+            >
+              View All
+            </Link>,
+          ],
+          "className": "flex spaceBetween relative",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Heading
+                data={
+                  Object {
+                    "heading": "Unlimited choices. Trusted agents. Best prices. Happy memories.",
+                    "title": "Popular Packages",
+                  }
+                }
+                heading=""
+                isViewAllHidden={false}
+                styleHeading={Object {}}
+                styleSubHeading={Object {}}
+                title=""
+                type=""
+              />,
+              "className": "flexFull",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "data": Object {
+                  "heading": "Unlimited choices. Trusted agents. Best prices. Happy memories.",
+                  "title": "Popular Packages",
+                },
+                "heading": "",
+                "isViewAllHidden": false,
+                "styleHeading": Object {},
+                "styleSubHeading": Object {},
+                "title": "",
+                "type": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "View All",
+              "className": "iblock f14 fw7",
+              "onlyActiveOnIndex": false,
+              "style": Object {},
+              "to": "/tour-packages/kerala",
+            },
+            "ref": null,
+            "rendered": "View All",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Swiper
+            id="packagesSlider"
+            isFullWidthSwiper={false}
+            isSmallSwiper={false}
+            loadOnDocumentReady={false}
+            overflow="hidden"
+            rebuildOnUpdate={true}
+            showLoader={false}
+            slidesPerView="auto"
+            spaceBetween={15}
+            ssrAnimation={
+              Object {
+                "height": 342,
+                "width": 280,
+              }
+            }
+          >
+            <div>
+              <PackageCardExperiment
+                card={
+                  Object {
+                    "currency": "Rupee",
+                    "days": 6,
+                    "destinations": "kerala",
+                    "discount": 3648,
+                    "discounted_price": 19717,
+                    "id": 547,
+                    "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                    "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                    "inclusions": Array [],
+                    "mini_desc": "per person",
+                    "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                    "nights": 5,
+                    "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                    "price": 20065,
+                  }
+                }
+                isPackageRevamp={true}
+              />
+            </div>
+          </Swiper>,
+          "className": "swiper-full-width",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div>
+                <PackageCardExperiment
+                  card={
+                    Object {
+                      "currency": "Rupee",
+                      "days": 6,
+                      "destinations": "kerala",
+                      "discount": 3648,
+                      "discounted_price": 19717,
+                      "id": 547,
+                      "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                      "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                      "inclusions": Array [],
+                      "mini_desc": "per person",
+                      "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                      "nights": 5,
+                      "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                      "price": 20065,
+                    }
+                  }
+                  isPackageRevamp={true}
+                />
+              </div>,
+            ],
+            "id": "packagesSlider",
+            "isFullWidthSwiper": false,
+            "isSmallSwiper": false,
+            "loadOnDocumentReady": false,
+            "overflow": "hidden",
+            "rebuildOnUpdate": true,
+            "showLoader": false,
+            "slidesPerView": "auto",
+            "spaceBetween": 15,
+            "ssrAnimation": Object {
+              "height": 342,
+              "width": 280,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <PackageCardExperiment
+                  card={
+                    Object {
+                      "currency": "Rupee",
+                      "days": 6,
+                      "destinations": "kerala",
+                      "discount": 3648,
+                      "discounted_price": 19717,
+                      "id": 547,
+                      "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                      "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                      "inclusions": Array [],
+                      "mini_desc": "per person",
+                      "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                      "nights": 5,
+                      "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                      "price": 20065,
+                    }
+                  }
+                  isPackageRevamp={true}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "card": Object {
+                    "currency": "Rupee",
+                    "days": 6,
+                    "destinations": "kerala",
+                    "discount": 3648,
+                    "discounted_price": 19717,
+                    "id": 547,
+                    "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                    "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                    "inclusions": Array [],
+                    "mini_desc": "per person",
+                    "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                    "nights": 5,
+                    "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                    "price": 20065,
+                  },
+                  "isPackageRevamp": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex spaceBetween relative"
+          >
+            <div
+              className="flexFull"
+            >
+              <Heading
+                data={
+                  Object {
+                    "heading": "Unlimited choices. Trusted agents. Best prices. Happy memories.",
+                    "title": "Popular Packages",
+                  }
+                }
+                heading=""
+                isViewAllHidden={false}
+                styleHeading={Object {}}
+                styleSubHeading={Object {}}
+                title=""
+                type=""
+              />
+            </div>
+            <Link
+              className="iblock f14 fw7"
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/tour-packages/kerala"
+            >
+              View All
+            </Link>
+          </div>,
+          <div
+            className="swiper-full-width"
+          >
+            <Swiper
+              id="packagesSlider"
+              isFullWidthSwiper={false}
+              isSmallSwiper={false}
+              loadOnDocumentReady={false}
+              overflow="hidden"
+              rebuildOnUpdate={true}
+              showLoader={false}
+              slidesPerView="auto"
+              spaceBetween={15}
+              ssrAnimation={
+                Object {
+                  "height": 342,
+                  "width": 280,
+                }
+              }
+            >
+              <div>
+                <PackageCardExperiment
+                  card={
+                    Object {
+                      "currency": "Rupee",
+                      "days": 6,
+                      "destinations": "kerala",
+                      "discount": 3648,
+                      "discounted_price": 19717,
+                      "id": 547,
+                      "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                      "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                      "inclusions": Array [],
+                      "mini_desc": "per person",
+                      "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                      "nights": 5,
+                      "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                      "price": 20065,
+                    }
+                  }
+                  isPackageRevamp={true}
+                />
+              </div>
+            </Swiper>
+          </div>,
+        ],
+        "className": "clearfix p15 sbcw",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="flexFull"
+              >
+                <Heading
+                  data={
+                    Object {
+                      "heading": "Unlimited choices. Trusted agents. Best prices. Happy memories.",
+                      "title": "Popular Packages",
+                    }
+                  }
+                  heading=""
+                  isViewAllHidden={false}
+                  styleHeading={Object {}}
+                  styleSubHeading={Object {}}
+                  title=""
+                  type=""
+                />
+              </div>,
+              <Link
+                className="iblock f14 fw7"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/tour-packages/kerala"
+              >
+                View All
+              </Link>,
+            ],
+            "className": "flex spaceBetween relative",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Heading
+                  data={
+                    Object {
+                      "heading": "Unlimited choices. Trusted agents. Best prices. Happy memories.",
+                      "title": "Popular Packages",
+                    }
+                  }
+                  heading=""
+                  isViewAllHidden={false}
+                  styleHeading={Object {}}
+                  styleSubHeading={Object {}}
+                  title=""
+                  type=""
+                />,
+                "className": "flexFull",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "data": Object {
+                    "heading": "Unlimited choices. Trusted agents. Best prices. Happy memories.",
+                    "title": "Popular Packages",
+                  },
+                  "heading": "",
+                  "isViewAllHidden": false,
+                  "styleHeading": Object {},
+                  "styleSubHeading": Object {},
+                  "title": "",
+                  "type": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "View All",
+                "className": "iblock f14 fw7",
+                "onlyActiveOnIndex": false,
+                "style": Object {},
+                "to": "/tour-packages/kerala",
+              },
+              "ref": null,
+              "rendered": "View All",
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Swiper
+              id="packagesSlider"
+              isFullWidthSwiper={false}
+              isSmallSwiper={false}
+              loadOnDocumentReady={false}
+              overflow="hidden"
+              rebuildOnUpdate={true}
+              showLoader={false}
+              slidesPerView="auto"
+              spaceBetween={15}
+              ssrAnimation={
+                Object {
+                  "height": 342,
+                  "width": 280,
+                }
+              }
+            >
+              <div>
+                <PackageCardExperiment
+                  card={
+                    Object {
+                      "currency": "Rupee",
+                      "days": 6,
+                      "destinations": "kerala",
+                      "discount": 3648,
+                      "discounted_price": 19717,
+                      "id": 547,
+                      "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                      "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                      "inclusions": Array [],
+                      "mini_desc": "per person",
+                      "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                      "nights": 5,
+                      "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                      "price": 20065,
+                    }
+                  }
+                  isPackageRevamp={true}
+                />
+              </div>
+            </Swiper>,
+            "className": "swiper-full-width",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <div>
+                  <PackageCardExperiment
+                    card={
+                      Object {
+                        "currency": "Rupee",
+                        "days": 6,
+                        "destinations": "kerala",
+                        "discount": 3648,
+                        "discounted_price": 19717,
+                        "id": 547,
+                        "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                        "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                        "inclusions": Array [],
+                        "mini_desc": "per person",
+                        "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                        "nights": 5,
+                        "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                        "price": 20065,
+                      }
+                    }
+                    isPackageRevamp={true}
+                  />
+                </div>,
+              ],
+              "id": "packagesSlider",
+              "isFullWidthSwiper": false,
+              "isSmallSwiper": false,
+              "loadOnDocumentReady": false,
+              "overflow": "hidden",
+              "rebuildOnUpdate": true,
+              "showLoader": false,
+              "slidesPerView": "auto",
+              "spaceBetween": 15,
+              "ssrAnimation": Object {
+                "height": 342,
+                "width": 280,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PackageCardExperiment
+                    card={
+                      Object {
+                        "currency": "Rupee",
+                        "days": 6,
+                        "destinations": "kerala",
+                        "discount": 3648,
+                        "discounted_price": 19717,
+                        "id": 547,
+                        "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                        "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                        "inclusions": Array [],
+                        "mini_desc": "per person",
+                        "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                        "nights": 5,
+                        "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                        "price": 20065,
+                      }
+                    }
+                    isPackageRevamp={true}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "card": Object {
+                      "currency": "Rupee",
+                      "days": 6,
+                      "destinations": "kerala",
+                      "discount": 3648,
+                      "discounted_price": 19717,
+                      "id": 547,
+                      "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                      "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                      "inclusions": Array [],
+                      "mini_desc": "per person",
+                      "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+                      "nights": 5,
+                      "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+                      "price": 20065,
+                    },
+                    "isPackageRevamp": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

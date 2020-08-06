@@ -1,0 +1,43 @@
+.sort-filter-con {
+  background: #fff;
+  box-shadow: 0 0 4px #999999;
+}
+.sticky-outer-wrapper.active .sticky-inner-wrapper {
+  box-shadow: 0 0 4px #999999;
+}
+.sort-by-listing-container {
+  height: 44px;
+}
+.sort-by-listing {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.sort-by-listing-view {
+  @extend .filter-by-listing-view;
+  border-right:1px solid #EFEFEF;
+}
+.sort-by-icon {
+  width: 18px;
+  height: 17px;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  svg {
+    width: 18px;
+    height: 17px;
+  }
+}
+.filter-by-listing-view {
+  padding: 8px 15px;
+}
+.no-filter-selected {
+  color: #B2B2B2;
+}
+.selected-filters {
+  color: #FE5246;
+}

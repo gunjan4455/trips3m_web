@@ -1,0 +1,442 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PackageHeading should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RichText
+    heading=""
+    isRatingSchemaEnabled={false}
+    rating={4}
+    reviews={3245}
+    richText="Honeymoon in Kerala"
+    startingPrice={9600}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <p
+        className="f12 at_package_count"
+      >
+        <span
+          className="pfc4 "
+        >
+          Honeymoon in Kerala
+        </span>
+        <span
+          property={null}
+          typeof={null}
+        >
+          <span>
+            : rated
+             
+          </span>
+          <span
+            property={null}
+          >
+            4
+          </span>
+          /5 (based on 
+          <span
+            property={null}
+          >
+            3245
+          </span>
+           reviews)
+          <span>
+             | Packages starting from 
+            ₹9,600/-
+          </span>
+        </span>
+      </p>,
+      "className": "row row- p8 sbc5",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="pfc4 "
+          >
+            Honeymoon in Kerala
+          </span>,
+          <span
+            property={null}
+            typeof={null}
+          >
+            <span>
+              : rated
+               
+            </span>
+            <span
+              property={null}
+            >
+              4
+            </span>
+            /5 (based on 
+            <span
+              property={null}
+            >
+              3245
+            </span>
+             reviews)
+            <span>
+               | Packages starting from 
+              ₹9,600/-
+            </span>
+          </span>,
+        ],
+        "className": "f12 at_package_count",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Honeymoon in Kerala",
+            "className": "pfc4 ",
+          },
+          "ref": null,
+          "rendered": "Honeymoon in Kerala",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                : rated
+                 
+              </span>,
+              <span
+                property={null}
+              >
+                4
+              </span>,
+              "/5 (based on ",
+              <span
+                property={null}
+              >
+                3245
+              </span>,
+              " reviews)",
+              <span>
+                 | Packages starting from 
+                ₹9,600/-
+              </span>,
+            ],
+            "property": null,
+            "typeof": null,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  ": rated",
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                ": rated",
+                " ",
+              ],
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 4,
+                "property": null,
+              },
+              "ref": null,
+              "rendered": 4,
+              "type": "span",
+            },
+            "/5 (based on ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 3245,
+                "property": null,
+              },
+              "ref": null,
+              "rendered": 3245,
+              "type": "span",
+            },
+            " reviews)",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " | Packages starting from ",
+                  "₹9,600/-",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " | Packages starting from ",
+                "₹9,600/-",
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "span",
+        },
+      ],
+      "type": "p",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p
+          className="f12 at_package_count"
+        >
+          <span
+            className="pfc4 "
+          >
+            Honeymoon in Kerala
+          </span>
+          <span
+            property={null}
+            typeof={null}
+          >
+            <span>
+              : rated
+               
+            </span>
+            <span
+              property={null}
+            >
+              4
+            </span>
+            /5 (based on 
+            <span
+              property={null}
+            >
+              3245
+            </span>
+             reviews)
+            <span>
+               | Packages starting from 
+              ₹9,600/-
+            </span>
+          </span>
+        </p>,
+        "className": "row row- p8 sbc5",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="pfc4 "
+            >
+              Honeymoon in Kerala
+            </span>,
+            <span
+              property={null}
+              typeof={null}
+            >
+              <span>
+                : rated
+                 
+              </span>
+              <span
+                property={null}
+              >
+                4
+              </span>
+              /5 (based on 
+              <span
+                property={null}
+              >
+                3245
+              </span>
+               reviews)
+              <span>
+                 | Packages starting from 
+                ₹9,600/-
+              </span>
+            </span>,
+          ],
+          "className": "f12 at_package_count",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Honeymoon in Kerala",
+              "className": "pfc4 ",
+            },
+            "ref": null,
+            "rendered": "Honeymoon in Kerala",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span>
+                  : rated
+                   
+                </span>,
+                <span
+                  property={null}
+                >
+                  4
+                </span>,
+                "/5 (based on ",
+                <span
+                  property={null}
+                >
+                  3245
+                </span>,
+                " reviews)",
+                <span>
+                   | Packages starting from 
+                  ₹9,600/-
+                </span>,
+              ],
+              "property": null,
+              "typeof": null,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    ": rated",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  ": rated",
+                  " ",
+                ],
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 4,
+                  "property": null,
+                },
+                "ref": null,
+                "rendered": 4,
+                "type": "span",
+              },
+              "/5 (based on ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 3245,
+                  "property": null,
+                },
+                "ref": null,
+                "rendered": 3245,
+                "type": "span",
+              },
+              " reviews)",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " | Packages starting from ",
+                    "₹9,600/-",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " | Packages starting from ",
+                  "₹9,600/-",
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "p",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

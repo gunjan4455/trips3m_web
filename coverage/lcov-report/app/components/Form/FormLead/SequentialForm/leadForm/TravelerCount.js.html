@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Form/FormLead/SequentialForm/leadForm/TravelerCount.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../../../index.html">All files</a> / <a href="index.html">app/components/Form/FormLead/SequentialForm/leadForm</a> TravelerCount.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">91.43% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>32/35</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">71.43% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>10/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">83.33% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>10/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">91.43% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>32/35</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">32x</span>
+<span class="cline-any cline-yes">32x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import { Field } from 'redux-form';
+import glamorous from 'glamorous';
+&nbsp;
+import { Travelers } from 'helpers/Icon/Icon';
+import Footer from '../footer';
+import {
+  SEQUENTIAL_FORM_FOUR, SEQUENTIAL_FORM_SEVEN,
+  SEQUENTIAL_FORM_SIX, SEQUENTIAL_FORM_TWO
+} from 'constants/Slider';
+import TravelerInputField from './TravelerInputField';
+&nbsp;
+const GTravCountDiv = glamorous.div({
+  '&amp;  .Dropdown-menu': {
+    maxHeight: '116px',
+  },
+});
+&nbsp;
+function getChildCount(formValues, index) {
+  try {
+    return formValues.child_age_answers_attributes[index].user_input;
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    return '0';</span>
+  }
+}
+&nbsp;
+class TravelerCount extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleDefaultValues();
+  }
+&nbsp;
+  updateChildCountInRedux = () =&gt; {
+    const { child, infant } = this.state;
+    const totalCount =
+      parseInt(child.value, 10) +
+      parseInt(infant.value, 10);
+    this.props.dispatchRxFormAction(totalCount.toString(), 'child');
+  }
+&nbsp;
+  handleTravelerCount(value, fieldName) {
+    let childAgeAttributes;
+    if (fieldName === 'infant') {
+      this.setState({ infant: { value: value, label: value } }, () =&gt;
+        this.updateChildCountInRedux()
+      );
+      childAgeAttributes = {
+        option_id: '29',
+        customization_id: '7',
+        user_input: value.toString(),
+      };
+      this.props.dispatchRxFormAction(
+        childAgeAttributes,
+        'child_age_answers_attributes[0]'
+      );
+    } else if (fieldName === 'child') {
+      this.setState({ child: { value: value, label: value } }, () =&gt;
+        this.updateChildCountInRedux()
+      );
+      childAgeAttributes = {
+        option_id: '31',
+        customization_id: '7',
+        user_input: value.toString(),
+      };
+      this.props.dispatchRxFormAction(
+        childAgeAttributes,
+        'child_age_answers_attributes[2]'
+      );
+    } else {
+      this.props.dispatchRxFormAction(value, fieldName);
+    }
+  }
+&nbsp;
+  handleDefaultValues = () =&gt; {
+    this.state = {
+      adults: {
+        value: this.props.formValues.adult || <span class="branch-1 cbranch-no" title="branch not covered" >'2',</span>
+        label: this.props.formValues.adult || <span class="branch-1 cbranch-no" title="branch not covered" >'2',</span>
+      },
+      child: {
+        value: getChildCount(this.props.formValues, 2),
+        label: getChildCount(this.props.formValues, 2),
+      },
+      infant: {
+        value: getChildCount(this.props.formValues, 0),
+        label: getChildCount(this.props.formValues, 0),
+      },
+    };
+  };
+&nbsp;
+  goBack = () =&gt; {
+    const isDeal = this.props.location.query.deals;
+    const slider = isDeal ? <span class="branch-0 cbranch-no" title="branch not covered" >SEQUENTIAL_FORM_TWO </span>: SEQUENTIAL_FORM_FOUR;
+    this.props.callNextSlide({
+      submitVariation: '',
+      variation: true,
+      variationStep: slider,
+      isBackButton: true
+    });
+  };
+&nbsp;
+  goForward = () =&gt; {
+    const { location : { query } } = this.props;
+&nbsp;
+    let step = SEQUENTIAL_FORM_SIX;
+    if(query.variation === '3') {
+      step = SEQUENTIAL_FORM_SIX;
+    }else <span class="missing-if-branch" title="else path not taken" >E</span>if(query.variation === '4') {
+      step = SEQUENTIAL_FORM_SEVEN;
+    }
+&nbsp;
+    this.props.callNextSlide({
+      submitVariation: '',
+      variation: true,
+      variationStep: step,
+    });
+  };
+&nbsp;
+  render() {
+    return (
+      &lt;GTravCountDiv className="trav-count form-body p15"&gt;
+        &lt;div className="traveller-icon-container"&gt;
+          &lt;Travelers /&gt;
+        &lt;/div&gt;
+        &lt;div className="p15 clearfix"&gt;
+          &lt;div className="col-xs-12 p8 pt0 mb15"&gt;
+            &lt;label htmlFor="From" className="f14 fw9 pb8 block pfc3"&gt;
+              Adults &lt;span className="pfc4 fw4 f12"&gt;(12+ yrs)&lt;/span&gt;
+            &lt;/label&gt;
+            &lt;Field
+              fieldName="adult"
+              component={TravelerInputField}
+              dispatch={this.props.meta.dispatch}
+              form={this.props.meta.form}
+              dispatchRxFormAction={this.props.dispatchRxFormAction}
+              formValues={this.props.formValues}
+              inputValue={this.state.adults.value}
+              label="Adults"
+            /&gt;
+          &lt;/div&gt;
+          &lt;div className="col-xs-12 p8 pt0 mb15"&gt;
+            &lt;label htmlFor="From" className="f14 fw9 pb8 block pfc3"&gt;
+              Infant &lt;span className="pfc4 fw4 f12"&gt;(0-2yrs)&lt;/span&gt;
+            &lt;/label&gt;
+            &lt;Field
+              fieldName="infant"
+              component={TravelerInputField}
+              dispatch={this.props.meta.dispatch}
+              form={this.props.meta.form}
+              dispatchRxFormAction={this.props.dispatchRxFormAction}
+              formValues={this.props.formValues}
+              inputValue={this.state.infant.value}
+              handleTravelerCount={<span class="fstat-no" title="function not covered" >(v</span>alue) =&gt; <span class="cstat-no" title="statement not covered" >this.handleTravelerCount(value, 'infant')}</span>
+            /&gt;
+          &lt;/div&gt;
+          &lt;div className="col-xs-12 p8 pt0 mb15"&gt;
+            &lt;label htmlFor="From" className="f14 fw9 pb8 block pfc3"&gt;
+              Children &lt;span className="pfc4 fw4 f12"&gt;(2-12yrs)&lt;/span&gt;
+            &lt;/label&gt;
+            &lt;Field
+              fieldName="child"
+              component={TravelerInputField}
+              dispatch={this.props.meta.dispatch}
+              form={this.props.meta.form}
+              dispatchRxFormAction={this.props.dispatchRxFormAction}
+              formValues={this.props.formValues}
+              inputValue={this.state.child.value}
+              handleTravelerCount={<span class="fstat-no" title="function not covered" >(v</span>alue) =&gt; <span class="cstat-no" title="statement not covered" >this.handleTravelerCount(value, 'child')}</span>
+            /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;Footer goBack={this.goBack} goForward={this.goForward} /&gt;
+      &lt;/GTravCountDiv&gt;
+    );
+  }
+}
+&nbsp;
+TravelerCount.propTypes = {
+  formValues: PropTypes.object.isRequired,
+  dispatchRxFormAction: PropTypes.func.isRequired,
+  callNextSlide: PropTypes.func.isRequired,
+  meta: PropTypes.object.isRequired,
+  location: PropTypes.object,
+  formStage: PropTypes.number,
+  progressBar: PropTypes.func
+};
+&nbsp;
+export default TravelerCount;
+&nbsp;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,2392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortAndFilter Component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SortAndFilter
+    category="Tour"
+    filterCategory={
+      Array [
+        "category",
+      ]
+    }
+    filterCities={Array []}
+    filterCounts={Object {}}
+    filterDestinationActivities={Array []}
+    filterInclusions={Array []}
+    filterSelected={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "38",
+            Object {
+              "1": true,
+            },
+          ],
+          Array [
+            "37",
+            Object {},
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    filters={
+      Object {
+        "36": Object {
+          "displayType": "Checkbox",
+          "id": 36,
+          "options": Array [
+            Object {
+              "id": 1,
+              "title": "Honeymoon",
+              "value": "honeymoon",
+            },
+            Object {
+              "id": 2,
+              "title": "Family",
+              "value": "family",
+            },
+            Object {
+              "id": 3,
+              "title": "Friends / Group",
+              "value": "friends",
+            },
+          ],
+          "paramsName": "category",
+          "title": "Categories",
+        },
+        "37": Object {
+          "displayType": "Checkbox",
+          "id": 37,
+          "options": Array [
+            Object {
+              "id": 1,
+              "title": "India",
+              "value": "india",
+            },
+            Object {
+              "id": 2,
+              "title": "International",
+              "value": "international",
+            },
+          ],
+          "paramsName": "destination_type",
+          "title": "Type of Destination",
+        },
+        "38": Object {
+          "displayType": "Checkbox",
+          "id": 38,
+          "options": Array [
+            Object {
+              "filterCountKey": "days_1___3",
+              "id": 1,
+              "title": "1 to 3",
+              "value": "1-3",
+            },
+            Object {
+              "filterCountKey": "days_4___6",
+              "id": 2,
+              "title": "4 to 6",
+              "value": "4-6",
+            },
+            Object {
+              "filterCountKey": "days_7___9",
+              "id": 3,
+              "title": "7 to 9",
+              "value": "7-9",
+            },
+            Object {
+              "filterCountKey": "days_10___12",
+              "id": 4,
+              "title": "10 to 12",
+              "value": "10-12",
+            },
+            Object {
+              "filterCountKey": "days_gtn13",
+              "id": 5,
+              "title": "13 or more",
+              "value": ">13",
+            },
+          ],
+          "paramsName": "days[]",
+          "title": "Duration(in Days)",
+        },
+        "39": Object {
+          "displayType": "Checkbox",
+          "id": 39,
+          "options": Array [
+            Object {
+              "filterCountKey": "price_ranges_0___10_000",
+              "id": 1,
+              "title": "Less than 10,000",
+              "value": "0-10_000",
+            },
+            Object {
+              "filterCountKey": "price_ranges_10_000___20_000",
+              "id": 2,
+              "title": "10000 - 20000",
+              "value": "10_000-20_000",
+            },
+            Object {
+              "filterCountKey": "price_ranges_20_000___40_000",
+              "id": 3,
+              "title": "20,000 - 40,000",
+              "value": "20_000-40_000",
+            },
+            Object {
+              "filterCountKey": "price_ranges_40_000___60_000",
+              "id": 4,
+              "title": "40,000 - 60,000",
+              "value": "40_000-60_000",
+            },
+            Object {
+              "filterCountKey": "price_ranges_60_000___80_000",
+              "id": 5,
+              "title": "60,000 - 80,000",
+              "value": "60_000-80_000",
+            },
+            Object {
+              "filterCountKey": "price_ranges_80_000___50_000_000",
+              "id": 6,
+              "title": "Above 80,000",
+              "value": "80_000-50_000_000",
+            },
+          ],
+          "paramsName": "price_ranges[]",
+          "title": "Budget Per Person (in Rs.)",
+        },
+        "40": Object {
+          "displayType": "StarRatingCheckbox",
+          "id": 40,
+          "options": Array [
+            Object {
+              "filterCountKey": "hotel_ratings_2",
+              "id": 1,
+              "title": "2 Star",
+              "value": "2",
+            },
+            Object {
+              "filterCountKey": "hotel_ratings_3",
+              "id": 2,
+              "title": "3 Star",
+              "value": "3",
+            },
+            Object {
+              "filterCountKey": "hotel_ratings_4",
+              "id": 3,
+              "title": "4 Star",
+              "value": "4",
+            },
+            Object {
+              "filterCountKey": "hotel_ratings_5",
+              "id": 4,
+              "title": "5 Star",
+              "value": "5",
+            },
+          ],
+          "paramsName": "hotel_ratings[]",
+          "title": "Hotel Star Rating",
+        },
+        "41": Object {
+          "displayType": "Checkbox",
+          "id": 41,
+          "options": Array [
+            Object {
+              "filterCountKey": "inclusions_Meals",
+              "id": 1,
+              "title": "Meals",
+              "value": "Meals",
+            },
+            Object {
+              "filterCountKey": "inclusions_Cab",
+              "id": 2,
+              "title": "Cab",
+              "value": "Cab",
+            },
+            Object {
+              "filterCountKey": "inclusions_Shared___Coach",
+              "id": 3,
+              "title": "Shared Coach",
+              "value": "Shared Coach",
+            },
+          ],
+          "paramsName": "inclusions[]",
+          "title": "Inclusions",
+        },
+        "42": Object {
+          "displayType": "Checkbox",
+          "id": 42,
+          "options": Array [
+            Object {
+              "filterCountKey": "trip_types_Adventure",
+              "id": 1,
+              "title": "Adventure",
+              "value": "Adventure",
+            },
+            Object {
+              "filterCountKey": "trip_types_Nature",
+              "id": 2,
+              "title": "Nature",
+              "value": "Nature",
+            },
+            Object {
+              "filterCountKey": "trip_types_Hill___Station",
+              "id": 3,
+              "title": "Hill Station",
+              "value": "Hill Station",
+            },
+            Object {
+              "filterCountKey": "trip_types_Religious",
+              "id": 4,
+              "title": "Religious",
+              "value": "Religious",
+            },
+            Object {
+              "filterCountKey": "trip_types_Water___Activities",
+              "id": 5,
+              "title": "Water Activities",
+              "value": "Water Activities",
+            },
+          ],
+          "paramsName": "trip_types[]",
+          "title": "Themes/Activities",
+        },
+      }
+    }
+    filtersApplied={[Function]}
+    isCategoryPage={false}
+    location={
+      Object {
+        "pathname": "/budget-tour-packages",
+        "query": Object {},
+        "search": "?days[]=1-3&sort_by=popularity&page_number=1&destination_type=all",
+      }
+    }
+    onFilterCheckHandler={[Function]}
+    resetFilters={[Function]}
+    selectedFilterCount={[Function]}
+    selectedFilters={Object {}}
+    setDefaultFilters={[Function]}
+    setDefaultSelectedFilters={[Function]}
+    shouldHideDestinationTypeFilters={false}
+    sortBy={
+      Object {
+        "options": Object {
+          "duration_h-l": "Duration: High to Low",
+          "duration_l-h": "Duration: Low to High",
+          "popularity": "Popularity",
+          "price_h-l": "Price: High to Low",
+          "price_l-h": "Price: Low to High",
+        },
+        "paramsName": "sort_by",
+        "selected": "popularity",
+      }
+    }
+    sortBySelected={[Function]}
+    toggleFilterView={[Function]}
+    visible={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Sticky
+          activeClass="active"
+          bottomBoundary={0}
+          enableTransforms={true}
+          enabled={true}
+          innerZ={4}
+          onStateChange={null}
+          releasedClass="released"
+          shouldFreeze={[Function]}
+          top={0}
+        >
+          <div
+            className="col-xs-6 p0 sbcw"
+          >
+            <Filters
+              category="Tour"
+              handleFilterUpdate={[Function]}
+              onSelect={[Function]}
+              options={
+                Object {
+                  "duration_h-l": "Duration: High to Low",
+                  "duration_l-h": "Duration: Low to High",
+                  "popularity": "Popularity",
+                  "price_h-l": "Price: High to Low",
+                  "price_l-h": "Price: Low to High",
+                }
+              }
+              selected="popularity"
+            />
+          </div>
+          <div
+            className="col-xs-6 p0 sbcw"
+          >
+            <div
+              onClick={[Function]}
+            >
+               
+              <SortBy
+                numberOfFilterSelected={[Function]}
+              />
+            </div>
+          </div>
+        </Sticky>,
+        <div
+          className="hide"
+        >
+          <FilterOptions
+            filterCategory={
+              Array [
+                "category",
+              ]
+            }
+            filterCities={Array []}
+            filterCounts={Object {}}
+            filterDestinationActivities={Array []}
+            filterInclusions={Array []}
+            filterSelected={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "38",
+                    Object {
+                      "1": true,
+                    },
+                  ],
+                  Array [
+                    "37",
+                    Object {},
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "isThrow": false,
+                    "value": undefined,
+                  },
+                  Object {
+                    "isThrow": false,
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            filters={
+              Object {
+                "36": Object {
+                  "displayType": "Checkbox",
+                  "id": 36,
+                  "options": Array [
+                    Object {
+                      "id": 1,
+                      "title": "Honeymoon",
+                      "value": "honeymoon",
+                    },
+                    Object {
+                      "id": 2,
+                      "title": "Family",
+                      "value": "family",
+                    },
+                    Object {
+                      "id": 3,
+                      "title": "Friends / Group",
+                      "value": "friends",
+                    },
+                  ],
+                  "paramsName": "category",
+                  "title": "Categories",
+                },
+                "37": Object {
+                  "displayType": "Checkbox",
+                  "id": 37,
+                  "options": Array [
+                    Object {
+                      "id": 1,
+                      "title": "India",
+                      "value": "india",
+                    },
+                    Object {
+                      "id": 2,
+                      "title": "International",
+                      "value": "international",
+                    },
+                  ],
+                  "paramsName": "destination_type",
+                  "title": "Type of Destination",
+                },
+                "38": Object {
+                  "displayType": "Checkbox",
+                  "id": 38,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "days_1___3",
+                      "id": 1,
+                      "title": "1 to 3",
+                      "value": "1-3",
+                    },
+                    Object {
+                      "filterCountKey": "days_4___6",
+                      "id": 2,
+                      "title": "4 to 6",
+                      "value": "4-6",
+                    },
+                    Object {
+                      "filterCountKey": "days_7___9",
+                      "id": 3,
+                      "title": "7 to 9",
+                      "value": "7-9",
+                    },
+                    Object {
+                      "filterCountKey": "days_10___12",
+                      "id": 4,
+                      "title": "10 to 12",
+                      "value": "10-12",
+                    },
+                    Object {
+                      "filterCountKey": "days_gtn13",
+                      "id": 5,
+                      "title": "13 or more",
+                      "value": ">13",
+                    },
+                  ],
+                  "paramsName": "days[]",
+                  "title": "Duration(in Days)",
+                },
+                "39": Object {
+                  "displayType": "Checkbox",
+                  "id": 39,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "price_ranges_0___10_000",
+                      "id": 1,
+                      "title": "Less than 10,000",
+                      "value": "0-10_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_10_000___20_000",
+                      "id": 2,
+                      "title": "10000 - 20000",
+                      "value": "10_000-20_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_20_000___40_000",
+                      "id": 3,
+                      "title": "20,000 - 40,000",
+                      "value": "20_000-40_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_40_000___60_000",
+                      "id": 4,
+                      "title": "40,000 - 60,000",
+                      "value": "40_000-60_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_60_000___80_000",
+                      "id": 5,
+                      "title": "60,000 - 80,000",
+                      "value": "60_000-80_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_80_000___50_000_000",
+                      "id": 6,
+                      "title": "Above 80,000",
+                      "value": "80_000-50_000_000",
+                    },
+                  ],
+                  "paramsName": "price_ranges[]",
+                  "title": "Budget Per Person (in Rs.)",
+                },
+                "40": Object {
+                  "displayType": "StarRatingCheckbox",
+                  "id": 40,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "hotel_ratings_2",
+                      "id": 1,
+                      "title": "2 Star",
+                      "value": "2",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_3",
+                      "id": 2,
+                      "title": "3 Star",
+                      "value": "3",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_4",
+                      "id": 3,
+                      "title": "4 Star",
+                      "value": "4",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_5",
+                      "id": 4,
+                      "title": "5 Star",
+                      "value": "5",
+                    },
+                  ],
+                  "paramsName": "hotel_ratings[]",
+                  "title": "Hotel Star Rating",
+                },
+                "41": Object {
+                  "displayType": "Checkbox",
+                  "id": 41,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "inclusions_Meals",
+                      "id": 1,
+                      "title": "Meals",
+                      "value": "Meals",
+                    },
+                    Object {
+                      "filterCountKey": "inclusions_Cab",
+                      "id": 2,
+                      "title": "Cab",
+                      "value": "Cab",
+                    },
+                    Object {
+                      "filterCountKey": "inclusions_Shared___Coach",
+                      "id": 3,
+                      "title": "Shared Coach",
+                      "value": "Shared Coach",
+                    },
+                  ],
+                  "paramsName": "inclusions[]",
+                  "title": "Inclusions",
+                },
+                "42": Object {
+                  "displayType": "Checkbox",
+                  "id": 42,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "trip_types_Adventure",
+                      "id": 1,
+                      "title": "Adventure",
+                      "value": "Adventure",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Nature",
+                      "id": 2,
+                      "title": "Nature",
+                      "value": "Nature",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Hill___Station",
+                      "id": 3,
+                      "title": "Hill Station",
+                      "value": "Hill Station",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Religious",
+                      "id": 4,
+                      "title": "Religious",
+                      "value": "Religious",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Water___Activities",
+                      "id": 5,
+                      "title": "Water Activities",
+                      "value": "Water Activities",
+                    },
+                  ],
+                  "paramsName": "trip_types[]",
+                  "title": "Themes/Activities",
+                },
+              }
+            }
+            handleFilterUpdate={[Function]}
+            isCategoryPage={false}
+            onFilterCheckHandler={[Function]}
+            resetFilters={[Function]}
+            selectedFilters={Object {}}
+            setDefaultFilters={[Function]}
+            setDefaultSelectedFilters={[Function]}
+            shouldHideDestinationTypeFilters={false}
+            toggleFilterView={[Function]}
+          />
+        </div>,
+      ],
+      "className": "row row- mb8 sort-filter-con",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "activeClass": "active",
+          "bottomBoundary": 0,
+          "children": Array [
+            <div
+              className="col-xs-6 p0 sbcw"
+            >
+              <Filters
+                category="Tour"
+                handleFilterUpdate={[Function]}
+                onSelect={[Function]}
+                options={
+                  Object {
+                    "duration_h-l": "Duration: High to Low",
+                    "duration_l-h": "Duration: Low to High",
+                    "popularity": "Popularity",
+                    "price_h-l": "Price: High to Low",
+                    "price_l-h": "Price: Low to High",
+                  }
+                }
+                selected="popularity"
+              />
+            </div>,
+            <div
+              className="col-xs-6 p0 sbcw"
+            >
+              <div
+                onClick={[Function]}
+              >
+                 
+                <SortBy
+                  numberOfFilterSelected={[Function]}
+                />
+              </div>
+            </div>,
+          ],
+          "enableTransforms": true,
+          "enabled": true,
+          "innerZ": 4,
+          "onStateChange": null,
+          "releasedClass": "released",
+          "shouldFreeze": [Function],
+          "top": 0,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Filters
+                category="Tour"
+                handleFilterUpdate={[Function]}
+                onSelect={[Function]}
+                options={
+                  Object {
+                    "duration_h-l": "Duration: High to Low",
+                    "duration_l-h": "Duration: Low to High",
+                    "popularity": "Popularity",
+                    "price_h-l": "Price: High to Low",
+                    "price_l-h": "Price: Low to High",
+                  }
+                }
+                selected="popularity"
+              />,
+              "className": "col-xs-6 p0 sbcw",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "category": "Tour",
+                "handleFilterUpdate": [Function],
+                "onSelect": [Function],
+                "options": Object {
+                  "duration_h-l": "Duration: High to Low",
+                  "duration_l-h": "Duration: Low to High",
+                  "popularity": "Popularity",
+                  "price_h-l": "Price: High to Low",
+                  "price_l-h": "Price: Low to High",
+                },
+                "selected": "popularity",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                onClick={[Function]}
+              >
+                 
+                <SortBy
+                  numberOfFilterSelected={[Function]}
+                />
+              </div>,
+              "className": "col-xs-6 p0 sbcw",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <SortBy
+                    numberOfFilterSelected={[Function]}
+                  />,
+                ],
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "numberOfFilterSelected": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <FilterOptions
+            filterCategory={
+              Array [
+                "category",
+              ]
+            }
+            filterCities={Array []}
+            filterCounts={Object {}}
+            filterDestinationActivities={Array []}
+            filterInclusions={Array []}
+            filterSelected={
+              [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "38",
+                    Object {
+                      "1": true,
+                    },
+                  ],
+                  Array [
+                    "37",
+                    Object {},
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "isThrow": false,
+                    "value": undefined,
+                  },
+                  Object {
+                    "isThrow": false,
+                    "value": undefined,
+                  },
+                ],
+              }
+            }
+            filters={
+              Object {
+                "36": Object {
+                  "displayType": "Checkbox",
+                  "id": 36,
+                  "options": Array [
+                    Object {
+                      "id": 1,
+                      "title": "Honeymoon",
+                      "value": "honeymoon",
+                    },
+                    Object {
+                      "id": 2,
+                      "title": "Family",
+                      "value": "family",
+                    },
+                    Object {
+                      "id": 3,
+                      "title": "Friends / Group",
+                      "value": "friends",
+                    },
+                  ],
+                  "paramsName": "category",
+                  "title": "Categories",
+                },
+                "37": Object {
+                  "displayType": "Checkbox",
+                  "id": 37,
+                  "options": Array [
+                    Object {
+                      "id": 1,
+                      "title": "India",
+                      "value": "india",
+                    },
+                    Object {
+                      "id": 2,
+                      "title": "International",
+                      "value": "international",
+                    },
+                  ],
+                  "paramsName": "destination_type",
+                  "title": "Type of Destination",
+                },
+                "38": Object {
+                  "displayType": "Checkbox",
+                  "id": 38,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "days_1___3",
+                      "id": 1,
+                      "title": "1 to 3",
+                      "value": "1-3",
+                    },
+                    Object {
+                      "filterCountKey": "days_4___6",
+                      "id": 2,
+                      "title": "4 to 6",
+                      "value": "4-6",
+                    },
+                    Object {
+                      "filterCountKey": "days_7___9",
+                      "id": 3,
+                      "title": "7 to 9",
+                      "value": "7-9",
+                    },
+                    Object {
+                      "filterCountKey": "days_10___12",
+                      "id": 4,
+                      "title": "10 to 12",
+                      "value": "10-12",
+                    },
+                    Object {
+                      "filterCountKey": "days_gtn13",
+                      "id": 5,
+                      "title": "13 or more",
+                      "value": ">13",
+                    },
+                  ],
+                  "paramsName": "days[]",
+                  "title": "Duration(in Days)",
+                },
+                "39": Object {
+                  "displayType": "Checkbox",
+                  "id": 39,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "price_ranges_0___10_000",
+                      "id": 1,
+                      "title": "Less than 10,000",
+                      "value": "0-10_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_10_000___20_000",
+                      "id": 2,
+                      "title": "10000 - 20000",
+                      "value": "10_000-20_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_20_000___40_000",
+                      "id": 3,
+                      "title": "20,000 - 40,000",
+                      "value": "20_000-40_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_40_000___60_000",
+                      "id": 4,
+                      "title": "40,000 - 60,000",
+                      "value": "40_000-60_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_60_000___80_000",
+                      "id": 5,
+                      "title": "60,000 - 80,000",
+                      "value": "60_000-80_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_80_000___50_000_000",
+                      "id": 6,
+                      "title": "Above 80,000",
+                      "value": "80_000-50_000_000",
+                    },
+                  ],
+                  "paramsName": "price_ranges[]",
+                  "title": "Budget Per Person (in Rs.)",
+                },
+                "40": Object {
+                  "displayType": "StarRatingCheckbox",
+                  "id": 40,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "hotel_ratings_2",
+                      "id": 1,
+                      "title": "2 Star",
+                      "value": "2",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_3",
+                      "id": 2,
+                      "title": "3 Star",
+                      "value": "3",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_4",
+                      "id": 3,
+                      "title": "4 Star",
+                      "value": "4",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_5",
+                      "id": 4,
+                      "title": "5 Star",
+                      "value": "5",
+                    },
+                  ],
+                  "paramsName": "hotel_ratings[]",
+                  "title": "Hotel Star Rating",
+                },
+                "41": Object {
+                  "displayType": "Checkbox",
+                  "id": 41,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "inclusions_Meals",
+                      "id": 1,
+                      "title": "Meals",
+                      "value": "Meals",
+                    },
+                    Object {
+                      "filterCountKey": "inclusions_Cab",
+                      "id": 2,
+                      "title": "Cab",
+                      "value": "Cab",
+                    },
+                    Object {
+                      "filterCountKey": "inclusions_Shared___Coach",
+                      "id": 3,
+                      "title": "Shared Coach",
+                      "value": "Shared Coach",
+                    },
+                  ],
+                  "paramsName": "inclusions[]",
+                  "title": "Inclusions",
+                },
+                "42": Object {
+                  "displayType": "Checkbox",
+                  "id": 42,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "trip_types_Adventure",
+                      "id": 1,
+                      "title": "Adventure",
+                      "value": "Adventure",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Nature",
+                      "id": 2,
+                      "title": "Nature",
+                      "value": "Nature",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Hill___Station",
+                      "id": 3,
+                      "title": "Hill Station",
+                      "value": "Hill Station",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Religious",
+                      "id": 4,
+                      "title": "Religious",
+                      "value": "Religious",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Water___Activities",
+                      "id": 5,
+                      "title": "Water Activities",
+                      "value": "Water Activities",
+                    },
+                  ],
+                  "paramsName": "trip_types[]",
+                  "title": "Themes/Activities",
+                },
+              }
+            }
+            handleFilterUpdate={[Function]}
+            isCategoryPage={false}
+            onFilterCheckHandler={[Function]}
+            resetFilters={[Function]}
+            selectedFilters={Object {}}
+            setDefaultFilters={[Function]}
+            setDefaultSelectedFilters={[Function]}
+            shouldHideDestinationTypeFilters={false}
+            toggleFilterView={[Function]}
+          />,
+          "className": "hide",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "filterCategory": Array [
+              "category",
+            ],
+            "filterCities": Array [],
+            "filterCounts": Object {},
+            "filterDestinationActivities": Array [],
+            "filterInclusions": Array [],
+            "filterSelected": [MockFunction] {
+              "calls": Array [
+                Array [
+                  "38",
+                  Object {
+                    "1": true,
+                  },
+                ],
+                Array [
+                  "37",
+                  Object {},
+                ],
+              ],
+              "results": Array [
+                Object {
+                  "isThrow": false,
+                  "value": undefined,
+                },
+                Object {
+                  "isThrow": false,
+                  "value": undefined,
+                },
+              ],
+            },
+            "filters": Object {
+              "36": Object {
+                "displayType": "Checkbox",
+                "id": 36,
+                "options": Array [
+                  Object {
+                    "id": 1,
+                    "title": "Honeymoon",
+                    "value": "honeymoon",
+                  },
+                  Object {
+                    "id": 2,
+                    "title": "Family",
+                    "value": "family",
+                  },
+                  Object {
+                    "id": 3,
+                    "title": "Friends / Group",
+                    "value": "friends",
+                  },
+                ],
+                "paramsName": "category",
+                "title": "Categories",
+              },
+              "37": Object {
+                "displayType": "Checkbox",
+                "id": 37,
+                "options": Array [
+                  Object {
+                    "id": 1,
+                    "title": "India",
+                    "value": "india",
+                  },
+                  Object {
+                    "id": 2,
+                    "title": "International",
+                    "value": "international",
+                  },
+                ],
+                "paramsName": "destination_type",
+                "title": "Type of Destination",
+              },
+              "38": Object {
+                "displayType": "Checkbox",
+                "id": 38,
+                "options": Array [
+                  Object {
+                    "filterCountKey": "days_1___3",
+                    "id": 1,
+                    "title": "1 to 3",
+                    "value": "1-3",
+                  },
+                  Object {
+                    "filterCountKey": "days_4___6",
+                    "id": 2,
+                    "title": "4 to 6",
+                    "value": "4-6",
+                  },
+                  Object {
+                    "filterCountKey": "days_7___9",
+                    "id": 3,
+                    "title": "7 to 9",
+                    "value": "7-9",
+                  },
+                  Object {
+                    "filterCountKey": "days_10___12",
+                    "id": 4,
+                    "title": "10 to 12",
+                    "value": "10-12",
+                  },
+                  Object {
+                    "filterCountKey": "days_gtn13",
+                    "id": 5,
+                    "title": "13 or more",
+                    "value": ">13",
+                  },
+                ],
+                "paramsName": "days[]",
+                "title": "Duration(in Days)",
+              },
+              "39": Object {
+                "displayType": "Checkbox",
+                "id": 39,
+                "options": Array [
+                  Object {
+                    "filterCountKey": "price_ranges_0___10_000",
+                    "id": 1,
+                    "title": "Less than 10,000",
+                    "value": "0-10_000",
+                  },
+                  Object {
+                    "filterCountKey": "price_ranges_10_000___20_000",
+                    "id": 2,
+                    "title": "10000 - 20000",
+                    "value": "10_000-20_000",
+                  },
+                  Object {
+                    "filterCountKey": "price_ranges_20_000___40_000",
+                    "id": 3,
+                    "title": "20,000 - 40,000",
+                    "value": "20_000-40_000",
+                  },
+                  Object {
+                    "filterCountKey": "price_ranges_40_000___60_000",
+                    "id": 4,
+                    "title": "40,000 - 60,000",
+                    "value": "40_000-60_000",
+                  },
+                  Object {
+                    "filterCountKey": "price_ranges_60_000___80_000",
+                    "id": 5,
+                    "title": "60,000 - 80,000",
+                    "value": "60_000-80_000",
+                  },
+                  Object {
+                    "filterCountKey": "price_ranges_80_000___50_000_000",
+                    "id": 6,
+                    "title": "Above 80,000",
+                    "value": "80_000-50_000_000",
+                  },
+                ],
+                "paramsName": "price_ranges[]",
+                "title": "Budget Per Person (in Rs.)",
+              },
+              "40": Object {
+                "displayType": "StarRatingCheckbox",
+                "id": 40,
+                "options": Array [
+                  Object {
+                    "filterCountKey": "hotel_ratings_2",
+                    "id": 1,
+                    "title": "2 Star",
+                    "value": "2",
+                  },
+                  Object {
+                    "filterCountKey": "hotel_ratings_3",
+                    "id": 2,
+                    "title": "3 Star",
+                    "value": "3",
+                  },
+                  Object {
+                    "filterCountKey": "hotel_ratings_4",
+                    "id": 3,
+                    "title": "4 Star",
+                    "value": "4",
+                  },
+                  Object {
+                    "filterCountKey": "hotel_ratings_5",
+                    "id": 4,
+                    "title": "5 Star",
+                    "value": "5",
+                  },
+                ],
+                "paramsName": "hotel_ratings[]",
+                "title": "Hotel Star Rating",
+              },
+              "41": Object {
+                "displayType": "Checkbox",
+                "id": 41,
+                "options": Array [
+                  Object {
+                    "filterCountKey": "inclusions_Meals",
+                    "id": 1,
+                    "title": "Meals",
+                    "value": "Meals",
+                  },
+                  Object {
+                    "filterCountKey": "inclusions_Cab",
+                    "id": 2,
+                    "title": "Cab",
+                    "value": "Cab",
+                  },
+                  Object {
+                    "filterCountKey": "inclusions_Shared___Coach",
+                    "id": 3,
+                    "title": "Shared Coach",
+                    "value": "Shared Coach",
+                  },
+                ],
+                "paramsName": "inclusions[]",
+                "title": "Inclusions",
+              },
+              "42": Object {
+                "displayType": "Checkbox",
+                "id": 42,
+                "options": Array [
+                  Object {
+                    "filterCountKey": "trip_types_Adventure",
+                    "id": 1,
+                    "title": "Adventure",
+                    "value": "Adventure",
+                  },
+                  Object {
+                    "filterCountKey": "trip_types_Nature",
+                    "id": 2,
+                    "title": "Nature",
+                    "value": "Nature",
+                  },
+                  Object {
+                    "filterCountKey": "trip_types_Hill___Station",
+                    "id": 3,
+                    "title": "Hill Station",
+                    "value": "Hill Station",
+                  },
+                  Object {
+                    "filterCountKey": "trip_types_Religious",
+                    "id": 4,
+                    "title": "Religious",
+                    "value": "Religious",
+                  },
+                  Object {
+                    "filterCountKey": "trip_types_Water___Activities",
+                    "id": 5,
+                    "title": "Water Activities",
+                    "value": "Water Activities",
+                  },
+                ],
+                "paramsName": "trip_types[]",
+                "title": "Themes/Activities",
+              },
+            },
+            "handleFilterUpdate": [Function],
+            "isCategoryPage": false,
+            "onFilterCheckHandler": [Function],
+            "resetFilters": [Function],
+            "selectedFilters": Object {},
+            "setDefaultFilters": [Function],
+            "setDefaultSelectedFilters": [Function],
+            "shouldHideDestinationTypeFilters": false,
+            "toggleFilterView": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Sticky
+            activeClass="active"
+            bottomBoundary={0}
+            enableTransforms={true}
+            enabled={true}
+            innerZ={4}
+            onStateChange={null}
+            releasedClass="released"
+            shouldFreeze={[Function]}
+            top={0}
+          >
+            <div
+              className="col-xs-6 p0 sbcw"
+            >
+              <Filters
+                category="Tour"
+                handleFilterUpdate={[Function]}
+                onSelect={[Function]}
+                options={
+                  Object {
+                    "duration_h-l": "Duration: High to Low",
+                    "duration_l-h": "Duration: Low to High",
+                    "popularity": "Popularity",
+                    "price_h-l": "Price: High to Low",
+                    "price_l-h": "Price: Low to High",
+                  }
+                }
+                selected="popularity"
+              />
+            </div>
+            <div
+              className="col-xs-6 p0 sbcw"
+            >
+              <div
+                onClick={[Function]}
+              >
+                 
+                <SortBy
+                  numberOfFilterSelected={[Function]}
+                />
+              </div>
+            </div>
+          </Sticky>,
+          <div
+            className="hide"
+          >
+            <FilterOptions
+              filterCategory={
+                Array [
+                  "category",
+                ]
+              }
+              filterCities={Array []}
+              filterCounts={Object {}}
+              filterDestinationActivities={Array []}
+              filterInclusions={Array []}
+              filterSelected={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      "38",
+                      Object {
+                        "1": true,
+                      },
+                    ],
+                    Array [
+                      "37",
+                      Object {},
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
+              filters={
+                Object {
+                  "36": Object {
+                    "displayType": "Checkbox",
+                    "id": 36,
+                    "options": Array [
+                      Object {
+                        "id": 1,
+                        "title": "Honeymoon",
+                        "value": "honeymoon",
+                      },
+                      Object {
+                        "id": 2,
+                        "title": "Family",
+                        "value": "family",
+                      },
+                      Object {
+                        "id": 3,
+                        "title": "Friends / Group",
+                        "value": "friends",
+                      },
+                    ],
+                    "paramsName": "category",
+                    "title": "Categories",
+                  },
+                  "37": Object {
+                    "displayType": "Checkbox",
+                    "id": 37,
+                    "options": Array [
+                      Object {
+                        "id": 1,
+                        "title": "India",
+                        "value": "india",
+                      },
+                      Object {
+                        "id": 2,
+                        "title": "International",
+                        "value": "international",
+                      },
+                    ],
+                    "paramsName": "destination_type",
+                    "title": "Type of Destination",
+                  },
+                  "38": Object {
+                    "displayType": "Checkbox",
+                    "id": 38,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "days_1___3",
+                        "id": 1,
+                        "title": "1 to 3",
+                        "value": "1-3",
+                      },
+                      Object {
+                        "filterCountKey": "days_4___6",
+                        "id": 2,
+                        "title": "4 to 6",
+                        "value": "4-6",
+                      },
+                      Object {
+                        "filterCountKey": "days_7___9",
+                        "id": 3,
+                        "title": "7 to 9",
+                        "value": "7-9",
+                      },
+                      Object {
+                        "filterCountKey": "days_10___12",
+                        "id": 4,
+                        "title": "10 to 12",
+                        "value": "10-12",
+                      },
+                      Object {
+                        "filterCountKey": "days_gtn13",
+                        "id": 5,
+                        "title": "13 or more",
+                        "value": ">13",
+                      },
+                    ],
+                    "paramsName": "days[]",
+                    "title": "Duration(in Days)",
+                  },
+                  "39": Object {
+                    "displayType": "Checkbox",
+                    "id": 39,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "price_ranges_0___10_000",
+                        "id": 1,
+                        "title": "Less than 10,000",
+                        "value": "0-10_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_10_000___20_000",
+                        "id": 2,
+                        "title": "10000 - 20000",
+                        "value": "10_000-20_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_20_000___40_000",
+                        "id": 3,
+                        "title": "20,000 - 40,000",
+                        "value": "20_000-40_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_40_000___60_000",
+                        "id": 4,
+                        "title": "40,000 - 60,000",
+                        "value": "40_000-60_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_60_000___80_000",
+                        "id": 5,
+                        "title": "60,000 - 80,000",
+                        "value": "60_000-80_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_80_000___50_000_000",
+                        "id": 6,
+                        "title": "Above 80,000",
+                        "value": "80_000-50_000_000",
+                      },
+                    ],
+                    "paramsName": "price_ranges[]",
+                    "title": "Budget Per Person (in Rs.)",
+                  },
+                  "40": Object {
+                    "displayType": "StarRatingCheckbox",
+                    "id": 40,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "hotel_ratings_2",
+                        "id": 1,
+                        "title": "2 Star",
+                        "value": "2",
+                      },
+                      Object {
+                        "filterCountKey": "hotel_ratings_3",
+                        "id": 2,
+                        "title": "3 Star",
+                        "value": "3",
+                      },
+                      Object {
+                        "filterCountKey": "hotel_ratings_4",
+                        "id": 3,
+                        "title": "4 Star",
+                        "value": "4",
+                      },
+                      Object {
+                        "filterCountKey": "hotel_ratings_5",
+                        "id": 4,
+                        "title": "5 Star",
+                        "value": "5",
+                      },
+                    ],
+                    "paramsName": "hotel_ratings[]",
+                    "title": "Hotel Star Rating",
+                  },
+                  "41": Object {
+                    "displayType": "Checkbox",
+                    "id": 41,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "inclusions_Meals",
+                        "id": 1,
+                        "title": "Meals",
+                        "value": "Meals",
+                      },
+                      Object {
+                        "filterCountKey": "inclusions_Cab",
+                        "id": 2,
+                        "title": "Cab",
+                        "value": "Cab",
+                      },
+                      Object {
+                        "filterCountKey": "inclusions_Shared___Coach",
+                        "id": 3,
+                        "title": "Shared Coach",
+                        "value": "Shared Coach",
+                      },
+                    ],
+                    "paramsName": "inclusions[]",
+                    "title": "Inclusions",
+                  },
+                  "42": Object {
+                    "displayType": "Checkbox",
+                    "id": 42,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "trip_types_Adventure",
+                        "id": 1,
+                        "title": "Adventure",
+                        "value": "Adventure",
+                      },
+                      Object {
+                        "filterCountKey": "trip_types_Nature",
+                        "id": 2,
+                        "title": "Nature",
+                        "value": "Nature",
+                      },
+                      Object {
+                        "filterCountKey": "trip_types_Hill___Station",
+                        "id": 3,
+                        "title": "Hill Station",
+                        "value": "Hill Station",
+                      },
+                      Object {
+                        "filterCountKey": "trip_types_Religious",
+                        "id": 4,
+                        "title": "Religious",
+                        "value": "Religious",
+                      },
+                      Object {
+                        "filterCountKey": "trip_types_Water___Activities",
+                        "id": 5,
+                        "title": "Water Activities",
+                        "value": "Water Activities",
+                      },
+                    ],
+                    "paramsName": "trip_types[]",
+                    "title": "Themes/Activities",
+                  },
+                }
+              }
+              handleFilterUpdate={[Function]}
+              isCategoryPage={false}
+              onFilterCheckHandler={[Function]}
+              resetFilters={[Function]}
+              selectedFilters={Object {}}
+              setDefaultFilters={[Function]}
+              setDefaultSelectedFilters={[Function]}
+              shouldHideDestinationTypeFilters={false}
+              toggleFilterView={[Function]}
+            />
+          </div>,
+        ],
+        "className": "row row- mb8 sort-filter-con",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "activeClass": "active",
+            "bottomBoundary": 0,
+            "children": Array [
+              <div
+                className="col-xs-6 p0 sbcw"
+              >
+                <Filters
+                  category="Tour"
+                  handleFilterUpdate={[Function]}
+                  onSelect={[Function]}
+                  options={
+                    Object {
+                      "duration_h-l": "Duration: High to Low",
+                      "duration_l-h": "Duration: Low to High",
+                      "popularity": "Popularity",
+                      "price_h-l": "Price: High to Low",
+                      "price_l-h": "Price: Low to High",
+                    }
+                  }
+                  selected="popularity"
+                />
+              </div>,
+              <div
+                className="col-xs-6 p0 sbcw"
+              >
+                <div
+                  onClick={[Function]}
+                >
+                   
+                  <SortBy
+                    numberOfFilterSelected={[Function]}
+                  />
+                </div>
+              </div>,
+            ],
+            "enableTransforms": true,
+            "enabled": true,
+            "innerZ": 4,
+            "onStateChange": null,
+            "releasedClass": "released",
+            "shouldFreeze": [Function],
+            "top": 0,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Filters
+                  category="Tour"
+                  handleFilterUpdate={[Function]}
+                  onSelect={[Function]}
+                  options={
+                    Object {
+                      "duration_h-l": "Duration: High to Low",
+                      "duration_l-h": "Duration: Low to High",
+                      "popularity": "Popularity",
+                      "price_h-l": "Price: High to Low",
+                      "price_l-h": "Price: Low to High",
+                    }
+                  }
+                  selected="popularity"
+                />,
+                "className": "col-xs-6 p0 sbcw",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "category": "Tour",
+                  "handleFilterUpdate": [Function],
+                  "onSelect": [Function],
+                  "options": Object {
+                    "duration_h-l": "Duration: High to Low",
+                    "duration_l-h": "Duration: Low to High",
+                    "popularity": "Popularity",
+                    "price_h-l": "Price: High to Low",
+                    "price_l-h": "Price: Low to High",
+                  },
+                  "selected": "popularity",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  onClick={[Function]}
+                >
+                   
+                  <SortBy
+                    numberOfFilterSelected={[Function]}
+                  />
+                </div>,
+                "className": "col-xs-6 p0 sbcw",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    <SortBy
+                      numberOfFilterSelected={[Function]}
+                    />,
+                  ],
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "numberOfFilterSelected": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FilterOptions
+              filterCategory={
+                Array [
+                  "category",
+                ]
+              }
+              filterCities={Array []}
+              filterCounts={Object {}}
+              filterDestinationActivities={Array []}
+              filterInclusions={Array []}
+              filterSelected={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      "38",
+                      Object {
+                        "1": true,
+                      },
+                    ],
+                    Array [
+                      "37",
+                      Object {},
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
+              filters={
+                Object {
+                  "36": Object {
+                    "displayType": "Checkbox",
+                    "id": 36,
+                    "options": Array [
+                      Object {
+                        "id": 1,
+                        "title": "Honeymoon",
+                        "value": "honeymoon",
+                      },
+                      Object {
+                        "id": 2,
+                        "title": "Family",
+                        "value": "family",
+                      },
+                      Object {
+                        "id": 3,
+                        "title": "Friends / Group",
+                        "value": "friends",
+                      },
+                    ],
+                    "paramsName": "category",
+                    "title": "Categories",
+                  },
+                  "37": Object {
+                    "displayType": "Checkbox",
+                    "id": 37,
+                    "options": Array [
+                      Object {
+                        "id": 1,
+                        "title": "India",
+                        "value": "india",
+                      },
+                      Object {
+                        "id": 2,
+                        "title": "International",
+                        "value": "international",
+                      },
+                    ],
+                    "paramsName": "destination_type",
+                    "title": "Type of Destination",
+                  },
+                  "38": Object {
+                    "displayType": "Checkbox",
+                    "id": 38,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "days_1___3",
+                        "id": 1,
+                        "title": "1 to 3",
+                        "value": "1-3",
+                      },
+                      Object {
+                        "filterCountKey": "days_4___6",
+                        "id": 2,
+                        "title": "4 to 6",
+                        "value": "4-6",
+                      },
+                      Object {
+                        "filterCountKey": "days_7___9",
+                        "id": 3,
+                        "title": "7 to 9",
+                        "value": "7-9",
+                      },
+                      Object {
+                        "filterCountKey": "days_10___12",
+                        "id": 4,
+                        "title": "10 to 12",
+                        "value": "10-12",
+                      },
+                      Object {
+                        "filterCountKey": "days_gtn13",
+                        "id": 5,
+                        "title": "13 or more",
+                        "value": ">13",
+                      },
+                    ],
+                    "paramsName": "days[]",
+                    "title": "Duration(in Days)",
+                  },
+                  "39": Object {
+                    "displayType": "Checkbox",
+                    "id": 39,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "price_ranges_0___10_000",
+                        "id": 1,
+                        "title": "Less than 10,000",
+                        "value": "0-10_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_10_000___20_000",
+                        "id": 2,
+                        "title": "10000 - 20000",
+                        "value": "10_000-20_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_20_000___40_000",
+                        "id": 3,
+                        "title": "20,000 - 40,000",
+                        "value": "20_000-40_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_40_000___60_000",
+                        "id": 4,
+                        "title": "40,000 - 60,000",
+                        "value": "40_000-60_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_60_000___80_000",
+                        "id": 5,
+                        "title": "60,000 - 80,000",
+                        "value": "60_000-80_000",
+                      },
+                      Object {
+                        "filterCountKey": "price_ranges_80_000___50_000_000",
+                        "id": 6,
+                        "title": "Above 80,000",
+                        "value": "80_000-50_000_000",
+                      },
+                    ],
+                    "paramsName": "price_ranges[]",
+                    "title": "Budget Per Person (in Rs.)",
+                  },
+                  "40": Object {
+                    "displayType": "StarRatingCheckbox",
+                    "id": 40,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "hotel_ratings_2",
+                        "id": 1,
+                        "title": "2 Star",
+                        "value": "2",
+                      },
+                      Object {
+                        "filterCountKey": "hotel_ratings_3",
+                        "id": 2,
+                        "title": "3 Star",
+                        "value": "3",
+                      },
+                      Object {
+                        "filterCountKey": "hotel_ratings_4",
+                        "id": 3,
+                        "title": "4 Star",
+                        "value": "4",
+                      },
+                      Object {
+                        "filterCountKey": "hotel_ratings_5",
+                        "id": 4,
+                        "title": "5 Star",
+                        "value": "5",
+                      },
+                    ],
+                    "paramsName": "hotel_ratings[]",
+                    "title": "Hotel Star Rating",
+                  },
+                  "41": Object {
+                    "displayType": "Checkbox",
+                    "id": 41,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "inclusions_Meals",
+                        "id": 1,
+                        "title": "Meals",
+                        "value": "Meals",
+                      },
+                      Object {
+                        "filterCountKey": "inclusions_Cab",
+                        "id": 2,
+                        "title": "Cab",
+                        "value": "Cab",
+                      },
+                      Object {
+                        "filterCountKey": "inclusions_Shared___Coach",
+                        "id": 3,
+                        "title": "Shared Coach",
+                        "value": "Shared Coach",
+                      },
+                    ],
+                    "paramsName": "inclusions[]",
+                    "title": "Inclusions",
+                  },
+                  "42": Object {
+                    "displayType": "Checkbox",
+                    "id": 42,
+                    "options": Array [
+                      Object {
+                        "filterCountKey": "trip_types_Adventure",
+                        "id": 1,
+                        "title": "Adventure",
+                        "value": "Adventure",
+                      },
+                      Object {
+                        "filterCountKey": "trip_types_Nature",
+                        "id": 2,
+                        "title": "Nature",
+                        "value": "Nature",
+                      },
+                      Object {
+                        "filterCountKey": "trip_types_Hill___Station",
+                        "id": 3,
+                        "title": "Hill Station",
+                        "value": "Hill Station",
+                      },
+                      Object {
+                        "filterCountKey": "trip_types_Religious",
+                        "id": 4,
+                        "title": "Religious",
+                        "value": "Religious",
+                      },
+                      Object {
+                        "filterCountKey": "trip_types_Water___Activities",
+                        "id": 5,
+                        "title": "Water Activities",
+                        "value": "Water Activities",
+                      },
+                    ],
+                    "paramsName": "trip_types[]",
+                    "title": "Themes/Activities",
+                  },
+                }
+              }
+              handleFilterUpdate={[Function]}
+              isCategoryPage={false}
+              onFilterCheckHandler={[Function]}
+              resetFilters={[Function]}
+              selectedFilters={Object {}}
+              setDefaultFilters={[Function]}
+              setDefaultSelectedFilters={[Function]}
+              shouldHideDestinationTypeFilters={false}
+              toggleFilterView={[Function]}
+            />,
+            "className": "hide",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "filterCategory": Array [
+                "category",
+              ],
+              "filterCities": Array [],
+              "filterCounts": Object {},
+              "filterDestinationActivities": Array [],
+              "filterInclusions": Array [],
+              "filterSelected": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    "38",
+                    Object {
+                      "1": true,
+                    },
+                  ],
+                  Array [
+                    "37",
+                    Object {},
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "isThrow": false,
+                    "value": undefined,
+                  },
+                  Object {
+                    "isThrow": false,
+                    "value": undefined,
+                  },
+                ],
+              },
+              "filters": Object {
+                "36": Object {
+                  "displayType": "Checkbox",
+                  "id": 36,
+                  "options": Array [
+                    Object {
+                      "id": 1,
+                      "title": "Honeymoon",
+                      "value": "honeymoon",
+                    },
+                    Object {
+                      "id": 2,
+                      "title": "Family",
+                      "value": "family",
+                    },
+                    Object {
+                      "id": 3,
+                      "title": "Friends / Group",
+                      "value": "friends",
+                    },
+                  ],
+                  "paramsName": "category",
+                  "title": "Categories",
+                },
+                "37": Object {
+                  "displayType": "Checkbox",
+                  "id": 37,
+                  "options": Array [
+                    Object {
+                      "id": 1,
+                      "title": "India",
+                      "value": "india",
+                    },
+                    Object {
+                      "id": 2,
+                      "title": "International",
+                      "value": "international",
+                    },
+                  ],
+                  "paramsName": "destination_type",
+                  "title": "Type of Destination",
+                },
+                "38": Object {
+                  "displayType": "Checkbox",
+                  "id": 38,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "days_1___3",
+                      "id": 1,
+                      "title": "1 to 3",
+                      "value": "1-3",
+                    },
+                    Object {
+                      "filterCountKey": "days_4___6",
+                      "id": 2,
+                      "title": "4 to 6",
+                      "value": "4-6",
+                    },
+                    Object {
+                      "filterCountKey": "days_7___9",
+                      "id": 3,
+                      "title": "7 to 9",
+                      "value": "7-9",
+                    },
+                    Object {
+                      "filterCountKey": "days_10___12",
+                      "id": 4,
+                      "title": "10 to 12",
+                      "value": "10-12",
+                    },
+                    Object {
+                      "filterCountKey": "days_gtn13",
+                      "id": 5,
+                      "title": "13 or more",
+                      "value": ">13",
+                    },
+                  ],
+                  "paramsName": "days[]",
+                  "title": "Duration(in Days)",
+                },
+                "39": Object {
+                  "displayType": "Checkbox",
+                  "id": 39,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "price_ranges_0___10_000",
+                      "id": 1,
+                      "title": "Less than 10,000",
+                      "value": "0-10_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_10_000___20_000",
+                      "id": 2,
+                      "title": "10000 - 20000",
+                      "value": "10_000-20_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_20_000___40_000",
+                      "id": 3,
+                      "title": "20,000 - 40,000",
+                      "value": "20_000-40_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_40_000___60_000",
+                      "id": 4,
+                      "title": "40,000 - 60,000",
+                      "value": "40_000-60_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_60_000___80_000",
+                      "id": 5,
+                      "title": "60,000 - 80,000",
+                      "value": "60_000-80_000",
+                    },
+                    Object {
+                      "filterCountKey": "price_ranges_80_000___50_000_000",
+                      "id": 6,
+                      "title": "Above 80,000",
+                      "value": "80_000-50_000_000",
+                    },
+                  ],
+                  "paramsName": "price_ranges[]",
+                  "title": "Budget Per Person (in Rs.)",
+                },
+                "40": Object {
+                  "displayType": "StarRatingCheckbox",
+                  "id": 40,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "hotel_ratings_2",
+                      "id": 1,
+                      "title": "2 Star",
+                      "value": "2",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_3",
+                      "id": 2,
+                      "title": "3 Star",
+                      "value": "3",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_4",
+                      "id": 3,
+                      "title": "4 Star",
+                      "value": "4",
+                    },
+                    Object {
+                      "filterCountKey": "hotel_ratings_5",
+                      "id": 4,
+                      "title": "5 Star",
+                      "value": "5",
+                    },
+                  ],
+                  "paramsName": "hotel_ratings[]",
+                  "title": "Hotel Star Rating",
+                },
+                "41": Object {
+                  "displayType": "Checkbox",
+                  "id": 41,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "inclusions_Meals",
+                      "id": 1,
+                      "title": "Meals",
+                      "value": "Meals",
+                    },
+                    Object {
+                      "filterCountKey": "inclusions_Cab",
+                      "id": 2,
+                      "title": "Cab",
+                      "value": "Cab",
+                    },
+                    Object {
+                      "filterCountKey": "inclusions_Shared___Coach",
+                      "id": 3,
+                      "title": "Shared Coach",
+                      "value": "Shared Coach",
+                    },
+                  ],
+                  "paramsName": "inclusions[]",
+                  "title": "Inclusions",
+                },
+                "42": Object {
+                  "displayType": "Checkbox",
+                  "id": 42,
+                  "options": Array [
+                    Object {
+                      "filterCountKey": "trip_types_Adventure",
+                      "id": 1,
+                      "title": "Adventure",
+                      "value": "Adventure",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Nature",
+                      "id": 2,
+                      "title": "Nature",
+                      "value": "Nature",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Hill___Station",
+                      "id": 3,
+                      "title": "Hill Station",
+                      "value": "Hill Station",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Religious",
+                      "id": 4,
+                      "title": "Religious",
+                      "value": "Religious",
+                    },
+                    Object {
+                      "filterCountKey": "trip_types_Water___Activities",
+                      "id": 5,
+                      "title": "Water Activities",
+                      "value": "Water Activities",
+                    },
+                  ],
+                  "paramsName": "trip_types[]",
+                  "title": "Themes/Activities",
+                },
+              },
+              "handleFilterUpdate": [Function],
+              "isCategoryPage": false,
+              "onFilterCheckHandler": [Function],
+              "resetFilters": [Function],
+              "selectedFilters": Object {},
+              "setDefaultFilters": [Function],
+              "setDefaultSelectedFilters": [Function],
+              "shouldHideDestinationTypeFilters": false,
+              "toggleFilterView": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

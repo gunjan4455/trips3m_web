@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/helpers/sessionCampaignTracking.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">app/helpers</a> sessionCampaignTracking.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">13.64% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>9/66</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/42</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">13.64% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>9/66</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">66x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import * as FormDataFormatter from '../helpers/FormDataFormatter';
+&nbsp;
+const queryString = require('query-string');
+&nbsp;
+const trafficTypeCookieName = 'ttype';
+const gclidCookieName = 'ttgcl';
+const utmCookieName = 'utmval';
+const sitenameCookie = 'snm';
+&nbsp;
+class TrafficType {
+  static sem = 'sem';
+  static direct = 'direct';
+  static referral = 'referral';
+  static facebook = 'facebook';
+  static organic = 'organic';
+}
+&nbsp;
+const getTrafficType = <span class="fstat-no" title="function not covered" >(r</span>eferrerUrl) =&gt; {
+<span class="cstat-no" title="statement not covered" >  if (referrerUrl.indexOf('facebook.com') !== -1) {</span>
+<span class="cstat-no" title="statement not covered" >    if (document.location.search.indexOf('utm_campaign') !== -1) {</span>
+<span class="cstat-no" title="statement not covered" >      return TrafficType.facebook;</span>
+    }
+  } else <span class="cstat-no" title="statement not covered" >if (referrerUrl.indexOf('traveltriangle.com') !== -1) {</span>
+<span class="cstat-no" title="statement not covered" >    return TrafficType.direct;</span>
+  } else <span class="cstat-no" title="statement not covered" >if (referrerUrl.indexOf('google.co') !== -1) {</span>
+<span class="cstat-no" title="statement not covered" >    if (document.location.search.indexOf('gclid') !== -1) {</span>
+<span class="cstat-no" title="statement not covered" >      return TrafficType.sem;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    return TrafficType.organic;</span>
+  } else <span class="cstat-no" title="statement not covered" >if (FormDataFormatter.isTextValid(referrerUrl)) {</span>
+<span class="cstat-no" title="statement not covered" >    return TrafficType.referral;</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return TrafficType.direct;</span>
+};
+&nbsp;
+const getLastTraffictype = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+  const prevTrafficType = <span class="cstat-no" title="statement not covered" >FormDataFormatter.getCookie(trafficTypeCookieName);</span>
+<span class="cstat-no" title="statement not covered" >  if (FormDataFormatter.isTextValid(prevTrafficType)) {</span>
+<span class="cstat-no" title="statement not covered" >    return prevTrafficType;</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return TrafficType.direct;</span>
+};
+&nbsp;
+const getHostName = <span class="fstat-no" title="function not covered" >(u</span>rl) =&gt; {
+  const match = <span class="cstat-no" title="statement not covered" >url.match(/:\/\/(www[0-9]?\.)?(.[^/:]+)/i);</span>
+<span class="cstat-no" title="statement not covered" >  if (match != null &amp;&amp; match.length &gt; 2 &amp;&amp; typeof match[2] === 'string' &amp;&amp; match[2].length &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered" >    return match[2];</span>
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return null;</span>
+};
+&nbsp;
+const isCampaignChange = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+  let trafficType;
+  const prevTrafficType = <span class="cstat-no" title="statement not covered" >getLastTraffictype();</span>
+  let queryParams = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  queryParams = queryString.parse(window.location.search);</span>
+  let result = <span class="cstat-no" title="statement not covered" >false;</span>
+<span class="cstat-no" title="statement not covered" >  if (typeof document !== 'undefined') {</span>
+    const referrer = <span class="cstat-no" title="statement not covered" >document.referrer;</span>
+<span class="cstat-no" title="statement not covered" >    trafficType = getTrafficType(referrer);</span>
+<span class="cstat-no" title="statement not covered" >    switch (trafficType) {</span>
+      case TrafficType.sem : {
+        const prevGclId = <span class="cstat-no" title="statement not covered" >FormDataFormatter.getCookie(gclidCookieName);</span>
+        const currentGclId = <span class="cstat-no" title="statement not covered" >queryParams.gclid;</span>
+<span class="cstat-no" title="statement not covered" >        if (prevTrafficType !== trafficType || currentGclId !== prevGclId) {</span>
+<span class="cstat-no" title="statement not covered" >          FormDataFormatter.setCookie(trafficTypeCookieName, trafficType);</span>
+<span class="cstat-no" title="statement not covered" >          FormDataFormatter.setCookie(gclidCookieName, currentGclId);</span>
+<span class="cstat-no" title="statement not covered" >          result = true;</span>
+        }
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      }
+      case TrafficType.facebook : {
+        const prevUtmParam = <span class="cstat-no" title="statement not covered" >FormDataFormatter.getCookie(utmCookieName);</span>
+        const currentUtmParam = <span class="cstat-no" title="statement not covered" >queryParams.utm_campaign;</span>
+<span class="cstat-no" title="statement not covered" >        if (prevTrafficType !== trafficType || currentUtmParam !== prevUtmParam) {</span>
+<span class="cstat-no" title="statement not covered" >          FormDataFormatter.setCookie(trafficTypeCookieName, trafficType);</span>
+<span class="cstat-no" title="statement not covered" >          FormDataFormatter.setCookie(utmCookieName, currentUtmParam);</span>
+<span class="cstat-no" title="statement not covered" >          result = true;</span>
+        }
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      }
+      case TrafficType.referral : {
+        const prevSiteName = <span class="cstat-no" title="statement not covered" >FormDataFormatter.getCookie(sitenameCookie);</span>
+        const currentSiteName = <span class="cstat-no" title="statement not covered" >getHostName(window.location.href);</span>
+<span class="cstat-no" title="statement not covered" >        if (prevTrafficType !== trafficType || currentSiteName !== prevSiteName) {</span>
+<span class="cstat-no" title="statement not covered" >          FormDataFormatter.setCookie(trafficTypeCookieName, trafficType);</span>
+<span class="cstat-no" title="statement not covered" >          FormDataFormatter.setCookie(sitenameCookie, currentSiteName);</span>
+<span class="cstat-no" title="statement not covered" >          result = true;</span>
+        }
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      }
+      case TrafficType.organic : {
+<span class="cstat-no" title="statement not covered" >        if (prevTrafficType !== trafficType) {</span>
+<span class="cstat-no" title="statement not covered" >          FormDataFormatter.setCookie(trafficTypeCookieName, trafficType);</span>
+<span class="cstat-no" title="statement not covered" >          result = true;</span>
+        }
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      }
+      case TrafficType.direct : {
+<span class="cstat-no" title="statement not covered" >        result = false;</span>
+<span class="cstat-no" title="statement not covered" >        break;</span>
+      }
+      default: {
+<span class="cstat-no" title="statement not covered" >        result = false;</span>
+      }
+    }
+  }
+<span class="cstat-no" title="statement not covered" >  return result;</span>
+};
+&nbsp;
+export {
+  isCampaignChange,
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

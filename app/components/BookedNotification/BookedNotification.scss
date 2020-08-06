@@ -1,0 +1,49 @@
+.booked-place {
+  display: flex;
+}
+.booked-place-image {
+  width: 72px;
+  height: 72px;
+  float: left;
+  display: block;
+  background: #CCCCCC;
+  overflow: hidden;
+}
+.booked-place-image img {
+  width: 100%;
+  min-height: 100%;
+}
+.booked-place-data {
+  min-height: 72px;
+}
+
+.next-arrow {
+  right: 10px;
+  width: 14px;
+  height: 20px;
+}
+.next-arrow::before {
+content: '';
+width: 10px;
+height: 1px;
+background: #2B2B2B;
+transform: rotate(45deg);
+display: block;
+position: absolute;
+top: 6px;
+left: 5px;
+}
+.next-arrow::after {
+content: '';
+  display: block;
+  width: 10px;
+  height: 1px;
+  background: #2B2B2B;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 13px;
+  left: 5px;
+}
+.booked-notification-con .booked-place .next-arrow {
+  display: none;
+}

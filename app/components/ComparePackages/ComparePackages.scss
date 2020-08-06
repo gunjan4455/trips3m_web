@@ -1,0 +1,197 @@
+.container-package{
+  border-top:1px solid #e4e4e4;
+  border-right:1px solid #e4e4e4
+}
+.priceOff
+{
+  background-color: #20a397;
+  border-radius:10px;
+  padding:1px 2px;
+}
+.headingDays{
+  border-bottom:1px solid #e4e4e4;
+}
+.borderR{
+  border-right:1px solid #e4e4e4;
+}
+.Collapsible .is-open{
+  padding:10px;
+}
+.borderRightB{
+    border-left:1px solid #e4e4e4;
+}
+.borderRightB:first-child{  border-left:none;}
+.bulletGreen
+{
+  width:8px;
+  height:8px;
+  border-radius:10px;
+  background-color: #4caf50;
+  display:inline-block;
+  margin-right:8px;
+  position: relative;
+}
+.bulletPink{
+  width:8px;
+  height:8px;
+  border-radius:10px;
+  background-color: #fe5246;
+  display:inline-block;
+  margin-right:8px;
+  position: relative;
+}
+.ptb18{
+  padding-top:18px;
+  padding-bottom:18px;
+}
+.bulletGray{
+  width:8px;
+  height:8px;
+  border-radius:10px;
+  background-color: #b2b2b2;
+  display:inline-block;
+  margin-right:8px;
+  position: absolute;
+  top:13px;
+  left:2px;
+}
+
+/*style the (+) and (-) */
+
+.question {
+  height:auto;
+	line-height: 20px;
+  font-size: 16px;
+font-weight: bold;
+background-color: #fff;
+padding: 10px;
+color:#20a397;
+text-align:center;
+border-bottom:1px solid #e4e4e4;
+}
+
+.shareIconSmall{
+  width:20px;
+  height:20px;
+  display: block;
+  position: absolute;
+    right: 14px;
+    top: 15px;
+}
+.containerPopupPackage{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgba(0,0,0,.5);
+   z-index: 100;
+}
+.popupPackage{
+  width: 80%;
+height: 200px;
+background: #fff;
+position: absolute !important;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+padding-top:48px;
+}
+.spanCircleDotted{
+  border:1px dashed #2b2b2b;
+  width:48px;
+  height:48px;
+  border-radius:100px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spanCircleDotted svg{
+  margin:0 auto;
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.divSpanPackageBox{
+float: left;
+}
+.compare-popup-icon {
+  width: 22px;
+  height: 13px;
+  display: inline-block;
+  svg {
+    width: 22px;
+    height: 13px;
+  }
+}
+.divCombinContainer
+{
+  width: 136px;
+margin: 0 auto;
+height: 48px;
+padding: 0 !important;
+}
+.btnGotIt{
+  background-color: rgba(153, 153, 153, 0.1);
+  display: block;
+  padding-top: 15px;
+padding-bottom: 15px;
+color:#fe5246;
+font-weight:bold;
+position: absolute;
+bottom:0px;
+}
+.spanCircleDottedSec{
+  opacity: 0.2;
+}
+.hotelContainerMain:before{
+  content: '';
+  display:block;
+  width:1px;
+  height:100%;
+  left:50%;
+  color:#e4e4e4;
+  background-color:#e4e4e4;
+  position: absolute;
+}
+// styling for accordian
+
+.accordian input {
+  display:none;
+}
+.accordian-tutolo{
+  display:block;
+  padding:12px;
+  font-size:16px !important;
+  font-weight:bold;
+  background: #fff;
+  color:#20a397;
+  cursor:pointer;
+  text-align:center;
+  border-bottom:1px solid #e4e4e4;
+}
+.accordian-tutolo:hover{
+background-color: #f2f2f2;
+}
+.accordian-contenido{
+display: none;
+overflow:hidden;
+margin:0;
+padding:0;
+transition: 0.5s all;
+}
+.accordian input:checked ~ .accordian-contenido{
+  padding:0;
+  display: block;
+  transition:0.7s height, 0s visibility 0.7s;
+}
+.downSideArrow {
+  width: 10px; 
+  height: 6px;
+  margin: 0 auto;  
+  display: inline-block; 
+  margin-right: 5px;
+}

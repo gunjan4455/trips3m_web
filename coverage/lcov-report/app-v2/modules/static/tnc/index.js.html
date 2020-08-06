@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/static/tnc/index.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/static/tnc</a> index.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>2/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>2/2</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+&nbsp;
+const Tnc = () =&gt; (
+  &lt;div className="clearfix p24"&gt;
+    &lt;h1 className="f24 fw9 mb15 pb8"&gt;Terms &amp;amp; Conditions&lt;/h1&gt;
+    &lt;p className="f14p mb15"&gt;Welcome to traveltriangle.com &lt;b&gt;("Website")&lt;/b&gt; and the 'Travel Triangle'
+      android and iOS app (collectively, &lt;b&gt; “App”&lt;/b&gt; ). The domain name of the
+      Website and the App is owned by Holiday Triangle Travel Private Limited (
+      &lt;b&gt;“we/ us/ our/ TT”&lt;/b&gt; ), a company incorporated under the provisions of
+      the Companies Act, 1956.&lt;/p&gt;
+    &lt;p className="f14p mb15"&gt;
+      The customer’s &lt;b&gt;(“you/ your/ traveller”)&lt;/b&gt; use of the Website, App,
+      services and tools are governed by the following terms and conditions
+      &lt;b&gt;("Terms of Use")&lt;/b&gt; including the applicable policies which are
+      incorporated herein by way of reference and constitutes a valid agreement
+      between you and TT. If you transact on the Website or App, you shall be
+      subject to the policies that are applicable, as displayed on the Website and
+      App for such transaction. Your use of this Website and App constitutes your
+      binding obligation and agreement to all such terms, conditions, and notices
+      which are subject to amendment without any notice by TT. Any usage of the
+      Website or App is subject to the following Terms of Use:
+    &lt;/p&gt;
+    &lt;div className="pl24"&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Limitation on content usage&lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;Your use of any information or materials on this Website and App is
+            entirely at your own risk, for which TT shall not undertake any
+            liability. It shall be your own responsibility to ensure that any
+            products, services or information available through this Website or App,
+            meet your specific requirements.&lt;/p&gt;
+          &lt;p className="f14p mb15"&gt;You are restricted from modifying, copying, distributing, transmitting,
+            displaying, performing, reproducing, publishing, licensing, creating
+            derivative works from, transferring, or selling any information,
+            software, products or services obtained from this Website or App.
+            Reproduction of content from the Website and App is prohibited save and
+            except in accordance with the copyright notice, which forms part of
+            these Terms of Use.&lt;/p&gt;
+          &lt;p className="f14p mb15"&gt;Unauthorised use of the Website or App may give rise to a claim for
+            damages and/or be a criminal offence. You shall solely bear the
+            consequences arising out of the breach of any of the terms given above.
+            Further TT reserves exclusive rights to alter, modify, and delete any of
+            the contents without giving prior notice to any person.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Third party websites&lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;The Website and App contain materials which is either owned by, or
+            licensed, to TT. This material includes, but is not limited to, the
+            design, layout, look, appearance and graphics of the content displayed
+            on the Website and App. From time to time, the Website and App may also
+            include links to other websites. These links are provided for your
+            convenience for providing further useful information. They do not
+            signify that we endorse the website(s). We, or our contractors, agents,
+            owners, and employees are not responsible for the content or policies of
+            such other websites to which our Website and App may link or use offers
+            from. Please take time to learn about them as well.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Limitation of liability for fault not attributable to TT&lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;
+            You agree and acknowledge that TT will have the right of indemnification
+            for any loss that may be caused to TT for any misuse of its Website or
+            App, by you and TT will have all rights to approach the appropriate
+            court of law for enforcement of such rights.
+          &lt;/p&gt;
+          &lt;p className="f14p mb15"&gt;
+            TT and/or its parents, subsidiaries, affiliates, officers, directors,
+            employees, agents or suppliers and their respective successors, heirs
+            and permitted assigns will not be liable for any loss that you may
+            suffer due to rejection of your visa, hotel cancellation policies and/or
+            any other policy of third parties service providers who are involved in
+            the product that you purchase from TT.
+          &lt;/p&gt;
+          &lt;p className="f14p mb15"&gt;
+            It shall be your obligation to ensure that your passport is valid and
+            eligible for undertaking international travel. TT and/or its parents,
+            subsidiaries, affiliates, officers, directors, employees, agents or
+            suppliers and their respective successors, heirs and permitted assigns
+            will not be liable for passport being declared ineligible for entry/exit
+            during or prior to undertaking the international travel. Given below,
+            are certain essential do’s and don’ts with respect to your passport:
+          &lt;/p&gt;
+          &lt;div className="f14p mb15 pl24"&gt;
+            &lt;ul&gt;
+              &lt;li className="mb8"&gt;
+                Validity of passports should be at least 6 months from date of return;
+              &lt;/li&gt;
+              &lt;li className="mb8"&gt;Hand written passports will not be considered valid;&lt;/li&gt;
+              &lt;li className="mb8"&gt;Passports must have barcode;&lt;/li&gt;
+              &lt;li className="mb8"&gt;Passports should not be mutilated or tampered; and&lt;/li&gt;
+              &lt;li className="mb8"&gt;
+                Name on passport should match with name on other documents provided
+                for visa.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Force Majeure&lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;
+            Neither TT nor any of its parents, subsidiaries, affiliates, officers,
+            directors, employees, agents or suppliers and their respective
+            successors, heirs and permitted assigns shall be responsible for, or be
+            deemed to be in default on account of, any failure to perform or due to
+            delay in performance of any of its obligations hereunder, in whole or in
+            part, if such performance is rendered impracticable by the occurrence of
+            acts of war, whether declared or undeclared, sabotage, embargo, acts of
+            terrorism, riot or other civil commotion, failure in transportation, act
+            of any government or any court or administrative agency thereof, acts of
+            God, fire, explosion, flood, earthquake, strike, act of government or
+            other catastrophes, epidemics or quarantine restrictions, or other
+            cause(s) beyond the reasonable control of TT (“Force Majeure”). Both you
+            and TT shall use their best efforts to avoid, overcome and offset the
+            effects of any cause or potential cause of an event of Force Majeure.
+            Upon cessation of the cause of the Force Majeure, the Terms of Use given
+            hereunder, shall again become fully operative. However, a Force Majeure
+            event will not relieve you or TT of the obligations accrued prior to the
+            occurrence of the Force Majeure.
+          &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Transaction privity&lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;The Website and App are platforms that are offered to you for meeting
+            and interacting with concerned agents and other service providers for
+            organizing your travel. TT is not, and cannot be a party to, or, control
+            in any manner any transaction between such travel agents and other
+            service providers. Hence, please note that:
+          &lt;/p&gt;
+          &lt;div className="f14p mb15 pl24"&gt;
+            &lt;ul&gt;
+              &lt;li className="mb8"&gt;
+                All commercial/contractual terms are offered by and agreed to between
+                the travellers and travel agents alone. The commercial/contractual
+                terms include without limitation terms relating to price, payment
+                methods, payment terms, date, period and mode of delivery, warranties
+                related to products and services and after sales services related to
+                products and services. TT does not have any control or does not
+                determine or advise or in any way involve itself in the offering or
+                acceptance of such commercial/contractual terms between the travellers
+                and travel agents.
+              &lt;/li&gt;
+              &lt;li className="mb8"&gt;
+                You acknowledge that through the Website and App, TT merely provides a
+                platform which enables you to have access to various travel services
+                offered by the travel agents. It is agreed that the contract for sale
+                of any of the products or services shall be a strictly bipartite
+                contract between the you and the travel agent and TT shall not be a
+                privy to such contract.
+              &lt;/li&gt;
+              &lt;li className="mb8"&gt;
+                TT, and/or its parents, subsidiaries, affiliates, officers, directors,
+                employees, agents or suppliers and their respective successors, heirs
+                and permitted assigns, shall not be or deemed to be responsible or be
+                liable for any direct, indirect, punitive, incidental, special,
+                consequential damages or any damages whatsoever including, but not
+                limited to, damages for loss of use, data or profits, arising out of
+                or in any way connected with the use or performance of this Website
+                and App, or for any lack or deficiency of services provided by any
+                person (including any airline, travel agent / tour operator, hotel,
+                facility or similar agency), whom you shall engage or hire or appoint,
+                pursuant to or resulting from, the content available on the Website
+                and App.
+              &lt;/li&gt;
+              &lt;li className="mb8"&gt;
+                TT does not make any representation or warranty as to the
+                item-specifics (such as legal title, creditworthiness, identity, etc.)
+                of any of its travel agents or other service providers. You are
+                advised to independently verify the bona fides of any particular
+                travel agent that you choose to deal with on the Website or App, and
+                use your best judgment in that behalf.
+              &lt;/li&gt;
+              &lt;li className="mb8"&gt;
+                TT shall not be liable for delays or inabilities in performance or
+                non-performance in whole or in part of its obligations due to any
+                causes that are not due to its acts or omissions and are beyond its
+                reasonable control, such as Force majeure events or other similar
+                causes, problems at airlines, rails, buses, hotels or transporters
+                end. In such event, the affected traveller will be promptly given
+                notice as the situation permits.
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Privacy : &lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;
+            Your privacy is extremely important to us. Upon acceptance of these Terms of Use, you confirm that you have
+            read, understood, and unequivocally accepted our &lt;a href='https://traveltriangle.com/privacy'&gt; Privacy
+            Policy&lt;/a&gt;.
+          &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Referral Program Terms &amp; Conditions : &lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;
+            Travel Triangle hereby repudiates its Referral Program Terms &amp; Conditions
+            &lt;a className="break-word" href="https://traveltriangle.com/referers/terms_and_conditions"&gt; (traveltriangle.com/referers/terms_and_conditions)&lt;/a&gt; w.e.f 01.04.2018. Furthermore, no person/subscriber shall
+            be entitled to get any Referral Amount/TT Cash in furtherance of Referral Program Terms &amp; Conditions w.e.f
+            aforesaid mentioned date. This Clause supersedes any other agreement/T&amp;C that may be provided/mentioned by
+            TT in furtherance of Referral Program Terms &amp; Conditions.
+          &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Ensuring Quality&lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;
+            TT shall ensure prompt redressal of any deficiency in service registered by a traveler. It may further, as
+            per
+            its discretion, provide credit vouchers of the travel agent and/or Holiday Triangle covering full or partial
+            amount of the payment received from the traveler.
+          &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Contact Us&lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;Please send any questions or comments (including all inquiries related
+            to copyright infringement) regarding this Website to
+            customercare@traveltriangle.com.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;h1 className="f16 fw7 mb4"&gt;Grievance officer&lt;/h1&gt;
+          &lt;p className="f14p mb15"&gt;
+            In accordance with Information Technology Act 2000 and the rules made
+            thereunder, the name and contact details of the Grievance Officer are
+            provided below:
+          &lt;/p&gt;
+          &lt;p className="f14p"&gt;
+            Mr. Saurav Patro
+          &lt;/p&gt;
+          &lt;p className="f14p"&gt;
+            Holiday Travel Triangle Private Limited
+          &lt;/p&gt;
+          &lt;p className="f14p"&gt;
+            3rd Floor &amp; 4th Floor, Dynamic House,
+          &lt;/p&gt;
+          &lt;p className="f14p"&gt;
+            Plot no-29, Sector-18,
+          &lt;/p&gt;
+          &lt;p className="f14p"&gt;
+            Gurugram-122015, Haryana, India
+          &lt;/p&gt;
+          &lt;p className="f14p"&gt;
+            &lt;span className="fw7"&gt;Contact:&lt;/span&gt; 1800 123 5555
+          &lt;/p&gt;
+          &lt;p className="f14p"&gt;
+            &lt;span className="fw7"&gt;E-mail:&lt;/span&gt; customercare@traveltriangle.com
+          &lt;/p&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+);
+&nbsp;
+export default Tnc;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

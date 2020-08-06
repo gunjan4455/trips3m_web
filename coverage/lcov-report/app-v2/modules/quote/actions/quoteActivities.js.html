@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/quote/actions/quoteActivities.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/quote/actions</a> quoteActivities.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">58.7% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>27/46</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/3</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/17</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">65.85% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>27/41</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import {
+  bookNowUrl,
+  rejectQuoteUrl,
+  reactivateQuoteUrl,
+  downloadQuoteUrl,
+  updateQuoteStatsUrl,
+  requestMoreQuotesPath
+} from 'helpers/urlHelpers';
+&nbsp;
+export const SWITCH_QUOTE = 'quoteDetail/quoteInformation/SWITCH_QUOTE';
+export const UPDATE_REQUESTED_TRIP = 'quoteDetail/quoteInformation/UPDATE_REQUESTED_TRIP';
+&nbsp;
+export const REJECT_QUOTE_CONFIRM_LOAD = 'quoteDetail/quoteActivities/REJECT_QUOTE_CONFIRM_LOAD';
+export const REJECT_QUOTE_CONFIRM_SUCCESS = 'quoteDetail/quoteActivities/REJECT_QUOTE_CONFIRM_SUCCESS';
+export const REJECT_QUOTE_CONFIRM_FAIL = 'quoteDetail/quoteActivities/REJECT_QUOTE_CONFIRM_FAIL';
+&nbsp;
+export const BOOK_NOW_LOAD = 'quoteDetail/quoteActivities/BOOK_NOW_LOAD';
+export const BOOK_NOW_SUCCESS = 'quoteDetail/quoteActivities/BOOK_NOW_SUCCESS';
+export const BOOK_NOW_FAIL = 'quoteDetail/quoteActivities/BOOK_NOW_FAIL';
+&nbsp;
+export const REACTIVATE_QUOTE_LOAD = 'quoteDetail/quoteActivities/REACTIVATE_QUOTE_LOAD';
+export const REACTIVATE_QUOTE_SUCCESS = 'quoteDetail/quoteActivities/REACTIVATE_QUOTE_SUCCESS';
+export const REACTIVATE_QUOTE_FAIL = 'quoteDetail/quoteActivities/REACTIVATE_QUOTE_FAIL';
+&nbsp;
+export const DOWNLOAD_QUOTE_LOAD = 'quoteDetail/quoteActivities/DOWNLOAD_QUOTE_LOAD';
+export const DOWNLOAD_QUOTE_SUCCESS = 'quoteDetail/quoteActivities/DOWNLOAD_QUOTE_SUCCESS';
+export const DOWNLOAD_QUOTE_FAIL = 'quoteDetail/quoteActivities/DOWNLOAD_QUOTE_FAIL';
+&nbsp;
+export const UPDATE_QUOTE_STATS_LOAD = 'quoteDetail/quoteActivities/UPDATE_QUOTE_STATS_LOAD';
+export const UPDATE_QUOTE_STATS_SUCCESS = 'quoteDetail/quoteActivities/UPDATE_QUOTE_STATS_SUCCESS';
+export const UPDATE_QUOTE_STATS_FAIL = 'quoteDetail/quoteActivities/UPDATE_QUOTE_STATS_FAIL';
+&nbsp;
+export const MORE_QUOTES_LOAD = 'RequestLanding/MORE_QUOTES_LOAD';
+export const MORE_QUOTES_LOAD_SUCCESS = 'RequestLanding/MORE_QUOTES_LOAD_SUCCESS';
+export const MORE_QUOTES_LOAD_FAIL = 'RequestLanding/MORE_QUOTES_LOAD_FAIL';
+&nbsp;
+// action creators
+&nbsp;
+export const bookNow = <span class="fstat-no" title="function not covered" >({</span> tripId, quoteId }) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(d</span>ispatch) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  dispatch({</span>
+    types: [BOOK_NOW_LOAD, BOOK_NOW_SUCCESS, BOOK_NOW_FAIL],
+    promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.get(`${bookNowUrl(tripId, quoteId)}`)</span>
+  });
+};
+&nbsp;
+export const rejectQuote = <span class="fstat-no" title="function not covered" >({</span> tripId, quoteId, reason = <span class="branch-0 cbranch-no" title="branch not covered" >'',</span> reasonText = <span class="branch-0 cbranch-no" title="branch not covered" >'' </span>}) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(d</span>ispatch) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  dispatch({</span>
+    types: [REJECT_QUOTE_CONFIRM_LOAD, REJECT_QUOTE_CONFIRM_SUCCESS, REJECT_QUOTE_CONFIRM_FAIL],
+    promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.post(`${rejectQuoteUrl(tripId, quoteId)}`, {</span>
+      params: {
+        quote: {
+          quote_decline_reason: reason,
+          quote_other_decline_reason: reasonText
+        }
+      }
+    })
+  });
+};
+&nbsp;
+export const reactivateQuote = <span class="fstat-no" title="function not covered" >({</span> tripId, quoteId }) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(d</span>ispatch) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  dispatch({</span>
+    types: [REACTIVATE_QUOTE_LOAD, REACTIVATE_QUOTE_SUCCESS, REACTIVATE_QUOTE_FAIL],
+    promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.post(`${reactivateQuoteUrl(tripId, quoteId)}`)</span>
+  });
+};
+&nbsp;
+&nbsp;
+export const downloadQuote = <span class="fstat-no" title="function not covered" >({</span> quoteId }) =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  types: [DOWNLOAD_QUOTE_LOAD, DOWNLOAD_QUOTE_SUCCESS, DOWNLOAD_QUOTE_FAIL],
+  promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.post(`${downloadQuoteUrl(quoteId)}`),</span>
+});
+&nbsp;
+export const updateQuoteStats = <span class="fstat-no" title="function not covered" >({</span> tripId, quoteId, source }) =&gt; {
+  const queryParams = <span class="cstat-no" title="statement not covered" >{ source };</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    types: [UPDATE_QUOTE_STATS_LOAD, UPDATE_QUOTE_STATS_SUCCESS, UPDATE_QUOTE_STATS_FAIL],
+    promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.post(`${updateQuoteStatsUrl(tripId, quoteId, queryParams)}`),</span>
+  };
+};
+&nbsp;
+export const updateRequestedTripId = <span class="fstat-no" title="function not covered" >({</span> tripId }) =&gt; {
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: UPDATE_REQUESTED_TRIP,
+    requestedTripId: tripId,
+  };
+};
+&nbsp;
+export const switchQuote = <span class="fstat-no" title="function not covered" >({</span> quoteId }) =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  type: SWITCH_QUOTE,
+  quoteId,
+});
+&nbsp;
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >requestMoreQuotes(</span>rtripId, values, params, query = <span class="branch-0 cbranch-no" title="branch not covered" >'')</span> {
+  const data = <span class="cstat-no" title="statement not covered" >{</span>
+    _method: 'post',
+    ...params
+  };
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    types: [MORE_QUOTES_LOAD, MORE_QUOTES_LOAD_SUCCESS, MORE_QUOTES_LOAD_FAIL],
+    promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.post(requestMoreQuotesPath(</span>
+      rtripId,
+      values.feedback,
+      values.otherReason,
+      query), { data }),
+    withoutCamelCasing: true
+  };
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

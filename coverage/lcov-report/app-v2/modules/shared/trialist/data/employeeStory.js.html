@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/shared/trialist/data/employeeStory.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/shared/trialist/data</a> employeeStory.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/0</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import config from 'appConfig';
+&nbsp;
+export default [
+  {
+    "eName": "Anshuman Shukla",
+    "eTitle": "Best Efforts Matter",
+    "eTeam": "Tech",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Anshuman+Shukla.JPG`,
+    "eFeedback": "Here at TravelTriangle, it's always about taking the next step. To err is human, but give your best, and if you make a mistake, improvise and again give your best.",
+    "eDesignation": "Engineering Manager",
+    "eImgAlt": "Anshuman Shukla",
+  },
+  {
+    "eName": "Nayan Gaur",
+    "eTitle": "Platform for Overall Growth",
+    "eTeam": "Tech",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Nayan+G.jpg`,
+    "eFeedback": "TravelTriangle gives a platform to grow technically and personally. Great mentors to work with, and with good work life balance.",
+    "eDesignation": "Principal Engineer - QA",
+    "eImgAlt": "Nayan Gaur",
+  },
+  {
+    "eName": "Pankaj Jha",
+    "eTitle": "Dynamic Work Culture",
+    "eTeam": "HR",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Pankaj+J.jpg`,
+    "eFeedback": "Here, we never stop believing in whatever we do, refresh it every day and keep evolving. People change, so constantly evolving and reiterating our culture is the only way to keep it alive.",
+    "eDesignation": "DM - Talent Acquisiton",
+    "eImgAlt": "Pankaj Jha",
+  },
+  {
+    "eName": "Sarah Banerjee",
+    "eTitle": "Congenial Environment for Progress",
+    "eTeam": "Marketing",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Sarah+Banerjee.jpg`,
+    "eFeedback": "TravelTriangle is a flat organization with much openness and vibrant atmosphere. It has helped me to explore various dimensions in my current profile and be open to new challenges every day",
+    "eDesignation": "Assistant Manager - Marketing",
+    "eImgAlt": "Sarah Banerjee",
+  },
+  {
+    "eName": "Nitesh Kumar",
+    "eTitle": "More Than Just Colleagues",
+    "eTeam": "Business",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Nitesh+K.jpg`,
+    "eFeedback": "The best thing about this place is peer-learning and working with like-minded individuals. Problem solving and knowledge accumulation are at the core. Every day is full of new aspirations and self-evolving processes.",
+    "eDesignation": "Senior Category Manager",
+    "eImgAlt": "Nitesh Kumar",
+  },
+  {
+    "eName": "Somya Arya",
+    "eTitle": "Freedom to Explore &amp; Improvise",
+    "eTeam": "Business",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Somya+Arya.jpg`,
+    "eFeedback": "TravelTriangle has given me the opportunity to challenge myself and grow as an individual. The best part is the independence of experimenting and trying out new things. The appreciation and recognition is amazing here!",
+    "eDesignation": "Senior Category Manager",
+    "eImgAlt": "Somya Arya",
+  },
+  {
+    "eName": "Pooja Bhatacharya",
+    "eTitle": "Everyone's Raring To Go",
+    "eTeam": "Finance",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Pooja+B.jpg`,
+    "eFeedback": "My favourite things about TravelTriangle are our Leadership, our culture and the massive enthusiasm by everyone towards achieving new heights, new goals every day.",
+    "eDesignation": "Manager-Legal &amp; Secretarial",
+    "eImgAlt": "Pooja Bhatacharya",
+  },
+  {
+    "eName": "Dhaneesh Jameson",
+    "eTitle": "Feel the Positivity Yourself",
+    "eTeam": "Product",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Dhaneesh+J.jpg`,
+    "eFeedback": "The respect you get and freedom you enjoy at TravelTriangle is something I appreciate a lot. The organisation is growing and the best thing is... you can feel the growth! That is good enough for me.",
+    "eDesignation": "Design Lead - UX",
+    "eImgAlt": "Dhaneesh Jameson",
+  },
+  {
+    "eName": "Sahil Pruthi",
+    "eTitle": "Exciting Challenges at Every Step",
+    "eTeam": "Product",
+    "eImage": `${config.assets.images}/public-product/Trialist/Testimonial/Sahil+P.jpg`,
+    "eFeedback": "I've been working here for almost two years, and not one day has been boring! You're challenged with interesting problems to solve right from day one, you fail, you build and you grow.",
+    "eDesignation": "Product Manager",
+    "eImgAlt": "Sahil Pruthi",
+  },
+];
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.formlocation-box-data {
+  background: #fff;
+  position: relative;
+  z-index: 5;
+  text-align: left;
+  .formlocation-box {
+    background: #EFEFEF;
+    font-size: 12px;
+    color: #999999;
+    border: 1px solid #EFEFEF;
+    border-top: 0 none;
+    .list-heading {
+
+    }
+    ul {
+      background: #FFFFFF;
+      li {
+        list-style: none;
+        button {
+          display: block;
+          padding:12px 15px;
+          width: 100%;
+          border: 0 none;
+          font-size: 14px;
+          text-align: left;
+          background: transparent;
+        }
+      }
+    }
+  }
+}

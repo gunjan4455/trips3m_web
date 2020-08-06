@@ -1,0 +1,1589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonials module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Testimonials
+    data={
+      Object {
+        "bannerImage": Object {
+          "src": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+          "title": "Happy Travelers",
+        },
+        "breadcrumbs": Array [
+          Object {
+            "name": "Home",
+            "url": "/",
+          },
+          Object {
+            "name": "Testimonials",
+            "url": "/testimonials",
+          },
+        ],
+        "destinationStatus": false,
+        "filters": Object {
+          "india": Object {
+            "allDestinations": Array [
+              "Ahmedabad",
+              "Alleppey",
+              "Andaman",
+              "Vrindavan",
+            ],
+            "popularDestination": Array [
+              "Kerala",
+            ],
+          },
+          "international": Object {
+            "allDestination": Array [
+              "Africa",
+              "Asia",
+              "Australia",
+              "Austria",
+              "Bali",
+              "Belgium",
+            ],
+            "popularDestination": Array [
+              "Bali",
+            ],
+          },
+          "ratings": Array [
+            Object {
+              "checked": false,
+              "value": "1",
+            },
+            Object {
+              "checked": false,
+              "value": "2",
+            },
+            Object {
+              "checked": false,
+              "value": "3",
+            },
+            Object {
+              "checked": false,
+              "value": "4",
+            },
+            Object {
+              "checked": false,
+              "value": "5",
+            },
+          ],
+        },
+        "htmlTags": Array [
+          Object {
+            "keyword": "description",
+            "value": "TravelTriangle Reviews: Read 100% authentic & unbiased recent traveler reviews of 650+ agents",
+          },
+        ],
+        "overall": Object {
+          "bad": 73,
+          "excellent": 2193,
+          "good": 809,
+          "poor": 866,
+          "veryGood": 2170,
+        },
+        "positiveRating": 5172,
+        "testimonials": Array [
+          Object {
+            "author": Object {
+              "authorName": "Mitika25",
+              "authorPic": "",
+              "designation": "Student",
+              "userLocation": "Delhi",
+            },
+            "body": "I went to Dubai with my family of 5 adult",
+            "destination": "Uttarakhand",
+            "id": 544,
+            "lastUpdated": "2013-11-14T16:25:17+05:30",
+            "rating": 4,
+            "title": "Trip to Uttarakhand",
+          },
+        ],
+        "topTestimonials": Array [
+          Object {
+            "allowReadMore": false,
+            "author": Object {
+              "authorName": "Mr Muhamed Yazmir Azureen",
+              "authorPic": null,
+              "designation": null,
+              "message": "Sucess",
+              "userLocation": "Bangalore",
+            },
+            "body": "I went to Dubai with my family of 5 adult",
+            "destination": "Dubai",
+            "id": 899,
+            "lastUpdated": "2014-03-13T00:00:00+05:30",
+            "rating": 4,
+            "title": "Awesome Desert Safari",
+          },
+        ],
+        "totalRating": 5430,
+      }
+    }
+    location={
+      Object {
+        "hash": "",
+        "host": "localhost:5000",
+        "hostname": "localhost",
+        "href": "http://localhost:5000/testimonials",
+        "origin": "http://localhost:5000",
+        "pathname": "/testimonials",
+        "port": "5000",
+        "protocol": "http:",
+        "query": Object {},
+      }
+    }
+    packages={Array []}
+    params={Object {}}
+    push={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+        >
+          <meta
+            charSet="utf-8"
+          />
+          <meta
+            content="TravelTriangle Reviews: Read 100% authentic & unbiased recent traveler reviews of 650+ agents"
+            name="description"
+          />
+          <link
+            href="https://traveltriangle.com/testimonials"
+            rel="canonical"
+          />
+        </HelmetWrapper>,
+        <div
+          className="absolute t0 l0 r0 z5"
+        >
+          <HeaderHome
+            isTransparent={true}
+          />
+        </div>,
+        <div
+          className="relative mb8"
+        >
+          <Banner
+            bannerAlt="Happy Travelers"
+            bannerPath="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+            positiveRating={5172}
+            totalRating={6111}
+          />
+        </div>,
+        <div
+          className="p24 sbcw mb8"
+        >
+          <RatingBar
+            reviewNumbers={
+              Object {
+                "Bad": 73,
+                "Excellent": 2193,
+                "Good": 809,
+                "Poor": 866,
+                "Very Good": 2170,
+              }
+            }
+            totalReviews={6111}
+          />
+        </div>,
+        <DestinationAndFilters
+          breadcrumbs={
+            Array [
+              Object {
+                "name": "Home",
+                "url": "/",
+              },
+              Object {
+                "name": "Testimonials",
+                "url": "/testimonials",
+              },
+            ]
+          }
+          filters={
+            Object {
+              "india": Object {
+                "allDestinations": Array [
+                  "Ahmedabad",
+                  "Alleppey",
+                  "Andaman",
+                  "Vrindavan",
+                ],
+                "popularDestination": Array [
+                  "Kerala",
+                ],
+              },
+              "international": Object {
+                "allDestination": Array [
+                  "Africa",
+                  "Asia",
+                  "Australia",
+                  "Austria",
+                  "Bali",
+                  "Belgium",
+                ],
+                "popularDestination": Array [
+                  "Bali",
+                ],
+              },
+              "ratings": Array [
+                Object {
+                  "checked": false,
+                  "value": "1",
+                },
+                Object {
+                  "checked": false,
+                  "value": "2",
+                },
+                Object {
+                  "checked": false,
+                  "value": "3",
+                },
+                Object {
+                  "checked": false,
+                  "value": "4",
+                },
+                Object {
+                  "checked": false,
+                  "value": "5",
+                },
+              ],
+            }
+          }
+          location={
+            Object {
+              "hash": "",
+              "host": "localhost:5000",
+              "hostname": "localhost",
+              "href": "http://localhost:5000/testimonials",
+              "origin": "http://localhost:5000",
+              "pathname": "/testimonials",
+              "port": "5000",
+              "protocol": "http:",
+              "query": Object {},
+            }
+          }
+          params={Object {}}
+          testimonialDisplay={1}
+          totalRating={5430}
+        />,
+        <div
+          className="sbcw mb8"
+        >
+          <ReviewCard
+            location={
+              Object {
+                "hash": "",
+                "host": "localhost:5000",
+                "hostname": "localhost",
+                "href": "http://localhost:5000/testimonials",
+                "origin": "http://localhost:5000",
+                "pathname": "/testimonials",
+                "port": "5000",
+                "protocol": "http:",
+                "query": Object {},
+              }
+            }
+            params={Object {}}
+            testimonials={
+              Array [
+                Object {
+                  "author": Object {
+                    "authorName": "Mitika25",
+                    "authorPic": "",
+                    "designation": "Student",
+                    "userLocation": "Delhi",
+                  },
+                  "body": "I went to Dubai with my family of 5 adult",
+                  "destination": "Uttarakhand",
+                  "id": 544,
+                  "lastUpdated": "2013-11-14T16:25:17+05:30",
+                  "rating": 4,
+                  "title": "Trip to Uttarakhand",
+                },
+              ]
+            }
+          />
+        </div>,
+        <div
+          className="row row- mb8"
+        >
+          <LoadMorePackages
+            currentPage={1}
+            loadMorePackages={[Function]}
+            packagesRemaining={5429}
+            title="packages remaining)"
+          />
+        </div>,
+        null,
+        <div
+          className="mb8 overflowh pl15 pr15 "
+        >
+          <div
+            className="row"
+          >
+            <withRouter(Connect(TravellerStory))
+              config={
+                Object {
+                  "csr": true,
+                }
+              }
+              spacingCss={
+                Object {
+                  "marginBottom": "48px",
+                }
+              }
+              viewAll="/blog/travelogues?referer=travelogue_testimonial"
+            />
+          </div>
+        </div>,
+        <div
+          className="p8 pt0"
+        >
+          <Breadcrumb
+            breadcrumbs={
+              Array [
+                Object {
+                  "name": "Home",
+                  "url": "/",
+                },
+                Object {
+                  "name": "Testimonials",
+                  "url": "/testimonials",
+                },
+              ]
+            }
+          />
+        </div>,
+        <Index />,
+      ],
+      "className": "sbc5",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <meta
+              charSet="utf-8"
+            />,
+            Array [
+              <meta
+                content="TravelTriangle Reviews: Read 100% authentic & unbiased recent traveler reviews of 650+ agents"
+                name="description"
+              />,
+              <link
+                href="https://traveltriangle.com/testimonials"
+                rel="canonical"
+              />,
+            ],
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "charSet": "utf-8",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "content": "TravelTriangle Reviews: Read 100% authentic & unbiased recent traveler reviews of 650+ agents",
+              "name": "description",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://traveltriangle.com/testimonials",
+              "rel": "canonical",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <HeaderHome
+            isTransparent={true}
+          />,
+          "className": "absolute t0 l0 r0 z5",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "isTransparent": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Banner
+            bannerAlt="Happy Travelers"
+            bannerPath="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+            positiveRating={5172}
+            totalRating={6111}
+          />,
+          "className": "relative mb8",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "bannerAlt": "Happy Travelers",
+            "bannerPath": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+            "positiveRating": 5172,
+            "totalRating": 6111,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RatingBar
+            reviewNumbers={
+              Object {
+                "Bad": 73,
+                "Excellent": 2193,
+                "Good": 809,
+                "Poor": 866,
+                "Very Good": 2170,
+              }
+            }
+            totalReviews={6111}
+          />,
+          "className": "p24 sbcw mb8",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "reviewNumbers": Object {
+              "Bad": 73,
+              "Excellent": 2193,
+              "Good": 809,
+              "Poor": 866,
+              "Very Good": 2170,
+            },
+            "totalReviews": 6111,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "breadcrumbs": Array [
+            Object {
+              "name": "Home",
+              "url": "/",
+            },
+            Object {
+              "name": "Testimonials",
+              "url": "/testimonials",
+            },
+          ],
+          "filters": Object {
+            "india": Object {
+              "allDestinations": Array [
+                "Ahmedabad",
+                "Alleppey",
+                "Andaman",
+                "Vrindavan",
+              ],
+              "popularDestination": Array [
+                "Kerala",
+              ],
+            },
+            "international": Object {
+              "allDestination": Array [
+                "Africa",
+                "Asia",
+                "Australia",
+                "Austria",
+                "Bali",
+                "Belgium",
+              ],
+              "popularDestination": Array [
+                "Bali",
+              ],
+            },
+            "ratings": Array [
+              Object {
+                "checked": false,
+                "value": "1",
+              },
+              Object {
+                "checked": false,
+                "value": "2",
+              },
+              Object {
+                "checked": false,
+                "value": "3",
+              },
+              Object {
+                "checked": false,
+                "value": "4",
+              },
+              Object {
+                "checked": false,
+                "value": "5",
+              },
+            ],
+          },
+          "location": Object {
+            "hash": "",
+            "host": "localhost:5000",
+            "hostname": "localhost",
+            "href": "http://localhost:5000/testimonials",
+            "origin": "http://localhost:5000",
+            "pathname": "/testimonials",
+            "port": "5000",
+            "protocol": "http:",
+            "query": Object {},
+          },
+          "params": Object {},
+          "testimonialDisplay": 1,
+          "totalRating": 5430,
+          "updateUrl": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ReviewCard
+            location={
+              Object {
+                "hash": "",
+                "host": "localhost:5000",
+                "hostname": "localhost",
+                "href": "http://localhost:5000/testimonials",
+                "origin": "http://localhost:5000",
+                "pathname": "/testimonials",
+                "port": "5000",
+                "protocol": "http:",
+                "query": Object {},
+              }
+            }
+            params={Object {}}
+            testimonials={
+              Array [
+                Object {
+                  "author": Object {
+                    "authorName": "Mitika25",
+                    "authorPic": "",
+                    "designation": "Student",
+                    "userLocation": "Delhi",
+                  },
+                  "body": "I went to Dubai with my family of 5 adult",
+                  "destination": "Uttarakhand",
+                  "id": 544,
+                  "lastUpdated": "2013-11-14T16:25:17+05:30",
+                  "rating": 4,
+                  "title": "Trip to Uttarakhand",
+                },
+              ]
+            }
+          />,
+          "className": "sbcw mb8",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "location": Object {
+              "hash": "",
+              "host": "localhost:5000",
+              "hostname": "localhost",
+              "href": "http://localhost:5000/testimonials",
+              "origin": "http://localhost:5000",
+              "pathname": "/testimonials",
+              "port": "5000",
+              "protocol": "http:",
+              "query": Object {},
+            },
+            "params": Object {},
+            "testimonials": Array [
+              Object {
+                "author": Object {
+                  "authorName": "Mitika25",
+                  "authorPic": "",
+                  "designation": "Student",
+                  "userLocation": "Delhi",
+                },
+                "body": "I went to Dubai with my family of 5 adult",
+                "destination": "Uttarakhand",
+                "id": 544,
+                "lastUpdated": "2013-11-14T16:25:17+05:30",
+                "rating": 4,
+                "title": "Trip to Uttarakhand",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <LoadMorePackages
+            currentPage={1}
+            loadMorePackages={[Function]}
+            packagesRemaining={5429}
+            title="packages remaining)"
+          />,
+          "className": "row row- mb8",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "currentPage": 1,
+            "loadMorePackages": [Function],
+            "packagesRemaining": 5429,
+            "title": "packages remaining)",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      null,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          >
+            <withRouter(Connect(TravellerStory))
+              config={
+                Object {
+                  "csr": true,
+                }
+              }
+              spacingCss={
+                Object {
+                  "marginBottom": "48px",
+                }
+              }
+              viewAll="/blog/travelogues?referer=travelogue_testimonial"
+            />
+          </div>,
+          "className": "mb8 overflowh pl15 pr15 ",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <withRouter(Connect(TravellerStory))
+              config={
+                Object {
+                  "csr": true,
+                }
+              }
+              spacingCss={
+                Object {
+                  "marginBottom": "48px",
+                }
+              }
+              viewAll="/blog/travelogues?referer=travelogue_testimonial"
+            />,
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "config": Object {
+                "csr": true,
+              },
+              "spacingCss": Object {
+                "marginBottom": "48px",
+              },
+              "viewAll": "/blog/travelogues?referer=travelogue_testimonial",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Breadcrumb
+            breadcrumbs={
+              Array [
+                Object {
+                  "name": "Home",
+                  "url": "/",
+                },
+                Object {
+                  "name": "Testimonials",
+                  "url": "/testimonials",
+                },
+              ]
+            }
+          />,
+          "className": "p8 pt0",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "breadcrumbs": Array [
+              Object {
+                "name": "Home",
+                "url": "/",
+              },
+              Object {
+                "name": "Testimonials",
+                "url": "/testimonials",
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+          >
+            <meta
+              charSet="utf-8"
+            />
+            <meta
+              content="TravelTriangle Reviews: Read 100% authentic & unbiased recent traveler reviews of 650+ agents"
+              name="description"
+            />
+            <link
+              href="https://traveltriangle.com/testimonials"
+              rel="canonical"
+            />
+          </HelmetWrapper>,
+          <div
+            className="absolute t0 l0 r0 z5"
+          >
+            <HeaderHome
+              isTransparent={true}
+            />
+          </div>,
+          <div
+            className="relative mb8"
+          >
+            <Banner
+              bannerAlt="Happy Travelers"
+              bannerPath="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+              positiveRating={5172}
+              totalRating={6111}
+            />
+          </div>,
+          <div
+            className="p24 sbcw mb8"
+          >
+            <RatingBar
+              reviewNumbers={
+                Object {
+                  "Bad": 73,
+                  "Excellent": 2193,
+                  "Good": 809,
+                  "Poor": 866,
+                  "Very Good": 2170,
+                }
+              }
+              totalReviews={6111}
+            />
+          </div>,
+          <DestinationAndFilters
+            breadcrumbs={
+              Array [
+                Object {
+                  "name": "Home",
+                  "url": "/",
+                },
+                Object {
+                  "name": "Testimonials",
+                  "url": "/testimonials",
+                },
+              ]
+            }
+            filters={
+              Object {
+                "india": Object {
+                  "allDestinations": Array [
+                    "Ahmedabad",
+                    "Alleppey",
+                    "Andaman",
+                    "Vrindavan",
+                  ],
+                  "popularDestination": Array [
+                    "Kerala",
+                  ],
+                },
+                "international": Object {
+                  "allDestination": Array [
+                    "Africa",
+                    "Asia",
+                    "Australia",
+                    "Austria",
+                    "Bali",
+                    "Belgium",
+                  ],
+                  "popularDestination": Array [
+                    "Bali",
+                  ],
+                },
+                "ratings": Array [
+                  Object {
+                    "checked": false,
+                    "value": "1",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "2",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "3",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "4",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "5",
+                  },
+                ],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "host": "localhost:5000",
+                "hostname": "localhost",
+                "href": "http://localhost:5000/testimonials",
+                "origin": "http://localhost:5000",
+                "pathname": "/testimonials",
+                "port": "5000",
+                "protocol": "http:",
+                "query": Object {},
+              }
+            }
+            params={Object {}}
+            testimonialDisplay={1}
+            totalRating={5430}
+          />,
+          <div
+            className="sbcw mb8"
+          >
+            <ReviewCard
+              location={
+                Object {
+                  "hash": "",
+                  "host": "localhost:5000",
+                  "hostname": "localhost",
+                  "href": "http://localhost:5000/testimonials",
+                  "origin": "http://localhost:5000",
+                  "pathname": "/testimonials",
+                  "port": "5000",
+                  "protocol": "http:",
+                  "query": Object {},
+                }
+              }
+              params={Object {}}
+              testimonials={
+                Array [
+                  Object {
+                    "author": Object {
+                      "authorName": "Mitika25",
+                      "authorPic": "",
+                      "designation": "Student",
+                      "userLocation": "Delhi",
+                    },
+                    "body": "I went to Dubai with my family of 5 adult",
+                    "destination": "Uttarakhand",
+                    "id": 544,
+                    "lastUpdated": "2013-11-14T16:25:17+05:30",
+                    "rating": 4,
+                    "title": "Trip to Uttarakhand",
+                  },
+                ]
+              }
+            />
+          </div>,
+          <div
+            className="row row- mb8"
+          >
+            <LoadMorePackages
+              currentPage={1}
+              loadMorePackages={[Function]}
+              packagesRemaining={5429}
+              title="packages remaining)"
+            />
+          </div>,
+          null,
+          <div
+            className="mb8 overflowh pl15 pr15 "
+          >
+            <div
+              className="row"
+            >
+              <withRouter(Connect(TravellerStory))
+                config={
+                  Object {
+                    "csr": true,
+                  }
+                }
+                spacingCss={
+                  Object {
+                    "marginBottom": "48px",
+                  }
+                }
+                viewAll="/blog/travelogues?referer=travelogue_testimonial"
+              />
+            </div>
+          </div>,
+          <div
+            className="p8 pt0"
+          >
+            <Breadcrumb
+              breadcrumbs={
+                Array [
+                  Object {
+                    "name": "Home",
+                    "url": "/",
+                  },
+                  Object {
+                    "name": "Testimonials",
+                    "url": "/testimonials",
+                  },
+                ]
+              }
+            />
+          </div>,
+          <Index />,
+        ],
+        "className": "sbc5",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <meta
+                charSet="utf-8"
+              />,
+              Array [
+                <meta
+                  content="TravelTriangle Reviews: Read 100% authentic & unbiased recent traveler reviews of 650+ agents"
+                  name="description"
+                />,
+                <link
+                  href="https://traveltriangle.com/testimonials"
+                  rel="canonical"
+                />,
+              ],
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "charSet": "utf-8",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "content": "TravelTriangle Reviews: Read 100% authentic & unbiased recent traveler reviews of 650+ agents",
+                "name": "description",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://traveltriangle.com/testimonials",
+                "rel": "canonical",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <HeaderHome
+              isTransparent={true}
+            />,
+            "className": "absolute t0 l0 r0 z5",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "isTransparent": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Banner
+              bannerAlt="Happy Travelers"
+              bannerPath="https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg"
+              positiveRating={5172}
+              totalRating={6111}
+            />,
+            "className": "relative mb8",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "bannerAlt": "Happy Travelers",
+              "bannerPath": "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+              "positiveRating": 5172,
+              "totalRating": 6111,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RatingBar
+              reviewNumbers={
+                Object {
+                  "Bad": 73,
+                  "Excellent": 2193,
+                  "Good": 809,
+                  "Poor": 866,
+                  "Very Good": 2170,
+                }
+              }
+              totalReviews={6111}
+            />,
+            "className": "p24 sbcw mb8",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "reviewNumbers": Object {
+                "Bad": 73,
+                "Excellent": 2193,
+                "Good": 809,
+                "Poor": 866,
+                "Very Good": 2170,
+              },
+              "totalReviews": 6111,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "breadcrumbs": Array [
+              Object {
+                "name": "Home",
+                "url": "/",
+              },
+              Object {
+                "name": "Testimonials",
+                "url": "/testimonials",
+              },
+            ],
+            "filters": Object {
+              "india": Object {
+                "allDestinations": Array [
+                  "Ahmedabad",
+                  "Alleppey",
+                  "Andaman",
+                  "Vrindavan",
+                ],
+                "popularDestination": Array [
+                  "Kerala",
+                ],
+              },
+              "international": Object {
+                "allDestination": Array [
+                  "Africa",
+                  "Asia",
+                  "Australia",
+                  "Austria",
+                  "Bali",
+                  "Belgium",
+                ],
+                "popularDestination": Array [
+                  "Bali",
+                ],
+              },
+              "ratings": Array [
+                Object {
+                  "checked": false,
+                  "value": "1",
+                },
+                Object {
+                  "checked": false,
+                  "value": "2",
+                },
+                Object {
+                  "checked": false,
+                  "value": "3",
+                },
+                Object {
+                  "checked": false,
+                  "value": "4",
+                },
+                Object {
+                  "checked": false,
+                  "value": "5",
+                },
+              ],
+            },
+            "location": Object {
+              "hash": "",
+              "host": "localhost:5000",
+              "hostname": "localhost",
+              "href": "http://localhost:5000/testimonials",
+              "origin": "http://localhost:5000",
+              "pathname": "/testimonials",
+              "port": "5000",
+              "protocol": "http:",
+              "query": Object {},
+            },
+            "params": Object {},
+            "testimonialDisplay": 1,
+            "totalRating": 5430,
+            "updateUrl": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ReviewCard
+              location={
+                Object {
+                  "hash": "",
+                  "host": "localhost:5000",
+                  "hostname": "localhost",
+                  "href": "http://localhost:5000/testimonials",
+                  "origin": "http://localhost:5000",
+                  "pathname": "/testimonials",
+                  "port": "5000",
+                  "protocol": "http:",
+                  "query": Object {},
+                }
+              }
+              params={Object {}}
+              testimonials={
+                Array [
+                  Object {
+                    "author": Object {
+                      "authorName": "Mitika25",
+                      "authorPic": "",
+                      "designation": "Student",
+                      "userLocation": "Delhi",
+                    },
+                    "body": "I went to Dubai with my family of 5 adult",
+                    "destination": "Uttarakhand",
+                    "id": 544,
+                    "lastUpdated": "2013-11-14T16:25:17+05:30",
+                    "rating": 4,
+                    "title": "Trip to Uttarakhand",
+                  },
+                ]
+              }
+            />,
+            "className": "sbcw mb8",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "location": Object {
+                "hash": "",
+                "host": "localhost:5000",
+                "hostname": "localhost",
+                "href": "http://localhost:5000/testimonials",
+                "origin": "http://localhost:5000",
+                "pathname": "/testimonials",
+                "port": "5000",
+                "protocol": "http:",
+                "query": Object {},
+              },
+              "params": Object {},
+              "testimonials": Array [
+                Object {
+                  "author": Object {
+                    "authorName": "Mitika25",
+                    "authorPic": "",
+                    "designation": "Student",
+                    "userLocation": "Delhi",
+                  },
+                  "body": "I went to Dubai with my family of 5 adult",
+                  "destination": "Uttarakhand",
+                  "id": 544,
+                  "lastUpdated": "2013-11-14T16:25:17+05:30",
+                  "rating": 4,
+                  "title": "Trip to Uttarakhand",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <LoadMorePackages
+              currentPage={1}
+              loadMorePackages={[Function]}
+              packagesRemaining={5429}
+              title="packages remaining)"
+            />,
+            "className": "row row- mb8",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "currentPage": 1,
+              "loadMorePackages": [Function],
+              "packagesRemaining": 5429,
+              "title": "packages remaining)",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        null,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row"
+            >
+              <withRouter(Connect(TravellerStory))
+                config={
+                  Object {
+                    "csr": true,
+                  }
+                }
+                spacingCss={
+                  Object {
+                    "marginBottom": "48px",
+                  }
+                }
+                viewAll="/blog/travelogues?referer=travelogue_testimonial"
+              />
+            </div>,
+            "className": "mb8 overflowh pl15 pr15 ",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <withRouter(Connect(TravellerStory))
+                config={
+                  Object {
+                    "csr": true,
+                  }
+                }
+                spacingCss={
+                  Object {
+                    "marginBottom": "48px",
+                  }
+                }
+                viewAll="/blog/travelogues?referer=travelogue_testimonial"
+              />,
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "config": Object {
+                  "csr": true,
+                },
+                "spacingCss": Object {
+                  "marginBottom": "48px",
+                },
+                "viewAll": "/blog/travelogues?referer=travelogue_testimonial",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Breadcrumb
+              breadcrumbs={
+                Array [
+                  Object {
+                    "name": "Home",
+                    "url": "/",
+                  },
+                  Object {
+                    "name": "Testimonials",
+                    "url": "/testimonials",
+                  },
+                ]
+              }
+            />,
+            "className": "p8 pt0",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "breadcrumbs": Array [
+                Object {
+                  "name": "Home",
+                  "url": "/",
+                },
+                Object {
+                  "name": "Testimonials",
+                  "url": "/testimonials",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

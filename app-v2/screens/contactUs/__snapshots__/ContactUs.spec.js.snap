@@ -1,0 +1,2007 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactUs module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContactUs />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+        >
+          <meta
+            charSet="utf-8"
+          />
+          <title>
+            Contact Us
+          </title>
+          <link
+            href="https://traveltriangle.com/contact_us"
+            rel="canonical"
+          />
+        </HelmetWrapper>,
+        <Connect(HeaderCommon) />,
+        <Connect(HeaderTitle)
+          title="Contact Us"
+        />,
+        <div
+          className="clearfix mb8"
+        >
+          <BannerTrialist
+            bannerAlt="career banner"
+            bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+          />
+        </div>,
+        <div
+          className="container"
+        >
+          <div
+            className="clearfix p24"
+          >
+            <h1
+              className="f24 fw9 mb24 pb8"
+            >
+              Get in Touch
+            </h1>
+            <p
+              className="f14p"
+            >
+              Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.
+            </p>
+          </div>
+          <div
+            className="clearfix p24"
+          >
+            <div
+              className="flex"
+            >
+              <div
+                className="icon-18"
+              >
+                <IconSvg />
+              </div>
+              <div
+                className="flexFull ml5"
+              >
+                <h3
+                  className="f16p fw9 mb4"
+                >
+                  Tollfree Number
+                </h3>
+                <p
+                  className="f14p mb4"
+                >
+                  1800 123 5555
+                </p>
+                <p
+                  className="f12 pfc4"
+                >
+                  Available Monday to Saturday 10 AM - 7 PM
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="clearfix p24"
+          >
+            <div
+              className="flex"
+            >
+              <div
+                className="icon-18"
+              >
+                <IconSvg />
+              </div>
+              <div
+                className="flexFull ml5"
+              >
+                <h3
+                  className="f16p fw9 mb4"
+                >
+                  Customer Email ID
+                </h3>
+                <p
+                  className="f16"
+                >
+                  customercare@traveltriangle.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="clearfix p24"
+          >
+            <div
+              className="flex"
+            >
+              <div
+                className="icon-18"
+              >
+                <IconSvg />
+              </div>
+              <div
+                className="flexFull ml5"
+              >
+                <h3
+                  className="f16p fw9 mb4"
+                >
+                  Corporate Office
+                </h3>
+                <p
+                  className="f14p"
+                >
+                  Holiday Triangle Travel Private Limited 
+                  <br />
+                  Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                  <br />
+                  Gurugram - 122015, Haryana
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="flex mb24 mapContainer"
+          >
+            <SeeMapPopUp
+              coordinates={
+                Object {
+                  "lat": 28.4900142,
+                  "long": 77.0747222,
+                }
+              }
+              info=""
+              name=""
+              zoomRatio={17}
+            />
+          </div>
+        </div>,
+        <div
+          className="row row- p0"
+        >
+          <Index />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <meta
+              charSet="utf-8"
+            />,
+            <title>
+              Contact Us
+            </title>,
+            <link
+              href="https://traveltriangle.com/contact_us"
+              rel="canonical"
+            />,
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "charSet": "utf-8",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Contact Us",
+            },
+            "ref": null,
+            "rendered": "Contact Us",
+            "type": "title",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://traveltriangle.com/contact_us",
+              "rel": "canonical",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "title": "Contact Us",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <BannerTrialist
+            bannerAlt="career banner"
+            bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+          />,
+          "className": "clearfix mb8",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "bannerAlt": "career banner",
+            "bannerPath": "https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="clearfix p24"
+            >
+              <h1
+                className="f24 fw9 mb24 pb8"
+              >
+                Get in Touch
+              </h1>
+              <p
+                className="f14p"
+              >
+                Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.
+              </p>
+            </div>,
+            <div
+              className="clearfix p24"
+            >
+              <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Tollfree Number
+                  </h3>
+                  <p
+                    className="f14p mb4"
+                  >
+                    1800 123 5555
+                  </p>
+                  <p
+                    className="f12 pfc4"
+                  >
+                    Available Monday to Saturday 10 AM - 7 PM
+                  </p>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="clearfix p24"
+            >
+              <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Customer Email ID
+                  </h3>
+                  <p
+                    className="f16"
+                  >
+                    customercare@traveltriangle.com
+                  </p>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="clearfix p24"
+            >
+              <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Corporate Office
+                  </h3>
+                  <p
+                    className="f14p"
+                  >
+                    Holiday Triangle Travel Private Limited 
+                    <br />
+                    Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                    <br />
+                    Gurugram - 122015, Haryana
+                  </p>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="flex mb24 mapContainer"
+            >
+              <SeeMapPopUp
+                coordinates={
+                  Object {
+                    "lat": 28.4900142,
+                    "long": 77.0747222,
+                  }
+                }
+                info=""
+                name=""
+                zoomRatio={17}
+              />
+            </div>,
+          ],
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1
+                  className="f24 fw9 mb24 pb8"
+                >
+                  Get in Touch
+                </h1>,
+                <p
+                  className="f14p"
+                >
+                  Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.
+                </p>,
+              ],
+              "className": "clearfix p24",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Get in Touch",
+                  "className": "f24 fw9 mb24 pb8",
+                },
+                "ref": null,
+                "rendered": "Get in Touch",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.",
+                  "className": "f14p",
+                },
+                "ref": null,
+                "rendered": "Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Tollfree Number
+                  </h3>
+                  <p
+                    className="f14p mb4"
+                  >
+                    1800 123 5555
+                  </p>
+                  <p
+                    className="f12 pfc4"
+                  >
+                    Available Monday to Saturday 10 AM - 7 PM
+                  </p>
+                </div>
+              </div>,
+              "className": "clearfix p24",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>,
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Tollfree Number
+                    </h3>
+                    <p
+                      className="f14p mb4"
+                    >
+                      1800 123 5555
+                    </p>
+                    <p
+                      className="f12 pfc4"
+                    >
+                      Available Monday to Saturday 10 AM - 7 PM
+                    </p>
+                  </div>,
+                ],
+                "className": "flex",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "icon-18",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="f16p fw9 mb4"
+                      >
+                        Tollfree Number
+                      </h3>,
+                      <p
+                        className="f14p mb4"
+                      >
+                        1800 123 5555
+                      </p>,
+                      <p
+                        className="f12 pfc4"
+                      >
+                        Available Monday to Saturday 10 AM - 7 PM
+                      </p>,
+                    ],
+                    "className": "flexFull ml5",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Tollfree Number",
+                        "className": "f16p fw9 mb4",
+                      },
+                      "ref": null,
+                      "rendered": "Tollfree Number",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "1800 123 5555",
+                        "className": "f14p mb4",
+                      },
+                      "ref": null,
+                      "rendered": "1800 123 5555",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Available Monday to Saturday 10 AM - 7 PM",
+                        "className": "f12 pfc4",
+                      },
+                      "ref": null,
+                      "rendered": "Available Monday to Saturday 10 AM - 7 PM",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Customer Email ID
+                  </h3>
+                  <p
+                    className="f16"
+                  >
+                    customercare@traveltriangle.com
+                  </p>
+                </div>
+              </div>,
+              "className": "clearfix p24",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>,
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Customer Email ID
+                    </h3>
+                    <p
+                      className="f16"
+                    >
+                      customercare@traveltriangle.com
+                    </p>
+                  </div>,
+                ],
+                "className": "flex",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "icon-18",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="f16p fw9 mb4"
+                      >
+                        Customer Email ID
+                      </h3>,
+                      <p
+                        className="f16"
+                      >
+                        customercare@traveltriangle.com
+                      </p>,
+                    ],
+                    "className": "flexFull ml5",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Customer Email ID",
+                        "className": "f16p fw9 mb4",
+                      },
+                      "ref": null,
+                      "rendered": "Customer Email ID",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "customercare@traveltriangle.com",
+                        "className": "f16",
+                      },
+                      "ref": null,
+                      "rendered": "customercare@traveltriangle.com",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Corporate Office
+                  </h3>
+                  <p
+                    className="f14p"
+                  >
+                    Holiday Triangle Travel Private Limited 
+                    <br />
+                    Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                    <br />
+                    Gurugram - 122015, Haryana
+                  </p>
+                </div>
+              </div>,
+              "className": "clearfix p24",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>,
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Corporate Office
+                    </h3>
+                    <p
+                      className="f14p"
+                    >
+                      Holiday Triangle Travel Private Limited 
+                      <br />
+                      Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                      <br />
+                      Gurugram - 122015, Haryana
+                    </p>
+                  </div>,
+                ],
+                "className": "flex",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "icon-18",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h3
+                        className="f16p fw9 mb4"
+                      >
+                        Corporate Office
+                      </h3>,
+                      <p
+                        className="f14p"
+                      >
+                        Holiday Triangle Travel Private Limited 
+                        <br />
+                        Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                        <br />
+                        Gurugram - 122015, Haryana
+                      </p>,
+                    ],
+                    "className": "flexFull ml5",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Corporate Office",
+                        "className": "f16p fw9 mb4",
+                      },
+                      "ref": null,
+                      "rendered": "Corporate Office",
+                      "type": "h3",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Holiday Triangle Travel Private Limited ",
+                          <br />,
+                          "Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, ",
+                          <br />,
+                          "Gurugram - 122015, Haryana",
+                        ],
+                        "className": "f14p",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Holiday Triangle Travel Private Limited ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "Gurugram - 122015, Haryana",
+                      ],
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <SeeMapPopUp
+                coordinates={
+                  Object {
+                    "lat": 28.4900142,
+                    "long": 77.0747222,
+                  }
+                }
+                info=""
+                name=""
+                zoomRatio={17}
+              />,
+              "className": "flex mb24 mapContainer",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "coordinates": Object {
+                  "lat": 28.4900142,
+                  "long": 77.0747222,
+                },
+                "info": "",
+                "name": "",
+                "zoomRatio": 17,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Index />,
+          "className": "row row- p0",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+          >
+            <meta
+              charSet="utf-8"
+            />
+            <title>
+              Contact Us
+            </title>
+            <link
+              href="https://traveltriangle.com/contact_us"
+              rel="canonical"
+            />
+          </HelmetWrapper>,
+          <Connect(HeaderCommon) />,
+          <Connect(HeaderTitle)
+            title="Contact Us"
+          />,
+          <div
+            className="clearfix mb8"
+          >
+            <BannerTrialist
+              bannerAlt="career banner"
+              bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+            />
+          </div>,
+          <div
+            className="container"
+          >
+            <div
+              className="clearfix p24"
+            >
+              <h1
+                className="f24 fw9 mb24 pb8"
+              >
+                Get in Touch
+              </h1>
+              <p
+                className="f14p"
+              >
+                Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.
+              </p>
+            </div>
+            <div
+              className="clearfix p24"
+            >
+              <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Tollfree Number
+                  </h3>
+                  <p
+                    className="f14p mb4"
+                  >
+                    1800 123 5555
+                  </p>
+                  <p
+                    className="f12 pfc4"
+                  >
+                    Available Monday to Saturday 10 AM - 7 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="clearfix p24"
+            >
+              <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Customer Email ID
+                  </h3>
+                  <p
+                    className="f16"
+                  >
+                    customercare@traveltriangle.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="clearfix p24"
+            >
+              <div
+                className="flex"
+              >
+                <div
+                  className="icon-18"
+                >
+                  <IconSvg />
+                </div>
+                <div
+                  className="flexFull ml5"
+                >
+                  <h3
+                    className="f16p fw9 mb4"
+                  >
+                    Corporate Office
+                  </h3>
+                  <p
+                    className="f14p"
+                  >
+                    Holiday Triangle Travel Private Limited 
+                    <br />
+                    Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                    <br />
+                    Gurugram - 122015, Haryana
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="flex mb24 mapContainer"
+            >
+              <SeeMapPopUp
+                coordinates={
+                  Object {
+                    "lat": 28.4900142,
+                    "long": 77.0747222,
+                  }
+                }
+                info=""
+                name=""
+                zoomRatio={17}
+              />
+            </div>
+          </div>,
+          <div
+            className="row row- p0"
+          >
+            <Index />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <meta
+                charSet="utf-8"
+              />,
+              <title>
+                Contact Us
+              </title>,
+              <link
+                href="https://traveltriangle.com/contact_us"
+                rel="canonical"
+              />,
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "charSet": "utf-8",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Contact Us",
+              },
+              "ref": null,
+              "rendered": "Contact Us",
+              "type": "title",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://traveltriangle.com/contact_us",
+                "rel": "canonical",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "title": "Contact Us",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <BannerTrialist
+              bannerAlt="career banner"
+              bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+            />,
+            "className": "clearfix mb8",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "bannerAlt": "career banner",
+              "bannerPath": "https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="clearfix p24"
+              >
+                <h1
+                  className="f24 fw9 mb24 pb8"
+                >
+                  Get in Touch
+                </h1>
+                <p
+                  className="f14p"
+                >
+                  Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.
+                </p>
+              </div>,
+              <div
+                className="clearfix p24"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Tollfree Number
+                    </h3>
+                    <p
+                      className="f14p mb4"
+                    >
+                      1800 123 5555
+                    </p>
+                    <p
+                      className="f12 pfc4"
+                    >
+                      Available Monday to Saturday 10 AM - 7 PM
+                    </p>
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="clearfix p24"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Customer Email ID
+                    </h3>
+                    <p
+                      className="f16"
+                    >
+                      customercare@traveltriangle.com
+                    </p>
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="clearfix p24"
+              >
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Corporate Office
+                    </h3>
+                    <p
+                      className="f14p"
+                    >
+                      Holiday Triangle Travel Private Limited 
+                      <br />
+                      Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                      <br />
+                      Gurugram - 122015, Haryana
+                    </p>
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="flex mb24 mapContainer"
+              >
+                <SeeMapPopUp
+                  coordinates={
+                    Object {
+                      "lat": 28.4900142,
+                      "long": 77.0747222,
+                    }
+                  }
+                  info=""
+                  name=""
+                  zoomRatio={17}
+                />
+              </div>,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h1
+                    className="f24 fw9 mb24 pb8"
+                  >
+                    Get in Touch
+                  </h1>,
+                  <p
+                    className="f14p"
+                  >
+                    Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.
+                  </p>,
+                ],
+                "className": "clearfix p24",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Get in Touch",
+                    "className": "f24 fw9 mb24 pb8",
+                  },
+                  "ref": null,
+                  "rendered": "Get in Touch",
+                  "type": "h1",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.",
+                    "className": "f14p",
+                  },
+                  "ref": null,
+                  "rendered": "Founded in 2011, TravelTriangle is India’s leading online travel marketplace bringing both the traveler and expert Travel-Agents on a common platform.",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="flex"
+                >
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Tollfree Number
+                    </h3>
+                    <p
+                      className="f14p mb4"
+                    >
+                      1800 123 5555
+                    </p>
+                    <p
+                      className="f12 pfc4"
+                    >
+                      Available Monday to Saturday 10 AM - 7 PM
+                    </p>
+                  </div>
+                </div>,
+                "className": "clearfix p24",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="icon-18"
+                    >
+                      <IconSvg />
+                    </div>,
+                    <div
+                      className="flexFull ml5"
+                    >
+                      <h3
+                        className="f16p fw9 mb4"
+                      >
+                        Tollfree Number
+                      </h3>
+                      <p
+                        className="f14p mb4"
+                      >
+                        1800 123 5555
+                      </p>
+                      <p
+                        className="f12 pfc4"
+                      >
+                        Available Monday to Saturday 10 AM - 7 PM
+                      </p>
+                    </div>,
+                  ],
+                  "className": "flex",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "icon-18",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="f16p fw9 mb4"
+                        >
+                          Tollfree Number
+                        </h3>,
+                        <p
+                          className="f14p mb4"
+                        >
+                          1800 123 5555
+                        </p>,
+                        <p
+                          className="f12 pfc4"
+                        >
+                          Available Monday to Saturday 10 AM - 7 PM
+                        </p>,
+                      ],
+                      "className": "flexFull ml5",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Tollfree Number",
+                          "className": "f16p fw9 mb4",
+                        },
+                        "ref": null,
+                        "rendered": "Tollfree Number",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "1800 123 5555",
+                          "className": "f14p mb4",
+                        },
+                        "ref": null,
+                        "rendered": "1800 123 5555",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Available Monday to Saturday 10 AM - 7 PM",
+                          "className": "f12 pfc4",
+                        },
+                        "ref": null,
+                        "rendered": "Available Monday to Saturday 10 AM - 7 PM",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="flex"
+                >
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Customer Email ID
+                    </h3>
+                    <p
+                      className="f16"
+                    >
+                      customercare@traveltriangle.com
+                    </p>
+                  </div>
+                </div>,
+                "className": "clearfix p24",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="icon-18"
+                    >
+                      <IconSvg />
+                    </div>,
+                    <div
+                      className="flexFull ml5"
+                    >
+                      <h3
+                        className="f16p fw9 mb4"
+                      >
+                        Customer Email ID
+                      </h3>
+                      <p
+                        className="f16"
+                      >
+                        customercare@traveltriangle.com
+                      </p>
+                    </div>,
+                  ],
+                  "className": "flex",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "icon-18",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="f16p fw9 mb4"
+                        >
+                          Customer Email ID
+                        </h3>,
+                        <p
+                          className="f16"
+                        >
+                          customercare@traveltriangle.com
+                        </p>,
+                      ],
+                      "className": "flexFull ml5",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Customer Email ID",
+                          "className": "f16p fw9 mb4",
+                        },
+                        "ref": null,
+                        "rendered": "Customer Email ID",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "customercare@traveltriangle.com",
+                          "className": "f16",
+                        },
+                        "ref": null,
+                        "rendered": "customercare@traveltriangle.com",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="flex"
+                >
+                  <div
+                    className="icon-18"
+                  >
+                    <IconSvg />
+                  </div>
+                  <div
+                    className="flexFull ml5"
+                  >
+                    <h3
+                      className="f16p fw9 mb4"
+                    >
+                      Corporate Office
+                    </h3>
+                    <p
+                      className="f14p"
+                    >
+                      Holiday Triangle Travel Private Limited 
+                      <br />
+                      Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                      <br />
+                      Gurugram - 122015, Haryana
+                    </p>
+                  </div>
+                </div>,
+                "className": "clearfix p24",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="icon-18"
+                    >
+                      <IconSvg />
+                    </div>,
+                    <div
+                      className="flexFull ml5"
+                    >
+                      <h3
+                        className="f16p fw9 mb4"
+                      >
+                        Corporate Office
+                      </h3>
+                      <p
+                        className="f14p"
+                      >
+                        Holiday Triangle Travel Private Limited 
+                        <br />
+                        Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                        <br />
+                        Gurugram - 122015, Haryana
+                      </p>
+                    </div>,
+                  ],
+                  "className": "flex",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "icon-18",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <h3
+                          className="f16p fw9 mb4"
+                        >
+                          Corporate Office
+                        </h3>,
+                        <p
+                          className="f14p"
+                        >
+                          Holiday Triangle Travel Private Limited 
+                          <br />
+                          Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, 
+                          <br />
+                          Gurugram - 122015, Haryana
+                        </p>,
+                      ],
+                      "className": "flexFull ml5",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Corporate Office",
+                          "className": "f16p fw9 mb4",
+                        },
+                        "ref": null,
+                        "rendered": "Corporate Office",
+                        "type": "h3",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Holiday Triangle Travel Private Limited ",
+                            <br />,
+                            "Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, ",
+                            <br />,
+                            "Gurugram - 122015, Haryana",
+                          ],
+                          "className": "f14p",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Holiday Triangle Travel Private Limited ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          "Plot No -29 , 3rd & 4th Floor Dynamic House, Maruti Industrial Complex Sector 18, ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          "Gurugram - 122015, Haryana",
+                        ],
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <SeeMapPopUp
+                  coordinates={
+                    Object {
+                      "lat": 28.4900142,
+                      "long": 77.0747222,
+                    }
+                  }
+                  info=""
+                  name=""
+                  zoomRatio={17}
+                />,
+                "className": "flex mb24 mapContainer",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "coordinates": Object {
+                    "lat": 28.4900142,
+                    "long": 77.0747222,
+                  },
+                  "info": "",
+                  "name": "",
+                  "zoomRatio": 17,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Index />,
+            "className": "row row- p0",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

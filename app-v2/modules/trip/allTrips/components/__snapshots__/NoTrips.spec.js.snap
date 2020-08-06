@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All Trips NavBar component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NoTrips />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(render)
+          className="mb24"
+        >
+          <IconSvg />
+        </ForwardRef(render)>,
+        <h3
+          className="f20 fw7 mb15"
+        >
+          No Requested Trips
+        </h3>,
+        <p
+          className="f14 mb64"
+        >
+          When you request a trip , You will see it’s
+          <br />
+          details here
+        </p>,
+        <Link
+          className="btn-filled-pri"
+          onClick={[Function]}
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/requested_trips/new"
+        >
+          Plan My Holiday
+        </Link>,
+      ],
+      "className": "flex flexDColumn text-center sbcw p15 pt64 mt4 mb8",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "mb24",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "height": "102px",
+              "margin": "0 auto",
+              "width": "98px",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "No Requested Trips",
+          "className": "f20 fw7 mb15",
+        },
+        "ref": null,
+        "rendered": "No Requested Trips",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "When you request a trip , You will see it’s",
+            <br />,
+            "details here",
+          ],
+          "className": "f14 mb64",
+        },
+        "ref": null,
+        "rendered": Array [
+          "When you request a trip , You will see it’s",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          "details here",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Plan My Holiday",
+          "className": "btn-filled-pri",
+          "onClick": [Function],
+          "onlyActiveOnIndex": false,
+          "style": Object {},
+          "to": "/requested_trips/new",
+        },
+        "ref": null,
+        "rendered": "Plan My Holiday",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)
+            className="mb24"
+          >
+            <IconSvg />
+          </ForwardRef(render)>,
+          <h3
+            className="f20 fw7 mb15"
+          >
+            No Requested Trips
+          </h3>,
+          <p
+            className="f14 mb64"
+          >
+            When you request a trip , You will see it’s
+            <br />
+            details here
+          </p>,
+          <Link
+            className="btn-filled-pri"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/requested_trips/new"
+          >
+            Plan My Holiday
+          </Link>,
+        ],
+        "className": "flex flexDColumn text-center sbcw p15 pt64 mt4 mb8",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "mb24",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "height": "102px",
+                "margin": "0 auto",
+                "width": "98px",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "No Requested Trips",
+            "className": "f20 fw7 mb15",
+          },
+          "ref": null,
+          "rendered": "No Requested Trips",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "When you request a trip , You will see it’s",
+              <br />,
+              "details here",
+            ],
+            "className": "f14 mb64",
+          },
+          "ref": null,
+          "rendered": Array [
+            "When you request a trip , You will see it’s",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            "details here",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Plan My Holiday",
+            "className": "btn-filled-pri",
+            "onClick": [Function],
+            "onlyActiveOnIndex": false,
+            "style": Object {},
+            "to": "/requested_trips/new",
+          },
+          "ref": null,
+          "rendered": "Plan My Holiday",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

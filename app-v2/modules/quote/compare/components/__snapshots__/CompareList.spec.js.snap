@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Compare Module  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CompareList
+    inclusions={
+      Array [
+        Object {
+          "category": "Accomodation",
+          "commentsAdded": null,
+          "id": 271,
+          "isIncluded": false,
+          "name": "Single",
+        },
+        Object {
+          "category": "Accomodation",
+          "commentsAdded": null,
+          "id": 273,
+          "isIncluded": false,
+          "name": "Triple",
+        },
+      ]
+    }
+    isExclusion={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex mb15 contentList"
+        >
+          <div
+            className="icon-18 p2 mr4"
+          >
+            <IconSvg />
+          </div>
+          <p
+            className="f14"
+          >
+            Single
+          </p>
+        </div>,
+        <div
+          className="flex mb15 contentList"
+        >
+          <div
+            className="icon-18 p2 mr4"
+          >
+            <IconSvg />
+          </div>
+          <p
+            className="f14"
+          >
+            Triple
+          </p>
+        </div>,
+      ],
+      "className": "flexFull p15",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0_Single",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="icon-18 p2 mr4"
+            >
+              <IconSvg />
+            </div>,
+            <p
+              className="f14"
+            >
+              Single
+            </p>,
+          ],
+          "className": "flex mb15 contentList",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <IconSvg />,
+              "className": "icon-18 p2 mr4",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Single",
+              "className": "f14",
+            },
+            "ref": null,
+            "rendered": "Single",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "1_Triple",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="icon-18 p2 mr4"
+            >
+              <IconSvg />
+            </div>,
+            <p
+              className="f14"
+            >
+              Triple
+            </p>,
+          ],
+          "className": "flex mb15 contentList",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <IconSvg />,
+              "className": "icon-18 p2 mr4",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Triple",
+              "className": "f14",
+            },
+            "ref": null,
+            "rendered": "Triple",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex mb15 contentList"
+          >
+            <div
+              className="icon-18 p2 mr4"
+            >
+              <IconSvg />
+            </div>
+            <p
+              className="f14"
+            >
+              Single
+            </p>
+          </div>,
+          <div
+            className="flex mb15 contentList"
+          >
+            <div
+              className="icon-18 p2 mr4"
+            >
+              <IconSvg />
+            </div>
+            <p
+              className="f14"
+            >
+              Triple
+            </p>
+          </div>,
+        ],
+        "className": "flexFull p15",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0_Single",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="icon-18 p2 mr4"
+              >
+                <IconSvg />
+              </div>,
+              <p
+                className="f14"
+              >
+                Single
+              </p>,
+            ],
+            "className": "flex mb15 contentList",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg />,
+                "className": "icon-18 p2 mr4",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Single",
+                "className": "f14",
+              },
+              "ref": null,
+              "rendered": "Single",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "1_Triple",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="icon-18 p2 mr4"
+              >
+                <IconSvg />
+              </div>,
+              <p
+                className="f14"
+              >
+                Triple
+              </p>,
+            ],
+            "className": "flex mb15 contentList",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg />,
+                "className": "icon-18 p2 mr4",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Triple",
+                "className": "f14",
+              },
+              "ref": null,
+              "rendered": "Triple",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

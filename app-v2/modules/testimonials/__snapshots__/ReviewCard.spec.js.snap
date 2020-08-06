@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonials module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ReviewCard
+    location={Object {}}
+    params={Object {}}
+    testimonials={
+      Array [
+        Object {
+          "agentComment": Object {},
+          "author": Object {
+            "authorName": "Mitika25",
+            "authorPic": "",
+            "designation": "Student",
+            "userLocation": "Delhi",
+          },
+          "body": "I went to Dubai with my family of 5 adult",
+          "destination": "Uttarakhand",
+          "id": 544,
+          "lastUpdated": "2013-11-14T16:25:17+05:30",
+          "rating": 4,
+          "title": "Trip to Uttarakhand",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="user-testimonial-card sbcw p15 bb mb1 "
+          id="544"
+        >
+          <TestimonialsCard
+            destination="Uttarakhand"
+            id={544}
+            location={Object {}}
+            params={Object {}}
+            rating={4}
+            testimonialBody="I went to Dubai with my family of 5 adult"
+            title="Trip to Uttarakhand"
+          />
+          <div
+            className="mt8 pr64 mr24"
+          >
+            <TestimonialsUser
+              author={
+                Object {
+                  "authorName": "Mitika25",
+                  "authorPic": "",
+                  "designation": "Student",
+                  "userLocation": "Delhi",
+                }
+              }
+              lastUpdated="2013-11-14T16:25:17+05:30"
+            />
+          </div>
+        </div>,
+      ],
+      "className": "review-card-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "544",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TestimonialsCard
+              destination="Uttarakhand"
+              id={544}
+              location={Object {}}
+              params={Object {}}
+              rating={4}
+              testimonialBody="I went to Dubai with my family of 5 adult"
+              title="Trip to Uttarakhand"
+            />,
+            <div
+              className="mt8 pr64 mr24"
+            >
+              <TestimonialsUser
+                author={
+                  Object {
+                    "authorName": "Mitika25",
+                    "authorPic": "",
+                    "designation": "Student",
+                    "userLocation": "Delhi",
+                  }
+                }
+                lastUpdated="2013-11-14T16:25:17+05:30"
+              />
+            </div>,
+            null,
+          ],
+          "className": "user-testimonial-card sbcw p15 bb mb1 ",
+          "id": "544",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "destination": "Uttarakhand",
+              "id": 544,
+              "location": Object {},
+              "params": Object {},
+              "rating": 4,
+              "testimonialBody": "I went to Dubai with my family of 5 adult",
+              "title": "Trip to Uttarakhand",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <TestimonialsUser
+                author={
+                  Object {
+                    "authorName": "Mitika25",
+                    "authorPic": "",
+                    "designation": "Student",
+                    "userLocation": "Delhi",
+                  }
+                }
+                lastUpdated="2013-11-14T16:25:17+05:30"
+              />,
+              "className": "mt8 pr64 mr24",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "author": Object {
+                  "authorName": "Mitika25",
+                  "authorPic": "",
+                  "designation": "Student",
+                  "userLocation": "Delhi",
+                },
+                "lastUpdated": "2013-11-14T16:25:17+05:30",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          null,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="user-testimonial-card sbcw p15 bb mb1 "
+            id="544"
+          >
+            <TestimonialsCard
+              destination="Uttarakhand"
+              id={544}
+              location={Object {}}
+              params={Object {}}
+              rating={4}
+              testimonialBody="I went to Dubai with my family of 5 adult"
+              title="Trip to Uttarakhand"
+            />
+            <div
+              className="mt8 pr64 mr24"
+            >
+              <TestimonialsUser
+                author={
+                  Object {
+                    "authorName": "Mitika25",
+                    "authorPic": "",
+                    "designation": "Student",
+                    "userLocation": "Delhi",
+                  }
+                }
+                lastUpdated="2013-11-14T16:25:17+05:30"
+              />
+            </div>
+          </div>,
+        ],
+        "className": "review-card-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "544",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TestimonialsCard
+                destination="Uttarakhand"
+                id={544}
+                location={Object {}}
+                params={Object {}}
+                rating={4}
+                testimonialBody="I went to Dubai with my family of 5 adult"
+                title="Trip to Uttarakhand"
+              />,
+              <div
+                className="mt8 pr64 mr24"
+              >
+                <TestimonialsUser
+                  author={
+                    Object {
+                      "authorName": "Mitika25",
+                      "authorPic": "",
+                      "designation": "Student",
+                      "userLocation": "Delhi",
+                    }
+                  }
+                  lastUpdated="2013-11-14T16:25:17+05:30"
+                />
+              </div>,
+              null,
+            ],
+            "className": "user-testimonial-card sbcw p15 bb mb1 ",
+            "id": "544",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "destination": "Uttarakhand",
+                "id": 544,
+                "location": Object {},
+                "params": Object {},
+                "rating": 4,
+                "testimonialBody": "I went to Dubai with my family of 5 adult",
+                "title": "Trip to Uttarakhand",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <TestimonialsUser
+                  author={
+                    Object {
+                      "authorName": "Mitika25",
+                      "authorPic": "",
+                      "designation": "Student",
+                      "userLocation": "Delhi",
+                    }
+                  }
+                  lastUpdated="2013-11-14T16:25:17+05:30"
+                />,
+                "className": "mt8 pr64 mr24",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "author": Object {
+                    "authorName": "Mitika25",
+                    "authorPic": "",
+                    "designation": "Student",
+                    "userLocation": "Delhi",
+                  },
+                  "lastUpdated": "2013-11-14T16:25:17+05:30",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            null,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

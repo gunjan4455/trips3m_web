@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonials module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Destination
+    breadcrumbs={
+      Array [
+        Object {
+          "name": "Home",
+          "url": "/",
+        },
+        Object {
+          "name": "Testimonials",
+          "url": "/testimonials",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="pl15 pb5 pt5 pr15 flex alignCenter"
+      >
+        <span
+          className="iblock input-24 verticalMiddle"
+        >
+          <IconSvg />
+        </span>
+        <div
+          className="iblock pl15 verticalMiddle"
+        >
+          <p
+            className="iblock f14 fw4 pfc3 pb2"
+          >
+            Destinations
+          </p>
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="iblock input-24 verticalMiddle"
+          >
+            <IconSvg />
+          </span>,
+          <div
+            className="iblock pl15 verticalMiddle"
+          >
+            <p
+              className="iblock f14 fw4 pfc3 pb2"
+            >
+              Destinations
+            </p>
+          </div>,
+        ],
+        "className": "pl15 pb5 pt5 pr15 flex alignCenter",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "iblock input-24 verticalMiddle",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="iblock f14 fw4 pfc3 pb2"
+              >
+                Destinations
+              </p>,
+              null,
+            ],
+            "className": "iblock pl15 verticalMiddle",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Destinations",
+                "className": "iblock f14 fw4 pfc3 pb2",
+              },
+              "ref": null,
+              "rendered": "Destinations",
+              "type": "p",
+            },
+            null,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="pl15 pb5 pt5 pr15 flex alignCenter"
+        >
+          <span
+            className="iblock input-24 verticalMiddle"
+          >
+            <IconSvg />
+          </span>
+          <div
+            className="iblock pl15 verticalMiddle"
+          >
+            <p
+              className="iblock f14 fw4 pfc3 pb2"
+            >
+              Destinations
+            </p>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="iblock input-24 verticalMiddle"
+            >
+              <IconSvg />
+            </span>,
+            <div
+              className="iblock pl15 verticalMiddle"
+            >
+              <p
+                className="iblock f14 fw4 pfc3 pb2"
+              >
+                Destinations
+              </p>
+            </div>,
+          ],
+          "className": "pl15 pb5 pt5 pr15 flex alignCenter",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <IconSvg />,
+              "className": "iblock input-24 verticalMiddle",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="iblock f14 fw4 pfc3 pb2"
+                >
+                  Destinations
+                </p>,
+                null,
+              ],
+              "className": "iblock pl15 verticalMiddle",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Destinations",
+                  "className": "iblock f14 fw4 pfc3 pb2",
+                },
+                "ref": null,
+                "rendered": "Destinations",
+                "type": "p",
+              },
+              null,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

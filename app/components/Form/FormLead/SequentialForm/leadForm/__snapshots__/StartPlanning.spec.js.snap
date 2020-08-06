@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lead form module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StartPlanning
+    callNextSlide={[MockFunction]}
+    changeFormField={[MockFunction]}
+    formValues={
+      Object {
+        "adult": "2 ",
+        "budget_new": true,
+        "child": 0,
+        "child_age_answers_attributes": Array [
+          Object {
+            "customization_id": "7 ",
+            "option_id": "29 ",
+            "user_input": "0 ",
+          },
+          Object {
+            "customization_id": "7 ",
+            "option_id": "30 ",
+            "user_input": "0 ",
+          },
+          Object {
+            "customization_id": "7 ",
+            "option_id": "31 ",
+            "user_input": "0 ",
+          },
+        ],
+        "dont_utilize_budget_new": true,
+        "email": "",
+        "isd_code": " + 91 ",
+        "start_date_noidea": false,
+        "syncErrors": Object {},
+        "to_loc": "",
+      }
+    }
+    handleBlur={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="location-icon-container"
+        >
+          <IconSvg />
+        </div>,
+        <div
+          className="form-field-incl-label p15 relative"
+        >
+          <Field
+            component={[Function]}
+            handleBlur={[Function]}
+            label="To"
+            name="to_loc"
+            onToLocFocus={[Function]}
+            placeholder="To"
+            type="text"
+            validate={[Function]}
+          />
+          <div
+            className="row row- mb15"
+          >
+            <Field
+              className="checkbox-common sfcw"
+              classname="exploring-destination at_explore mb8"
+              component={[Function]}
+              id="exploring-destination_fnew"
+              label="I am exploring destinations"
+              name="exploring_destinations"
+              type="checkbox"
+            />
+          </div>
+          <div
+            className="from-location-container"
+          >
+            <Field
+              className="input"
+              id="fromLocation_fnew"
+              label="From"
+              name="from_loc"
+              onFocus={[Function]}
+              placeholder="From"
+              type="text"
+            />
+          </div>
+        </div>,
+        <Footer
+          goBack={[Function]}
+          goBackDisabled={true}
+          goForward={[Function]}
+          goNextDisabled={true}
+          isLastSlide={false}
+        />,
+      ],
+      "className": "form-body",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "location-icon-container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Field
+              component={[Function]}
+              handleBlur={[Function]}
+              label="To"
+              name="to_loc"
+              onToLocFocus={[Function]}
+              placeholder="To"
+              type="text"
+              validate={[Function]}
+            />,
+            <div
+              className="row row- mb15"
+            >
+              <Field
+                className="checkbox-common sfcw"
+                classname="exploring-destination at_explore mb8"
+                component={[Function]}
+                id="exploring-destination_fnew"
+                label="I am exploring destinations"
+                name="exploring_destinations"
+                type="checkbox"
+              />
+            </div>,
+            <div
+              className="from-location-container"
+            >
+              <Field
+                className="input"
+                id="fromLocation_fnew"
+                label="From"
+                name="from_loc"
+                onFocus={[Function]}
+                placeholder="From"
+                type="text"
+              />
+            </div>,
+          ],
+          "className": "form-field-incl-label p15 relative",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "handleBlur": [Function],
+              "label": "To",
+              "name": "to_loc",
+              "onToLocFocus": [Function],
+              "placeholder": "To",
+              "trackFormOneInteracted": undefined,
+              "type": "text",
+              "validate": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Field
+                className="checkbox-common sfcw"
+                classname="exploring-destination at_explore mb8"
+                component={[Function]}
+                id="exploring-destination_fnew"
+                label="I am exploring destinations"
+                name="exploring_destinations"
+                type="checkbox"
+              />,
+              "className": "row row- mb15",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "checkbox-common sfcw",
+                "classname": "exploring-destination at_explore mb8",
+                "component": [Function],
+                "id": "exploring-destination_fnew",
+                "label": "I am exploring destinations",
+                "name": "exploring_destinations",
+                "trackFormOneInteracted": undefined,
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Field
+                className="input"
+                id="fromLocation_fnew"
+                label="From"
+                name="from_loc"
+                onFocus={[Function]}
+                placeholder="From"
+                type="text"
+              />,
+              "className": "from-location-container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "input",
+                "component": undefined,
+                "id": "fromLocation_fnew",
+                "label": "From",
+                "name": "from_loc",
+                "onFocus": [Function],
+                "placeholder": "From",
+                "trackFormOneInteracted": undefined,
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "goBack": [Function],
+          "goBackDisabled": true,
+          "goForward": [Function],
+          "goNextDisabled": true,
+          "isLastSlide": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="location-icon-container"
+          >
+            <IconSvg />
+          </div>,
+          <div
+            className="form-field-incl-label p15 relative"
+          >
+            <Field
+              component={[Function]}
+              handleBlur={[Function]}
+              label="To"
+              name="to_loc"
+              onToLocFocus={[Function]}
+              placeholder="To"
+              type="text"
+              validate={[Function]}
+            />
+            <div
+              className="row row- mb15"
+            >
+              <Field
+                className="checkbox-common sfcw"
+                classname="exploring-destination at_explore mb8"
+                component={[Function]}
+                id="exploring-destination_fnew"
+                label="I am exploring destinations"
+                name="exploring_destinations"
+                type="checkbox"
+              />
+            </div>
+            <div
+              className="from-location-container"
+            >
+              <Field
+                className="input"
+                id="fromLocation_fnew"
+                label="From"
+                name="from_loc"
+                onFocus={[Function]}
+                placeholder="From"
+                type="text"
+              />
+            </div>
+          </div>,
+          <Footer
+            goBack={[Function]}
+            goBackDisabled={true}
+            goForward={[Function]}
+            goNextDisabled={true}
+            isLastSlide={false}
+          />,
+        ],
+        "className": "form-body",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "location-icon-container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Field
+                component={[Function]}
+                handleBlur={[Function]}
+                label="To"
+                name="to_loc"
+                onToLocFocus={[Function]}
+                placeholder="To"
+                type="text"
+                validate={[Function]}
+              />,
+              <div
+                className="row row- mb15"
+              >
+                <Field
+                  className="checkbox-common sfcw"
+                  classname="exploring-destination at_explore mb8"
+                  component={[Function]}
+                  id="exploring-destination_fnew"
+                  label="I am exploring destinations"
+                  name="exploring_destinations"
+                  type="checkbox"
+                />
+              </div>,
+              <div
+                className="from-location-container"
+              >
+                <Field
+                  className="input"
+                  id="fromLocation_fnew"
+                  label="From"
+                  name="from_loc"
+                  onFocus={[Function]}
+                  placeholder="From"
+                  type="text"
+                />
+              </div>,
+            ],
+            "className": "form-field-incl-label p15 relative",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "handleBlur": [Function],
+                "label": "To",
+                "name": "to_loc",
+                "onToLocFocus": [Function],
+                "placeholder": "To",
+                "trackFormOneInteracted": undefined,
+                "type": "text",
+                "validate": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Field
+                  className="checkbox-common sfcw"
+                  classname="exploring-destination at_explore mb8"
+                  component={[Function]}
+                  id="exploring-destination_fnew"
+                  label="I am exploring destinations"
+                  name="exploring_destinations"
+                  type="checkbox"
+                />,
+                "className": "row row- mb15",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "checkbox-common sfcw",
+                  "classname": "exploring-destination at_explore mb8",
+                  "component": [Function],
+                  "id": "exploring-destination_fnew",
+                  "label": "I am exploring destinations",
+                  "name": "exploring_destinations",
+                  "trackFormOneInteracted": undefined,
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Field
+                  className="input"
+                  id="fromLocation_fnew"
+                  label="From"
+                  name="from_loc"
+                  onFocus={[Function]}
+                  placeholder="From"
+                  type="text"
+                />,
+                "className": "from-location-container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "input",
+                  "component": undefined,
+                  "id": "fromLocation_fnew",
+                  "label": "From",
+                  "name": "from_loc",
+                  "onFocus": [Function],
+                  "placeholder": "From",
+                  "trackFormOneInteracted": undefined,
+                  "type": "text",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "goBack": [Function],
+            "goBackDisabled": true,
+            "goForward": [Function],
+            "goNextDisabled": true,
+            "isLastSlide": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

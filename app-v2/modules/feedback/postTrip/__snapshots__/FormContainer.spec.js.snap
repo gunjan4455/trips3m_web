@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post trip module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PostTripFormContainer
+    createPostTripFeedback={[MockFunction]}
+    formValues={Object {}}
+    location={
+      Object {
+        "query": Object {},
+      }
+    }
+    params={
+      Object {
+        "requestedTripId": 4876448,
+      }
+    }
+    pushState={[MockFunction]}
+    submitted={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ReduxForm
+          enableReinitialize={true}
+          formValues={Object {}}
+          initialValues={
+            Object {
+              "nps": NaN,
+            }
+          }
+          onSubmit={[Function]}
+          trackSegmentEvent={[Function]}
+        />,
+        <ModalComponent
+          customClass=""
+          customCloseTrigger={false}
+          disabled={false}
+          fullView={false}
+          hasCustomClose={false}
+          hasNoClose={true}
+          isOpen={false}
+          isTriggerFullView={false}
+          isWhiteIcon={false}
+          onAfterModalOpen={[Function]}
+          onRequestCloseCustom={[Function]}
+          trigger={null}
+        >
+          <ThankYou />
+        </ModalComponent>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "enableReinitialize": true,
+          "formValues": Object {},
+          "initialValues": Object {
+            "nps": NaN,
+          },
+          "onSubmit": [Function],
+          "trackSegmentEvent": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <ThankYou />,
+          "customClass": "",
+          "customCloseTrigger": false,
+          "disabled": false,
+          "fullView": false,
+          "hasCustomClose": false,
+          "hasNoClose": true,
+          "isOpen": false,
+          "isTriggerFullView": false,
+          "isWhiteIcon": false,
+          "onAfterModalOpen": [Function],
+          "onRequestCloseCustom": [Function],
+          "trigger": null,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ReduxForm
+            enableReinitialize={true}
+            formValues={Object {}}
+            initialValues={
+              Object {
+                "nps": NaN,
+              }
+            }
+            onSubmit={[Function]}
+            trackSegmentEvent={[Function]}
+          />,
+          <ModalComponent
+            customClass=""
+            customCloseTrigger={false}
+            disabled={false}
+            fullView={false}
+            hasCustomClose={false}
+            hasNoClose={true}
+            isOpen={false}
+            isTriggerFullView={false}
+            isWhiteIcon={false}
+            onAfterModalOpen={[Function]}
+            onRequestCloseCustom={[Function]}
+            trigger={null}
+          >
+            <ThankYou />
+          </ModalComponent>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "enableReinitialize": true,
+            "formValues": Object {},
+            "initialValues": Object {
+              "nps": NaN,
+            },
+            "onSubmit": [Function],
+            "trackSegmentEvent": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <ThankYou />,
+            "customClass": "",
+            "customCloseTrigger": false,
+            "disabled": false,
+            "fullView": false,
+            "hasCustomClose": false,
+            "hasNoClose": true,
+            "isOpen": false,
+            "isTriggerFullView": false,
+            "isWhiteIcon": false,
+            "onAfterModalOpen": [Function],
+            "onRequestCloseCustom": [Function],
+            "trigger": null,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

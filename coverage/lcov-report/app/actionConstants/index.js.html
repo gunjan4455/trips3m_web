@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/actionConstants/index.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">app/actionConstants</a> index.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>66/66</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>66/66</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// Home page actions
+export const HOME_UPDATE_SEARCH = 'home/UPDATE_SEARCH';
+&nbsp;
+// Listings action constants
+export const LISTING_PACKAGES_LOAD = 'listing/packages/LOAD';
+export const LISTING_PACKAGES_LOAD_SUCCESS = 'listing/packages/LOAD_SUCCESS';
+export const LISTING_PACKAGES_LOAD_FAIL = 'listing/packages/LOAD_FAIL';
+export const LISTING_LOAD_MORE_SUCCESS = 'listing/packages/LOAD_MORE_PACKAGES';
+export const SUBMITTED_FOR_COMPARE = 'listing/packages/SUBMITTED_FOR_COMPARE';
+&nbsp;
+export const SEO_FOOTER_LOAD = 'listing/seoFooter/SEO_FOOTER_LOAD';
+export const SEO_FOOTER_LOAD_SUCCESS = 'listing/seoFooter/SEO_FOOTER_LOAD_SUCCESS';
+export const SEO_FOOTER_LOAD_FAIL = 'listing/seoFooter/SEO_FOOTER_LOAD_FAIL';
+export const SEO_FOOTER_RESET = 'listing/seoFooter/SEO_FOOTER_RESET';
+&nbsp;
+export const LISTING_FILTERS_LOAD = 'listing/filters/LOAD';
+export const LISTING_FILTERS_LOAD_SUCCESS = 'listing/filters/LOAD_SUCCESS';
+export const LISTING_FILTERS_LOAD_FAIL = 'listing/filters/LOAD_FAIL';
+export const LISTING_FILTERS_TOGGLE_VIEW = 'listing/filters/TOGGLE_VIEW';
+export const LISTING_FILTERS_SET = 'listing/filters/SET';
+export const LISTING_FILTERS_APPLY = 'listing/filters/APPLY';
+export const LISTING_FILTERS_SELECTED = 'listing/filters/SELECTED';
+export const SORT_BY_APPLY = 'listing/filters/SORT_BY';
+export const RESET_FILTERS = 'filters/reset';
+export const SET_TOUR_CATEGORY_FILTER = 'listing/filters/tourCategoryFilter';
+export const SET_DESTINATION_TYPE_ALL_FILTER = 'listing/filters/destinationTypeAll';
+export const SET_LISTING_FILTERS_CATEGORY = 'listing/filters/SET_LISTING_FILTERS_CATEGORY';
+export const SET_LISTING_FILTERS_DESTINATION_TYPE = 'listing/filters/SET_LISTING_FILTERS_DESTINATION_TYPE';
+export const SET_DEFAULT_SELECTED_FILTERS = 'listing/filters/SET_DEFAULT_SELECTED_FILTERS';
+export const SET_INITIAL_FILTERS = 'listing/filters/SET_INITIAL_FILTERS';
+export const RESET_DEFAULT_FILTERS = 'listing/filters/RESET_DEFAULT_FILTERS';
+export const RESET_SELECTED_TO_DEFAULT_FILTERS = 'listing/filters/RESET_SELECTED_TO_DEFAULT_FILTERS';
+export const DEST_LISTING_FILTERS_SELECTED = 'destListing/filters/SELECTED';
+export const DEST_LISTING_RESET_SELECTED_TO_DEFAULT_FILTERS = 'destListing/filters/DEST_LISTING_RESET_SELECTED_TO_DEFAULT_FILTERS';
+export const DEST_LISTING_SET_DEFAULT_SELECTED_FILTERS = 'destListing/filters/DEST_LISTING_SET_DEFAULT_SELECTED_FILTERS';
+export const DEST_LISTING_RESET_FILTERS = 'destListing/filters/DEST_LISTING_RESET_FILTERS';
+export const DEST_LISTING_RESET_DEFAULT_FILTERS = 'destListing/filters/DEST_LISTING_RESET_DEFAULT_FILTERS';
+export const DEST_LISTING_SET_INITIAL_FILTERS = 'destListing/filters/DEST_LISTING_SET_INITIAL_FILTERS';
+&nbsp;
+export const FILTER_COUNTS_LOAD = 'listing/filterCounts/LOAD';
+export const FILTER_COUNTS_LOAD_SUCCESS = 'listing/filterCounts/LOAD_SUCCESS';
+export const FILTER_COUNTS_LOAD_FAIL = 'listing/filterCounts/LOAD_FAIL';
+&nbsp;
+// Destination Listing Actions
+export const DESTINATION_LISTING_VIEWED = 'destinationListing/destinations/LIST_VIEWED';
+export const DESTINATION_LIST_LOAD = 'destinationListing/destinations/LOAD';
+export const DESTINATION_LIST_LOAD_SUCCESS = 'destinationListing/destinations/LOAD_SUCCESS';
+export const DESTINATION_LIST_LOAD_FAIL = 'destinationListing/destinations/LOAD_FAIL';
+export const LOAD_MORE_DESTINATIONS = 'destinationListing/destinations/LOAD_MORE';
+export const UPDATE_SELECTED_ITEM = 'destinationListing/UPDATE_SELECTED_ITEM';
+export const TOGGLE_SELECTION_LIST = 'destinationListing/TOGGLE_SELECTION_LIST';
+export const INITIALIZE_WEEKEND_FILTER = 'destinationListing/INITIALIZE_WEEKEND_FILTER';
+&nbsp;
+// Auth Actions
+export const SIGNIN = 'auth/SIGNIN';
+export const SIGNIN_SUCCESS = 'auth/SIGNIN_SUCCESS';
+export const SIGNIN_FAIL = 'auth/SIGNIN_FAIL';
+&nbsp;
+export const AUTH_LOAD = 'auth/LOAD';
+export const AUTH_LOAD_SUCCESS = 'auth/LOAD_SUCCESS';
+export const AUTH_LOAD_FAIL = 'auth/LOAD_FAIL';
+&nbsp;
+export const SIGNOUT = 'auth/SIGHOUT';
+export const SIGNOUT_SUCCESS = 'auth/SIGNOUT_SUCCESS';
+export const SIGNOUT_FAIL = 'auth/SIGNOUT_FAIL';
+&nbsp;
+export const SIGNUP = 'auth/SIGNUP';
+export const SIGNUP_SUCCESS = 'auth/SIGNUP_SUCCESS';
+export const SIGNUP_FAIL = 'auth/SIGNUP_FAIL';
+&nbsp;
+export const DESTINATION_DETAILS_LOAD = 'destinationDetail/LOAD';
+export const DESTINATION_DETAILS_LOAD_SUCCESS = 'destinationDetail/LOAD_SUCCESS';
+export const DESTINATION_DETAILS_LOAD_FAIL = 'destinationDetail/LOAD_FAIL';
+&nbsp;
+// testimonials
+export const TESTIMONIALS_LOAD = 'testimonials/LOAD';
+export const TESTIMONIALS_LOAD_SUCCESS = 'testimonials/LOAD_SUCCESS';
+export const TESTIMONIALS_LOAD_FAIL = 'testimonials/LOAD_FAIL';
+&nbsp;
+// Breadcrumbs
+export const BREAD_CRUMB_LOAD = 'breadcrumbs/LOAD';
+export const BREAD_CRUMB_LOAD_SUCCESS = 'breadcrumbs/LOAD_SUCCESS';
+export const BREAD_CRUMB_LOAD_FAIL = 'breadcrumbs/LOAD_FAIL';
+export const UPDATE_REDIS_KEY = 'updateFields/UPDATE_REDIS_KEY';
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

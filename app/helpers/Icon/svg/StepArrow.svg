@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="22px" viewBox="0 0 31 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Step-Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="HomePage_Semi_Old" transform="translate(-602.000000, -1363.000000)" stroke="#20A397" stroke-width="2">
+            <g id="Steps" transform="translate(0.000000, 1260.000000)">
+                <g id="Back" transform="translate(617.000000, 114.000000) scale(-1, 1) translate(-617.000000, -114.000000) translate(597.000000, 94.000000)">
+                    <g id="Step-Arrow" transform="translate(5.000000, 10.000000)">
+                        <path d="M0,10 L28.5714286,10" id="Stroke-1"/>
+                        <polyline id="Path-2" points="9 0 0 9.87609583 8.79101227 20"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

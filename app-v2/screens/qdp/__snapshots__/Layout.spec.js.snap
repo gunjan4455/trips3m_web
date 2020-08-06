@@ -1,0 +1,2869 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RLP page should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Layout
+    currentQuote={Object {}}
+    currentQuoteId={4982590}
+    layout={
+      Object {
+        "components": Array [
+          Object {
+            "block_no": 1,
+            "heading": "",
+            "id": 1,
+            "name": "QuoteAgentCard",
+            "order": 1,
+            "row_no": 1,
+            "section": "Agent",
+            "title": "",
+            "total_block_in_row": 1,
+            "variant": "FULL",
+          },
+          Object {
+            "block_no": 1,
+            "heading": "",
+            "id": 3,
+            "name": "QuoteNavBar",
+            "order": 3,
+            "row_no": 3,
+            "section": "Carousel",
+            "title": "",
+            "total_block_in_row": 1,
+            "variant": "FULL",
+          },
+          Object {
+            "block_no": 1,
+            "heading": "",
+            "id": 4,
+            "name": "ItineraryList",
+            "order": 4,
+            "row_no": 4,
+            "section": "Itinerary block",
+            "title": "",
+            "total_block_in_row": 1,
+            "variant": "FULL",
+          },
+        ],
+        "meta_info": Object {
+          "destination": "Goa",
+          "module_name": "rlp",
+          "page_message": null,
+          "trip_status": "Active",
+        },
+        "name": "QDP-11-07-2018",
+        "stage": "QUOTE_RECIEVED",
+      }
+    }
+    params={Object {}}
+    quotes={
+      Object {
+        "4982590": Object {
+          "id": 4982590,
+          "tripStatus": "Active",
+        },
+      }
+    }
+    tripId={4161686}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+        >
+          <meta
+            content="Quote Detail"
+            name="page_fullname"
+          />
+          <meta
+            content="Quote Detail"
+            name="page_name"
+          />
+          <meta
+            content="Quote Detail"
+            name="name"
+          />
+          <meta
+            content=""
+            name="destination"
+          />
+          <meta
+            content="Active"
+            name="trip_status"
+          />
+          <meta
+            name="quote_status"
+          />
+        </HelmetWrapper>,
+        <withRouter(Connect(Roster))
+          timeout={3000}
+        />,
+        <div
+          className="clearfix contentBackground sbc5"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row pb48"
+            >
+              <Header
+                currentQuoteId={4982590}
+                trackSegment={[Function]}
+                tripId={4161686}
+              />
+              <QuoteDetailHeader
+                currentQuoteId={4982590}
+                quotesList={
+                  Array [
+                    Object {
+                      "agent": 0,
+                      "destination": "",
+                      "discountInformation": Object {
+                        "discount": undefined,
+                        "discountableType": undefined,
+                        "discountableTypeId": undefined,
+                      },
+                      "id": 4982590,
+                      "priceInformation": Object {},
+                    },
+                  ]
+                }
+                trackSegment={[Function]}
+                tripId={4161686}
+              />
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 1,
+                        "name": "QuoteAgentCard",
+                        "order": 1,
+                        "row_no": 1,
+                        "section": "Agent",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 3,
+                        "name": "QuoteNavBar",
+                        "order": 3,
+                        "row_no": 3,
+                        "section": "Carousel",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 4,
+                        "name": "ItineraryList",
+                        "order": 4,
+                        "row_no": 4,
+                        "section": "Itinerary block",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                  <p
+                    className="fw9 pfc4 text-center p24"
+                  >
+                    End of Quote
+                  </p>
+                </div>
+              </div>
+              <ThingsToCheck />
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                  <p
+                    className="sfc8 pb24 pt24 pl15 pr15 "
+                  >
+                    We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                  </p>
+                </div>
+              </div>
+              <GrowingMarket />
+              <ChatIcon
+                handleChatClick={[Function]}
+              />
+              <withRouter(Connect(QuoteStickyFooter))
+                trackSegment={[Function]}
+              />
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "clearfix",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <meta
+              content="Quote Detail"
+              name="page_fullname"
+            />,
+            <meta
+              content="Quote Detail"
+              name="page_name"
+            />,
+            <meta
+              content="Quote Detail"
+              name="name"
+            />,
+            <meta
+              content=""
+              name="destination"
+            />,
+            <meta
+              content="Active"
+              name="trip_status"
+            />,
+            <meta
+              name="quote_status"
+            />,
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Quote Detail",
+              "name": "page_fullname",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Quote Detail",
+              "name": "page_name",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Quote Detail",
+              "name": "name",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "",
+              "name": "destination",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Active",
+              "name": "trip_status",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": undefined,
+              "name": "quote_status",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "timeout": 3000,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <div
+              className="row pb48"
+            >
+              <Header
+                currentQuoteId={4982590}
+                trackSegment={[Function]}
+                tripId={4161686}
+              />
+              <QuoteDetailHeader
+                currentQuoteId={4982590}
+                quotesList={
+                  Array [
+                    Object {
+                      "agent": 0,
+                      "destination": "",
+                      "discountInformation": Object {
+                        "discount": undefined,
+                        "discountableType": undefined,
+                        "discountableTypeId": undefined,
+                      },
+                      "id": 4982590,
+                      "priceInformation": Object {},
+                    },
+                  ]
+                }
+                trackSegment={[Function]}
+                tripId={4161686}
+              />
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 1,
+                        "name": "QuoteAgentCard",
+                        "order": 1,
+                        "row_no": 1,
+                        "section": "Agent",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 3,
+                        "name": "QuoteNavBar",
+                        "order": 3,
+                        "row_no": 3,
+                        "section": "Carousel",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 4,
+                        "name": "ItineraryList",
+                        "order": 4,
+                        "row_no": 4,
+                        "section": "Itinerary block",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                  <p
+                    className="fw9 pfc4 text-center p24"
+                  >
+                    End of Quote
+                  </p>
+                </div>
+              </div>
+              <ThingsToCheck />
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                  <p
+                    className="sfc8 pb24 pt24 pl15 pr15 "
+                  >
+                    We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                  </p>
+                </div>
+              </div>
+              <GrowingMarket />
+              <ChatIcon
+                handleChatClick={[Function]}
+              />
+              <withRouter(Connect(QuoteStickyFooter))
+                trackSegment={[Function]}
+              />
+            </div>
+          </div>,
+          "className": "clearfix contentBackground sbc5",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row pb48"
+            >
+              <Header
+                currentQuoteId={4982590}
+                trackSegment={[Function]}
+                tripId={4161686}
+              />
+              <QuoteDetailHeader
+                currentQuoteId={4982590}
+                quotesList={
+                  Array [
+                    Object {
+                      "agent": 0,
+                      "destination": "",
+                      "discountInformation": Object {
+                        "discount": undefined,
+                        "discountableType": undefined,
+                        "discountableTypeId": undefined,
+                      },
+                      "id": 4982590,
+                      "priceInformation": Object {},
+                    },
+                  ]
+                }
+                trackSegment={[Function]}
+                tripId={4161686}
+              />
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 1,
+                        "name": "QuoteAgentCard",
+                        "order": 1,
+                        "row_no": 1,
+                        "section": "Agent",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 3,
+                        "name": "QuoteNavBar",
+                        "order": 3,
+                        "row_no": 3,
+                        "section": "Carousel",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <div>
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 4,
+                        "name": "ItineraryList",
+                        "order": 4,
+                        "row_no": 4,
+                        "section": "Itinerary block",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    destination=""
+                    trackSegment={[Function]}
+                  />
+                </div>
+              </VisibilitySensor>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                  <p
+                    className="fw9 pfc4 text-center p24"
+                  >
+                    End of Quote
+                  </p>
+                </div>
+              </div>
+              <ThingsToCheck />
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                  <p
+                    className="sfc8 pb24 pt24 pl15 pr15 "
+                  >
+                    We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                  </p>
+                </div>
+              </div>
+              <GrowingMarket />
+              <ChatIcon
+                handleChatClick={[Function]}
+              />
+              <withRouter(Connect(QuoteStickyFooter))
+                trackSegment={[Function]}
+              />
+            </div>,
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Header
+                  currentQuoteId={4982590}
+                  trackSegment={[Function]}
+                  tripId={4161686}
+                />,
+                null,
+                <QuoteDetailHeader
+                  currentQuoteId={4982590}
+                  quotesList={
+                    Array [
+                      Object {
+                        "agent": 0,
+                        "destination": "",
+                        "discountInformation": Object {
+                          "discount": undefined,
+                          "discountableType": undefined,
+                          "discountableTypeId": undefined,
+                        },
+                        "id": 4982590,
+                        "priceInformation": Object {},
+                      },
+                    ]
+                  }
+                  trackSegment={[Function]}
+                  tripId={4161686}
+                />,
+                Array [
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <div>
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 1,
+                            "name": "QuoteAgentCard",
+                            "order": 1,
+                            "row_no": 1,
+                            "section": "Agent",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />
+                    </div>
+                  </VisibilitySensor>,
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <div>
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 3,
+                            "name": "QuoteNavBar",
+                            "order": 3,
+                            "row_no": 3,
+                            "section": "Carousel",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />
+                    </div>
+                  </VisibilitySensor>,
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <div>
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 4,
+                            "name": "ItineraryList",
+                            "order": 4,
+                            "row_no": 4,
+                            "section": "Itinerary block",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />
+                    </div>
+                  </VisibilitySensor>,
+                ],
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="fw9 pfc4 text-center p24"
+                    >
+                      End of Quote
+                    </p>
+                  </div>
+                </div>,
+                null,
+                <ThingsToCheck />,
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="sfc8 pb24 pt24 pl15 pr15 "
+                    >
+                      We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                    </p>
+                  </div>
+                </div>,
+                <GrowingMarket />,
+                <ChatIcon
+                  handleChatClick={[Function]}
+                />,
+                <withRouter(Connect(QuoteStickyFooter))
+                  trackSegment={[Function]}
+                />,
+              ],
+              "className": "row pb48",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "currentQuoteId": 4982590,
+                  "trackSegment": [Function],
+                  "tripId": 4161686,
+                  "userDetails": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currentQuoteId": 4982590,
+                  "location": undefined,
+                  "quotesList": Array [
+                    Object {
+                      "agent": 0,
+                      "destination": "",
+                      "discountInformation": Object {
+                        "discount": undefined,
+                        "discountableType": undefined,
+                        "discountableTypeId": undefined,
+                      },
+                      "id": 4982590,
+                      "priceInformation": Object {},
+                    },
+                  ],
+                  "trackSegment": [Function],
+                  "tripId": 4161686,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "class",
+                "props": Object {
+                  "active": true,
+                  "children": <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteAgentCard",
+                          "order": 1,
+                          "row_no": 1,
+                          "section": "Agent",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>,
+                  "containment": null,
+                  "delayedCall": true,
+                  "intervalCheck": true,
+                  "intervalDelay": 100,
+                  "minTopValue": 0,
+                  "offset": Object {},
+                  "onChange": [Function],
+                  "partialVisibility": "bottom",
+                  "resizeCheck": false,
+                  "resizeDelay": 250,
+                  "resizeThrottle": -1,
+                  "scrollCheck": false,
+                  "scrollDelay": 250,
+                  "scrollThrottle": -1,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "comp_0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteAgentCard",
+                          "order": 1,
+                          "row_no": 1,
+                          "section": "Agent",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "config": Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 1,
+                        "name": "QuoteAgentCard",
+                        "order": 1,
+                        "row_no": 1,
+                        "section": "Agent",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      },
+                      "destination": "",
+                      "trackSegment": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "active": true,
+                  "children": <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "QuoteNavBar",
+                          "order": 3,
+                          "row_no": 3,
+                          "section": "Carousel",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>,
+                  "containment": null,
+                  "delayedCall": true,
+                  "intervalCheck": true,
+                  "intervalDelay": 100,
+                  "minTopValue": 0,
+                  "offset": Object {},
+                  "onChange": [Function],
+                  "partialVisibility": "bottom",
+                  "resizeCheck": false,
+                  "resizeDelay": 250,
+                  "resizeThrottle": -1,
+                  "scrollCheck": false,
+                  "scrollDelay": 250,
+                  "scrollThrottle": -1,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "comp_1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "QuoteNavBar",
+                          "order": 3,
+                          "row_no": 3,
+                          "section": "Carousel",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "config": Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 3,
+                        "name": "QuoteNavBar",
+                        "order": 3,
+                        "row_no": 3,
+                        "section": "Carousel",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      },
+                      "destination": "",
+                      "trackSegment": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "class",
+                "props": Object {
+                  "active": true,
+                  "children": <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 4,
+                          "name": "ItineraryList",
+                          "order": 4,
+                          "row_no": 4,
+                          "section": "Itinerary block",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>,
+                  "containment": null,
+                  "delayedCall": true,
+                  "intervalCheck": true,
+                  "intervalDelay": 100,
+                  "minTopValue": 0,
+                  "offset": Object {},
+                  "onChange": [Function],
+                  "partialVisibility": "bottom",
+                  "resizeCheck": false,
+                  "resizeDelay": 250,
+                  "resizeThrottle": -1,
+                  "scrollCheck": false,
+                  "scrollDelay": 250,
+                  "scrollThrottle": -1,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "comp_2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 4,
+                          "name": "ItineraryList",
+                          "order": 4,
+                          "row_no": 4,
+                          "section": "Itinerary block",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "config": Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 4,
+                        "name": "ItineraryList",
+                        "order": 4,
+                        "row_no": 4,
+                        "section": "Itinerary block",
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      },
+                      "destination": "",
+                      "trackSegment": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="fw9 pfc4 text-center p24"
+                    >
+                      End of Quote
+                    </p>
+                  </div>,
+                  "className": "row row-",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <p
+                      className="fw9 pfc4 text-center p24"
+                    >
+                      End of Quote
+                    </p>,
+                    "className": "col-xs-12",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "End of Quote",
+                      "className": "fw9 pfc4 text-center p24",
+                    },
+                    "ref": null,
+                    "rendered": "End of Quote",
+                    "type": "p",
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="sfc8 pb24 pt24 pl15 pr15 "
+                    >
+                      We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                    </p>
+                  </div>,
+                  "className": "row row-",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <p
+                      className="sfc8 pb24 pt24 pl15 pr15 "
+                    >
+                      We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                    </p>,
+                    "className": "col-xs-12",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.",
+                      "className": "sfc8 pb24 pt24 pl15 pr15 ",
+                    },
+                    "ref": null,
+                    "rendered": "We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.",
+                    "type": "p",
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "handleChatClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "trackSegment": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+          >
+            <meta
+              content="Quote Detail"
+              name="page_fullname"
+            />
+            <meta
+              content="Quote Detail"
+              name="page_name"
+            />
+            <meta
+              content="Quote Detail"
+              name="name"
+            />
+            <meta
+              content=""
+              name="destination"
+            />
+            <meta
+              content="Active"
+              name="trip_status"
+            />
+            <meta
+              name="quote_status"
+            />
+          </HelmetWrapper>,
+          <withRouter(Connect(Roster))
+            timeout={3000}
+          />,
+          <div
+            className="clearfix contentBackground sbc5"
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="row pb48"
+              >
+                <Header
+                  currentQuoteId={4982590}
+                  trackSegment={[Function]}
+                  tripId={4161686}
+                />
+                <QuoteDetailHeader
+                  currentQuoteId={4982590}
+                  quotesList={
+                    Array [
+                      Object {
+                        "agent": 0,
+                        "destination": "",
+                        "discountInformation": Object {
+                          "discount": undefined,
+                          "discountableType": undefined,
+                          "discountableTypeId": undefined,
+                        },
+                        "id": 4982590,
+                        "priceInformation": Object {},
+                      },
+                    ]
+                  }
+                  trackSegment={[Function]}
+                  tripId={4161686}
+                />
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteAgentCard",
+                          "order": 1,
+                          "row_no": 1,
+                          "section": "Agent",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "QuoteNavBar",
+                          "order": 3,
+                          "row_no": 3,
+                          "section": "Carousel",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 4,
+                          "name": "ItineraryList",
+                          "order": 4,
+                          "row_no": 4,
+                          "section": "Itinerary block",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="fw9 pfc4 text-center p24"
+                    >
+                      End of Quote
+                    </p>
+                  </div>
+                </div>
+                <ThingsToCheck />
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="sfc8 pb24 pt24 pl15 pr15 "
+                    >
+                      We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                    </p>
+                  </div>
+                </div>
+                <GrowingMarket />
+                <ChatIcon
+                  handleChatClick={[Function]}
+                />
+                <withRouter(Connect(QuoteStickyFooter))
+                  trackSegment={[Function]}
+                />
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "clearfix",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <meta
+                content="Quote Detail"
+                name="page_fullname"
+              />,
+              <meta
+                content="Quote Detail"
+                name="page_name"
+              />,
+              <meta
+                content="Quote Detail"
+                name="name"
+              />,
+              <meta
+                content=""
+                name="destination"
+              />,
+              <meta
+                content="Active"
+                name="trip_status"
+              />,
+              <meta
+                name="quote_status"
+              />,
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Quote Detail",
+                "name": "page_fullname",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Quote Detail",
+                "name": "page_name",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Quote Detail",
+                "name": "name",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "",
+                "name": "destination",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Active",
+                "name": "trip_status",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": undefined,
+                "name": "quote_status",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "timeout": 3000,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container"
+            >
+              <div
+                className="row pb48"
+              >
+                <Header
+                  currentQuoteId={4982590}
+                  trackSegment={[Function]}
+                  tripId={4161686}
+                />
+                <QuoteDetailHeader
+                  currentQuoteId={4982590}
+                  quotesList={
+                    Array [
+                      Object {
+                        "agent": 0,
+                        "destination": "",
+                        "discountInformation": Object {
+                          "discount": undefined,
+                          "discountableType": undefined,
+                          "discountableTypeId": undefined,
+                        },
+                        "id": 4982590,
+                        "priceInformation": Object {},
+                      },
+                    ]
+                  }
+                  trackSegment={[Function]}
+                  tripId={4161686}
+                />
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteAgentCard",
+                          "order": 1,
+                          "row_no": 1,
+                          "section": "Agent",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "QuoteNavBar",
+                          "order": 3,
+                          "row_no": 3,
+                          "section": "Carousel",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 4,
+                          "name": "ItineraryList",
+                          "order": 4,
+                          "row_no": 4,
+                          "section": "Itinerary block",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="fw9 pfc4 text-center p24"
+                    >
+                      End of Quote
+                    </p>
+                  </div>
+                </div>
+                <ThingsToCheck />
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="sfc8 pb24 pt24 pl15 pr15 "
+                    >
+                      We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                    </p>
+                  </div>
+                </div>
+                <GrowingMarket />
+                <ChatIcon
+                  handleChatClick={[Function]}
+                />
+                <withRouter(Connect(QuoteStickyFooter))
+                  trackSegment={[Function]}
+                />
+              </div>
+            </div>,
+            "className": "clearfix contentBackground sbc5",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="row pb48"
+              >
+                <Header
+                  currentQuoteId={4982590}
+                  trackSegment={[Function]}
+                  tripId={4161686}
+                />
+                <QuoteDetailHeader
+                  currentQuoteId={4982590}
+                  quotesList={
+                    Array [
+                      Object {
+                        "agent": 0,
+                        "destination": "",
+                        "discountInformation": Object {
+                          "discount": undefined,
+                          "discountableType": undefined,
+                          "discountableTypeId": undefined,
+                        },
+                        "id": 4982590,
+                        "priceInformation": Object {},
+                      },
+                    ]
+                  }
+                  trackSegment={[Function]}
+                  tripId={4161686}
+                />
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteAgentCard",
+                          "order": 1,
+                          "row_no": 1,
+                          "section": "Agent",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "QuoteNavBar",
+                          "order": 3,
+                          "row_no": 3,
+                          "section": "Carousel",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <div>
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 4,
+                          "name": "ItineraryList",
+                          "order": 4,
+                          "row_no": 4,
+                          "section": "Itinerary block",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      destination=""
+                      trackSegment={[Function]}
+                    />
+                  </div>
+                </VisibilitySensor>
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="fw9 pfc4 text-center p24"
+                    >
+                      End of Quote
+                    </p>
+                  </div>
+                </div>
+                <ThingsToCheck />
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                    <p
+                      className="sfc8 pb24 pt24 pl15 pr15 "
+                    >
+                      We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                    </p>
+                  </div>
+                </div>
+                <GrowingMarket />
+                <ChatIcon
+                  handleChatClick={[Function]}
+                />
+                <withRouter(Connect(QuoteStickyFooter))
+                  trackSegment={[Function]}
+                />
+              </div>,
+              "className": "container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Header
+                    currentQuoteId={4982590}
+                    trackSegment={[Function]}
+                    tripId={4161686}
+                  />,
+                  null,
+                  <QuoteDetailHeader
+                    currentQuoteId={4982590}
+                    quotesList={
+                      Array [
+                        Object {
+                          "agent": 0,
+                          "destination": "",
+                          "discountInformation": Object {
+                            "discount": undefined,
+                            "discountableType": undefined,
+                            "discountableTypeId": undefined,
+                          },
+                          "id": 4982590,
+                          "priceInformation": Object {},
+                        },
+                      ]
+                    }
+                    trackSegment={[Function]}
+                    tripId={4161686}
+                  />,
+                  Array [
+                    <VisibilitySensor
+                      active={true}
+                      containment={null}
+                      delayedCall={true}
+                      intervalCheck={true}
+                      intervalDelay={100}
+                      minTopValue={0}
+                      offset={Object {}}
+                      onChange={[Function]}
+                      partialVisibility="bottom"
+                      resizeCheck={false}
+                      resizeDelay={250}
+                      resizeThrottle={-1}
+                      scrollCheck={false}
+                      scrollDelay={250}
+                      scrollThrottle={-1}
+                    >
+                      <div>
+                        <LoadableComponent
+                          config={
+                            Object {
+                              "block_no": 1,
+                              "heading": "",
+                              "id": 1,
+                              "name": "QuoteAgentCard",
+                              "order": 1,
+                              "row_no": 1,
+                              "section": "Agent",
+                              "title": "",
+                              "total_block_in_row": 1,
+                              "variant": "FULL",
+                            }
+                          }
+                          destination=""
+                          trackSegment={[Function]}
+                        />
+                      </div>
+                    </VisibilitySensor>,
+                    <VisibilitySensor
+                      active={true}
+                      containment={null}
+                      delayedCall={true}
+                      intervalCheck={true}
+                      intervalDelay={100}
+                      minTopValue={0}
+                      offset={Object {}}
+                      onChange={[Function]}
+                      partialVisibility="bottom"
+                      resizeCheck={false}
+                      resizeDelay={250}
+                      resizeThrottle={-1}
+                      scrollCheck={false}
+                      scrollDelay={250}
+                      scrollThrottle={-1}
+                    >
+                      <div>
+                        <LoadableComponent
+                          config={
+                            Object {
+                              "block_no": 1,
+                              "heading": "",
+                              "id": 3,
+                              "name": "QuoteNavBar",
+                              "order": 3,
+                              "row_no": 3,
+                              "section": "Carousel",
+                              "title": "",
+                              "total_block_in_row": 1,
+                              "variant": "FULL",
+                            }
+                          }
+                          destination=""
+                          trackSegment={[Function]}
+                        />
+                      </div>
+                    </VisibilitySensor>,
+                    <VisibilitySensor
+                      active={true}
+                      containment={null}
+                      delayedCall={true}
+                      intervalCheck={true}
+                      intervalDelay={100}
+                      minTopValue={0}
+                      offset={Object {}}
+                      onChange={[Function]}
+                      partialVisibility="bottom"
+                      resizeCheck={false}
+                      resizeDelay={250}
+                      resizeThrottle={-1}
+                      scrollCheck={false}
+                      scrollDelay={250}
+                      scrollThrottle={-1}
+                    >
+                      <div>
+                        <LoadableComponent
+                          config={
+                            Object {
+                              "block_no": 1,
+                              "heading": "",
+                              "id": 4,
+                              "name": "ItineraryList",
+                              "order": 4,
+                              "row_no": 4,
+                              "section": "Itinerary block",
+                              "title": "",
+                              "total_block_in_row": 1,
+                              "variant": "FULL",
+                            }
+                          }
+                          destination=""
+                          trackSegment={[Function]}
+                        />
+                      </div>
+                    </VisibilitySensor>,
+                  ],
+                  <div
+                    className="row row-"
+                  >
+                    <div
+                      className="col-xs-12"
+                    >
+                      <p
+                        className="fw9 pfc4 text-center p24"
+                      >
+                        End of Quote
+                      </p>
+                    </div>
+                  </div>,
+                  null,
+                  <ThingsToCheck />,
+                  <div
+                    className="row row-"
+                  >
+                    <div
+                      className="col-xs-12"
+                    >
+                      <p
+                        className="sfc8 pb24 pt24 pl15 pr15 "
+                      >
+                        We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                      </p>
+                    </div>
+                  </div>,
+                  <GrowingMarket />,
+                  <ChatIcon
+                    handleChatClick={[Function]}
+                  />,
+                  <withRouter(Connect(QuoteStickyFooter))
+                    trackSegment={[Function]}
+                  />,
+                ],
+                "className": "row pb48",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "currentQuoteId": 4982590,
+                    "trackSegment": [Function],
+                    "tripId": 4161686,
+                    "userDetails": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "currentQuoteId": 4982590,
+                    "location": undefined,
+                    "quotesList": Array [
+                      Object {
+                        "agent": 0,
+                        "destination": "",
+                        "discountInformation": Object {
+                          "discount": undefined,
+                          "discountableType": undefined,
+                          "discountableTypeId": undefined,
+                        },
+                        "id": 4982590,
+                        "priceInformation": Object {},
+                      },
+                    ],
+                    "trackSegment": [Function],
+                    "tripId": 4161686,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": true,
+                    "children": <div>
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 1,
+                            "name": "QuoteAgentCard",
+                            "order": 1,
+                            "row_no": 1,
+                            "section": "Agent",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />
+                    </div>,
+                    "containment": null,
+                    "delayedCall": true,
+                    "intervalCheck": true,
+                    "intervalDelay": 100,
+                    "minTopValue": 0,
+                    "offset": Object {},
+                    "onChange": [Function],
+                    "partialVisibility": "bottom",
+                    "resizeCheck": false,
+                    "resizeDelay": 250,
+                    "resizeThrottle": -1,
+                    "scrollCheck": false,
+                    "scrollDelay": 250,
+                    "scrollThrottle": -1,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "comp_0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 1,
+                            "name": "QuoteAgentCard",
+                            "order": 1,
+                            "row_no": 1,
+                            "section": "Agent",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "config": Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteAgentCard",
+                          "order": 1,
+                          "row_no": 1,
+                          "section": "Agent",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        },
+                        "destination": "",
+                        "trackSegment": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": true,
+                    "children": <div>
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 3,
+                            "name": "QuoteNavBar",
+                            "order": 3,
+                            "row_no": 3,
+                            "section": "Carousel",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />
+                    </div>,
+                    "containment": null,
+                    "delayedCall": true,
+                    "intervalCheck": true,
+                    "intervalDelay": 100,
+                    "minTopValue": 0,
+                    "offset": Object {},
+                    "onChange": [Function],
+                    "partialVisibility": "bottom",
+                    "resizeCheck": false,
+                    "resizeDelay": 250,
+                    "resizeThrottle": -1,
+                    "scrollCheck": false,
+                    "scrollDelay": 250,
+                    "scrollThrottle": -1,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "comp_1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 3,
+                            "name": "QuoteNavBar",
+                            "order": 3,
+                            "row_no": 3,
+                            "section": "Carousel",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "config": Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "QuoteNavBar",
+                          "order": 3,
+                          "row_no": 3,
+                          "section": "Carousel",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        },
+                        "destination": "",
+                        "trackSegment": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": true,
+                    "children": <div>
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 4,
+                            "name": "ItineraryList",
+                            "order": 4,
+                            "row_no": 4,
+                            "section": "Itinerary block",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />
+                    </div>,
+                    "containment": null,
+                    "delayedCall": true,
+                    "intervalCheck": true,
+                    "intervalDelay": 100,
+                    "minTopValue": 0,
+                    "offset": Object {},
+                    "onChange": [Function],
+                    "partialVisibility": "bottom",
+                    "resizeCheck": false,
+                    "resizeDelay": 250,
+                    "resizeThrottle": -1,
+                    "scrollCheck": false,
+                    "scrollDelay": 250,
+                    "scrollThrottle": -1,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": "comp_2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 4,
+                            "name": "ItineraryList",
+                            "order": 4,
+                            "row_no": 4,
+                            "section": "Itinerary block",
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        destination=""
+                        trackSegment={[Function]}
+                      />,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "config": Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 4,
+                          "name": "ItineraryList",
+                          "order": 4,
+                          "row_no": 4,
+                          "section": "Itinerary block",
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        },
+                        "destination": "",
+                        "trackSegment": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="col-xs-12"
+                    >
+                      <p
+                        className="fw9 pfc4 text-center p24"
+                      >
+                        End of Quote
+                      </p>
+                    </div>,
+                    "className": "row row-",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <p
+                        className="fw9 pfc4 text-center p24"
+                      >
+                        End of Quote
+                      </p>,
+                      "className": "col-xs-12",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "End of Quote",
+                        "className": "fw9 pfc4 text-center p24",
+                      },
+                      "ref": null,
+                      "rendered": "End of Quote",
+                      "type": "p",
+                    },
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="col-xs-12"
+                    >
+                      <p
+                        className="sfc8 pb24 pt24 pl15 pr15 "
+                      >
+                        We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                      </p>
+                    </div>,
+                    "className": "row row-",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <p
+                        className="sfc8 pb24 pt24 pl15 pr15 "
+                      >
+                        We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.
+                      </p>,
+                      "className": "col-xs-12",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.",
+                        "className": "sfc8 pb24 pt24 pl15 pr15 ",
+                      },
+                      "ref": null,
+                      "rendered": "We, at Travel Triangle make sure that the you enjoy the inclusions promised by our agents.",
+                      "type": "p",
+                    },
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "handleChatClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "trackSegment": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

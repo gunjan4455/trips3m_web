@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Listing/SortFilters/SmartFilter.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app/components/Listing/SortFilters</a> SmartFilter.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">71.43% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>15/21</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>7/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">80% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>4/5</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">71.43% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>15/21</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">46x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">46x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">46x</span>
+<span class="cline-any cline-yes">46x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">46x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import _isEqual from 'lodash/isEmpty';
+&nbsp;
+import * as GenericComponents from 'components/Generic';
+import './FilterOptions.scss';
+&nbsp;
+export const isFilterDisable = (option, filterCounts, key) =&gt; {
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (filterCounts[option.filterCountKey] === 0) {
+<span class="cstat-no" title="statement not covered" >    return true;</span>
+  }
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (key === 39 &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >option.filterCountKey === 'price_ranges_80_000___50_000_000')</span> {
+<span class="cstat-no" title="statement not covered" >    if (typeof (filterCounts.price_ranges_80_000___50_000_000) === 'undefined') {</span>
+<span class="cstat-no" title="statement not covered" >      return (</span>
+      filterCounts.price_ranges_80_000___1_00_000 +
+      filterCounts.price_ranges_1_00_000___2_00_000 +
+      filterCounts.price_ranges_2_00_000___50_000_000 === 0);
+    }
+<span class="cstat-no" title="statement not covered" >    return (filterCounts.price_ranges_80_000___1_00_000 === 0);</span>
+  }
+  <span class="missing-if-branch" title="else path not taken" >E</span>if (key === 'cities') {
+    return (filterCounts[`city_${option.id}`] === 0);
+  }
+<span class="cstat-no" title="statement not covered" >  return false;</span>
+};
+&nbsp;
+class SmartFilter extends React.Component {
+  handleOnChange = (id) =&gt; {
+    const optionValue = {};
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (this.props.selectedFields[id]) {
+<span class="cstat-no" title="statement not covered" >      optionValue[id] = false;</span>
+    } else {
+      optionValue[id] = true;
+    }
+    this.props.filterSelected(this.props.id, { ...this.props.selectedFields, ...optionValue });
+    this.props.onFilterCheckHandler();
+  }
+  render() {
+    const options = this.props.options.map(
+      option =&gt;
+      React.createElement(
+        GenericComponents[this.props.displayType],
+        Object.assign(
+          {},
+          option,
+          {
+            name: this.props.paramsName,
+            key: option.id,
+            handleOnChange: this.handleOnChange,
+            isChecked: this.props.selectedFields[option.id] || false,
+            disabled: isFilterDisable(option, this.props.filterCounts, this.props.id),
+          }
+        )
+      )
+    );
+&nbsp;
+    return (
+      &lt;div className="row row- mb8 pb8 pl15 pr15 pt15 sbcw" key={this.props.id}&gt;
+        &lt;p className="fw9 pb8"&gt;{this.props.title}&lt;/p&gt;
+        &lt;div className="row row- filter-box-options"&gt;
+          {options}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+SmartFilter.propTypes = {
+  paramsName: PropTypes.string.isRequired,
+  displayType: PropTypes.string.isRequired,
+  options: PropTypes.array.isRequired,
+  selectedFields: PropTypes.object,
+  id: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  ]).isRequired,
+  title: PropTypes.string.isRequired,
+  filterSelected: PropTypes.func.isRequired,
+  filterCounts: PropTypes.object,
+  onFilterCheckHandler: PropTypes.func
+};
+&nbsp;
+SmartFilter.defaultProps = {
+  selectedFields: {},
+  filterCounts: {},
+  onFilterCheckHandler: <span class="fstat-no" title="function not covered" >()</span> =&gt; {}
+&nbsp;
+};
+&nbsp;
+export default SmartFilter;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+:local {
+  .crossIcon {
+    width: 13px;
+    height: 16px;
+  }
+  .paymentFailIcon {
+    width: 197px;
+    height: 176px;
+    margin: 0 auto;
+  }
+  .backLink {
+    &:hover {
+      color: #B2B2B2;
+    }
+  }
+}

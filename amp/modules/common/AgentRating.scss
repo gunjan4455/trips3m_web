@@ -1,0 +1,20 @@
+.rating-stars{
+  min-width: 80px;
+}
+.rating-stars li{
+  width: 10px;
+  height: 10px;
+  margin: 0 3px 0 0;
+}
+
+.fullStarClass{
+background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#StarIcon-usage") no-repeat;
+}
+.halfStarClass{
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#StarIcon-usage") no-repeat;
+
+}
+.emptyStarClass{
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#StarIconEmpty-usage") no-repeat;
+
+}

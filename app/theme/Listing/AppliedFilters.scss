@@ -1,0 +1,28 @@
+.applied-filters {
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50px;
+    padding: 8px 40px 8px 16px;
+    position: relative;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    background: #efefef;
+    a {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      -moz-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 10px;
+      height: 10px;
+      svg {
+        width: 12px;
+        height: 12px;
+        display: block;
+      }
+    }
+  }
+}

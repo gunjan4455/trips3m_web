@@ -1,0 +1,28 @@
+.form-link-google {
+  a{
+    background: #DA4733;
+    padding: 15px;
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+    height: 48px;
+    &:hover, &:active, &:visited, &:focus {
+      background: #DA4733;
+      color: #FFFFFF;
+    }
+  }
+  span {
+    width: auto;
+  }
+}
+
+.googleIcon {
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

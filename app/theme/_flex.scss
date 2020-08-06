@@ -1,0 +1,36 @@
+.flex {
+    display: flex !important;
+  }
+  .flexFull {
+    flex: 1;
+  }
+  .flexDColumn {
+    flex-direction: column;
+  }
+  .flexRowReverse {
+    flex-direction: row-reverse;
+  }
+  .alignCenter {
+    align-items: center;
+  }
+  .alignTop {
+    align-items: flex-start;
+  }
+  .alignSelfFlexEnd {
+    align-self: flex-end;
+  }
+  .alignSelfFlexCenter {
+    align-self: center;
+  }
+  .spaceBetween {
+    justify-content: space-between;
+  }
+  .justifyCenter {
+    justify-content: center;
+  }
+  .flexWrap {
+    flex-wrap: wrap;
+  }
+  .justifyEnd {
+    justify-content: flex-end;
+  }

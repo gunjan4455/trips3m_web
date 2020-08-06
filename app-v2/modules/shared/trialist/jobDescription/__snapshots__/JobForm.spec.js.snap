@@ -1,0 +1,3292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`career module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <JobForm
+    careerApply={[MockFunction]}
+    jobDescription={
+      Object {
+        "careers": Object {
+          "development": Array [],
+          "salesAndOperations": Array [
+            Object {
+              "age": "",
+              "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+              "category": "Sales and Operations",
+              "education": "Graduation",
+              "experience": "0-3 years",
+              "goodToHave": "Experience in sales, operations and vendor management.",
+              "howToApply": "career Site",
+              "id": 25,
+              "location": "Gurgaon",
+              "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+              "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+              "subCategory": "​Travel Consultant",
+              "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+            },
+          ],
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="f24 pfc1 m0 pb24 fw9"
+        >
+          Apply Here
+        </p>,
+        <form
+          className="at_formSubmit"
+          onSubmit={[Function]}
+        >
+          <div
+            className="clearfix"
+          >
+            <div
+              className="col-xs-12 pl0 pr0 mb15"
+            >
+              <label
+                className="f14 m0 fw7 mb5 sfc6"
+                htmlFor="jd-apply-first-name"
+              >
+                First Name
+                <em
+                  className="pfc2"
+                >
+                  *
+                </em>
+              </label>
+              <input
+                className="input at_firstName mt8"
+                id="jd-apply-first-name"
+                onChange={[Function]}
+                placeholder="Enter Your First Name"
+                type="text"
+                value=""
+              />
+              <div
+                className="input-error-text"
+              />
+            </div>
+            <div
+              className="col-xs-12 pl0 pr0 mb15"
+            >
+              <label
+                className="f14 m0 fw7 mb5 sfc6"
+                htmlFor="jd-apply-last-name"
+              >
+                Last Name
+              </label>
+              <input
+                className="input mt8"
+                id="jd-apply-last-name"
+                onChange={[Function]}
+                placeholder="Enter Your Last Name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="clearfix"
+            >
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="jd-apply-email"
+                >
+                  Email ID
+                  <em
+                    className="pfc2"
+                  >
+                    *
+                  </em>
+                </label>
+                <input
+                  className="input mt8"
+                  id="jd-apply-email"
+                  onChange={[Function]}
+                  placeholder="Enter Your Email Id"
+                  type="text"
+                  value=""
+                />
+                <div
+                  className="input-error-text"
+                />
+              </div>
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 block wfull m0 fw7 sfc6 mb5"
+                  htmlFor="last-name"
+                >
+                  Phone No
+                </label>
+                <div
+                  className=" pr0 relative"
+                >
+                  <input
+                    className="input"
+                    id="jd-apply-phone"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="clearfix"
+            >
+              <ForwardRef(render)
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="first-name"
+                >
+                  Select Designation
+                </label>
+                <div
+                  className="relative"
+                >
+                  <select
+                    className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value="​Travel Consultant"
+                    >
+                      ​Travel Consultant
+                    </option>
+                  </select>
+                  <span
+                    className="downArrow r10 absolute p3"
+                  />
+                </div>
+              </ForwardRef(render)>
+              <div
+                className="col-xs-12 pl0 pr0 mb15 relative"
+              >
+                <div
+                  className="file-input-wrapper"
+                >
+                  <label
+                    className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                  >
+                    Upload CV
+                  </label>
+                  <ForwardRef(render)>
+                    <div
+                      className="button__wrap block relative overflowh mt8"
+                    >
+                      <button
+                        className="button--custom sbc5 sfc1 p10"
+                      >
+                        Choose File
+                      </button>
+                      <input
+                        accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                        className="at_pdfChange absolute p10 t0 l0"
+                        name="pdf"
+                        onChange={[Function]}
+                        type="file"
+                      />
+                    </div>
+                  </ForwardRef(render)>
+                </div>
+                <p
+                  className="absolute errorDisplayMsg "
+                >
+                  No file choosen
+                </p>
+                <p
+                  className="pdfErrorDisplay input-error-text pt24"
+                />
+              </div>
+            </div>
+            <div
+              className="clearfix"
+            >
+              <div
+                className="col-xs-12"
+              >
+                 
+              </div>
+              <div
+                className="col-xs-12"
+              >
+                <button
+                  className="btn-filled-pri-large ripple radius2 wfull"
+                  disabled={false}
+                  type="submit"
+                >
+                  <span
+                    className="wave"
+                  />
+                  Submit Application
+                </button>
+              </div>
+              <div
+                className="col-xs-12"
+              >
+                 
+              </div>
+            </div>
+          </div>
+        </form>,
+      ],
+      "className": "clearfix",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Apply Here",
+          "className": "f24 pfc1 m0 pb24 fw9",
+        },
+        "ref": null,
+        "rendered": "Apply Here",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="clearfix"
+          >
+            <div
+              className="col-xs-12 pl0 pr0 mb15"
+            >
+              <label
+                className="f14 m0 fw7 mb5 sfc6"
+                htmlFor="jd-apply-first-name"
+              >
+                First Name
+                <em
+                  className="pfc2"
+                >
+                  *
+                </em>
+              </label>
+              <input
+                className="input at_firstName mt8"
+                id="jd-apply-first-name"
+                onChange={[Function]}
+                placeholder="Enter Your First Name"
+                type="text"
+                value=""
+              />
+              <div
+                className="input-error-text"
+              />
+            </div>
+            <div
+              className="col-xs-12 pl0 pr0 mb15"
+            >
+              <label
+                className="f14 m0 fw7 mb5 sfc6"
+                htmlFor="jd-apply-last-name"
+              >
+                Last Name
+              </label>
+              <input
+                className="input mt8"
+                id="jd-apply-last-name"
+                onChange={[Function]}
+                placeholder="Enter Your Last Name"
+                type="text"
+                value=""
+              />
+            </div>
+            <div
+              className="clearfix"
+            >
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="jd-apply-email"
+                >
+                  Email ID
+                  <em
+                    className="pfc2"
+                  >
+                    *
+                  </em>
+                </label>
+                <input
+                  className="input mt8"
+                  id="jd-apply-email"
+                  onChange={[Function]}
+                  placeholder="Enter Your Email Id"
+                  type="text"
+                  value=""
+                />
+                <div
+                  className="input-error-text"
+                />
+              </div>
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 block wfull m0 fw7 sfc6 mb5"
+                  htmlFor="last-name"
+                >
+                  Phone No
+                </label>
+                <div
+                  className=" pr0 relative"
+                >
+                  <input
+                    className="input"
+                    id="jd-apply-phone"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="clearfix"
+            >
+              <ForwardRef(render)
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="first-name"
+                >
+                  Select Designation
+                </label>
+                <div
+                  className="relative"
+                >
+                  <select
+                    className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value="​Travel Consultant"
+                    >
+                      ​Travel Consultant
+                    </option>
+                  </select>
+                  <span
+                    className="downArrow r10 absolute p3"
+                  />
+                </div>
+              </ForwardRef(render)>
+              <div
+                className="col-xs-12 pl0 pr0 mb15 relative"
+              >
+                <div
+                  className="file-input-wrapper"
+                >
+                  <label
+                    className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                  >
+                    Upload CV
+                  </label>
+                  <ForwardRef(render)>
+                    <div
+                      className="button__wrap block relative overflowh mt8"
+                    >
+                      <button
+                        className="button--custom sbc5 sfc1 p10"
+                      >
+                        Choose File
+                      </button>
+                      <input
+                        accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                        className="at_pdfChange absolute p10 t0 l0"
+                        name="pdf"
+                        onChange={[Function]}
+                        type="file"
+                      />
+                    </div>
+                  </ForwardRef(render)>
+                </div>
+                <p
+                  className="absolute errorDisplayMsg "
+                >
+                  No file choosen
+                </p>
+                <p
+                  className="pdfErrorDisplay input-error-text pt24"
+                />
+              </div>
+            </div>
+            <div
+              className="clearfix"
+            >
+              <div
+                className="col-xs-12"
+              >
+                 
+              </div>
+              <div
+                className="col-xs-12"
+              >
+                <button
+                  className="btn-filled-pri-large ripple radius2 wfull"
+                  disabled={false}
+                  type="submit"
+                >
+                  <span
+                    className="wave"
+                  />
+                  Submit Application
+                </button>
+              </div>
+              <div
+                className="col-xs-12"
+              >
+                 
+              </div>
+            </div>
+          </div>,
+          "className": "at_formSubmit",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="jd-apply-first-name"
+                >
+                  First Name
+                  <em
+                    className="pfc2"
+                  >
+                    *
+                  </em>
+                </label>
+                <input
+                  className="input at_firstName mt8"
+                  id="jd-apply-first-name"
+                  onChange={[Function]}
+                  placeholder="Enter Your First Name"
+                  type="text"
+                  value=""
+                />
+                <div
+                  className="input-error-text"
+                />
+              </div>,
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="jd-apply-last-name"
+                >
+                  Last Name
+                </label>
+                <input
+                  className="input mt8"
+                  id="jd-apply-last-name"
+                  onChange={[Function]}
+                  placeholder="Enter Your Last Name"
+                  type="text"
+                  value=""
+                />
+              </div>,
+              <div
+                className="clearfix"
+              >
+                <div
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="jd-apply-email"
+                  >
+                    Email ID
+                    <em
+                      className="pfc2"
+                    >
+                      *
+                    </em>
+                  </label>
+                  <input
+                    className="input mt8"
+                    id="jd-apply-email"
+                    onChange={[Function]}
+                    placeholder="Enter Your Email Id"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    className="input-error-text"
+                  />
+                </div>
+                <div
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 block wfull m0 fw7 sfc6 mb5"
+                    htmlFor="last-name"
+                  >
+                    Phone No
+                  </label>
+                  <div
+                    className=" pr0 relative"
+                  >
+                    <input
+                      className="input"
+                      id="jd-apply-phone"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="clearfix"
+              >
+                <ForwardRef(render)
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="first-name"
+                  >
+                    Select Designation
+                  </label>
+                  <div
+                    className="relative"
+                  >
+                    <select
+                      className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value="​Travel Consultant"
+                      >
+                        ​Travel Consultant
+                      </option>
+                    </select>
+                    <span
+                      className="downArrow r10 absolute p3"
+                    />
+                  </div>
+                </ForwardRef(render)>
+                <div
+                  className="col-xs-12 pl0 pr0 mb15 relative"
+                >
+                  <div
+                    className="file-input-wrapper"
+                  >
+                    <label
+                      className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                    >
+                      Upload CV
+                    </label>
+                    <ForwardRef(render)>
+                      <div
+                        className="button__wrap block relative overflowh mt8"
+                      >
+                        <button
+                          className="button--custom sbc5 sfc1 p10"
+                        >
+                          Choose File
+                        </button>
+                        <input
+                          accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                          className="at_pdfChange absolute p10 t0 l0"
+                          name="pdf"
+                          onChange={[Function]}
+                          type="file"
+                        />
+                      </div>
+                    </ForwardRef(render)>
+                  </div>
+                  <p
+                    className="absolute errorDisplayMsg "
+                  >
+                    No file choosen
+                  </p>
+                  <p
+                    className="pdfErrorDisplay input-error-text pt24"
+                  />
+                </div>
+              </div>,
+              <div
+                className="clearfix"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                   
+                </div>
+                <div
+                  className="col-xs-12"
+                >
+                  <button
+                    className="btn-filled-pri-large ripple radius2 wfull"
+                    disabled={false}
+                    type="submit"
+                  >
+                    <span
+                      className="wave"
+                    />
+                    Submit Application
+                  </button>
+                </div>
+                <div
+                  className="col-xs-12"
+                >
+                   
+                </div>
+              </div>,
+            ],
+            "className": "clearfix",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="jd-apply-first-name"
+                  >
+                    First Name
+                    <em
+                      className="pfc2"
+                    >
+                      *
+                    </em>
+                  </label>,
+                  <input
+                    className="input at_firstName mt8"
+                    id="jd-apply-first-name"
+                    onChange={[Function]}
+                    placeholder="Enter Your First Name"
+                    type="text"
+                    value=""
+                  />,
+                  <div
+                    className="input-error-text"
+                  />,
+                ],
+                "className": "col-xs-12 pl0 pr0 mb15",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "First Name",
+                      <em
+                        className="pfc2"
+                      >
+                        *
+                      </em>,
+                    ],
+                    "className": "f14 m0 fw7 mb5 sfc6",
+                    "htmlFor": "jd-apply-first-name",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "First Name",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "*",
+                        "className": "pfc2",
+                      },
+                      "ref": null,
+                      "rendered": "*",
+                      "type": "em",
+                    },
+                  ],
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "input at_firstName mt8",
+                    "id": "jd-apply-first-name",
+                    "onChange": [Function],
+                    "placeholder": "Enter Your First Name",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": false,
+                    "className": "input-error-text",
+                  },
+                  "ref": null,
+                  "rendered": false,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="jd-apply-last-name"
+                  >
+                    Last Name
+                  </label>,
+                  <input
+                    className="input mt8"
+                    id="jd-apply-last-name"
+                    onChange={[Function]}
+                    placeholder="Enter Your Last Name"
+                    type="text"
+                    value=""
+                  />,
+                  false,
+                ],
+                "className": "col-xs-12 pl0 pr0 mb15",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Last Name",
+                    "className": "f14 m0 fw7 mb5 sfc6",
+                    "htmlFor": "jd-apply-last-name",
+                  },
+                  "ref": null,
+                  "rendered": "Last Name",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "input mt8",
+                    "id": "jd-apply-last-name",
+                    "onChange": [Function],
+                    "placeholder": "Enter Your Last Name",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                false,
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-xs-12 pl0 pr0 mb15"
+                  >
+                    <label
+                      className="f14 m0 fw7 mb5 sfc6"
+                      htmlFor="jd-apply-email"
+                    >
+                      Email ID
+                      <em
+                        className="pfc2"
+                      >
+                        *
+                      </em>
+                    </label>
+                    <input
+                      className="input mt8"
+                      id="jd-apply-email"
+                      onChange={[Function]}
+                      placeholder="Enter Your Email Id"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      className="input-error-text"
+                    />
+                  </div>,
+                  <div
+                    className="col-xs-12 pl0 pr0 mb15"
+                  >
+                    <label
+                      className="f14 block wfull m0 fw7 sfc6 mb5"
+                      htmlFor="last-name"
+                    >
+                      Phone No
+                    </label>
+                    <div
+                      className=" pr0 relative"
+                    >
+                      <input
+                        className="input"
+                        id="jd-apply-phone"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>,
+                ],
+                "className": "clearfix",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <label
+                        className="f14 m0 fw7 mb5 sfc6"
+                        htmlFor="jd-apply-email"
+                      >
+                        Email ID
+                        <em
+                          className="pfc2"
+                        >
+                          *
+                        </em>
+                      </label>,
+                      <input
+                        className="input mt8"
+                        id="jd-apply-email"
+                        onChange={[Function]}
+                        placeholder="Enter Your Email Id"
+                        type="text"
+                        value=""
+                      />,
+                      <div
+                        className="input-error-text"
+                      />,
+                    ],
+                    "className": "col-xs-12 pl0 pr0 mb15",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Email ID",
+                          <em
+                            className="pfc2"
+                          >
+                            *
+                          </em>,
+                        ],
+                        "className": "f14 m0 fw7 mb5 sfc6",
+                        "htmlFor": "jd-apply-email",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Email ID",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "*",
+                            "className": "pfc2",
+                          },
+                          "ref": null,
+                          "rendered": "*",
+                          "type": "em",
+                        },
+                      ],
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "input mt8",
+                        "id": "jd-apply-email",
+                        "onChange": [Function],
+                        "placeholder": "Enter Your Email Id",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": false,
+                        "className": "input-error-text",
+                      },
+                      "ref": null,
+                      "rendered": false,
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <label
+                        className="f14 block wfull m0 fw7 sfc6 mb5"
+                        htmlFor="last-name"
+                      >
+                        Phone No
+                      </label>,
+                      <div
+                        className=" pr0 relative"
+                      >
+                        <input
+                          className="input"
+                          id="jd-apply-phone"
+                          onChange={[Function]}
+                          type="text"
+                          value=""
+                        />
+                      </div>,
+                    ],
+                    "className": "col-xs-12 pl0 pr0 mb15",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Phone No",
+                        "className": "f14 block wfull m0 fw7 sfc6 mb5",
+                        "htmlFor": "last-name",
+                      },
+                      "ref": null,
+                      "rendered": "Phone No",
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <input
+                          className="input"
+                          id="jd-apply-phone"
+                          onChange={[Function]}
+                          type="text"
+                          value=""
+                        />,
+                        "className": " pr0 relative",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "input",
+                          "id": "jd-apply-phone",
+                          "onChange": [Function],
+                          "type": "text",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(render)
+                    className="col-xs-12 pl0 pr0 mb15"
+                  >
+                    <label
+                      className="f14 m0 fw7 mb5 sfc6"
+                      htmlFor="first-name"
+                    >
+                      Select Designation
+                    </label>
+                    <div
+                      className="relative"
+                    >
+                      <select
+                        className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                        onChange={[Function]}
+                        value=""
+                      >
+                        <option
+                          value="​Travel Consultant"
+                        >
+                          ​Travel Consultant
+                        </option>
+                      </select>
+                      <span
+                        className="downArrow r10 absolute p3"
+                      />
+                    </div>
+                  </ForwardRef(render)>,
+                  <div
+                    className="col-xs-12 pl0 pr0 mb15 relative"
+                  >
+                    <div
+                      className="file-input-wrapper"
+                    >
+                      <label
+                        className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                      >
+                        Upload CV
+                      </label>
+                      <ForwardRef(render)>
+                        <div
+                          className="button__wrap block relative overflowh mt8"
+                        >
+                          <button
+                            className="button--custom sbc5 sfc1 p10"
+                          >
+                            Choose File
+                          </button>
+                          <input
+                            accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            className="at_pdfChange absolute p10 t0 l0"
+                            name="pdf"
+                            onChange={[Function]}
+                            type="file"
+                          />
+                        </div>
+                      </ForwardRef(render)>
+                    </div>
+                    <p
+                      className="absolute errorDisplayMsg "
+                    >
+                      No file choosen
+                    </p>
+                    <p
+                      className="pdfErrorDisplay input-error-text pt24"
+                    />
+                  </div>,
+                ],
+                "className": "clearfix",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <label
+                        className="f14 m0 fw7 mb5 sfc6"
+                        htmlFor="first-name"
+                      >
+                        Select Designation
+                      </label>,
+                      <div
+                        className="relative"
+                      >
+                        <select
+                          className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                          onChange={[Function]}
+                          value=""
+                        >
+                          <option
+                            value="​Travel Consultant"
+                          >
+                            ​Travel Consultant
+                          </option>
+                        </select>
+                        <span
+                          className="downArrow r10 absolute p3"
+                        />
+                      </div>,
+                    ],
+                    "className": "col-xs-12 pl0 pr0 mb15",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Select Designation",
+                        "className": "f14 m0 fw7 mb5 sfc6",
+                        "htmlFor": "first-name",
+                      },
+                      "ref": null,
+                      "rendered": "Select Designation",
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <select
+                            className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                            onChange={[Function]}
+                            value=""
+                          >
+                            <option
+                              value="​Travel Consultant"
+                            >
+                              ​Travel Consultant
+                            </option>
+                          </select>,
+                          <span
+                            className="downArrow r10 absolute p3"
+                          />,
+                        ],
+                        "className": "relative",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <option
+                                value="​Travel Consultant"
+                              >
+                                ​Travel Consultant
+                              </option>,
+                            ],
+                            "className": "selectCareerOption mt8 block input select webkitAppearance _selectCareerOption",
+                            "onChange": [Function],
+                            "value": "",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": "0",
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "​Travel Consultant",
+                                "value": "​Travel Consultant",
+                              },
+                              "ref": null,
+                              "rendered": "​Travel Consultant",
+                              "type": "option",
+                            },
+                          ],
+                          "type": "select",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "downArrow r10 absolute p3",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "span",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "& .downArrow": Object {
+                          "border": "solid #3e3e3e",
+                          "borderWidth": "0 1px 1px 0",
+                          "height": "8px",
+                          "top": "38%",
+                          "transform": "rotate(45deg)",
+                          "width": "8px",
+                        },
+                        "& .selectCareerOption": Object {
+                          "border": "1px solid #b2b2b2",
+                          "padding": "12px 30px 12px 12px",
+                          "paddingBottom": "13px",
+                        },
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="file-input-wrapper"
+                      >
+                        <label
+                          className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                        >
+                          Upload CV
+                        </label>
+                        <ForwardRef(render)>
+                          <div
+                            className="button__wrap block relative overflowh mt8"
+                          >
+                            <button
+                              className="button--custom sbc5 sfc1 p10"
+                            >
+                              Choose File
+                            </button>
+                            <input
+                              accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                              className="at_pdfChange absolute p10 t0 l0"
+                              name="pdf"
+                              onChange={[Function]}
+                              type="file"
+                            />
+                          </div>
+                        </ForwardRef(render)>
+                      </div>,
+                      <p
+                        className="absolute errorDisplayMsg "
+                      >
+                        No file choosen
+                      </p>,
+                      <p
+                        className="pdfErrorDisplay input-error-text pt24"
+                      />,
+                    ],
+                    "className": "col-xs-12 pl0 pr0 mb15 relative",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <label
+                            className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                          >
+                            Upload CV
+                          </label>,
+                          <ForwardRef(render)>
+                            <div
+                              className="button__wrap block relative overflowh mt8"
+                            >
+                              <button
+                                className="button--custom sbc5 sfc1 p10"
+                              >
+                                Choose File
+                              </button>
+                              <input
+                                accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                className="at_pdfChange absolute p10 t0 l0"
+                                name="pdf"
+                                onChange={[Function]}
+                                type="file"
+                              />
+                            </div>
+                          </ForwardRef(render)>,
+                        ],
+                        "className": "file-input-wrapper",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Upload CV",
+                            "className": "btn-file-input f14 m0 fw7 mb5 sfc6  ",
+                          },
+                          "ref": null,
+                          "rendered": "Upload CV",
+                          "type": "label",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": <div
+                              className="button__wrap block relative overflowh mt8"
+                            >
+                              <button
+                                className="button--custom sbc5 sfc1 p10"
+                              >
+                                Choose File
+                              </button>
+                              <input
+                                accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                className="at_pdfChange absolute p10 t0 l0"
+                                name="pdf"
+                                onChange={[Function]}
+                                type="file"
+                              />
+                            </div>,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <button
+                                  className="button--custom sbc5 sfc1 p10"
+                                >
+                                  Choose File
+                                </button>,
+                                <input
+                                  accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                  className="at_pdfChange absolute p10 t0 l0"
+                                  name="pdf"
+                                  onChange={[Function]}
+                                  type="file"
+                                />,
+                              ],
+                              "className": "button__wrap block relative overflowh mt8",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Choose File",
+                                  "className": "button--custom sbc5 sfc1 p10",
+                                },
+                                "ref": null,
+                                "rendered": "Choose File",
+                                "type": "button",
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "accept": "application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                  "className": "at_pdfChange absolute p10 t0 l0",
+                                  "name": "pdf",
+                                  "onChange": [Function],
+                                  "type": "file",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": "input",
+                              },
+                            ],
+                            "type": "div",
+                          },
+                          "type": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "__emotion_base": "div",
+                            "__emotion_forwardProp": undefined,
+                            "__emotion_real": [Circular],
+                            "__emotion_styles": Array [
+                              Object {
+                                "& .button--custom": Object {
+                                  "width": "160px",
+                                },
+                                "& input": Object {
+                                  "opacity": "0",
+                                  "width": "160px",
+                                },
+                              },
+                            ],
+                            "defaultProps": undefined,
+                            "displayName": "Styled(div)",
+                            "render": [Function],
+                            "withComponent": [Function],
+                          },
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "No file choosen",
+                        "className": "absolute errorDisplayMsg ",
+                      },
+                      "ref": null,
+                      "rendered": "No file choosen",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": false,
+                        "className": "pdfErrorDisplay input-error-text pt24",
+                      },
+                      "ref": null,
+                      "rendered": false,
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-xs-12"
+                  >
+                     
+                  </div>,
+                  <div
+                    className="col-xs-12"
+                  >
+                    <button
+                      className="btn-filled-pri-large ripple radius2 wfull"
+                      disabled={false}
+                      type="submit"
+                    >
+                      <span
+                        className="wave"
+                      />
+                      Submit Application
+                    </button>
+                  </div>,
+                  false,
+                  <div
+                    className="col-xs-12"
+                  >
+                     
+                  </div>,
+                ],
+                "className": "clearfix",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " ",
+                    "className": "col-xs-12",
+                  },
+                  "ref": null,
+                  "rendered": " ",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      className="btn-filled-pri-large ripple radius2 wfull"
+                      disabled={false}
+                      type="submit"
+                    >
+                      <span
+                        className="wave"
+                      />
+                      Submit Application
+                    </button>,
+                    "className": "col-xs-12",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="wave"
+                        />,
+                        "Submit Application",
+                      ],
+                      "className": "btn-filled-pri-large ripple radius2 wfull",
+                      "disabled": false,
+                      "type": "submit",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "wave",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "span",
+                      },
+                      "Submit Application",
+                    ],
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+                false,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " ",
+                    "className": "col-xs-12",
+                  },
+                  "ref": null,
+                  "rendered": " ",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="f24 pfc1 m0 pb24 fw9"
+          >
+            Apply Here
+          </p>,
+          <form
+            className="at_formSubmit"
+            onSubmit={[Function]}
+          >
+            <div
+              className="clearfix"
+            >
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="jd-apply-first-name"
+                >
+                  First Name
+                  <em
+                    className="pfc2"
+                  >
+                    *
+                  </em>
+                </label>
+                <input
+                  className="input at_firstName mt8"
+                  id="jd-apply-first-name"
+                  onChange={[Function]}
+                  placeholder="Enter Your First Name"
+                  type="text"
+                  value=""
+                />
+                <div
+                  className="input-error-text"
+                />
+              </div>
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="jd-apply-last-name"
+                >
+                  Last Name
+                </label>
+                <input
+                  className="input mt8"
+                  id="jd-apply-last-name"
+                  onChange={[Function]}
+                  placeholder="Enter Your Last Name"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="clearfix"
+              >
+                <div
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="jd-apply-email"
+                  >
+                    Email ID
+                    <em
+                      className="pfc2"
+                    >
+                      *
+                    </em>
+                  </label>
+                  <input
+                    className="input mt8"
+                    id="jd-apply-email"
+                    onChange={[Function]}
+                    placeholder="Enter Your Email Id"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    className="input-error-text"
+                  />
+                </div>
+                <div
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 block wfull m0 fw7 sfc6 mb5"
+                    htmlFor="last-name"
+                  >
+                    Phone No
+                  </label>
+                  <div
+                    className=" pr0 relative"
+                  >
+                    <input
+                      className="input"
+                      id="jd-apply-phone"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="clearfix"
+              >
+                <ForwardRef(render)
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="first-name"
+                  >
+                    Select Designation
+                  </label>
+                  <div
+                    className="relative"
+                  >
+                    <select
+                      className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value="​Travel Consultant"
+                      >
+                        ​Travel Consultant
+                      </option>
+                    </select>
+                    <span
+                      className="downArrow r10 absolute p3"
+                    />
+                  </div>
+                </ForwardRef(render)>
+                <div
+                  className="col-xs-12 pl0 pr0 mb15 relative"
+                >
+                  <div
+                    className="file-input-wrapper"
+                  >
+                    <label
+                      className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                    >
+                      Upload CV
+                    </label>
+                    <ForwardRef(render)>
+                      <div
+                        className="button__wrap block relative overflowh mt8"
+                      >
+                        <button
+                          className="button--custom sbc5 sfc1 p10"
+                        >
+                          Choose File
+                        </button>
+                        <input
+                          accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                          className="at_pdfChange absolute p10 t0 l0"
+                          name="pdf"
+                          onChange={[Function]}
+                          type="file"
+                        />
+                      </div>
+                    </ForwardRef(render)>
+                  </div>
+                  <p
+                    className="absolute errorDisplayMsg "
+                  >
+                    No file choosen
+                  </p>
+                  <p
+                    className="pdfErrorDisplay input-error-text pt24"
+                  />
+                </div>
+              </div>
+              <div
+                className="clearfix"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                   
+                </div>
+                <div
+                  className="col-xs-12"
+                >
+                  <button
+                    className="btn-filled-pri-large ripple radius2 wfull"
+                    disabled={false}
+                    type="submit"
+                  >
+                    <span
+                      className="wave"
+                    />
+                    Submit Application
+                  </button>
+                </div>
+                <div
+                  className="col-xs-12"
+                >
+                   
+                </div>
+              </div>
+            </div>
+          </form>,
+        ],
+        "className": "clearfix",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Apply Here",
+            "className": "f24 pfc1 m0 pb24 fw9",
+          },
+          "ref": null,
+          "rendered": "Apply Here",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="clearfix"
+            >
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="jd-apply-first-name"
+                >
+                  First Name
+                  <em
+                    className="pfc2"
+                  >
+                    *
+                  </em>
+                </label>
+                <input
+                  className="input at_firstName mt8"
+                  id="jd-apply-first-name"
+                  onChange={[Function]}
+                  placeholder="Enter Your First Name"
+                  type="text"
+                  value=""
+                />
+                <div
+                  className="input-error-text"
+                />
+              </div>
+              <div
+                className="col-xs-12 pl0 pr0 mb15"
+              >
+                <label
+                  className="f14 m0 fw7 mb5 sfc6"
+                  htmlFor="jd-apply-last-name"
+                >
+                  Last Name
+                </label>
+                <input
+                  className="input mt8"
+                  id="jd-apply-last-name"
+                  onChange={[Function]}
+                  placeholder="Enter Your Last Name"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                className="clearfix"
+              >
+                <div
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="jd-apply-email"
+                  >
+                    Email ID
+                    <em
+                      className="pfc2"
+                    >
+                      *
+                    </em>
+                  </label>
+                  <input
+                    className="input mt8"
+                    id="jd-apply-email"
+                    onChange={[Function]}
+                    placeholder="Enter Your Email Id"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    className="input-error-text"
+                  />
+                </div>
+                <div
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 block wfull m0 fw7 sfc6 mb5"
+                    htmlFor="last-name"
+                  >
+                    Phone No
+                  </label>
+                  <div
+                    className=" pr0 relative"
+                  >
+                    <input
+                      className="input"
+                      id="jd-apply-phone"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                className="clearfix"
+              >
+                <ForwardRef(render)
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="first-name"
+                  >
+                    Select Designation
+                  </label>
+                  <div
+                    className="relative"
+                  >
+                    <select
+                      className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                      onChange={[Function]}
+                      value=""
+                    >
+                      <option
+                        value="​Travel Consultant"
+                      >
+                        ​Travel Consultant
+                      </option>
+                    </select>
+                    <span
+                      className="downArrow r10 absolute p3"
+                    />
+                  </div>
+                </ForwardRef(render)>
+                <div
+                  className="col-xs-12 pl0 pr0 mb15 relative"
+                >
+                  <div
+                    className="file-input-wrapper"
+                  >
+                    <label
+                      className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                    >
+                      Upload CV
+                    </label>
+                    <ForwardRef(render)>
+                      <div
+                        className="button__wrap block relative overflowh mt8"
+                      >
+                        <button
+                          className="button--custom sbc5 sfc1 p10"
+                        >
+                          Choose File
+                        </button>
+                        <input
+                          accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                          className="at_pdfChange absolute p10 t0 l0"
+                          name="pdf"
+                          onChange={[Function]}
+                          type="file"
+                        />
+                      </div>
+                    </ForwardRef(render)>
+                  </div>
+                  <p
+                    className="absolute errorDisplayMsg "
+                  >
+                    No file choosen
+                  </p>
+                  <p
+                    className="pdfErrorDisplay input-error-text pt24"
+                  />
+                </div>
+              </div>
+              <div
+                className="clearfix"
+              >
+                <div
+                  className="col-xs-12"
+                >
+                   
+                </div>
+                <div
+                  className="col-xs-12"
+                >
+                  <button
+                    className="btn-filled-pri-large ripple radius2 wfull"
+                    disabled={false}
+                    type="submit"
+                  >
+                    <span
+                      className="wave"
+                    />
+                    Submit Application
+                  </button>
+                </div>
+                <div
+                  className="col-xs-12"
+                >
+                   
+                </div>
+              </div>
+            </div>,
+            "className": "at_formSubmit",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="jd-apply-first-name"
+                  >
+                    First Name
+                    <em
+                      className="pfc2"
+                    >
+                      *
+                    </em>
+                  </label>
+                  <input
+                    className="input at_firstName mt8"
+                    id="jd-apply-first-name"
+                    onChange={[Function]}
+                    placeholder="Enter Your First Name"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    className="input-error-text"
+                  />
+                </div>,
+                <div
+                  className="col-xs-12 pl0 pr0 mb15"
+                >
+                  <label
+                    className="f14 m0 fw7 mb5 sfc6"
+                    htmlFor="jd-apply-last-name"
+                  >
+                    Last Name
+                  </label>
+                  <input
+                    className="input mt8"
+                    id="jd-apply-last-name"
+                    onChange={[Function]}
+                    placeholder="Enter Your Last Name"
+                    type="text"
+                    value=""
+                  />
+                </div>,
+                <div
+                  className="clearfix"
+                >
+                  <div
+                    className="col-xs-12 pl0 pr0 mb15"
+                  >
+                    <label
+                      className="f14 m0 fw7 mb5 sfc6"
+                      htmlFor="jd-apply-email"
+                    >
+                      Email ID
+                      <em
+                        className="pfc2"
+                      >
+                        *
+                      </em>
+                    </label>
+                    <input
+                      className="input mt8"
+                      id="jd-apply-email"
+                      onChange={[Function]}
+                      placeholder="Enter Your Email Id"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      className="input-error-text"
+                    />
+                  </div>
+                  <div
+                    className="col-xs-12 pl0 pr0 mb15"
+                  >
+                    <label
+                      className="f14 block wfull m0 fw7 sfc6 mb5"
+                      htmlFor="last-name"
+                    >
+                      Phone No
+                    </label>
+                    <div
+                      className=" pr0 relative"
+                    >
+                      <input
+                        className="input"
+                        id="jd-apply-phone"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>,
+                <div
+                  className="clearfix"
+                >
+                  <ForwardRef(render)
+                    className="col-xs-12 pl0 pr0 mb15"
+                  >
+                    <label
+                      className="f14 m0 fw7 mb5 sfc6"
+                      htmlFor="first-name"
+                    >
+                      Select Designation
+                    </label>
+                    <div
+                      className="relative"
+                    >
+                      <select
+                        className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                        onChange={[Function]}
+                        value=""
+                      >
+                        <option
+                          value="​Travel Consultant"
+                        >
+                          ​Travel Consultant
+                        </option>
+                      </select>
+                      <span
+                        className="downArrow r10 absolute p3"
+                      />
+                    </div>
+                  </ForwardRef(render)>
+                  <div
+                    className="col-xs-12 pl0 pr0 mb15 relative"
+                  >
+                    <div
+                      className="file-input-wrapper"
+                    >
+                      <label
+                        className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                      >
+                        Upload CV
+                      </label>
+                      <ForwardRef(render)>
+                        <div
+                          className="button__wrap block relative overflowh mt8"
+                        >
+                          <button
+                            className="button--custom sbc5 sfc1 p10"
+                          >
+                            Choose File
+                          </button>
+                          <input
+                            accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            className="at_pdfChange absolute p10 t0 l0"
+                            name="pdf"
+                            onChange={[Function]}
+                            type="file"
+                          />
+                        </div>
+                      </ForwardRef(render)>
+                    </div>
+                    <p
+                      className="absolute errorDisplayMsg "
+                    >
+                      No file choosen
+                    </p>
+                    <p
+                      className="pdfErrorDisplay input-error-text pt24"
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="clearfix"
+                >
+                  <div
+                    className="col-xs-12"
+                  >
+                     
+                  </div>
+                  <div
+                    className="col-xs-12"
+                  >
+                    <button
+                      className="btn-filled-pri-large ripple radius2 wfull"
+                      disabled={false}
+                      type="submit"
+                    >
+                      <span
+                        className="wave"
+                      />
+                      Submit Application
+                    </button>
+                  </div>
+                  <div
+                    className="col-xs-12"
+                  >
+                     
+                  </div>
+                </div>,
+              ],
+              "className": "clearfix",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label
+                      className="f14 m0 fw7 mb5 sfc6"
+                      htmlFor="jd-apply-first-name"
+                    >
+                      First Name
+                      <em
+                        className="pfc2"
+                      >
+                        *
+                      </em>
+                    </label>,
+                    <input
+                      className="input at_firstName mt8"
+                      id="jd-apply-first-name"
+                      onChange={[Function]}
+                      placeholder="Enter Your First Name"
+                      type="text"
+                      value=""
+                    />,
+                    <div
+                      className="input-error-text"
+                    />,
+                  ],
+                  "className": "col-xs-12 pl0 pr0 mb15",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "First Name",
+                        <em
+                          className="pfc2"
+                        >
+                          *
+                        </em>,
+                      ],
+                      "className": "f14 m0 fw7 mb5 sfc6",
+                      "htmlFor": "jd-apply-first-name",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "First Name",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "*",
+                          "className": "pfc2",
+                        },
+                        "ref": null,
+                        "rendered": "*",
+                        "type": "em",
+                      },
+                    ],
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "input at_firstName mt8",
+                      "id": "jd-apply-first-name",
+                      "onChange": [Function],
+                      "placeholder": "Enter Your First Name",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": false,
+                      "className": "input-error-text",
+                    },
+                    "ref": null,
+                    "rendered": false,
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <label
+                      className="f14 m0 fw7 mb5 sfc6"
+                      htmlFor="jd-apply-last-name"
+                    >
+                      Last Name
+                    </label>,
+                    <input
+                      className="input mt8"
+                      id="jd-apply-last-name"
+                      onChange={[Function]}
+                      placeholder="Enter Your Last Name"
+                      type="text"
+                      value=""
+                    />,
+                    false,
+                  ],
+                  "className": "col-xs-12 pl0 pr0 mb15",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Last Name",
+                      "className": "f14 m0 fw7 mb5 sfc6",
+                      "htmlFor": "jd-apply-last-name",
+                    },
+                    "ref": null,
+                    "rendered": "Last Name",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "input mt8",
+                      "id": "jd-apply-last-name",
+                      "onChange": [Function],
+                      "placeholder": "Enter Your Last Name",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  false,
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col-xs-12 pl0 pr0 mb15"
+                    >
+                      <label
+                        className="f14 m0 fw7 mb5 sfc6"
+                        htmlFor="jd-apply-email"
+                      >
+                        Email ID
+                        <em
+                          className="pfc2"
+                        >
+                          *
+                        </em>
+                      </label>
+                      <input
+                        className="input mt8"
+                        id="jd-apply-email"
+                        onChange={[Function]}
+                        placeholder="Enter Your Email Id"
+                        type="text"
+                        value=""
+                      />
+                      <div
+                        className="input-error-text"
+                      />
+                    </div>,
+                    <div
+                      className="col-xs-12 pl0 pr0 mb15"
+                    >
+                      <label
+                        className="f14 block wfull m0 fw7 sfc6 mb5"
+                        htmlFor="last-name"
+                      >
+                        Phone No
+                      </label>
+                      <div
+                        className=" pr0 relative"
+                      >
+                        <input
+                          className="input"
+                          id="jd-apply-phone"
+                          onChange={[Function]}
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>,
+                  ],
+                  "className": "clearfix",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <label
+                          className="f14 m0 fw7 mb5 sfc6"
+                          htmlFor="jd-apply-email"
+                        >
+                          Email ID
+                          <em
+                            className="pfc2"
+                          >
+                            *
+                          </em>
+                        </label>,
+                        <input
+                          className="input mt8"
+                          id="jd-apply-email"
+                          onChange={[Function]}
+                          placeholder="Enter Your Email Id"
+                          type="text"
+                          value=""
+                        />,
+                        <div
+                          className="input-error-text"
+                        />,
+                      ],
+                      "className": "col-xs-12 pl0 pr0 mb15",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Email ID",
+                            <em
+                              className="pfc2"
+                            >
+                              *
+                            </em>,
+                          ],
+                          "className": "f14 m0 fw7 mb5 sfc6",
+                          "htmlFor": "jd-apply-email",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Email ID",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "*",
+                              "className": "pfc2",
+                            },
+                            "ref": null,
+                            "rendered": "*",
+                            "type": "em",
+                          },
+                        ],
+                        "type": "label",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "input mt8",
+                          "id": "jd-apply-email",
+                          "onChange": [Function],
+                          "placeholder": "Enter Your Email Id",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": false,
+                          "className": "input-error-text",
+                        },
+                        "ref": null,
+                        "rendered": false,
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <label
+                          className="f14 block wfull m0 fw7 sfc6 mb5"
+                          htmlFor="last-name"
+                        >
+                          Phone No
+                        </label>,
+                        <div
+                          className=" pr0 relative"
+                        >
+                          <input
+                            className="input"
+                            id="jd-apply-phone"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                          />
+                        </div>,
+                      ],
+                      "className": "col-xs-12 pl0 pr0 mb15",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Phone No",
+                          "className": "f14 block wfull m0 fw7 sfc6 mb5",
+                          "htmlFor": "last-name",
+                        },
+                        "ref": null,
+                        "rendered": "Phone No",
+                        "type": "label",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <input
+                            className="input"
+                            id="jd-apply-phone"
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                          />,
+                          "className": " pr0 relative",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "input",
+                            "id": "jd-apply-phone",
+                            "onChange": [Function],
+                            "type": "text",
+                            "value": "",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      className="col-xs-12 pl0 pr0 mb15"
+                    >
+                      <label
+                        className="f14 m0 fw7 mb5 sfc6"
+                        htmlFor="first-name"
+                      >
+                        Select Designation
+                      </label>
+                      <div
+                        className="relative"
+                      >
+                        <select
+                          className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                          onChange={[Function]}
+                          value=""
+                        >
+                          <option
+                            value="​Travel Consultant"
+                          >
+                            ​Travel Consultant
+                          </option>
+                        </select>
+                        <span
+                          className="downArrow r10 absolute p3"
+                        />
+                      </div>
+                    </ForwardRef(render)>,
+                    <div
+                      className="col-xs-12 pl0 pr0 mb15 relative"
+                    >
+                      <div
+                        className="file-input-wrapper"
+                      >
+                        <label
+                          className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                        >
+                          Upload CV
+                        </label>
+                        <ForwardRef(render)>
+                          <div
+                            className="button__wrap block relative overflowh mt8"
+                          >
+                            <button
+                              className="button--custom sbc5 sfc1 p10"
+                            >
+                              Choose File
+                            </button>
+                            <input
+                              accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                              className="at_pdfChange absolute p10 t0 l0"
+                              name="pdf"
+                              onChange={[Function]}
+                              type="file"
+                            />
+                          </div>
+                        </ForwardRef(render)>
+                      </div>
+                      <p
+                        className="absolute errorDisplayMsg "
+                      >
+                        No file choosen
+                      </p>
+                      <p
+                        className="pdfErrorDisplay input-error-text pt24"
+                      />
+                    </div>,
+                  ],
+                  "className": "clearfix",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": Array [
+                        <label
+                          className="f14 m0 fw7 mb5 sfc6"
+                          htmlFor="first-name"
+                        >
+                          Select Designation
+                        </label>,
+                        <div
+                          className="relative"
+                        >
+                          <select
+                            className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                            onChange={[Function]}
+                            value=""
+                          >
+                            <option
+                              value="​Travel Consultant"
+                            >
+                              ​Travel Consultant
+                            </option>
+                          </select>
+                          <span
+                            className="downArrow r10 absolute p3"
+                          />
+                        </div>,
+                      ],
+                      "className": "col-xs-12 pl0 pr0 mb15",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Select Designation",
+                          "className": "f14 m0 fw7 mb5 sfc6",
+                          "htmlFor": "first-name",
+                        },
+                        "ref": null,
+                        "rendered": "Select Designation",
+                        "type": "label",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <select
+                              className="selectCareerOption mt8 block input select webkitAppearance _selectCareerOption"
+                              onChange={[Function]}
+                              value=""
+                            >
+                              <option
+                                value="​Travel Consultant"
+                              >
+                                ​Travel Consultant
+                              </option>
+                            </select>,
+                            <span
+                              className="downArrow r10 absolute p3"
+                            />,
+                          ],
+                          "className": "relative",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": Array [
+                                <option
+                                  value="​Travel Consultant"
+                                >
+                                  ​Travel Consultant
+                                </option>,
+                              ],
+                              "className": "selectCareerOption mt8 block input select webkitAppearance _selectCareerOption",
+                              "onChange": [Function],
+                              "value": "",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": "0",
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "​Travel Consultant",
+                                  "value": "​Travel Consultant",
+                                },
+                                "ref": null,
+                                "rendered": "​Travel Consultant",
+                                "type": "option",
+                              },
+                            ],
+                            "type": "select",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "className": "downArrow r10 absolute p3",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "span",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "div",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& .downArrow": Object {
+                            "border": "solid #3e3e3e",
+                            "borderWidth": "0 1px 1px 0",
+                            "height": "8px",
+                            "top": "38%",
+                            "transform": "rotate(45deg)",
+                            "width": "8px",
+                          },
+                          "& .selectCareerOption": Object {
+                            "border": "1px solid #b2b2b2",
+                            "padding": "12px 30px 12px 12px",
+                            "paddingBottom": "13px",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(div)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="file-input-wrapper"
+                        >
+                          <label
+                            className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                          >
+                            Upload CV
+                          </label>
+                          <ForwardRef(render)>
+                            <div
+                              className="button__wrap block relative overflowh mt8"
+                            >
+                              <button
+                                className="button--custom sbc5 sfc1 p10"
+                              >
+                                Choose File
+                              </button>
+                              <input
+                                accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                className="at_pdfChange absolute p10 t0 l0"
+                                name="pdf"
+                                onChange={[Function]}
+                                type="file"
+                              />
+                            </div>
+                          </ForwardRef(render)>
+                        </div>,
+                        <p
+                          className="absolute errorDisplayMsg "
+                        >
+                          No file choosen
+                        </p>,
+                        <p
+                          className="pdfErrorDisplay input-error-text pt24"
+                        />,
+                      ],
+                      "className": "col-xs-12 pl0 pr0 mb15 relative",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <label
+                              className="btn-file-input f14 m0 fw7 mb5 sfc6  "
+                            >
+                              Upload CV
+                            </label>,
+                            <ForwardRef(render)>
+                              <div
+                                className="button__wrap block relative overflowh mt8"
+                              >
+                                <button
+                                  className="button--custom sbc5 sfc1 p10"
+                                >
+                                  Choose File
+                                </button>
+                                <input
+                                  accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                  className="at_pdfChange absolute p10 t0 l0"
+                                  name="pdf"
+                                  onChange={[Function]}
+                                  type="file"
+                                />
+                              </div>
+                            </ForwardRef(render)>,
+                          ],
+                          "className": "file-input-wrapper",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Upload CV",
+                              "className": "btn-file-input f14 m0 fw7 mb5 sfc6  ",
+                            },
+                            "ref": null,
+                            "rendered": "Upload CV",
+                            "type": "label",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "children": <div
+                                className="button__wrap block relative overflowh mt8"
+                              >
+                                <button
+                                  className="button--custom sbc5 sfc1 p10"
+                                >
+                                  Choose File
+                                </button>
+                                <input
+                                  accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                  className="at_pdfChange absolute p10 t0 l0"
+                                  name="pdf"
+                                  onChange={[Function]}
+                                  type="file"
+                                />
+                              </div>,
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": Array [
+                                  <button
+                                    className="button--custom sbc5 sfc1 p10"
+                                  >
+                                    Choose File
+                                  </button>,
+                                  <input
+                                    accept="application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                                    className="at_pdfChange absolute p10 t0 l0"
+                                    name="pdf"
+                                    onChange={[Function]}
+                                    type="file"
+                                  />,
+                                ],
+                                "className": "button__wrap block relative overflowh mt8",
+                              },
+                              "ref": null,
+                              "rendered": Array [
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "children": "Choose File",
+                                    "className": "button--custom sbc5 sfc1 p10",
+                                  },
+                                  "ref": null,
+                                  "rendered": "Choose File",
+                                  "type": "button",
+                                },
+                                Object {
+                                  "instance": null,
+                                  "key": undefined,
+                                  "nodeType": "host",
+                                  "props": Object {
+                                    "accept": "application/pdf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                                    "className": "at_pdfChange absolute p10 t0 l0",
+                                    "name": "pdf",
+                                    "onChange": [Function],
+                                    "type": "file",
+                                  },
+                                  "ref": null,
+                                  "rendered": null,
+                                  "type": "input",
+                                },
+                              ],
+                              "type": "div",
+                            },
+                            "type": Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "__emotion_base": "div",
+                              "__emotion_forwardProp": undefined,
+                              "__emotion_real": [Circular],
+                              "__emotion_styles": Array [
+                                Object {
+                                  "& .button--custom": Object {
+                                    "width": "160px",
+                                  },
+                                  "& input": Object {
+                                    "opacity": "0",
+                                    "width": "160px",
+                                  },
+                                },
+                              ],
+                              "defaultProps": undefined,
+                              "displayName": "Styled(div)",
+                              "render": [Function],
+                              "withComponent": [Function],
+                            },
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "No file choosen",
+                          "className": "absolute errorDisplayMsg ",
+                        },
+                        "ref": null,
+                        "rendered": "No file choosen",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": false,
+                          "className": "pdfErrorDisplay input-error-text pt24",
+                        },
+                        "ref": null,
+                        "rendered": false,
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col-xs-12"
+                    >
+                       
+                    </div>,
+                    <div
+                      className="col-xs-12"
+                    >
+                      <button
+                        className="btn-filled-pri-large ripple radius2 wfull"
+                        disabled={false}
+                        type="submit"
+                      >
+                        <span
+                          className="wave"
+                        />
+                        Submit Application
+                      </button>
+                    </div>,
+                    false,
+                    <div
+                      className="col-xs-12"
+                    >
+                       
+                    </div>,
+                  ],
+                  "className": "clearfix",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": " ",
+                      "className": "col-xs-12",
+                    },
+                    "ref": null,
+                    "rendered": " ",
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <button
+                        className="btn-filled-pri-large ripple radius2 wfull"
+                        disabled={false}
+                        type="submit"
+                      >
+                        <span
+                          className="wave"
+                        />
+                        Submit Application
+                      </button>,
+                      "className": "col-xs-12",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span
+                            className="wave"
+                          />,
+                          "Submit Application",
+                        ],
+                        "className": "btn-filled-pri-large ripple radius2 wfull",
+                        "disabled": false,
+                        "type": "submit",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "className": "wave",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "span",
+                        },
+                        "Submit Application",
+                      ],
+                      "type": "button",
+                    },
+                    "type": "div",
+                  },
+                  false,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": " ",
+                      "className": "col-xs-12",
+                    },
+                    "ref": null,
+                    "rendered": " ",
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

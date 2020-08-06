@@ -1,0 +1,570 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteListModal: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuoteListModal
+    currentQuoteId={4918699}
+    location={
+      Object {
+        "search": Object {},
+      }
+    }
+    quotesList={
+      Array [
+        Object {
+          "agent": Object {
+            "name": "test",
+          },
+          "id": 4918699,
+        },
+      ]
+    }
+    trackSegment={[Function]}
+    tripId={3918699}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ForwardRef(render)>
+        <Link
+          className="block wfull m0 at_quoteSwitchLink"
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/requested_trips/3918699/quotes/4918699[object Object]"
+        >
+          <input
+            className="nblock checkbox-round checkbox-round--center"
+            defaultChecked={true}
+            id="Highlights"
+            name="destinationdata-radio"
+            type="radio"
+          />
+          <label
+            className="block p15 bb pl48"
+            htmlFor="Highlights"
+          >
+            <div>
+              <p
+                className="pfc3 f12"
+              >
+                test
+              </p>
+              <QuotePrice
+                discount={0}
+                lineBreak={false}
+                perPerson=""
+                showOriginalPrice={false}
+              />
+            </div>
+          </label>
+        </Link>
+      </ForwardRef(render)>,
+      "className": "sbcw radius2",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Link
+            className="block wfull m0 at_quoteSwitchLink"
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/requested_trips/3918699/quotes/4918699[object Object]"
+          >
+            <input
+              className="nblock checkbox-round checkbox-round--center"
+              defaultChecked={true}
+              id="Highlights"
+              name="destinationdata-radio"
+              type="radio"
+            />
+            <label
+              className="block p15 bb pl48"
+              htmlFor="Highlights"
+            >
+              <div>
+                <p
+                  className="pfc3 f12"
+                >
+                  test
+                </p>
+                <QuotePrice
+                  discount={0}
+                  lineBreak={false}
+                  perPerson=""
+                  showOriginalPrice={false}
+                />
+              </div>
+            </label>
+          </Link>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <input
+                className="nblock checkbox-round checkbox-round--center"
+                defaultChecked={true}
+                id="Highlights"
+                name="destinationdata-radio"
+                type="radio"
+              />,
+              <label
+                className="block p15 bb pl48"
+                htmlFor="Highlights"
+              >
+                <div>
+                  <p
+                    className="pfc3 f12"
+                  >
+                    test
+                  </p>
+                  <QuotePrice
+                    discount={0}
+                    lineBreak={false}
+                    perPerson=""
+                    showOriginalPrice={false}
+                  />
+                </div>
+              </label>,
+            ],
+            "className": "block wfull m0 at_quoteSwitchLink",
+            "onlyActiveOnIndex": false,
+            "style": Object {},
+            "to": "/requested_trips/3918699/quotes/4918699[object Object]",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "nblock checkbox-round checkbox-round--center",
+                "defaultChecked": true,
+                "id": "Highlights",
+                "name": "destinationdata-radio",
+                "type": "radio",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div>
+                  <p
+                    className="pfc3 f12"
+                  >
+                    test
+                  </p>
+                  <QuotePrice
+                    discount={0}
+                    lineBreak={false}
+                    perPerson=""
+                    showOriginalPrice={false}
+                  />
+                </div>,
+                "className": "block p15 bb pl48",
+                "htmlFor": "Highlights",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="pfc3 f12"
+                    >
+                      test
+                    </p>,
+                    <QuotePrice
+                      discount={0}
+                      lineBreak={false}
+                      perPerson=""
+                      showOriginalPrice={false}
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "test",
+                      "className": "pfc3 f12",
+                    },
+                    "ref": null,
+                    "rendered": "test",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "discount": 0,
+                      "lineBreak": false,
+                      "perPerson": "",
+                      "showOriginalPrice": false,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "label",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "& .checkbox-round +  label": Object {
+              "&:after": Object {
+                "left": "19px",
+              },
+              "&:before": Object {
+                "left": "15px",
+                "top": "50%",
+                "transform": "translateY(-50%)",
+              },
+              "border": "1px solid #d4d4d4",
+            },
+            "& a": Object {
+              "&:last-child": Object {
+                "& label": Object {
+                  "border": "0",
+                },
+                "marginBottom": "0",
+              },
+              "marginBottom": "15px",
+            },
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ForwardRef(render)>
+          <Link
+            className="block wfull m0 at_quoteSwitchLink"
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/requested_trips/3918699/quotes/4918699[object Object]"
+          >
+            <input
+              className="nblock checkbox-round checkbox-round--center"
+              defaultChecked={true}
+              id="Highlights"
+              name="destinationdata-radio"
+              type="radio"
+            />
+            <label
+              className="block p15 bb pl48"
+              htmlFor="Highlights"
+            >
+              <div>
+                <p
+                  className="pfc3 f12"
+                >
+                  test
+                </p>
+                <QuotePrice
+                  discount={0}
+                  lineBreak={false}
+                  perPerson=""
+                  showOriginalPrice={false}
+                />
+              </div>
+            </label>
+          </Link>
+        </ForwardRef(render)>,
+        "className": "sbcw radius2",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Link
+              className="block wfull m0 at_quoteSwitchLink"
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/requested_trips/3918699/quotes/4918699[object Object]"
+            >
+              <input
+                className="nblock checkbox-round checkbox-round--center"
+                defaultChecked={true}
+                id="Highlights"
+                name="destinationdata-radio"
+                type="radio"
+              />
+              <label
+                className="block p15 bb pl48"
+                htmlFor="Highlights"
+              >
+                <div>
+                  <p
+                    className="pfc3 f12"
+                  >
+                    test
+                  </p>
+                  <QuotePrice
+                    discount={0}
+                    lineBreak={false}
+                    perPerson=""
+                    showOriginalPrice={false}
+                  />
+                </div>
+              </label>
+            </Link>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="nblock checkbox-round checkbox-round--center"
+                  defaultChecked={true}
+                  id="Highlights"
+                  name="destinationdata-radio"
+                  type="radio"
+                />,
+                <label
+                  className="block p15 bb pl48"
+                  htmlFor="Highlights"
+                >
+                  <div>
+                    <p
+                      className="pfc3 f12"
+                    >
+                      test
+                    </p>
+                    <QuotePrice
+                      discount={0}
+                      lineBreak={false}
+                      perPerson=""
+                      showOriginalPrice={false}
+                    />
+                  </div>
+                </label>,
+              ],
+              "className": "block wfull m0 at_quoteSwitchLink",
+              "onlyActiveOnIndex": false,
+              "style": Object {},
+              "to": "/requested_trips/3918699/quotes/4918699[object Object]",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "nblock checkbox-round checkbox-round--center",
+                  "defaultChecked": true,
+                  "id": "Highlights",
+                  "name": "destinationdata-radio",
+                  "type": "radio",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div>
+                    <p
+                      className="pfc3 f12"
+                    >
+                      test
+                    </p>
+                    <QuotePrice
+                      discount={0}
+                      lineBreak={false}
+                      perPerson=""
+                      showOriginalPrice={false}
+                    />
+                  </div>,
+                  "className": "block p15 bb pl48",
+                  "htmlFor": "Highlights",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="pfc3 f12"
+                      >
+                        test
+                      </p>,
+                      <QuotePrice
+                        discount={0}
+                        lineBreak={false}
+                        perPerson=""
+                        showOriginalPrice={false}
+                      />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "test",
+                        "className": "pfc3 f12",
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "discount": 0,
+                        "lineBreak": false,
+                        "perPerson": "",
+                        "showOriginalPrice": false,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "label",
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "& .checkbox-round +  label": Object {
+                "&:after": Object {
+                  "left": "19px",
+                },
+                "&:before": Object {
+                  "left": "15px",
+                  "top": "50%",
+                  "transform": "translateY(-50%)",
+                },
+                "border": "1px solid #d4d4d4",
+              },
+              "& a": Object {
+                "&:last-child": Object {
+                  "& label": Object {
+                    "border": "0",
+                  },
+                  "marginBottom": "0",
+                },
+                "marginBottom": "15px",
+              },
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

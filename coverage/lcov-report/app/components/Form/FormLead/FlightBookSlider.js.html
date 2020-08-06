@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Form/FormLead/FlightBookSlider.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app/components/Form/FormLead</a> FlightBookSlider.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">8.33% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>2/24</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">8.33% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>2/24</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import { PropTypes } from 'prop-types';
+&nbsp;
+import {
+  Flights
+} from 'helpers/Icon/Icon';
+&nbsp;
+class FlightBooking extends React.Component {
+<span class="fstat-no" title="function not covered" >  co</span>nstructor(props) {
+<span class="cstat-no" title="statement not covered" >    super(props);</span>
+<span class="cstat-no" title="statement not covered" >    this.checkInitialValues = this.checkInitialValues.bind(this);</span>
+<span class="cstat-no" title="statement not covered" >    this.handleChange = this.handleChange.bind(this);</span>
+<span class="cstat-no" title="statement not covered" >    this.isChecked = this.isChecked.bind(this);</span>
+<span class="cstat-no" title="statement not covered" >    this.state = {</span>
+      selected: this.checkInitialValues()
+    };
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  ch</span>eckInitialValues() {
+<span class="cstat-no" title="statement not covered" >    try {</span>
+<span class="cstat-no" title="statement not covered" >      if (this.props.formValues) {</span>
+        const flightAnswerAttributes = <span class="cstat-no" title="statement not covered" >this.props.formValues.flight_answer_attributes;</span>
+<span class="cstat-no" title="statement not covered" >        if (flightAnswerAttributes &amp;&amp; flightAnswerAttributes.optionId) {</span>
+<span class="cstat-no" title="statement not covered" >          return flightAnswerAttributes.optionId;</span>
+        }
+<span class="cstat-no" title="statement not covered" >        return null;</span>
+      }
+<span class="cstat-no" title="statement not covered" >      return null;</span>
+    } catch (error) {
+<span class="cstat-no" title="statement not covered" >      return null;</span>
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  is</span>Checked(optionId) {
+<span class="cstat-no" title="statement not covered" >    try {</span>
+      let index = <span class="cstat-no" title="statement not covered" >-1;</span>
+<span class="cstat-no" title="statement not covered" >      if (this.props.input.value !== '') {</span>
+<span class="cstat-no" title="statement not covered" >        index = [this.props.input.value].findIndex(<span class="fstat-no" title="function not covered" >ob</span>j =&gt;</span>
+<span class="cstat-no" title="statement not covered" >          obj.option_id.toString() === optionId.toString())</span>;
+      }
+<span class="cstat-no" title="statement not covered" >      return (index !== -1);</span>
+    } catch (e) {
+<span class="cstat-no" title="statement not covered" >      return false;</span>
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  ha</span>ndleChange(event) {
+<span class="cstat-no" title="statement not covered" >    this.props.input.onChange({ option_id: event.target.value, customization_id: '23' });</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  re</span>nder() {
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div&gt;
+        &lt;div className="flight-included col-xs-8 pr0 pl0"&gt;
+          &lt;p className="fw9 relative m0"&gt;&lt;span className="flight-icon"&gt;&lt;Flights /&gt;&lt;/span&gt;Flights To Be Included?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div className="col-xs-4 pr0 pl0 text-right"&gt;
+          &lt;div className="col-xs-6 pl0 pr0"&gt;
+            &lt;input
+              type="radio"
+              className="flight-radio hide"
+              name="cust_23"
+              id="flight-included1"
+              value="97"
+              defaultChecked={this.state.selected === '97'}
+              checked={this.isChecked(97)}
+              onChange={this.handleChange}
+            /&gt;
+            &lt;label htmlFor="flight-included1" className="cursorP pr8 pl8"&gt;&lt;p className="m0 pfc4 fw4 f12"&gt;YES&lt;/p&gt;&lt;/label&gt;
+          &lt;/div&gt;
+          &lt;div className="col-xs-6 pl0 pr0"&gt;
+            &lt;input
+              type="radio"
+              className="flight-radio hide"
+              name="cust_23"
+              id="flight-included2"
+              value="98"
+              defaultChecked={this.state.selected === '98'}
+              checked={this.isChecked(98)}
+              onChange={this.handleChange}
+            /&gt;
+            &lt;label htmlFor="flight-included2" className="cursorP pr8 pl8"&gt;&lt;p className="m0 pfc4 fw4 f12"&gt;NO&lt;/p&gt;&lt;/label&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+FlightBooking.propTypes = {
+  input: PropTypes.object.isRequired,
+  formValues: PropTypes.object
+};
+&nbsp;
+FlightBooking.defaultProps = {
+  formValues: {}
+};
+&nbsp;
+export default FlightBooking;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

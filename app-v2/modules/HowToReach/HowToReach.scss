@@ -1,0 +1,46 @@
+.byroute-title {
+  padding-left: 36px;
+  padding-right: 18px;
+  position: relative;
+
+  .byroute-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  svg {
+    position: absolute;
+    left: 0;
+    display: block;
+  }
+
+  .arrow-down {
+    width: 9px;
+    height: 6px;
+    
+    > svg{
+      display: block;
+    }
+  }
+}
+.byroute-input {
+  display: none;
+}
+.byroute-description {
+  display: none;
+  padding-top: 14px;
+}
+.byroute-input + label {
+  display: block;
+  padding: 12px 0 ;
+}
+.byroute-input:checked + label {
+
+  .byroute-description {
+    display: block;
+  }
+
+  .arrow-down{
+    transform: rotate(-180deg);
+  }
+}

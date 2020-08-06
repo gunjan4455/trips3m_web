@@ -1,0 +1,1831 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonials module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FiltersView
+    filterToggle={[MockFunction]}
+    initialFilters={Array []}
+    location={
+      Object {
+        "pathname": "/testimonials",
+      }
+    }
+    ratingFilters={
+      Array [
+        Object {
+          "checked": false,
+          "value": "1",
+        },
+        Object {
+          "checked": false,
+          "value": "2",
+        },
+        Object {
+          "checked": false,
+          "value": "3",
+        },
+        Object {
+          "checked": false,
+          "value": "4",
+        },
+        Object {
+          "checked": false,
+          "value": "5",
+        },
+      ]
+    }
+    updateUrl={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="p15 bb"
+        >
+          <div
+            className="at_close iblock icon-14"
+            onClick={[MockFunction]}
+          >
+            <IconSvg />
+          </div>
+          <div
+            className="f16 fw4 pfc3 pl24 iblock"
+          >
+            Filters
+          </div>
+          <div
+            className="at_reset fright f14 pfc4 text-uppercase fw4"
+            onClick={[Function]}
+          >
+            Reset
+          </div>
+        </div>,
+        <div
+          className="p15"
+        >
+          <div
+            className="fw7 pfc3 f14 pb15"
+          >
+            Traveler Rating
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="col-xs-6"
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="[1]"
+                name="[1]"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="[1]"
+              >
+                <RatingStar
+                  isEmptyStarsHidden={false}
+                  rating={1}
+                />
+              </label>
+            </div>
+            <div
+              className="col-xs-6"
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="[2]"
+                name="[2]"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="[2]"
+              >
+                <RatingStar
+                  isEmptyStarsHidden={false}
+                  rating={2}
+                />
+              </label>
+            </div>
+            <div
+              className="col-xs-6"
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="[3]"
+                name="[3]"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="[3]"
+              >
+                <RatingStar
+                  isEmptyStarsHidden={false}
+                  rating={3}
+                />
+              </label>
+            </div>
+            <div
+              className="col-xs-6"
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="[4]"
+                name="[4]"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="[4]"
+              >
+                <RatingStar
+                  isEmptyStarsHidden={false}
+                  rating={4}
+                />
+              </label>
+            </div>
+            <div
+              className="col-xs-6"
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="[5]"
+                name="[5]"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                htmlFor="[5]"
+              >
+                <RatingStar
+                  isEmptyStarsHidden={false}
+                  rating={5}
+                />
+              </label>
+            </div>
+          </div>
+        </div>,
+        <div
+          className="fixed p8 wfull b0 bs6 sbcw z1"
+        >
+          <button
+            className="at_handleSubmit wfull f14 fw7 sfcw pbc2 input-with-icon-box"
+            onClick={[Function]}
+            type="button"
+          >
+            Apply Filter
+          </button>
+        </div>,
+      ],
+      "className": "fixed t0 l0 sbcw z16 wfull pb48 hfull overflowa",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="at_close iblock icon-14"
+              onClick={[MockFunction]}
+            >
+              <IconSvg />
+            </div>,
+            <div
+              className="f16 fw4 pfc3 pl24 iblock"
+            >
+              Filters
+            </div>,
+            <div
+              className="at_reset fright f14 pfc4 text-uppercase fw4"
+              onClick={[Function]}
+            >
+              Reset
+            </div>,
+          ],
+          "className": "p15 bb",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <IconSvg />,
+              "className": "at_close iblock icon-14",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Filters",
+              "className": "f16 fw4 pfc3 pl24 iblock",
+            },
+            "ref": null,
+            "rendered": "Filters",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Reset",
+              "className": "at_reset fright f14 pfc4 text-uppercase fw4",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Reset",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="fw7 pfc3 f14 pb15"
+            >
+              Traveler Rating
+            </div>,
+            <div
+              className="row"
+            >
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[1]"
+                  name="[1]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[1]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={1}
+                  />
+                </label>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[2]"
+                  name="[2]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[2]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={2}
+                  />
+                </label>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[3]"
+                  name="[3]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[3]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={3}
+                  />
+                </label>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[4]"
+                  name="[4]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[4]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={4}
+                  />
+                </label>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[5]"
+                  name="[5]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[5]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={5}
+                  />
+                </label>
+              </div>
+            </div>,
+          ],
+          "className": "p15",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Traveler Rating",
+              "className": "fw7 pfc3 f14 pb15",
+            },
+            "ref": null,
+            "rendered": "Traveler Rating",
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[1]"
+                    name="[1]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[1]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={1}
+                    />
+                  </label>
+                </div>,
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[2]"
+                    name="[2]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[2]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={2}
+                    />
+                  </label>
+                </div>,
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[3]"
+                    name="[3]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[3]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={3}
+                    />
+                  </label>
+                </div>,
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[4]"
+                    name="[4]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[4]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={4}
+                    />
+                  </label>
+                </div>,
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[5]"
+                    name="[5]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[5]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={5}
+                    />
+                  </label>
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[1]"
+                      name="[1]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />,
+                    <label
+                      htmlFor="[1]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={1}
+                      />
+                    </label>,
+                  ],
+                  "className": "col-xs-6",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-common",
+                      "id": "[1]",
+                      "name": "[1]",
+                      "onChange": [Function],
+                      "type": "checkbox",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={1}
+                      />,
+                      "htmlFor": "[1]",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "isEmptyStarsHidden": false,
+                        "rating": 1,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[2]"
+                      name="[2]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />,
+                    <label
+                      htmlFor="[2]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={2}
+                      />
+                    </label>,
+                  ],
+                  "className": "col-xs-6",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-common",
+                      "id": "[2]",
+                      "name": "[2]",
+                      "onChange": [Function],
+                      "type": "checkbox",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={2}
+                      />,
+                      "htmlFor": "[2]",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "isEmptyStarsHidden": false,
+                        "rating": 2,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[3]"
+                      name="[3]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />,
+                    <label
+                      htmlFor="[3]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={3}
+                      />
+                    </label>,
+                  ],
+                  "className": "col-xs-6",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-common",
+                      "id": "[3]",
+                      "name": "[3]",
+                      "onChange": [Function],
+                      "type": "checkbox",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={3}
+                      />,
+                      "htmlFor": "[3]",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "isEmptyStarsHidden": false,
+                        "rating": 3,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[4]"
+                      name="[4]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />,
+                    <label
+                      htmlFor="[4]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={4}
+                      />
+                    </label>,
+                  ],
+                  "className": "col-xs-6",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-common",
+                      "id": "[4]",
+                      "name": "[4]",
+                      "onChange": [Function],
+                      "type": "checkbox",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={4}
+                      />,
+                      "htmlFor": "[4]",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "isEmptyStarsHidden": false,
+                        "rating": 4,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "5",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[5]"
+                      name="[5]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />,
+                    <label
+                      htmlFor="[5]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={5}
+                      />
+                    </label>,
+                  ],
+                  "className": "col-xs-6",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-common",
+                      "id": "[5]",
+                      "name": "[5]",
+                      "onChange": [Function],
+                      "type": "checkbox",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={5}
+                      />,
+                      "htmlFor": "[5]",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "isEmptyStarsHidden": false,
+                        "rating": 5,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button
+            className="at_handleSubmit wfull f14 fw7 sfcw pbc2 input-with-icon-box"
+            onClick={[Function]}
+            type="button"
+          >
+            Apply Filter
+          </button>,
+          "className": "fixed p8 wfull b0 bs6 sbcw z1",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Apply Filter",
+            "className": "at_handleSubmit wfull f14 fw7 sfcw pbc2 input-with-icon-box",
+            "onClick": [Function],
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": "Apply Filter",
+          "type": "button",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="p15 bb"
+          >
+            <div
+              className="at_close iblock icon-14"
+              onClick={[MockFunction]}
+            >
+              <IconSvg />
+            </div>
+            <div
+              className="f16 fw4 pfc3 pl24 iblock"
+            >
+              Filters
+            </div>
+            <div
+              className="at_reset fright f14 pfc4 text-uppercase fw4"
+              onClick={[Function]}
+            >
+              Reset
+            </div>
+          </div>,
+          <div
+            className="p15"
+          >
+            <div
+              className="fw7 pfc3 f14 pb15"
+            >
+              Traveler Rating
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[1]"
+                  name="[1]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[1]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={1}
+                  />
+                </label>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[2]"
+                  name="[2]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[2]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={2}
+                  />
+                </label>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[3]"
+                  name="[3]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[3]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={3}
+                  />
+                </label>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[4]"
+                  name="[4]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[4]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={4}
+                  />
+                </label>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="[5]"
+                  name="[5]"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  htmlFor="[5]"
+                >
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={5}
+                  />
+                </label>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="fixed p8 wfull b0 bs6 sbcw z1"
+          >
+            <button
+              className="at_handleSubmit wfull f14 fw7 sfcw pbc2 input-with-icon-box"
+              onClick={[Function]}
+              type="button"
+            >
+              Apply Filter
+            </button>
+          </div>,
+        ],
+        "className": "fixed t0 l0 sbcw z16 wfull pb48 hfull overflowa",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="at_close iblock icon-14"
+                onClick={[MockFunction]}
+              >
+                <IconSvg />
+              </div>,
+              <div
+                className="f16 fw4 pfc3 pl24 iblock"
+              >
+                Filters
+              </div>,
+              <div
+                className="at_reset fright f14 pfc4 text-uppercase fw4"
+                onClick={[Function]}
+              >
+                Reset
+              </div>,
+            ],
+            "className": "p15 bb",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg />,
+                "className": "at_close iblock icon-14",
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Filters",
+                "className": "f16 fw4 pfc3 pl24 iblock",
+              },
+              "ref": null,
+              "rendered": "Filters",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Reset",
+                "className": "at_reset fright f14 pfc4 text-uppercase fw4",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Reset",
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="fw7 pfc3 f14 pb15"
+              >
+                Traveler Rating
+              </div>,
+              <div
+                className="row"
+              >
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[1]"
+                    name="[1]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[1]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={1}
+                    />
+                  </label>
+                </div>
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[2]"
+                    name="[2]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[2]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={2}
+                    />
+                  </label>
+                </div>
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[3]"
+                    name="[3]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[3]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={3}
+                    />
+                  </label>
+                </div>
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[4]"
+                    name="[4]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[4]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={4}
+                    />
+                  </label>
+                </div>
+                <div
+                  className="col-xs-6"
+                >
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="[5]"
+                    name="[5]"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />
+                  <label
+                    htmlFor="[5]"
+                  >
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={5}
+                    />
+                  </label>
+                </div>
+              </div>,
+            ],
+            "className": "p15",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Traveler Rating",
+                "className": "fw7 pfc3 f14 pb15",
+              },
+              "ref": null,
+              "rendered": "Traveler Rating",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-xs-6"
+                  >
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[1]"
+                      name="[1]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="[1]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={1}
+                      />
+                    </label>
+                  </div>,
+                  <div
+                    className="col-xs-6"
+                  >
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[2]"
+                      name="[2]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="[2]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={2}
+                      />
+                    </label>
+                  </div>,
+                  <div
+                    className="col-xs-6"
+                  >
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[3]"
+                      name="[3]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="[3]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={3}
+                      />
+                    </label>
+                  </div>,
+                  <div
+                    className="col-xs-6"
+                  >
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[4]"
+                      name="[4]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="[4]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={4}
+                      />
+                    </label>
+                  </div>,
+                  <div
+                    className="col-xs-6"
+                  >
+                    <input
+                      checked={false}
+                      className="checkbox-common"
+                      id="[5]"
+                      name="[5]"
+                      onChange={[Function]}
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="[5]"
+                    >
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={5}
+                      />
+                    </label>
+                  </div>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="checkbox-common"
+                        id="[1]"
+                        name="[1]"
+                        onChange={[Function]}
+                        type="checkbox"
+                      />,
+                      <label
+                        htmlFor="[1]"
+                      >
+                        <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={1}
+                        />
+                      </label>,
+                    ],
+                    "className": "col-xs-6",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-common",
+                        "id": "[1]",
+                        "name": "[1]",
+                        "onChange": [Function],
+                        "type": "checkbox",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={1}
+                        />,
+                        "htmlFor": "[1]",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "isEmptyStarsHidden": false,
+                          "rating": 1,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="checkbox-common"
+                        id="[2]"
+                        name="[2]"
+                        onChange={[Function]}
+                        type="checkbox"
+                      />,
+                      <label
+                        htmlFor="[2]"
+                      >
+                        <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={2}
+                        />
+                      </label>,
+                    ],
+                    "className": "col-xs-6",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-common",
+                        "id": "[2]",
+                        "name": "[2]",
+                        "onChange": [Function],
+                        "type": "checkbox",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={2}
+                        />,
+                        "htmlFor": "[2]",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "isEmptyStarsHidden": false,
+                          "rating": 2,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="checkbox-common"
+                        id="[3]"
+                        name="[3]"
+                        onChange={[Function]}
+                        type="checkbox"
+                      />,
+                      <label
+                        htmlFor="[3]"
+                      >
+                        <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={3}
+                        />
+                      </label>,
+                    ],
+                    "className": "col-xs-6",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-common",
+                        "id": "[3]",
+                        "name": "[3]",
+                        "onChange": [Function],
+                        "type": "checkbox",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={3}
+                        />,
+                        "htmlFor": "[3]",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "isEmptyStarsHidden": false,
+                          "rating": 3,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "4",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="checkbox-common"
+                        id="[4]"
+                        name="[4]"
+                        onChange={[Function]}
+                        type="checkbox"
+                      />,
+                      <label
+                        htmlFor="[4]"
+                      >
+                        <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={4}
+                        />
+                      </label>,
+                    ],
+                    "className": "col-xs-6",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-common",
+                        "id": "[4]",
+                        "name": "[4]",
+                        "onChange": [Function],
+                        "type": "checkbox",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={4}
+                        />,
+                        "htmlFor": "[4]",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "isEmptyStarsHidden": false,
+                          "rating": 4,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "5",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="checkbox-common"
+                        id="[5]"
+                        name="[5]"
+                        onChange={[Function]}
+                        type="checkbox"
+                      />,
+                      <label
+                        htmlFor="[5]"
+                      >
+                        <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={5}
+                        />
+                      </label>,
+                    ],
+                    "className": "col-xs-6",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-common",
+                        "id": "[5]",
+                        "name": "[5]",
+                        "onChange": [Function],
+                        "type": "checkbox",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <RatingStar
+                          isEmptyStarsHidden={false}
+                          rating={5}
+                        />,
+                        "htmlFor": "[5]",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "isEmptyStarsHidden": false,
+                          "rating": 5,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="at_handleSubmit wfull f14 fw7 sfcw pbc2 input-with-icon-box"
+              onClick={[Function]}
+              type="button"
+            >
+              Apply Filter
+            </button>,
+            "className": "fixed p8 wfull b0 bs6 sbcw z1",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Apply Filter",
+              "className": "at_handleSubmit wfull f14 fw7 sfcw pbc2 input-with-icon-box",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Apply Filter",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

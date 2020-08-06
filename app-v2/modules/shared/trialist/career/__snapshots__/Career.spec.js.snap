@@ -1,0 +1,694 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`career module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Career
+    careers={
+      Object {
+        "development": Array [],
+        "salesAndOperations": Array [
+          Object {
+            "age": "",
+            "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+            "category": "Sales and Operations",
+            "education": "Graduation",
+            "experience": "0-3 years",
+            "goodToHave": "Experience in sales, operations and vendor management.",
+            "howToApply": "career Site",
+            "id": 25,
+            "location": "Gurgaon",
+            "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+            "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+            "subCategory": "​Travel Consultant",
+            "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="clearfix p24 mb32"
+        >
+          <div
+            className="mb24 at_heading1"
+          >
+            <TrialistHeading
+              extraStyle={Object {}}
+              heading="Solving Holiday Woes"
+            />
+          </div>
+          <AboutText
+            text="Holiday planning is a mix of gathering information from multiple channels, talking to several service providers and constantly turning into device to plan and pay for small things. Ever thought how relaxed a traveler will be if all the answers are provided at one place without any hassle? Welcome to TravelTriangle where we are solving real time complex problems and building the biggest holiday eco-system."
+          />
+        </div>,
+        <div
+          className="clearfix p8 mb32"
+        >
+          <div
+            className="mb24 at_heading2"
+          >
+            <TrialistHeading
+              extraStyle={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+              heading="Current Openings"
+            />
+          </div>
+          <div
+            className="at_text2"
+          >
+            <AccordionExpand
+              list={Array []}
+              name="Development"
+            />
+            <AccordionExpand
+              list={
+                Array [
+                  Object {
+                    "age": "",
+                    "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                    "category": "Sales and Operations",
+                    "education": "Graduation",
+                    "experience": "0-3 years",
+                    "goodToHave": "Experience in sales, operations and vendor management.",
+                    "howToApply": "career Site",
+                    "id": 25,
+                    "location": "Gurgaon",
+                    "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                    "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                    "subCategory": "​Travel Consultant",
+                    "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                  },
+                ]
+              }
+              name="Sales & Operations"
+            />
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="mb24 at_heading1"
+            >
+              <TrialistHeading
+                extraStyle={Object {}}
+                heading="Solving Holiday Woes"
+              />
+            </div>,
+            <AboutText
+              text="Holiday planning is a mix of gathering information from multiple channels, talking to several service providers and constantly turning into device to plan and pay for small things. Ever thought how relaxed a traveler will be if all the answers are provided at one place without any hassle? Welcome to TravelTriangle where we are solving real time complex problems and building the biggest holiday eco-system."
+            />,
+          ],
+          "className": "clearfix p24 mb32",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <TrialistHeading
+                extraStyle={Object {}}
+                heading="Solving Holiday Woes"
+              />,
+              "className": "mb24 at_heading1",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "extraStyle": Object {},
+                "heading": "Solving Holiday Woes",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "text": "Holiday planning is a mix of gathering information from multiple channels, talking to several service providers and constantly turning into device to plan and pay for small things. Ever thought how relaxed a traveler will be if all the answers are provided at one place without any hassle? Welcome to TravelTriangle where we are solving real time complex problems and building the biggest holiday eco-system.",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="mb24 at_heading2"
+            >
+              <TrialistHeading
+                extraStyle={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+                heading="Current Openings"
+              />
+            </div>,
+            <div
+              className="at_text2"
+            >
+              <AccordionExpand
+                list={Array []}
+                name="Development"
+              />
+              <AccordionExpand
+                list={
+                  Array [
+                    Object {
+                      "age": "",
+                      "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                      "category": "Sales and Operations",
+                      "education": "Graduation",
+                      "experience": "0-3 years",
+                      "goodToHave": "Experience in sales, operations and vendor management.",
+                      "howToApply": "career Site",
+                      "id": 25,
+                      "location": "Gurgaon",
+                      "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                      "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                      "subCategory": "​Travel Consultant",
+                      "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                    },
+                  ]
+                }
+                name="Sales & Operations"
+              />
+            </div>,
+          ],
+          "className": "clearfix p8 mb32",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <TrialistHeading
+                extraStyle={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+                heading="Current Openings"
+              />,
+              "className": "mb24 at_heading2",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "extraStyle": Object {
+                  "textAlign": "center",
+                },
+                "heading": "Current Openings",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <AccordionExpand
+                  list={Array []}
+                  name="Development"
+                />,
+                <AccordionExpand
+                  list={
+                    Array [
+                      Object {
+                        "age": "",
+                        "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                        "category": "Sales and Operations",
+                        "education": "Graduation",
+                        "experience": "0-3 years",
+                        "goodToHave": "Experience in sales, operations and vendor management.",
+                        "howToApply": "career Site",
+                        "id": 25,
+                        "location": "Gurgaon",
+                        "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                        "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                        "subCategory": "​Travel Consultant",
+                        "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                      },
+                    ]
+                  }
+                  name="Sales & Operations"
+                />,
+              ],
+              "className": "at_text2",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "development",
+                "nodeType": "function",
+                "props": Object {
+                  "list": Array [],
+                  "name": "Development",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "salesAndOperations",
+                "nodeType": "function",
+                "props": Object {
+                  "list": Array [
+                    Object {
+                      "age": "",
+                      "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                      "category": "Sales and Operations",
+                      "education": "Graduation",
+                      "experience": "0-3 years",
+                      "goodToHave": "Experience in sales, operations and vendor management.",
+                      "howToApply": "career Site",
+                      "id": 25,
+                      "location": "Gurgaon",
+                      "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                      "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                      "subCategory": "​Travel Consultant",
+                      "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                    },
+                  ],
+                  "name": "Sales & Operations",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="clearfix p24 mb32"
+          >
+            <div
+              className="mb24 at_heading1"
+            >
+              <TrialistHeading
+                extraStyle={Object {}}
+                heading="Solving Holiday Woes"
+              />
+            </div>
+            <AboutText
+              text="Holiday planning is a mix of gathering information from multiple channels, talking to several service providers and constantly turning into device to plan and pay for small things. Ever thought how relaxed a traveler will be if all the answers are provided at one place without any hassle? Welcome to TravelTriangle where we are solving real time complex problems and building the biggest holiday eco-system."
+            />
+          </div>,
+          <div
+            className="clearfix p8 mb32"
+          >
+            <div
+              className="mb24 at_heading2"
+            >
+              <TrialistHeading
+                extraStyle={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+                heading="Current Openings"
+              />
+            </div>
+            <div
+              className="at_text2"
+            >
+              <AccordionExpand
+                list={Array []}
+                name="Development"
+              />
+              <AccordionExpand
+                list={
+                  Array [
+                    Object {
+                      "age": "",
+                      "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                      "category": "Sales and Operations",
+                      "education": "Graduation",
+                      "experience": "0-3 years",
+                      "goodToHave": "Experience in sales, operations and vendor management.",
+                      "howToApply": "career Site",
+                      "id": 25,
+                      "location": "Gurgaon",
+                      "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                      "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                      "subCategory": "​Travel Consultant",
+                      "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                    },
+                  ]
+                }
+                name="Sales & Operations"
+              />
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="mb24 at_heading1"
+              >
+                <TrialistHeading
+                  extraStyle={Object {}}
+                  heading="Solving Holiday Woes"
+                />
+              </div>,
+              <AboutText
+                text="Holiday planning is a mix of gathering information from multiple channels, talking to several service providers and constantly turning into device to plan and pay for small things. Ever thought how relaxed a traveler will be if all the answers are provided at one place without any hassle? Welcome to TravelTriangle where we are solving real time complex problems and building the biggest holiday eco-system."
+              />,
+            ],
+            "className": "clearfix p24 mb32",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <TrialistHeading
+                  extraStyle={Object {}}
+                  heading="Solving Holiday Woes"
+                />,
+                "className": "mb24 at_heading1",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "extraStyle": Object {},
+                  "heading": "Solving Holiday Woes",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "text": "Holiday planning is a mix of gathering information from multiple channels, talking to several service providers and constantly turning into device to plan and pay for small things. Ever thought how relaxed a traveler will be if all the answers are provided at one place without any hassle? Welcome to TravelTriangle where we are solving real time complex problems and building the biggest holiday eco-system.",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="mb24 at_heading2"
+              >
+                <TrialistHeading
+                  extraStyle={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                  heading="Current Openings"
+                />
+              </div>,
+              <div
+                className="at_text2"
+              >
+                <AccordionExpand
+                  list={Array []}
+                  name="Development"
+                />
+                <AccordionExpand
+                  list={
+                    Array [
+                      Object {
+                        "age": "",
+                        "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                        "category": "Sales and Operations",
+                        "education": "Graduation",
+                        "experience": "0-3 years",
+                        "goodToHave": "Experience in sales, operations and vendor management.",
+                        "howToApply": "career Site",
+                        "id": 25,
+                        "location": "Gurgaon",
+                        "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                        "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                        "subCategory": "​Travel Consultant",
+                        "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                      },
+                    ]
+                  }
+                  name="Sales & Operations"
+                />
+              </div>,
+            ],
+            "className": "clearfix p8 mb32",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <TrialistHeading
+                  extraStyle={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                  heading="Current Openings"
+                />,
+                "className": "mb24 at_heading2",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "extraStyle": Object {
+                    "textAlign": "center",
+                  },
+                  "heading": "Current Openings",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <AccordionExpand
+                    list={Array []}
+                    name="Development"
+                  />,
+                  <AccordionExpand
+                    list={
+                      Array [
+                        Object {
+                          "age": "",
+                          "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                          "category": "Sales and Operations",
+                          "education": "Graduation",
+                          "experience": "0-3 years",
+                          "goodToHave": "Experience in sales, operations and vendor management.",
+                          "howToApply": "career Site",
+                          "id": 25,
+                          "location": "Gurgaon",
+                          "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                          "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                          "subCategory": "​Travel Consultant",
+                          "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                        },
+                      ]
+                    }
+                    name="Sales & Operations"
+                  />,
+                ],
+                "className": "at_text2",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "development",
+                  "nodeType": "function",
+                  "props": Object {
+                    "list": Array [],
+                    "name": "Development",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "salesAndOperations",
+                  "nodeType": "function",
+                  "props": Object {
+                    "list": Array [
+                      Object {
+                        "age": "",
+                        "careerImageUrl": "https://d2ox9n3d2kcupy.cloudfront.net/attachments/careers/25/original/travel-clipart-travel_063.gif",
+                        "category": "Sales and Operations",
+                        "education": "Graduation",
+                        "experience": "0-3 years",
+                        "goodToHave": "Experience in sales, operations and vendor management.",
+                        "howToApply": "career Site",
+                        "id": 25,
+                        "location": "Gurgaon",
+                        "rolesAndResponsibities": "1. Maintaining relationship with travelers by calling and understanding their trip related details.",
+                        "skills": "​• Freshers are welcome.
+​• 0 to 2 years of experience in sales, operations, vendor management",
+                        "subCategory": "​Travel Consultant",
+                        "whatYouGet": "1. Open Culture and Great learning curve.
+2. Ample opportunity for career growth.",
+                      },
+                    ],
+                    "name": "Sales & Operations",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,959 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Compare Module should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CompareHotel
+    quotes={
+      Object {
+        "7124216": Object {
+          "agent": Object {
+            "agentsConvertedTrips": 298,
+            "companyName": "Unique Trip Maker ",
+            "createdAt": "2018-03-27T18:35:56+05:30",
+            "description": "Uniquetripmaker is a travel company based on New Delhi, India, Founded in 2017. Uniquetripmaker is  India’s leading and expert  travel agent who work smartly to provide better experience to our client. we follow only one rule i.e “do one thing and do it well”.
+
+As of now we provide packages for our most popular destination in which we can give our client luxury services at unbeatable rate. our popular destination is GOA, Himachal, Kerala and Rajasthan.",
+            "displayName": "Unique Trip Maker ",
+            "displayRating": 4,
+            "email": "info@uniquetripmaker.com",
+            "encryptedId": "313639393137392d556e69-Unique-Trip-Maker",
+            "fullAddress": "N-3, SOUTH EXTENSTION PART-I, ANDREWSGANJ, South Delhi, Delhi, Delhi, India, 110049",
+            "id": 1699179,
+            "landlineNumber": "8860775188",
+            "mobileNumber": "8860670640",
+            "profilePicture": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://dknfdeb8v69ms.cloudfront.net/attachments/tr_a_profiles/3048/original/logo.png",
+            "ratingStats": Object {
+              "fiveStar": 55,
+              "fiveStarPercentage": 56.70103092783505,
+              "fourStar": 32,
+              "fourStarPercentage": 32.98969072164948,
+              "oneStar": 0,
+              "oneStarPercentage": 0,
+              "positiveRating": 87,
+              "positiveRatingPercentage": 90,
+              "ratingText": "Superb Reviews",
+              "threeStar": 10,
+              "threeStarPercentage": 10.309278350515465,
+              "totalPositiveRating": 97,
+              "totalRating": 97,
+              "twoStar": 0,
+              "twoStarPercentage": 0,
+            },
+            "revenueEarned": 20860000,
+            "reviewsCount": 97,
+            "testimonialUrl": "http://bookings-qa1.ttdev.in/agents/313639393137392d556e69-Unique-Trip-Maker",
+            "updatedAt": "2019-01-19T23:00:25+05:30",
+          },
+          "cabsText": "Both way transfers by Private Ac (Swift Dzire)
+",
+          "days": 2,
+          "description": "info@uniquetripmaker.com
+8800987827",
+          "destinationsList": Array [
+            Object {
+              "id": 59,
+              "name": "Goa",
+            },
+          ],
+          "discount": 0,
+          "discountableType": null,
+          "discountableTypeId": null,
+          "downloadUrl": "https://bookings-qa1.ttdev.in/quotes/7124216/download_quote.pdf",
+          "exclusionsText": "Accomodation : Single
+Accomodation : Triple
+Meal plan : Lunch
+Meal plan : Dinner
+Sightseeing
+Use of gymnasium
+Trip suppliments
+Cab : SIC",
+          "flightsText": "",
+          "hotelText": "Night 1, Rio Boutique, Bardez,  Deluxe ,",
+          "hotelsDetail": Array [
+            Object {
+              "days": Array [
+                1,
+              ],
+              "hotelInfos": Array [
+                Object {
+                  "address": null,
+                  "city": "Bardez",
+                  "comments": "",
+                  "dId": null,
+                  "description": null,
+                  "gId": null,
+                  "hotelId": 359407,
+                  "hotelImages": Array [],
+                  "isAlternate": 0,
+                  "name": "Rio Boutique",
+                  "nights": "1",
+                  "quoteCityId": 35268057,
+                  "rating": 4,
+                  "roomType": " Deluxe ",
+                  "selectionStatus": null,
+                  "taUrl": null,
+                  "tripDayId": 38054614,
+                },
+              ],
+            },
+          ],
+          "id": 7124216,
+          "inclusions": Object {
+            "0": Array [
+              Object {
+                "category": "Accomodation",
+                "commentsAdded": null,
+                "id": 271,
+                "isIncluded": false,
+                "name": "Single",
+              },
+              Object {
+                "category": "Accomodation",
+                "commentsAdded": null,
+                "id": 273,
+                "isIncluded": false,
+                "name": "Triple",
+              },
+            ],
+            "1": Array [
+              Object {
+                "category": "Accomodation",
+                "commentsAdded": null,
+                "id": 272,
+                "isIncluded": true,
+                "name": "Double",
+              },
+              Object {
+                "category": "Meal plan",
+                "commentsAdded": null,
+                "id": 274,
+                "isIncluded": true,
+                "name": "Breakfast",
+              },
+            ],
+          },
+          "inclusionsText": "Accomodation : Double
+Meal plan : Breakfast
+Welcome Drink
+Wifi Connection
+Transfers (Railway/Airport)
+Tv with cable connection
+English Speaking Driver
+Use of Swimming Pool and Tanning Beds
+Government Taxes/VAT/ Service Charges
+Transfers (Railway/Airport) : Arrival
+Transfers (Railway/Airport) : Departure
+Cab : Private",
+          "installmentInfo": Object {
+            "installmentsReceived": 0,
+            "isAllPaymentReceived": false,
+            "nextScheduledDate": null,
+          },
+          "invoiceDetails": Object {},
+          "invoiceDownloadUrl": "",
+          "invoiceShowUrl": "",
+          "itinerary": Object {
+            "daysInformation": Array [
+              Object {
+                "cityId": 27183,
+                "cityName": "Bardez",
+                "dateOfItinerary": null,
+                "dayOfItinerary": 1,
+                "description": "Driver will pick you up from Goa Airport / Railway station / Bus stand .
+
+Reach hotel, check in and relax and some leisure depart for local sightseeing at own cost.
+",
+                "title": "Arrival at Goa ",
+                "tripDayId": 38054614,
+              },
+              Object {
+                "cityId": null,
+                "cityName": null,
+                "dateOfItinerary": null,
+                "dayOfItinerary": 2,
+                "description": "Check-out the hotel after breakfast, our representative will escort you to Airport/Railway station/Bus stop,
+then you will leave Goa with sweet &amp; memorable memories which will be remember even after decay.",
+                "title": "Back to Home ",
+                "tripDayId": 38054615,
+              },
+            ],
+          },
+          "nights": 1,
+          "opDetails": Object {
+            "email": "damini.oberoi@traveltriangle.com",
+            "id": 2251659,
+            "image": "/pics/original/missing.png",
+            "initials": "D",
+            "name": "Damini Oberoi",
+            "phoneNo": "18001235555",
+          },
+          "paymentUrl": "https://bookings-qa1.ttdev.in/ebs?amount=9750.0&currency=Rupee&quote_id=7124216&requested_trip_id=3918699&show_neft=true",
+          "pricingInfo": Object {
+            "currency": "Rupee",
+            "discount": 0,
+            "flightCost": 0,
+            "perPersonBudget": 4875,
+            "perPersonText": "per person",
+            "price": 4875,
+            "priceInRupee": 4875,
+            "totalPrice": 9750,
+            "visaCost": 0,
+          },
+          "status": "chosen",
+          "statusUpdates": Array [],
+          "subAccountId": null,
+          "termsConditions": "<p><strong><em><u>Cancellation Policy</u></em></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<ul>
+<li><em>Cancellation within 70 Days prior to the arrival date of the tour packages / Hotel Booking / Transportation: 20% retention (Total package cost)</em></li>
+<li><em>Cancellation within 50 Days prior to the arrival date of the tour packages / Hotel Booking / Transportation: 30% retention (Total package cost)</em></li>
+<li><em>Cancellation within 30 Days prior to the arrival date of the tour packages / Hotel Booking / Transportation: 40% retention (Total package cost)</em></li>
+<li><em>Cancellation within 15 Days prior to the arrival date of the tour packages / Hotel Booking / Transportation: 50 % retention (Total package cost)</em></li>
+<li><em>Cancellation within 10 Days prior to the arrival date of the tour packages/Hotel Booking / Transportation or Non Utilization of the same: No Retention (Total package cost)</em></li>
+<li><em>Cancellation of Air Fare will be Rs.2000 Per seat.</em></li>
+<li><em>Cancellation of Train ticket will be 60% on total ticket fare.</em></li>
+<li><em>There will be no Refund for Volvo / Bus Tickets</em></li>
+<li><em>Apart from Cancellation amount 10% of the total amount will be charged extra as files charges if any guest cancels there trip before the cancellation period.</em></li>
+</ul>
+<h2><u>Terms and Condition</u></h2>
+<p><em>&nbsp;</em></p>
+<ul>
+<li><em>Tour Itinerary is suggested Tour Plan. The Company is responsible for only those services which are charged from the guest. All other services which are not paid by the guest to the Company Are Suggested services and Company is nowhere bound to provide that service or pay the cost for the same.</em></li>
+<li><em>Check in and Checkout Timing of the Hotel will be according to the timing of the respective Hotels.</em></li>
+<li><em>Company is not responsible for compensating any loss or additional cost incurred by the guest while taking the tour.</em></li>
+<li><em>Company is not responsible, nor liable for any damage, loss or injury caused to any passenger while taking the tour.</em></li>
+<li><em>Dollar rates are applicable only to foreign nationals &amp; Indians possessing foreign passports, while the INR package rates will be applicable to Indian nationals.</em></li>
+<li><em>All the disputes are subject to Delhi Jurisdiction only.</em></li>
+<li><em>Any Claim related to the Package must be brought to the notice of the Company within a week.</em></li>
+<li><em>We shall not be responsible for any delays &amp; alterations in the program or expenses incurred - directly or indirectly - due to natural hazards, flight cancellations, accident, breakdown of transport, weather, sickness, landslides, closures/blockades due to political unrest or any such incidents.</em></li>
+<li><em>We do not have any insurance policy covering the expenses for accident, sickness, loss due to theft, or any other reasons. Visitors are advised to seek such insurance arrangements in their home country. All baggage's &amp; personal property/s at all times are at the client's risk. Our transport is certainly Insured as per Indian Motor Vehicles Act and claims, if any, will be made as per the rules of the Insurance Companies in Indian Rupees.</em></li>
+<li><em>In Hill Destinations Room Heater are charged on extra basis.</em></li>
+<li><em>Itinerary will not be changed once your tour will start, if you want us to make any changes in the Itinerary then you have to intimate us before 10 days of your journey.</em></li>
+<li><em>The trips are subject to delay or inconvenience during the journey due to breakdown of the vehicle or bus cancelled due to unavoidable reason. Under such circumstances Uniquetripmaker will make alternate arrangements of travel for breakdown or for cancelled Bus as soon as possible which may be different form the committed vehicle or committed Bus.</em></li>
+<li><em>We are not liable to pay any compensation due to technical failure in vehicle or due to natural hazards, flight cancellations, weather, sickness, landslides, political closures or any untoward incidents.</em></li>
+<li><em>All itineraries are samples, intended to give you general idea of the trip schedule. Numerous factors such as weather, road conditions, physical ability of participants etc. may dictate changes either before the tour or while on the trail. Uniquetripmaker reserve the right to change any schedule in the interest of the trip participants, safety, comfort and general wellbeing.</em></li>
+<li><em>In case of non-availability of rooms at the hotel mentioned, we shell provide alternative hotels of similar category.</em></li>
+</ul>
+<p><em>&nbsp;</em></p>
+<p><em><em>THANK YOU&hellip;</em></em></p>",
+          "travelerDetailUrl": "",
+          "tripStatus": "Active",
+          "updatedAt": "2019-02-01T10:35:59+05:30",
+          "versionCount": 0,
+          "versionIndex": 1,
+          "vouchers": Array [],
+        },
+        "7124252": Object {
+          "agent": Object {
+            "agentsConvertedTrips": 155,
+            "companyName": "Wander Globe Inc ",
+            "createdAt": "2015-05-24T07:43:41+05:30",
+            "description": "Wander Globe is India's one of the renowned tour company that provides a number of special travel packages and deals on tourist destinations in India and across the world. Our travel website offers full range of travel services and products to travelers who are visiting India. Wander Globe offers personalized travel option, tailor-made to your special requirements. We make simple itineraries in an interesting way, bringing in a whole host of innovative ideas. We invite you to TRAVEL WITH US!",
+            "displayName": "Wander Globe Inc ",
+            "displayRating": 4.5,
+            "email": "wanderglobedelhi@gmail.com",
+            "encryptedId": "3136363133382d57616e-Wander-Globe-Inc",
+            "fullAddress": "C/3 ,PRABHU RESIDENCY PORVORIM GOA..403501, Goa, Goa, India, 403501",
+            "id": 166138,
+            "landlineNumber": "",
+            "mobileNumber": "9890676656",
+            "profilePicture": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://dknfdeb8v69ms.cloudfront.net/attachments/tr_a_profiles/954/original/logo.gif",
+            "ratingStats": Object {
+              "fiveStar": 33,
+              "fiveStarPercentage": 44,
+              "fourStar": 36,
+              "fourStarPercentage": 48,
+              "oneStar": 0,
+              "oneStarPercentage": 0,
+              "positiveRating": 69,
+              "positiveRatingPercentage": 92,
+              "ratingText": "Superb Reviews",
+              "threeStar": 6,
+              "threeStarPercentage": 8,
+              "totalPositiveRating": 75,
+              "totalRating": 75,
+              "twoStar": 0,
+              "twoStarPercentage": 0,
+            },
+            "revenueEarned": 10850000,
+            "reviewsCount": 75,
+            "testimonialUrl": "http://bookings-qa1.ttdev.in/agents/3136363133382d57616e-Wander-Globe-Inc",
+            "updatedAt": "2019-01-19T13:36:28+05:30",
+          },
+          "cabsText": "kjhjk",
+          "days": 2,
+          "description": "kjhk",
+          "destinationsList": Array [
+            Object {
+              "id": 59,
+              "name": "Goa",
+            },
+          ],
+          "discount": 0,
+          "discountableType": null,
+          "discountableTypeId": null,
+          "downloadUrl": "https://bookings-qa1.ttdev.in/quotes/7124252/download_quote.pdf",
+          "exclusionsText": "Accomodation : Triple
+Meal plan : Breakfast
+Meal plan : Dinner
+Welcome Drink
+Wifi Connection
+Tv with cable connection
+Use of Swimming Pool and Tanning Beds (j)
+Sightseeing (h)
+Use of gymnasium (kjh)
+Government Taxes/VAT/ Service Charges (kh)
+Trip suppliments (kjhj)
+Transfers (Railway/Airport) : Arrival (hk)
+Transfers (Railway/Airport) : Departure (hkj)
+Cab : SIC (kjh)
+Cab : Private (kh)
+Others : Other Exclusions (kjh)",
+          "flightsText": "hkjh",
+          "hotelText": "Night 1,2, The Taj Exotica Hotel & Resort, Benaulim, ,",
+          "hotelsDetail": Array [
+            Object {
+              "days": Array [
+                1,
+                2,
+              ],
+              "hotelInfos": Array [
+                Object {
+                  "address": "Benaulim Beach, 403716 Benaulim, India",
+                  "city": "Benaulim",
+                  "comments": "",
+                  "dId": 477574,
+                  "description": "Akomodasi ini hanya berjarak 2 menit dari pantai. Spread across 56 acres of landscaped gardens, the Mediterranean-style Taj Exotica Goa sits along a private beach overlooking the Arabian Sea. It boasts golfing facilities, a full spa and outdoor pool. 6 dining options await guests.
+
+Decorated in neutral colours, rooms feature classic dark wood furnishings. Each comes with a balcony overlooking the garden, pool or sea. Select rooms offer a private pool or hydromassage bathtub.
+
+Taj Exotica Goa is 3 km from Colva Beach and 12 km from Madgaon City. It is a 45-minute drive from Goa Dabolim Airport. Free parking is available.
+
+Sunny afternoons can be spent playing tennis or getting a relaxing massage at The Jiva Spa. The resort also provides a fitness centre and 24-hour room service. Little ones can enjoy a lineup of activities at the Children’s Activity Centre.
+
+Guests can enjoy fresh seafood at the beachfront Lobster Shack while Mediterranean cuisine is served at Miguel Arcanjo. Traditional Goan dishes are offered at Allegria. For a nightcap, Adega Cameons Bar serves a variety of drinks. ",
+                  "gId": 306994,
+                  "hotelId": 142714,
+                  "hotelImages": Array [
+                    Object {
+                      "id": 858862,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858862/original/17066989.jpg",
+                    },
+                    Object {
+                      "id": 858863,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858863/original/70071474.jpg",
+                    },
+                    Object {
+                      "id": 858864,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858864/original/70108268.jpg",
+                    },
+                  ],
+                  "isAlternate": 0,
+                  "name": "The Taj Exotica Hotel & Resort",
+                  "nights": "1,2",
+                  "quoteCityId": 35268253,
+                  "rating": 5,
+                  "roomType": "",
+                  "selectionStatus": null,
+                  "taUrl": "https://www.tripadvisor.in/Hotel_Review-g306994-d477574-Reviews-Taj_Exotica_Goa-Benaulim_Salcette_District_Goa.html",
+                  "tripDayId": 38054828,
+                },
+              ],
+            },
+          ],
+          "id": 7124252,
+          "inclusions": Object {
+            "0": Array [
+              Object {
+                "category": "Accomodation",
+                "commentsAdded": null,
+                "id": 273,
+                "isIncluded": false,
+                "name": "Triple",
+              },
+              Object {
+                "category": "Meal plan",
+                "commentsAdded": null,
+                "id": 274,
+                "isIncluded": false,
+                "name": "Breakfast",
+              },
+            ],
+            "1": Array [
+              Object {
+                "category": "Accomodation",
+                "commentsAdded": null,
+                "id": 271,
+                "isIncluded": true,
+                "name": "Single",
+              },
+              Object {
+                "category": "Accomodation",
+                "commentsAdded": null,
+                "id": 272,
+                "isIncluded": true,
+                "name": "Double",
+              },
+            ],
+          },
+          "inclusionsText": "Accomodation : Single
+Accomodation : Double
+Meal plan : Lunch
+Transfers (Railway/Airport)
+English Speaking Driver
+Others : Other Inclusions (kh)",
+          "installmentInfo": Object {
+            "installmentsReceived": 0,
+            "isAllPaymentReceived": false,
+            "nextScheduledDate": null,
+          },
+          "invoiceDetails": Object {},
+          "invoiceDownloadUrl": "",
+          "invoiceShowUrl": "",
+          "itinerary": Object {
+            "daysInformation": Array [
+              Object {
+                "cityId": 25058,
+                "cityName": "Benaulim",
+                "dateOfItinerary": null,
+                "dayOfItinerary": 1,
+                "description": "kjh",
+                "title": "kjh",
+                "tripDayId": 38054828,
+              },
+              Object {
+                "cityId": 25058,
+                "cityName": "Benaulim",
+                "dateOfItinerary": null,
+                "dayOfItinerary": 2,
+                "description": "kjhkj",
+                "title": "kjh",
+                "tripDayId": 38054829,
+              },
+            ],
+          },
+          "nights": 1,
+          "opDetails": Object {
+            "email": "damini.oberoi@traveltriangle.com",
+            "id": 2251659,
+            "image": "/pics/original/missing.png",
+            "initials": "D",
+            "name": "Damini Oberoi",
+            "phoneNo": "18001235555",
+          },
+          "paymentUrl": "https://bookings-qa1.ttdev.in/ebs?amount=153158.0&currency=Rupee&quote_id=7124252&requested_trip_id=3918699&show_neft=true",
+          "pricingInfo": Object {
+            "currency": "Rupee",
+            "discount": 0,
+            "flightCost": null,
+            "perPersonBudget": 76579,
+            "perPersonText": "per person",
+            "price": 76579,
+            "priceInRupee": 76579,
+            "totalPrice": 153158,
+            "visaCost": null,
+          },
+          "status": "active",
+          "statusUpdates": Array [],
+          "subAccountId": null,
+          "termsConditions": "<p>h</p>",
+          "travelerDetailUrl": "",
+          "tripStatus": "Active",
+          "updatedAt": "2019-01-29T16:14:48+05:30",
+          "versionCount": 0,
+          "versionIndex": 1,
+          "vouchers": Array [],
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <CompareHotelsSection
+          hotels={
+            Array [
+              Object {
+                "days": Array [
+                  1,
+                ],
+                "hotelInfos": Array [
+                  Object {
+                    "address": null,
+                    "city": "Bardez",
+                    "comments": "",
+                    "dId": null,
+                    "description": null,
+                    "gId": null,
+                    "hotelId": 359407,
+                    "hotelImages": Array [],
+                    "isAlternate": 0,
+                    "name": "Rio Boutique",
+                    "nights": "1",
+                    "quoteCityId": 35268057,
+                    "rating": 4,
+                    "roomType": " Deluxe ",
+                    "selectionStatus": null,
+                    "taUrl": null,
+                    "tripDayId": 38054614,
+                  },
+                ],
+              },
+            ]
+          }
+        />,
+        <CompareHotelsSection
+          hotels={
+            Array [
+              Object {
+                "days": Array [
+                  1,
+                  2,
+                ],
+                "hotelInfos": Array [
+                  Object {
+                    "address": "Benaulim Beach, 403716 Benaulim, India",
+                    "city": "Benaulim",
+                    "comments": "",
+                    "dId": 477574,
+                    "description": "Akomodasi ini hanya berjarak 2 menit dari pantai. Spread across 56 acres of landscaped gardens, the Mediterranean-style Taj Exotica Goa sits along a private beach overlooking the Arabian Sea. It boasts golfing facilities, a full spa and outdoor pool. 6 dining options await guests.
+
+Decorated in neutral colours, rooms feature classic dark wood furnishings. Each comes with a balcony overlooking the garden, pool or sea. Select rooms offer a private pool or hydromassage bathtub.
+
+Taj Exotica Goa is 3 km from Colva Beach and 12 km from Madgaon City. It is a 45-minute drive from Goa Dabolim Airport. Free parking is available.
+
+Sunny afternoons can be spent playing tennis or getting a relaxing massage at The Jiva Spa. The resort also provides a fitness centre and 24-hour room service. Little ones can enjoy a lineup of activities at the Children’s Activity Centre.
+
+Guests can enjoy fresh seafood at the beachfront Lobster Shack while Mediterranean cuisine is served at Miguel Arcanjo. Traditional Goan dishes are offered at Allegria. For a nightcap, Adega Cameons Bar serves a variety of drinks. ",
+                    "gId": 306994,
+                    "hotelId": 142714,
+                    "hotelImages": Array [
+                      Object {
+                        "id": 858862,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858862/original/17066989.jpg",
+                      },
+                      Object {
+                        "id": 858863,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858863/original/70071474.jpg",
+                      },
+                      Object {
+                        "id": 858864,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858864/original/70108268.jpg",
+                      },
+                    ],
+                    "isAlternate": 0,
+                    "name": "The Taj Exotica Hotel & Resort",
+                    "nights": "1,2",
+                    "quoteCityId": 35268253,
+                    "rating": 5,
+                    "roomType": "",
+                    "selectionStatus": null,
+                    "taUrl": "https://www.tripadvisor.in/Hotel_Review-g306994-d477574-Reviews-Taj_Exotica_Goa-Benaulim_Salcette_District_Goa.html",
+                    "tripDayId": 38054828,
+                  },
+                ],
+              },
+            ]
+          }
+        />,
+      ],
+      "className": "flex at_compareCardContent",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "hotel_7124216",
+        "nodeType": "function",
+        "props": Object {
+          "hotels": Array [
+            Object {
+              "days": Array [
+                1,
+              ],
+              "hotelInfos": Array [
+                Object {
+                  "address": null,
+                  "city": "Bardez",
+                  "comments": "",
+                  "dId": null,
+                  "description": null,
+                  "gId": null,
+                  "hotelId": 359407,
+                  "hotelImages": Array [],
+                  "isAlternate": 0,
+                  "name": "Rio Boutique",
+                  "nights": "1",
+                  "quoteCityId": 35268057,
+                  "rating": 4,
+                  "roomType": " Deluxe ",
+                  "selectionStatus": null,
+                  "taUrl": null,
+                  "tripDayId": 38054614,
+                },
+              ],
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "hotel_7124252",
+        "nodeType": "function",
+        "props": Object {
+          "hotels": Array [
+            Object {
+              "days": Array [
+                1,
+                2,
+              ],
+              "hotelInfos": Array [
+                Object {
+                  "address": "Benaulim Beach, 403716 Benaulim, India",
+                  "city": "Benaulim",
+                  "comments": "",
+                  "dId": 477574,
+                  "description": "Akomodasi ini hanya berjarak 2 menit dari pantai. Spread across 56 acres of landscaped gardens, the Mediterranean-style Taj Exotica Goa sits along a private beach overlooking the Arabian Sea. It boasts golfing facilities, a full spa and outdoor pool. 6 dining options await guests.
+
+Decorated in neutral colours, rooms feature classic dark wood furnishings. Each comes with a balcony overlooking the garden, pool or sea. Select rooms offer a private pool or hydromassage bathtub.
+
+Taj Exotica Goa is 3 km from Colva Beach and 12 km from Madgaon City. It is a 45-minute drive from Goa Dabolim Airport. Free parking is available.
+
+Sunny afternoons can be spent playing tennis or getting a relaxing massage at The Jiva Spa. The resort also provides a fitness centre and 24-hour room service. Little ones can enjoy a lineup of activities at the Children’s Activity Centre.
+
+Guests can enjoy fresh seafood at the beachfront Lobster Shack while Mediterranean cuisine is served at Miguel Arcanjo. Traditional Goan dishes are offered at Allegria. For a nightcap, Adega Cameons Bar serves a variety of drinks. ",
+                  "gId": 306994,
+                  "hotelId": 142714,
+                  "hotelImages": Array [
+                    Object {
+                      "id": 858862,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858862/original/17066989.jpg",
+                    },
+                    Object {
+                      "id": 858863,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858863/original/70071474.jpg",
+                    },
+                    Object {
+                      "id": 858864,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858864/original/70108268.jpg",
+                    },
+                  ],
+                  "isAlternate": 0,
+                  "name": "The Taj Exotica Hotel & Resort",
+                  "nights": "1,2",
+                  "quoteCityId": 35268253,
+                  "rating": 5,
+                  "roomType": "",
+                  "selectionStatus": null,
+                  "taUrl": "https://www.tripadvisor.in/Hotel_Review-g306994-d477574-Reviews-Taj_Exotica_Goa-Benaulim_Salcette_District_Goa.html",
+                  "tripDayId": 38054828,
+                },
+              ],
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        Object {
+          "& + .cardViewLess svg": Object {
+            "transform": "rotateZ(180deg)",
+          },
+          "& .contentList": Object {
+            "wordBreak": "break-word",
+          },
+          "& .contentList:last-child": Object {
+            "marginBottom": "0 !important",
+            "paddingBottom": "0 !important",
+          },
+          "&>div:first-child": Object {
+            "borderRight": "1px solid #efefef",
+          },
+        },
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <CompareHotelsSection
+            hotels={
+              Array [
+                Object {
+                  "days": Array [
+                    1,
+                  ],
+                  "hotelInfos": Array [
+                    Object {
+                      "address": null,
+                      "city": "Bardez",
+                      "comments": "",
+                      "dId": null,
+                      "description": null,
+                      "gId": null,
+                      "hotelId": 359407,
+                      "hotelImages": Array [],
+                      "isAlternate": 0,
+                      "name": "Rio Boutique",
+                      "nights": "1",
+                      "quoteCityId": 35268057,
+                      "rating": 4,
+                      "roomType": " Deluxe ",
+                      "selectionStatus": null,
+                      "taUrl": null,
+                      "tripDayId": 38054614,
+                    },
+                  ],
+                },
+              ]
+            }
+          />,
+          <CompareHotelsSection
+            hotels={
+              Array [
+                Object {
+                  "days": Array [
+                    1,
+                    2,
+                  ],
+                  "hotelInfos": Array [
+                    Object {
+                      "address": "Benaulim Beach, 403716 Benaulim, India",
+                      "city": "Benaulim",
+                      "comments": "",
+                      "dId": 477574,
+                      "description": "Akomodasi ini hanya berjarak 2 menit dari pantai. Spread across 56 acres of landscaped gardens, the Mediterranean-style Taj Exotica Goa sits along a private beach overlooking the Arabian Sea. It boasts golfing facilities, a full spa and outdoor pool. 6 dining options await guests.
+
+Decorated in neutral colours, rooms feature classic dark wood furnishings. Each comes with a balcony overlooking the garden, pool or sea. Select rooms offer a private pool or hydromassage bathtub.
+
+Taj Exotica Goa is 3 km from Colva Beach and 12 km from Madgaon City. It is a 45-minute drive from Goa Dabolim Airport. Free parking is available.
+
+Sunny afternoons can be spent playing tennis or getting a relaxing massage at The Jiva Spa. The resort also provides a fitness centre and 24-hour room service. Little ones can enjoy a lineup of activities at the Children’s Activity Centre.
+
+Guests can enjoy fresh seafood at the beachfront Lobster Shack while Mediterranean cuisine is served at Miguel Arcanjo. Traditional Goan dishes are offered at Allegria. For a nightcap, Adega Cameons Bar serves a variety of drinks. ",
+                      "gId": 306994,
+                      "hotelId": 142714,
+                      "hotelImages": Array [
+                        Object {
+                          "id": 858862,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858862/original/17066989.jpg",
+                        },
+                        Object {
+                          "id": 858863,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858863/original/70071474.jpg",
+                        },
+                        Object {
+                          "id": 858864,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858864/original/70108268.jpg",
+                        },
+                      ],
+                      "isAlternate": 0,
+                      "name": "The Taj Exotica Hotel & Resort",
+                      "nights": "1,2",
+                      "quoteCityId": 35268253,
+                      "rating": 5,
+                      "roomType": "",
+                      "selectionStatus": null,
+                      "taUrl": "https://www.tripadvisor.in/Hotel_Review-g306994-d477574-Reviews-Taj_Exotica_Goa-Benaulim_Salcette_District_Goa.html",
+                      "tripDayId": 38054828,
+                    },
+                  ],
+                },
+              ]
+            }
+          />,
+        ],
+        "className": "flex at_compareCardContent",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "hotel_7124216",
+          "nodeType": "function",
+          "props": Object {
+            "hotels": Array [
+              Object {
+                "days": Array [
+                  1,
+                ],
+                "hotelInfos": Array [
+                  Object {
+                    "address": null,
+                    "city": "Bardez",
+                    "comments": "",
+                    "dId": null,
+                    "description": null,
+                    "gId": null,
+                    "hotelId": 359407,
+                    "hotelImages": Array [],
+                    "isAlternate": 0,
+                    "name": "Rio Boutique",
+                    "nights": "1",
+                    "quoteCityId": 35268057,
+                    "rating": 4,
+                    "roomType": " Deluxe ",
+                    "selectionStatus": null,
+                    "taUrl": null,
+                    "tripDayId": 38054614,
+                  },
+                ],
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "hotel_7124252",
+          "nodeType": "function",
+          "props": Object {
+            "hotels": Array [
+              Object {
+                "days": Array [
+                  1,
+                  2,
+                ],
+                "hotelInfos": Array [
+                  Object {
+                    "address": "Benaulim Beach, 403716 Benaulim, India",
+                    "city": "Benaulim",
+                    "comments": "",
+                    "dId": 477574,
+                    "description": "Akomodasi ini hanya berjarak 2 menit dari pantai. Spread across 56 acres of landscaped gardens, the Mediterranean-style Taj Exotica Goa sits along a private beach overlooking the Arabian Sea. It boasts golfing facilities, a full spa and outdoor pool. 6 dining options await guests.
+
+Decorated in neutral colours, rooms feature classic dark wood furnishings. Each comes with a balcony overlooking the garden, pool or sea. Select rooms offer a private pool or hydromassage bathtub.
+
+Taj Exotica Goa is 3 km from Colva Beach and 12 km from Madgaon City. It is a 45-minute drive from Goa Dabolim Airport. Free parking is available.
+
+Sunny afternoons can be spent playing tennis or getting a relaxing massage at The Jiva Spa. The resort also provides a fitness centre and 24-hour room service. Little ones can enjoy a lineup of activities at the Children’s Activity Centre.
+
+Guests can enjoy fresh seafood at the beachfront Lobster Shack while Mediterranean cuisine is served at Miguel Arcanjo. Traditional Goan dishes are offered at Allegria. For a nightcap, Adega Cameons Bar serves a variety of drinks. ",
+                    "gId": 306994,
+                    "hotelId": 142714,
+                    "hotelImages": Array [
+                      Object {
+                        "id": 858862,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858862/original/17066989.jpg",
+                      },
+                      Object {
+                        "id": 858863,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858863/original/70071474.jpg",
+                      },
+                      Object {
+                        "id": 858864,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/858864/original/70108268.jpg",
+                      },
+                    ],
+                    "isAlternate": 0,
+                    "name": "The Taj Exotica Hotel & Resort",
+                    "nights": "1,2",
+                    "quoteCityId": 35268253,
+                    "rating": 5,
+                    "roomType": "",
+                    "selectionStatus": null,
+                    "taUrl": "https://www.tripadvisor.in/Hotel_Review-g306994-d477574-Reviews-Taj_Exotica_Goa-Benaulim_Salcette_District_Goa.html",
+                    "tripDayId": 38054828,
+                  },
+                ],
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "& + .cardViewLess svg": Object {
+              "transform": "rotateZ(180deg)",
+            },
+            "& .contentList": Object {
+              "wordBreak": "break-word",
+            },
+            "& .contentList:last-child": Object {
+              "marginBottom": "0 !important",
+              "paddingBottom": "0 !important",
+            },
+            "&>div:first-child": Object {
+              "borderRight": "1px solid #efefef",
+            },
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

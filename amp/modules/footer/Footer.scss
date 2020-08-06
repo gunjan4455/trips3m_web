@@ -1,0 +1,105 @@
+.ampFooter {
+  background-color: #2b2b2b;
+  padding: 8px;
+
+}
+
+.footerLinkList li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 15px 5px;
+}
+
+.footerLinkList li a {
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.location p a {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.heart{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin:0 5px;
+}
+.heart:before,
+.heart:after{
+  position: absolute;
+  content: "";
+  left: 10px;
+  width: 11px;
+  height: 18px;
+  background: #fc2e5a;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.heart:after{
+  left: -1px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin :100% 100%;
+}
+.footerSocialIcons{
+  justify-content: center;
+  li{
+    padding: 0 10px;
+  }
+}
+.footerSocialIcons li a{
+  width:30px;
+  height:30px;
+  display: block;
+}
+
+.footerSocialIcons li:first-child a{
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#FBIconWhite-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+}
+.footerSocialIcons li:nth-child(2) a{
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#Twitter-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+}
+.footerSocialIcons li:nth-child(3) a{
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#PinterestIcon-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+}
+.footerSocialIcons li:nth-child(4) a{
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#GoogleIconWhite-usage") no-repeat;
+  max-width: 27px;
+  max-height: 20px;
+}
+.footerSocialIcons li:last-child a{
+  background: url("https://js.traveltriangle.com/public-product/amp-icons-v0.svg#Instagram-usage") no-repeat;
+  max-width: 20px;
+  max-height: 20px;
+}
+

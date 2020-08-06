@@ -1,0 +1,507 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lead form Header module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="col-xs-9 pl48 pr0"
+        >
+          <button
+            className="cross-common"
+            type="button"
+          >
+            <IconSvg />
+          </button>
+          <p
+            className="f16 ellipsis"
+          >
+            Your Preferences
+          </p>
+        </div>,
+        <div
+          className="col-xs-3 pl0"
+        >
+          <span
+            className="header-logo-right fright ml15"
+          >
+            <a
+              href=""
+            >
+              <IconSvg
+                className="absolute-center wfull"
+              />
+            </a>
+          </span>
+          <span
+            className="header-logo-right fright"
+          >
+            <a
+              href="tel:18001235555"
+            >
+              <IconSvg
+                className="absolute-center wfull"
+              />
+            </a>
+          </span>
+        </div>,
+      ],
+      "className": "form-header-fixed pl0 pr0 row row- sbcw pt15 pb15",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="cross-common"
+              type="button"
+            >
+              <IconSvg />
+            </button>,
+            <p
+              className="f16 ellipsis"
+            >
+              Your Preferences
+            </p>,
+          ],
+          "className": "col-xs-9 pl48 pr0",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <IconSvg />,
+              "className": "cross-common",
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Your Preferences",
+              "className": "f16 ellipsis",
+            },
+            "ref": null,
+            "rendered": "Your Preferences",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="header-logo-right fright ml15"
+            >
+              <a
+                href=""
+              >
+                <IconSvg
+                  className="absolute-center wfull"
+                />
+              </a>
+            </span>,
+            <span
+              className="header-logo-right fright"
+            >
+              <a
+                href="tel:18001235555"
+              >
+                <IconSvg
+                  className="absolute-center wfull"
+                />
+              </a>
+            </span>,
+          ],
+          "className": "col-xs-3 pl0",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                href=""
+              >
+                <IconSvg
+                  className="absolute-center wfull"
+                />
+              </a>,
+              "className": "header-logo-right fright ml15",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg
+                  className="absolute-center wfull"
+                />,
+                "href": "",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "className": "absolute-center wfull",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "a",
+            },
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                href="tel:18001235555"
+              >
+                <IconSvg
+                  className="absolute-center wfull"
+                />
+              </a>,
+              "className": "header-logo-right fright",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg
+                  className="absolute-center wfull"
+                />,
+                "href": "tel:18001235555",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "className": "absolute-center wfull",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "a",
+            },
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="col-xs-9 pl48 pr0"
+          >
+            <button
+              className="cross-common"
+              type="button"
+            >
+              <IconSvg />
+            </button>
+            <p
+              className="f16 ellipsis"
+            >
+              Your Preferences
+            </p>
+          </div>,
+          <div
+            className="col-xs-3 pl0"
+          >
+            <span
+              className="header-logo-right fright ml15"
+            >
+              <a
+                href=""
+              >
+                <IconSvg
+                  className="absolute-center wfull"
+                />
+              </a>
+            </span>
+            <span
+              className="header-logo-right fright"
+            >
+              <a
+                href="tel:18001235555"
+              >
+                <IconSvg
+                  className="absolute-center wfull"
+                />
+              </a>
+            </span>
+          </div>,
+        ],
+        "className": "form-header-fixed pl0 pr0 row row- sbcw pt15 pb15",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="cross-common"
+                type="button"
+              >
+                <IconSvg />
+              </button>,
+              <p
+                className="f16 ellipsis"
+              >
+                Your Preferences
+              </p>,
+            ],
+            "className": "col-xs-9 pl48 pr0",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg />,
+                "className": "cross-common",
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Your Preferences",
+                "className": "f16 ellipsis",
+              },
+              "ref": null,
+              "rendered": "Your Preferences",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="header-logo-right fright ml15"
+              >
+                <a
+                  href=""
+                >
+                  <IconSvg
+                    className="absolute-center wfull"
+                  />
+                </a>
+              </span>,
+              <span
+                className="header-logo-right fright"
+              >
+                <a
+                  href="tel:18001235555"
+                >
+                  <IconSvg
+                    className="absolute-center wfull"
+                  />
+                </a>
+              </span>,
+            ],
+            "className": "col-xs-3 pl0",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  href=""
+                >
+                  <IconSvg
+                    className="absolute-center wfull"
+                  />
+                </a>,
+                "className": "header-logo-right fright ml15",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <IconSvg
+                    className="absolute-center wfull"
+                  />,
+                  "href": "",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "absolute-center wfull",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  href="tel:18001235555"
+                >
+                  <IconSvg
+                    className="absolute-center wfull"
+                  />
+                </a>,
+                "className": "header-logo-right fright",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <IconSvg
+                    className="absolute-center wfull"
+                  />,
+                  "href": "tel:18001235555",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "absolute-center wfull",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,2410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TripCard component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TripCard
+    reactivateBooking={[MockFunction]}
+    trackSegment={[MockFunction]}
+    tripDetails={
+      Object {
+        "adult": 3,
+        "bookingStatusLabel": "Incomplete",
+        "budget": "18000..21000",
+        "child": 0,
+        "currency": null,
+        "exclusivePreferencesValues": Object {
+          "cabs": "Included",
+          "flights": "Included",
+          "hotels": "5 Star",
+        },
+        "firstDestinationName": "Goa",
+        "fromLoc": "Gurugram, Haryana, India",
+        "id": 5282255,
+        "info": "",
+        "phoneNo": "+918765432365",
+        "quotesCount": 0,
+        "startDate": "2019-07-25",
+        "status": "Dormant",
+        "toLoc": "Goa",
+        "tripDays": 3,
+        "tripStage": 4,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="flex flexDColumn sbcw p15 pt8 pb8 mb8 relative at_tripCard"
+      >
+        <a
+          href="/requested_trips/5282255"
+          onClick={[Function]}
+        >
+          <div
+            className="flexFull"
+          >
+            <p
+              className="f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus"
+            >
+              <ForwardRef(render)
+                className="icon-18 absolute l0 t0"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              <span
+                className="at_quoteReceivedStatus_text"
+              >
+                No Quotes Received
+              </span>
+            </p>
+            <h3
+              className="f16 fw7 pfc3 mb8 at_destination"
+            >
+              Goa
+            </h3>
+            <span
+              className="pfc1 f14 mb24 block at_bookingId"
+            >
+              Booking ID #5282255
+            </span>
+          </div>
+          <div
+            className="flex"
+          >
+            <div
+              className="flexFull mb15 mr4 pr8 at_departureDate"
+            >
+              <p
+                className="f14 pfc4 mb4"
+              >
+                Departure Date
+              </p>
+              <p
+                className="f14 pfc3"
+              >
+                Thu, 25 Jul, 2019
+              </p>
+            </div>
+            <div
+              className="flexFull mb15 ml4 pl8 at_duration"
+            >
+              <p
+                className="f14 pfc4 mb4"
+              >
+                Duration
+              </p>
+              <p
+                className="f14 pfc3"
+              >
+                3
+                 Days
+              </p>
+            </div>
+          </div>
+          <div
+            className="flex"
+          >
+            <div
+              className="flexFull at_travelers"
+            >
+              <p
+                className="f14 pfc4 mb4"
+              >
+                Travelers
+              </p>
+              <p
+                className="f14 pfc3"
+              >
+                3
+                 Adult & 
+                0
+                 Children
+              </p>
+            </div>
+          </div>
+        </a>
+        <ForwardRef(render)>
+          <div
+            className="optionTrigger absolute t8 r15 cursorP at_tripCardActionTrigger"
+          >
+            <div
+              className="cardTriggerIcon"
+            />
+          </div>
+          <ForwardRef(render)
+            className="cardOption sbcw absolute z10 t8 r8 at_tripCardAction"
+          >
+            <ul
+              className="list-style-no"
+            >
+              <li>
+                <ModalComponent
+                  customClass=""
+                  customCloseTrigger={true}
+                  disabled={false}
+                  fullView={true}
+                  hasCustomClose={true}
+                  hasNoClose={false}
+                  isTriggerFullView={false}
+                  isWhiteIcon={false}
+                  onAfterModalOpen={[Function]}
+                  onRequestCloseCustom={[Function]}
+                  trigger={
+                    <span
+                      className="pfc3 p15 block cursorP bb"
+                      onClick={[Function]}
+                    >
+                      Cancel
+                    </span>
+                  }
+                >
+                  <div
+                    className="sbcw"
+                  >
+                    <withRouter(Connect(CancelRequestContainer))
+                      closeModal={[Function]}
+                      tripId={5282255}
+                    />
+                  </div>
+                </ModalComponent>
+              </li>
+              <li>
+                <a
+                  className="pfc3 p15 block cursorP"
+                  href="/requested_trips/5282255/edit"
+                  onClick={[Function]}
+                >
+                  Edit Preferences
+                </a>
+              </li>
+            </ul>
+          </ForwardRef(render)>
+        </ForwardRef(render)>
+      </div>,
+      "className": "mt8",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            href="/requested_trips/5282255"
+            onClick={[Function]}
+          >
+            <div
+              className="flexFull"
+            >
+              <p
+                className="f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus"
+              >
+                <ForwardRef(render)
+                  className="icon-18 absolute l0 t0"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                <span
+                  className="at_quoteReceivedStatus_text"
+                >
+                  No Quotes Received
+                </span>
+              </p>
+              <h3
+                className="f16 fw7 pfc3 mb8 at_destination"
+              >
+                Goa
+              </h3>
+              <span
+                className="pfc1 f14 mb24 block at_bookingId"
+              >
+                Booking ID #5282255
+              </span>
+            </div>
+            <div
+              className="flex"
+            >
+              <div
+                className="flexFull mb15 mr4 pr8 at_departureDate"
+              >
+                <p
+                  className="f14 pfc4 mb4"
+                >
+                  Departure Date
+                </p>
+                <p
+                  className="f14 pfc3"
+                >
+                  Thu, 25 Jul, 2019
+                </p>
+              </div>
+              <div
+                className="flexFull mb15 ml4 pl8 at_duration"
+              >
+                <p
+                  className="f14 pfc4 mb4"
+                >
+                  Duration
+                </p>
+                <p
+                  className="f14 pfc3"
+                >
+                  3
+                   Days
+                </p>
+              </div>
+            </div>
+            <div
+              className="flex"
+            >
+              <div
+                className="flexFull at_travelers"
+              >
+                <p
+                  className="f14 pfc4 mb4"
+                >
+                  Travelers
+                </p>
+                <p
+                  className="f14 pfc3"
+                >
+                  3
+                   Adult & 
+                  0
+                   Children
+                </p>
+              </div>
+            </div>
+          </a>,
+          <ForwardRef(render)>
+            <div
+              className="optionTrigger absolute t8 r15 cursorP at_tripCardActionTrigger"
+            >
+              <div
+                className="cardTriggerIcon"
+              />
+            </div>
+            <ForwardRef(render)
+              className="cardOption sbcw absolute z10 t8 r8 at_tripCardAction"
+            >
+              <ul
+                className="list-style-no"
+              >
+                <li>
+                  <ModalComponent
+                    customClass=""
+                    customCloseTrigger={true}
+                    disabled={false}
+                    fullView={true}
+                    hasCustomClose={true}
+                    hasNoClose={false}
+                    isTriggerFullView={false}
+                    isWhiteIcon={false}
+                    onAfterModalOpen={[Function]}
+                    onRequestCloseCustom={[Function]}
+                    trigger={
+                      <span
+                        className="pfc3 p15 block cursorP bb"
+                        onClick={[Function]}
+                      >
+                        Cancel
+                      </span>
+                    }
+                  >
+                    <div
+                      className="sbcw"
+                    >
+                      <withRouter(Connect(CancelRequestContainer))
+                        closeModal={[Function]}
+                        tripId={5282255}
+                      />
+                    </div>
+                  </ModalComponent>
+                </li>
+                <li>
+                  <a
+                    className="pfc3 p15 block cursorP"
+                    href="/requested_trips/5282255/edit"
+                    onClick={[Function]}
+                  >
+                    Edit Preferences
+                  </a>
+                </li>
+              </ul>
+            </ForwardRef(render)>
+          </ForwardRef(render)>,
+        ],
+        "className": "flex flexDColumn sbcw p15 pt8 pb8 mb8 relative at_tripCard",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="flexFull"
+              >
+                <p
+                  className="f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus"
+                >
+                  <ForwardRef(render)
+                    className="icon-18 absolute l0 t0"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  <span
+                    className="at_quoteReceivedStatus_text"
+                  >
+                    No Quotes Received
+                  </span>
+                </p>
+                <h3
+                  className="f16 fw7 pfc3 mb8 at_destination"
+                >
+                  Goa
+                </h3>
+                <span
+                  className="pfc1 f14 mb24 block at_bookingId"
+                >
+                  Booking ID #5282255
+                </span>
+              </div>,
+              <div
+                className="flex"
+              >
+                <div
+                  className="flexFull mb15 mr4 pr8 at_departureDate"
+                >
+                  <p
+                    className="f14 pfc4 mb4"
+                  >
+                    Departure Date
+                  </p>
+                  <p
+                    className="f14 pfc3"
+                  >
+                    Thu, 25 Jul, 2019
+                  </p>
+                </div>
+                <div
+                  className="flexFull mb15 ml4 pl8 at_duration"
+                >
+                  <p
+                    className="f14 pfc4 mb4"
+                  >
+                    Duration
+                  </p>
+                  <p
+                    className="f14 pfc3"
+                  >
+                    3
+                     Days
+                  </p>
+                </div>
+              </div>,
+              <div
+                className="flex"
+              >
+                <div
+                  className="flexFull at_travelers"
+                >
+                  <p
+                    className="f14 pfc4 mb4"
+                  >
+                    Travelers
+                  </p>
+                  <p
+                    className="f14 pfc3"
+                  >
+                    3
+                     Adult & 
+                    0
+                     Children
+                  </p>
+                </div>
+              </div>,
+            ],
+            "href": "/requested_trips/5282255",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus"
+                  >
+                    <ForwardRef(render)
+                      className="icon-18 absolute l0 t0"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>
+                    <span
+                      className="at_quoteReceivedStatus_text"
+                    >
+                      No Quotes Received
+                    </span>
+                  </p>,
+                  <h3
+                    className="f16 fw7 pfc3 mb8 at_destination"
+                  >
+                    Goa
+                  </h3>,
+                  <span
+                    className="pfc1 f14 mb24 block at_bookingId"
+                  >
+                    Booking ID #5282255
+                  </span>,
+                ],
+                "className": "flexFull",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        className="icon-18 absolute l0 t0"
+                      >
+                        <IconSvg />
+                      </ForwardRef(render)>,
+                      <span
+                        className="at_quoteReceivedStatus_text"
+                      >
+                        No Quotes Received
+                      </span>,
+                    ],
+                    "className": "f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": <IconSvg />,
+                        "className": "icon-18 absolute l0 t0",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "span",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "height": "14px",
+                            "width": "14px",
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(span)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "No Quotes Received",
+                        "className": "at_quoteReceivedStatus_text",
+                      },
+                      "ref": null,
+                      "rendered": "No Quotes Received",
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Goa",
+                    "className": "f16 fw7 pfc3 mb8 at_destination",
+                  },
+                  "ref": null,
+                  "rendered": "Goa",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Booking ID #5282255",
+                    "className": "pfc1 f14 mb24 block at_bookingId",
+                  },
+                  "ref": null,
+                  "rendered": "Booking ID #5282255",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="flexFull mb15 mr4 pr8 at_departureDate"
+                  >
+                    <p
+                      className="f14 pfc4 mb4"
+                    >
+                      Departure Date
+                    </p>
+                    <p
+                      className="f14 pfc3"
+                    >
+                      Thu, 25 Jul, 2019
+                    </p>
+                  </div>,
+                  <div
+                    className="flexFull mb15 ml4 pl8 at_duration"
+                  >
+                    <p
+                      className="f14 pfc4 mb4"
+                    >
+                      Duration
+                    </p>
+                    <p
+                      className="f14 pfc3"
+                    >
+                      3
+                       Days
+                    </p>
+                  </div>,
+                ],
+                "className": "flex",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="f14 pfc4 mb4"
+                      >
+                        Departure Date
+                      </p>,
+                      <p
+                        className="f14 pfc3"
+                      >
+                        Thu, 25 Jul, 2019
+                      </p>,
+                    ],
+                    "className": "flexFull mb15 mr4 pr8 at_departureDate",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Departure Date",
+                        "className": "f14 pfc4 mb4",
+                      },
+                      "ref": null,
+                      "rendered": "Departure Date",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Thu, 25 Jul, 2019",
+                        "className": "f14 pfc3",
+                      },
+                      "ref": null,
+                      "rendered": "Thu, 25 Jul, 2019",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="f14 pfc4 mb4"
+                      >
+                        Duration
+                      </p>,
+                      <p
+                        className="f14 pfc3"
+                      >
+                        3
+                         Days
+                      </p>,
+                    ],
+                    "className": "flexFull mb15 ml4 pl8 at_duration",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Duration",
+                        "className": "f14 pfc4 mb4",
+                      },
+                      "ref": null,
+                      "rendered": "Duration",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          3,
+                          " Days",
+                        ],
+                        "className": "f14 pfc3",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        3,
+                        " Days",
+                      ],
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="flexFull at_travelers"
+                >
+                  <p
+                    className="f14 pfc4 mb4"
+                  >
+                    Travelers
+                  </p>
+                  <p
+                    className="f14 pfc3"
+                  >
+                    3
+                     Adult & 
+                    0
+                     Children
+                  </p>
+                </div>,
+                "className": "flex",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="f14 pfc4 mb4"
+                    >
+                      Travelers
+                    </p>,
+                    <p
+                      className="f14 pfc3"
+                    >
+                      3
+                       Adult & 
+                      0
+                       Children
+                    </p>,
+                  ],
+                  "className": "flexFull at_travelers",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Travelers",
+                      "className": "f14 pfc4 mb4",
+                    },
+                    "ref": null,
+                    "rendered": "Travelers",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        3,
+                        " Adult & ",
+                        0,
+                        " Children",
+                      ],
+                      "className": "f14 pfc3",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      3,
+                      " Adult & ",
+                      0,
+                      " Children",
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <div
+                className="optionTrigger absolute t8 r15 cursorP at_tripCardActionTrigger"
+              >
+                <div
+                  className="cardTriggerIcon"
+                />
+              </div>,
+              <ForwardRef(render)
+                className="cardOption sbcw absolute z10 t8 r8 at_tripCardAction"
+              >
+                <ul
+                  className="list-style-no"
+                >
+                  <li>
+                    <ModalComponent
+                      customClass=""
+                      customCloseTrigger={true}
+                      disabled={false}
+                      fullView={true}
+                      hasCustomClose={true}
+                      hasNoClose={false}
+                      isTriggerFullView={false}
+                      isWhiteIcon={false}
+                      onAfterModalOpen={[Function]}
+                      onRequestCloseCustom={[Function]}
+                      trigger={
+                        <span
+                          className="pfc3 p15 block cursorP bb"
+                          onClick={[Function]}
+                        >
+                          Cancel
+                        </span>
+                      }
+                    >
+                      <div
+                        className="sbcw"
+                      >
+                        <withRouter(Connect(CancelRequestContainer))
+                          closeModal={[Function]}
+                          tripId={5282255}
+                        />
+                      </div>
+                    </ModalComponent>
+                  </li>
+                  <li>
+                    <a
+                      className="pfc3 p15 block cursorP"
+                      href="/requested_trips/5282255/edit"
+                      onClick={[Function]}
+                    >
+                      Edit Preferences
+                    </a>
+                  </li>
+                </ul>
+              </ForwardRef(render)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="cardTriggerIcon"
+                />,
+                "className": "optionTrigger absolute t8 r15 cursorP at_tripCardActionTrigger",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "cardTriggerIcon",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <ul
+                  className="list-style-no"
+                >
+                  <li>
+                    <ModalComponent
+                      customClass=""
+                      customCloseTrigger={true}
+                      disabled={false}
+                      fullView={true}
+                      hasCustomClose={true}
+                      hasNoClose={false}
+                      isTriggerFullView={false}
+                      isWhiteIcon={false}
+                      onAfterModalOpen={[Function]}
+                      onRequestCloseCustom={[Function]}
+                      trigger={
+                        <span
+                          className="pfc3 p15 block cursorP bb"
+                          onClick={[Function]}
+                        >
+                          Cancel
+                        </span>
+                      }
+                    >
+                      <div
+                        className="sbcw"
+                      >
+                        <withRouter(Connect(CancelRequestContainer))
+                          closeModal={[Function]}
+                          tripId={5282255}
+                        />
+                      </div>
+                    </ModalComponent>
+                  </li>
+                  <li>
+                    <a
+                      className="pfc3 p15 block cursorP"
+                      href="/requested_trips/5282255/edit"
+                      onClick={[Function]}
+                    >
+                      Edit Preferences
+                    </a>
+                  </li>
+                </ul>,
+                "className": "cardOption sbcw absolute z10 t8 r8 at_tripCardAction",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li>
+                      <ModalComponent
+                        customClass=""
+                        customCloseTrigger={true}
+                        disabled={false}
+                        fullView={true}
+                        hasCustomClose={true}
+                        hasNoClose={false}
+                        isTriggerFullView={false}
+                        isWhiteIcon={false}
+                        onAfterModalOpen={[Function]}
+                        onRequestCloseCustom={[Function]}
+                        trigger={
+                          <span
+                            className="pfc3 p15 block cursorP bb"
+                            onClick={[Function]}
+                          >
+                            Cancel
+                          </span>
+                        }
+                      >
+                        <div
+                          className="sbcw"
+                        >
+                          <withRouter(Connect(CancelRequestContainer))
+                            closeModal={[Function]}
+                            tripId={5282255}
+                          />
+                        </div>
+                      </ModalComponent>
+                    </li>,
+                    <li>
+                      <a
+                        className="pfc3 p15 block cursorP"
+                        href="/requested_trips/5282255/edit"
+                        onClick={[Function]}
+                      >
+                        Edit Preferences
+                      </a>
+                    </li>,
+                  ],
+                  "className": "list-style-no",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <ModalComponent
+                        customClass=""
+                        customCloseTrigger={true}
+                        disabled={false}
+                        fullView={true}
+                        hasCustomClose={true}
+                        hasNoClose={false}
+                        isTriggerFullView={false}
+                        isWhiteIcon={false}
+                        onAfterModalOpen={[Function]}
+                        onRequestCloseCustom={[Function]}
+                        trigger={
+                          <span
+                            className="pfc3 p15 block cursorP bb"
+                            onClick={[Function]}
+                          >
+                            Cancel
+                          </span>
+                        }
+                      >
+                        <div
+                          className="sbcw"
+                        >
+                          <withRouter(Connect(CancelRequestContainer))
+                            closeModal={[Function]}
+                            tripId={5282255}
+                          />
+                        </div>
+                      </ModalComponent>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <div
+                          className="sbcw"
+                        >
+                          <withRouter(Connect(CancelRequestContainer))
+                            closeModal={[Function]}
+                            tripId={5282255}
+                          />
+                        </div>,
+                        "customClass": "",
+                        "customCloseTrigger": true,
+                        "disabled": false,
+                        "fullView": true,
+                        "hasCustomClose": true,
+                        "hasNoClose": false,
+                        "isTriggerFullView": false,
+                        "isWhiteIcon": false,
+                        "onAfterModalOpen": [Function],
+                        "onRequestCloseCustom": [Function],
+                        "trigger": <span
+                          className="pfc3 p15 block cursorP bb"
+                          onClick={[Function]}
+                        >
+                          Cancel
+                        </span>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <withRouter(Connect(CancelRequestContainer))
+                            closeModal={[Function]}
+                            tripId={5282255}
+                          />,
+                          "className": "sbcw",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "closeModal": [Function],
+                            "tripId": 5282255,
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": "div",
+                      },
+                      "type": [Function],
+                    },
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        className="pfc3 p15 block cursorP"
+                        href="/requested_trips/5282255/edit"
+                        onClick={[Function]}
+                      >
+                        Edit Preferences
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Edit Preferences",
+                        "className": "pfc3 p15 block cursorP",
+                        "href": "/requested_trips/5282255/edit",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Edit Preferences",
+                      "type": "a",
+                    },
+                    "type": "li",
+                  },
+                ],
+                "type": "ul",
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "boxShadow": "0 6px 8px 0 rgba(0, 0, 0, 0.08)",
+                    "display": "none",
+                    "width": "200px",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "& .optionTrigger": Object {
+                  "& .cardTriggerIcon": Object {
+                    "&:after": Object {
+                      "bottom": "-6px",
+                      "top": "auto",
+                    },
+                    "&:before, &:after": Object {
+                      "background": "#b2b2b2",
+                      "borderRadius": "50%",
+                      "content": "\\"\\"",
+                      "height": "4px",
+                      "position": "absolute",
+                      "top": "-6px",
+                      "width": "4px",
+                    },
+                    "background": "#b2b2b2",
+                    "borderRadius": "50%",
+                    "cursor": "pointer",
+                    "height": "4px",
+                    "marginBottom": "6px",
+                    "marginTop": "6px",
+                    "position": "relative",
+                    "width": "4px",
+                    "zIndex": "99",
+                  },
+                },
+                "&:hover .cardOption": Object {
+                  "display": "block",
+                },
+                "position": "absolute",
+                "right": "0",
+                "top": "0",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="flex flexDColumn sbcw p15 pt8 pb8 mb8 relative at_tripCard"
+        >
+          <a
+            href="/requested_trips/5282255"
+            onClick={[Function]}
+          >
+            <div
+              className="flexFull"
+            >
+              <p
+                className="f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus"
+              >
+                <ForwardRef(render)
+                  className="icon-18 absolute l0 t0"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                <span
+                  className="at_quoteReceivedStatus_text"
+                >
+                  No Quotes Received
+                </span>
+              </p>
+              <h3
+                className="f16 fw7 pfc3 mb8 at_destination"
+              >
+                Goa
+              </h3>
+              <span
+                className="pfc1 f14 mb24 block at_bookingId"
+              >
+                Booking ID #5282255
+              </span>
+            </div>
+            <div
+              className="flex"
+            >
+              <div
+                className="flexFull mb15 mr4 pr8 at_departureDate"
+              >
+                <p
+                  className="f14 pfc4 mb4"
+                >
+                  Departure Date
+                </p>
+                <p
+                  className="f14 pfc3"
+                >
+                  Thu, 25 Jul, 2019
+                </p>
+              </div>
+              <div
+                className="flexFull mb15 ml4 pl8 at_duration"
+              >
+                <p
+                  className="f14 pfc4 mb4"
+                >
+                  Duration
+                </p>
+                <p
+                  className="f14 pfc3"
+                >
+                  3
+                   Days
+                </p>
+              </div>
+            </div>
+            <div
+              className="flex"
+            >
+              <div
+                className="flexFull at_travelers"
+              >
+                <p
+                  className="f14 pfc4 mb4"
+                >
+                  Travelers
+                </p>
+                <p
+                  className="f14 pfc3"
+                >
+                  3
+                   Adult & 
+                  0
+                   Children
+                </p>
+              </div>
+            </div>
+          </a>
+          <ForwardRef(render)>
+            <div
+              className="optionTrigger absolute t8 r15 cursorP at_tripCardActionTrigger"
+            >
+              <div
+                className="cardTriggerIcon"
+              />
+            </div>
+            <ForwardRef(render)
+              className="cardOption sbcw absolute z10 t8 r8 at_tripCardAction"
+            >
+              <ul
+                className="list-style-no"
+              >
+                <li>
+                  <ModalComponent
+                    customClass=""
+                    customCloseTrigger={true}
+                    disabled={false}
+                    fullView={true}
+                    hasCustomClose={true}
+                    hasNoClose={false}
+                    isTriggerFullView={false}
+                    isWhiteIcon={false}
+                    onAfterModalOpen={[Function]}
+                    onRequestCloseCustom={[Function]}
+                    trigger={
+                      <span
+                        className="pfc3 p15 block cursorP bb"
+                        onClick={[Function]}
+                      >
+                        Cancel
+                      </span>
+                    }
+                  >
+                    <div
+                      className="sbcw"
+                    >
+                      <withRouter(Connect(CancelRequestContainer))
+                        closeModal={[Function]}
+                        tripId={5282255}
+                      />
+                    </div>
+                  </ModalComponent>
+                </li>
+                <li>
+                  <a
+                    className="pfc3 p15 block cursorP"
+                    href="/requested_trips/5282255/edit"
+                    onClick={[Function]}
+                  >
+                    Edit Preferences
+                  </a>
+                </li>
+              </ul>
+            </ForwardRef(render)>
+          </ForwardRef(render)>
+        </div>,
+        "className": "mt8",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              href="/requested_trips/5282255"
+              onClick={[Function]}
+            >
+              <div
+                className="flexFull"
+              >
+                <p
+                  className="f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus"
+                >
+                  <ForwardRef(render)
+                    className="icon-18 absolute l0 t0"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  <span
+                    className="at_quoteReceivedStatus_text"
+                  >
+                    No Quotes Received
+                  </span>
+                </p>
+                <h3
+                  className="f16 fw7 pfc3 mb8 at_destination"
+                >
+                  Goa
+                </h3>
+                <span
+                  className="pfc1 f14 mb24 block at_bookingId"
+                >
+                  Booking ID #5282255
+                </span>
+              </div>
+              <div
+                className="flex"
+              >
+                <div
+                  className="flexFull mb15 mr4 pr8 at_departureDate"
+                >
+                  <p
+                    className="f14 pfc4 mb4"
+                  >
+                    Departure Date
+                  </p>
+                  <p
+                    className="f14 pfc3"
+                  >
+                    Thu, 25 Jul, 2019
+                  </p>
+                </div>
+                <div
+                  className="flexFull mb15 ml4 pl8 at_duration"
+                >
+                  <p
+                    className="f14 pfc4 mb4"
+                  >
+                    Duration
+                  </p>
+                  <p
+                    className="f14 pfc3"
+                  >
+                    3
+                     Days
+                  </p>
+                </div>
+              </div>
+              <div
+                className="flex"
+              >
+                <div
+                  className="flexFull at_travelers"
+                >
+                  <p
+                    className="f14 pfc4 mb4"
+                  >
+                    Travelers
+                  </p>
+                  <p
+                    className="f14 pfc3"
+                  >
+                    3
+                     Adult & 
+                    0
+                     Children
+                  </p>
+                </div>
+              </div>
+            </a>,
+            <ForwardRef(render)>
+              <div
+                className="optionTrigger absolute t8 r15 cursorP at_tripCardActionTrigger"
+              >
+                <div
+                  className="cardTriggerIcon"
+                />
+              </div>
+              <ForwardRef(render)
+                className="cardOption sbcw absolute z10 t8 r8 at_tripCardAction"
+              >
+                <ul
+                  className="list-style-no"
+                >
+                  <li>
+                    <ModalComponent
+                      customClass=""
+                      customCloseTrigger={true}
+                      disabled={false}
+                      fullView={true}
+                      hasCustomClose={true}
+                      hasNoClose={false}
+                      isTriggerFullView={false}
+                      isWhiteIcon={false}
+                      onAfterModalOpen={[Function]}
+                      onRequestCloseCustom={[Function]}
+                      trigger={
+                        <span
+                          className="pfc3 p15 block cursorP bb"
+                          onClick={[Function]}
+                        >
+                          Cancel
+                        </span>
+                      }
+                    >
+                      <div
+                        className="sbcw"
+                      >
+                        <withRouter(Connect(CancelRequestContainer))
+                          closeModal={[Function]}
+                          tripId={5282255}
+                        />
+                      </div>
+                    </ModalComponent>
+                  </li>
+                  <li>
+                    <a
+                      className="pfc3 p15 block cursorP"
+                      href="/requested_trips/5282255/edit"
+                      onClick={[Function]}
+                    >
+                      Edit Preferences
+                    </a>
+                  </li>
+                </ul>
+              </ForwardRef(render)>
+            </ForwardRef(render)>,
+          ],
+          "className": "flex flexDColumn sbcw p15 pt8 pb8 mb8 relative at_tripCard",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="flexFull"
+                >
+                  <p
+                    className="f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus"
+                  >
+                    <ForwardRef(render)
+                      className="icon-18 absolute l0 t0"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>
+                    <span
+                      className="at_quoteReceivedStatus_text"
+                    >
+                      No Quotes Received
+                    </span>
+                  </p>
+                  <h3
+                    className="f16 fw7 pfc3 mb8 at_destination"
+                  >
+                    Goa
+                  </h3>
+                  <span
+                    className="pfc1 f14 mb24 block at_bookingId"
+                  >
+                    Booking ID #5282255
+                  </span>
+                </div>,
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="flexFull mb15 mr4 pr8 at_departureDate"
+                  >
+                    <p
+                      className="f14 pfc4 mb4"
+                    >
+                      Departure Date
+                    </p>
+                    <p
+                      className="f14 pfc3"
+                    >
+                      Thu, 25 Jul, 2019
+                    </p>
+                  </div>
+                  <div
+                    className="flexFull mb15 ml4 pl8 at_duration"
+                  >
+                    <p
+                      className="f14 pfc4 mb4"
+                    >
+                      Duration
+                    </p>
+                    <p
+                      className="f14 pfc3"
+                    >
+                      3
+                       Days
+                    </p>
+                  </div>
+                </div>,
+                <div
+                  className="flex"
+                >
+                  <div
+                    className="flexFull at_travelers"
+                  >
+                    <p
+                      className="f14 pfc4 mb4"
+                    >
+                      Travelers
+                    </p>
+                    <p
+                      className="f14 pfc3"
+                    >
+                      3
+                       Adult & 
+                      0
+                       Children
+                    </p>
+                  </div>
+                </div>,
+              ],
+              "href": "/requested_trips/5282255",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus"
+                    >
+                      <ForwardRef(render)
+                        className="icon-18 absolute l0 t0"
+                      >
+                        <IconSvg />
+                      </ForwardRef(render)>
+                      <span
+                        className="at_quoteReceivedStatus_text"
+                      >
+                        No Quotes Received
+                      </span>
+                    </p>,
+                    <h3
+                      className="f16 fw7 pfc3 mb8 at_destination"
+                    >
+                      Goa
+                    </h3>,
+                    <span
+                      className="pfc1 f14 mb24 block at_bookingId"
+                    >
+                      Booking ID #5282255
+                    </span>,
+                  ],
+                  "className": "flexFull",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <ForwardRef(render)
+                          className="icon-18 absolute l0 t0"
+                        >
+                          <IconSvg />
+                        </ForwardRef(render)>,
+                        <span
+                          className="at_quoteReceivedStatus_text"
+                        >
+                          No Quotes Received
+                        </span>,
+                      ],
+                      "className": "f12 fw7 pfc4 relative pl24 mb15 at_quoteReceivedStatus",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": <IconSvg />,
+                          "className": "icon-18 absolute l0 t0",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        "type": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "__emotion_base": "span",
+                          "__emotion_forwardProp": undefined,
+                          "__emotion_real": [Circular],
+                          "__emotion_styles": Array [
+                            Object {
+                              "height": "14px",
+                              "width": "14px",
+                            },
+                          ],
+                          "defaultProps": undefined,
+                          "displayName": "Styled(span)",
+                          "render": [Function],
+                          "withComponent": [Function],
+                        },
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "No Quotes Received",
+                          "className": "at_quoteReceivedStatus_text",
+                        },
+                        "ref": null,
+                        "rendered": "No Quotes Received",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Goa",
+                      "className": "f16 fw7 pfc3 mb8 at_destination",
+                    },
+                    "ref": null,
+                    "rendered": "Goa",
+                    "type": "h3",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Booking ID #5282255",
+                      "className": "pfc1 f14 mb24 block at_bookingId",
+                    },
+                    "ref": null,
+                    "rendered": "Booking ID #5282255",
+                    "type": "span",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="flexFull mb15 mr4 pr8 at_departureDate"
+                    >
+                      <p
+                        className="f14 pfc4 mb4"
+                      >
+                        Departure Date
+                      </p>
+                      <p
+                        className="f14 pfc3"
+                      >
+                        Thu, 25 Jul, 2019
+                      </p>
+                    </div>,
+                    <div
+                      className="flexFull mb15 ml4 pl8 at_duration"
+                    >
+                      <p
+                        className="f14 pfc4 mb4"
+                      >
+                        Duration
+                      </p>
+                      <p
+                        className="f14 pfc3"
+                      >
+                        3
+                         Days
+                      </p>
+                    </div>,
+                  ],
+                  "className": "flex",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <p
+                          className="f14 pfc4 mb4"
+                        >
+                          Departure Date
+                        </p>,
+                        <p
+                          className="f14 pfc3"
+                        >
+                          Thu, 25 Jul, 2019
+                        </p>,
+                      ],
+                      "className": "flexFull mb15 mr4 pr8 at_departureDate",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Departure Date",
+                          "className": "f14 pfc4 mb4",
+                        },
+                        "ref": null,
+                        "rendered": "Departure Date",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Thu, 25 Jul, 2019",
+                          "className": "f14 pfc3",
+                        },
+                        "ref": null,
+                        "rendered": "Thu, 25 Jul, 2019",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <p
+                          className="f14 pfc4 mb4"
+                        >
+                          Duration
+                        </p>,
+                        <p
+                          className="f14 pfc3"
+                        >
+                          3
+                           Days
+                        </p>,
+                      ],
+                      "className": "flexFull mb15 ml4 pl8 at_duration",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Duration",
+                          "className": "f14 pfc4 mb4",
+                        },
+                        "ref": null,
+                        "rendered": "Duration",
+                        "type": "p",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            3,
+                            " Days",
+                          ],
+                          "className": "f14 pfc3",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          3,
+                          " Days",
+                        ],
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="flexFull at_travelers"
+                  >
+                    <p
+                      className="f14 pfc4 mb4"
+                    >
+                      Travelers
+                    </p>
+                    <p
+                      className="f14 pfc3"
+                    >
+                      3
+                       Adult & 
+                      0
+                       Children
+                    </p>
+                  </div>,
+                  "className": "flex",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="f14 pfc4 mb4"
+                      >
+                        Travelers
+                      </p>,
+                      <p
+                        className="f14 pfc3"
+                      >
+                        3
+                         Adult & 
+                        0
+                         Children
+                      </p>,
+                    ],
+                    "className": "flexFull at_travelers",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Travelers",
+                        "className": "f14 pfc4 mb4",
+                      },
+                      "ref": null,
+                      "rendered": "Travelers",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          3,
+                          " Adult & ",
+                          0,
+                          " Children",
+                        ],
+                        "className": "f14 pfc3",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        3,
+                        " Adult & ",
+                        0,
+                        " Children",
+                      ],
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="optionTrigger absolute t8 r15 cursorP at_tripCardActionTrigger"
+                >
+                  <div
+                    className="cardTriggerIcon"
+                  />
+                </div>,
+                <ForwardRef(render)
+                  className="cardOption sbcw absolute z10 t8 r8 at_tripCardAction"
+                >
+                  <ul
+                    className="list-style-no"
+                  >
+                    <li>
+                      <ModalComponent
+                        customClass=""
+                        customCloseTrigger={true}
+                        disabled={false}
+                        fullView={true}
+                        hasCustomClose={true}
+                        hasNoClose={false}
+                        isTriggerFullView={false}
+                        isWhiteIcon={false}
+                        onAfterModalOpen={[Function]}
+                        onRequestCloseCustom={[Function]}
+                        trigger={
+                          <span
+                            className="pfc3 p15 block cursorP bb"
+                            onClick={[Function]}
+                          >
+                            Cancel
+                          </span>
+                        }
+                      >
+                        <div
+                          className="sbcw"
+                        >
+                          <withRouter(Connect(CancelRequestContainer))
+                            closeModal={[Function]}
+                            tripId={5282255}
+                          />
+                        </div>
+                      </ModalComponent>
+                    </li>
+                    <li>
+                      <a
+                        className="pfc3 p15 block cursorP"
+                        href="/requested_trips/5282255/edit"
+                        onClick={[Function]}
+                      >
+                        Edit Preferences
+                      </a>
+                    </li>
+                  </ul>
+                </ForwardRef(render)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="cardTriggerIcon"
+                  />,
+                  "className": "optionTrigger absolute t8 r15 cursorP at_tripCardActionTrigger",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "cardTriggerIcon",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ul
+                    className="list-style-no"
+                  >
+                    <li>
+                      <ModalComponent
+                        customClass=""
+                        customCloseTrigger={true}
+                        disabled={false}
+                        fullView={true}
+                        hasCustomClose={true}
+                        hasNoClose={false}
+                        isTriggerFullView={false}
+                        isWhiteIcon={false}
+                        onAfterModalOpen={[Function]}
+                        onRequestCloseCustom={[Function]}
+                        trigger={
+                          <span
+                            className="pfc3 p15 block cursorP bb"
+                            onClick={[Function]}
+                          >
+                            Cancel
+                          </span>
+                        }
+                      >
+                        <div
+                          className="sbcw"
+                        >
+                          <withRouter(Connect(CancelRequestContainer))
+                            closeModal={[Function]}
+                            tripId={5282255}
+                          />
+                        </div>
+                      </ModalComponent>
+                    </li>
+                    <li>
+                      <a
+                        className="pfc3 p15 block cursorP"
+                        href="/requested_trips/5282255/edit"
+                        onClick={[Function]}
+                      >
+                        Edit Preferences
+                      </a>
+                    </li>
+                  </ul>,
+                  "className": "cardOption sbcw absolute z10 t8 r8 at_tripCardAction",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <li>
+                        <ModalComponent
+                          customClass=""
+                          customCloseTrigger={true}
+                          disabled={false}
+                          fullView={true}
+                          hasCustomClose={true}
+                          hasNoClose={false}
+                          isTriggerFullView={false}
+                          isWhiteIcon={false}
+                          onAfterModalOpen={[Function]}
+                          onRequestCloseCustom={[Function]}
+                          trigger={
+                            <span
+                              className="pfc3 p15 block cursorP bb"
+                              onClick={[Function]}
+                            >
+                              Cancel
+                            </span>
+                          }
+                        >
+                          <div
+                            className="sbcw"
+                          >
+                            <withRouter(Connect(CancelRequestContainer))
+                              closeModal={[Function]}
+                              tripId={5282255}
+                            />
+                          </div>
+                        </ModalComponent>
+                      </li>,
+                      <li>
+                        <a
+                          className="pfc3 p15 block cursorP"
+                          href="/requested_trips/5282255/edit"
+                          onClick={[Function]}
+                        >
+                          Edit Preferences
+                        </a>
+                      </li>,
+                    ],
+                    "className": "list-style-no",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <ModalComponent
+                          customClass=""
+                          customCloseTrigger={true}
+                          disabled={false}
+                          fullView={true}
+                          hasCustomClose={true}
+                          hasNoClose={false}
+                          isTriggerFullView={false}
+                          isWhiteIcon={false}
+                          onAfterModalOpen={[Function]}
+                          onRequestCloseCustom={[Function]}
+                          trigger={
+                            <span
+                              className="pfc3 p15 block cursorP bb"
+                              onClick={[Function]}
+                            >
+                              Cancel
+                            </span>
+                          }
+                        >
+                          <div
+                            className="sbcw"
+                          >
+                            <withRouter(Connect(CancelRequestContainer))
+                              closeModal={[Function]}
+                              tripId={5282255}
+                            />
+                          </div>
+                        </ModalComponent>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": <div
+                            className="sbcw"
+                          >
+                            <withRouter(Connect(CancelRequestContainer))
+                              closeModal={[Function]}
+                              tripId={5282255}
+                            />
+                          </div>,
+                          "customClass": "",
+                          "customCloseTrigger": true,
+                          "disabled": false,
+                          "fullView": true,
+                          "hasCustomClose": true,
+                          "hasNoClose": false,
+                          "isTriggerFullView": false,
+                          "isWhiteIcon": false,
+                          "onAfterModalOpen": [Function],
+                          "onRequestCloseCustom": [Function],
+                          "trigger": <span
+                            className="pfc3 p15 block cursorP bb"
+                            onClick={[Function]}
+                          >
+                            Cancel
+                          </span>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <withRouter(Connect(CancelRequestContainer))
+                              closeModal={[Function]}
+                              tripId={5282255}
+                            />,
+                            "className": "sbcw",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "closeModal": [Function],
+                              "tripId": 5282255,
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                        "type": [Function],
+                      },
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          className="pfc3 p15 block cursorP"
+                          href="/requested_trips/5282255/edit"
+                          onClick={[Function]}
+                        >
+                          Edit Preferences
+                        </a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Edit Preferences",
+                          "className": "pfc3 p15 block cursorP",
+                          "href": "/requested_trips/5282255/edit",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": "Edit Preferences",
+                        "type": "a",
+                      },
+                      "type": "li",
+                    },
+                  ],
+                  "type": "ul",
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "boxShadow": "0 6px 8px 0 rgba(0, 0, 0, 0.08)",
+                      "display": "none",
+                      "width": "200px",
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& .optionTrigger": Object {
+                    "& .cardTriggerIcon": Object {
+                      "&:after": Object {
+                        "bottom": "-6px",
+                        "top": "auto",
+                      },
+                      "&:before, &:after": Object {
+                        "background": "#b2b2b2",
+                        "borderRadius": "50%",
+                        "content": "\\"\\"",
+                        "height": "4px",
+                        "position": "absolute",
+                        "top": "-6px",
+                        "width": "4px",
+                      },
+                      "background": "#b2b2b2",
+                      "borderRadius": "50%",
+                      "cursor": "pointer",
+                      "height": "4px",
+                      "marginBottom": "6px",
+                      "marginTop": "6px",
+                      "position": "relative",
+                      "width": "4px",
+                      "zIndex": "99",
+                    },
+                  },
+                  "&:hover .cardOption": Object {
+                    "display": "block",
+                  },
+                  "position": "absolute",
+                  "right": "0",
+                  "top": "0",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

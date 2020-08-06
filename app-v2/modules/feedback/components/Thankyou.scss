@@ -1,0 +1,92 @@
+.thank-you-animation {
+  margin: 0 auto;
+  width: 87px;
+  padding-top: 40px;
+  height: 88px;
+}
+.envelope-box {
+  width: 87px;
+  height: 48px;
+  svg {
+    width: 87px;
+    height: 48px;
+    display: block;
+  }
+}
+.thankyou-tick {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  top: 8px;
+  right: -32px;
+  animation: fadeInTick 2s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  svg {
+    width: 49px;
+    height: 49px;
+    display: block;
+  }
+}
+@keyframes fadeInTick {
+  0% { opacity: 0; }
+  10% { opacity: 0; }
+  20% { opacity: 0; }
+  30% { opacity: 0; }
+  40% { opacity: 0; }
+  50% { opacity: 0; }
+  60% { opacity: 0; }
+  70% { opacity: 0; }
+  80% { opacity: 0; }
+  90% { opacity: 0; }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.animation-bar {
+  width: 87px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #d8d8d8;
+  margin-top: 8px;
+
+}
+.animation-bar-inner {
+  -webkit-animation: animateWidth 6s ease-in;
+  -webkit-animation-fill-mode: forwards;
+  height: 5px;
+  background-color: #009688;
+}
+@-webkit-keyframes animateWidth {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.star-rating{
+  width: 160px;
+  margin: 0 auto;
+}
+.rating-popup h3{
+  padding:34px;
+  line-height:32px;
+}
+.rating-popup .rating-button{
+  width: 150px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 24px;
+}
+.rating-cross{
+  width: 20px;
+  height: 20px;
+  float: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

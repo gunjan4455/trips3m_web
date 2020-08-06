@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteCard: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuoteCard
+    heading="This is test heading"
+    section="test-section"
+    text="This is test data"
+    trackSegment={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <div
+        className="pfc3 f14 sbcw mt8"
+      >
+        <QuoteCardHeader
+          category=""
+          chatButtonName="Chat"
+          handleChatClick={[Function]}
+          heading="This is test heading"
+          icon={<IconSvg />}
+        />
+        <div
+          className="sbcw p15 pl48 pt0 break-word"
+        >
+          <div>
+            This is test data
+          </div>
+        </div>
+      </div>,
+      "name": "test-section",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <QuoteCardHeader
+            category=""
+            chatButtonName="Chat"
+            handleChatClick={[Function]}
+            heading="This is test heading"
+            icon={<IconSvg />}
+          />,
+          <div
+            className="sbcw p15 pl48 pt0 break-word"
+          >
+            <div>
+              This is test data
+            </div>
+          </div>,
+        ],
+        "className": "pfc3 f14 sbcw mt8",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "category": "",
+            "chatButtonName": "Chat",
+            "handleChatClick": [Function],
+            "heading": "This is test heading",
+            "icon": <IconSvg />,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div>
+              This is test data
+            </div>,
+            "className": "sbcw p15 pl48 pt0 break-word",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "This is test data",
+            },
+            "ref": null,
+            "rendered": "This is test data",
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="pfc3 f14 sbcw mt8"
+        >
+          <QuoteCardHeader
+            category=""
+            chatButtonName="Chat"
+            handleChatClick={[Function]}
+            heading="This is test heading"
+            icon={<IconSvg />}
+          />
+          <div
+            className="sbcw p15 pl48 pt0 break-word"
+          >
+            <div>
+              This is test data
+            </div>
+          </div>
+        </div>,
+        "name": "test-section",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <QuoteCardHeader
+              category=""
+              chatButtonName="Chat"
+              handleChatClick={[Function]}
+              heading="This is test heading"
+              icon={<IconSvg />}
+            />,
+            <div
+              className="sbcw p15 pl48 pt0 break-word"
+            >
+              <div>
+                This is test data
+              </div>
+            </div>,
+          ],
+          "className": "pfc3 f14 sbcw mt8",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "category": "",
+              "chatButtonName": "Chat",
+              "handleChatClick": [Function],
+              "heading": "This is test heading",
+              "icon": <IconSvg />,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div>
+                This is test data
+              </div>,
+              "className": "sbcw p15 pl48 pt0 break-word",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "This is test data",
+              },
+              "ref": null,
+              "rendered": "This is test data",
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

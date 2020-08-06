@@ -1,0 +1,1103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonials module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DestinationAndFilters
+    destinationDetail={Object {}}
+    filters={
+      Object {
+        "india": Object {
+          "allDestinations": Array [
+            "Ahmedabad",
+            "Alleppey",
+            "Andaman",
+            "Vrindavan",
+          ],
+          "popularDestination": Array [
+            "Kerala",
+          ],
+        },
+        "international": Object {
+          "allDestinations": Array [
+            "Africa",
+            "Asia",
+            "Australia",
+            "Austria",
+            "Bali",
+            "Belgium",
+          ],
+          "popularDestination": Array [
+            "Bali",
+          ],
+        },
+        "ratings": Array [
+          Object {
+            "checked": false,
+            "value": "1",
+          },
+          Object {
+            "checked": false,
+            "value": "2",
+          },
+          Object {
+            "checked": false,
+            "value": "3",
+          },
+          Object {
+            "checked": false,
+            "value": "4",
+          },
+          Object {
+            "checked": false,
+            "value": "5",
+          },
+        ],
+      }
+    }
+    location={
+      Object {
+        "query": Object {},
+      }
+    }
+    params={Object {}}
+    totalRating={20}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="sbcw flex bs4 fleft wfull"
+        >
+          <div
+            className="at_destination flexFull br"
+            onClick={[Function]}
+          >
+            <Destination
+              breadcrumbs={Array []}
+            />
+          </div>
+          <div
+            className="at_filter flexFull bl"
+            onClick={[Function]}
+          >
+            <Filters
+              initialFilters={Array []}
+            />
+          </div>
+        </div>,
+        <div
+          className="hide"
+        >
+          <DestinationView
+            destinationToggle={[Function]}
+            filters={
+              Object {
+                "india": Object {
+                  "allDestinations": Array [
+                    "Ahmedabad",
+                    "Alleppey",
+                    "Andaman",
+                    "Vrindavan",
+                  ],
+                  "popularDestination": Array [
+                    "Kerala",
+                  ],
+                },
+                "international": Object {
+                  "allDestinations": Array [
+                    "Africa",
+                    "Asia",
+                    "Australia",
+                    "Austria",
+                    "Bali",
+                    "Belgium",
+                  ],
+                  "popularDestination": Array [
+                    "Bali",
+                  ],
+                },
+                "ratings": Array [
+                  Object {
+                    "checked": false,
+                    "value": "1",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "2",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "3",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "4",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "5",
+                  },
+                ],
+              }
+            }
+            location={
+              Object {
+                "query": Object {},
+              }
+            }
+            params={Object {}}
+          />
+        </div>,
+        <div
+          className="hide"
+        >
+          <FiltersView
+            filterToggle={[Function]}
+            initialFilters={Array []}
+            location={
+              Object {
+                "query": Object {},
+              }
+            }
+            ratingFilters={
+              Array [
+                Object {
+                  "checked": false,
+                  "value": "1",
+                },
+                Object {
+                  "checked": false,
+                  "value": "2",
+                },
+                Object {
+                  "checked": false,
+                  "value": "3",
+                },
+                Object {
+                  "checked": false,
+                  "value": "4",
+                },
+                Object {
+                  "checked": false,
+                  "value": "5",
+                },
+              ]
+            }
+          />
+        </div>,
+        <div
+          className="sbc5 pt15 pr15 pb15 pl15 clear wfull"
+        >
+          <h3
+            className="f16a pfc2 pfc3 pb2"
+          >
+            What People Say
+          </h3>
+          <p
+            className="pfc4 fw7 f10 "
+          >
+            Displaying 20 Testimonials
+             
+          </p>
+        </div>,
+        null,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="at_destination flexFull br"
+              onClick={[Function]}
+            >
+              <Destination
+                breadcrumbs={Array []}
+              />
+            </div>,
+            <div
+              className="at_filter flexFull bl"
+              onClick={[Function]}
+            >
+              <Filters
+                initialFilters={Array []}
+              />
+            </div>,
+          ],
+          "className": "sbcw flex bs4 fleft wfull",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Destination
+                breadcrumbs={Array []}
+              />,
+              "className": "at_destination flexFull br",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "breadcrumbs": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Filters
+                initialFilters={Array []}
+              />,
+              "className": "at_filter flexFull bl",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "initialFilters": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <DestinationView
+            destinationToggle={[Function]}
+            filters={
+              Object {
+                "india": Object {
+                  "allDestinations": Array [
+                    "Ahmedabad",
+                    "Alleppey",
+                    "Andaman",
+                    "Vrindavan",
+                  ],
+                  "popularDestination": Array [
+                    "Kerala",
+                  ],
+                },
+                "international": Object {
+                  "allDestinations": Array [
+                    "Africa",
+                    "Asia",
+                    "Australia",
+                    "Austria",
+                    "Bali",
+                    "Belgium",
+                  ],
+                  "popularDestination": Array [
+                    "Bali",
+                  ],
+                },
+                "ratings": Array [
+                  Object {
+                    "checked": false,
+                    "value": "1",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "2",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "3",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "4",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "5",
+                  },
+                ],
+              }
+            }
+            location={
+              Object {
+                "query": Object {},
+              }
+            }
+            params={Object {}}
+          />,
+          "className": "hide",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "breadcrumbs": undefined,
+            "destinationToggle": [Function],
+            "filters": Object {
+              "india": Object {
+                "allDestinations": Array [
+                  "Ahmedabad",
+                  "Alleppey",
+                  "Andaman",
+                  "Vrindavan",
+                ],
+                "popularDestination": Array [
+                  "Kerala",
+                ],
+              },
+              "international": Object {
+                "allDestinations": Array [
+                  "Africa",
+                  "Asia",
+                  "Australia",
+                  "Austria",
+                  "Bali",
+                  "Belgium",
+                ],
+                "popularDestination": Array [
+                  "Bali",
+                ],
+              },
+              "ratings": Array [
+                Object {
+                  "checked": false,
+                  "value": "1",
+                },
+                Object {
+                  "checked": false,
+                  "value": "2",
+                },
+                Object {
+                  "checked": false,
+                  "value": "3",
+                },
+                Object {
+                  "checked": false,
+                  "value": "4",
+                },
+                Object {
+                  "checked": false,
+                  "value": "5",
+                },
+              ],
+            },
+            "location": Object {
+              "query": Object {},
+            },
+            "params": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <FiltersView
+            filterToggle={[Function]}
+            initialFilters={Array []}
+            location={
+              Object {
+                "query": Object {},
+              }
+            }
+            ratingFilters={
+              Array [
+                Object {
+                  "checked": false,
+                  "value": "1",
+                },
+                Object {
+                  "checked": false,
+                  "value": "2",
+                },
+                Object {
+                  "checked": false,
+                  "value": "3",
+                },
+                Object {
+                  "checked": false,
+                  "value": "4",
+                },
+                Object {
+                  "checked": false,
+                  "value": "5",
+                },
+              ]
+            }
+          />,
+          "className": "hide",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "filterToggle": [Function],
+            "initialFilters": Array [],
+            "location": Object {
+              "query": Object {},
+            },
+            "ratingFilters": Array [
+              Object {
+                "checked": false,
+                "value": "1",
+              },
+              Object {
+                "checked": false,
+                "value": "2",
+              },
+              Object {
+                "checked": false,
+                "value": "3",
+              },
+              Object {
+                "checked": false,
+                "value": "4",
+              },
+              Object {
+                "checked": false,
+                "value": "5",
+              },
+            ],
+            "updateUrl": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="f16a pfc2 pfc3 pb2"
+            >
+              What People Say
+            </h3>,
+            <p
+              className="pfc4 fw7 f10 "
+            >
+              Displaying 20 Testimonials
+               
+            </p>,
+          ],
+          "className": "sbc5 pt15 pr15 pb15 pl15 clear wfull",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "What People Say",
+              "className": "f16a pfc2 pfc3 pb2",
+            },
+            "ref": null,
+            "rendered": "What People Say",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Displaying 20 Testimonials",
+                " ",
+              ],
+              "className": "pfc4 fw7 f10 ",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Displaying 20 Testimonials",
+              " ",
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="sbcw flex bs4 fleft wfull"
+          >
+            <div
+              className="at_destination flexFull br"
+              onClick={[Function]}
+            >
+              <Destination
+                breadcrumbs={Array []}
+              />
+            </div>
+            <div
+              className="at_filter flexFull bl"
+              onClick={[Function]}
+            >
+              <Filters
+                initialFilters={Array []}
+              />
+            </div>
+          </div>,
+          <div
+            className="hide"
+          >
+            <DestinationView
+              destinationToggle={[Function]}
+              filters={
+                Object {
+                  "india": Object {
+                    "allDestinations": Array [
+                      "Ahmedabad",
+                      "Alleppey",
+                      "Andaman",
+                      "Vrindavan",
+                    ],
+                    "popularDestination": Array [
+                      "Kerala",
+                    ],
+                  },
+                  "international": Object {
+                    "allDestinations": Array [
+                      "Africa",
+                      "Asia",
+                      "Australia",
+                      "Austria",
+                      "Bali",
+                      "Belgium",
+                    ],
+                    "popularDestination": Array [
+                      "Bali",
+                    ],
+                  },
+                  "ratings": Array [
+                    Object {
+                      "checked": false,
+                      "value": "1",
+                    },
+                    Object {
+                      "checked": false,
+                      "value": "2",
+                    },
+                    Object {
+                      "checked": false,
+                      "value": "3",
+                    },
+                    Object {
+                      "checked": false,
+                      "value": "4",
+                    },
+                    Object {
+                      "checked": false,
+                      "value": "5",
+                    },
+                  ],
+                }
+              }
+              location={
+                Object {
+                  "query": Object {},
+                }
+              }
+              params={Object {}}
+            />
+          </div>,
+          <div
+            className="hide"
+          >
+            <FiltersView
+              filterToggle={[Function]}
+              initialFilters={Array []}
+              location={
+                Object {
+                  "query": Object {},
+                }
+              }
+              ratingFilters={
+                Array [
+                  Object {
+                    "checked": false,
+                    "value": "1",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "2",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "3",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "4",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "5",
+                  },
+                ]
+              }
+            />
+          </div>,
+          <div
+            className="sbc5 pt15 pr15 pb15 pl15 clear wfull"
+          >
+            <h3
+              className="f16a pfc2 pfc3 pb2"
+            >
+              What People Say
+            </h3>
+            <p
+              className="pfc4 fw7 f10 "
+            >
+              Displaying 20 Testimonials
+               
+            </p>
+          </div>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="at_destination flexFull br"
+                onClick={[Function]}
+              >
+                <Destination
+                  breadcrumbs={Array []}
+                />
+              </div>,
+              <div
+                className="at_filter flexFull bl"
+                onClick={[Function]}
+              >
+                <Filters
+                  initialFilters={Array []}
+                />
+              </div>,
+            ],
+            "className": "sbcw flex bs4 fleft wfull",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Destination
+                  breadcrumbs={Array []}
+                />,
+                "className": "at_destination flexFull br",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "breadcrumbs": Array [],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Filters
+                  initialFilters={Array []}
+                />,
+                "className": "at_filter flexFull bl",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "initialFilters": Array [],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <DestinationView
+              destinationToggle={[Function]}
+              filters={
+                Object {
+                  "india": Object {
+                    "allDestinations": Array [
+                      "Ahmedabad",
+                      "Alleppey",
+                      "Andaman",
+                      "Vrindavan",
+                    ],
+                    "popularDestination": Array [
+                      "Kerala",
+                    ],
+                  },
+                  "international": Object {
+                    "allDestinations": Array [
+                      "Africa",
+                      "Asia",
+                      "Australia",
+                      "Austria",
+                      "Bali",
+                      "Belgium",
+                    ],
+                    "popularDestination": Array [
+                      "Bali",
+                    ],
+                  },
+                  "ratings": Array [
+                    Object {
+                      "checked": false,
+                      "value": "1",
+                    },
+                    Object {
+                      "checked": false,
+                      "value": "2",
+                    },
+                    Object {
+                      "checked": false,
+                      "value": "3",
+                    },
+                    Object {
+                      "checked": false,
+                      "value": "4",
+                    },
+                    Object {
+                      "checked": false,
+                      "value": "5",
+                    },
+                  ],
+                }
+              }
+              location={
+                Object {
+                  "query": Object {},
+                }
+              }
+              params={Object {}}
+            />,
+            "className": "hide",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "breadcrumbs": undefined,
+              "destinationToggle": [Function],
+              "filters": Object {
+                "india": Object {
+                  "allDestinations": Array [
+                    "Ahmedabad",
+                    "Alleppey",
+                    "Andaman",
+                    "Vrindavan",
+                  ],
+                  "popularDestination": Array [
+                    "Kerala",
+                  ],
+                },
+                "international": Object {
+                  "allDestinations": Array [
+                    "Africa",
+                    "Asia",
+                    "Australia",
+                    "Austria",
+                    "Bali",
+                    "Belgium",
+                  ],
+                  "popularDestination": Array [
+                    "Bali",
+                  ],
+                },
+                "ratings": Array [
+                  Object {
+                    "checked": false,
+                    "value": "1",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "2",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "3",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "4",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "5",
+                  },
+                ],
+              },
+              "location": Object {
+                "query": Object {},
+              },
+              "params": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FiltersView
+              filterToggle={[Function]}
+              initialFilters={Array []}
+              location={
+                Object {
+                  "query": Object {},
+                }
+              }
+              ratingFilters={
+                Array [
+                  Object {
+                    "checked": false,
+                    "value": "1",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "2",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "3",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "4",
+                  },
+                  Object {
+                    "checked": false,
+                    "value": "5",
+                  },
+                ]
+              }
+            />,
+            "className": "hide",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "filterToggle": [Function],
+              "initialFilters": Array [],
+              "location": Object {
+                "query": Object {},
+              },
+              "ratingFilters": Array [
+                Object {
+                  "checked": false,
+                  "value": "1",
+                },
+                Object {
+                  "checked": false,
+                  "value": "2",
+                },
+                Object {
+                  "checked": false,
+                  "value": "3",
+                },
+                Object {
+                  "checked": false,
+                  "value": "4",
+                },
+                Object {
+                  "checked": false,
+                  "value": "5",
+                },
+              ],
+              "updateUrl": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="f16a pfc2 pfc3 pb2"
+              >
+                What People Say
+              </h3>,
+              <p
+                className="pfc4 fw7 f10 "
+              >
+                Displaying 20 Testimonials
+                 
+              </p>,
+            ],
+            "className": "sbc5 pt15 pr15 pb15 pl15 clear wfull",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "What People Say",
+                "className": "f16a pfc2 pfc3 pb2",
+              },
+              "ref": null,
+              "rendered": "What People Say",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Displaying 20 Testimonials",
+                  " ",
+                ],
+                "className": "pfc4 fw7 f10 ",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Displaying 20 Testimonials",
+                " ",
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,836 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/preferences/view/TripPreferences.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/preferences/view</a> TripPreferences.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">73.49% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>61/83</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">54.55% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>18/33</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">68.75% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>11/16</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">73.17% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>60/82</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">72x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+&nbsp;
+import { PreferencesIcon } from 'helpers/Icon/Icon';
+import { capitalizeFirstLetter } from 'utils/parsers';
+import { GPreferenceDiv } from './G';
+import Modal from 'modules/shared/GenericModal';
+import TripPreferencesEditForm from '../edit/TripPreferences';
+import {
+  HotelRequiredIds, HotelCustomizationDetail as HotelCustomization,
+  CabCustomizationDetail as CabCustomizations
+} from '../constants';
+import { getTripPreferences, getEligibleAnswersObj } from '../helpers';
+import { rescue } from 'helpers/utils';
+import { ORGANISM_CLICKED } from 'actions/segmentEvents';
+import EditPreferencesPopup from '../components/EditPreferencesPopup';
+&nbsp;
+const getMultiValueCustomization = (values, selectedOptions) =&gt; {
+  const customizationAttrs = [];
+  for (const customizationId in values.multiValueOptions) {
+    const options = values.multiValueOptions[customizationId].optionId;
+    for (const optionId in options) {
+      const attrs = <span class="cstat-no" title="statement not covered" >{</span>
+        id: selectedOptions[optionId],
+        customization_id: customizationId,
+        option_id: optionId
+      };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      if (options[optionId]) {</span>
+<span class="cstat-no" title="statement not covered" >        customizationAttrs.push(attrs);</span>
+      } else <span class="cstat-no" title="statement not covered" >if (selectedOptions[optionId]) {</span>
+<span class="cstat-no" title="statement not covered" >        attrs._destroy = true;</span>
+<span class="cstat-no" title="statement not covered" >        customizationAttrs.push(attrs);</span>
+      }
+    }
+  }
+&nbsp;
+  return customizationAttrs;
+};
+&nbsp;
+const getSingleValueCustomization = (values, selectedOptions, customizations) =&gt; {
+  const customizationAttrs = [];
+&nbsp;
+  for (const customizationId in values.singleValueOptions) {
+    let optionId = values.singleValueOptions[customizationId].optionId;
+    const prevOption = customizations.find(e =&gt; e.id.toString() === customizationId)
+      .options.find(e =&gt; selectedOptions[e.id]);
+&nbsp;
+    const prevOptionId = prevOption &amp;&amp; selectedOptions[prevOption.id] || selectedOptions[optionId];
+    let user_input = '';
+&nbsp;
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (customizationId === CabCustomizations.questions.id.toString() &amp;&amp; values.driverSpeaks) {
+<span class="cstat-no" title="statement not covered" >      user_input = values.driverSpeaks;</span>
+<span class="cstat-no" title="statement not covered" >      optionId = CabCustomizations.domesticDestinationOptionId;</span>
+    }
+&nbsp;
+    customizationAttrs.push(
+      {
+        id: prevOptionId,
+        customization_id: customizationId,
+        option_id: optionId,
+        user_input
+      }
+    );
+  }
+&nbsp;
+  return customizationAttrs;
+};
+&nbsp;
+const getHotelCustomization = (values, selectedOptions) =&gt; {
+  const customizationAttrs = [];
+&nbsp;
+  let anyHotelStarSelected = false;
+  let hotelNotRequired = false;
+&nbsp;
+  for (const hotelIdKey in values.hotelCategories) {
+    const hotelId = parseInt(hotelIdKey, 10);
+    const hotelStarSelected = values.hotelCategories[hotelIdKey];
+&nbsp;
+    if (hotelId === HotelRequiredIds.NOT_REQUIRED) {
+      hotelNotRequired = hotelStarSelected;
+      continue;
+    }
+&nbsp;
+    const selected = selectedOptions[hotelId];
+    const attrs = {
+      id: selected,
+      option_id: hotelId,
+      customization_id: HotelCustomization.category.id,
+    };
+    if (hotelStarSelected) {
+      anyHotelStarSelected = true;
+      customizationAttrs.push(attrs);
+    } else <span class="missing-if-branch" title="if path not taken" >I</span>if (selected) {
+<span class="cstat-no" title="statement not covered" >      attrs._destroy = true;</span>
+<span class="cstat-no" title="statement not covered" >      customizationAttrs.push(attrs);</span>
+    }
+  }
+&nbsp;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (hotelNotRequired) {
+    const selected = <span class="cstat-no" title="statement not covered" >selectedOptions[HotelRequiredIds.REQUIRED];</span>
+<span class="cstat-no" title="statement not covered" >    if (selected) {</span>
+<span class="cstat-no" title="statement not covered" >      customizationAttrs.push({</span>
+        id: selectedOptions[HotelRequiredIds.REQUIRED],
+        customization_id: HotelCustomization.required.id,
+        option_id: HotelRequiredIds.REQUIRED,
+        _destroy: true
+      });
+    }
+<span class="cstat-no" title="statement not covered" >    customizationAttrs.push({</span>
+      id: selectedOptions[HotelRequiredIds.NOT_REQUIRED],
+      customization_id: HotelCustomization.required.id,
+      option_id: HotelRequiredIds.NOT_REQUIRED
+    });
+  } else <span class="missing-if-branch" title="else path not taken" >E</span>if (anyHotelStarSelected) {
+    const selected = selectedOptions[HotelRequiredIds.NOT_REQUIRED];
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (selected) {
+<span class="cstat-no" title="statement not covered" >      customizationAttrs.push({</span>
+        id: selectedOptions[HotelRequiredIds.NOT_REQUIRED],
+        customization_id: HotelCustomization.required.id,
+        option_id: HotelRequiredIds.NOT_REQUIRED,
+        _destroy: true
+      });
+    }
+    customizationAttrs.push({
+      id: selectedOptions[HotelRequiredIds.REQUIRED],
+      customization_id: HotelCustomization.required.id,
+      option_id: HotelRequiredIds.REQUIRED
+    });
+  }
+&nbsp;
+  return customizationAttrs;
+};
+&nbsp;
+class TripPreferences extends React.Component {
+&nbsp;
+  constructor(props) {
+    super(props);
+    this.state = {
+      closeModal: false
+    };
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>mponentWillReceiveProps(nextProps) {
+<span class="cstat-no" title="statement not covered" >    if (!this.props.updated &amp;&amp; nextProps.updated) {</span>
+<span class="cstat-no" title="statement not covered" >      this.closeModal();</span>
+    }
+  }
+&nbsp;
+  trackSegmentEvent = (event, section, object, cta) =&gt; {
+    rescue(() =&gt; {
+      this.props.trackSegment(event, section, object, cta);
+    });
+  };
+&nbsp;
+  updateTripPreference = (values) =&gt; {
+&nbsp;
+    let customizationAttrs = [];
+    const { preferencesData: { customizations, eligibleAnswers: selectedAnswers } } = this.props.preferences;
+&nbsp;
+    const selectedOptions = getEligibleAnswersObj(selectedAnswers);
+&nbsp;
+    const hotelCustomization = getHotelCustomization(values, selectedOptions);
+    const singleValueCustomization = getSingleValueCustomization(values, selectedOptions, customizations);
+    const multiValueCustomization = getMultiValueCustomization(values, selectedOptions);
+&nbsp;
+    customizationAttrs = [...customizationAttrs, ...hotelCustomization, ...singleValueCustomization, ...multiValueCustomization];
+    const flightAnswerAttributes = {
+      customization_id: values.flightAnswerAttributes.customizationId,
+      id: values.flightAnswerAttributes.id,
+      option_id: values.flightAnswerAttributes.optionId
+    };
+&nbsp;
+    const params = {
+      requested_trip: {
+        info: values.info,
+        budget: values.budget,
+        flight_answer_attributes: flightAnswerAttributes,
+        other_answers_attributes: customizationAttrs
+      }
+    };
+    this.trackSegmentEvent(ORGANISM_CLICKED, 'preferences', '', 'Confirm');
+    this.props.handleSubmit(this.props.currentTripId, params);
+  };
+&nbsp;
+  handleClick = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.trackSegmentEvent(ORGANISM_CLICKED, 'Edit preferences window', 'preferences', 'edit');</span>
+<span class="cstat-no" title="statement not covered" >    this.setState({ closeModal: false });</span>
+  };
+&nbsp;
+  afterModalClose = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.trackSegmentEvent(ORGANISM_CLICKED, 'preferences', '', 'Cancel');</span>
+  };
+&nbsp;
+  closeModal = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.setState({ closeModal: true });</span>
+  };
+&nbsp;
+  render() {
+    const { initialFormData, preferences, isConvertedTrip, isCancelledTrip } = this.props;
+    const tripPreferences = getTripPreferences(preferences);
+&nbsp;
+    return (
+      &lt;div className='sbcw p15 pb0'&gt;
+        &lt;div className='flex alignCenter spaceBetween mb15'&gt;
+          &lt;h6 className='flex alignCenter f16 fw9 m0 flexFull'&gt;
+            &lt;span className='block input-24 mr8'&gt;&lt;PreferencesIcon /&gt;&lt;/span&gt;
+            &lt;span className="sfc6"&gt;Preferences&lt;/span&gt;
+          &lt;/h6&gt;
+          {!isConvertedTrip || isCancelledTrip ?
+            &lt;Modal
+              trigger={&lt;span className='sfc1 f14 fw7'
+                             onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >this.handleClick()}</span>&gt;Edit&lt;/span&gt;}
+              fullView={true}
+              hasCustomClose={true}
+              onRequestCloseCustom={this.afterModalClose}
+              customCloseTrigger={this.state.closeModal}&gt;
+              &lt;TripPreferencesEditForm initialValues={initialFormData}
+                                       onSubmit={this.updateTripPreference}
+                                       preferences={preferences} /&gt;
+            &lt;/Modal&gt; :
+            &lt;Modal trigger={&lt;span className='sfc1 f14 fw7'&gt;Edit&lt;/span&gt;} customCloseTrigger={this.state.closeModal}&gt;
+              &lt;EditPreferencesPopup opDetails={preferences.opDetails} closeModal={this.closeModal} /&gt;
+            &lt;/Modal&gt;}
+        &lt;/div&gt;
+        &lt;div className='flex flexWrap'&gt;
+          {
+            tripPreferences.map((preference, index) =&gt;
+              &lt;GPreferenceDiv className='flexFull mb15 break-word' key={index}&gt;
+                &lt;p&gt;{preference.label}&lt;/p&gt;
+                &lt;p&gt;{capitalizeFirstLetter(preference.value)}&lt;/p&gt;
+              &lt;/GPreferenceDiv&gt;)
+          }
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+TripPreferences.propTypes = {
+  currentTripId: PropTypes.oneOfType([
+    PropTypes.number,
+    PropTypes.string
+  ]),
+  initialFormData: PropTypes.object,
+  preferences: PropTypes.object,
+  isConvertedTrip: PropTypes.bool,
+  isCancelledTrip: PropTypes.bool,
+  updated: PropTypes.bool,
+  errors: PropTypes.array,
+  handleSubmit: PropTypes.func,
+  trackSegment: PropTypes.func
+};
+&nbsp;
+TripPreferences.defaultProps = {};
+&nbsp;
+export default TripPreferences;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

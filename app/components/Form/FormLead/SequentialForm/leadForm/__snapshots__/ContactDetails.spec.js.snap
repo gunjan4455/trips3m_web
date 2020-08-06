@@ -1,0 +1,861 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lead form module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContactDetails
+    callNextSlide={[MockFunction]}
+    dispatchRxFormAction={[MockFunction]}
+    email={null}
+    formValues={
+      Object {
+        "adult": "2",
+        "budget": "5500..6000",
+        "budget_new": true,
+        "child": "0",
+        "child_age_answers_attributes": Array [
+          Object {
+            "customization_id": "7",
+            "option_id": "29",
+            "user_input": "0",
+          },
+          Object {
+            "customization_id": "7",
+            "option_id": "30",
+            "user_input": "0",
+          },
+          Object {
+            "customization_id": "7",
+            "option_id": "31",
+            "user_input": "0",
+          },
+        ],
+        "dont_utilize_budget_new": true,
+        "email": null,
+        "hotel_category_answers_attributes": Array [
+          Object {
+            "customization_id": "2",
+            "option_id": "7",
+          },
+        ],
+        "hotel_needed_answer_attributes": Object {
+          "customization_id": "22",
+          "option_id": "95",
+        },
+        "infant": "0",
+        "isd_code": "+91",
+        "start_date": "2019-07-25",
+        "start_date_flexible": false,
+        "start_date_noidea": false,
+        "syncErrors": Object {
+          "email": "Enter valid email id",
+          "phone_no": "Phone number is required",
+        },
+        "to_loc": "Kerala",
+        "trip_days": "2",
+      }
+    }
+    location={
+      Object {
+        "query": Object {
+          "variation": "3",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="contact-icon-container"
+        >
+          <IconSvg />
+        </div>,
+        <div
+          className="p15"
+        >
+          <div
+            className="pb8"
+          >
+            <Field
+              changeHandler={[Function]}
+              component={[Function]}
+              emailVal=""
+              label="Email ID"
+              name="email"
+              placeholder="Email"
+              type="email"
+              validate={
+                Array [
+                  [Function],
+                  [Function],
+                ]
+              }
+            />
+          </div>
+          <Field
+            component={[Function]}
+            defaultValue="+91"
+            isFocus={false}
+            label="Phone No"
+            name="phone_no"
+            placeholder="Phone"
+            type="number"
+            validate={[Function]}
+          />
+          <Field
+            className="checkbox-common sfcw"
+            classname="at_whatsapp_opt_status"
+            component={[Function]}
+            formValues={
+              Object {
+                "adult": "2",
+                "budget": "5500..6000",
+                "budget_new": true,
+                "child": "0",
+                "child_age_answers_attributes": Array [
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "29",
+                    "user_input": "0",
+                  },
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "30",
+                    "user_input": "0",
+                  },
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "31",
+                    "user_input": "0",
+                  },
+                ],
+                "dont_utilize_budget_new": true,
+                "email": null,
+                "hotel_category_answers_attributes": Array [
+                  Object {
+                    "customization_id": "2",
+                    "option_id": "7",
+                  },
+                ],
+                "hotel_needed_answer_attributes": Object {
+                  "customization_id": "22",
+                  "option_id": "95",
+                },
+                "infant": "0",
+                "isd_code": "+91",
+                "start_date": "2019-07-25",
+                "start_date_flexible": false,
+                "start_date_noidea": false,
+                "syncErrors": Object {
+                  "email": "Enter valid email id",
+                  "phone_no": "Phone number is required",
+                },
+                "to_loc": "Kerala",
+                "trip_days": "2",
+              }
+            }
+            id="whatsapp_opt_status"
+            label="Send trip updates on WhatsApp"
+            name="whatsapp_opt_status"
+            type="checkbox"
+          />
+        </div>,
+        <Footer
+          goBack={[Function]}
+          goBackDisabled={false}
+          goForward={[Function]}
+          goNextDisabled={true}
+          isLastSlide={false}
+        />,
+      ],
+      "className": "form-body pt15",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "contact-icon-container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="pb8"
+            >
+              <Field
+                changeHandler={[Function]}
+                component={[Function]}
+                emailVal=""
+                label="Email ID"
+                name="email"
+                placeholder="Email"
+                type="email"
+                validate={
+                  Array [
+                    [Function],
+                    [Function],
+                  ]
+                }
+              />
+            </div>,
+            <Field
+              component={[Function]}
+              defaultValue="+91"
+              isFocus={false}
+              label="Phone No"
+              name="phone_no"
+              placeholder="Phone"
+              type="number"
+              validate={[Function]}
+            />,
+            <Field
+              className="checkbox-common sfcw"
+              classname="at_whatsapp_opt_status"
+              component={[Function]}
+              formValues={
+                Object {
+                  "adult": "2",
+                  "budget": "5500..6000",
+                  "budget_new": true,
+                  "child": "0",
+                  "child_age_answers_attributes": Array [
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "29",
+                      "user_input": "0",
+                    },
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "30",
+                      "user_input": "0",
+                    },
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "31",
+                      "user_input": "0",
+                    },
+                  ],
+                  "dont_utilize_budget_new": true,
+                  "email": null,
+                  "hotel_category_answers_attributes": Array [
+                    Object {
+                      "customization_id": "2",
+                      "option_id": "7",
+                    },
+                  ],
+                  "hotel_needed_answer_attributes": Object {
+                    "customization_id": "22",
+                    "option_id": "95",
+                  },
+                  "infant": "0",
+                  "isd_code": "+91",
+                  "start_date": "2019-07-25",
+                  "start_date_flexible": false,
+                  "start_date_noidea": false,
+                  "syncErrors": Object {
+                    "email": "Enter valid email id",
+                    "phone_no": "Phone number is required",
+                  },
+                  "to_loc": "Kerala",
+                  "trip_days": "2",
+                }
+              }
+              id="whatsapp_opt_status"
+              label="Send trip updates on WhatsApp"
+              name="whatsapp_opt_status"
+              type="checkbox"
+            />,
+          ],
+          "className": "p15",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Field
+                changeHandler={[Function]}
+                component={[Function]}
+                emailVal=""
+                label="Email ID"
+                name="email"
+                placeholder="Email"
+                type="email"
+                validate={
+                  Array [
+                    [Function],
+                    [Function],
+                  ]
+                }
+              />,
+              "className": "pb8",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "changeHandler": [Function],
+                "component": [Function],
+                "emailVal": "",
+                "label": "Email ID",
+                "name": "email",
+                "placeholder": "Email",
+                "type": "email",
+                "validate": Array [
+                  [Function],
+                  [Function],
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "defaultValue": "+91",
+              "isFocus": false,
+              "label": "Phone No",
+              "name": "phone_no",
+              "placeholder": "Phone",
+              "type": "number",
+              "validate": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "checkbox-common sfcw",
+              "classname": "at_whatsapp_opt_status",
+              "component": [Function],
+              "formValues": Object {
+                "adult": "2",
+                "budget": "5500..6000",
+                "budget_new": true,
+                "child": "0",
+                "child_age_answers_attributes": Array [
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "29",
+                    "user_input": "0",
+                  },
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "30",
+                    "user_input": "0",
+                  },
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "31",
+                    "user_input": "0",
+                  },
+                ],
+                "dont_utilize_budget_new": true,
+                "email": null,
+                "hotel_category_answers_attributes": Array [
+                  Object {
+                    "customization_id": "2",
+                    "option_id": "7",
+                  },
+                ],
+                "hotel_needed_answer_attributes": Object {
+                  "customization_id": "22",
+                  "option_id": "95",
+                },
+                "infant": "0",
+                "isd_code": "+91",
+                "start_date": "2019-07-25",
+                "start_date_flexible": false,
+                "start_date_noidea": false,
+                "syncErrors": Object {
+                  "email": "Enter valid email id",
+                  "phone_no": "Phone number is required",
+                },
+                "to_loc": "Kerala",
+                "trip_days": "2",
+              },
+              "id": "whatsapp_opt_status",
+              "label": "Send trip updates on WhatsApp",
+              "name": "whatsapp_opt_status",
+              "type": "checkbox",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "goBack": [Function],
+          "goBackDisabled": false,
+          "goForward": [Function],
+          "goNextDisabled": true,
+          "isLastSlide": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="contact-icon-container"
+          >
+            <IconSvg />
+          </div>,
+          <div
+            className="p15"
+          >
+            <div
+              className="pb8"
+            >
+              <Field
+                changeHandler={[Function]}
+                component={[Function]}
+                emailVal=""
+                label="Email ID"
+                name="email"
+                placeholder="Email"
+                type="email"
+                validate={
+                  Array [
+                    [Function],
+                    [Function],
+                  ]
+                }
+              />
+            </div>
+            <Field
+              component={[Function]}
+              defaultValue="+91"
+              isFocus={false}
+              label="Phone No"
+              name="phone_no"
+              placeholder="Phone"
+              type="number"
+              validate={[Function]}
+            />
+            <Field
+              className="checkbox-common sfcw"
+              classname="at_whatsapp_opt_status"
+              component={[Function]}
+              formValues={
+                Object {
+                  "adult": "2",
+                  "budget": "5500..6000",
+                  "budget_new": true,
+                  "child": "0",
+                  "child_age_answers_attributes": Array [
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "29",
+                      "user_input": "0",
+                    },
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "30",
+                      "user_input": "0",
+                    },
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "31",
+                      "user_input": "0",
+                    },
+                  ],
+                  "dont_utilize_budget_new": true,
+                  "email": null,
+                  "hotel_category_answers_attributes": Array [
+                    Object {
+                      "customization_id": "2",
+                      "option_id": "7",
+                    },
+                  ],
+                  "hotel_needed_answer_attributes": Object {
+                    "customization_id": "22",
+                    "option_id": "95",
+                  },
+                  "infant": "0",
+                  "isd_code": "+91",
+                  "start_date": "2019-07-25",
+                  "start_date_flexible": false,
+                  "start_date_noidea": false,
+                  "syncErrors": Object {
+                    "email": "Enter valid email id",
+                    "phone_no": "Phone number is required",
+                  },
+                  "to_loc": "Kerala",
+                  "trip_days": "2",
+                }
+              }
+              id="whatsapp_opt_status"
+              label="Send trip updates on WhatsApp"
+              name="whatsapp_opt_status"
+              type="checkbox"
+            />
+          </div>,
+          <Footer
+            goBack={[Function]}
+            goBackDisabled={false}
+            goForward={[Function]}
+            goNextDisabled={true}
+            isLastSlide={false}
+          />,
+        ],
+        "className": "form-body pt15",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "contact-icon-container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="pb8"
+              >
+                <Field
+                  changeHandler={[Function]}
+                  component={[Function]}
+                  emailVal=""
+                  label="Email ID"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                  validate={
+                    Array [
+                      [Function],
+                      [Function],
+                    ]
+                  }
+                />
+              </div>,
+              <Field
+                component={[Function]}
+                defaultValue="+91"
+                isFocus={false}
+                label="Phone No"
+                name="phone_no"
+                placeholder="Phone"
+                type="number"
+                validate={[Function]}
+              />,
+              <Field
+                className="checkbox-common sfcw"
+                classname="at_whatsapp_opt_status"
+                component={[Function]}
+                formValues={
+                  Object {
+                    "adult": "2",
+                    "budget": "5500..6000",
+                    "budget_new": true,
+                    "child": "0",
+                    "child_age_answers_attributes": Array [
+                      Object {
+                        "customization_id": "7",
+                        "option_id": "29",
+                        "user_input": "0",
+                      },
+                      Object {
+                        "customization_id": "7",
+                        "option_id": "30",
+                        "user_input": "0",
+                      },
+                      Object {
+                        "customization_id": "7",
+                        "option_id": "31",
+                        "user_input": "0",
+                      },
+                    ],
+                    "dont_utilize_budget_new": true,
+                    "email": null,
+                    "hotel_category_answers_attributes": Array [
+                      Object {
+                        "customization_id": "2",
+                        "option_id": "7",
+                      },
+                    ],
+                    "hotel_needed_answer_attributes": Object {
+                      "customization_id": "22",
+                      "option_id": "95",
+                    },
+                    "infant": "0",
+                    "isd_code": "+91",
+                    "start_date": "2019-07-25",
+                    "start_date_flexible": false,
+                    "start_date_noidea": false,
+                    "syncErrors": Object {
+                      "email": "Enter valid email id",
+                      "phone_no": "Phone number is required",
+                    },
+                    "to_loc": "Kerala",
+                    "trip_days": "2",
+                  }
+                }
+                id="whatsapp_opt_status"
+                label="Send trip updates on WhatsApp"
+                name="whatsapp_opt_status"
+                type="checkbox"
+              />,
+            ],
+            "className": "p15",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Field
+                  changeHandler={[Function]}
+                  component={[Function]}
+                  emailVal=""
+                  label="Email ID"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                  validate={
+                    Array [
+                      [Function],
+                      [Function],
+                    ]
+                  }
+                />,
+                "className": "pb8",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "changeHandler": [Function],
+                  "component": [Function],
+                  "emailVal": "",
+                  "label": "Email ID",
+                  "name": "email",
+                  "placeholder": "Email",
+                  "type": "email",
+                  "validate": Array [
+                    [Function],
+                    [Function],
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "defaultValue": "+91",
+                "isFocus": false,
+                "label": "Phone No",
+                "name": "phone_no",
+                "placeholder": "Phone",
+                "type": "number",
+                "validate": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "checkbox-common sfcw",
+                "classname": "at_whatsapp_opt_status",
+                "component": [Function],
+                "formValues": Object {
+                  "adult": "2",
+                  "budget": "5500..6000",
+                  "budget_new": true,
+                  "child": "0",
+                  "child_age_answers_attributes": Array [
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "29",
+                      "user_input": "0",
+                    },
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "30",
+                      "user_input": "0",
+                    },
+                    Object {
+                      "customization_id": "7",
+                      "option_id": "31",
+                      "user_input": "0",
+                    },
+                  ],
+                  "dont_utilize_budget_new": true,
+                  "email": null,
+                  "hotel_category_answers_attributes": Array [
+                    Object {
+                      "customization_id": "2",
+                      "option_id": "7",
+                    },
+                  ],
+                  "hotel_needed_answer_attributes": Object {
+                    "customization_id": "22",
+                    "option_id": "95",
+                  },
+                  "infant": "0",
+                  "isd_code": "+91",
+                  "start_date": "2019-07-25",
+                  "start_date_flexible": false,
+                  "start_date_noidea": false,
+                  "syncErrors": Object {
+                    "email": "Enter valid email id",
+                    "phone_no": "Phone number is required",
+                  },
+                  "to_loc": "Kerala",
+                  "trip_days": "2",
+                },
+                "id": "whatsapp_opt_status",
+                "label": "Send trip updates on WhatsApp",
+                "name": "whatsapp_opt_status",
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "goBack": [Function],
+            "goBackDisabled": false,
+            "goForward": [Function],
+            "goNextDisabled": true,
+            "isLastSlide": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,32 @@
+:local {
+  .tiles {
+    > div{
+      &:nth-child(2){
+        border-top:1px solid #EFEFEF;
+        border-bottom: 1px solid #EFEFEF;
+      }
+    }
+    .worksBox {
+      span {
+        height: 65px;
+        width: 95px;
+        margin: 0 auto;
+
+        svg {
+          width: 100%;
+        }
+      }
+
+      .image{
+        width: 230px;
+        height: 80px;
+        align-items: flex-start;
+        margin-top: 5px;
+
+        svg{
+          width:100%;
+        }
+      }
+    }
+  }
+}

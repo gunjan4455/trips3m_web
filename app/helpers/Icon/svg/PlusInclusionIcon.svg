@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon/Inclusions</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 23.9998 0 23.9998 24 0 24"></polygon>
+    </defs>
+    <g id="Icon/Inclusions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8">
+            <g id="Group-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M11.9998,0 C5.3728,0 -0.0002,5.373 -0.0002,12 C-0.0002,18.627 5.3728,24 11.9998,24 C18.6278,24 23.9998,18.627 23.9998,12 C23.9998,5.373 18.6278,0 11.9998,0 M11.9998,1 C18.0648,1 22.9998,5.935 22.9998,12 C22.9998,18.065 18.0648,23 11.9998,23 C5.9348,23 0.9998,18.065 0.9998,12 C0.9998,5.935 5.9348,1 11.9998,1" id="Fill-1" fill="#000000" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M11.9998,18.5 C11.7238,18.5 11.4998,18.276 11.4998,18 L11.4998,6 C11.4998,5.724 11.7238,5.5 11.9998,5.5 C12.2758,5.5 12.4998,5.724 12.4998,6 L12.4998,18 C12.4998,18.276 12.2758,18.5 11.9998,18.5" id="Fill-4" fill="#009688"></path>
+            <path d="M17.9998,12.5 L5.9998,12.5 C5.7238,12.5 5.4998,12.276 5.4998,12 C5.4998,11.724 5.7238,11.5 5.9998,11.5 L17.9998,11.5 C18.2758,11.5 18.4998,11.724 18.4998,12 C18.4998,12.276 18.2758,12.5 17.9998,12.5" id="Fill-6" fill="#009688"></path>
+        </g>
+    </g>
+</svg>

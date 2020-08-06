@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/rlp/header/Header.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/rlp/header</a> Header.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">38.89% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>7/18</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">22.22% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>2/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">38.89% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>7/18</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import glamorous from 'glamorous';
+&nbsp;
+import { TRIP_STATUS } from 'constants/tripStatus';
+import { CompareIcon } from 'helpers/Icon/Icon';
+import { compareQuotesPath } from 'helpers/urlHelpers';
+import TripList from 'modules/trip/list/index';
+import Modal from 'modules/shared/GenericModal';
+import CancelRequest from 'modules/trip/cancelRequest';
+import ViewPreferencesButton from 'modules/shared/ViewPreferencesButton';
+import { isTripConverted, rescue } from 'helpers/utils';
+import { ORGANISM_CLICKED } from 'actions/segmentEvents';
+&nbsp;
+const GViewPreferencesBtn = glamorous.div({
+  flex: '0 0 135px',
+});
+&nbsp;
+class Header extends Component {
+&nbsp;
+  constructor(props) {
+    super(props);
+&nbsp;
+    this.state = {
+      closeModal: true
+    };
+  }
+&nbsp;
+  reactivateBooking = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+    const { reactivateBooking, currentTrip } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+<span class="cstat-no" title="statement not covered" >    reactivateBooking({ tripId: currentTrip.id }).then(<span class="fstat-no" title="function not covered" >(r</span>esults) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      if (results) {</span>
+<span class="cstat-no" title="statement not covered" >        window.location.reload();</span>
+      }
+    });
+  };
+&nbsp;
+  trackSegmentEvents = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    rescue(<span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      this.props.trackSegment({</span>
+        event: ORGANISM_CLICKED,
+        section: 'Trip request details',
+        object: '',
+        cta: 'Cancel Request'
+      });
+    });
+  };
+&nbsp;
+  closePopup = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.setState({ closeModal: true });</span>
+  };
+&nbsp;
+  isCancelledTrip = <span class="fstat-no" title="function not covered" >(s</span>tatus) =&gt; <span class="cstat-no" title="statement not covered" >status.toLowerCase() === TRIP_STATUS.CANCELLED;</span>
+&nbsp;
+&nbsp;
+<span class="fstat-no" title="function not covered" >  re</span>nderCancel() {
+    const { currentTrip } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    return this.isCancelledTrip(currentTrip.status) ?</span>
+      &lt;button className='sfc1 fw7 f14' onClick={this.reactivateBooking}&gt;Undo Cancel&lt;/button&gt; :
+      &lt;Modal fullView={true} hasCustomClose={true}
+             trigger={&lt;span className='f14 fw7 sfc6' onClick={this.trackSegmentEvents}&gt;Cancel Request&lt;/span&gt;}
+             customCloseTrigger={this.state.closeModal}&gt;
+        &lt;div className='sbcw'&gt;
+          &lt;CancelRequest closeModal={this.closePopup} tripId={currentTrip.id} /&gt;
+        &lt;/div&gt;
+      &lt;/Modal&gt;;
+  }
+&nbsp;
+  render() {
+    const TripListContainer = TripList.container;
+    const { currentTrip, trackSegment } = this.props;
+    const isConvertedTrip = isTripConverted(currentTrip.status);
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div&gt;
+        &lt;div className='sbc4 p8 flex alignCenter spaceBetween'&gt;
+          &lt;div className='col-xs-7 pl0 pr4 flexFull'&gt;&lt;TripListContainer currentTripId={currentTrip.id}
+                                                                        trackSegment={trackSegment} /&gt;&lt;/div&gt;
+          &lt;GViewPreferencesBtn className='col-xs-5 pl4 pr0'&gt;&lt;ViewPreferencesButton currentTripId={currentTrip.id}
+                                                                                   tripStatus={currentTrip.status}
+                                                                                   trackSegment={trackSegment} /&gt;&lt;/GViewPreferencesBtn&gt;
+        &lt;/div&gt;
+        &lt;div className='sbc5 pl15 pr15 pt15 pb24 flex alignCenter spaceBetween'&gt;
+          &lt;p className='f14 pfc5'&gt;{`Booking ID #${currentTrip.id}`}&lt;/p&gt;
+          {
+            isConvertedTrip
+              ? null
+              : this.renderCancel()
+          }
+        &lt;/div&gt;
+        {currentTrip.quotesCount ?
+          &lt;div className='p15 sbcw'&gt;
+            &lt;p
+              className='f14 text-center pfc3 mb5'&gt;{`You have received ${currentTrip.quotesCount} quotes and you can`}&lt;/p&gt;
+            &lt;a
+              href={compareQuotesPath(currentTrip.id)}
+              className={`btn-sec-load text-center pt8 pb8 block wfull ${currentTrip.quotesCount &gt; 1 ? '' : 'disabled'} at_comparequotes`}
+            &gt;
+            &lt;span className='pt2 pb2 block wfull flex alignCenter justifyCenter'&gt;
+              &lt;span className='icon-18 mr8 iblock'&gt;&lt;CompareIcon /&gt;&lt;/span&gt;
+              &lt;span&gt;Compare Quotes&lt;/span&gt;
+            &lt;/span&gt;
+            &lt;/a&gt;
+          &lt;/div&gt; : null}
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+export default Header;
+&nbsp;
+Header.propTypes = {
+  currentTrip: PropTypes.object,
+  reactivateBooking: PropTypes.func,
+  trackSegment: PropTypes.func
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

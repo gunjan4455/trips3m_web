@@ -1,0 +1,1067 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`about Us module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AboutUs
+    aboutLess="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+    aboutMore=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+    location={
+      Object {
+        "pathname": "/team",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+        >
+          <meta
+            charSet="utf-8"
+          />
+          <title>
+            About Us
+          </title>
+          <link
+            href="https://traveltriangle.com/aboutus"
+            rel="canonical"
+          />
+        </HelmetWrapper>,
+        <Connect(HeaderCommon) />,
+        <ScrollPercentage
+          onChange={[Function]}
+          threshold={0}
+        >
+          <HeaderTrialist
+            path="/team"
+          />
+          <div
+            className="clearfix"
+          >
+            <BannerTrialist
+              bannerAlt="career banner"
+              bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+            />
+          </div>
+          <div
+            className="clearfix p24"
+          >
+            <h3
+              className="f24 fw9 mb24 pb8 at_heading"
+            >
+              Building the Holiday Eco-system for Happy Travelers
+            </h3>
+            <div
+              className="f14p at_text"
+            >
+              <ShowMore
+                defaultOpen={false}
+                isDefaultShowMore={true}
+                moreText=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+                showLessText="Read Less"
+                showMoreText="Read More"
+                trackSegment={[Function]}
+                wrapText="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+              />
+            </div>
+          </div>
+          <ForwardRef(render) />
+          <div
+            className="clearfix pt24"
+          >
+            <AboutInNumbers />
+          </div>
+          <ForwardRef(render) />
+          <div
+            className="clearfix p24 pb0"
+          >
+            <Investors />
+          </div>
+          <div
+            className="clearfix"
+          >
+            <ApplyBanner />
+          </div>
+          <div
+            className="clearfix mb8 p24 pb15"
+          >
+            <MediaTalk
+              Swiperkey="about-us"
+            />
+          </div>
+        </ScrollPercentage>,
+        <div
+          className="row row- pb8 pt0"
+        >
+          <Index />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <meta
+              charSet="utf-8"
+            />,
+            <title>
+              About Us
+            </title>,
+            <link
+              href="https://traveltriangle.com/aboutus"
+              rel="canonical"
+            />,
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "charSet": "utf-8",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "About Us",
+            },
+            "ref": null,
+            "rendered": "About Us",
+            "type": "title",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://traveltriangle.com/aboutus",
+              "rel": "canonical",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <HeaderTrialist
+              path="/team"
+            />,
+            <div
+              className="clearfix"
+            >
+              <BannerTrialist
+                bannerAlt="career banner"
+                bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+              />
+            </div>,
+            <div
+              className="clearfix p24"
+            >
+              <h3
+                className="f24 fw9 mb24 pb8 at_heading"
+              >
+                Building the Holiday Eco-system for Happy Travelers
+              </h3>
+              <div
+                className="f14p at_text"
+              >
+                <ShowMore
+                  defaultOpen={false}
+                  isDefaultShowMore={true}
+                  moreText=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+                  showLessText="Read Less"
+                  showMoreText="Read More"
+                  trackSegment={[Function]}
+                  wrapText="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+                />
+              </div>
+            </div>,
+            <ForwardRef(render) />,
+            <div
+              className="clearfix pt24"
+            >
+              <AboutInNumbers />
+            </div>,
+            <ForwardRef(render) />,
+            <div
+              className="clearfix p24 pb0"
+            >
+              <Investors />
+            </div>,
+            <div
+              className="clearfix"
+            >
+              <ApplyBanner />
+            </div>,
+            <div
+              className="clearfix mb8 p24 pb15"
+            >
+              <MediaTalk
+                Swiperkey="about-us"
+              />
+            </div>,
+          ],
+          "onChange": [Function],
+          "threshold": 0,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "path": "/team",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <BannerTrialist
+                bannerAlt="career banner"
+                bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+              />,
+              "className": "clearfix",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "bannerAlt": "career banner",
+                "bannerPath": "https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="f24 fw9 mb24 pb8 at_heading"
+                >
+                  Building the Holiday Eco-system for Happy Travelers
+                </h3>,
+                <div
+                  className="f14p at_text"
+                >
+                  <ShowMore
+                    defaultOpen={false}
+                    isDefaultShowMore={true}
+                    moreText=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+                    showLessText="Read Less"
+                    showMoreText="Read More"
+                    trackSegment={[Function]}
+                    wrapText="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+                  />
+                </div>,
+              ],
+              "className": "clearfix p24",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Building the Holiday Eco-system for Happy Travelers",
+                  "className": "f24 fw9 mb24 pb8 at_heading",
+                },
+                "ref": null,
+                "rendered": "Building the Holiday Eco-system for Happy Travelers",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ShowMore
+                    defaultOpen={false}
+                    isDefaultShowMore={true}
+                    moreText=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+                    showLessText="Read Less"
+                    showMoreText="Read More"
+                    trackSegment={[Function]}
+                    wrapText="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+                  />,
+                  "className": "f14p at_text",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultOpen": false,
+                    "isDefaultShowMore": true,
+                    "moreText": " a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year.",
+                    "showLessText": "Read Less",
+                    "showMoreText": "Read More",
+                    "trackSegment": [Function],
+                    "wrapText": "Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "background": "#EEEEEE",
+                  "display": "block",
+                  "height": "8px",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <AboutInNumbers />,
+              "className": "clearfix pt24",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "background": "#EEEEEE",
+                  "display": "block",
+                  "height": "8px",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Investors />,
+              "className": "clearfix p24 pb0",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ApplyBanner />,
+              "className": "clearfix",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <MediaTalk
+                Swiperkey="about-us"
+              />,
+              "className": "clearfix mb8 p24 pb15",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "Swiperkey": "about-us",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Index />,
+          "className": "row row- pb8 pt0",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+          >
+            <meta
+              charSet="utf-8"
+            />
+            <title>
+              About Us
+            </title>
+            <link
+              href="https://traveltriangle.com/aboutus"
+              rel="canonical"
+            />
+          </HelmetWrapper>,
+          <Connect(HeaderCommon) />,
+          <ScrollPercentage
+            onChange={[Function]}
+            threshold={0}
+          >
+            <HeaderTrialist
+              path="/team"
+            />
+            <div
+              className="clearfix"
+            >
+              <BannerTrialist
+                bannerAlt="career banner"
+                bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+              />
+            </div>
+            <div
+              className="clearfix p24"
+            >
+              <h3
+                className="f24 fw9 mb24 pb8 at_heading"
+              >
+                Building the Holiday Eco-system for Happy Travelers
+              </h3>
+              <div
+                className="f14p at_text"
+              >
+                <ShowMore
+                  defaultOpen={false}
+                  isDefaultShowMore={true}
+                  moreText=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+                  showLessText="Read Less"
+                  showMoreText="Read More"
+                  trackSegment={[Function]}
+                  wrapText="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+                />
+              </div>
+            </div>
+            <ForwardRef(render) />
+            <div
+              className="clearfix pt24"
+            >
+              <AboutInNumbers />
+            </div>
+            <ForwardRef(render) />
+            <div
+              className="clearfix p24 pb0"
+            >
+              <Investors />
+            </div>
+            <div
+              className="clearfix"
+            >
+              <ApplyBanner />
+            </div>
+            <div
+              className="clearfix mb8 p24 pb15"
+            >
+              <MediaTalk
+                Swiperkey="about-us"
+              />
+            </div>
+          </ScrollPercentage>,
+          <div
+            className="row row- pb8 pt0"
+          >
+            <Index />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <meta
+                charSet="utf-8"
+              />,
+              <title>
+                About Us
+              </title>,
+              <link
+                href="https://traveltriangle.com/aboutus"
+                rel="canonical"
+              />,
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "charSet": "utf-8",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "About Us",
+              },
+              "ref": null,
+              "rendered": "About Us",
+              "type": "title",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://traveltriangle.com/aboutus",
+                "rel": "canonical",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <HeaderTrialist
+                path="/team"
+              />,
+              <div
+                className="clearfix"
+              >
+                <BannerTrialist
+                  bannerAlt="career banner"
+                  bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+                />
+              </div>,
+              <div
+                className="clearfix p24"
+              >
+                <h3
+                  className="f24 fw9 mb24 pb8 at_heading"
+                >
+                  Building the Holiday Eco-system for Happy Travelers
+                </h3>
+                <div
+                  className="f14p at_text"
+                >
+                  <ShowMore
+                    defaultOpen={false}
+                    isDefaultShowMore={true}
+                    moreText=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+                    showLessText="Read Less"
+                    showMoreText="Read More"
+                    trackSegment={[Function]}
+                    wrapText="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+                  />
+                </div>
+              </div>,
+              <ForwardRef(render) />,
+              <div
+                className="clearfix pt24"
+              >
+                <AboutInNumbers />
+              </div>,
+              <ForwardRef(render) />,
+              <div
+                className="clearfix p24 pb0"
+              >
+                <Investors />
+              </div>,
+              <div
+                className="clearfix"
+              >
+                <ApplyBanner />
+              </div>,
+              <div
+                className="clearfix mb8 p24 pb15"
+              >
+                <MediaTalk
+                  Swiperkey="about-us"
+                />
+              </div>,
+            ],
+            "onChange": [Function],
+            "threshold": 0,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "path": "/team",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <BannerTrialist
+                  bannerAlt="career banner"
+                  bannerPath="https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg"
+                />,
+                "className": "clearfix",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bannerAlt": "career banner",
+                  "bannerPath": "https://img.traveltriangle.com/public-product/Trialist/AboutUs/AboutUs_Cover.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className="f24 fw9 mb24 pb8 at_heading"
+                  >
+                    Building the Holiday Eco-system for Happy Travelers
+                  </h3>,
+                  <div
+                    className="f14p at_text"
+                  >
+                    <ShowMore
+                      defaultOpen={false}
+                      isDefaultShowMore={true}
+                      moreText=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+                      showLessText="Read Less"
+                      showMoreText="Read More"
+                      trackSegment={[Function]}
+                      wrapText="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+                    />
+                  </div>,
+                ],
+                "className": "clearfix p24",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Building the Holiday Eco-system for Happy Travelers",
+                    "className": "f24 fw9 mb24 pb8 at_heading",
+                  },
+                  "ref": null,
+                  "rendered": "Building the Holiday Eco-system for Happy Travelers",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <ShowMore
+                      defaultOpen={false}
+                      isDefaultShowMore={true}
+                      moreText=" a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year."
+                      showLessText="Read Less"
+                      showMoreText="Read More"
+                      trackSegment={[Function]}
+                      wrapText="Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on"
+                    />,
+                    "className": "f14p at_text",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultOpen": false,
+                      "isDefaultShowMore": true,
+                      "moreText": " a common platform. With the recent Series C funding of $12 Million from Nandan Nilekani and Sanjeev Aggarwal backed Fundamentum in early 2018, it is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product. Besides, having already raised close to a cumulative funding of $20 Million from SAIF Partners, Bessemer Venture Partners and RB Investments put together, the company has already achieved operating  profitability, and on track to become EBITDA profitable by next year.",
+                      "showLessText": "Read Less",
+                      "showMoreText": "Read More",
+                      "trackSegment": [Function],
+                      "wrapText": "Founded in 2011, TravelTriangle is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "background": "#EEEEEE",
+                    "display": "block",
+                    "height": "8px",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <AboutInNumbers />,
+                "className": "clearfix pt24",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "background": "#EEEEEE",
+                    "display": "block",
+                    "height": "8px",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Investors />,
+                "className": "clearfix p24 pb0",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ApplyBanner />,
+                "className": "clearfix",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <MediaTalk
+                  Swiperkey="about-us"
+                />,
+                "className": "clearfix mb8 p24 pb15",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "Swiperkey": "about-us",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Index />,
+            "className": "row row- pb8 pt0",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

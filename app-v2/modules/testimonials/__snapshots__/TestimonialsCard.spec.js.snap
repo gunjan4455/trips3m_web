@@ -1,0 +1,405 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonials module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TestimonialsCard
+    destination=""
+    id={2766}
+    location={
+      Object {
+        "query": Object {},
+      }
+    }
+    params={Object {}}
+    rating={3}
+    testimonialBody=""
+    title=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div>
+        <div
+          className="mb4 flex flexCenterItems"
+        >
+          <Link
+            className="pfc3"
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/testimonials/2766--reviews?destination="
+          >
+            <h6
+              className="fw7 pfc1 f16 m0 mr8 mb8 _title iblock"
+            >
+              
+            </h6>
+          </Link>
+          <AgentRating
+            agentRating={3}
+            id="unique_identifier"
+          />
+        </div>
+        <ShowMore
+          appendText="..."
+          defaultOpen={false}
+          isDefaultShowMore={true}
+          moreText=""
+          showLessText="Read Less"
+          showMoreText="Read More"
+          trackSegment={[Function]}
+          wrapText=""
+        />
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="mb4 flex flexCenterItems"
+          >
+            <Link
+              className="pfc3"
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/testimonials/2766--reviews?destination="
+            >
+              <h6
+                className="fw7 pfc1 f16 m0 mr8 mb8 _title iblock"
+              >
+                
+              </h6>
+            </Link>
+            <AgentRating
+              agentRating={3}
+              id="unique_identifier"
+            />
+          </div>,
+          <ShowMore
+            appendText="..."
+            defaultOpen={false}
+            isDefaultShowMore={true}
+            moreText=""
+            showLessText="Read Less"
+            showMoreText="Read More"
+            trackSegment={[Function]}
+            wrapText=""
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Link
+                className="pfc3"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/testimonials/2766--reviews?destination="
+              >
+                <h6
+                  className="fw7 pfc1 f16 m0 mr8 mb8 _title iblock"
+                >
+                  
+                </h6>
+              </Link>,
+              <AgentRating
+                agentRating={3}
+                id="unique_identifier"
+              />,
+            ],
+            "className": "mb4 flex flexCenterItems",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <h6
+                  className="fw7 pfc1 f16 m0 mr8 mb8 _title iblock"
+                >
+                  
+                </h6>,
+                "className": "pfc3",
+                "onlyActiveOnIndex": false,
+                "style": Object {},
+                "to": "/testimonials/2766--reviews?destination=",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "",
+                  "className": "fw7 pfc1 f16 m0 mr8 mb8 _title iblock",
+                },
+                "ref": null,
+                "rendered": "",
+                "type": "h6",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "agentRating": 3,
+                "id": "unique_identifier",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "appendText": "...",
+            "defaultOpen": false,
+            "isDefaultShowMore": true,
+            "moreText": "",
+            "showLessText": "Read Less",
+            "showMoreText": "Read More",
+            "trackSegment": [Function],
+            "wrapText": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <div
+            className="mb4 flex flexCenterItems"
+          >
+            <Link
+              className="pfc3"
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/testimonials/2766--reviews?destination="
+            >
+              <h6
+                className="fw7 pfc1 f16 m0 mr8 mb8 _title iblock"
+              >
+                
+              </h6>
+            </Link>
+            <AgentRating
+              agentRating={3}
+              id="unique_identifier"
+            />
+          </div>
+          <ShowMore
+            appendText="..."
+            defaultOpen={false}
+            isDefaultShowMore={true}
+            moreText=""
+            showLessText="Read Less"
+            showMoreText="Read More"
+            trackSegment={[Function]}
+            wrapText=""
+          />
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="mb4 flex flexCenterItems"
+            >
+              <Link
+                className="pfc3"
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                to="/testimonials/2766--reviews?destination="
+              >
+                <h6
+                  className="fw7 pfc1 f16 m0 mr8 mb8 _title iblock"
+                >
+                  
+                </h6>
+              </Link>
+              <AgentRating
+                agentRating={3}
+                id="unique_identifier"
+              />
+            </div>,
+            <ShowMore
+              appendText="..."
+              defaultOpen={false}
+              isDefaultShowMore={true}
+              moreText=""
+              showLessText="Read Less"
+              showMoreText="Read More"
+              trackSegment={[Function]}
+              wrapText=""
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Link
+                  className="pfc3"
+                  onlyActiveOnIndex={false}
+                  style={Object {}}
+                  to="/testimonials/2766--reviews?destination="
+                >
+                  <h6
+                    className="fw7 pfc1 f16 m0 mr8 mb8 _title iblock"
+                  >
+                    
+                  </h6>
+                </Link>,
+                <AgentRating
+                  agentRating={3}
+                  id="unique_identifier"
+                />,
+              ],
+              "className": "mb4 flex flexCenterItems",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <h6
+                    className="fw7 pfc1 f16 m0 mr8 mb8 _title iblock"
+                  >
+                    
+                  </h6>,
+                  "className": "pfc3",
+                  "onlyActiveOnIndex": false,
+                  "style": Object {},
+                  "to": "/testimonials/2766--reviews?destination=",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "",
+                    "className": "fw7 pfc1 f16 m0 mr8 mb8 _title iblock",
+                  },
+                  "ref": null,
+                  "rendered": "",
+                  "type": "h6",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "agentRating": 3,
+                  "id": "unique_identifier",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "appendText": "...",
+              "defaultOpen": false,
+              "isDefaultShowMore": true,
+              "moreText": "",
+              "showLessText": "Read Less",
+              "showMoreText": "Read More",
+              "trackSegment": [Function],
+              "wrapText": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

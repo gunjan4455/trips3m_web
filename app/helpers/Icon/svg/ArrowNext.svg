@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="6px" viewBox="0 0 8 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Package_Detail_page" transform="translate(-64.000000, -482.000000)" stroke="#2B2B2B">
+            <g id="Package_card" transform="translate(0.000000, 104.000000)">
+                <g id="Package_info" transform="translate(8.000000, 216.000000)">
+                    <g id="cities" transform="translate(8.000000, 156.000000)">
+                        <g id="Back" transform="translate(52.000000, 9.000000) scale(-1, 1) translate(-52.000000, -9.000000) translate(48.000000, 5.000000)">
+                            <g id="Group-7" transform="translate(0.666667, 1.666667)">
+                                <path d="M0,2.33333333 L6.34920635,2.33333333" id="Stroke-1"/>
+                                <polyline id="Path-2" points="2 0 0 2.30442236 1.95355828 4.66666667"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

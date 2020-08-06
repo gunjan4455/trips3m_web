@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/shared/trialist/data/mediaTalk.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/shared/trialist/data</a> mediaTalk.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/0</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import config from 'appConfig';
+&nbsp;
+export default [
+  {
+    "imageAlt": "VC Circle",
+    "month": "Apr",
+    "year": 2018,
+    "link": "https://www.vccircle.com/nilekanis-fundamentum-backs-holiday-packages-firm-traveltriangle-in-debut-deal/",
+    "logoPath": `${config.assets.images}/public-product/Media/vccircle.jpg`,
+    "newsHeading": "TravelTriangle raises Series C funding of $12 million"
+  },
+  {
+    "imageAlt": "Tech Crunch",
+    "month": "Apr",
+    "year": 2018,
+    "link": "https://techcrunch.com/2018/04/11/traveltriangle-raises-12m/",
+    "logoPath": `${config.assets.images}/public-product/Media/techcrunch.jpg`,
+    "newsHeading": "TravelTriangle raises $12M to digitize India’s travel bookings"
+  },
+  {
+    "imageAlt": "The Hindu",
+    "month": "Apr",
+    "year": 2018,
+    "link": "http://www.thehindu.com/business/Industry/holiday-planning-marketplace-traveltriangle-raises-78-cr/article23496133.ece/",
+    "logoPath": `${config.assets.images}/public-product/Media/hindu.jpg`,
+    "newsHeading": "Holiday planning marketplace TravelTriangle raises ₹12 Mn"
+  },
+  {
+    "imageAlt": "Outlook India",
+    "month": "June",
+    "year": 2017,
+    "link": "https://www.outlookindia.com/newsscroll/traveltriangle-sets-new-benchmarks-records-gmv-over-rs-350-crore/1065302",
+    "logoPath": `${config.assets.images}/public-product/Media/Outlook.jpg`,
+    "newsHeading": "TravelTriangle sets new benchmarks; records GMV over Rs. 350 Crore"
+  },
+  {
+    "imageAlt": "The Economic Times",
+    "month": "Feb",
+    "year": 2017,
+    "link": "http://economictimes.indiatimes.com/small-biz/money/traveltriangle-raises-10-million-in-fresh-round-of-funding/articleshow/57012798.cms",
+    "logoPath": `${config.assets.images}/public-product/Media/The+Economic+Times.jpg`,
+    "newsHeading": "Raised $10 Million in a Series B Round of funding led by RB Investments"
+  },
+  {
+    "imageAlt": "Livemint",
+    "month": "Feb",
+    "year": 2017,
+    "link": "http://www.livemint.com/Companies/35oRubTwx4adBpGjAF51UN/TravelTriangle-raises-10-million-in-Series-B-round.html",
+    "logoPath": `${config.assets.images}/public-product/Media/Livemint.jpg`,
+    "newsHeading": "Series B funding from RB Investments, SAIF Partners and BVP"
+  },
+  {
+    "imageAlt": "Business Today",
+    "month": "Aug",
+    "year": 2016,
+    "link": "http://www.businesstoday.in/magazine/features/traveltriangle-is-making-the-holiday-package-market-transparent/story/235360.html",
+    "logoPath": `${config.assets.images}/public-product/Media/Business+Today.jpg`,
+    "newsHeading": "A unique marketplace model leading to a profitable business"
+  },
+  {
+    "imageAlt": "Business Standard",
+    "month": "June",
+    "year": 2016,
+    "link": "http://www.business-standard.com/article/news-ians/traveltriangle-partners-with-paytm-116062000762_1.html",
+    "logoPath": `${config.assets.images}/public-product/Media/Business+Standard.jpg`,
+    "newsHeading": "TravelTriangle partners with PayTM for cashless payments and more"
+  },
+  {
+    "imageAlt": "YourStory",
+    "month": "May",
+    "year": 2016,
+    "link": "https://yourstory.com/2016/05/travel-triangle/",
+    "logoPath": `${config.assets.images}/public-product/Media/YourStory.jpg`,
+    "newsHeading": "The travel startup becomes CMNM positive in 6 key geographies"
+  },
+  {
+    "imageAlt": "TravBizMonitor.com",
+    "month": "Jan",
+    "year": 2016,
+    "link": "http://www.travelbizmonitor.com/Top-Stories/traveltriangle-ranks-16th-amongst-top-20-most-visited-travel-websites-in-india-29524",
+    "logoPath": `${config.assets.images}/public-product/Media/TravelBizMonitor.jpg`,
+    "newsHeading": "TravelTriangle among the top 20 most visited travel websites in India"
+  },
+  {
+    "imageAlt": "Travhq",
+    "month": "Dec",
+    "year": 2015,
+    "link": "https://www.travhq.com/opinions/8-essential-travel-startup-lessons-every-budding-entrepreneur-should-know/",
+    "logoPath": `${config.assets.images}/public-product/Media/travHQ.jpg`,
+    "newsHeading": "CEO Sankalp Agarwal on his entrepreneurial venture"
+  },
+  {
+    "imageAlt": "The Times of India",
+    "month": "Apr",
+    "year": 2015,
+    "link": "http://timesofindia.indiatimes.com/business/india-business/Bessemer-SAIF-invest-8-million-in-Travel-Triangle/articleshow/47092109.cms",
+    "logoPath": `${config.assets.images}/public-product/Media/TOI+logo.jpg`,
+    "newsHeading": "TravelTriangle looks at expansion, by raising $8 Million"
+  }
+];
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../../sorter.js"></script>
+</body>
+</html>

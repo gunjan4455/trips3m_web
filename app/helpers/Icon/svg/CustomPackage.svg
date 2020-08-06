@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="19px" viewBox="0 0 22 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/Custom_package_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fab_menu" transform="translate(-317.000000, -324.000000)">
+            <g id="Fab_menu">
+                <g id="Design_pack" transform="translate(170.000000, 310.000000)">
+                    <g id="Icon" transform="translate(134.000000, 0.000000)">
+                        <g id="icons/Custom_package_icon" transform="translate(12.000000, 12.000000)">
+                            <rect id="Rectangle-10" x="0" y="0" width="24" height="24"/>
+                            <g id="Page-1" transform="translate(2.000000, 3.000000)">
+                                <path d="M19.6553103,5.17255172 L19.6553103,16.2070345 C19.6553103,16.5877241 19.3463448,16.8966897 18.9656552,16.8966897 L1.03462069,16.8966897 C0.653931034,16.8966897 0.344965517,16.5877241 0.344965517,16.2070345 L0.344965517,5.17255172 C0.344965517,4.79186207 0.653931034,4.48289655 1.03462069,4.48289655 L7.93117241,4.48289655" id="Stroke-1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10.2015172,3.10758621 L5.17255172,3.10758621 L5.17255172,1.72827586 C5.17255172,1.34758621 5.48151724,1.03862069 5.8622069,1.03862069 L12.5070345,1.03862069" id="Stroke-15" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.17255172,3.08337931 L5.17255172,4.48268966" id="Stroke-17" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.0630345,5.21931034 L13.4616552,1.61793103 L14.2871724,0.793103448 C14.8257931,0.253793103 15.6988966,0.253793103 16.2375172,0.793103448 L17.8885517,2.44344828 C18.4271724,2.98206897 18.4271724,3.85517241 17.8885517,4.3937931 L17.0630345,5.21931034 Z" id="Fill-19" fill="#009688"/>
+                                <path d="M9.31048276,12.8206897 L5.93393103,13.4958621 C5.48841379,13.5848276 5.096,13.1924138 5.18496552,12.7468966 L5.86082759,9.37103448 C5.88496552,9.24758621 5.94565517,9.13448276 6.03462069,9.04551724 L14.3622069,0.717931034 C14.8594483,0.220689655 15.6656552,0.220689655 16.1628966,0.717931034 L17.9635862,2.51862069 C18.4608276,3.01586207 18.4608276,3.82206897 17.9635862,4.31862069 L9.636,12.6468966 C9.54703448,12.7351724 9.43393103,12.7958621 9.31048276,12.8206897 Z" id="Stroke-21" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.0630345,5.21931034 L13.4616552,1.61793103" id="Stroke-23" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.23,5.00041379 L8.56586207,10.6645517" id="Stroke-25" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

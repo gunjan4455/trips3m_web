@@ -1,0 +1,837 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book Now Popup: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BookNowPopup
+    closeModal={[Function]}
+    opsDetail={
+      Object {
+        "email": "damini.oberoi@traveltriangle.com",
+        "id": 2251659,
+        "image": "/pics/original/missing.png",
+        "initials": "D",
+        "name": "Damini Oberoi",
+        "phoneNo": "1800123WaitForInvoice5555",
+      }
+    }
+    trackSegment={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "active": true,
+      "children": <ForwardRef(render)
+        className="row row-"
+      >
+        <ModalHeaderCustom
+          heading="Confirmation"
+        />
+        <div
+          className="col-md-12 sbcw z2 p0"
+        >
+          <div>
+            <div
+              className="col-xs-12 bb iblock p24 pt48"
+            >
+              <p
+                className="f32 fw7 pfc3 mb24"
+              >
+                Thank You for your confirmation!
+              </p>
+              <ForwardRef(render)
+                className="f14 pfc3 mb15"
+              >
+                Your invoice is getting ready and will be soon shared to you to initiate payment.
+              </ForwardRef(render)>
+              <p
+                className="f14 pfc4 mb0"
+              >
+                You may also call your trip guide now for more details.
+              </p>
+            </div>
+            <div
+              className="fixed b0 l0 wfull bs6"
+            >
+              <div
+                className="mb8"
+              >
+                <WaitForInvoice
+                  callbackHandler={[Function]}
+                />
+              </div>
+              <CallTripAdvisor
+                ctaText="Call Trip Guide"
+                phoneNumber="1800123WaitForInvoice5555"
+              />
+            </div>
+          </div>
+        </div>
+      </ForwardRef(render)>,
+      "containment": null,
+      "delayedCall": true,
+      "intervalCheck": true,
+      "intervalDelay": 100,
+      "minTopValue": 0,
+      "offset": Object {},
+      "onChange": [Function],
+      "partialVisibility": "bottom",
+      "resizeCheck": false,
+      "resizeDelay": 250,
+      "resizeThrottle": -1,
+      "scrollCheck": false,
+      "scrollDelay": 250,
+      "scrollThrottle": -1,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ModalHeaderCustom
+            heading="Confirmation"
+          />,
+          <div
+            className="col-md-12 sbcw z2 p0"
+          >
+            <div>
+              <div
+                className="col-xs-12 bb iblock p24 pt48"
+              >
+                <p
+                  className="f32 fw7 pfc3 mb24"
+                >
+                  Thank You for your confirmation!
+                </p>
+                <ForwardRef(render)
+                  className="f14 pfc3 mb15"
+                >
+                  Your invoice is getting ready and will be soon shared to you to initiate payment.
+                </ForwardRef(render)>
+                <p
+                  className="f14 pfc4 mb0"
+                >
+                  You may also call your trip guide now for more details.
+                </p>
+              </div>
+              <div
+                className="fixed b0 l0 wfull bs6"
+              >
+                <div
+                  className="mb8"
+                >
+                  <WaitForInvoice
+                    callbackHandler={[Function]}
+                  />
+                </div>
+                <CallTripAdvisor
+                  ctaText="Call Trip Guide"
+                  phoneNumber="1800123WaitForInvoice5555"
+                />
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "row row-",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "heading": "Confirmation",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div>
+              <div
+                className="col-xs-12 bb iblock p24 pt48"
+              >
+                <p
+                  className="f32 fw7 pfc3 mb24"
+                >
+                  Thank You for your confirmation!
+                </p>
+                <ForwardRef(render)
+                  className="f14 pfc3 mb15"
+                >
+                  Your invoice is getting ready and will be soon shared to you to initiate payment.
+                </ForwardRef(render)>
+                <p
+                  className="f14 pfc4 mb0"
+                >
+                  You may also call your trip guide now for more details.
+                </p>
+              </div>
+              <div
+                className="fixed b0 l0 wfull bs6"
+              >
+                <div
+                  className="mb8"
+                >
+                  <WaitForInvoice
+                    callbackHandler={[Function]}
+                  />
+                </div>
+                <CallTripAdvisor
+                  ctaText="Call Trip Guide"
+                  phoneNumber="1800123WaitForInvoice5555"
+                />
+              </div>
+            </div>,
+            "className": "col-md-12 sbcw z2 p0",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-xs-12 bb iblock p24 pt48"
+                >
+                  <p
+                    className="f32 fw7 pfc3 mb24"
+                  >
+                    Thank You for your confirmation!
+                  </p>
+                  <ForwardRef(render)
+                    className="f14 pfc3 mb15"
+                  >
+                    Your invoice is getting ready and will be soon shared to you to initiate payment.
+                  </ForwardRef(render)>
+                  <p
+                    className="f14 pfc4 mb0"
+                  >
+                    You may also call your trip guide now for more details.
+                  </p>
+                </div>,
+                <div
+                  className="fixed b0 l0 wfull bs6"
+                >
+                  <div
+                    className="mb8"
+                  >
+                    <WaitForInvoice
+                      callbackHandler={[Function]}
+                    />
+                  </div>
+                  <CallTripAdvisor
+                    ctaText="Call Trip Guide"
+                    phoneNumber="1800123WaitForInvoice5555"
+                  />
+                </div>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="f32 fw7 pfc3 mb24"
+                    >
+                      Thank You for your confirmation!
+                    </p>,
+                    <ForwardRef(render)
+                      className="f14 pfc3 mb15"
+                    >
+                      Your invoice is getting ready and will be soon shared to you to initiate payment.
+                    </ForwardRef(render)>,
+                    <p
+                      className="f14 pfc4 mb0"
+                    >
+                      You may also call your trip guide now for more details.
+                    </p>,
+                  ],
+                  "className": "col-xs-12 bb iblock p24 pt48",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Thank You for your confirmation!",
+                      "className": "f32 fw7 pfc3 mb24",
+                    },
+                    "ref": null,
+                    "rendered": "Thank You for your confirmation!",
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Your invoice is getting ready and will be soon shared to you to initiate payment.",
+                      "className": "f14 pfc3 mb15",
+                    },
+                    "ref": null,
+                    "rendered": "Your invoice is getting ready and will be soon shared to you to initiate payment.",
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "p",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          " .price-val": Object {
+                            "display": "inline-block",
+                            "margin": "0 5px !important",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(p)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "You may also call your trip guide now for more details.",
+                      "className": "f14 pfc4 mb0",
+                    },
+                    "ref": null,
+                    "rendered": "You may also call your trip guide now for more details.",
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="mb8"
+                    >
+                      <WaitForInvoice
+                        callbackHandler={[Function]}
+                      />
+                    </div>,
+                    <CallTripAdvisor
+                      ctaText="Call Trip Guide"
+                      phoneNumber="1800123WaitForInvoice5555"
+                    />,
+                  ],
+                  "className": "fixed b0 l0 wfull bs6",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <WaitForInvoice
+                        callbackHandler={[Function]}
+                      />,
+                      "className": "mb8",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "callbackHandler": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "ctaText": "Call Trip Guide",
+                      "phoneNumber": "1800123WaitForInvoice5555",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "width": "100%",
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "active": true,
+        "children": <ForwardRef(render)
+          className="row row-"
+        >
+          <ModalHeaderCustom
+            heading="Confirmation"
+          />
+          <div
+            className="col-md-12 sbcw z2 p0"
+          >
+            <div>
+              <div
+                className="col-xs-12 bb iblock p24 pt48"
+              >
+                <p
+                  className="f32 fw7 pfc3 mb24"
+                >
+                  Thank You for your confirmation!
+                </p>
+                <ForwardRef(render)
+                  className="f14 pfc3 mb15"
+                >
+                  Your invoice is getting ready and will be soon shared to you to initiate payment.
+                </ForwardRef(render)>
+                <p
+                  className="f14 pfc4 mb0"
+                >
+                  You may also call your trip guide now for more details.
+                </p>
+              </div>
+              <div
+                className="fixed b0 l0 wfull bs6"
+              >
+                <div
+                  className="mb8"
+                >
+                  <WaitForInvoice
+                    callbackHandler={[Function]}
+                  />
+                </div>
+                <CallTripAdvisor
+                  ctaText="Call Trip Guide"
+                  phoneNumber="1800123WaitForInvoice5555"
+                />
+              </div>
+            </div>
+          </div>
+        </ForwardRef(render)>,
+        "containment": null,
+        "delayedCall": true,
+        "intervalCheck": true,
+        "intervalDelay": 100,
+        "minTopValue": 0,
+        "offset": Object {},
+        "onChange": [Function],
+        "partialVisibility": "bottom",
+        "resizeCheck": false,
+        "resizeDelay": 250,
+        "resizeThrottle": -1,
+        "scrollCheck": false,
+        "scrollDelay": 250,
+        "scrollThrottle": -1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ModalHeaderCustom
+              heading="Confirmation"
+            />,
+            <div
+              className="col-md-12 sbcw z2 p0"
+            >
+              <div>
+                <div
+                  className="col-xs-12 bb iblock p24 pt48"
+                >
+                  <p
+                    className="f32 fw7 pfc3 mb24"
+                  >
+                    Thank You for your confirmation!
+                  </p>
+                  <ForwardRef(render)
+                    className="f14 pfc3 mb15"
+                  >
+                    Your invoice is getting ready and will be soon shared to you to initiate payment.
+                  </ForwardRef(render)>
+                  <p
+                    className="f14 pfc4 mb0"
+                  >
+                    You may also call your trip guide now for more details.
+                  </p>
+                </div>
+                <div
+                  className="fixed b0 l0 wfull bs6"
+                >
+                  <div
+                    className="mb8"
+                  >
+                    <WaitForInvoice
+                      callbackHandler={[Function]}
+                    />
+                  </div>
+                  <CallTripAdvisor
+                    ctaText="Call Trip Guide"
+                    phoneNumber="1800123WaitForInvoice5555"
+                  />
+                </div>
+              </div>
+            </div>,
+          ],
+          "className": "row row-",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "heading": "Confirmation",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div>
+                <div
+                  className="col-xs-12 bb iblock p24 pt48"
+                >
+                  <p
+                    className="f32 fw7 pfc3 mb24"
+                  >
+                    Thank You for your confirmation!
+                  </p>
+                  <ForwardRef(render)
+                    className="f14 pfc3 mb15"
+                  >
+                    Your invoice is getting ready and will be soon shared to you to initiate payment.
+                  </ForwardRef(render)>
+                  <p
+                    className="f14 pfc4 mb0"
+                  >
+                    You may also call your trip guide now for more details.
+                  </p>
+                </div>
+                <div
+                  className="fixed b0 l0 wfull bs6"
+                >
+                  <div
+                    className="mb8"
+                  >
+                    <WaitForInvoice
+                      callbackHandler={[Function]}
+                    />
+                  </div>
+                  <CallTripAdvisor
+                    ctaText="Call Trip Guide"
+                    phoneNumber="1800123WaitForInvoice5555"
+                  />
+                </div>
+              </div>,
+              "className": "col-md-12 sbcw z2 p0",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-xs-12 bb iblock p24 pt48"
+                  >
+                    <p
+                      className="f32 fw7 pfc3 mb24"
+                    >
+                      Thank You for your confirmation!
+                    </p>
+                    <ForwardRef(render)
+                      className="f14 pfc3 mb15"
+                    >
+                      Your invoice is getting ready and will be soon shared to you to initiate payment.
+                    </ForwardRef(render)>
+                    <p
+                      className="f14 pfc4 mb0"
+                    >
+                      You may also call your trip guide now for more details.
+                    </p>
+                  </div>,
+                  <div
+                    className="fixed b0 l0 wfull bs6"
+                  >
+                    <div
+                      className="mb8"
+                    >
+                      <WaitForInvoice
+                        callbackHandler={[Function]}
+                      />
+                    </div>
+                    <CallTripAdvisor
+                      ctaText="Call Trip Guide"
+                      phoneNumber="1800123WaitForInvoice5555"
+                    />
+                  </div>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="f32 fw7 pfc3 mb24"
+                      >
+                        Thank You for your confirmation!
+                      </p>,
+                      <ForwardRef(render)
+                        className="f14 pfc3 mb15"
+                      >
+                        Your invoice is getting ready and will be soon shared to you to initiate payment.
+                      </ForwardRef(render)>,
+                      <p
+                        className="f14 pfc4 mb0"
+                      >
+                        You may also call your trip guide now for more details.
+                      </p>,
+                    ],
+                    "className": "col-xs-12 bb iblock p24 pt48",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Thank You for your confirmation!",
+                        "className": "f32 fw7 pfc3 mb24",
+                      },
+                      "ref": null,
+                      "rendered": "Thank You for your confirmation!",
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Your invoice is getting ready and will be soon shared to you to initiate payment.",
+                        "className": "f14 pfc3 mb15",
+                      },
+                      "ref": null,
+                      "rendered": "Your invoice is getting ready and will be soon shared to you to initiate payment.",
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "p",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            " .price-val": Object {
+                              "display": "inline-block",
+                              "margin": "0 5px !important",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(p)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "You may also call your trip guide now for more details.",
+                        "className": "f14 pfc4 mb0",
+                      },
+                      "ref": null,
+                      "rendered": "You may also call your trip guide now for more details.",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="mb8"
+                      >
+                        <WaitForInvoice
+                          callbackHandler={[Function]}
+                        />
+                      </div>,
+                      <CallTripAdvisor
+                        ctaText="Call Trip Guide"
+                        phoneNumber="1800123WaitForInvoice5555"
+                      />,
+                    ],
+                    "className": "fixed b0 l0 wfull bs6",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <WaitForInvoice
+                          callbackHandler={[Function]}
+                        />,
+                        "className": "mb8",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "callbackHandler": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "ctaText": "Call Trip Guide",
+                        "phoneNumber": "1800123WaitForInvoice5555",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "width": "100%",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

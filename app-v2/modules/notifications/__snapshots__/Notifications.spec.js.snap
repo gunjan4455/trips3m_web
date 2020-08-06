@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notifications: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Notifications
+    addMessage={[Function]}
+    fetchNotifications={[Function]}
+    loadMoreNotifications={[Function]}
+    markNotificationRead={[Function]}
+    messages={Array []}
+    remainingMessages={0}
+    unreadNotificationCount={0}
+    userId=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <div
+        className="notification-hover-box relative"
+      >
+        <ModalComponent
+          customClass=""
+          customCloseTrigger={false}
+          disabled={false}
+          fullView={true}
+          hasCustomClose={true}
+          hasNoClose={false}
+          isTriggerFullView={false}
+          isWhiteIcon={false}
+          onAfterModalOpen={[Function]}
+          onRequestCloseCustom={[Function]}
+          trigger={
+            <NotificationBell
+              markNotificationRead={[Function]}
+              unreadNotificationCount={0}
+              userId=""
+            />
+          }
+        >
+          <div
+            className="notifications-head absolute wfull hfull flex flexDColumn pb48"
+          >
+            <ModalHeaderCustom
+              heading="Notifications"
+            />
+            <NotificationList
+              loadMoreNotifications={[Function]}
+              messages={Array []}
+              notificationsPresent={false}
+              remainingMessages={0}
+              userId=""
+            />
+          </div>
+        </ModalComponent>
+      </div>,
+      "className": "flex alignCenter justifyCenter at_nofification",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ModalComponent
+          customClass=""
+          customCloseTrigger={false}
+          disabled={false}
+          fullView={true}
+          hasCustomClose={true}
+          hasNoClose={false}
+          isTriggerFullView={false}
+          isWhiteIcon={false}
+          onAfterModalOpen={[Function]}
+          onRequestCloseCustom={[Function]}
+          trigger={
+            <NotificationBell
+              markNotificationRead={[Function]}
+              unreadNotificationCount={0}
+              userId=""
+            />
+          }
+        >
+          <div
+            className="notifications-head absolute wfull hfull flex flexDColumn pb48"
+          >
+            <ModalHeaderCustom
+              heading="Notifications"
+            />
+            <NotificationList
+              loadMoreNotifications={[Function]}
+              messages={Array []}
+              notificationsPresent={false}
+              remainingMessages={0}
+              userId=""
+            />
+          </div>
+        </ModalComponent>,
+        "className": "notification-hover-box relative",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div
+            className="notifications-head absolute wfull hfull flex flexDColumn pb48"
+          >
+            <ModalHeaderCustom
+              heading="Notifications"
+            />
+            <NotificationList
+              loadMoreNotifications={[Function]}
+              messages={Array []}
+              notificationsPresent={false}
+              remainingMessages={0}
+              userId=""
+            />
+          </div>,
+          "customClass": "",
+          "customCloseTrigger": false,
+          "disabled": false,
+          "fullView": true,
+          "hasCustomClose": true,
+          "hasNoClose": false,
+          "isTriggerFullView": false,
+          "isWhiteIcon": false,
+          "onAfterModalOpen": [Function],
+          "onRequestCloseCustom": [Function],
+          "trigger": <NotificationBell
+            markNotificationRead={[Function]}
+            unreadNotificationCount={0}
+            userId=""
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ModalHeaderCustom
+                heading="Notifications"
+              />,
+              <NotificationList
+                loadMoreNotifications={[Function]}
+                messages={Array []}
+                notificationsPresent={false}
+                remainingMessages={0}
+                userId=""
+              />,
+            ],
+            "className": "notifications-head absolute wfull hfull flex flexDColumn pb48",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "heading": "Notifications",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "loadMoreNotifications": [Function],
+                "messages": Array [],
+                "notificationsPresent": false,
+                "remainingMessages": 0,
+                "userId": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "span",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        Object {
+          "display": "inline-block",
+          "height": "24px",
+          "position": "relative",
+          "width": "24px",
+        },
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(span)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <div
+          className="notification-hover-box relative"
+        >
+          <ModalComponent
+            customClass=""
+            customCloseTrigger={false}
+            disabled={false}
+            fullView={true}
+            hasCustomClose={true}
+            hasNoClose={false}
+            isTriggerFullView={false}
+            isWhiteIcon={false}
+            onAfterModalOpen={[Function]}
+            onRequestCloseCustom={[Function]}
+            trigger={
+              <NotificationBell
+                markNotificationRead={[Function]}
+                unreadNotificationCount={0}
+                userId=""
+              />
+            }
+          >
+            <div
+              className="notifications-head absolute wfull hfull flex flexDColumn pb48"
+            >
+              <ModalHeaderCustom
+                heading="Notifications"
+              />
+              <NotificationList
+                loadMoreNotifications={[Function]}
+                messages={Array []}
+                notificationsPresent={false}
+                remainingMessages={0}
+                userId=""
+              />
+            </div>
+          </ModalComponent>
+        </div>,
+        "className": "flex alignCenter justifyCenter at_nofification",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ModalComponent
+            customClass=""
+            customCloseTrigger={false}
+            disabled={false}
+            fullView={true}
+            hasCustomClose={true}
+            hasNoClose={false}
+            isTriggerFullView={false}
+            isWhiteIcon={false}
+            onAfterModalOpen={[Function]}
+            onRequestCloseCustom={[Function]}
+            trigger={
+              <NotificationBell
+                markNotificationRead={[Function]}
+                unreadNotificationCount={0}
+                userId=""
+              />
+            }
+          >
+            <div
+              className="notifications-head absolute wfull hfull flex flexDColumn pb48"
+            >
+              <ModalHeaderCustom
+                heading="Notifications"
+              />
+              <NotificationList
+                loadMoreNotifications={[Function]}
+                messages={Array []}
+                notificationsPresent={false}
+                remainingMessages={0}
+                userId=""
+              />
+            </div>
+          </ModalComponent>,
+          "className": "notification-hover-box relative",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <div
+              className="notifications-head absolute wfull hfull flex flexDColumn pb48"
+            >
+              <ModalHeaderCustom
+                heading="Notifications"
+              />
+              <NotificationList
+                loadMoreNotifications={[Function]}
+                messages={Array []}
+                notificationsPresent={false}
+                remainingMessages={0}
+                userId=""
+              />
+            </div>,
+            "customClass": "",
+            "customCloseTrigger": false,
+            "disabled": false,
+            "fullView": true,
+            "hasCustomClose": true,
+            "hasNoClose": false,
+            "isTriggerFullView": false,
+            "isWhiteIcon": false,
+            "onAfterModalOpen": [Function],
+            "onRequestCloseCustom": [Function],
+            "trigger": <NotificationBell
+              markNotificationRead={[Function]}
+              unreadNotificationCount={0}
+              userId=""
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <ModalHeaderCustom
+                  heading="Notifications"
+                />,
+                <NotificationList
+                  loadMoreNotifications={[Function]}
+                  messages={Array []}
+                  notificationsPresent={false}
+                  remainingMessages={0}
+                  userId=""
+                />,
+              ],
+              "className": "notifications-head absolute wfull hfull flex flexDColumn pb48",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "heading": "Notifications",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "loadMoreNotifications": [Function],
+                  "messages": Array [],
+                  "notificationsPresent": false,
+                  "remainingMessages": 0,
+                  "userId": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "span",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "display": "inline-block",
+            "height": "24px",
+            "position": "relative",
+            "width": "24px",
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(span)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

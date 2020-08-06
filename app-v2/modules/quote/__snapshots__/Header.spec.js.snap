@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Header: Render Correctly  should match with the previous snapshot 1`] = `
+<Header
+  trackSegment={[Function]}
+  tripId={3918699}
+/>
+`;

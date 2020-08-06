@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for config/index.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">All files</a> / <a href="index.html">config</a> index.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>1/1</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131</td><td class="line-coverage quiet"><span class="cline-any cline-yes">110x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">module.exports = {
+  "server": {
+    "host": "localhost",
+    "port": 4000,
+    "public": {
+      "host": "localhost:4000"
+    }
+  },
+  "webpackHMR": {
+    "host": "localhost",
+    "port": 4001
+  },
+  "googleMap": {
+    "key": "AIzaSyDDxAgUCYhdqq_FbkX15R1uHASv-wAHD0M"
+  },
+  "api": {
+    "host": "browsing-qa1.ttdev.in",
+    "port": "",
+    "key": "93f67dbdacf3906955b5c529bb692fb11ac13dc3015c87f25c22fae51a5d79290841127492e312f2",
+    "ttMobileKey": "8AfrSjCLYSQMLKZKsnq0ZjAf35eqvr+eCNlv/ySKhjk="
+  },
+  "cms": {
+    "host": "cms-qa1.ttdev.in",
+    "port": "",
+    "key": "93f67dbdacf3906955b5c529bb692fb11ac13dc3015c87f25c22fae51a5d79290841127492e312f2",
+    "ttMobileKey": "8AfrSjCLYSQMLKZKsnq0ZjAf35eqvr+eCNlv/ySKhjk="
+  },
+  "segment": {
+    "key": "r5oufcpZfDGiFKVEksWKuJUR5Dy8IGD6"
+  },
+  "apiEndpoints": {
+    "entryFeesTimingsTips": "/browsing/v1/tour_guides/entry_fees_timings_tips/:destination",
+    "experience": "/browsing/v1/tour_guides/experience/:destination",
+    "cityBlockTestimonials": "browsing/v1/testimonials/search",
+    "essentialInfo": "browsing/v1/tour_guides/essential_info/:destination",
+    "bestTimeToVisit": "browsing/v1/tour_guides/best_time_to_visit/:destination",
+    "howToReach": "browsing/v1/tour_guides/how_to_reach/:destination",
+    "faqs": "browsing/v1/faqs",
+    "banner": "browsing/v1/tour_guides/banner/:destination",
+    "mapInformation": "browsing/v1/tour_guides/meta_information/:destination",
+    "placesToVisit": "browsing/v1/tour_guides/schemes_listing/:destination",
+    "thingsToDo": "browsing/v1/tour_guides/schemes_listing/:destination",
+    "cityBlockCommon": "browsing/v1/tour_guides/:destination",
+    "destinationCanonicals": "/browsing/v1/destinations/canonicals",
+    "comparePackages": "/browsing/v1/packages/compare",
+    "listing": "/browsing/v1/packages",
+    "destinationDetail": "/browsing/v1/destinations",
+    "blogs": "/blog/api/v1_get_blogs.php",
+    "destinationListing": "/browsing/v1/destinations",
+    "footerSection": "/browsing/v1/footer_section",
+    "packageDetails": "/browsing/v1/packages",
+    "inlineGateways": "/browsing/v1/package_filters",
+    "similarPackages": "/browsing/v1/packages",
+    "recentPackages": "/browsing/v1/packages/recently_viewed",
+    "requestCallBack": "/browsing/v1/request_callback",
+    "forgotPassword": "/browsing/v1/users/password",
+    "faq": "/browsing/v1/faqs",
+    "toLocation": "/browsing/v1/searches/to_locations",
+    "search": "/browsing/v1/searches/search",
+    "searchNavigationURL": "/browsing/v1/searches/get_search_navigation",
+    "universalSearchSuggest": "/browsing/v1/searches/suggest",
+    "auth": {
+      "signin": "/browsing/v1/users/sign_in",
+      "signUp": "/browsing/v1/users",
+      "signOut": "/browsing/v1/users/sign_out",
+      "userDetails": "browsing/v1/user/status"
+    },
+    "career": {
+      "details": "/browsing/v1/careers",
+      "apply": "/browsing/v1/candidate_details"
+    },
+    "testimonials": "/browsing/v1/testimonials",
+    "breadCrumbs": "/browsing/v1/breadcrumbs",
+    "requestedTrip": {
+      "formOne": "/browsing/v1/requested_trips/",
+      "formTwo": "/browsing/v1/requested_trips/",
+      "customize": "/browsing/v1/requested_trips/:id/customize",
+      "saveInRedis": "/browsing/v1/requested_trips/slider/",
+      "createInRedis": "save_slider_redis_downtime/",
+      "sliderQuestions": "browsing/v1/cards/slider_questions"
+    },
+    "animatedBanner": "/browsing/v1/banners/search",
+    "filterCounts": "/browsing/v1/packages/filters_counts",
+    "hlpCommon": "/browsing/v1/property_types",
+    "hotelDetail": "/browsing/v1/property_type",
+    "rbtParse": "/browsing/v1/destinations/rbt_parse",
+    "rtripPath": "/requested_trips/:id",
+    "quoteDetailPath": "/requested_trips/:id/quotes/:quoteId",
+    "compareQuotesPath": "/requested_trips/:id/compare",
+    "vouchersPath": "/vouchers/index_voucher?quote_id=:quoteId",
+    "editTravelInfoPath": "/requested_trips/:id/edit",
+    "itineraryPath": "/requested_trips/:id/quotes/:quoteId/itinerary",
+    "cancelBooking": "/bookings/v1/requested_trips/:requestedTripId/cancel_request",
+    "reactivateRequest": "/bookings/v1/requested_trips/:requestedTripId/reactivate_request",
+    "tripQuotesPath": "/bookings/v1/requested_trips/:id/quotes",
+    "quoteConstants": "/bookings/v1/quote_show_constants",
+    "bookNow": "/bookings/v1/requested_trips/:requestedTripId/quotes/:quoteId/accept_quote",
+    "rejectQuote": "/bookings/v1/requested_trips/:requestedTripId/quotes/:quoteId/reject_quote",
+    "reactivateQuote": "/bookings/v1/requested_trips/:requestedTripId/quotes/:quoteId/reactivate_quote",
+    "hotelStatusChange": "/bookings/v1/requested_trips/:requestedTripId/quotes/:quoteId/update_hotel_status",
+    "requestCallback": "bookings/v1/requested_trips/:requestedTripId/quotes/:quoteId/request_call_back",
+    "preDefinedMessagePath": "bookings/v1/pre_defined_messages",
+    "downloadQuote": "/quotes/:quoteId/download_quote",
+    "waitForInvoice": "demo4148783.mockable.io/wait_for_invoice",
+    "channelKeys": "/bookings/v1/users/:userId/pubnub_config?type=",
+    "updateQuoteStats": "/bookings/v1/requested_trips/:tripId/quotes/:quoteId/update_quote_stats",
+    "discountOffers": "/offer/show",
+    "applyDiscountOffer": "/offer/apply",
+    "removeDiscountOffer": "/offer/remove",
+    "updateDiscountOffer": "/offer/update",
+    "appliedOffer": "offer/get_offer",
+    "chatKeys": "/bookings/v1/users/:userId/pubnub_config?&amp;type=chat",
+    "commentsHistory": "/bookings/v1/requested_trips/:requestedTripId/quotes/:quoteId/comments",
+    "commentCreate": "/bookings/v1/requested_trips/:requestedTripId/quotes/:quoteId/comments",
+    "notifications": "/bookings/v1/users/:userId/notifications",
+    "notificationsRead": "/bookings/v1/users/:userId/update_last_seen_notification",
+    "notificationKeys": "/bookings/v1/users/:userId/pubnub_config?type=notification"
+  },
+  "api_protocol": "http:",
+  "cms_protocol": "https:",
+  "assets": {
+    "images": "https://img.traveltriangle.com",
+    "cdn": "",
+    "svgPrefix": "icons-svg-"
+  },
+  "searchPageSize": 3,
+  "errorPage": "/page-not-found",
+  "useRtms": true,
+  "rtmsUrl": "wss://rtms-qa1.ttdev.in/connect/"
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

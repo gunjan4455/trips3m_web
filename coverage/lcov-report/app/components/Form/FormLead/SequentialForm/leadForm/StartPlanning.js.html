@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Form/FormLead/SequentialForm/leadForm/StartPlanning.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../../../index.html">All files</a> / <a href="index.html">app/components/Form/FormLead/SequentialForm/leadForm</a> StartPlanning.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">82.35% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>14/17</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">70% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>7/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">82.35% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>14/17</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { Field } from 'redux-form';
+&nbsp;
+import Footer from '../footer';
+import {
+  SEQUENTIAL_FORM_TWO,
+} from "../../../../../constants/Slider";
+import { requiredWithmessage } from "../../../../../utils/formValidators";
+import { Destination } from "../../../../../helpers/Icon/Icon";
+import { renderToLocation, genericCheckbox } from '../../FormOneVariation';
+&nbsp;
+const suggestedDestinations = ['Kerala', 'Thailand', 'Himachal', 'Bali', 'Kashmir', 'Maldives', 'Andaman',
+  'Mauritius', 'Sikkim', 'Singapore', 'Australia'];
+&nbsp;
+class StartPlanning extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showDestinations: false,
+      showIcon: true
+    };
+  }
+&nbsp;
+  goBack = () =&gt; {
+    return false;
+  };
+&nbsp;
+  goForward = () =&gt; {
+    this.props.callNextSlide({
+      submitVariation: '',
+      variation: true,
+      variationStep: SEQUENTIAL_FORM_TWO,
+      selectedPillIndex: 0
+    });
+  };
+&nbsp;
+  handleChangeInput = (destination, i) =&gt; {
+    this.setState({ selectedPillIndex: i });
+    this.props.changeFormField('LeadForm', 'to_loc', destination);
+    this.setState({ showDestinations: false, showIcon: true });
+  };
+&nbsp;
+  renderSuggestedPills = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div className="row row- mb15"&gt;
+        &lt;div className="destination-suggestions flex overflowa"&gt;
+          {suggestedDestinations.map(<span class="fstat-no" title="function not covered" >(d</span>estination, i) =&gt; (
+<span class="cstat-no" title="statement not covered" >            &lt;div className={`suggested-item sfc1 f14 mr8 ${this.state.selectedPillIndex === i ? 'active' : ''}`}</span>
+                 key={i}
+                 onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >this.handleChangeInput(destination, i)}</span>&gt;{destination}&lt;/div&gt;
+          ))}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  };
+&nbsp;
+  onToLocFocus = () =&gt; {
+    this.setState({ showDestinations: true, showIcon: false });
+  };
+&nbsp;
+  handleBlur = () =&gt; {
+    this.setState({ showDestinations: false, showIcon: false });
+    this.props.handleBlur();
+  };
+&nbsp;
+  render() {
+    const goNextDisabled = !this.props.formValues.to_loc;
+    return (
+      &lt;div className="form-body"&gt;
+        &lt;div className="location-icon-container"&gt;
+          &lt;Destination /&gt;
+        &lt;/div&gt;
+        &lt;div className="form-field-incl-label p15 relative"&gt;
+          &lt;Field
+            name="to_loc"
+            component={renderToLocation}
+            placeholder="To"
+            type="text"
+            label="To"
+            validate={requiredWithmessage('Please enter your destination')}
+            trackFormOneInteracted={this.props.handlFormInteraction}
+            onToLocFocus={this.onToLocFocus}
+            handleBlur={this.handleBlur}
+          /&gt;
+          &lt;div className="row row- mb15"&gt;
+            &lt;Field
+              name="exploring_destinations"
+              component={genericCheckbox}
+              type="checkbox"
+              label="I am exploring destinations"
+              className="checkbox-common sfcw"
+              id="exploring-destination_fnew"
+              trackFormOneInteracted={this.props.handlFormInteraction}
+              classname="exploring-destination at_explore mb8"
+            /&gt;
+          &lt;/div&gt;
+          {/*{this.state.showDestinations &amp;&amp; this.renderSuggestedPills()}*/}
+          &lt;div className="from-location-container"&gt;
+          &lt;Field
+            id="fromLocation_fnew"
+            className="input"
+            name="from_loc"
+            component={this.props.FromLocation}
+            placeholder="From"
+            type="text"
+            label="From"
+            trackFormOneInteracted={this.props.handlFormInteraction}
+          /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;Footer goForward={this.goForward} goBackDisabled={true} goNextDisabled={goNextDisabled} /&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+StartPlanning.propTypes = {
+  formStage: PropTypes.number,
+  FromLocation: PropTypes.func,
+  changeFormField: PropTypes.func,
+  handlFormInteraction: PropTypes.func,
+  handleBlur: PropTypes.func,
+  formValues: PropTypes.object,
+  requiredWithmessage: PropTypes.func,
+  callNextSlide: PropTypes.func,
+  progressBar: PropTypes.func,
+  sliderDisplayMode: PropTypes.string
+};
+&nbsp;
+export default StartPlanning;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../../../sorter.js"></script>
+</body>
+</html>

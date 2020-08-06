@@ -1,0 +1,923 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HowItWorks test suit should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PackageDetailsPrice
+    dealsInfo={false}
+    isDeal={false}
+    isLuxury={false}
+    pkg={
+      Object {
+        "covers": Object {
+          "days": 4,
+          "nights": 3,
+        },
+        "hotels": Array [],
+        "package_options": Object {
+          "hotel_price_details": Array [],
+        },
+        "price": Object {
+          "currency": "Rupee",
+          "discount": 15651,
+          "from": null,
+          "miniDesc": "Per Person on twin sharing",
+          "to": null,
+          "total": 21650,
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <StarMonthFilter
+          month="May"
+          packageDetails={
+            Object {
+              "covers": Object {
+                "days": 4,
+                "nights": 3,
+              },
+              "hotels": Array [],
+              "package_options": Object {
+                "hotel_price_details": Array [],
+              },
+              "price": Object {
+                "currency": "Rupee",
+                "discount": 15651,
+                "from": null,
+                "miniDesc": "Per Person on twin sharing",
+                "to": null,
+                "total": 21650,
+              },
+            }
+          }
+          selectedMonth={0}
+          starRating={3}
+        />,
+        <div
+          className="sbcw p15"
+        >
+          <PackageCities
+            cities={Object {}}
+            isDealsCard={false}
+          />
+        </div>,
+        <div
+          className="p15 pb4 pt0 sbcw"
+        >
+          <div
+            className="row row-"
+          >
+            <div
+              className="flex alignCenter mb8"
+            >
+              <p
+                className="f12 fw9 sbco"
+              >
+                4
+                 Days & 
+                3
+                 Nights
+              </p>
+            </div>
+            <div
+              className="flex alignCenter pl0 col-xs-12 pr0"
+            >
+              <PackagePrice
+                currency="Rupee"
+                days={4}
+                dealsInfo={false}
+                discount={15651}
+                hideDiscount={false}
+                nights={3}
+                price={21650}
+                priceFrom={null}
+                priceTo={null}
+                priceUnit="Per Person on twin sharing"
+              />
+            </div>
+            <div
+              className="col-xs-12 p0"
+            />
+          </div>
+          <span
+            className="divider-line"
+          />
+          <h4
+            className="fw9 fw9 mt15 mb15"
+          >
+            Price Inclusive of
+          </h4>
+          <div
+            className="row inclusion-height-box"
+          >
+            <PackageIncExc
+              id="details_undefined"
+              isPackageRevamp={false}
+              noScroll={false}
+            />
+          </div>
+        </div>,
+      ],
+      "className": "mb8 sbcw",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "month": "May",
+          "packageDetails": Object {
+            "covers": Object {
+              "days": 4,
+              "nights": 3,
+            },
+            "hotels": Array [],
+            "package_options": Object {
+              "hotel_price_details": Array [],
+            },
+            "price": Object {
+              "currency": "Rupee",
+              "discount": 15651,
+              "from": null,
+              "miniDesc": "Per Person on twin sharing",
+              "to": null,
+              "total": 21650,
+            },
+          },
+          "pushState": undefined,
+          "selectedMonth": 0,
+          "starRating": 3,
+          "update": undefined,
+          "updateSelectedMonth": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <PackageCities
+            cities={Object {}}
+            isDealsCard={false}
+          />,
+          "className": "sbcw p15",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "cities": Object {},
+            "isDealsCard": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row row-"
+            >
+              <div
+                className="flex alignCenter mb8"
+              >
+                <p
+                  className="f12 fw9 sbco"
+                >
+                  4
+                   Days & 
+                  3
+                   Nights
+                </p>
+              </div>
+              <div
+                className="flex alignCenter pl0 col-xs-12 pr0"
+              >
+                <PackagePrice
+                  currency="Rupee"
+                  days={4}
+                  dealsInfo={false}
+                  discount={15651}
+                  hideDiscount={false}
+                  nights={3}
+                  price={21650}
+                  priceFrom={null}
+                  priceTo={null}
+                  priceUnit="Per Person on twin sharing"
+                />
+              </div>
+              <div
+                className="col-xs-12 p0"
+              />
+            </div>,
+            <span
+              className="divider-line"
+            />,
+            <h4
+              className="fw9 fw9 mt15 mb15"
+            >
+              Price Inclusive of
+            </h4>,
+            <div
+              className="row inclusion-height-box"
+            >
+              <PackageIncExc
+                id="details_undefined"
+                isPackageRevamp={false}
+                noScroll={false}
+              />
+            </div>,
+          ],
+          "className": "p15 pb4 pt0 sbcw",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="flex alignCenter mb8"
+                >
+                  <p
+                    className="f12 fw9 sbco"
+                  >
+                    4
+                     Days & 
+                    3
+                     Nights
+                  </p>
+                </div>,
+                <div
+                  className="flex alignCenter pl0 col-xs-12 pr0"
+                >
+                  <PackagePrice
+                    currency="Rupee"
+                    days={4}
+                    dealsInfo={false}
+                    discount={15651}
+                    hideDiscount={false}
+                    nights={3}
+                    price={21650}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="Per Person on twin sharing"
+                  />
+                </div>,
+                <div
+                  className="col-xs-12 p0"
+                />,
+              ],
+              "className": "row row-",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <p
+                      className="f12 fw9 sbco"
+                    >
+                      4
+                       Days & 
+                      3
+                       Nights
+                    </p>,
+                    null,
+                  ],
+                  "className": "flex alignCenter mb8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        4,
+                        " Days & ",
+                        3,
+                        " Nights",
+                      ],
+                      "className": "f12 fw9 sbco",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      4,
+                      " Days & ",
+                      3,
+                      " Nights",
+                    ],
+                    "type": "p",
+                  },
+                  null,
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PackagePrice
+                    currency="Rupee"
+                    days={4}
+                    dealsInfo={false}
+                    discount={15651}
+                    hideDiscount={false}
+                    nights={3}
+                    price={21650}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="Per Person on twin sharing"
+                  />,
+                  "className": "flex alignCenter pl0 col-xs-12 pr0",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "animationPrice": undefined,
+                    "currency": "Rupee",
+                    "days": 4,
+                    "dealsInfo": false,
+                    "discount": 15651,
+                    "hideDiscount": false,
+                    "nights": 3,
+                    "price": 21650,
+                    "priceFrom": null,
+                    "priceTo": null,
+                    "priceUnit": "Per Person on twin sharing",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": null,
+                  "className": "col-xs-12 p0",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "divider-line",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Price Inclusive of",
+              "className": "fw9 fw9 mt15 mb15",
+            },
+            "ref": null,
+            "rendered": "Price Inclusive of",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <PackageIncExc
+                id="details_undefined"
+                isPackageRevamp={false}
+                noScroll={false}
+              />,
+              "className": "row inclusion-height-box",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "id": "details_undefined",
+                "inclusions": undefined,
+                "isPackageRevamp": false,
+                "noScroll": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <StarMonthFilter
+            month="May"
+            packageDetails={
+              Object {
+                "covers": Object {
+                  "days": 4,
+                  "nights": 3,
+                },
+                "hotels": Array [],
+                "package_options": Object {
+                  "hotel_price_details": Array [],
+                },
+                "price": Object {
+                  "currency": "Rupee",
+                  "discount": 15651,
+                  "from": null,
+                  "miniDesc": "Per Person on twin sharing",
+                  "to": null,
+                  "total": 21650,
+                },
+              }
+            }
+            selectedMonth={0}
+            starRating={3}
+          />,
+          <div
+            className="sbcw p15"
+          >
+            <PackageCities
+              cities={Object {}}
+              isDealsCard={false}
+            />
+          </div>,
+          <div
+            className="p15 pb4 pt0 sbcw"
+          >
+            <div
+              className="row row-"
+            >
+              <div
+                className="flex alignCenter mb8"
+              >
+                <p
+                  className="f12 fw9 sbco"
+                >
+                  4
+                   Days & 
+                  3
+                   Nights
+                </p>
+              </div>
+              <div
+                className="flex alignCenter pl0 col-xs-12 pr0"
+              >
+                <PackagePrice
+                  currency="Rupee"
+                  days={4}
+                  dealsInfo={false}
+                  discount={15651}
+                  hideDiscount={false}
+                  nights={3}
+                  price={21650}
+                  priceFrom={null}
+                  priceTo={null}
+                  priceUnit="Per Person on twin sharing"
+                />
+              </div>
+              <div
+                className="col-xs-12 p0"
+              />
+            </div>
+            <span
+              className="divider-line"
+            />
+            <h4
+              className="fw9 fw9 mt15 mb15"
+            >
+              Price Inclusive of
+            </h4>
+            <div
+              className="row inclusion-height-box"
+            >
+              <PackageIncExc
+                id="details_undefined"
+                isPackageRevamp={false}
+                noScroll={false}
+              />
+            </div>
+          </div>,
+        ],
+        "className": "mb8 sbcw",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "month": "May",
+            "packageDetails": Object {
+              "covers": Object {
+                "days": 4,
+                "nights": 3,
+              },
+              "hotels": Array [],
+              "package_options": Object {
+                "hotel_price_details": Array [],
+              },
+              "price": Object {
+                "currency": "Rupee",
+                "discount": 15651,
+                "from": null,
+                "miniDesc": "Per Person on twin sharing",
+                "to": null,
+                "total": 21650,
+              },
+            },
+            "pushState": undefined,
+            "selectedMonth": 0,
+            "starRating": 3,
+            "update": undefined,
+            "updateSelectedMonth": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <PackageCities
+              cities={Object {}}
+              isDealsCard={false}
+            />,
+            "className": "sbcw p15",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "cities": Object {},
+              "isDealsCard": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row row-"
+              >
+                <div
+                  className="flex alignCenter mb8"
+                >
+                  <p
+                    className="f12 fw9 sbco"
+                  >
+                    4
+                     Days & 
+                    3
+                     Nights
+                  </p>
+                </div>
+                <div
+                  className="flex alignCenter pl0 col-xs-12 pr0"
+                >
+                  <PackagePrice
+                    currency="Rupee"
+                    days={4}
+                    dealsInfo={false}
+                    discount={15651}
+                    hideDiscount={false}
+                    nights={3}
+                    price={21650}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="Per Person on twin sharing"
+                  />
+                </div>
+                <div
+                  className="col-xs-12 p0"
+                />
+              </div>,
+              <span
+                className="divider-line"
+              />,
+              <h4
+                className="fw9 fw9 mt15 mb15"
+              >
+                Price Inclusive of
+              </h4>,
+              <div
+                className="row inclusion-height-box"
+              >
+                <PackageIncExc
+                  id="details_undefined"
+                  isPackageRevamp={false}
+                  noScroll={false}
+                />
+              </div>,
+            ],
+            "className": "p15 pb4 pt0 sbcw",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="flex alignCenter mb8"
+                  >
+                    <p
+                      className="f12 fw9 sbco"
+                    >
+                      4
+                       Days & 
+                      3
+                       Nights
+                    </p>
+                  </div>,
+                  <div
+                    className="flex alignCenter pl0 col-xs-12 pr0"
+                  >
+                    <PackagePrice
+                      currency="Rupee"
+                      days={4}
+                      dealsInfo={false}
+                      discount={15651}
+                      hideDiscount={false}
+                      nights={3}
+                      price={21650}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="Per Person on twin sharing"
+                    />
+                  </div>,
+                  <div
+                    className="col-xs-12 p0"
+                  />,
+                ],
+                "className": "row row-",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <p
+                        className="f12 fw9 sbco"
+                      >
+                        4
+                         Days & 
+                        3
+                         Nights
+                      </p>,
+                      null,
+                    ],
+                    "className": "flex alignCenter mb8",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          4,
+                          " Days & ",
+                          3,
+                          " Nights",
+                        ],
+                        "className": "f12 fw9 sbco",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        4,
+                        " Days & ",
+                        3,
+                        " Nights",
+                      ],
+                      "type": "p",
+                    },
+                    null,
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PackagePrice
+                      currency="Rupee"
+                      days={4}
+                      dealsInfo={false}
+                      discount={15651}
+                      hideDiscount={false}
+                      nights={3}
+                      price={21650}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="Per Person on twin sharing"
+                    />,
+                    "className": "flex alignCenter pl0 col-xs-12 pr0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "animationPrice": undefined,
+                      "currency": "Rupee",
+                      "days": 4,
+                      "dealsInfo": false,
+                      "discount": 15651,
+                      "hideDiscount": false,
+                      "nights": 3,
+                      "price": 21650,
+                      "priceFrom": null,
+                      "priceTo": null,
+                      "priceUnit": "Per Person on twin sharing",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": null,
+                    "className": "col-xs-12 p0",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "divider-line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Price Inclusive of",
+                "className": "fw9 fw9 mt15 mb15",
+              },
+              "ref": null,
+              "rendered": "Price Inclusive of",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <PackageIncExc
+                  id="details_undefined"
+                  isPackageRevamp={false}
+                  noScroll={false}
+                />,
+                "className": "row inclusion-height-box",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "id": "details_undefined",
+                  "inclusions": undefined,
+                  "isPackageRevamp": false,
+                  "noScroll": false,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Itinerary Heading Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItineraryHeading
+    days={2}
+    item={
+      Object {
+        "description": "hotel detail",
+        "eventTime": "hotel timing",
+        "imagesUrl": Array [
+          "https://dailystormer.name/wp-content/uploads/2013/07/London-taxi.jpg",
+        ],
+        "order": "2",
+        "otherDetails": Object {
+          "category": "",
+          "email": "",
+          "hotelDesc": "hotel description",
+          "lat": "28.489743",
+          "long": "77.074602",
+          "name": "hotel",
+          "phone": "44445454",
+          "rating": 5,
+          "tripAdvisorId": "",
+          "web_url": "",
+        },
+        "sectionType": "hotel",
+        "title": "hotel details",
+      }
+    }
+    trackSegmentEvent={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flexFull"
+        >
+          <div
+            className="flex alignCenter"
+          >
+            <h4
+              className="f16 fw9 m0 mr8 mb5 at_itineraryHeading"
+            >
+              Day 2
+            </h4>
+            <p
+              className="f12 pfc4 m0 at_eventTime"
+            >
+              hotel timing
+            </p>
+          </div>
+          <p
+            className="f14"
+          >
+            hotel details
+          </p>
+        </div>,
+        <span
+          className="itineraryDownArrow input-24 block p5 flex alignCenter justifyCenter"
+          onClick={[Function]}
+        >
+          <IconSvg />
+        </span>,
+      ],
+      "className": "flex alignCenter spaceBetween p15 bb",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="flex alignCenter"
+            >
+              <h4
+                className="f16 fw9 m0 mr8 mb5 at_itineraryHeading"
+              >
+                Day 2
+              </h4>
+              <p
+                className="f12 pfc4 m0 at_eventTime"
+              >
+                hotel timing
+              </p>
+            </div>,
+            <p
+              className="f14"
+            >
+              hotel details
+            </p>,
+          ],
+          "className": "flexFull",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4
+                  className="f16 fw9 m0 mr8 mb5 at_itineraryHeading"
+                >
+                  Day 2
+                </h4>,
+                <p
+                  className="f12 pfc4 m0 at_eventTime"
+                >
+                  hotel timing
+                </p>,
+              ],
+              "className": "flex alignCenter",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Day 2",
+                  "className": "f16 fw9 m0 mr8 mb5 at_itineraryHeading",
+                },
+                "ref": null,
+                "rendered": "Day 2",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "hotel timing",
+                  "className": "f12 pfc4 m0 at_eventTime",
+                },
+                "ref": null,
+                "rendered": "hotel timing",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "hotel details",
+              "className": "f14",
+            },
+            "ref": null,
+            "rendered": "hotel details",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "itineraryDownArrow input-24 block p5 flex alignCenter justifyCenter",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flexFull"
+          >
+            <div
+              className="flex alignCenter"
+            >
+              <h4
+                className="f16 fw9 m0 mr8 mb5 at_itineraryHeading"
+              >
+                Day 2
+              </h4>
+              <p
+                className="f12 pfc4 m0 at_eventTime"
+              >
+                hotel timing
+              </p>
+            </div>
+            <p
+              className="f14"
+            >
+              hotel details
+            </p>
+          </div>,
+          <span
+            className="itineraryDownArrow input-24 block p5 flex alignCenter justifyCenter"
+            onClick={[Function]}
+          >
+            <IconSvg />
+          </span>,
+        ],
+        "className": "flex alignCenter spaceBetween p15 bb",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="flex alignCenter"
+              >
+                <h4
+                  className="f16 fw9 m0 mr8 mb5 at_itineraryHeading"
+                >
+                  Day 2
+                </h4>
+                <p
+                  className="f12 pfc4 m0 at_eventTime"
+                >
+                  hotel timing
+                </p>
+              </div>,
+              <p
+                className="f14"
+              >
+                hotel details
+              </p>,
+            ],
+            "className": "flexFull",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="f16 fw9 m0 mr8 mb5 at_itineraryHeading"
+                  >
+                    Day 2
+                  </h4>,
+                  <p
+                    className="f12 pfc4 m0 at_eventTime"
+                  >
+                    hotel timing
+                  </p>,
+                ],
+                "className": "flex alignCenter",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Day 2",
+                    "className": "f16 fw9 m0 mr8 mb5 at_itineraryHeading",
+                  },
+                  "ref": null,
+                  "rendered": "Day 2",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "hotel timing",
+                    "className": "f12 pfc4 m0 at_eventTime",
+                  },
+                  "ref": null,
+                  "rendered": "hotel timing",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "hotel details",
+                "className": "f14",
+              },
+              "ref": null,
+              "rendered": "hotel details",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "itineraryDownArrow input-24 block p5 flex alignCenter justifyCenter",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

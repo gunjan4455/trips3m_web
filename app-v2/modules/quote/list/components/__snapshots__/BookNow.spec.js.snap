@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BookNowPopup
+    agent={
+      Object {
+        "name": "xyz",
+      }
+    }
+    bookNow={[MockFunction]}
+    closeModal={[MockFunction]}
+    priceInfo={
+      Object {
+        "price": 31500,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="f14 sfc6 at_agentInfo"
+        >
+          You are booking quote by Agent xyz priced at 31500 ( total).
+        </div>,
+        <div
+          className="pt24 text-right"
+        >
+          <button
+            className="mr24 sfc6 fw7 at_closeModal"
+            onClick={[MockFunction]}
+          >
+            Cancel
+          </button>
+          <button
+            className="sfc1 fw7 at_continue"
+            onClick={[MockFunction]}
+          >
+            Continue
+          </button>
+        </div>,
+      ],
+      "className": "pt24 pl15 pr15 pb24",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "You are booking quote by Agent xyz priced at 31500 ( total).",
+          "className": "f14 sfc6 at_agentInfo",
+        },
+        "ref": null,
+        "rendered": "You are booking quote by Agent xyz priced at 31500 ( total).",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="mr24 sfc6 fw7 at_closeModal"
+              onClick={[MockFunction]}
+            >
+              Cancel
+            </button>,
+            <button
+              className="sfc1 fw7 at_continue"
+              onClick={[MockFunction]}
+            >
+              Continue
+            </button>,
+          ],
+          "className": "pt24 text-right",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Cancel",
+              "className": "mr24 sfc6 fw7 at_closeModal",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": "Cancel",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Continue",
+              "className": "sfc1 fw7 at_continue",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": "Continue",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="f14 sfc6 at_agentInfo"
+          >
+            You are booking quote by Agent xyz priced at 31500 ( total).
+          </div>,
+          <div
+            className="pt24 text-right"
+          >
+            <button
+              className="mr24 sfc6 fw7 at_closeModal"
+              onClick={[MockFunction]}
+            >
+              Cancel
+            </button>
+            <button
+              className="sfc1 fw7 at_continue"
+              onClick={[MockFunction]}
+            >
+              Continue
+            </button>
+          </div>,
+        ],
+        "className": "pt24 pl15 pr15 pb24",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "You are booking quote by Agent xyz priced at 31500 ( total).",
+            "className": "f14 sfc6 at_agentInfo",
+          },
+          "ref": null,
+          "rendered": "You are booking quote by Agent xyz priced at 31500 ( total).",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="mr24 sfc6 fw7 at_closeModal"
+                onClick={[MockFunction]}
+              >
+                Cancel
+              </button>,
+              <button
+                className="sfc1 fw7 at_continue"
+                onClick={[MockFunction]}
+              >
+                Continue
+              </button>,
+            ],
+            "className": "pt24 text-right",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Cancel",
+                "className": "mr24 sfc6 fw7 at_closeModal",
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": "Cancel",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Continue",
+                "className": "sfc1 fw7 at_continue",
+                "onClick": [MockFunction],
+              },
+              "ref": null,
+              "rendered": "Continue",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

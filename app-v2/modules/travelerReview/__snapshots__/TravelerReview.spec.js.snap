@@ -1,0 +1,737 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testimonials module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TravelerReview
+    baseUrl=""
+    data={
+      Object {
+        "heading": "Read on to find out why our customers love us!",
+        "title": "Traveler Reviews",
+      }
+    }
+    destination=""
+    isSeasonalCategory={false}
+    loadMore={[Function]}
+    location={Object {}}
+    packageId={0}
+    pagination={Object {}}
+    showViewAll={true}
+    testimonials={
+      Array [
+        Object {
+          "author": Object {
+            "author_name": "Ashish Sharma",
+            "author_pic": null,
+            "designation": null,
+            "message": null,
+            "user_location": "Delhi, India",
+          },
+          "body": "1) 1st hotel was not having double bed...2 beds were joined to make it for us couple.
+2) 2nd hotel was told to us as villa, but as a surprise it was again hotel only.
+3) we were not told water sport activities will be self paid.
+4) A dinner was arranged at last day in package, disappointing us again as it was buffet.
+5) Driver only left us only at destination, didnt guide us anywhere.
+1) Self exploration of the places.
+2) self paid water sport.
+3) hotel pool and services were fantastic.",
+          "created_at": "2019-10-01T21:39:10+05:30",
+          "id": 71334,
+          "last_updated": "2019-10-01T21:39:10+05:30",
+          "quote": Object {
+            "adult": 2,
+            "child": 0,
+            "cities": Array [
+              "Kuta",
+              "Bali",
+            ],
+            "days": 6,
+            "id": 10367081,
+            "start_date": "2019-09-24",
+          },
+          "rating": 3,
+          "title": "Ashish's 6 days trip to Bali",
+        },
+      ]
+    }
+    uniqueKey="traveler-review"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="traveler-review"
+      >
+        <div
+          className="pt15 pl15 pr15"
+        >
+          <h2
+            className="f20 pfc3 fwb pb8"
+          >
+             Authentic Traveler Reviews
+          </h2>
+          <p
+            className="f14p pfc4 pb8"
+          >
+            Read on to find out why our customers love us!
+          </p>
+        </div>
+        <TravelerReviewNewCard
+          hideTestimonial={false}
+          pagination={Object {}}
+          testimonial={
+            Object {
+              "author": Object {
+                "author_name": "Ashish Sharma",
+                "author_pic": null,
+                "designation": null,
+                "message": null,
+                "user_location": "Delhi, India",
+              },
+              "body": "1) 1st hotel was not having double bed...2 beds were joined to make it for us couple.
+2) 2nd hotel was told to us as villa, but as a surprise it was again hotel only.
+3) we were not told water sport activities will be self paid.
+4) A dinner was arranged at last day in package, disappointing us again as it was buffet.
+5) Driver only left us only at destination, didnt guide us anywhere.
+1) Self exploration of the places.
+2) self paid water sport.
+3) hotel pool and services were fantastic.",
+              "created_at": "2019-10-01T21:39:10+05:30",
+              "id": 71334,
+              "last_updated": "2019-10-01T21:39:10+05:30",
+              "quote": Object {
+                "adult": 2,
+                "child": 0,
+                "cities": Array [
+                  "Kuta",
+                  "Bali",
+                ],
+                "days": 6,
+                "id": 10367081,
+                "start_date": "2019-09-24",
+              },
+              "rating": 3,
+              "title": "Ashish's 6 days trip to Bali",
+            }
+          }
+        />
+        <div
+          className="readmore-btn flex justifyCenter pt15 pb15"
+        >
+          <Link
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            target="_blank"
+            to="/testimonials"
+          >
+            <button
+              className="f14 sfc1 fw7 flex alignCenter at_readmorebtn"
+            >
+              View All Reviews
+            </button>
+          </Link>
+        </div>
+      </div>,
+      "className": "slider-overflow-buttons sbcw",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="pt15 pl15 pr15"
+          >
+            <h2
+              className="f20 pfc3 fwb pb8"
+            >
+               Authentic Traveler Reviews
+            </h2>
+            <p
+              className="f14p pfc4 pb8"
+            >
+              Read on to find out why our customers love us!
+            </p>
+          </div>,
+          Array [
+            <TravelerReviewNewCard
+              hideTestimonial={false}
+              pagination={Object {}}
+              testimonial={
+                Object {
+                  "author": Object {
+                    "author_name": "Ashish Sharma",
+                    "author_pic": null,
+                    "designation": null,
+                    "message": null,
+                    "user_location": "Delhi, India",
+                  },
+                  "body": "1) 1st hotel was not having double bed...2 beds were joined to make it for us couple.
+2) 2nd hotel was told to us as villa, but as a surprise it was again hotel only.
+3) we were not told water sport activities will be self paid.
+4) A dinner was arranged at last day in package, disappointing us again as it was buffet.
+5) Driver only left us only at destination, didnt guide us anywhere.
+1) Self exploration of the places.
+2) self paid water sport.
+3) hotel pool and services were fantastic.",
+                  "created_at": "2019-10-01T21:39:10+05:30",
+                  "id": 71334,
+                  "last_updated": "2019-10-01T21:39:10+05:30",
+                  "quote": Object {
+                    "adult": 2,
+                    "child": 0,
+                    "cities": Array [
+                      "Kuta",
+                      "Bali",
+                    ],
+                    "days": 6,
+                    "id": 10367081,
+                    "start_date": "2019-09-24",
+                  },
+                  "rating": 3,
+                  "title": "Ashish's 6 days trip to Bali",
+                }
+              }
+            />,
+          ],
+          <div
+            className="readmore-btn flex justifyCenter pt15 pb15"
+          >
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              target="_blank"
+              to="/testimonials"
+            >
+              <button
+                className="f14 sfc1 fw7 flex alignCenter at_readmorebtn"
+              >
+                View All Reviews
+              </button>
+            </Link>
+          </div>,
+        ],
+        "className": "traveler-review",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2
+                className="f20 pfc3 fwb pb8"
+              >
+                 Authentic Traveler Reviews
+              </h2>,
+              <p
+                className="f14p pfc4 pb8"
+              >
+                Read on to find out why our customers love us!
+              </p>,
+            ],
+            "className": "pt15 pl15 pr15",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  null,
+                  " Authentic Traveler Reviews",
+                ],
+                "className": "f20 pfc3 fwb pb8",
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                " Authentic Traveler Reviews",
+              ],
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Read on to find out why our customers love us!",
+                "className": "f14p pfc4 pb8",
+              },
+              "ref": null,
+              "rendered": "Read on to find out why our customers love us!",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "hideTestimonial": false,
+            "pagination": Object {},
+            "testimonial": Object {
+              "author": Object {
+                "author_name": "Ashish Sharma",
+                "author_pic": null,
+                "designation": null,
+                "message": null,
+                "user_location": "Delhi, India",
+              },
+              "body": "1) 1st hotel was not having double bed...2 beds were joined to make it for us couple.
+2) 2nd hotel was told to us as villa, but as a surprise it was again hotel only.
+3) we were not told water sport activities will be self paid.
+4) A dinner was arranged at last day in package, disappointing us again as it was buffet.
+5) Driver only left us only at destination, didnt guide us anywhere.
+1) Self exploration of the places.
+2) self paid water sport.
+3) hotel pool and services were fantastic.",
+              "created_at": "2019-10-01T21:39:10+05:30",
+              "id": 71334,
+              "last_updated": "2019-10-01T21:39:10+05:30",
+              "quote": Object {
+                "adult": 2,
+                "child": 0,
+                "cities": Array [
+                  "Kuta",
+                  "Bali",
+                ],
+                "days": 6,
+                "id": 10367081,
+                "start_date": "2019-09-24",
+              },
+              "rating": 3,
+              "title": "Ashish's 6 days trip to Bali",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              target="_blank"
+              to="/testimonials"
+            >
+              <button
+                className="f14 sfc1 fw7 flex alignCenter at_readmorebtn"
+              >
+                View All Reviews
+              </button>
+            </Link>,
+            "className": "readmore-btn flex justifyCenter pt15 pb15",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <button
+                className="f14 sfc1 fw7 flex alignCenter at_readmorebtn"
+              >
+                View All Reviews
+              </button>,
+              "onlyActiveOnIndex": false,
+              "style": Object {},
+              "target": "_blank",
+              "to": "/testimonials",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "View All Reviews",
+                "className": "f14 sfc1 fw7 flex alignCenter at_readmorebtn",
+              },
+              "ref": null,
+              "rendered": "View All Reviews",
+              "type": "button",
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="traveler-review"
+        >
+          <div
+            className="pt15 pl15 pr15"
+          >
+            <h2
+              className="f20 pfc3 fwb pb8"
+            >
+               Authentic Traveler Reviews
+            </h2>
+            <p
+              className="f14p pfc4 pb8"
+            >
+              Read on to find out why our customers love us!
+            </p>
+          </div>
+          <TravelerReviewNewCard
+            hideTestimonial={false}
+            pagination={Object {}}
+            testimonial={
+              Object {
+                "author": Object {
+                  "author_name": "Ashish Sharma",
+                  "author_pic": null,
+                  "designation": null,
+                  "message": null,
+                  "user_location": "Delhi, India",
+                },
+                "body": "1) 1st hotel was not having double bed...2 beds were joined to make it for us couple.
+2) 2nd hotel was told to us as villa, but as a surprise it was again hotel only.
+3) we were not told water sport activities will be self paid.
+4) A dinner was arranged at last day in package, disappointing us again as it was buffet.
+5) Driver only left us only at destination, didnt guide us anywhere.
+1) Self exploration of the places.
+2) self paid water sport.
+3) hotel pool and services were fantastic.",
+                "created_at": "2019-10-01T21:39:10+05:30",
+                "id": 71334,
+                "last_updated": "2019-10-01T21:39:10+05:30",
+                "quote": Object {
+                  "adult": 2,
+                  "child": 0,
+                  "cities": Array [
+                    "Kuta",
+                    "Bali",
+                  ],
+                  "days": 6,
+                  "id": 10367081,
+                  "start_date": "2019-09-24",
+                },
+                "rating": 3,
+                "title": "Ashish's 6 days trip to Bali",
+              }
+            }
+          />
+          <div
+            className="readmore-btn flex justifyCenter pt15 pb15"
+          >
+            <Link
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              target="_blank"
+              to="/testimonials"
+            >
+              <button
+                className="f14 sfc1 fw7 flex alignCenter at_readmorebtn"
+              >
+                View All Reviews
+              </button>
+            </Link>
+          </div>
+        </div>,
+        "className": "slider-overflow-buttons sbcw",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="pt15 pl15 pr15"
+            >
+              <h2
+                className="f20 pfc3 fwb pb8"
+              >
+                 Authentic Traveler Reviews
+              </h2>
+              <p
+                className="f14p pfc4 pb8"
+              >
+                Read on to find out why our customers love us!
+              </p>
+            </div>,
+            Array [
+              <TravelerReviewNewCard
+                hideTestimonial={false}
+                pagination={Object {}}
+                testimonial={
+                  Object {
+                    "author": Object {
+                      "author_name": "Ashish Sharma",
+                      "author_pic": null,
+                      "designation": null,
+                      "message": null,
+                      "user_location": "Delhi, India",
+                    },
+                    "body": "1) 1st hotel was not having double bed...2 beds were joined to make it for us couple.
+2) 2nd hotel was told to us as villa, but as a surprise it was again hotel only.
+3) we were not told water sport activities will be self paid.
+4) A dinner was arranged at last day in package, disappointing us again as it was buffet.
+5) Driver only left us only at destination, didnt guide us anywhere.
+1) Self exploration of the places.
+2) self paid water sport.
+3) hotel pool and services were fantastic.",
+                    "created_at": "2019-10-01T21:39:10+05:30",
+                    "id": 71334,
+                    "last_updated": "2019-10-01T21:39:10+05:30",
+                    "quote": Object {
+                      "adult": 2,
+                      "child": 0,
+                      "cities": Array [
+                        "Kuta",
+                        "Bali",
+                      ],
+                      "days": 6,
+                      "id": 10367081,
+                      "start_date": "2019-09-24",
+                    },
+                    "rating": 3,
+                    "title": "Ashish's 6 days trip to Bali",
+                  }
+                }
+              />,
+            ],
+            <div
+              className="readmore-btn flex justifyCenter pt15 pb15"
+            >
+              <Link
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                target="_blank"
+                to="/testimonials"
+              >
+                <button
+                  className="f14 sfc1 fw7 flex alignCenter at_readmorebtn"
+                >
+                  View All Reviews
+                </button>
+              </Link>
+            </div>,
+          ],
+          "className": "traveler-review",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h2
+                  className="f20 pfc3 fwb pb8"
+                >
+                   Authentic Traveler Reviews
+                </h2>,
+                <p
+                  className="f14p pfc4 pb8"
+                >
+                  Read on to find out why our customers love us!
+                </p>,
+              ],
+              "className": "pt15 pl15 pr15",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    null,
+                    " Authentic Traveler Reviews",
+                  ],
+                  "className": "f20 pfc3 fwb pb8",
+                },
+                "ref": null,
+                "rendered": Array [
+                  null,
+                  " Authentic Traveler Reviews",
+                ],
+                "type": "h2",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Read on to find out why our customers love us!",
+                  "className": "f14p pfc4 pb8",
+                },
+                "ref": null,
+                "rendered": "Read on to find out why our customers love us!",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "hideTestimonial": false,
+              "pagination": Object {},
+              "testimonial": Object {
+                "author": Object {
+                  "author_name": "Ashish Sharma",
+                  "author_pic": null,
+                  "designation": null,
+                  "message": null,
+                  "user_location": "Delhi, India",
+                },
+                "body": "1) 1st hotel was not having double bed...2 beds were joined to make it for us couple.
+2) 2nd hotel was told to us as villa, but as a surprise it was again hotel only.
+3) we were not told water sport activities will be self paid.
+4) A dinner was arranged at last day in package, disappointing us again as it was buffet.
+5) Driver only left us only at destination, didnt guide us anywhere.
+1) Self exploration of the places.
+2) self paid water sport.
+3) hotel pool and services were fantastic.",
+                "created_at": "2019-10-01T21:39:10+05:30",
+                "id": 71334,
+                "last_updated": "2019-10-01T21:39:10+05:30",
+                "quote": Object {
+                  "adult": 2,
+                  "child": 0,
+                  "cities": Array [
+                    "Kuta",
+                    "Bali",
+                  ],
+                  "days": 6,
+                  "id": 10367081,
+                  "start_date": "2019-09-24",
+                },
+                "rating": 3,
+                "title": "Ashish's 6 days trip to Bali",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                onlyActiveOnIndex={false}
+                style={Object {}}
+                target="_blank"
+                to="/testimonials"
+              >
+                <button
+                  className="f14 sfc1 fw7 flex alignCenter at_readmorebtn"
+                >
+                  View All Reviews
+                </button>
+              </Link>,
+              "className": "readmore-btn flex justifyCenter pt15 pb15",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <button
+                  className="f14 sfc1 fw7 flex alignCenter at_readmorebtn"
+                >
+                  View All Reviews
+                </button>,
+                "onlyActiveOnIndex": false,
+                "style": Object {},
+                "target": "_blank",
+                "to": "/testimonials",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "View All Reviews",
+                  "className": "f14 sfc1 fw7 flex alignCenter at_readmorebtn",
+                },
+                "ref": null,
+                "rendered": "View All Reviews",
+                "type": "button",
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

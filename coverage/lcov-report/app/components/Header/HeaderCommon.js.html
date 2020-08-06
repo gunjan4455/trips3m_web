@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Header/HeaderCommon.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/Header</a> HeaderCommon.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">60% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>3/5</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">60% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>3/5</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import { Link } from 'react-router';
+import PropTypes from 'prop-types';
+import BurgerMenu from './BurgerMenu';
+import Search from '../../components/Search/Search';
+import { connect } from 'react-redux';
+import { isOpen, toggle } from 'reducers/search';
+import './Header.scss';
+&nbsp;
+const HeaderCommon = <span class="fstat-no" title="function not covered" >({</span> isDropDownOpen, toggleDropDown, location }) =&gt; (
+<span class="cstat-no" title="statement not covered" >  &lt;header&gt;</span>
+    &lt;div className="header-con header-con-shadow"&gt;
+      &lt;div className="header-con-first"&gt;
+        &lt;BurgerMenu /&gt;
+        &lt;div className="tt-logo"&gt;&lt;Link to="/"&gt;&lt;img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMzM3LjU1IDE3Mi4zIj48ZGVmcz48c3R5bGU+LmNscy0xLC5jbHMtM3tmaWxsOiNmZmY7fS5jbHMtMntmaWxsOiMxZDI1MzM7fS5jbHMtMiwuY2xzLTN7ZmlsbC1ydWxlOmV2ZW5vZGQ7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCA1PC90aXRsZT48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTIzMiw2Mi4yOEgyMDcuNTdWNDZoNjYuNTZMMjY3LDYyLjI4SDI0OS42OXY2NEgyMzJaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjg3LjY3LDQ2aDM2LjcyYzEwLjIxLDAsMTguMTMsMi44NywyMy40MSw4LjE1LDQuNDgsNC40OCw2Ljg5LDEwLjc5LDYuODksMTguMzZ2LjIzYzAsMTMtNywyMS4xMS0xNy4yMSwyNC45bDE5LjYyLDI4LjY5SDMzNi40NGwtMTcuMjEtMjUuN0gzMDUuMzR2MjUuN0gyODcuNjdabTM1LjU3LDM5YzguNjEsMCwxMy41NC00LjU5LDEzLjU0LTExLjM2di0uMjNjMC03LjU3LTUuMjgtMTEuNDgtMTMuODktMTEuNDhIMzA1LjM0Vjg1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTU1NS44Nyw0Nmg2MC41OWwtNy4wOCwxNS43Mkg1NzMuNDNWNzhINjExLjNWOTMuNzNINTczLjQzdjE2Ljg3SDYxN3YxNS43Mkg1NTUuODdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNjMyLjc2LDQ2aDE3LjY3djY0LjI2aDQwbC03LjA4LDE2LjA3SDYzMi43NloiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik03NTYuOTEsNjIuMjhINzMyLjQ3VjQ2SDc5OWwtNy4wOCwxNi4yOUg3NzQuNTl2NjRINzU2LjkxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTgxMi41Nyw0NmgzNi43MmMxMC4yMSwwLDE4LjEzLDIuODcsMjMuNDEsOC4xNSw0LjQ3LDQuNDgsNi44OCwxMC43OSw2Ljg4LDE4LjM2di4yM2MwLDEzLTcsMjEuMTEtMTcuMjEsMjQuOUw4ODIsMTI2LjMySDg2MS4zNGwtMTcuMjEtMjUuN0g4MzAuMjR2MjUuN0g4MTIuNTdabTM1LjU3LDM5YzguNjEsMCwxMy41NC00LjU5LDEzLjU0LTExLjM2di0uMjNjMC03LjU3LTUuMjgtMTEuNDgtMTMuODktMTEuNDhIODMwLjI0Vjg1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTg5Ni4zMyw0Nkg5MTR2ODAuMzNIODk2LjMzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTk2MS42Myw0NS43aDE2LjI5bDM0LjQzLDgwLjlIOTkzLjg3bC03LjM0LTE4aC0zNGwtNy4zNCwxOGgtMThaTTk4MC4yMiw5M2wtMTAuNjctMjZMOTU4Ljg3LDkzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEwMjQuNzQsNDZIMTA0MWwzNy42NCw0OS40NlY0NmgxNy40NHY4MC4zM2gtMTVsLTM4LjktNTEuMDZ2NTEuMDZoLTE3LjQ0WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTExMTEuODMsODYuMzh2LS4yM2MwLTIyLjg0LDE3Ljc5LTQxLjU0LDQyLjExLTQxLjU0LDE0LjQ2LDAsMjMuMTgsMy45LDMxLjU2LDExbC0xMS4xMywxMy40M2MtNi4yLTUuMTYtMTEuNy04LjE1LTIxLTguMTUtMTIuODUsMC0yMy4wNywxMS4zNi0yMy4wNywyNXYuMjNjMCwxNC42OSwxMC4xLDI1LjQ3LDI0LjMzLDI1LjQ3LDYuNDMsMCwxMi4xNi0xLjYxLDE2LjY0LTQuODJWOTUuMzNoLTE3Ljc5VjgwLjA3aDM0Ljg4VjExNWE1Mi4xNCw1Mi4xNCwwLDAsMS0zNC4zMSwxMi43NEMxMTI5LDEyNy42OSwxMTExLjgzLDExMC4xNCwxMTExLjgzLDg2LjM4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEyMDUuMzUsNDZIMTIyM3Y2NC4yNmg0MEwxMjU2LDEyNi4zMmgtNTAuNjRaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTI3Ni4zOCw0NkgxMzM3bC03LjA4LDE1LjcyaC0zNS45NVY3OGgzNy44N1Y5My43M2gtMzcuODd2MTYuODdoNDMuNjF2MTUuNzJoLTYxLjE2WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQ5MS42OSwxMjYuNDMsNDM2LjQxLDQ1Ljg4SDU0N2wtNTUuMjgsODAuNTUiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik00MjMuMTksNDUuODhsNTUuMjgsODAuNTVIMzY3LjkxbDU1LjI4LTgwLjU1Ii8+PHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMCwxNzIuMywzNy41NSw0My4xMmw5MS41MSw5Mi43NEwwLDE3Mi4zIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTczLjMxLDAsMTM2LjE3LDEzMCw0NC4xMSwzNS4yNiwxNzMuMzEsMCIvPjwvZz48L2c+PC9zdmc+" alt="Travel Triangle" /&gt;&lt;/Link&gt;&lt;/div&gt;
+        &lt;div className="hide"&gt;
+          &lt;button onClick={toggleDropDown} className="search-header-common"&gt;search&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div className="pbc1 pl8 pr8 pb8 relative"&gt;&lt;Search location={location} /&gt;&lt;/div&gt;
+  &lt;/header&gt;
+);
+&nbsp;
+HeaderCommon.propTypes = {
+  isDropDownOpen: PropTypes.bool.isRequired,
+  toggleDropDown: PropTypes.func.isRequired,
+  location: PropTypes.object
+};
+&nbsp;
+HeaderCommon.defaultProps = {
+  location: undefined
+};
+&nbsp;
+export default connect(
+<span class="fstat-no" title="function not covered" >  st</span>ate =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+    isDropDownOpen: isOpen(state),
+  }),
+  {
+    toggleDropDown: toggle
+  }
+)(HeaderCommon);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

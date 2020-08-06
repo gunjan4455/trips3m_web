@@ -1,0 +1,980 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pdm: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FiltersView
+    filterList={Array []}
+    initialValues={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(render)
+          className="overflowh hide pbc1 radius100 fixed z14 r15 b15 flex alignCenter justifyCenter"
+        >
+          <IconSvg />
+        </ForwardRef(render)>,
+        <div
+          className="col-xs-12 p0 z15 fixed t0 l0 overflowa pb64 b0 r0 sbc5 cityblockfilterContainer"
+        >
+          <div
+            className="row row- sbcw filters-options-con"
+          >
+            <div
+              className="row row- sbcw p15 flex alignCenter filters-header"
+            >
+              <div
+                className="col-xs-2 pl0"
+              >
+                <ForwardRef(render)
+                  className="close-filters flex alignCenter justifyCenter"
+                  type="button"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="col-xs-6 pl8"
+              >
+                <p
+                  className="filter-title"
+                >
+                  Filters
+                </p>
+              </div>
+              <div
+                className="col-xs-4 pl0 pr0"
+              >
+                <button
+                  className="reset-button fright"
+                >
+                  RESET
+                </button>
+              </div>
+            </div>
+            <div
+              className="pt8 sbc5"
+            />
+            <form
+              className="filter-row-container block"
+            >
+              0
+              <div
+                className="fixed p8 sbcw b0 l0 r0 bs4"
+              >
+                <button
+                  className="btn-filled-pri-large wfull"
+                  type="button"
+                >
+                  Apply Filter
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "overflowh hide pbc1 radius100 fixed z14 r15 b15 flex alignCenter justifyCenter",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "button",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "& svg": Object {
+                "height": "25px",
+                "position": "absolute",
+                "width": "25px",
+              },
+              "boxShadow": "0 4px 12px #999",
+              "height": "56px",
+              "width": "56px",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(button)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row row- sbcw filters-options-con"
+          >
+            <div
+              className="row row- sbcw p15 flex alignCenter filters-header"
+            >
+              <div
+                className="col-xs-2 pl0"
+              >
+                <ForwardRef(render)
+                  className="close-filters flex alignCenter justifyCenter"
+                  type="button"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+              </div>
+              <div
+                className="col-xs-6 pl8"
+              >
+                <p
+                  className="filter-title"
+                >
+                  Filters
+                </p>
+              </div>
+              <div
+                className="col-xs-4 pl0 pr0"
+              >
+                <button
+                  className="reset-button fright"
+                >
+                  RESET
+                </button>
+              </div>
+            </div>
+            <div
+              className="pt8 sbc5"
+            />
+            <form
+              className="filter-row-container block"
+            >
+              0
+              <div
+                className="fixed p8 sbcw b0 l0 r0 bs4"
+              >
+                <button
+                  className="btn-filled-pri-large wfull"
+                  type="button"
+                >
+                  Apply Filter
+                </button>
+              </div>
+            </form>
+          </div>,
+          "className": "col-xs-12 p0 z15 fixed t0 l0 overflowa pb64 b0 r0 sbc5 cityblockfilterContainer",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row row- sbcw p15 flex alignCenter filters-header"
+              >
+                <div
+                  className="col-xs-2 pl0"
+                >
+                  <ForwardRef(render)
+                    className="close-filters flex alignCenter justifyCenter"
+                    type="button"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                </div>
+                <div
+                  className="col-xs-6 pl8"
+                >
+                  <p
+                    className="filter-title"
+                  >
+                    Filters
+                  </p>
+                </div>
+                <div
+                  className="col-xs-4 pl0 pr0"
+                >
+                  <button
+                    className="reset-button fright"
+                  >
+                    RESET
+                  </button>
+                </div>
+              </div>,
+              <div
+                className="pt8 sbc5"
+              />,
+              <form
+                className="filter-row-container block"
+              >
+                0
+                <div
+                  className="fixed p8 sbcw b0 l0 r0 bs4"
+                >
+                  <button
+                    className="btn-filled-pri-large wfull"
+                    type="button"
+                  >
+                    Apply Filter
+                  </button>
+                </div>
+              </form>,
+            ],
+            "className": "row row- sbcw filters-options-con",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-xs-2 pl0"
+                  >
+                    <ForwardRef(render)
+                      className="close-filters flex alignCenter justifyCenter"
+                      type="button"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>
+                  </div>,
+                  <div
+                    className="col-xs-6 pl8"
+                  >
+                    <p
+                      className="filter-title"
+                    >
+                      Filters
+                    </p>
+                  </div>,
+                  <div
+                    className="col-xs-4 pl0 pr0"
+                  >
+                    <button
+                      className="reset-button fright"
+                    >
+                      RESET
+                    </button>
+                  </div>,
+                ],
+                "className": "row row- sbcw p15 flex alignCenter filters-header",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <ForwardRef(render)
+                      className="close-filters flex alignCenter justifyCenter"
+                      type="button"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>,
+                    "className": "col-xs-2 pl0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "close-filters flex alignCenter justifyCenter",
+                      "onClick": undefined,
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "button",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& svg": Object {
+                            "height": "16px",
+                            "width": "16px",
+                          },
+                          "height": "24px",
+                          "width": "24px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(button)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <p
+                      className="filter-title"
+                    >
+                      Filters
+                    </p>,
+                    "className": "col-xs-6 pl8",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Filters",
+                      "className": "filter-title",
+                    },
+                    "ref": null,
+                    "rendered": "Filters",
+                    "type": "p",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      className="reset-button fright"
+                    >
+                      RESET
+                    </button>,
+                    "className": "col-xs-4 pl0 pr0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "RESET",
+                      "className": "reset-button fright",
+                      "onClick": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "RESET",
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "pt8 sbc5",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  0,
+                  <div
+                    className="fixed p8 sbcw b0 l0 r0 bs4"
+                  >
+                    <button
+                      className="btn-filled-pri-large wfull"
+                      type="button"
+                    >
+                      Apply Filter
+                    </button>
+                  </div>,
+                ],
+                "className": "filter-row-container block",
+              },
+              "ref": null,
+              "rendered": Array [
+                0,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <button
+                      className="btn-filled-pri-large wfull"
+                      type="button"
+                    >
+                      Apply Filter
+                    </button>,
+                    "className": "fixed p8 sbcw b0 l0 r0 bs4",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Apply Filter",
+                      "className": "btn-filled-pri-large wfull",
+                      "onClick": undefined,
+                      "type": "button",
+                    },
+                    "ref": null,
+                    "rendered": "Apply Filter",
+                    "type": "button",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "form",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)
+            className="overflowh hide pbc1 radius100 fixed z14 r15 b15 flex alignCenter justifyCenter"
+          >
+            <IconSvg />
+          </ForwardRef(render)>,
+          <div
+            className="col-xs-12 p0 z15 fixed t0 l0 overflowa pb64 b0 r0 sbc5 cityblockfilterContainer"
+          >
+            <div
+              className="row row- sbcw filters-options-con"
+            >
+              <div
+                className="row row- sbcw p15 flex alignCenter filters-header"
+              >
+                <div
+                  className="col-xs-2 pl0"
+                >
+                  <ForwardRef(render)
+                    className="close-filters flex alignCenter justifyCenter"
+                    type="button"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                </div>
+                <div
+                  className="col-xs-6 pl8"
+                >
+                  <p
+                    className="filter-title"
+                  >
+                    Filters
+                  </p>
+                </div>
+                <div
+                  className="col-xs-4 pl0 pr0"
+                >
+                  <button
+                    className="reset-button fright"
+                  >
+                    RESET
+                  </button>
+                </div>
+              </div>
+              <div
+                className="pt8 sbc5"
+              />
+              <form
+                className="filter-row-container block"
+              >
+                0
+                <div
+                  className="fixed p8 sbcw b0 l0 r0 bs4"
+                >
+                  <button
+                    className="btn-filled-pri-large wfull"
+                    type="button"
+                  >
+                    Apply Filter
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "overflowh hide pbc1 radius100 fixed z14 r15 b15 flex alignCenter justifyCenter",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "button",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "& svg": Object {
+                  "height": "25px",
+                  "position": "absolute",
+                  "width": "25px",
+                },
+                "boxShadow": "0 4px 12px #999",
+                "height": "56px",
+                "width": "56px",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(button)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="row row- sbcw filters-options-con"
+            >
+              <div
+                className="row row- sbcw p15 flex alignCenter filters-header"
+              >
+                <div
+                  className="col-xs-2 pl0"
+                >
+                  <ForwardRef(render)
+                    className="close-filters flex alignCenter justifyCenter"
+                    type="button"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                </div>
+                <div
+                  className="col-xs-6 pl8"
+                >
+                  <p
+                    className="filter-title"
+                  >
+                    Filters
+                  </p>
+                </div>
+                <div
+                  className="col-xs-4 pl0 pr0"
+                >
+                  <button
+                    className="reset-button fright"
+                  >
+                    RESET
+                  </button>
+                </div>
+              </div>
+              <div
+                className="pt8 sbc5"
+              />
+              <form
+                className="filter-row-container block"
+              >
+                0
+                <div
+                  className="fixed p8 sbcw b0 l0 r0 bs4"
+                >
+                  <button
+                    className="btn-filled-pri-large wfull"
+                    type="button"
+                  >
+                    Apply Filter
+                  </button>
+                </div>
+              </form>
+            </div>,
+            "className": "col-xs-12 p0 z15 fixed t0 l0 overflowa pb64 b0 r0 sbc5 cityblockfilterContainer",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row row- sbcw p15 flex alignCenter filters-header"
+                >
+                  <div
+                    className="col-xs-2 pl0"
+                  >
+                    <ForwardRef(render)
+                      className="close-filters flex alignCenter justifyCenter"
+                      type="button"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>
+                  </div>
+                  <div
+                    className="col-xs-6 pl8"
+                  >
+                    <p
+                      className="filter-title"
+                    >
+                      Filters
+                    </p>
+                  </div>
+                  <div
+                    className="col-xs-4 pl0 pr0"
+                  >
+                    <button
+                      className="reset-button fright"
+                    >
+                      RESET
+                    </button>
+                  </div>
+                </div>,
+                <div
+                  className="pt8 sbc5"
+                />,
+                <form
+                  className="filter-row-container block"
+                >
+                  0
+                  <div
+                    className="fixed p8 sbcw b0 l0 r0 bs4"
+                  >
+                    <button
+                      className="btn-filled-pri-large wfull"
+                      type="button"
+                    >
+                      Apply Filter
+                    </button>
+                  </div>
+                </form>,
+              ],
+              "className": "row row- sbcw filters-options-con",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col-xs-2 pl0"
+                    >
+                      <ForwardRef(render)
+                        className="close-filters flex alignCenter justifyCenter"
+                        type="button"
+                      >
+                        <IconSvg />
+                      </ForwardRef(render)>
+                    </div>,
+                    <div
+                      className="col-xs-6 pl8"
+                    >
+                      <p
+                        className="filter-title"
+                      >
+                        Filters
+                      </p>
+                    </div>,
+                    <div
+                      className="col-xs-4 pl0 pr0"
+                    >
+                      <button
+                        className="reset-button fright"
+                      >
+                        RESET
+                      </button>
+                    </div>,
+                  ],
+                  "className": "row row- sbcw p15 flex alignCenter filters-header",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <ForwardRef(render)
+                        className="close-filters flex alignCenter justifyCenter"
+                        type="button"
+                      >
+                        <IconSvg />
+                      </ForwardRef(render)>,
+                      "className": "col-xs-2 pl0",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": <IconSvg />,
+                        "className": "close-filters flex alignCenter justifyCenter",
+                        "onClick": undefined,
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {},
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "button",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& svg": Object {
+                              "height": "16px",
+                              "width": "16px",
+                            },
+                            "height": "24px",
+                            "width": "24px",
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(button)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <p
+                        className="filter-title"
+                      >
+                        Filters
+                      </p>,
+                      "className": "col-xs-6 pl8",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Filters",
+                        "className": "filter-title",
+                      },
+                      "ref": null,
+                      "rendered": "Filters",
+                      "type": "p",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <button
+                        className="reset-button fright"
+                      >
+                        RESET
+                      </button>,
+                      "className": "col-xs-4 pl0 pr0",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "RESET",
+                        "className": "reset-button fright",
+                        "onClick": undefined,
+                      },
+                      "ref": null,
+                      "rendered": "RESET",
+                      "type": "button",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "pt8 sbc5",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    0,
+                    <div
+                      className="fixed p8 sbcw b0 l0 r0 bs4"
+                    >
+                      <button
+                        className="btn-filled-pri-large wfull"
+                        type="button"
+                      >
+                        Apply Filter
+                      </button>
+                    </div>,
+                  ],
+                  "className": "filter-row-container block",
+                },
+                "ref": null,
+                "rendered": Array [
+                  0,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <button
+                        className="btn-filled-pri-large wfull"
+                        type="button"
+                      >
+                        Apply Filter
+                      </button>,
+                      "className": "fixed p8 sbcw b0 l0 r0 bs4",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Apply Filter",
+                        "className": "btn-filled-pri-large wfull",
+                        "onClick": undefined,
+                        "type": "button",
+                      },
+                      "ref": null,
+                      "rendered": "Apply Filter",
+                      "type": "button",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "form",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

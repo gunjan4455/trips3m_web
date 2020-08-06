@@ -1,0 +1,2436 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RLP page should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Layout
+    currentTripId={4982978}
+    layout={
+      Object {
+        "actions": Array [],
+        "components": Array [
+          Object {
+            "block_no": 1,
+            "heading": "",
+            "id": 1,
+            "name": "QuoteList",
+            "order": 1,
+            "row_no": 1,
+            "title": "",
+            "total_block_in_row": 1,
+            "variant": "FULL",
+          },
+          Object {
+            "block_no": 1,
+            "heading": "",
+            "id": 2,
+            "name": "WhyTT",
+            "order": 2,
+            "row_no": 2,
+            "title": "",
+            "total_block_in_row": 1,
+            "variant": "FULL",
+          },
+          Object {
+            "block_no": 1,
+            "heading": "",
+            "id": 3,
+            "name": "LeadSubmitted",
+            "order": 3,
+            "row_no": 3,
+            "title": "",
+            "total_block_in_row": 1,
+            "variant": "FULL",
+          },
+        ],
+        "meta_info": Object {
+          "destination": "Nainital",
+          "module_name": "qdp",
+          "page_message": null,
+          "trip_status": "Active",
+        },
+        "name": "RLP",
+        "stage": "QUOTE_RECIEVED",
+        "version": 1,
+      }
+    }
+    params={
+      Object {
+        "requestedTripId": "4982978",
+      }
+    }
+    trips={
+      Object {
+        "allIds": Array [
+          "4809460",
+          "4982568",
+          "4982590",
+          "4982978",
+        ],
+        "byId": Object {
+          "4809460": Object {
+            "adult": 2,
+            "bookingStatusLabel": "Incomplete",
+            "budget": "38000..41000",
+            "child": 0,
+            "currency": "Rupee",
+            "exclusivePreferencesValues": Object {
+              "cabs": "Included",
+              "flights": "Included",
+              "hotels": "4 Star",
+            },
+            "firstDestinationName": "Sri Lanka",
+            "fromLoc": "Chennai, Tamil Nadu, India",
+            "id": 4809460,
+            "info": "",
+            "phoneNo": "+919480946000",
+            "quotesCount": 3,
+            "startDate": "2019-07-04",
+            "status": "Cancelled",
+            "toLoc": "Sri Lanka",
+            "tripDays": 5,
+            "tripStage": 3,
+          },
+          "4982568": Object {
+            "adult": 2,
+            "bookingStatusLabel": "Incomplete",
+            "budget": null,
+            "child": 0,
+            "currency": null,
+            "exclusivePreferencesValues": Object {
+              "cabs": "Included",
+              "flights": "Included",
+              "hotels": "3 Star, 2 Star",
+            },
+            "firstDestinationName": "Singapore",
+            "fromLoc": "Chennai, Tamil Nadu, India",
+            "id": 4982568,
+            "info": "",
+            "phoneNo": "+919498256800",
+            "quotesCount": 0,
+            "startDate": "2019-08-11",
+            "status": "Dormant",
+            "toLoc": "Singapore",
+            "tripDays": 9,
+            "tripStage": 2,
+          },
+          "4982590": Object {
+            "adult": 4,
+            "bookingStatusLabel": "Incomplete",
+            "budget": "33500..33500",
+            "child": 0,
+            "currency": "Rupee",
+            "exclusivePreferencesValues": Object {
+              "cabs": "Included",
+              "flights": "Excluded",
+              "hotels": "3 Star",
+            },
+            "firstDestinationName": "Singapore",
+            "fromLoc": "Chennai",
+            "id": 4982590,
+            "info": "",
+            "phoneNo": "+919498259000",
+            "quotesCount": 0,
+            "startDate": "2019-08-19",
+            "status": "Dormant",
+            "toLoc": "Singapore",
+            "tripDays": 7,
+            "tripStage": 3,
+          },
+          "4982978": Object {
+            "adult": 4,
+            "bookingStatusLabel": "Active",
+            "budget": "33500..33500",
+            "child": 0,
+            "currency": "Rupee",
+            "exclusivePreferencesValues": Object {
+              "cabs": "Included",
+              "flights": "Excluded",
+              "hotels": "3 Star",
+            },
+            "firstDestinationName": "Singapore",
+            "fromLoc": "Chennai",
+            "id": 4982978,
+            "info": "",
+            "phoneNo": "+919498297800",
+            "quotesCount": 3,
+            "startDate": "2019-08-19",
+            "status": "Active",
+            "toLoc": "Singapore",
+            "tripDays": 7,
+            "tripStage": 3,
+          },
+        },
+        "loaded": true,
+        "loading": false,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+        >
+          <meta
+            content="Request Landing"
+            name="page_fullname"
+          />
+          <meta
+            content="Request Landing"
+            name="page_name"
+          />
+          <meta
+            content="Request Landing"
+            name="name"
+          />
+          <meta
+            content="Singapore"
+            name="destination"
+          />
+          <meta
+            content="QUOTE_RECIEVED"
+            name="trip_stage"
+          />
+          <meta
+            content="Active"
+            name="trip_status"
+          />
+        </HelmetWrapper>,
+        <withRouter(Connect(Roster))
+          timeout={3000}
+        />,
+        <div
+          className="clearfix contentBackground sbc5"
+        >
+          <div
+            className="at_appDownloadBannerSection"
+          >
+            <VisibilitySensor
+              active={true}
+              containment={null}
+              delayedCall={true}
+              intervalCheck={true}
+              intervalDelay={100}
+              minTopValue={0}
+              offset={Object {}}
+              onChange={[Function]}
+              partialVisibility="bottom"
+              resizeCheck={false}
+              resizeDelay={250}
+              resizeThrottle={-1}
+              scrollCheck={false}
+              scrollDelay={250}
+              scrollThrottle={-1}
+            >
+              <AppDownloadBanner
+                trackSegment={[Function]}
+              />
+            </VisibilitySensor>
+          </div>
+          <div
+            className="container"
+          >
+            <div
+              className="row pb48"
+            >
+              <NavBar
+                currentTripId={4982978}
+              />
+              <Connect(Header)
+                currentTrip={
+                  Object {
+                    "adult": 4,
+                    "bookingStatusLabel": "Active",
+                    "budget": "33500..33500",
+                    "child": 0,
+                    "currency": "Rupee",
+                    "exclusivePreferencesValues": Object {
+                      "cabs": "Included",
+                      "flights": "Excluded",
+                      "hotels": "3 Star",
+                    },
+                    "firstDestinationName": "Singapore",
+                    "fromLoc": "Chennai",
+                    "id": 4982978,
+                    "info": "",
+                    "phoneNo": "+919498297800",
+                    "quotesCount": 3,
+                    "startDate": "2019-08-19",
+                    "status": "Active",
+                    "toLoc": "Singapore",
+                    "tripDays": 7,
+                    "tripStage": 3,
+                  }
+                }
+                trackSegment={[Function]}
+              />
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <LoadableComponent
+                  config={
+                    Object {
+                      "block_no": 1,
+                      "heading": "",
+                      "id": 1,
+                      "name": "QuoteList",
+                      "order": 1,
+                      "row_no": 1,
+                      "title": "",
+                      "total_block_in_row": 1,
+                      "variant": "FULL",
+                    }
+                  }
+                  trackSegment={[Function]}
+                />
+              </VisibilitySensor>
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <LoadableComponent
+                  config={
+                    Object {
+                      "block_no": 1,
+                      "heading": "",
+                      "id": 2,
+                      "name": "WhyTT",
+                      "order": 2,
+                      "row_no": 2,
+                      "title": "",
+                      "total_block_in_row": 1,
+                      "variant": "FULL",
+                    }
+                  }
+                  trackSegment={[Function]}
+                />
+              </VisibilitySensor>
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <LoadableComponent
+                  config={
+                    Object {
+                      "block_no": 1,
+                      "heading": "",
+                      "id": 3,
+                      "name": "LeadSubmitted",
+                      "order": 3,
+                      "row_no": 3,
+                      "title": "",
+                      "total_block_in_row": 1,
+                      "variant": "FULL",
+                    }
+                  }
+                  trackSegment={[Function]}
+                />
+              </VisibilitySensor>
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "clearfix",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <meta
+              content="Request Landing"
+              name="page_fullname"
+            />,
+            <meta
+              content="Request Landing"
+              name="page_name"
+            />,
+            <meta
+              content="Request Landing"
+              name="name"
+            />,
+            <meta
+              content="Singapore"
+              name="destination"
+            />,
+            <meta
+              content="QUOTE_RECIEVED"
+              name="trip_stage"
+            />,
+            <meta
+              content="Active"
+              name="trip_status"
+            />,
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Request Landing",
+              "name": "page_fullname",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Request Landing",
+              "name": "page_name",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Request Landing",
+              "name": "name",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Singapore",
+              "name": "destination",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "QUOTE_RECIEVED",
+              "name": "trip_stage",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Active",
+              "name": "trip_status",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "timeout": 3000,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="at_appDownloadBannerSection"
+            >
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <AppDownloadBanner
+                  trackSegment={[Function]}
+                />
+              </VisibilitySensor>
+            </div>,
+            <div
+              className="container"
+            >
+              <div
+                className="row pb48"
+              >
+                <NavBar
+                  currentTripId={4982978}
+                />
+                <Connect(Header)
+                  currentTrip={
+                    Object {
+                      "adult": 4,
+                      "bookingStatusLabel": "Active",
+                      "budget": "33500..33500",
+                      "child": 0,
+                      "currency": "Rupee",
+                      "exclusivePreferencesValues": Object {
+                        "cabs": "Included",
+                        "flights": "Excluded",
+                        "hotels": "3 Star",
+                      },
+                      "firstDestinationName": "Singapore",
+                      "fromLoc": "Chennai",
+                      "id": 4982978,
+                      "info": "",
+                      "phoneNo": "+919498297800",
+                      "quotesCount": 3,
+                      "startDate": "2019-08-19",
+                      "status": "Active",
+                      "toLoc": "Singapore",
+                      "tripDays": 7,
+                      "tripStage": 3,
+                    }
+                  }
+                  trackSegment={[Function]}
+                />
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 1,
+                        "name": "QuoteList",
+                        "order": 1,
+                        "row_no": 1,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 2,
+                        "name": "WhyTT",
+                        "order": 2,
+                        "row_no": 2,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 3,
+                        "name": "LeadSubmitted",
+                        "order": 3,
+                        "row_no": 3,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+              </div>
+            </div>,
+          ],
+          "className": "clearfix contentBackground sbc5",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <AppDownloadBanner
+                  trackSegment={[Function]}
+                />
+              </VisibilitySensor>,
+              "className": "at_appDownloadBannerSection",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": true,
+                "children": <AppDownloadBanner
+                  trackSegment={[Function]}
+                />,
+                "containment": null,
+                "delayedCall": true,
+                "intervalCheck": true,
+                "intervalDelay": 100,
+                "minTopValue": 0,
+                "offset": Object {},
+                "onChange": [Function],
+                "partialVisibility": "bottom",
+                "resizeCheck": false,
+                "resizeDelay": 250,
+                "resizeThrottle": -1,
+                "scrollCheck": false,
+                "scrollDelay": 250,
+                "scrollThrottle": -1,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "trackSegment": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="row pb48"
+              >
+                <NavBar
+                  currentTripId={4982978}
+                />
+                <Connect(Header)
+                  currentTrip={
+                    Object {
+                      "adult": 4,
+                      "bookingStatusLabel": "Active",
+                      "budget": "33500..33500",
+                      "child": 0,
+                      "currency": "Rupee",
+                      "exclusivePreferencesValues": Object {
+                        "cabs": "Included",
+                        "flights": "Excluded",
+                        "hotels": "3 Star",
+                      },
+                      "firstDestinationName": "Singapore",
+                      "fromLoc": "Chennai",
+                      "id": 4982978,
+                      "info": "",
+                      "phoneNo": "+919498297800",
+                      "quotesCount": 3,
+                      "startDate": "2019-08-19",
+                      "status": "Active",
+                      "toLoc": "Singapore",
+                      "tripDays": 7,
+                      "tripStage": 3,
+                    }
+                  }
+                  trackSegment={[Function]}
+                />
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 1,
+                        "name": "QuoteList",
+                        "order": 1,
+                        "row_no": 1,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 2,
+                        "name": "WhyTT",
+                        "order": 2,
+                        "row_no": 2,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 3,
+                        "name": "LeadSubmitted",
+                        "order": 3,
+                        "row_no": 3,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+              </div>,
+              "className": "container",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <NavBar
+                    currentTripId={4982978}
+                  />,
+                  <Connect(Header)
+                    currentTrip={
+                      Object {
+                        "adult": 4,
+                        "bookingStatusLabel": "Active",
+                        "budget": "33500..33500",
+                        "child": 0,
+                        "currency": "Rupee",
+                        "exclusivePreferencesValues": Object {
+                          "cabs": "Included",
+                          "flights": "Excluded",
+                          "hotels": "3 Star",
+                        },
+                        "firstDestinationName": "Singapore",
+                        "fromLoc": "Chennai",
+                        "id": 4982978,
+                        "info": "",
+                        "phoneNo": "+919498297800",
+                        "quotesCount": 3,
+                        "startDate": "2019-08-19",
+                        "status": "Active",
+                        "toLoc": "Singapore",
+                        "tripDays": 7,
+                        "tripStage": 3,
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />,
+                  Array [
+                    <VisibilitySensor
+                      active={true}
+                      containment={null}
+                      delayedCall={true}
+                      intervalCheck={true}
+                      intervalDelay={100}
+                      minTopValue={0}
+                      offset={Object {}}
+                      onChange={[Function]}
+                      partialVisibility="bottom"
+                      resizeCheck={false}
+                      resizeDelay={250}
+                      resizeThrottle={-1}
+                      scrollCheck={false}
+                      scrollDelay={250}
+                      scrollThrottle={-1}
+                    >
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 1,
+                            "name": "QuoteList",
+                            "order": 1,
+                            "row_no": 1,
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        trackSegment={[Function]}
+                      />
+                    </VisibilitySensor>,
+                    <VisibilitySensor
+                      active={true}
+                      containment={null}
+                      delayedCall={true}
+                      intervalCheck={true}
+                      intervalDelay={100}
+                      minTopValue={0}
+                      offset={Object {}}
+                      onChange={[Function]}
+                      partialVisibility="bottom"
+                      resizeCheck={false}
+                      resizeDelay={250}
+                      resizeThrottle={-1}
+                      scrollCheck={false}
+                      scrollDelay={250}
+                      scrollThrottle={-1}
+                    >
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 2,
+                            "name": "WhyTT",
+                            "order": 2,
+                            "row_no": 2,
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        trackSegment={[Function]}
+                      />
+                    </VisibilitySensor>,
+                    <VisibilitySensor
+                      active={true}
+                      containment={null}
+                      delayedCall={true}
+                      intervalCheck={true}
+                      intervalDelay={100}
+                      minTopValue={0}
+                      offset={Object {}}
+                      onChange={[Function]}
+                      partialVisibility="bottom"
+                      resizeCheck={false}
+                      resizeDelay={250}
+                      resizeThrottle={-1}
+                      scrollCheck={false}
+                      scrollDelay={250}
+                      scrollThrottle={-1}
+                    >
+                      <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 3,
+                            "name": "LeadSubmitted",
+                            "order": 3,
+                            "row_no": 3,
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        trackSegment={[Function]}
+                      />
+                    </VisibilitySensor>,
+                  ],
+                ],
+                "className": "row pb48",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "currentTripId": 4982978,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "currentTrip": Object {
+                      "adult": 4,
+                      "bookingStatusLabel": "Active",
+                      "budget": "33500..33500",
+                      "child": 0,
+                      "currency": "Rupee",
+                      "exclusivePreferencesValues": Object {
+                        "cabs": "Included",
+                        "flights": "Excluded",
+                        "hotels": "3 Star",
+                      },
+                      "firstDestinationName": "Singapore",
+                      "fromLoc": "Chennai",
+                      "id": 4982978,
+                      "info": "",
+                      "phoneNo": "+919498297800",
+                      "quotesCount": 3,
+                      "startDate": "2019-08-19",
+                      "status": "Active",
+                      "toLoc": "Singapore",
+                      "tripDays": 7,
+                      "tripStage": 3,
+                    },
+                    "trackSegment": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": true,
+                    "children": <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteList",
+                          "order": 1,
+                          "row_no": 1,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />,
+                    "containment": null,
+                    "delayedCall": true,
+                    "intervalCheck": true,
+                    "intervalDelay": 100,
+                    "minTopValue": 0,
+                    "offset": Object {},
+                    "onChange": [Function],
+                    "partialVisibility": "bottom",
+                    "resizeCheck": false,
+                    "resizeDelay": 250,
+                    "resizeThrottle": -1,
+                    "scrollCheck": false,
+                    "scrollDelay": 250,
+                    "scrollThrottle": -1,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "config": Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 1,
+                        "name": "QuoteList",
+                        "order": 1,
+                        "row_no": 1,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      },
+                      "trackSegment": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": true,
+                    "children": <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 2,
+                          "name": "WhyTT",
+                          "order": 2,
+                          "row_no": 2,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />,
+                    "containment": null,
+                    "delayedCall": true,
+                    "intervalCheck": true,
+                    "intervalDelay": 100,
+                    "minTopValue": 0,
+                    "offset": Object {},
+                    "onChange": [Function],
+                    "partialVisibility": "bottom",
+                    "resizeCheck": false,
+                    "resizeDelay": 250,
+                    "resizeThrottle": -1,
+                    "scrollCheck": false,
+                    "scrollDelay": 250,
+                    "scrollThrottle": -1,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "config": Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 2,
+                        "name": "WhyTT",
+                        "order": 2,
+                        "row_no": 2,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      },
+                      "trackSegment": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": true,
+                    "children": <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "LeadSubmitted",
+                          "order": 3,
+                          "row_no": 3,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />,
+                    "containment": null,
+                    "delayedCall": true,
+                    "intervalCheck": true,
+                    "intervalDelay": 100,
+                    "minTopValue": 0,
+                    "offset": Object {},
+                    "onChange": [Function],
+                    "partialVisibility": "bottom",
+                    "resizeCheck": false,
+                    "resizeDelay": 250,
+                    "resizeThrottle": -1,
+                    "scrollCheck": false,
+                    "scrollDelay": 250,
+                    "scrollThrottle": -1,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "config": Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 3,
+                        "name": "LeadSubmitted",
+                        "order": 3,
+                        "row_no": 3,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      },
+                      "trackSegment": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+          >
+            <meta
+              content="Request Landing"
+              name="page_fullname"
+            />
+            <meta
+              content="Request Landing"
+              name="page_name"
+            />
+            <meta
+              content="Request Landing"
+              name="name"
+            />
+            <meta
+              content="Singapore"
+              name="destination"
+            />
+            <meta
+              content="QUOTE_RECIEVED"
+              name="trip_stage"
+            />
+            <meta
+              content="Active"
+              name="trip_status"
+            />
+          </HelmetWrapper>,
+          <withRouter(Connect(Roster))
+            timeout={3000}
+          />,
+          <div
+            className="clearfix contentBackground sbc5"
+          >
+            <div
+              className="at_appDownloadBannerSection"
+            >
+              <VisibilitySensor
+                active={true}
+                containment={null}
+                delayedCall={true}
+                intervalCheck={true}
+                intervalDelay={100}
+                minTopValue={0}
+                offset={Object {}}
+                onChange={[Function]}
+                partialVisibility="bottom"
+                resizeCheck={false}
+                resizeDelay={250}
+                resizeThrottle={-1}
+                scrollCheck={false}
+                scrollDelay={250}
+                scrollThrottle={-1}
+              >
+                <AppDownloadBanner
+                  trackSegment={[Function]}
+                />
+              </VisibilitySensor>
+            </div>
+            <div
+              className="container"
+            >
+              <div
+                className="row pb48"
+              >
+                <NavBar
+                  currentTripId={4982978}
+                />
+                <Connect(Header)
+                  currentTrip={
+                    Object {
+                      "adult": 4,
+                      "bookingStatusLabel": "Active",
+                      "budget": "33500..33500",
+                      "child": 0,
+                      "currency": "Rupee",
+                      "exclusivePreferencesValues": Object {
+                        "cabs": "Included",
+                        "flights": "Excluded",
+                        "hotels": "3 Star",
+                      },
+                      "firstDestinationName": "Singapore",
+                      "fromLoc": "Chennai",
+                      "id": 4982978,
+                      "info": "",
+                      "phoneNo": "+919498297800",
+                      "quotesCount": 3,
+                      "startDate": "2019-08-19",
+                      "status": "Active",
+                      "toLoc": "Singapore",
+                      "tripDays": 7,
+                      "tripStage": 3,
+                    }
+                  }
+                  trackSegment={[Function]}
+                />
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 1,
+                        "name": "QuoteList",
+                        "order": 1,
+                        "row_no": 1,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 2,
+                        "name": "WhyTT",
+                        "order": 2,
+                        "row_no": 2,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <LoadableComponent
+                    config={
+                      Object {
+                        "block_no": 1,
+                        "heading": "",
+                        "id": 3,
+                        "name": "LeadSubmitted",
+                        "order": 3,
+                        "row_no": 3,
+                        "title": "",
+                        "total_block_in_row": 1,
+                        "variant": "FULL",
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "clearfix",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <meta
+                content="Request Landing"
+                name="page_fullname"
+              />,
+              <meta
+                content="Request Landing"
+                name="page_name"
+              />,
+              <meta
+                content="Request Landing"
+                name="name"
+              />,
+              <meta
+                content="Singapore"
+                name="destination"
+              />,
+              <meta
+                content="QUOTE_RECIEVED"
+                name="trip_stage"
+              />,
+              <meta
+                content="Active"
+                name="trip_status"
+              />,
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Request Landing",
+                "name": "page_fullname",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Request Landing",
+                "name": "page_name",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Request Landing",
+                "name": "name",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Singapore",
+                "name": "destination",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "QUOTE_RECIEVED",
+                "name": "trip_stage",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Active",
+                "name": "trip_status",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "timeout": 3000,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="at_appDownloadBannerSection"
+              >
+                <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <AppDownloadBanner
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>
+              </div>,
+              <div
+                className="container"
+              >
+                <div
+                  className="row pb48"
+                >
+                  <NavBar
+                    currentTripId={4982978}
+                  />
+                  <Connect(Header)
+                    currentTrip={
+                      Object {
+                        "adult": 4,
+                        "bookingStatusLabel": "Active",
+                        "budget": "33500..33500",
+                        "child": 0,
+                        "currency": "Rupee",
+                        "exclusivePreferencesValues": Object {
+                          "cabs": "Included",
+                          "flights": "Excluded",
+                          "hotels": "3 Star",
+                        },
+                        "firstDestinationName": "Singapore",
+                        "fromLoc": "Chennai",
+                        "id": 4982978,
+                        "info": "",
+                        "phoneNo": "+919498297800",
+                        "quotesCount": 3,
+                        "startDate": "2019-08-19",
+                        "status": "Active",
+                        "toLoc": "Singapore",
+                        "tripDays": 7,
+                        "tripStage": 3,
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteList",
+                          "order": 1,
+                          "row_no": 1,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />
+                  </VisibilitySensor>
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 2,
+                          "name": "WhyTT",
+                          "order": 2,
+                          "row_no": 2,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />
+                  </VisibilitySensor>
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "LeadSubmitted",
+                          "order": 3,
+                          "row_no": 3,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />
+                  </VisibilitySensor>
+                </div>
+              </div>,
+            ],
+            "className": "clearfix contentBackground sbc5",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <VisibilitySensor
+                  active={true}
+                  containment={null}
+                  delayedCall={true}
+                  intervalCheck={true}
+                  intervalDelay={100}
+                  minTopValue={0}
+                  offset={Object {}}
+                  onChange={[Function]}
+                  partialVisibility="bottom"
+                  resizeCheck={false}
+                  resizeDelay={250}
+                  resizeThrottle={-1}
+                  scrollCheck={false}
+                  scrollDelay={250}
+                  scrollThrottle={-1}
+                >
+                  <AppDownloadBanner
+                    trackSegment={[Function]}
+                  />
+                </VisibilitySensor>,
+                "className": "at_appDownloadBannerSection",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "active": true,
+                  "children": <AppDownloadBanner
+                    trackSegment={[Function]}
+                  />,
+                  "containment": null,
+                  "delayedCall": true,
+                  "intervalCheck": true,
+                  "intervalDelay": 100,
+                  "minTopValue": 0,
+                  "offset": Object {},
+                  "onChange": [Function],
+                  "partialVisibility": "bottom",
+                  "resizeCheck": false,
+                  "resizeDelay": 250,
+                  "resizeThrottle": -1,
+                  "scrollCheck": false,
+                  "scrollDelay": 250,
+                  "scrollThrottle": -1,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "trackSegment": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="row pb48"
+                >
+                  <NavBar
+                    currentTripId={4982978}
+                  />
+                  <Connect(Header)
+                    currentTrip={
+                      Object {
+                        "adult": 4,
+                        "bookingStatusLabel": "Active",
+                        "budget": "33500..33500",
+                        "child": 0,
+                        "currency": "Rupee",
+                        "exclusivePreferencesValues": Object {
+                          "cabs": "Included",
+                          "flights": "Excluded",
+                          "hotels": "3 Star",
+                        },
+                        "firstDestinationName": "Singapore",
+                        "fromLoc": "Chennai",
+                        "id": 4982978,
+                        "info": "",
+                        "phoneNo": "+919498297800",
+                        "quotesCount": 3,
+                        "startDate": "2019-08-19",
+                        "status": "Active",
+                        "toLoc": "Singapore",
+                        "tripDays": 7,
+                        "tripStage": 3,
+                      }
+                    }
+                    trackSegment={[Function]}
+                  />
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteList",
+                          "order": 1,
+                          "row_no": 1,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />
+                  </VisibilitySensor>
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 2,
+                          "name": "WhyTT",
+                          "order": 2,
+                          "row_no": 2,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />
+                  </VisibilitySensor>
+                  <VisibilitySensor
+                    active={true}
+                    containment={null}
+                    delayedCall={true}
+                    intervalCheck={true}
+                    intervalDelay={100}
+                    minTopValue={0}
+                    offset={Object {}}
+                    onChange={[Function]}
+                    partialVisibility="bottom"
+                    resizeCheck={false}
+                    resizeDelay={250}
+                    resizeThrottle={-1}
+                    scrollCheck={false}
+                    scrollDelay={250}
+                    scrollThrottle={-1}
+                  >
+                    <LoadableComponent
+                      config={
+                        Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "LeadSubmitted",
+                          "order": 3,
+                          "row_no": 3,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />
+                  </VisibilitySensor>
+                </div>,
+                "className": "container",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <NavBar
+                      currentTripId={4982978}
+                    />,
+                    <Connect(Header)
+                      currentTrip={
+                        Object {
+                          "adult": 4,
+                          "bookingStatusLabel": "Active",
+                          "budget": "33500..33500",
+                          "child": 0,
+                          "currency": "Rupee",
+                          "exclusivePreferencesValues": Object {
+                            "cabs": "Included",
+                            "flights": "Excluded",
+                            "hotels": "3 Star",
+                          },
+                          "firstDestinationName": "Singapore",
+                          "fromLoc": "Chennai",
+                          "id": 4982978,
+                          "info": "",
+                          "phoneNo": "+919498297800",
+                          "quotesCount": 3,
+                          "startDate": "2019-08-19",
+                          "status": "Active",
+                          "toLoc": "Singapore",
+                          "tripDays": 7,
+                          "tripStage": 3,
+                        }
+                      }
+                      trackSegment={[Function]}
+                    />,
+                    Array [
+                      <VisibilitySensor
+                        active={true}
+                        containment={null}
+                        delayedCall={true}
+                        intervalCheck={true}
+                        intervalDelay={100}
+                        minTopValue={0}
+                        offset={Object {}}
+                        onChange={[Function]}
+                        partialVisibility="bottom"
+                        resizeCheck={false}
+                        resizeDelay={250}
+                        resizeThrottle={-1}
+                        scrollCheck={false}
+                        scrollDelay={250}
+                        scrollThrottle={-1}
+                      >
+                        <LoadableComponent
+                          config={
+                            Object {
+                              "block_no": 1,
+                              "heading": "",
+                              "id": 1,
+                              "name": "QuoteList",
+                              "order": 1,
+                              "row_no": 1,
+                              "title": "",
+                              "total_block_in_row": 1,
+                              "variant": "FULL",
+                            }
+                          }
+                          trackSegment={[Function]}
+                        />
+                      </VisibilitySensor>,
+                      <VisibilitySensor
+                        active={true}
+                        containment={null}
+                        delayedCall={true}
+                        intervalCheck={true}
+                        intervalDelay={100}
+                        minTopValue={0}
+                        offset={Object {}}
+                        onChange={[Function]}
+                        partialVisibility="bottom"
+                        resizeCheck={false}
+                        resizeDelay={250}
+                        resizeThrottle={-1}
+                        scrollCheck={false}
+                        scrollDelay={250}
+                        scrollThrottle={-1}
+                      >
+                        <LoadableComponent
+                          config={
+                            Object {
+                              "block_no": 1,
+                              "heading": "",
+                              "id": 2,
+                              "name": "WhyTT",
+                              "order": 2,
+                              "row_no": 2,
+                              "title": "",
+                              "total_block_in_row": 1,
+                              "variant": "FULL",
+                            }
+                          }
+                          trackSegment={[Function]}
+                        />
+                      </VisibilitySensor>,
+                      <VisibilitySensor
+                        active={true}
+                        containment={null}
+                        delayedCall={true}
+                        intervalCheck={true}
+                        intervalDelay={100}
+                        minTopValue={0}
+                        offset={Object {}}
+                        onChange={[Function]}
+                        partialVisibility="bottom"
+                        resizeCheck={false}
+                        resizeDelay={250}
+                        resizeThrottle={-1}
+                        scrollCheck={false}
+                        scrollDelay={250}
+                        scrollThrottle={-1}
+                      >
+                        <LoadableComponent
+                          config={
+                            Object {
+                              "block_no": 1,
+                              "heading": "",
+                              "id": 3,
+                              "name": "LeadSubmitted",
+                              "order": 3,
+                              "row_no": 3,
+                              "title": "",
+                              "total_block_in_row": 1,
+                              "variant": "FULL",
+                            }
+                          }
+                          trackSegment={[Function]}
+                        />
+                      </VisibilitySensor>,
+                    ],
+                  ],
+                  "className": "row pb48",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "currentTripId": 4982978,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "currentTrip": Object {
+                        "adult": 4,
+                        "bookingStatusLabel": "Active",
+                        "budget": "33500..33500",
+                        "child": 0,
+                        "currency": "Rupee",
+                        "exclusivePreferencesValues": Object {
+                          "cabs": "Included",
+                          "flights": "Excluded",
+                          "hotels": "3 Star",
+                        },
+                        "firstDestinationName": "Singapore",
+                        "fromLoc": "Chennai",
+                        "id": 4982978,
+                        "info": "",
+                        "phoneNo": "+919498297800",
+                        "quotesCount": 3,
+                        "startDate": "2019-08-19",
+                        "status": "Active",
+                        "toLoc": "Singapore",
+                        "tripDays": 7,
+                        "tripStage": 3,
+                      },
+                      "trackSegment": [Function],
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "class",
+                    "props": Object {
+                      "active": true,
+                      "children": <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 1,
+                            "name": "QuoteList",
+                            "order": 1,
+                            "row_no": 1,
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        trackSegment={[Function]}
+                      />,
+                      "containment": null,
+                      "delayedCall": true,
+                      "intervalCheck": true,
+                      "intervalDelay": 100,
+                      "minTopValue": 0,
+                      "offset": Object {},
+                      "onChange": [Function],
+                      "partialVisibility": "bottom",
+                      "resizeCheck": false,
+                      "resizeDelay": 250,
+                      "resizeThrottle": -1,
+                      "scrollCheck": false,
+                      "scrollDelay": 250,
+                      "scrollThrottle": -1,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "config": Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 1,
+                          "name": "QuoteList",
+                          "order": 1,
+                          "row_no": 1,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        },
+                        "trackSegment": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "class",
+                    "props": Object {
+                      "active": true,
+                      "children": <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 2,
+                            "name": "WhyTT",
+                            "order": 2,
+                            "row_no": 2,
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        trackSegment={[Function]}
+                      />,
+                      "containment": null,
+                      "delayedCall": true,
+                      "intervalCheck": true,
+                      "intervalDelay": 100,
+                      "minTopValue": 0,
+                      "offset": Object {},
+                      "onChange": [Function],
+                      "partialVisibility": "bottom",
+                      "resizeCheck": false,
+                      "resizeDelay": 250,
+                      "resizeThrottle": -1,
+                      "scrollCheck": false,
+                      "scrollDelay": 250,
+                      "scrollThrottle": -1,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "config": Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 2,
+                          "name": "WhyTT",
+                          "order": 2,
+                          "row_no": 2,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        },
+                        "trackSegment": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "class",
+                    "props": Object {
+                      "active": true,
+                      "children": <LoadableComponent
+                        config={
+                          Object {
+                            "block_no": 1,
+                            "heading": "",
+                            "id": 3,
+                            "name": "LeadSubmitted",
+                            "order": 3,
+                            "row_no": 3,
+                            "title": "",
+                            "total_block_in_row": 1,
+                            "variant": "FULL",
+                          }
+                        }
+                        trackSegment={[Function]}
+                      />,
+                      "containment": null,
+                      "delayedCall": true,
+                      "intervalCheck": true,
+                      "intervalDelay": 100,
+                      "minTopValue": 0,
+                      "offset": Object {},
+                      "onChange": [Function],
+                      "partialVisibility": "bottom",
+                      "resizeCheck": false,
+                      "resizeDelay": 250,
+                      "resizeThrottle": -1,
+                      "scrollCheck": false,
+                      "scrollDelay": 250,
+                      "scrollThrottle": -1,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "config": Object {
+                          "block_no": 1,
+                          "heading": "",
+                          "id": 3,
+                          "name": "LeadSubmitted",
+                          "order": 3,
+                          "row_no": 3,
+                          "title": "",
+                          "total_block_in_row": 1,
+                          "variant": "FULL",
+                        },
+                        "trackSegment": [Function],
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

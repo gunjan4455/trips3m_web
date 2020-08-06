@@ -1,0 +1,1212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lead form module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HotelRating
+    dispatchRxFormAction={[MockFunction]}
+    formValues={
+      Object {
+        "adult": "2",
+        "budget_new": true,
+        "child": 0,
+        "child_age_answers_attributes": Array [
+          Object {
+            "customization_id": "7",
+            "option_id": "29",
+            "user_input": "0",
+          },
+          Object {
+            "customization_id": "7",
+            "option_id": "30",
+            "user_input": "0",
+          },
+          Object {
+            "customization_id": "7",
+            "option_id": "31",
+            "user_input": "0",
+          },
+        ],
+        "dont_utilize_budget_new": true,
+        "email": null,
+        "hotel_category_answers_attributes": Array [
+          Object {
+            "customization_id": "2",
+            "option_id": "7",
+          },
+        ],
+        "hotel_needed_answer_attributes": Object {
+          "customization_id": "22",
+          "option_id": "95",
+        },
+        "isd_code": "+91",
+        "start_date": "191-09-08",
+        "start_date_flexible": "Sep'19 - Week 1",
+        "start_date_noidea": false,
+        "syncErrors": Object {
+          "email": "Enter valid email id",
+        },
+        "to_loc": "Kerala",
+        "trip_days": "3",
+      }
+    }
+    input={
+      Object {
+        "name": "hotel_category_answers_attributes",
+        "onChange": [Function],
+        "value": Array [
+          Object {
+            "customization_id": "2",
+            "option_id": "7",
+          },
+        ],
+      }
+    }
+    isHotelSelected={true}
+    meta={
+      Object {
+        "active": false,
+        "asyncValidating": false,
+        "autofilled": false,
+        "dirty": false,
+        "form": "LeadForm",
+        "initial": Array [
+          Object {
+            "customization_id": "2",
+            "option_id": "7",
+          },
+        ],
+        "invalid": false,
+        "pristine": true,
+        "submitFailed": false,
+        "submitting": false,
+        "touched": false,
+        "valid": true,
+        "visited": false,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="fw9 iblock m0 pfc3 mb8 f14"
+        >
+          Select Hotel Category
+          <em
+            className="pfc2 f16 fwb"
+          >
+            *
+          </em>
+        </p>,
+        <div
+          className="month-container flex flexWrap spaceBetween"
+        >
+          <div
+            className="month-option "
+          >
+            <input
+              checked={false}
+              className="checkbox-common"
+              id="hotel-checkbox5"
+              name="star5"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="cursorP p0"
+              htmlFor="hotel-checkbox5"
+            >
+              5 Star
+            </label>
+          </div>
+          <div
+            className="month-option active"
+          >
+            <input
+              checked={true}
+              className="checkbox-common"
+              id="hotel-checkbox4"
+              name="star4"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="cursorP p0"
+              htmlFor="hotel-checkbox4"
+            >
+              4 Star
+            </label>
+          </div>
+          <div
+            className="month-option "
+          >
+            <input
+              checked={false}
+              className="checkbox-common"
+              id="hotel-checkbox3"
+              name="star3"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="cursorP p0"
+              htmlFor="hotel-checkbox3"
+            >
+              3 Star
+            </label>
+          </div>
+          <div
+            className="month-option "
+          >
+            <input
+              checked={false}
+              className="checkbox-common"
+              id="hotel-checkbox2"
+              name="star2"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="cursorP p0"
+              htmlFor="hotel-checkbox2"
+            >
+              2 Star
+            </label>
+          </div>
+          <div
+            className="month-option "
+          >
+            <input
+              checked={false}
+              className="checkbox-common"
+              id="No-hotel"
+              name="noHotel"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="cursorP p0"
+              htmlFor="No-hotel"
+            >
+              Hotel Not Required
+            </label>
+          </div>
+        </div>,
+      ],
+      "className": "hotelratingDiv at_hotelratingdiv mb15",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Select Hotel Category",
+            <em
+              className="pfc2 f16 fwb"
+            >
+              *
+            </em>,
+          ],
+          "className": "fw9 iblock m0 pfc3 mb8 f14",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Select Hotel Category",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "*",
+              "className": "pfc2 f16 fwb",
+            },
+            "ref": null,
+            "rendered": "*",
+            "type": "em",
+          },
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="month-option "
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="hotel-checkbox5"
+                name="star5"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="hotel-checkbox5"
+              >
+                5 Star
+              </label>
+            </div>,
+            <div
+              className="month-option active"
+            >
+              <input
+                checked={true}
+                className="checkbox-common"
+                id="hotel-checkbox4"
+                name="star4"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="hotel-checkbox4"
+              >
+                4 Star
+              </label>
+            </div>,
+            <div
+              className="month-option "
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="hotel-checkbox3"
+                name="star3"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="hotel-checkbox3"
+              >
+                3 Star
+              </label>
+            </div>,
+            <div
+              className="month-option "
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="hotel-checkbox2"
+                name="star2"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="hotel-checkbox2"
+              >
+                2 Star
+              </label>
+            </div>,
+            <div
+              className="month-option "
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="No-hotel"
+                name="noHotel"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="No-hotel"
+              >
+                Hotel Not Required
+              </label>
+            </div>,
+            false,
+          ],
+          "className": "month-container flex flexWrap spaceBetween",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="hotel-checkbox5"
+                  name="star5"
+                  onChange={[Function]}
+                  type="checkbox"
+                />,
+                <label
+                  className="cursorP p0"
+                  htmlFor="hotel-checkbox5"
+                >
+                  5 Star
+                </label>,
+              ],
+              "className": "month-option ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "checkbox-common",
+                  "id": "hotel-checkbox5",
+                  "name": "star5",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "5 Star",
+                  "className": "cursorP p0",
+                  "htmlFor": "hotel-checkbox5",
+                },
+                "ref": null,
+                "rendered": "5 Star",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={true}
+                  className="checkbox-common"
+                  id="hotel-checkbox4"
+                  name="star4"
+                  onChange={[Function]}
+                  type="checkbox"
+                />,
+                <label
+                  className="cursorP p0"
+                  htmlFor="hotel-checkbox4"
+                >
+                  4 Star
+                </label>,
+              ],
+              "className": "month-option active",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": true,
+                  "className": "checkbox-common",
+                  "id": "hotel-checkbox4",
+                  "name": "star4",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "4 Star",
+                  "className": "cursorP p0",
+                  "htmlFor": "hotel-checkbox4",
+                },
+                "ref": null,
+                "rendered": "4 Star",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="hotel-checkbox3"
+                  name="star3"
+                  onChange={[Function]}
+                  type="checkbox"
+                />,
+                <label
+                  className="cursorP p0"
+                  htmlFor="hotel-checkbox3"
+                >
+                  3 Star
+                </label>,
+              ],
+              "className": "month-option ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "checkbox-common",
+                  "id": "hotel-checkbox3",
+                  "name": "star3",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "3 Star",
+                  "className": "cursorP p0",
+                  "htmlFor": "hotel-checkbox3",
+                },
+                "ref": null,
+                "rendered": "3 Star",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="hotel-checkbox2"
+                  name="star2"
+                  onChange={[Function]}
+                  type="checkbox"
+                />,
+                <label
+                  className="cursorP p0"
+                  htmlFor="hotel-checkbox2"
+                >
+                  2 Star
+                </label>,
+              ],
+              "className": "month-option ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "checkbox-common",
+                  "id": "hotel-checkbox2",
+                  "name": "star2",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2 Star",
+                  "className": "cursorP p0",
+                  "htmlFor": "hotel-checkbox2",
+                },
+                "ref": null,
+                "rendered": "2 Star",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="No-hotel"
+                  name="noHotel"
+                  onChange={[Function]}
+                  type="checkbox"
+                />,
+                <label
+                  className="cursorP p0"
+                  htmlFor="No-hotel"
+                >
+                  Hotel Not Required
+                </label>,
+              ],
+              "className": "month-option ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "checked": false,
+                  "className": "checkbox-common",
+                  "id": "No-hotel",
+                  "name": "noHotel",
+                  "onChange": [Function],
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hotel Not Required",
+                  "className": "cursorP p0",
+                  "htmlFor": "No-hotel",
+                },
+                "ref": null,
+                "rendered": "Hotel Not Required",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="fw9 iblock m0 pfc3 mb8 f14"
+          >
+            Select Hotel Category
+            <em
+              className="pfc2 f16 fwb"
+            >
+              *
+            </em>
+          </p>,
+          <div
+            className="month-container flex flexWrap spaceBetween"
+          >
+            <div
+              className="month-option "
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="hotel-checkbox5"
+                name="star5"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="hotel-checkbox5"
+              >
+                5 Star
+              </label>
+            </div>
+            <div
+              className="month-option active"
+            >
+              <input
+                checked={true}
+                className="checkbox-common"
+                id="hotel-checkbox4"
+                name="star4"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="hotel-checkbox4"
+              >
+                4 Star
+              </label>
+            </div>
+            <div
+              className="month-option "
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="hotel-checkbox3"
+                name="star3"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="hotel-checkbox3"
+              >
+                3 Star
+              </label>
+            </div>
+            <div
+              className="month-option "
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="hotel-checkbox2"
+                name="star2"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="hotel-checkbox2"
+              >
+                2 Star
+              </label>
+            </div>
+            <div
+              className="month-option "
+            >
+              <input
+                checked={false}
+                className="checkbox-common"
+                id="No-hotel"
+                name="noHotel"
+                onChange={[Function]}
+                type="checkbox"
+              />
+              <label
+                className="cursorP p0"
+                htmlFor="No-hotel"
+              >
+                Hotel Not Required
+              </label>
+            </div>
+          </div>,
+        ],
+        "className": "hotelratingDiv at_hotelratingdiv mb15",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Select Hotel Category",
+              <em
+                className="pfc2 f16 fwb"
+              >
+                *
+              </em>,
+            ],
+            "className": "fw9 iblock m0 pfc3 mb8 f14",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Select Hotel Category",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "*",
+                "className": "pfc2 f16 fwb",
+              },
+              "ref": null,
+              "rendered": "*",
+              "type": "em",
+            },
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="month-option "
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="hotel-checkbox5"
+                  name="star5"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  className="cursorP p0"
+                  htmlFor="hotel-checkbox5"
+                >
+                  5 Star
+                </label>
+              </div>,
+              <div
+                className="month-option active"
+              >
+                <input
+                  checked={true}
+                  className="checkbox-common"
+                  id="hotel-checkbox4"
+                  name="star4"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  className="cursorP p0"
+                  htmlFor="hotel-checkbox4"
+                >
+                  4 Star
+                </label>
+              </div>,
+              <div
+                className="month-option "
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="hotel-checkbox3"
+                  name="star3"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  className="cursorP p0"
+                  htmlFor="hotel-checkbox3"
+                >
+                  3 Star
+                </label>
+              </div>,
+              <div
+                className="month-option "
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="hotel-checkbox2"
+                  name="star2"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  className="cursorP p0"
+                  htmlFor="hotel-checkbox2"
+                >
+                  2 Star
+                </label>
+              </div>,
+              <div
+                className="month-option "
+              >
+                <input
+                  checked={false}
+                  className="checkbox-common"
+                  id="No-hotel"
+                  name="noHotel"
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+                <label
+                  className="cursorP p0"
+                  htmlFor="No-hotel"
+                >
+                  Hotel Not Required
+                </label>
+              </div>,
+              false,
+            ],
+            "className": "month-container flex flexWrap spaceBetween",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="hotel-checkbox5"
+                    name="star5"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />,
+                  <label
+                    className="cursorP p0"
+                    htmlFor="hotel-checkbox5"
+                  >
+                    5 Star
+                  </label>,
+                ],
+                "className": "month-option ",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "className": "checkbox-common",
+                    "id": "hotel-checkbox5",
+                    "name": "star5",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "5 Star",
+                    "className": "cursorP p0",
+                    "htmlFor": "hotel-checkbox5",
+                  },
+                  "ref": null,
+                  "rendered": "5 Star",
+                  "type": "label",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={true}
+                    className="checkbox-common"
+                    id="hotel-checkbox4"
+                    name="star4"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />,
+                  <label
+                    className="cursorP p0"
+                    htmlFor="hotel-checkbox4"
+                  >
+                    4 Star
+                  </label>,
+                ],
+                "className": "month-option active",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": true,
+                    "className": "checkbox-common",
+                    "id": "hotel-checkbox4",
+                    "name": "star4",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "4 Star",
+                    "className": "cursorP p0",
+                    "htmlFor": "hotel-checkbox4",
+                  },
+                  "ref": null,
+                  "rendered": "4 Star",
+                  "type": "label",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="hotel-checkbox3"
+                    name="star3"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />,
+                  <label
+                    className="cursorP p0"
+                    htmlFor="hotel-checkbox3"
+                  >
+                    3 Star
+                  </label>,
+                ],
+                "className": "month-option ",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "className": "checkbox-common",
+                    "id": "hotel-checkbox3",
+                    "name": "star3",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "3 Star",
+                    "className": "cursorP p0",
+                    "htmlFor": "hotel-checkbox3",
+                  },
+                  "ref": null,
+                  "rendered": "3 Star",
+                  "type": "label",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="hotel-checkbox2"
+                    name="star2"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />,
+                  <label
+                    className="cursorP p0"
+                    htmlFor="hotel-checkbox2"
+                  >
+                    2 Star
+                  </label>,
+                ],
+                "className": "month-option ",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "className": "checkbox-common",
+                    "id": "hotel-checkbox2",
+                    "name": "star2",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "2 Star",
+                    "className": "cursorP p0",
+                    "htmlFor": "hotel-checkbox2",
+                  },
+                  "ref": null,
+                  "rendered": "2 Star",
+                  "type": "label",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    checked={false}
+                    className="checkbox-common"
+                    id="No-hotel"
+                    name="noHotel"
+                    onChange={[Function]}
+                    type="checkbox"
+                  />,
+                  <label
+                    className="cursorP p0"
+                    htmlFor="No-hotel"
+                  >
+                    Hotel Not Required
+                  </label>,
+                ],
+                "className": "month-option ",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "checked": false,
+                    "className": "checkbox-common",
+                    "id": "No-hotel",
+                    "name": "noHotel",
+                    "onChange": [Function],
+                    "type": "checkbox",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Hotel Not Required",
+                    "className": "cursorP p0",
+                    "htmlFor": "No-hotel",
+                  },
+                  "ref": null,
+                  "rendered": "Hotel Not Required",
+                  "type": "label",
+                },
+              ],
+              "type": "div",
+            },
+            false,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

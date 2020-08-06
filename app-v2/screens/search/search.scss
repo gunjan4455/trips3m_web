@@ -1,0 +1,16 @@
+@import '../../../app/theme/color';
+/* purgecss start ignore */
+.search-result {
+    &-title {
+        text-transform: none;
+    }
+    &-query {
+        color: $primary-color-one;
+        text-transform: none;
+    }
+    .search-query-tag{
+        vertical-align: bottom;
+        width: 150px;
+    }
+}
+/* purgecss end ignore */

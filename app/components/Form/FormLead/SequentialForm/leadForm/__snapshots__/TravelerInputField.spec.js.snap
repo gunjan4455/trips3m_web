@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lead form module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TravelerInputField
+    callNextSlide={[MockFunction]}
+    dispatchRxFormAction={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            1,
+            "child",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    fieldName="child"
+    formValues={
+      Object {
+        "adult": "2",
+        "budget": "8000..8400",
+        "budget_new": true,
+        "child": "0",
+        "child_age_answers_attributes": Array [
+          Object {
+            "customization_id": "7",
+            "option_id": "29",
+            "user_input": "0",
+          },
+          Object {
+            "customization_id": "7",
+            "option_id": "30",
+            "user_input": "0",
+          },
+          Object {
+            "customization_id": "7",
+            "option_id": "31",
+            "user_input": "0",
+          },
+        ],
+        "dont_utilize_budget_new": true,
+        "email": null,
+        "hotel_category_answers_attributes": Array [
+          Object {
+            "customization_id": "2",
+            "option_id": "6",
+          },
+        ],
+        "hotel_needed_answer_attributes": Object {
+          "customization_id": "22",
+          "option_id": "95",
+        },
+        "infant": "0",
+        "isd_code": "+91",
+        "other_answers_attributes": Array [
+          null,
+          Object {
+            "customization_id": "24",
+            "option_id": "99",
+          },
+        ],
+        "start_date": "2019-07-16",
+        "start_date_flexible": false,
+        "start_date_noidea": false,
+        "syncErrors": Object {
+          "email": "Enter valid email id",
+        },
+        "to_loc": "Kerala",
+        "trip_days": "2",
+      }
+    }
+    handleTravelerCount={[MockFunction]}
+    input={
+      Object {
+        "name": "TravelerInputField",
+        "onChange": [Function],
+        "value": "",
+      }
+    }
+    inputValue={1}
+    location={
+      Object {
+        "query": Object {},
+      }
+    }
+    meta={
+      Object {
+        "active": false,
+        "asyncValidating": false,
+        "autofilled": false,
+        "dirty": false,
+        "form": "LeadForm",
+        "invalid": false,
+        "pristine": true,
+        "submitFailed": false,
+        "submitting": false,
+        "touched": false,
+        "valid": true,
+        "visited": false,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="daysCount relative input-with-icon-box input-two-icons input-with-icon-box"
+        >
+          <button
+            className="min-date cursorP minus-icon"
+            onClick={[Function]}
+            type="button"
+          />
+          <input
+            className="input text-center duration"
+            id="child"
+            name="child"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="number"
+            value={1}
+          />
+          <button
+            className="plus-date cursorP plus-icon"
+            onClick={[Function]}
+            type="button"
+          />
+        </div>,
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="min-date cursorP minus-icon"
+              onClick={[Function]}
+              type="button"
+            />,
+            <input
+              className="input text-center duration"
+              id="child"
+              name="child"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="number"
+              value={1}
+            />,
+            <button
+              className="plus-date cursorP plus-icon"
+              onClick={[Function]}
+              type="button"
+            />,
+          ],
+          "className": "daysCount relative input-with-icon-box input-two-icons input-with-icon-box",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "min-date cursorP minus-icon",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "input text-center duration",
+              "id": "child",
+              "name": "child",
+              "onBlur": [Function],
+              "onChange": [Function],
+              "placeholder": undefined,
+              "type": "number",
+              "value": 1,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "plus-date cursorP plus-icon",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="daysCount relative input-with-icon-box input-two-icons input-with-icon-box"
+          >
+            <button
+              className="min-date cursorP minus-icon"
+              onClick={[Function]}
+              type="button"
+            />
+            <input
+              className="input text-center duration"
+              id="child"
+              name="child"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="number"
+              value={1}
+            />
+            <button
+              className="plus-date cursorP plus-icon"
+              onClick={[Function]}
+              type="button"
+            />
+          </div>,
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="min-date cursorP minus-icon"
+                onClick={[Function]}
+                type="button"
+              />,
+              <input
+                className="input text-center duration"
+                id="child"
+                name="child"
+                onBlur={[Function]}
+                onChange={[Function]}
+                type="number"
+                value={1}
+              />,
+              <button
+                className="plus-date cursorP plus-icon"
+                onClick={[Function]}
+                type="button"
+              />,
+            ],
+            "className": "daysCount relative input-with-icon-box input-two-icons input-with-icon-box",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "min-date cursorP minus-icon",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "input text-center duration",
+                "id": "child",
+                "name": "child",
+                "onBlur": [Function],
+                "onChange": [Function],
+                "placeholder": undefined,
+                "type": "number",
+                "value": 1,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "plus-date cursorP plus-icon",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

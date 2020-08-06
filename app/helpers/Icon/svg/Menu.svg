@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="22px" viewBox="0 0 28 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.8%" y="-11.4%" width="105.6%" height="118.2%" filterunits="objectBoundingBox" id="filter-1">
+            <feoffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <fegaussianblur stddeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <fecolormatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <femerge>
+                <femergenode in="shadowMatrixOuter1"/>
+                <femergenode in="SourceGraphic"/>
+            </femerge>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Package_Lsiting_page" transform="translate(-14.000000, -13.000000)">
+            <g id="Header">
+                <g filter="url(#filter-1)" id="top">
+                    <g transform="translate(16.000000, 12.000000)">
+                        <g id="Menu">
+                            <rect id="Rectangle-8" x="0" y="0" width="24" height="24"/>
+                            <g id="Group-7" transform="translate(2.000000, 5.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M0.434956522,7 L19.5653913,7" id="Stroke-1"/>
+                                <path d="M0.434956522,13 L19.5653913,13" id="Stroke-3"/>
+                                <path d="M0.434956522,0.5002 L19.5653913,0.5002" id="Stroke-6"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

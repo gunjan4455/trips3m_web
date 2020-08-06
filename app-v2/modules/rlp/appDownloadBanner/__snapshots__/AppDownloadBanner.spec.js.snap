@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppDownloadBanner module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AppDownloadBanner
+    trackSegment={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flexFull"
+        >
+          <h3
+            className="f14 fw7 mb15"
+          >
+            Download our App for a better booking experience
+          </h3>
+          <div
+            className="iblock btn-filled-pri mb15 relative"
+          >
+            Download Now
+            <ForwardRef(render)
+              className="absolute-center-v r0"
+            >
+              <IconSvg />
+            </ForwardRef(render)>
+          </div>
+        </div>,
+        <ForwardRef(render)
+          className="alignSelfFlexEnd"
+        >
+          <Img
+            alt="MS Home"
+            className=""
+            defaultSrc={null}
+            height={66}
+            ikSrc="https://img.traveltriangle.com/public-product/phoner.png"
+            onDocumentLoad={false}
+            width={110}
+          />
+        </ForwardRef(render)>,
+        <div
+          className="bannerDismiss absolute z2 t15 r10 icon-14"
+          onClick={[Function]}
+        >
+          <IconSvg />
+        </div>,
+      ],
+      "className": "promoBanner phoneBG pt15 pl15 sbcw relative flex z3 at_appDownloadBanner",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="f14 fw7 mb15"
+            >
+              Download our App for a better booking experience
+            </h3>,
+            <div
+              className="iblock btn-filled-pri mb15 relative"
+            >
+              Download Now
+              <ForwardRef(render)
+                className="absolute-center-v r0"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+            </div>,
+          ],
+          "className": "flexFull",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Download our App for a better booking experience",
+              "className": "f14 fw7 mb15",
+            },
+            "ref": null,
+            "rendered": "Download our App for a better booking experience",
+            "type": "h3",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Download Now",
+                <ForwardRef(render)
+                  className="absolute-center-v r0"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>,
+              ],
+              "className": "iblock btn-filled-pri mb15 relative",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Download Now",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <IconSvg />,
+                  "className": "absolute-center-v r0",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "height": "32px",
+                      "maxWidth": "32px",
+                      "minWidth": "32px",
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Img
+            alt="MS Home"
+            className=""
+            defaultSrc={null}
+            height={66}
+            ikSrc="https://img.traveltriangle.com/public-product/phoner.png"
+            onDocumentLoad={false}
+            width={110}
+          />,
+          "className": "alignSelfFlexEnd",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alt": "MS Home",
+            "className": "",
+            "defaultSrc": null,
+            "height": 66,
+            "ikSrc": "https://img.traveltriangle.com/public-product/phoner.png",
+            "onDocumentLoad": false,
+            "width": 110,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "maxHeight": "66px",
+              "maxWidth": "110px",
+              "minWidth": "110px",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "bannerDismiss absolute z2 t15 r10 icon-14",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flexFull"
+          >
+            <h3
+              className="f14 fw7 mb15"
+            >
+              Download our App for a better booking experience
+            </h3>
+            <div
+              className="iblock btn-filled-pri mb15 relative"
+            >
+              Download Now
+              <ForwardRef(render)
+                className="absolute-center-v r0"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+            </div>
+          </div>,
+          <ForwardRef(render)
+            className="alignSelfFlexEnd"
+          >
+            <Img
+              alt="MS Home"
+              className=""
+              defaultSrc={null}
+              height={66}
+              ikSrc="https://img.traveltriangle.com/public-product/phoner.png"
+              onDocumentLoad={false}
+              width={110}
+            />
+          </ForwardRef(render)>,
+          <div
+            className="bannerDismiss absolute z2 t15 r10 icon-14"
+            onClick={[Function]}
+          >
+            <IconSvg />
+          </div>,
+        ],
+        "className": "promoBanner phoneBG pt15 pl15 sbcw relative flex z3 at_appDownloadBanner",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="f14 fw7 mb15"
+              >
+                Download our App for a better booking experience
+              </h3>,
+              <div
+                className="iblock btn-filled-pri mb15 relative"
+              >
+                Download Now
+                <ForwardRef(render)
+                  className="absolute-center-v r0"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+              </div>,
+            ],
+            "className": "flexFull",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Download our App for a better booking experience",
+                "className": "f14 fw7 mb15",
+              },
+              "ref": null,
+              "rendered": "Download our App for a better booking experience",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Download Now",
+                  <ForwardRef(render)
+                    className="absolute-center-v r0"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>,
+                ],
+                "className": "iblock btn-filled-pri mb15 relative",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Download Now",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "absolute-center-v r0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "height": "32px",
+                        "maxWidth": "32px",
+                        "minWidth": "32px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Img
+              alt="MS Home"
+              className=""
+              defaultSrc={null}
+              height={66}
+              ikSrc="https://img.traveltriangle.com/public-product/phoner.png"
+              onDocumentLoad={false}
+              width={110}
+            />,
+            "className": "alignSelfFlexEnd",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alt": "MS Home",
+              "className": "",
+              "defaultSrc": null,
+              "height": 66,
+              "ikSrc": "https://img.traveltriangle.com/public-product/phoner.png",
+              "onDocumentLoad": false,
+              "width": 110,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "maxHeight": "66px",
+                "maxWidth": "110px",
+                "minWidth": "110px",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "bannerDismiss absolute z2 t15 r10 icon-14",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

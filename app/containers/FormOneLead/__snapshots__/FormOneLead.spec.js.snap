@@ -1,0 +1,458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SliderLeadForm component should render SliderLeadForm 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SliderLeadForm
+    additionalInfo=""
+    aliasPayload={[MockFunction]}
+    analyticsInfo={Object {}}
+    change={[MockFunction]}
+    commonProperties={Object {}}
+    createTripOnRedis={[MockFunction]}
+    days={0}
+    destinations={Array []}
+    formClass=""
+    formOneClickDetail={Object {}}
+    formType=""
+    formValues={Object {}}
+    getBudgetOptions={Object {}}
+    getFunnelUuid=""
+    getSelectedBudget=""
+    goBack={[MockFunction]}
+    identifyPayload={[MockFunction]}
+    isFlightSelected={false}
+    isOpenedByClick={false}
+    loadSliderQuestions={[Function]}
+    loadUserDetails={[MockFunction]}
+    location={
+      Object {
+        "query": Object {
+          "variation": 3,
+        },
+      }
+    }
+    messageOnTop=""
+    openFormState={[MockFunction]}
+    pushState={[MockFunction]}
+    requestLoad={[MockFunction]}
+    retainRecentUpdate={false}
+    rtData={Object {}}
+    sliderQuestions={Object {}}
+    store={
+      Object {
+        "getState": [MockFunction],
+      }
+    }
+    submitSliderTwo={[MockFunction]}
+    syncErrors={Object {}}
+    trackFormFunnelStep={[MockFunction]}
+    trackFormOneInteracted={[MockFunction]}
+    trackFormOneSubmitted={[MockFunction]}
+    trackFormOneViewed={[MockFunction]}
+    trackFormStepSubmitted={[MockFunction]}
+    trackTripAdded={[MockFunction]}
+    trackTripUpdated={[MockFunction]}
+    updateFields={[MockFunction]}
+    updateFromOneProps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <LoadableComponent
+          aliasPayload={[MockFunction]}
+          changeFormField={[MockFunction]}
+          commonProperties={Object {}}
+          createTripOnRedis={[MockFunction]}
+          deal={false}
+          destroyOnUnmount={false}
+          email={null}
+          enableReinitialize={true}
+          formValues={Object {}}
+          getBudgetOptions={Object {}}
+          getFunnelUuid=""
+          getSelectedBudget=""
+          goBack={[MockFunction]}
+          handleBlur={[Function]}
+          handleEmailChange={[Function]}
+          handleThankYou={[Function]}
+          identifyPayload={[MockFunction]}
+          initialValues={
+            Object {
+              "adult": "2",
+              "budget_new": true,
+              "child": 0,
+              "child_age_answers_attributes": Array [
+                Object {
+                  "customization_id": "7",
+                  "option_id": "29",
+                  "user_input": "0",
+                },
+                Object {
+                  "customization_id": "7",
+                  "option_id": "30",
+                  "user_input": "0",
+                },
+                Object {
+                  "customization_id": "7",
+                  "option_id": "31",
+                  "user_input": "0",
+                },
+              ],
+              "dont_utilize_budget_new": true,
+              "email": null,
+              "isd_code": "+91",
+              "start_date_noidea": false,
+              "syncErrors": Object {},
+              "to_loc": "",
+              "whatsapp_opt_status": true,
+            }
+          }
+          isFlightSelected={false}
+          loadSliderQuestions={[Function]}
+          loadUserDetails={[MockFunction]}
+          location={
+            Object {
+              "query": Object {
+                "variation": 3,
+              },
+            }
+          }
+          openFormState={[MockFunction]}
+          pushState={[MockFunction]}
+          requestLoad={[MockFunction]}
+          rtData={Object {}}
+          sliderQuestions={Object {}}
+          submitSliderTwo={[MockFunction]}
+          trackFormOneInteracted={[MockFunction]}
+          trackFormOneViewed={[MockFunction]}
+          trackFormStepSubmitted={[MockFunction]}
+          trackFormViewedCall={[MockFunction]}
+          trackTripAdded={[MockFunction]}
+          trackTripUpdated={[MockFunction]}
+          trackTripUpdatedStep={[MockFunction]}
+          updateFields={[MockFunction]}
+          updateFromOneProps={[MockFunction]}
+        />,
+        <div />,
+      ],
+      "className": "row row-",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "aliasPayload": [MockFunction],
+          "changeFormField": [MockFunction],
+          "commonProperties": Object {},
+          "createTripOnRedis": [MockFunction],
+          "days": undefined,
+          "deal": false,
+          "destroyOnUnmount": false,
+          "email": null,
+          "enableReinitialize": true,
+          "formValues": Object {},
+          "getBudgetOptions": Object {},
+          "getFunnelUuid": "",
+          "getSelectedBudget": "",
+          "goBack": [MockFunction],
+          "handleBlur": [Function],
+          "handleEmailChange": [Function],
+          "handleThankYou": [Function],
+          "identifyPayload": [MockFunction],
+          "initialValues": Object {
+            "adult": "2",
+            "budget_new": true,
+            "child": 0,
+            "child_age_answers_attributes": Array [
+              Object {
+                "customization_id": "7",
+                "option_id": "29",
+                "user_input": "0",
+              },
+              Object {
+                "customization_id": "7",
+                "option_id": "30",
+                "user_input": "0",
+              },
+              Object {
+                "customization_id": "7",
+                "option_id": "31",
+                "user_input": "0",
+              },
+            ],
+            "dont_utilize_budget_new": true,
+            "email": null,
+            "isd_code": "+91",
+            "start_date_noidea": false,
+            "syncErrors": Object {},
+            "to_loc": "",
+            "whatsapp_opt_status": true,
+          },
+          "isFlightSelected": false,
+          "loadSliderQuestions": [Function],
+          "loadUserDetails": [MockFunction],
+          "location": Object {
+            "query": Object {
+              "variation": 3,
+            },
+          },
+          "openFormState": [MockFunction],
+          "packageData": undefined,
+          "pushState": [MockFunction],
+          "requestLoad": [MockFunction],
+          "rtData": Object {},
+          "sliderQuestions": Object {},
+          "submitSliderTwo": [MockFunction],
+          "trackFormOneInteracted": [MockFunction],
+          "trackFormOneViewed": [MockFunction],
+          "trackFormStepSubmitted": [MockFunction],
+          "trackFormViewedCall": [MockFunction],
+          "trackTripAdded": [MockFunction],
+          "trackTripUpdated": [MockFunction],
+          "trackTripUpdatedStep": [MockFunction],
+          "updateFields": [MockFunction],
+          "updateFromOneProps": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <LoadableComponent
+            aliasPayload={[MockFunction]}
+            changeFormField={[MockFunction]}
+            commonProperties={Object {}}
+            createTripOnRedis={[MockFunction]}
+            deal={false}
+            destroyOnUnmount={false}
+            email={null}
+            enableReinitialize={true}
+            formValues={Object {}}
+            getBudgetOptions={Object {}}
+            getFunnelUuid=""
+            getSelectedBudget=""
+            goBack={[MockFunction]}
+            handleBlur={[Function]}
+            handleEmailChange={[Function]}
+            handleThankYou={[Function]}
+            identifyPayload={[MockFunction]}
+            initialValues={
+              Object {
+                "adult": "2",
+                "budget_new": true,
+                "child": 0,
+                "child_age_answers_attributes": Array [
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "29",
+                    "user_input": "0",
+                  },
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "30",
+                    "user_input": "0",
+                  },
+                  Object {
+                    "customization_id": "7",
+                    "option_id": "31",
+                    "user_input": "0",
+                  },
+                ],
+                "dont_utilize_budget_new": true,
+                "email": null,
+                "isd_code": "+91",
+                "start_date_noidea": false,
+                "syncErrors": Object {},
+                "to_loc": "",
+                "whatsapp_opt_status": true,
+              }
+            }
+            isFlightSelected={false}
+            loadSliderQuestions={[Function]}
+            loadUserDetails={[MockFunction]}
+            location={
+              Object {
+                "query": Object {
+                  "variation": 3,
+                },
+              }
+            }
+            openFormState={[MockFunction]}
+            pushState={[MockFunction]}
+            requestLoad={[MockFunction]}
+            rtData={Object {}}
+            sliderQuestions={Object {}}
+            submitSliderTwo={[MockFunction]}
+            trackFormOneInteracted={[MockFunction]}
+            trackFormOneViewed={[MockFunction]}
+            trackFormStepSubmitted={[MockFunction]}
+            trackFormViewedCall={[MockFunction]}
+            trackTripAdded={[MockFunction]}
+            trackTripUpdated={[MockFunction]}
+            trackTripUpdatedStep={[MockFunction]}
+            updateFields={[MockFunction]}
+            updateFromOneProps={[MockFunction]}
+          />,
+          <div />,
+        ],
+        "className": "row row-",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aliasPayload": [MockFunction],
+            "changeFormField": [MockFunction],
+            "commonProperties": Object {},
+            "createTripOnRedis": [MockFunction],
+            "days": undefined,
+            "deal": false,
+            "destroyOnUnmount": false,
+            "email": null,
+            "enableReinitialize": true,
+            "formValues": Object {},
+            "getBudgetOptions": Object {},
+            "getFunnelUuid": "",
+            "getSelectedBudget": "",
+            "goBack": [MockFunction],
+            "handleBlur": [Function],
+            "handleEmailChange": [Function],
+            "handleThankYou": [Function],
+            "identifyPayload": [MockFunction],
+            "initialValues": Object {
+              "adult": "2",
+              "budget_new": true,
+              "child": 0,
+              "child_age_answers_attributes": Array [
+                Object {
+                  "customization_id": "7",
+                  "option_id": "29",
+                  "user_input": "0",
+                },
+                Object {
+                  "customization_id": "7",
+                  "option_id": "30",
+                  "user_input": "0",
+                },
+                Object {
+                  "customization_id": "7",
+                  "option_id": "31",
+                  "user_input": "0",
+                },
+              ],
+              "dont_utilize_budget_new": true,
+              "email": null,
+              "isd_code": "+91",
+              "start_date_noidea": false,
+              "syncErrors": Object {},
+              "to_loc": "",
+              "whatsapp_opt_status": true,
+            },
+            "isFlightSelected": false,
+            "loadSliderQuestions": [Function],
+            "loadUserDetails": [MockFunction],
+            "location": Object {
+              "query": Object {
+                "variation": 3,
+              },
+            },
+            "openFormState": [MockFunction],
+            "packageData": undefined,
+            "pushState": [MockFunction],
+            "requestLoad": [MockFunction],
+            "rtData": Object {},
+            "sliderQuestions": Object {},
+            "submitSliderTwo": [MockFunction],
+            "trackFormOneInteracted": [MockFunction],
+            "trackFormOneViewed": [MockFunction],
+            "trackFormStepSubmitted": [MockFunction],
+            "trackFormViewedCall": [MockFunction],
+            "trackTripAdded": [MockFunction],
+            "trackTripUpdated": [MockFunction],
+            "trackTripUpdatedStep": [MockFunction],
+            "updateFields": [MockFunction],
+            "updateFromOneProps": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

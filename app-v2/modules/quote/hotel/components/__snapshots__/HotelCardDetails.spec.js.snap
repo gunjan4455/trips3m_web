@@ -1,0 +1,2411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HotelCardDetailss: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HotelCardDetails
+    hotelDetail={
+      Object {
+        "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+        "city": "Calangute",
+        "comments": "",
+        "dId": 3916311,
+        "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+        "gId": 306995,
+        "hotelId": 3436,
+        "hotelImages": Array [
+          Object {
+            "id": 412558,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+          },
+          Object {
+            "id": 412570,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+          },
+          Object {
+            "id": 412585,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+          },
+          Object {
+            "id": 412594,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+          },
+          Object {
+            "id": 412604,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+          },
+          Object {
+            "id": 412617,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+          },
+          Object {
+            "id": 412627,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+          },
+          Object {
+            "id": 412639,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+          },
+          Object {
+            "id": 412650,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+          },
+          Object {
+            "id": 412663,
+            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+          },
+        ],
+        "isAlternate": 0,
+        "name": "Sunkissed Plaza",
+        "nights": "2",
+        "quoteCityId": 35268058,
+        "rating": 3,
+        "roomType": " Deluxe ",
+        "selectionStatus": null,
+        "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+        "tripDayId": 38054617,
+      }
+    }
+    trackSegment={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex sbcw pb15"
+        >
+          <div
+            className="flexFull"
+          >
+            <ModalComponent
+              customClass=""
+              customCloseTrigger={false}
+              disabled={false}
+              fullView={true}
+              hasCustomClose={true}
+              hasNoClose={false}
+              isTriggerFullView={false}
+              isWhiteIcon={false}
+              onAfterModalOpen={[Function]}
+              onRequestCloseCustom={[Function]}
+              trigger={
+                <div
+                  className="hotelLogo"
+                >
+                  <Img
+                    alt="hotel"
+                    className="wfull absolute-center"
+                    defaultSrc={null}
+                    ikSrc="https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg"
+                    onDocumentLoad={false}
+                  />
+                </div>
+              }
+            >
+              <ImageSlider
+                images={
+                  Array [
+                    Object {
+                      "id": 412558,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                    },
+                    Object {
+                      "id": 412570,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                    },
+                    Object {
+                      "id": 412585,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                    },
+                    Object {
+                      "id": 412594,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                    },
+                    Object {
+                      "id": 412604,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                    },
+                    Object {
+                      "id": 412617,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                    },
+                    Object {
+                      "id": 412627,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                    },
+                    Object {
+                      "id": 412639,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                    },
+                    Object {
+                      "id": 412650,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                    },
+                    Object {
+                      "id": 412663,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                    },
+                  ]
+                }
+                name=""
+              />
+            </ModalComponent>
+          </div>
+          <div
+            className="flexFull"
+          >
+            <ModalComponent
+              customClass=""
+              customCloseTrigger={true}
+              disabled={false}
+              fullView={true}
+              hasCustomClose={true}
+              hasNoClose={false}
+              isTriggerFullView={false}
+              isWhiteIcon={false}
+              onAfterModalOpen={[Function]}
+              onRequestCloseCustom={[Function]}
+              trigger={
+                <div
+                  className="flexFull pl15"
+                >
+                  <h4>
+                    Sunkissed Plaza
+                  </h4>
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={3}
+                  />
+                  <p>
+                    Room Type:  Deluxe 
+                  </p>
+                </div>
+              }
+            >
+              <HotelOrAirportDetails
+                closeModal={[Function]}
+                info={
+                  Object {
+                    "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                    "city": "Calangute",
+                    "comments": "",
+                    "dId": 3916311,
+                    "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                    "gId": 306995,
+                    "hotelId": 3436,
+                    "hotelImages": Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ],
+                    "images": Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ],
+                    "isAlternate": 0,
+                    "name": "Sunkissed Plaza",
+                    "nights": "2",
+                    "quoteCityId": 35268058,
+                    "rating": 3,
+                    "roomType": " Deluxe ",
+                    "selectionStatus": null,
+                    "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                    "tripDayId": 38054617,
+                  }
+                }
+              />
+            </ModalComponent>
+          </div>
+        </div>,
+        null,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="flexFull"
+            >
+              <ModalComponent
+                customClass=""
+                customCloseTrigger={false}
+                disabled={false}
+                fullView={true}
+                hasCustomClose={true}
+                hasNoClose={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={
+                  <div
+                    className="hotelLogo"
+                  >
+                    <Img
+                      alt="hotel"
+                      className="wfull absolute-center"
+                      defaultSrc={null}
+                      ikSrc="https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg"
+                      onDocumentLoad={false}
+                    />
+                  </div>
+                }
+              >
+                <ImageSlider
+                  images={
+                    Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ]
+                  }
+                  name=""
+                />
+              </ModalComponent>
+            </div>,
+            <div
+              className="flexFull"
+            >
+              <ModalComponent
+                customClass=""
+                customCloseTrigger={true}
+                disabled={false}
+                fullView={true}
+                hasCustomClose={true}
+                hasNoClose={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={
+                  <div
+                    className="flexFull pl15"
+                  >
+                    <h4>
+                      Sunkissed Plaza
+                    </h4>
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={3}
+                    />
+                    <p>
+                      Room Type:  Deluxe 
+                    </p>
+                  </div>
+                }
+              >
+                <HotelOrAirportDetails
+                  closeModal={[Function]}
+                  info={
+                    Object {
+                      "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                      "city": "Calangute",
+                      "comments": "",
+                      "dId": 3916311,
+                      "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                      "gId": 306995,
+                      "hotelId": 3436,
+                      "hotelImages": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "images": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "isAlternate": 0,
+                      "name": "Sunkissed Plaza",
+                      "nights": "2",
+                      "quoteCityId": 35268058,
+                      "rating": 3,
+                      "roomType": " Deluxe ",
+                      "selectionStatus": null,
+                      "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                      "tripDayId": 38054617,
+                    }
+                  }
+                />
+              </ModalComponent>
+            </div>,
+          ],
+          "className": "flex sbcw pb15",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ModalComponent
+                customClass=""
+                customCloseTrigger={false}
+                disabled={false}
+                fullView={true}
+                hasCustomClose={true}
+                hasNoClose={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={
+                  <div
+                    className="hotelLogo"
+                  >
+                    <Img
+                      alt="hotel"
+                      className="wfull absolute-center"
+                      defaultSrc={null}
+                      ikSrc="https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg"
+                      onDocumentLoad={false}
+                    />
+                  </div>
+                }
+              >
+                <ImageSlider
+                  images={
+                    Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ]
+                  }
+                  name=""
+                />
+              </ModalComponent>,
+              "className": "flexFull",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <ImageSlider
+                  images={
+                    Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ]
+                  }
+                  name=""
+                />,
+                "customClass": "",
+                "customCloseTrigger": false,
+                "disabled": false,
+                "fullView": true,
+                "hasCustomClose": true,
+                "hasNoClose": false,
+                "isTriggerFullView": false,
+                "isWhiteIcon": false,
+                "onAfterModalOpen": [Function],
+                "onRequestCloseCustom": [Function],
+                "trigger": <div
+                  className="hotelLogo"
+                >
+                  <Img
+                    alt="hotel"
+                    className="wfull absolute-center"
+                    defaultSrc={null}
+                    ikSrc="https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg"
+                    onDocumentLoad={false}
+                  />
+                </div>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "images": Array [
+                    Object {
+                      "id": 412558,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                    },
+                    Object {
+                      "id": 412570,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                    },
+                    Object {
+                      "id": 412585,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                    },
+                    Object {
+                      "id": 412594,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                    },
+                    Object {
+                      "id": 412604,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                    },
+                    Object {
+                      "id": 412617,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                    },
+                    Object {
+                      "id": 412627,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                    },
+                    Object {
+                      "id": 412639,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                    },
+                    Object {
+                      "id": 412650,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                    },
+                    Object {
+                      "id": 412663,
+                      "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                    },
+                  ],
+                  "name": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ModalComponent
+                customClass=""
+                customCloseTrigger={true}
+                disabled={false}
+                fullView={true}
+                hasCustomClose={true}
+                hasNoClose={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={
+                  <div
+                    className="flexFull pl15"
+                  >
+                    <h4>
+                      Sunkissed Plaza
+                    </h4>
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={3}
+                    />
+                    <p>
+                      Room Type:  Deluxe 
+                    </p>
+                  </div>
+                }
+              >
+                <HotelOrAirportDetails
+                  closeModal={[Function]}
+                  info={
+                    Object {
+                      "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                      "city": "Calangute",
+                      "comments": "",
+                      "dId": 3916311,
+                      "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                      "gId": 306995,
+                      "hotelId": 3436,
+                      "hotelImages": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "images": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "isAlternate": 0,
+                      "name": "Sunkissed Plaza",
+                      "nights": "2",
+                      "quoteCityId": 35268058,
+                      "rating": 3,
+                      "roomType": " Deluxe ",
+                      "selectionStatus": null,
+                      "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                      "tripDayId": 38054617,
+                    }
+                  }
+                />
+              </ModalComponent>,
+              "className": "flexFull",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <HotelOrAirportDetails
+                  closeModal={[Function]}
+                  info={
+                    Object {
+                      "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                      "city": "Calangute",
+                      "comments": "",
+                      "dId": 3916311,
+                      "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                      "gId": 306995,
+                      "hotelId": 3436,
+                      "hotelImages": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "images": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "isAlternate": 0,
+                      "name": "Sunkissed Plaza",
+                      "nights": "2",
+                      "quoteCityId": 35268058,
+                      "rating": 3,
+                      "roomType": " Deluxe ",
+                      "selectionStatus": null,
+                      "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                      "tripDayId": 38054617,
+                    }
+                  }
+                />,
+                "customClass": "",
+                "customCloseTrigger": true,
+                "disabled": false,
+                "fullView": true,
+                "hasCustomClose": true,
+                "hasNoClose": false,
+                "isTriggerFullView": false,
+                "isWhiteIcon": false,
+                "onAfterModalOpen": [Function],
+                "onRequestCloseCustom": [Function],
+                "trigger": <div
+                  className="flexFull pl15"
+                >
+                  <h4>
+                    Sunkissed Plaza
+                  </h4>
+                  <RatingStar
+                    isEmptyStarsHidden={false}
+                    rating={3}
+                  />
+                  <p>
+                    Room Type:  Deluxe 
+                  </p>
+                </div>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "closeModal": [Function],
+                  "info": Object {
+                    "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                    "city": "Calangute",
+                    "comments": "",
+                    "dId": 3916311,
+                    "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                    "gId": 306995,
+                    "hotelId": 3436,
+                    "hotelImages": Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ],
+                    "images": Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ],
+                    "isAlternate": 0,
+                    "name": "Sunkissed Plaza",
+                    "nights": "2",
+                    "quoteCityId": 35268058,
+                    "rating": 3,
+                    "roomType": " Deluxe ",
+                    "selectionStatus": null,
+                    "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                    "tripDayId": 38054617,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      null,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex sbcw pb15"
+          >
+            <div
+              className="flexFull"
+            >
+              <ModalComponent
+                customClass=""
+                customCloseTrigger={false}
+                disabled={false}
+                fullView={true}
+                hasCustomClose={true}
+                hasNoClose={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={
+                  <div
+                    className="hotelLogo"
+                  >
+                    <Img
+                      alt="hotel"
+                      className="wfull absolute-center"
+                      defaultSrc={null}
+                      ikSrc="https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg"
+                      onDocumentLoad={false}
+                    />
+                  </div>
+                }
+              >
+                <ImageSlider
+                  images={
+                    Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ]
+                  }
+                  name=""
+                />
+              </ModalComponent>
+            </div>
+            <div
+              className="flexFull"
+            >
+              <ModalComponent
+                customClass=""
+                customCloseTrigger={true}
+                disabled={false}
+                fullView={true}
+                hasCustomClose={true}
+                hasNoClose={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={
+                  <div
+                    className="flexFull pl15"
+                  >
+                    <h4>
+                      Sunkissed Plaza
+                    </h4>
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={3}
+                    />
+                    <p>
+                      Room Type:  Deluxe 
+                    </p>
+                  </div>
+                }
+              >
+                <HotelOrAirportDetails
+                  closeModal={[Function]}
+                  info={
+                    Object {
+                      "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                      "city": "Calangute",
+                      "comments": "",
+                      "dId": 3916311,
+                      "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                      "gId": 306995,
+                      "hotelId": 3436,
+                      "hotelImages": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "images": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "isAlternate": 0,
+                      "name": "Sunkissed Plaza",
+                      "nights": "2",
+                      "quoteCityId": 35268058,
+                      "rating": 3,
+                      "roomType": " Deluxe ",
+                      "selectionStatus": null,
+                      "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                      "tripDayId": 38054617,
+                    }
+                  }
+                />
+              </ModalComponent>
+            </div>
+          </div>,
+          null,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="flexFull"
+              >
+                <ModalComponent
+                  customClass=""
+                  customCloseTrigger={false}
+                  disabled={false}
+                  fullView={true}
+                  hasCustomClose={true}
+                  hasNoClose={false}
+                  isTriggerFullView={false}
+                  isWhiteIcon={false}
+                  onAfterModalOpen={[Function]}
+                  onRequestCloseCustom={[Function]}
+                  trigger={
+                    <div
+                      className="hotelLogo"
+                    >
+                      <Img
+                        alt="hotel"
+                        className="wfull absolute-center"
+                        defaultSrc={null}
+                        ikSrc="https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg"
+                        onDocumentLoad={false}
+                      />
+                    </div>
+                  }
+                >
+                  <ImageSlider
+                    images={
+                      Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ]
+                    }
+                    name=""
+                  />
+                </ModalComponent>
+              </div>,
+              <div
+                className="flexFull"
+              >
+                <ModalComponent
+                  customClass=""
+                  customCloseTrigger={true}
+                  disabled={false}
+                  fullView={true}
+                  hasCustomClose={true}
+                  hasNoClose={false}
+                  isTriggerFullView={false}
+                  isWhiteIcon={false}
+                  onAfterModalOpen={[Function]}
+                  onRequestCloseCustom={[Function]}
+                  trigger={
+                    <div
+                      className="flexFull pl15"
+                    >
+                      <h4>
+                        Sunkissed Plaza
+                      </h4>
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={3}
+                      />
+                      <p>
+                        Room Type:  Deluxe 
+                      </p>
+                    </div>
+                  }
+                >
+                  <HotelOrAirportDetails
+                    closeModal={[Function]}
+                    info={
+                      Object {
+                        "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                        "city": "Calangute",
+                        "comments": "",
+                        "dId": 3916311,
+                        "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                        "gId": 306995,
+                        "hotelId": 3436,
+                        "hotelImages": Array [
+                          Object {
+                            "id": 412558,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                          },
+                          Object {
+                            "id": 412570,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                          },
+                          Object {
+                            "id": 412585,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                          },
+                          Object {
+                            "id": 412594,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                          },
+                          Object {
+                            "id": 412604,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                          },
+                          Object {
+                            "id": 412617,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                          },
+                          Object {
+                            "id": 412627,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                          },
+                          Object {
+                            "id": 412639,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                          },
+                          Object {
+                            "id": 412650,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                          },
+                          Object {
+                            "id": 412663,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                          },
+                        ],
+                        "images": Array [
+                          Object {
+                            "id": 412558,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                          },
+                          Object {
+                            "id": 412570,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                          },
+                          Object {
+                            "id": 412585,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                          },
+                          Object {
+                            "id": 412594,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                          },
+                          Object {
+                            "id": 412604,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                          },
+                          Object {
+                            "id": 412617,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                          },
+                          Object {
+                            "id": 412627,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                          },
+                          Object {
+                            "id": 412639,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                          },
+                          Object {
+                            "id": 412650,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                          },
+                          Object {
+                            "id": 412663,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                          },
+                        ],
+                        "isAlternate": 0,
+                        "name": "Sunkissed Plaza",
+                        "nights": "2",
+                        "quoteCityId": 35268058,
+                        "rating": 3,
+                        "roomType": " Deluxe ",
+                        "selectionStatus": null,
+                        "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                        "tripDayId": 38054617,
+                      }
+                    }
+                  />
+                </ModalComponent>
+              </div>,
+            ],
+            "className": "flex sbcw pb15",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ModalComponent
+                  customClass=""
+                  customCloseTrigger={false}
+                  disabled={false}
+                  fullView={true}
+                  hasCustomClose={true}
+                  hasNoClose={false}
+                  isTriggerFullView={false}
+                  isWhiteIcon={false}
+                  onAfterModalOpen={[Function]}
+                  onRequestCloseCustom={[Function]}
+                  trigger={
+                    <div
+                      className="hotelLogo"
+                    >
+                      <Img
+                        alt="hotel"
+                        className="wfull absolute-center"
+                        defaultSrc={null}
+                        ikSrc="https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg"
+                        onDocumentLoad={false}
+                      />
+                    </div>
+                  }
+                >
+                  <ImageSlider
+                    images={
+                      Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ]
+                    }
+                    name=""
+                  />
+                </ModalComponent>,
+                "className": "flexFull",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <ImageSlider
+                    images={
+                      Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ]
+                    }
+                    name=""
+                  />,
+                  "customClass": "",
+                  "customCloseTrigger": false,
+                  "disabled": false,
+                  "fullView": true,
+                  "hasCustomClose": true,
+                  "hasNoClose": false,
+                  "isTriggerFullView": false,
+                  "isWhiteIcon": false,
+                  "onAfterModalOpen": [Function],
+                  "onRequestCloseCustom": [Function],
+                  "trigger": <div
+                    className="hotelLogo"
+                  >
+                    <Img
+                      alt="hotel"
+                      className="wfull absolute-center"
+                      defaultSrc={null}
+                      ikSrc="https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg"
+                      onDocumentLoad={false}
+                    />
+                  </div>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "images": Array [
+                      Object {
+                        "id": 412558,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                      },
+                      Object {
+                        "id": 412570,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                      },
+                      Object {
+                        "id": 412585,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                      },
+                      Object {
+                        "id": 412594,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                      },
+                      Object {
+                        "id": 412604,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                      },
+                      Object {
+                        "id": 412617,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                      },
+                      Object {
+                        "id": 412627,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                      },
+                      Object {
+                        "id": 412639,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                      },
+                      Object {
+                        "id": 412650,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                      },
+                      Object {
+                        "id": 412663,
+                        "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                      },
+                    ],
+                    "name": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ModalComponent
+                  customClass=""
+                  customCloseTrigger={true}
+                  disabled={false}
+                  fullView={true}
+                  hasCustomClose={true}
+                  hasNoClose={false}
+                  isTriggerFullView={false}
+                  isWhiteIcon={false}
+                  onAfterModalOpen={[Function]}
+                  onRequestCloseCustom={[Function]}
+                  trigger={
+                    <div
+                      className="flexFull pl15"
+                    >
+                      <h4>
+                        Sunkissed Plaza
+                      </h4>
+                      <RatingStar
+                        isEmptyStarsHidden={false}
+                        rating={3}
+                      />
+                      <p>
+                        Room Type:  Deluxe 
+                      </p>
+                    </div>
+                  }
+                >
+                  <HotelOrAirportDetails
+                    closeModal={[Function]}
+                    info={
+                      Object {
+                        "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                        "city": "Calangute",
+                        "comments": "",
+                        "dId": 3916311,
+                        "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                        "gId": 306995,
+                        "hotelId": 3436,
+                        "hotelImages": Array [
+                          Object {
+                            "id": 412558,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                          },
+                          Object {
+                            "id": 412570,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                          },
+                          Object {
+                            "id": 412585,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                          },
+                          Object {
+                            "id": 412594,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                          },
+                          Object {
+                            "id": 412604,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                          },
+                          Object {
+                            "id": 412617,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                          },
+                          Object {
+                            "id": 412627,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                          },
+                          Object {
+                            "id": 412639,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                          },
+                          Object {
+                            "id": 412650,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                          },
+                          Object {
+                            "id": 412663,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                          },
+                        ],
+                        "images": Array [
+                          Object {
+                            "id": 412558,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                          },
+                          Object {
+                            "id": 412570,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                          },
+                          Object {
+                            "id": 412585,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                          },
+                          Object {
+                            "id": 412594,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                          },
+                          Object {
+                            "id": 412604,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                          },
+                          Object {
+                            "id": 412617,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                          },
+                          Object {
+                            "id": 412627,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                          },
+                          Object {
+                            "id": 412639,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                          },
+                          Object {
+                            "id": 412650,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                          },
+                          Object {
+                            "id": 412663,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                          },
+                        ],
+                        "isAlternate": 0,
+                        "name": "Sunkissed Plaza",
+                        "nights": "2",
+                        "quoteCityId": 35268058,
+                        "rating": 3,
+                        "roomType": " Deluxe ",
+                        "selectionStatus": null,
+                        "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                        "tripDayId": 38054617,
+                      }
+                    }
+                  />
+                </ModalComponent>,
+                "className": "flexFull",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <HotelOrAirportDetails
+                    closeModal={[Function]}
+                    info={
+                      Object {
+                        "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                        "city": "Calangute",
+                        "comments": "",
+                        "dId": 3916311,
+                        "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                        "gId": 306995,
+                        "hotelId": 3436,
+                        "hotelImages": Array [
+                          Object {
+                            "id": 412558,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                          },
+                          Object {
+                            "id": 412570,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                          },
+                          Object {
+                            "id": 412585,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                          },
+                          Object {
+                            "id": 412594,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                          },
+                          Object {
+                            "id": 412604,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                          },
+                          Object {
+                            "id": 412617,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                          },
+                          Object {
+                            "id": 412627,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                          },
+                          Object {
+                            "id": 412639,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                          },
+                          Object {
+                            "id": 412650,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                          },
+                          Object {
+                            "id": 412663,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                          },
+                        ],
+                        "images": Array [
+                          Object {
+                            "id": 412558,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                          },
+                          Object {
+                            "id": 412570,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                          },
+                          Object {
+                            "id": 412585,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                          },
+                          Object {
+                            "id": 412594,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                          },
+                          Object {
+                            "id": 412604,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                          },
+                          Object {
+                            "id": 412617,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                          },
+                          Object {
+                            "id": 412627,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                          },
+                          Object {
+                            "id": 412639,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                          },
+                          Object {
+                            "id": 412650,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                          },
+                          Object {
+                            "id": 412663,
+                            "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                          },
+                        ],
+                        "isAlternate": 0,
+                        "name": "Sunkissed Plaza",
+                        "nights": "2",
+                        "quoteCityId": 35268058,
+                        "rating": 3,
+                        "roomType": " Deluxe ",
+                        "selectionStatus": null,
+                        "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                        "tripDayId": 38054617,
+                      }
+                    }
+                  />,
+                  "customClass": "",
+                  "customCloseTrigger": true,
+                  "disabled": false,
+                  "fullView": true,
+                  "hasCustomClose": true,
+                  "hasNoClose": false,
+                  "isTriggerFullView": false,
+                  "isWhiteIcon": false,
+                  "onAfterModalOpen": [Function],
+                  "onRequestCloseCustom": [Function],
+                  "trigger": <div
+                    className="flexFull pl15"
+                  >
+                    <h4>
+                      Sunkissed Plaza
+                    </h4>
+                    <RatingStar
+                      isEmptyStarsHidden={false}
+                      rating={3}
+                    />
+                    <p>
+                      Room Type:  Deluxe 
+                    </p>
+                  </div>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "closeModal": [Function],
+                    "info": Object {
+                      "address": "Calangute -  North Goa, Gauravaddo Calangute
+Bardez GOA 403516 INDIA",
+                      "city": "Calangute",
+                      "comments": "",
+                      "dId": 3916311,
+                      "description": "Sunkissed Plaza, Goa, is set in a pleasing location near the blue waters of Calangute Beach. Situated far from the hustle-bustle of the city centre, this hotel offers a stay that is indeed tranquil. Guests can enjoy the beauty of the surroundings from their rooms with the gamut of amenities during the stay. 
+
+<b>Location:</b>
+Sunkissed Plaza is located at Gauravaddo Calangute Bardez. The Calangute Beach (Approx. 1km), and St Anthony's Chapel, Goa (Approx. 1km) are the nearby places of tourist interest from Sunkissed Plaza. Heavily fringed with coconut trees, Calangute Beach offers a spectacular view of the sea. Ideal for numerous water sports and beach fun, Calangute Beach, is a popular tourist destination near Sunkissed Plaza. Ancestral Goa Museum, Carambolim Lake, and Arvalam Waterfalls are the other places that are worth-exploring in Goa.
+
+Distance from Goa International Airport: 39 km (approx.)
+Distance from Thivim Railway Station: 22 km (approx.)
+
+<b>Hotel Features:</b>
+Sunkissed Plaza is a ravishing estate surrounded by lush green trees. Simplistic yet comfy, Sunkissed Plaza features well-appointed rooms with all the necessary amenities. Basic amenities offered by Sunkissed Plaza are internet, 24-hour front desk, 24-hour room service, travel desk, 24-hour security and doctor on call. Business services and conference suites are available at Sunkissed Plaza for corporate travellers. There is a swimming pool for a refreshing stay. Wedding and banquet services can be arranged by Sunkissed Plaza if the patrons wish to organise social events. Game lovers can step inside the game room and spend their leisure time. For ultimate rejuvenation and relaxation, patrons can avail of Jacuzzi. Patrons can also sit back and relax at the lounge during the stay. The multi-cuisine restaurant serves tempting meals that gratify the hunger cravings of the guests.
+
+<b>Rooms:</b>
+Standard, premium room and deluxe rooms are available for lodging and boarding. The rooms are cosy with a modern feel to assure an undisturbed stay at Sunkissed Plaza. Elegantly appointed, these room offer a beautiful view of the lush greenery and swimming pool. Air conditioning, colour television, minibar, refrigerator, safe and telephone are the room amenities provided at Sunkissed Plaza.",
+                      "gId": 306995,
+                      "hotelId": 3436,
+                      "hotelImages": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "images": Array [
+                        Object {
+                          "id": 412558,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412558/original/5296187_21_z.jpg",
+                        },
+                        Object {
+                          "id": 412570,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412570/original/5296187_22_z.jpg",
+                        },
+                        Object {
+                          "id": 412585,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412585/original/5296187_31_z.jpg",
+                        },
+                        Object {
+                          "id": 412594,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412594/original/5296187_35_z.jpg",
+                        },
+                        Object {
+                          "id": 412604,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412604/original/5296187_36_z.jpg",
+                        },
+                        Object {
+                          "id": 412617,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412617/original/5296187_26_z.jpg",
+                        },
+                        Object {
+                          "id": 412627,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412627/original/5296187_32_z.jpg",
+                        },
+                        Object {
+                          "id": 412639,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412639/original/5296187_34_z.jpg",
+                        },
+                        Object {
+                          "id": 412650,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412650/original/5296187_20_z.jpg",
+                        },
+                        Object {
+                          "id": 412663,
+                          "url": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_630/https://dknfdeb8v69ms.cloudfront.net/attachments/pictures/412663/original/5296187_28_z.jpg",
+                        },
+                      ],
+                      "isAlternate": 0,
+                      "name": "Sunkissed Plaza",
+                      "nights": "2",
+                      "quoteCityId": 35268058,
+                      "rating": 3,
+                      "roomType": " Deluxe ",
+                      "selectionStatus": null,
+                      "taUrl": "http://www.tripadvisor.com/Hotel_Review-g306995-d3916311-Reviews-Sunkissed_Plaza-Calangute_Goa.html",
+                      "tripDayId": 38054617,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        null,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

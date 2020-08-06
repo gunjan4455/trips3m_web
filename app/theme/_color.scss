@@ -1,0 +1,55 @@
+/* == Color Variables == */
+
+$primary-color-one: #20A397;
+$primary-color-two: #FE5246;
+$primary-color-three: #3e3e3e;
+$primary-color-four: #B2B2B2;
+$primary-color-five: #009688;
+$primary-color-six : #3e3e3e;
+
+$secondary-color-one: #2196F3;
+$secondary-color-two: #FAC22E;
+$secondary-color-three: #4CAF50;
+$secondary-color-four: #D4D4D4;
+$secondary-color-five: #EFEFEF;
+
+$white: #FFFFFF;
+$black: #000000;
+$red: #FF0000;
+$light-grey: #EDF0F3;
+$dark-orange: #f07c00;
+$dark-grey: #3e3e3e;
+$sea-green : #d9f7f1;
+.pbc1 { background-color: $primary-color-one;}
+.pbc2 { background-color: $primary-color-two;}
+.pbc3 { background-color: $primary-color-three;}
+.pbc4 { background-color: $primary-color-four;}
+.pbc5 { background-color: $primary-color-five;}
+
+
+.sbc1 { background-color: $secondary-color-one;}
+.sbc2 { background-color: $secondary-color-two;}
+.sbc3 { background-color: $secondary-color-three;}
+.sbc4 { background-color: $secondary-color-four;}
+.sbc5 { background-color: $secondary-color-five;}
+.sbc6 { background-color: $light-grey;}
+.sbcw { background-color: $white;}
+.sbc7 { background-color: $sea-green;}
+
+.pfc1 { color: $primary-color-one;}
+.pfc2 { color: $primary-color-two;}
+.pfc3 { color: $primary-color-three;}
+.pfc4 { color: $primary-color-four;}
+.pfc5 { color: $primary-color-five;}
+.sfc1 { color: $secondary-color-one;}
+.sfc2 { color: $secondary-color-two;}
+.sfc3 { color: $secondary-color-three;}
+.sfc4 { color: $secondary-color-four;}
+.sfc5 { color: $secondary-color-five;}
+.sfcw { color: $white;}
+.sfc6 { color: #A3A3A3;}
+.sfc7 { color: $light-grey;}
+.sbco { color: $dark-orange;}
+.sfc8 { color: $primary-color-six;}
+.dark-font{color:$dark-grey;}
+

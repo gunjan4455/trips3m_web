@@ -1,0 +1,3458 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/actions/segmentEvents.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">app/actions</a> segmentEvents.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">48.12% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>128/266</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">19.72% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>28/142</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">35.29% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>12/34</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">48.11% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>127/264</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+490
+491
+492
+493
+494
+495
+496
+497
+498
+499
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+510
+511
+512
+513
+514
+515
+516
+517
+518
+519
+520
+521
+522
+523
+524
+525
+526
+527
+528
+529
+530
+531
+532
+533
+534
+535
+536
+537
+538
+539
+540
+541
+542
+543
+544
+545
+546
+547
+548
+549
+550
+551
+552
+553
+554
+555
+556
+557
+558
+559
+560
+561
+562
+563
+564
+565
+566
+567
+568
+569
+570
+571
+572
+573
+574
+575
+576
+577
+578
+579
+580
+581
+582
+583
+584
+585
+586
+587
+588
+589
+590
+591
+592
+593
+594
+595
+596
+597
+598
+599
+600
+601
+602
+603
+604
+605
+606
+607
+608
+609
+610
+611
+612
+613
+614
+615
+616
+617
+618
+619
+620
+621
+622
+623
+624
+625
+626
+627
+628
+629
+630
+631
+632
+633
+634
+635
+636
+637
+638
+639
+640
+641
+642
+643
+644
+645
+646
+647
+648
+649
+650
+651
+652
+653
+654
+655
+656
+657
+658
+659
+660
+661
+662
+663
+664
+665
+666
+667
+668
+669
+670
+671
+672
+673
+674
+675
+676
+677
+678
+679
+680
+681
+682
+683
+684
+685
+686
+687
+688
+689
+690
+691
+692
+693
+694
+695
+696
+697
+698
+699
+700
+701
+702
+703
+704
+705
+706
+707
+708
+709
+710
+711
+712
+713
+714
+715
+716
+717
+718
+719
+720
+721
+722
+723
+724
+725
+726
+727
+728
+729
+730
+731
+732
+733
+734
+735
+736
+737
+738
+739
+740
+741
+742
+743
+744
+745
+746
+747
+748
+749
+750
+751
+752
+753
+754
+755
+756
+757
+758
+759
+760
+761
+762
+763
+764
+765
+766
+767
+768
+769
+770
+771
+772
+773
+774
+775
+776
+777
+778
+779
+780
+781
+782
+783
+784
+785
+786
+787
+788
+789
+790
+791
+792
+793
+794
+795
+796
+797
+798
+799
+800
+801
+802
+803
+804
+805
+806
+807
+808
+809
+810
+811
+812
+813
+814
+815
+816
+817
+818
+819
+820
+821
+822
+823
+824
+825
+826
+827
+828
+829
+830
+831
+832
+833
+834
+835
+836
+837
+838
+839
+840
+841
+842
+843
+844
+845
+846
+847
+848
+849
+850
+851
+852
+853
+854
+855
+856
+857
+858
+859
+860
+861
+862
+863
+864
+865
+866
+867
+868
+869
+870
+871
+872
+873
+874
+875
+876
+877
+878
+879
+880
+881
+882
+883
+884
+885
+886
+887
+888
+889
+890
+891
+892
+893
+894
+895
+896
+897
+898
+899
+900
+901
+902
+903
+904
+905
+906
+907
+908
+909
+910
+911
+912
+913
+914
+915
+916
+917
+918
+919
+920
+921
+922
+923
+924
+925
+926
+927
+928
+929
+930
+931
+932
+933
+934
+935
+936
+937
+938
+939
+940
+941
+942
+943
+944
+945
+946
+947
+948
+949
+950
+951
+952
+953
+954
+955
+956
+957
+958
+959
+960
+961
+962
+963
+964
+965
+966
+967
+968
+969
+970
+971
+972
+973
+974
+975
+976
+977
+978
+979
+980
+981
+982
+983
+984
+985
+986
+987
+988
+989
+990
+991
+992
+993
+994
+995
+996
+997
+998
+999
+1000
+1001
+1002
+1003
+1004
+1005
+1006
+1007
+1008
+1009
+1010
+1011
+1012
+1013
+1014
+1015
+1016
+1017
+1018
+1019
+1020
+1021
+1022
+1023
+1024
+1025
+1026
+1027
+1028
+1029
+1030
+1031
+1032
+1033
+1034
+1035
+1036
+1037
+1038
+1039
+1040
+1041
+1042
+1043
+1044
+1045
+1046
+1047
+1048
+1049
+1050
+1051
+1052
+1053
+1054
+1055
+1056
+1057
+1058
+1059
+1060
+1061
+1062
+1063
+1064
+1065
+1066
+1067
+1068
+1069
+1070
+1071
+1072
+1073
+1074
+1075
+1076
+1077
+1078
+1079
+1080
+1081
+1082
+1083
+1084
+1085
+1086
+1087
+1088
+1089
+1090
+1091
+1092
+1093
+1094
+1095
+1096
+1097
+1098
+1099
+1100
+1101
+1102
+1103
+1104
+1105
+1106
+1107
+1108
+1109
+1110
+1111
+1112
+1113
+1114
+1115
+1116
+1117
+1118
+1119
+1120
+1121
+1122
+1123
+1124
+1125
+1126
+1127
+1128
+1129
+1130
+1131
+1132</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">120x</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">120x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">120x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">60x</span>
+<span class="cline-any cline-yes">60x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">51x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { EventTypes } from 'redux-segment';
+import {
+  getCookie,
+  getPageName,
+  PAGE_UUID_COOKIE_KEY,
+  LANDING_UUID_COOKIE_KEY,
+  REFERER_UUID_KEY,
+  SESSION_UUID_COOKIE_KEY,
+  setCookie,
+  getRandomString,
+  getTripStageText,
+  FORM_VARIATION_COOKIE_KEY,
+  isTextValid,
+  getFullPageName,
+  getDefaultPageName,
+  fixNaNValue,
+  getPageUrl,
+  getCounter,
+  getQueryVariable
+} from '../helpers/FormDataFormatter';
+import { getRtmsConnection, RtmsChannels } from "../helpers/rtms";
+import { eventsQueue } from '../helpers/eventsQueue';
+&nbsp;
+const CATEGORY_CLICK = 'Category Clicked';
+const PACKAGE_LIST_CLICK = 'Package List Clicked';
+const DESTINATION_CLICK = 'Destination Clicked';
+const DESTINATION_VIEWED = 'Destination Viewed';
+const WEEKEND_CLICK = 'Weekend Clicked';
+const PLATFORM = 'public_mweb';
+const PACKAGE_CLICKED = 'Package Clicked';
+const DESTINATION_LIST_CLICK = 'Destination List Clicked';
+const DESTINATION_LIST_VIEWED = 'Destination List Viewed';
+const WEEKEND_LIST_CLICK = 'Weekend List Clicked';
+const PACKAGE_LIST_VIEWED = 'Package List Viewed';
+const PACKAGE_VIEWED = 'Package Viewed';
+const SEPERATOR = '::';
+const SEGMENT_ADMIN_COMMENT = '#trip_origin_product:public_mweb';
+const DEFAULT_PAGE = 'Traveler Page';
+const PREV_PAGE_UUID_COOKIE_KEY = 'prev_uuid';
+const FUNNEL_UUID_KEY = 'funnel_uuid';
+const DFEAULT_VALUE = 1;
+const RTRIP_FORM_VARIANT_NAME = 'Slider Close';
+const ANONYMOUS_ID_DEFAULT = 'anonymous_id_not_set';
+const ANONYMOUS_ID_COOKIE_NAME = 'ajs_anonymous_id';
+const DEFAULT_USER_ROLE = 'NOT_SET';
+const USER_ID_COOKIE_KEY = 'u_id';
+const USER_ROLE_COOKIE_KEY = 'u_role';
+const DEFAULT_USER_ID = 1;
+const PAGE_SCROLLED = 'Page Scrolled';
+const PACKAGE_COMPARE_ADDED = 'Package Compare Added';
+const PACKAGE_COMPARE_CLICKED = 'Package Compare Clicked';
+const DEFAULT_VALUE = 1;
+const FILTER_CLICKED = 'Filter Clicked';
+const DEFAULT_NUMBER_VALUE = 0;
+const SORT_CLICKED = 'Sort Clicked';
+const FAQS_CLICKED = 'FAQs Clicked';
+const PACKAGE_INTERACTED = 'Package Interacted';
+const TRIP_ID_COOKIE_KEY = 'trip_id';
+const ORGANISM_VIEWED = 'organism_viewed';
+const ORGANISM_CLICKED = 'organism_clicked';
+const HOTEL_CATEGORY_CLICKED = 'Hotel Category Clicked';
+const PDP_PAGE_VIEW = 'Pdp Page View';
+const PLP_PAGE_VIEW = 'Plp Page View';
+&nbsp;
+const getLeadFunnelName = (funnelStep) =&gt; {
+  const funnelStepNames = ['Form1 Clicked', 'Form1 Viewed', 'Form1 Interacted', 'Form1 Submitted', 'Trip Added',
+    'Form2 Viewed', 'Form2 Submitted', 'Trip Updated', 'Form3 Viewed',
+    'Form3 Submitted', 'Trip Updated', 'Form1 Closed', 'Form2 Closed'];
+  return funnelStepNames[funnelStep - 1];
+};
+&nbsp;
+const getFormType = (params = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; params.formType || RTRIP_FORM_VARIANT_NAME;
+&nbsp;
+const sanitize = (text) =&gt; {
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (typeof text === 'string') {
+<span class="cstat-no" title="statement not covered" >    return text.replace(/\W+/g, '');</span>
+  }
+  return '';
+};
+&nbsp;
+const getPackageID = () =&gt; {
+  const pID = getCookie('package_id_lead_funnel');
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (typeof pID === 'undefined') {
+<span class="cstat-no" title="statement not covered" >    return 0;</span>
+  }
+  return pID;
+};
+&nbsp;
+const prepareEventOriginUri = (section, object, cta) =&gt; {
+  let platform = null;
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (typeof window !== 'undefined' &amp;&amp; window.location.pathname === '/wvchatbot') {
+<span class="cstat-no" title="statement not covered" >    platform = getQueryVariable('platform');</span>
+  }
+  const pageName = getPageName();
+  const sanitizedCta = sanitize(cta);
+  let result = [platform ? <span class="branch-0 cbranch-no" title="branch not covered" >`app-${platform}` </span>: PLATFORM, pageName, section, object, sanitizedCta];
+  result = result.join(SEPERATOR);
+&nbsp;
+  return result;
+};
+&nbsp;
+// ------------------new Implementation-------------------------------------
+const validateAction = (action) =&gt; {
+  const segmentAction = action;
+  const pageNames = ['name', 'page_name', 'page_fullname'];
+  const defaultPageName = getDefaultPageName();
+  Object.keys(segmentAction).forEach((key) =&gt; {
+    /* Validates all id -&gt; Should be Integer */
+    if (key.endsWith('_id')) {
+      segmentAction[key] = fixNaNValue(segmentAction[key]);
+    }
+    /* Validates all name, pagename and page fullname -&gt; Set Default Value */
+    if (pageNames.indexOf(key) &gt;= 0) {
+      <span class="missing-if-branch" title="if path not taken" >I</span>if (!isTextValid(segmentAction[key])) {
+<span class="cstat-no" title="statement not covered" >        segmentAction[key] = defaultPageName;</span>
+      }
+    }
+    /* Validates value field. It should be float */
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (key === 'value') {
+<span class="cstat-no" title="statement not covered" >      segmentAction[key] = fixNaNValue(segmentAction[key]);</span>
+    }
+  });
+  return segmentAction;
+};
+&nbsp;
+const segmentColumns = {
+  'Lead Funnel': ['destination_list', 'form_variant', 'funnel_step', 'start_date', 'trip_days',
+    'label', 'num_destinations', 'to_loc', 'trip_id', 'funnel_uuid', 'exploring_destination', 'fields'],
+  'Package Clicked': ['section', 'value', 'destination_id', 'destination_list', 'label'],
+  'Package Viewed': ['section', 'value', 'destination_id', 'destination_list', 'label'],
+  'Package List Viewed': ['destination_list', 'destination_id', 'label', 'value', 'num_destinations'],
+  'Destination Clicked': ['section', 'value', 'destination_id', 'destination_list', 'label'],
+  'Destination Viewed': ['section', 'value', 'destination_id', 'destination_list', 'label'],
+  'Destination List Viewed': ['value', 'destination_id', 'destination_list', 'label', 'num_destinations'],
+  'Lead Funnel Testing': ['destination_list', 'form_variant', 'funnel_step', 'start_date', 'trip_days',
+    'label', 'num_destinations', 'to_loc', 'trip_id', 'funnel_uuid'],
+  'Lead Funnel Chatbot': ['destination_list', 'form_variant', 'funnel_step', 'start_date', 'trip_days',
+    'label', 'num_destinations', 'to_loc', 'trip_id', 'funnel_uuid'],
+  'Page Scrolled': [],
+  'Package List Clicked': ['section', 'value', 'destination_id', 'destination_list', 'label'],
+  'Destination List Clicked': ['section', 'value', 'destination_id', 'destination_list', 'label'],
+  'Weekend Clicked': ['section', 'value', 'destination_id', 'destination_list', 'label'],
+  'Package Compare Added': ['section', 'label', 'value', 'destination_id', 'package_name'],
+  'Package Compare Clicked': ['section', 'label', 'value', 'compare_ids'],
+  'Filter Clicked': ['section', 'label', 'value'],
+  'Sort Clicked': ['section', 'label', 'value', 'destination_id'],
+  'FAQs Clicked': ['section', 'label', 'value', 'destination_id'],
+  'Package Interacted': ['section', 'label', 'value', 'destination_id', 'package_id'],
+  'organism_viewed': ['trip_id', 'quote_id', 'invoice_id', 'destination_id', 'agent_id', 'trip_status', 'quote_status',
+    'trip_stage', 'layout_name', 'row_no', 'block_no', 'shape', 'total_blocks', 'misc_id_1', 'misc_type_1', 'misc_id_2',
+    'misc_type_2'],
+  'organism_clicked': ['trip_id', 'quote_id', 'invoice_id', 'destination_id', 'agent_id', 'trip_status', 'quote_status',
+    'trip_stage', 'layout_name', 'row_no', 'block_no', 'shape', 'total_blocks', 'misc_id_1', 'misc_type_1', 'misc_id_2',
+    'misc_type_2', 'misc_id_3', 'misc_type_3', 'misc_id_4', 'misc_type_4', 'misc_id_5', 'misc_type_5'],
+  'Prod Page Call': ['event_timestamp', 'referrer', 'url', 'anonymousId', 'destination_list'],
+  'Hotel Category Clicked': ['section', 'value', 'destination_id', 'destination_list', 'label'],
+  'Pdp Page View': ['section', 'value', 'destination_id', 'destination_list', 'label', 'budget_package', 'discounted_package'],
+  'Plp Page View': [ 'destination_list']
+};
+&nbsp;
+const trackSegment = (details = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const trackObj = {
+    category: details.category,
+    package_id: details.package_id || getPackageID(),
+    event_origin_uri: prepareEventOriginUri(details.section, details.object, details.cta),
+    page_fullname: getFullPageName(),
+    page_name: getPageName(),
+    page_uuid: getCookie(PAGE_UUID_COOKIE_KEY),
+    session_uuid: getCookie(SESSION_UUID_COOKIE_KEY),
+    landing_page_uuid: getCookie(LANDING_UUID_COOKIE_KEY),
+    referer_page_uuid: getCookie(REFERER_UUID_KEY),
+    user_id: getCookie(USER_ID_COOKIE_KEY) || DEFAULT_USER_ID,
+    user_role: getCookie(USER_ROLE_COOKIE_KEY) || DEFAULT_USER_ROLE,
+    platform: PLATFORM
+  };
+&nbsp;
+  segmentColumns[details.event].map(function (key) {
+    trackObj[key] = details[key];
+    return true;
+  });
+  const propertiesHash = validateAction(trackObj);
+  const messageObj = {
+    event: details.event,
+    userId: getUserProfilingId(),
+    properties: propertiesHash
+  };
+  try {
+    <span class="missing-if-branch" title="else path not taken" >E</span>if(typeof window !== 'undefined'){
+      window.profilingSubscription ?
+<span class="branch-0 cbranch-no" title="branch not covered" >        window.profilingSubscription.sendEvent({content: messageObj}) </span>:
+        eventsQueue.addEvent(messageObj);
+    }
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+  try {
+    <span class="missing-if-branch" title="else path not taken" >E</span>if(details.event !== 'Prod Page Call') {
+      window.analytics.track(details.event, propertiesHash);
+    }
+  } catch (e) {
+    console.log('Segment window error', e);
+  }
+};
+&nbsp;
+&nbsp;
+const trackSegmentEvent = <span class="fstat-no" title="function not covered" >(c</span>ategory) =&gt; {
+<span class="cstat-no" title="statement not covered" >  trackSegment({</span>
+    event: PAGE_SCROLLED,
+    value: 1,
+    category: category
+  });
+};
+&nbsp;
+let scroll25 = false;
+let scroll50 = false;
+let scroll75 = false;
+&nbsp;
+const initializeScroller = () =&gt; {
+  scroll25 = false;
+  scroll50 = false;
+  scroll75 = false;
+};
+&nbsp;
+const onScroll = <span class="fstat-no" title="function not covered" >(p</span>ercentage, inView) =&gt; {
+  const percentValue = <span class="cstat-no" title="statement not covered" >Math.ceil(percentage * 100) || Math.floor(percentage * 100);</span>
+<span class="cstat-no" title="statement not covered" >  if (percentValue === 25 &amp;&amp; !scroll25) {</span>
+<span class="cstat-no" title="statement not covered" >    scroll25 = true;</span>
+<span class="cstat-no" title="statement not covered" >    trackSegmentEvent('scroll25');</span>
+  } else <span class="cstat-no" title="statement not covered" >if (percentValue === 50 &amp;&amp; !scroll50) {</span>
+<span class="cstat-no" title="statement not covered" >    if (!scroll25) {</span>
+<span class="cstat-no" title="statement not covered" >      trackSegmentEvent('scroll25');</span>
+<span class="cstat-no" title="statement not covered" >      scroll25 = true;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    trackSegmentEvent('scroll50');</span>
+<span class="cstat-no" title="statement not covered" >    scroll50 = true;</span>
+&nbsp;
+  } else <span class="cstat-no" title="statement not covered" >if (percentValue === 75 &amp;&amp; !scroll75) {</span>
+<span class="cstat-no" title="statement not covered" >    if (!scroll25) {</span>
+<span class="cstat-no" title="statement not covered" >      trackSegmentEvent('scroll25');</span>
+<span class="cstat-no" title="statement not covered" >      scroll25 = true;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    if (!scroll50) {</span>
+<span class="cstat-no" title="statement not covered" >      trackSegmentEvent('scroll50');</span>
+<span class="cstat-no" title="statement not covered" >      scroll50 = true;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    trackSegmentEvent('scroll75');</span>
+<span class="cstat-no" title="statement not covered" >    scroll75 = true;</span>
+  }
+};
+&nbsp;
+// -----------------------new implememtation--------------
+&nbsp;
+const trackLeadFunnelClick = <span class="fstat-no" title="function not covered" >(p</span>arams) =&gt; {
+  const fuuid = <span class="cstat-no" title="statement not covered" >getRandomString(20);</span>
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, fuuid);</span>
+  const section = <span class="cstat-no" title="statement not covered" >params.section;</span>
+  const object = <span class="cstat-no" title="statement not covered" >params.object;</span>
+  const cta = <span class="cstat-no" title="statement not covered" >params.cta;</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead_Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            funnel_uuid: fuuid,
+            category: params.category,
+            label: getLeadFunnelName(params.funnelStep),
+            section,
+            funnel_step: params.funnelStep,
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            event_origin_uri: prepareEventOriginUri(section, object, cta),
+            package_id: params.packageId || getPackageID(),
+            destination_id: params.destinationId,
+            destination_list: params.destinationName,
+            trip_id: getCookie('trip_id') || 0
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const trackCategoryClick = <span class="fstat-no" title="function not covered" >(p</span>arams) =&gt; {
+  const section = <span class="cstat-no" title="statement not covered" >params.section;</span>
+  const object = <span class="cstat-no" title="statement not covered" >params.object;</span>
+  const cta = <span class="cstat-no" title="statement not covered" >params.cta;</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: CATEGORY_CLICK,
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: CATEGORY_CLICK,
+          name: getPageName(),
+          properties: {
+            section,
+            category: `Category Type: ${params.category}`,
+            event_origin_uri: prepareEventOriginUri(section, object, cta),
+            value: DFEAULT_VALUE
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+// const trackDestinationListClicked = (params) =&gt; {
+//   const section = params.section;
+//   const object = params.object;
+//   const cta = params.cta;
+//   const destination = params.destination;
+//   return {
+//     type: DESTINATION_LIST_CLICK,
+//     meta: {
+//       analytics: {
+//         eventType: EventTypes.track,
+//         eventPayload: {
+//           event: DESTINATION_LIST_CLICK,
+//           name: getPageName(),
+//           properties: {
+//             section: params.section,
+//             category: `Destination List: ${destination}`,
+//             destination_list: destination,
+//             event_origin_uri: prepareEventOriginUri(section, object, cta),
+//             value: DFEAULT_VALUE
+//           }
+//         }
+//       }
+//     }
+//   };
+// };
+&nbsp;
+const trackWeekendListClicked = <span class="fstat-no" title="function not covered" >(p</span>arams) =&gt; {
+  const section = <span class="cstat-no" title="statement not covered" >params.section;</span>
+  const object = <span class="cstat-no" title="statement not covered" >params.object;</span>
+  const cta = <span class="cstat-no" title="statement not covered" >params.cta;</span>
+  const destination = <span class="cstat-no" title="statement not covered" >params.destination;</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: WEEKEND_LIST_CLICK,
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: WEEKEND_LIST_CLICK,
+          name: getPageName(),
+          properties: {
+            section: params.section,
+            category: `Near: ${destination}`,
+            destination_list: destination,
+            event_origin_uri: prepareEventOriginUri(section, object, cta),
+            value: DFEAULT_VALUE
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+// const trackPackageListClicked = (params) =&gt; {
+//   const section = params.section;
+//   const object = params.object;
+//   const cta = params.cta;
+//   const destination = params.destination || '';
+//   return {
+//     type: PACKAGE_LIST_CLICK,
+//     meta: {
+//       analytics: {
+//         eventType: EventTypes.track,
+//         eventPayload: {
+//           event: PACKAGE_LIST_CLICK,
+//           name: getPageName(),
+//           properties: {
+//             section: params.section,
+//             category: `Destination: ${destination}`,
+//             label: `Package Type: ${params.category}`,
+//             destination_list: destination,
+//             destination_id: params.destination_id,
+//             event_origin_uri: prepareEventOriginUri(section, object, cta),
+//             value: DFEAULT_VALUE
+//           }
+//         }
+//       }
+//     }
+//   };
+// };
+&nbsp;
+const trackWeekendClicked = <span class="fstat-no" title="function not covered" >(p</span>arams) =&gt; {
+  const section = <span class="cstat-no" title="statement not covered" >params.section;</span>
+  const object = <span class="cstat-no" title="statement not covered" >params.object;</span>
+  const cta = <span class="cstat-no" title="statement not covered" >params.cta;</span>
+  const destination = <span class="cstat-no" title="statement not covered" >params.destination || '';</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: WEEKEND_CLICK,
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: WEEKEND_CLICK,
+          name: getPageName(),
+          properties: {
+            section,
+            value: 1,
+            category: `Destination: ${destination}`,
+            event_origin_uri: prepareEventOriginUri(section, object, cta),
+            destination_id: params.destinationId,
+            destination_list: destination
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+// const trackDestinationClicked = (params) =&gt; {
+//   const section = params.section;
+//   const object = params.object;
+//   const cta = params.cta;
+//   const destination = params.destination || '';
+//   return {
+//     type: DESTINATION_CLICK,
+//     meta: {
+//       analytics: {
+//         eventType: EventTypes.track,
+//         eventPayload: {
+//           event: DESTINATION_CLICK,
+//           name: getPageName(),
+//           properties: {
+//             category: `Destination: ${destination}`,
+//             section,
+//             value: DFEAULT_VALUE,
+//             event_origin_uri: prepareEventOriginUri(section, object, cta),
+//             destination_id: params.destinationId,
+//             destination_list: destination
+//           }
+//         }
+//       }
+//     }
+//   };
+// };
+&nbsp;
+// const trackPackageClicked = (params) =&gt; {
+//   const section = params.section;
+//   const object = params.object;
+//   const cta = params.cta;
+//   const destination = params.destination || '';
+//   return {
+//     type: PACKAGE_CLICKED,
+//     meta: {
+//       analytics: {
+//         eventType: EventTypes.track,
+//         eventPayload: {
+//           event: PACKAGE_CLICKED,
+//           name: getPageName(),
+//           properties: {
+//             category: `Destination: ${destination}`,
+//             // label: `Days: ${params.days}`,
+//             // value: params.price,
+//             // section,
+//             // event_origin_uri: prepareEventOriginUri(section, object, cta),
+//             // destination_id: params.destinationId,
+//             // package_id: params.packageId,
+//             // destination_list: destination
+//           }
+//         }
+//       }
+//     }
+//   };
+// };
+//
+// const trackPackageListViewed = (
+//   {
+//     label,
+//     destination
+//   }
+// ) =&gt; ({
+//   type: PACKAGE_LIST_VIEWED,
+//   meta: {
+//     analytics: {
+//       eventType: EventTypes.track,
+//       eventPayload: {
+//         event: PACKAGE_LIST_VIEWED,
+//         name: getPageName(),
+//         properties: {
+//           category: `Destination:${destination &amp;&amp; 'Unknown'}`,
+//           destination_list: '', // What is this? Most of the time its empty in present product
+//           destination_id: '',
+//           event_origin_uri: prepareEventOriginUri('', '', ''),
+//           label: `Package Type:${label}`,
+//           num_destinations: 0,
+//           package_id: 0,
+//           value: 1
+//         }
+//       }
+//     }
+//   }
+// });
+&nbsp;
+// const trackPackageViewed = (details = {}) =&gt; {
+//   const data = {};
+//   try {
+//     data.destination = details.destinations[0].name || 'Unknown';
+//     data.id = details.id || '';
+//     data.days = details.covers.days || '';
+//   } catch (e) {
+//     console.log(e);
+//   }
+//   return {
+//     type: PACKAGE_VIEWED,
+//     meta: {
+//       analytics: {
+//         eventType: EventTypes.track,
+//         eventPayload: {
+//           event: PACKAGE_VIEWED,
+//           name: getPageName(),
+//           properties: {
+//             category: `Destination:${data.destination}`,
+//             destination_list: '', // What is this? Most of the time its empty in present product
+//             destination_id: '',
+//             event_origin_uri: prepareEventOriginUri('', '', ''),
+//             label: `Days:${data.days}`,
+//             num_destinations: 0,
+//             package_id: data.id,
+//             value: 1
+//           }
+//         }
+//       }
+//     }
+//   };
+// };
+&nbsp;
+// const trackDestinationListViewed = (details = {}) =&gt; {
+//   const data = {};
+//   try {
+//     data.category = details.category || 'All';
+//   } catch (e) {
+//     console.log(e);
+//   }
+//   // TODO: Traveltraingle is tracking same data on all pages. Fix it
+//   return {
+//     type: DESTINATION_LIST_VIEWED,
+//     meta: {
+//       analytics: {
+//         eventType: EventTypes.track,
+//         eventPayload: {
+//           event: DESTINATION_LIST_VIEWED,
+//           name: getPageName(),
+//           properties: {
+//             category: `Destination List:${data.category}`,
+//             destination_list: '', // What is this? Most of the time its empty in present product
+//             destination_id: '',
+//             event_origin_uri: prepareEventOriginUri('', '', ''),
+//             num_destinations: 0,
+//             package_id: 0,
+//             value: DFEAULT_VALUE
+//           }
+//         }
+//       }
+//     }
+//   };
+// };
+&nbsp;
+// const trackDestinationViewed = (details = {}) =&gt; {
+//   const data = {};
+//   try {
+//     data.id = details.destination.id;
+//     data.name = details.destination.name || 'Unknown';
+//   } catch (e) {
+//     console.log(e);
+//   }
+//   return {
+//     type: DESTINATION_VIEWED,
+//     meta: {
+//       analytics: {
+//         eventType: EventTypes.track,
+//         eventPayload: {
+//           event: DESTINATION_VIEWED,
+//           name: getPageName(),
+//           properties: {
+//             category: `Destination:${data.name}`,
+//             destination_list: data.name,
+//             destination_id: data.id,
+//             event_origin_uri: prepareEventOriginUri('', '', ''),
+//             num_destinations: 1,
+//             package_id: 0,
+//             trid_id: null,
+//             value: DFEAULT_VALUE
+//           }
+//         }
+//       }
+//     }
+//   };
+// };
+&nbsp;
+const trackFormOneViewed = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    data.destination = details.to_loc || 'Unknown';</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, details.funnel_uuid);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            label: 'Form1 Viewed',
+            funnel_uuid: details.funnel_uuid,
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri('Form 1', '', ''),
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            funnel_step: 2,
+            num_destinations: 0,
+            package_id: getPackageID(),
+            trip_id: details.trip_id || getCookie('trip_id') || 0
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const trackFormTwoViewed = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    data.destination = details.to_loc || 'Unknown';</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            label: 'Form2 Viewed',
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri('', '', ''),
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            funnel_step: details.funnel_step,
+            funnel_uuid: details.funnel_uuid,
+            num_destinations: 0,
+            package_id: getPackageID(),
+            trip_id: details.trip_id || getCookie('trip_id')
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const identifyPayload = <span class="fstat-no" title="function not covered" >(i</span>dentifyHash = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    if (typeof window !== 'undefined') {</span>
+<span class="cstat-no" title="statement not covered" >      if (typeof window.analytics !== 'undefined') {</span>
+        const uId = <span class="cstat-no" title="statement not covered" >identifyHash.user_id || getCookie('u_id');</span>
+<span class="cstat-no" title="statement not covered" >        window.analytics.identify(uId, {});</span>
+      }
+    }
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  console.log(identifyHash);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'DUM',
+  };
+};
+&nbsp;
+const aliasPayload = <span class="fstat-no" title="function not covered" >(a</span>liasHash = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >  console.log('aliascalled');</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    if (typeof window !== 'undefined') {</span>
+<span class="cstat-no" title="statement not covered" >      if (typeof window.analytics !== 'undefined') {</span>
+        const uId = <span class="cstat-no" title="statement not covered" >aliasHash.user_id || getCookie('u_id');</span>
+<span class="cstat-no" title="statement not covered" >        window.analytics.alias(uId);</span>
+      }
+    }
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'DUM',
+  };
+};
+&nbsp;
+const trackTripAdded = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    data.destination = details.to_loc || 'Unknown';</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, details.funnel_uuid);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri(details.section, details.object, details.cta),
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            funnel_step: details.funnel_step,
+            label: 'Trip Added',
+            num_destinations: 0,
+            package_id: getPackageID(),
+            to_loc: data.destination,
+            trip_id: details.trip_id,
+            funnel_uuid: details.funnel_uuid
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const trackTripUpdated = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    data.destination = details.to_loc || 'Unknown';</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, details.funnel_uuid);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri(details.section, details.object, details.cta),
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            funnel_step: details.funnel_step,
+            funnel_uuid: details.funnel_uuid,
+            label: 'Trip Updated',
+            num_destinations: 0,
+            package_id: getPackageID(),
+            start_date: details.start_date,
+            to_loc: data.to_loc,
+            trip_days: details.trip_days,
+            trip_id: details.trip_id || getCookie('trip_id')
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const trackFormOneInteracted = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    data.destination = details.to_loc || 'Unknown';</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, details.funnel_uuid);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri(details.section, details.object, details.cta),
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            funnel_step: 3,
+            funnel_uuid: details.funnel_uuid,
+            label: getLeadFunnelName(3),
+            num_destinations: 0,
+            package_id: getPackageID(),
+            trip_id: details.trip_id || getCookie('trip_id'),
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const trackFormOneSubmitted = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    data.destination = details.to_loc || 'Unknown';</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, details.funnel_uuid);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri('Request Quotes Button', '', 'Request Quotes'),
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            funnel_step: 4,
+            start_date: details.start_date,
+            trip_days: details.trip_days,
+            trip_stage: getTripStageText(details.trip_stage),
+            funnel_uuid: details.funnel_uuid,
+            label: getLeadFunnelName(4),
+            num_destinations: 0,
+            package_id: getPackageID(),
+            trip_id: details.trip_id || getCookie('trip_id')
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const trackFormTwoSubmitted = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    data.destination = details.to_loc || 'Unknown';</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, details.funnel_uuid);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri('Request Quotes Button', '', 'Request Quotes'),
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            funnel_step: 7,
+            funnel_uuid: details.funnel_uuid,
+            label: getLeadFunnelName(7),
+            num_destinations: 0,
+            package_id: getPackageID(),
+            trip_id: details.trip_id || getCookie('trip_id')
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const trackFormStepSubmitted = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  window.analytics.track('Lead Funnel', {</span>
+    category: `Destination:${details.to_loc || 'unknown'}`,
+    destination_list: '',
+    event_origin_uri: prepareEventOriginUri(details.section, details.object, details.cta),
+    form_variant: getFormType(details),
+    funnel_step: details.funnel_step,
+    label: getLeadFunnelName(details.funnel_step),
+    num_destinations: 0,
+    package_id: getPackageID(),
+    to_loc: details.to_loc,
+    trip_id: details.trip_id,
+    funnel_uuid: details.funnel_uuid
+  });
+};
+&nbsp;
+const trackFormFunnelStep = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    data.destination = details.to_loc || 'Unknown';</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, details.funnel_uuid);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri(details.section, details.object, details.cta),
+            form_variant: getFormType(details),
+            funnel_uuid: details.funnel_uuid,
+            funnel_step: details.funnel_step,
+            label: getLeadFunnelName(details.funnel_step),
+            num_destinations: 0,
+            package_id: getPackageID(),
+            start_date: details.start_date,
+            to_loc: data.destination,
+            trip_days: details.trip_days,
+            trip_id: null,
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const trackFormClosed = <span class="fstat-no" title="function not covered" >(d</span>etails = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; {
+  const data = <span class="cstat-no" title="statement not covered" >{};</span>
+<span class="cstat-no" title="statement not covered" >  data.destination = details.to_loc || 'Unknown';</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  setCookie(FUNNEL_UUID_KEY, details.funnel_uuid);</span>
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: 'Lead Funnel',
+    meta: {
+      analytics: {
+        eventType: EventTypes.track,
+        eventPayload: {
+          event: 'Lead Funnel',
+          name: getPageName(),
+          properties: {
+            category: `Destination:${data.destination}`,
+            destination_list: '',
+            event_origin_uri: prepareEventOriginUri(details.section, details.object, details.cta),
+            form_variant: RTRIP_FORM_VARIANT_NAME,
+            funnel_step: details.funnel_step,
+            funnel_uuid: details.funnel_uuid,
+            label: getLeadFunnelName(details.funnel_step),
+            num_destinations: 0,
+            package_id: getPackageID(),
+            trip_id: details.trip_id || getCookie('trip_id'),
+          }
+        }
+      }
+    }
+  };
+};
+&nbsp;
+const getAnonymousId = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+  let anonymousId = <span class="cstat-no" title="statement not covered" >'';</span>
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    if (typeof window !== 'undefined') {</span>
+<span class="cstat-no" title="statement not covered" >      if (typeof window.analytics !== 'undefined') {</span>
+        const user = <span class="cstat-no" title="statement not covered" >window.analytics.user();</span>
+<span class="cstat-no" title="statement not covered" >        if (typeof user !== 'undefined') {</span>
+<span class="cstat-no" title="statement not covered" >          return user.anonymousId();</span>
+        }
+      }
+    }
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+<span class="cstat-no" title="statement not covered" >  anonymousId = getCookie(ANONYMOUS_ID_COOKIE_NAME);</span>
+<span class="cstat-no" title="statement not covered" >  if (!isTextValid(anonymousId)) {</span>
+<span class="cstat-no" title="statement not covered" >    anonymousId = ANONYMOUS_ID_DEFAULT;</span>
+  } else {
+<span class="cstat-no" title="statement not covered" >    anonymousId = anonymousId.split('%22').join('');</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return anonymousId;</span>
+};
+&nbsp;
+const getFormFilledOn = (adminComment) =&gt; {
+  let result = '';
+  <span class="missing-if-branch" title="else path not taken" >E</span>if (adminComment.indexOf('Form_filled_on') !== -1) {
+    const ar = adminComment.split('Form_filled_on');
+    let urlString = ar[ar.length - 1];
+    urlString = urlString.trim().split(SEGMENT_ADMIN_COMMENT)[0].trim();
+    result = urlString || <span class="branch-1 cbranch-no" title="branch not covered" >'';</span>
+  }
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (result.length === 0) {
+<span class="cstat-no" title="statement not covered" >    if (typeof document !== 'undefined') {</span>
+<span class="cstat-no" title="statement not covered" >      result = document.referrer;</span>
+    }
+  }
+  return result;
+};
+&nbsp;
+const trackPagePayload = <span class="fstat-no" title="function not covered" >(u</span>uids = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  title: document.title,
+  referrer: encodeURIComponent(document.referrer),
+  path: window.location.pathname,
+  event_timestamp: new Date(),
+  platform: 'public_mweb',
+  page_uuid: uuids.page_id,
+  session_uuid: uuids.session_id,
+  landing_page_uuid: uuids.landing_id,
+  referer_page_uuid: uuids.referer_id,
+  page_fullname: getFullPageName(),
+  name: getPageName(),
+  page_name: getPageName(),
+  url: getPageUrl(),
+  ajs_user_id: getAnonymousId(),
+  user_role: getCookie('u_role'),
+  user_id: getCookie('u_id'),
+  search: window.location.search,
+  sequence_number: parseInt(getCounter(), 10) || 1,
+  destination_list: getCookie('cb_dt'),
+  trip_id: parseInt(getCookie(TRIP_ID_COOKIE_KEY), 10) || 0,
+  context_campaign_content: getQueryVariable('utm_content'),
+  context_campaign_medium: getQueryVariable('utm_medium'),
+  context_campaign_name: getQueryVariable('utm_campaign'),
+  context_campaign_source: getQueryVariable('utm_source'),
+  context_campaign_term: getQueryVariable('utm_term'),
+  context_user_agent: encodeURIComponent(navigator.userAgent),
+  context_ip: '',
+  destination_id: getCookie('__adid'),
+  destination_type: getCookie('__adtp'),
+  num_destinations: getCookie('__cdsns'),
+});
+&nbsp;
+//TODO: Brij find better solution to send use profiling information on event channel.
+async function <span class="fstat-no" title="function not covered" >subscribeToRtms(</span>{userId}) {
+  const channel = <span class="cstat-no" title="statement not covered" >RtmsChannels.EVENTS;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  try{</span>
+<span class="cstat-no" title="statement not covered" >    window.profilingSubscription = await getRtmsConnection({userId, channel,loggedInUser: false});</span>
+    let message;
+<span class="cstat-no" title="statement not covered" >    while(message = eventsQueue.removeEvent()){</span>
+<span class="cstat-no" title="statement not covered" >      window.profilingSubscription.sendEvent({content: message});</span>
+    }
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  trackSegment(Object.assign({}, trackPagePayload({</span>
+    page_id: getCookie(PAGE_UUID_COOKIE_KEY),
+    session_id: getCookie(SESSION_UUID_COOKIE_KEY),
+    referer_id: getCookie(REFERER_UUID_KEY),
+    landing_id: getCookie(LANDING_UUID_COOKIE_KEY)
+  }), {event: "Prod Page Call", anonymousId: getAnonymousId()}));
+}
+&nbsp;
+const connectToRtmsProfling = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >  subscribeToRtms({userId: getUserProfilingId()});</span>
+};
+&nbsp;
+function getUserProfilingId() {
+  let uid = getCookie('_upanid');
+  if(!uid) {
+    uid = getRandomString(40);
+    setCookie('_upanid', uid);
+  }
+  return uid;
+}
+&nbsp;
+export {
+  PLATFORM,
+  trackLeadFunnelClick,
+  trackCategoryClick,
+  trackWeekendClicked,
+  trackWeekendListClicked,
+  prepareEventOriginUri,
+  sanitize,
+  trackFormOneViewed,
+  trackFormTwoViewed,
+  SESSION_UUID_COOKIE_KEY,
+  PAGE_UUID_COOKIE_KEY,
+  PREV_PAGE_UUID_COOKIE_KEY,
+  LANDING_UUID_COOKIE_KEY,
+  REFERER_UUID_KEY,
+  FUNNEL_UUID_KEY,
+  identifyPayload,
+  aliasPayload,
+  SEGMENT_ADMIN_COMMENT,
+  DEFAULT_PAGE,
+  trackTripUpdated,
+  trackTripAdded,
+  trackFormOneInteracted,
+  trackFormOneSubmitted,
+  trackFormTwoSubmitted,
+  getAnonymousId,
+  getFormFilledOn,
+  trackFormFunnelStep,
+  trackSegment,
+  initializeScroller,
+  onScroll,
+  getFormType,
+  getLeadFunnelName,
+  trackFormStepSubmitted,
+  setCookie,
+  PAGE_SCROLLED,
+  PACKAGE_LIST_CLICK,
+  DESTINATION_CLICK,
+  DESTINATION_VIEWED,
+  WEEKEND_CLICK,
+  DFEAULT_VALUE,
+  PACKAGE_CLICKED,
+  PACKAGE_VIEWED,
+  PACKAGE_LIST_VIEWED,
+  DESTINATION_LIST_VIEWED,
+  DESTINATION_LIST_CLICK,
+  PACKAGE_COMPARE_ADDED,
+  PACKAGE_COMPARE_CLICKED,
+  DEFAULT_VALUE,
+  FILTER_CLICKED,
+  SORT_CLICKED,
+  FAQS_CLICKED,
+  PACKAGE_INTERACTED,
+  TRIP_ID_COOKIE_KEY,
+  USER_ROLE_COOKIE_KEY,
+  USER_ID_COOKIE_KEY,
+  trackPagePayload,
+  ORGANISM_VIEWED,
+  HOTEL_CATEGORY_CLICKED,
+  PDP_PAGE_VIEW,
+  ORGANISM_CLICKED,
+  trackFormClosed,
+  connectToRtmsProfling,
+  PLP_PAGE_VIEW
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

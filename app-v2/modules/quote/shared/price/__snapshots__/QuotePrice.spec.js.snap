@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Price: Render Correctly  should match with the previous snapshot 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "getWrappingComponentRenderer": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+    "wrapInvoke": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "currency": "Rupee",
+      "discount": 0,
+      "hasDiscountApplied": false,
+      "lineBreak": false,
+      "perPerson": "per person",
+      "price": 121212,
+      "showOriginalPrice": true,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div>
+        <span
+          class="sfc3 f18 fw7 m0 flexFull text-left at_price"
+        >
+          ₹121,212
+        </span>
+        <span
+          class="f12 pfc4 fw4"
+        >
+           /person
+        </span>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Price
+            currency="Rupee"
+            perPerson="per person"
+            price={121212}
+          />,
+          <PriceSuffix
+            suffix="per person"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "currency": "Rupee",
+            "perPerson": "per person",
+            "price": 121212,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": <span
+              class="sfc3 f18 fw7 m0 flexFull text-left at_price"
+            >
+              ₹121,212
+            </span>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "₹121,212",
+              "className": "sfc3 f18 fw7 m0 flexFull text-left at_price",
+            },
+            "ref": null,
+            "rendered": Array [
+              "₹121,212",
+            ],
+            "type": "span",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "suffix": "per person",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": <span
+              class="f12 pfc4 fw4"
+            >
+               /person
+            </span>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " /person",
+              "className": "f12 pfc4 fw4",
+            },
+            "ref": null,
+            "rendered": Array [
+              " /person",
+            ],
+            "type": "span",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "currency": "Rupee",
+        "discount": 0,
+        "hasDiscountApplied": false,
+        "lineBreak": false,
+        "perPerson": "per person",
+        "price": 121212,
+        "showOriginalPrice": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div>
+          <span
+            class="sfc3 f18 fw7 m0 flexFull text-left at_price"
+          >
+            ₹121,212
+          </span>
+          <span
+            class="f12 pfc4 fw4"
+          >
+             /person
+          </span>
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Price
+              currency="Rupee"
+              perPerson="per person"
+              price={121212}
+            />,
+            <PriceSuffix
+              suffix="per person"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "currency": "Rupee",
+              "perPerson": "per person",
+              "price": 121212,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <span
+                class="sfc3 f18 fw7 m0 flexFull text-left at_price"
+              >
+                ₹121,212
+              </span>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "₹121,212",
+                "className": "sfc3 f18 fw7 m0 flexFull text-left at_price",
+              },
+              "ref": null,
+              "rendered": Array [
+                "₹121,212",
+              ],
+              "type": "span",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "suffix": "per person",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <span
+                class="f12 pfc4 fw4"
+              >
+                 /person
+              </span>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " /person",
+                "className": "f12 pfc4 fw4",
+              },
+              "ref": null,
+              "rendered": Array [
+                " /person",
+              ],
+              "type": "span",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__linkedRoots__): Array [],
+  Symbol(enzyme.__unrendered__): <QuotePrice
+    currency="Rupee"
+    discount={0}
+    hasDiscountApplied={false}
+    lineBreak={false}
+    perPerson="per person"
+    price={121212}
+    showOriginalPrice={true}
+  />,
+  Symbol(enzyme.__updatedBy__): null,
+}
+`;

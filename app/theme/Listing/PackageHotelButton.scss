@@ -1,0 +1,12 @@
+
+  .packagehotel-radio-box .checkbox-common + label{
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    padding-top: 1px;
+    font-weight: 400;
+    padding-bottom: 1px;
+  }
+    .packagehotel-radio-box .checkbox-common + label::before {
+      border-radius: 100%;
+  }

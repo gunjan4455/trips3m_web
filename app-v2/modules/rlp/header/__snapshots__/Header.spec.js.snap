@@ -1,0 +1,692 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rlp Header: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    currentTrip={
+      Object {
+        "id": "1111",
+        "quotesCount": 2,
+        "status": "",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="sbc4 p8 flex alignCenter spaceBetween"
+        >
+          <div
+            className="col-xs-7 pl0 pr4 flexFull"
+          >
+            <withRouter(Connect(Dropdown))
+              currentTripId="1111"
+            />
+          </div>
+          <ForwardRef(render)
+            className="col-xs-5 pl4 pr0"
+          >
+            <ViewPreferencesButton
+              currentTripId="1111"
+              tripStatus=""
+            />
+          </ForwardRef(render)>
+        </div>,
+        <div
+          className="sbc5 pl15 pr15 pt15 pb24 flex alignCenter spaceBetween"
+        >
+          <p
+            className="f14 pfc5 at_bookingID"
+          >
+            Booking ID #1111
+          </p>
+        </div>,
+        <div
+          className="p15 sbcw at_compareCta_section"
+        >
+          <p
+            className="f14 text-center pfc3 mb5"
+          >
+            You have received 2 quotes and you can
+          </p>
+          <a
+            className="text-center pt8 pb8 block wfull btn-sec-load at_comparequotes"
+            href="/requested_trips/1111/compare"
+          >
+            <span
+              className="pt2 pb2 block wfull flex alignCenter justifyCenter"
+            >
+              <span
+                className="icon-18 mr8 iblock"
+              >
+                <IconSvg />
+              </span>
+              <span>
+                Compare Quotes
+              </span>
+            </span>
+          </a>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="col-xs-7 pl0 pr4 flexFull"
+            >
+              <withRouter(Connect(Dropdown))
+                currentTripId="1111"
+              />
+            </div>,
+            <ForwardRef(render)
+              className="col-xs-5 pl4 pr0"
+            >
+              <ViewPreferencesButton
+                currentTripId="1111"
+                tripStatus=""
+              />
+            </ForwardRef(render)>,
+          ],
+          "className": "sbc4 p8 flex alignCenter spaceBetween",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <withRouter(Connect(Dropdown))
+                currentTripId="1111"
+              />,
+              "className": "col-xs-7 pl0 pr4 flexFull",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "currentTripId": "1111",
+                "trackSegment": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <ViewPreferencesButton
+                currentTripId="1111"
+                tripStatus=""
+              />,
+              "className": "col-xs-5 pl4 pr0",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "currentTripId": "1111",
+                "trackSegment": undefined,
+                "tripStatus": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "flex": "0 0 135px",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="f14 pfc5 at_bookingID"
+            >
+              Booking ID #1111
+            </p>,
+            null,
+          ],
+          "className": "sbc5 pl15 pr15 pt15 pb24 flex alignCenter spaceBetween",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Booking ID #1111",
+              "className": "f14 pfc5 at_bookingID",
+            },
+            "ref": null,
+            "rendered": "Booking ID #1111",
+            "type": "p",
+          },
+          null,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p
+              className="f14 text-center pfc3 mb5"
+            >
+              You have received 2 quotes and you can
+            </p>,
+            <a
+              className="text-center pt8 pb8 block wfull btn-sec-load at_comparequotes"
+              href="/requested_trips/1111/compare"
+            >
+              <span
+                className="pt2 pb2 block wfull flex alignCenter justifyCenter"
+              >
+                <span
+                  className="icon-18 mr8 iblock"
+                >
+                  <IconSvg />
+                </span>
+                <span>
+                  Compare Quotes
+                </span>
+              </span>
+            </a>,
+          ],
+          "className": "p15 sbcw at_compareCta_section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "You have received 2 quotes and you can",
+              "className": "f14 text-center pfc3 mb5",
+            },
+            "ref": null,
+            "rendered": "You have received 2 quotes and you can",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span
+                className="pt2 pb2 block wfull flex alignCenter justifyCenter"
+              >
+                <span
+                  className="icon-18 mr8 iblock"
+                >
+                  <IconSvg />
+                </span>
+                <span>
+                  Compare Quotes
+                </span>
+              </span>,
+              "className": "text-center pt8 pb8 block wfull btn-sec-load at_comparequotes",
+              "href": "/requested_trips/1111/compare",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="icon-18 mr8 iblock"
+                  >
+                    <IconSvg />
+                  </span>,
+                  <span>
+                    Compare Quotes
+                  </span>,
+                ],
+                "className": "pt2 pb2 block wfull flex alignCenter justifyCenter",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "icon-18 mr8 iblock",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Compare Quotes",
+                  },
+                  "ref": null,
+                  "rendered": "Compare Quotes",
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="sbc4 p8 flex alignCenter spaceBetween"
+          >
+            <div
+              className="col-xs-7 pl0 pr4 flexFull"
+            >
+              <withRouter(Connect(Dropdown))
+                currentTripId="1111"
+              />
+            </div>
+            <ForwardRef(render)
+              className="col-xs-5 pl4 pr0"
+            >
+              <ViewPreferencesButton
+                currentTripId="1111"
+                tripStatus=""
+              />
+            </ForwardRef(render)>
+          </div>,
+          <div
+            className="sbc5 pl15 pr15 pt15 pb24 flex alignCenter spaceBetween"
+          >
+            <p
+              className="f14 pfc5 at_bookingID"
+            >
+              Booking ID #1111
+            </p>
+          </div>,
+          <div
+            className="p15 sbcw at_compareCta_section"
+          >
+            <p
+              className="f14 text-center pfc3 mb5"
+            >
+              You have received 2 quotes and you can
+            </p>
+            <a
+              className="text-center pt8 pb8 block wfull btn-sec-load at_comparequotes"
+              href="/requested_trips/1111/compare"
+            >
+              <span
+                className="pt2 pb2 block wfull flex alignCenter justifyCenter"
+              >
+                <span
+                  className="icon-18 mr8 iblock"
+                >
+                  <IconSvg />
+                </span>
+                <span>
+                  Compare Quotes
+                </span>
+              </span>
+            </a>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col-xs-7 pl0 pr4 flexFull"
+              >
+                <withRouter(Connect(Dropdown))
+                  currentTripId="1111"
+                />
+              </div>,
+              <ForwardRef(render)
+                className="col-xs-5 pl4 pr0"
+              >
+                <ViewPreferencesButton
+                  currentTripId="1111"
+                  tripStatus=""
+                />
+              </ForwardRef(render)>,
+            ],
+            "className": "sbc4 p8 flex alignCenter spaceBetween",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <withRouter(Connect(Dropdown))
+                  currentTripId="1111"
+                />,
+                "className": "col-xs-7 pl0 pr4 flexFull",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "currentTripId": "1111",
+                  "trackSegment": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <ViewPreferencesButton
+                  currentTripId="1111"
+                  tripStatus=""
+                />,
+                "className": "col-xs-5 pl4 pr0",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "currentTripId": "1111",
+                  "trackSegment": undefined,
+                  "tripStatus": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "flex": "0 0 135px",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="f14 pfc5 at_bookingID"
+              >
+                Booking ID #1111
+              </p>,
+              null,
+            ],
+            "className": "sbc5 pl15 pr15 pt15 pb24 flex alignCenter spaceBetween",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Booking ID #1111",
+                "className": "f14 pfc5 at_bookingID",
+              },
+              "ref": null,
+              "rendered": "Booking ID #1111",
+              "type": "p",
+            },
+            null,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="f14 text-center pfc3 mb5"
+              >
+                You have received 2 quotes and you can
+              </p>,
+              <a
+                className="text-center pt8 pb8 block wfull btn-sec-load at_comparequotes"
+                href="/requested_trips/1111/compare"
+              >
+                <span
+                  className="pt2 pb2 block wfull flex alignCenter justifyCenter"
+                >
+                  <span
+                    className="icon-18 mr8 iblock"
+                  >
+                    <IconSvg />
+                  </span>
+                  <span>
+                    Compare Quotes
+                  </span>
+                </span>
+              </a>,
+            ],
+            "className": "p15 sbcw at_compareCta_section",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "You have received 2 quotes and you can",
+                "className": "f14 text-center pfc3 mb5",
+              },
+              "ref": null,
+              "rendered": "You have received 2 quotes and you can",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span
+                  className="pt2 pb2 block wfull flex alignCenter justifyCenter"
+                >
+                  <span
+                    className="icon-18 mr8 iblock"
+                  >
+                    <IconSvg />
+                  </span>
+                  <span>
+                    Compare Quotes
+                  </span>
+                </span>,
+                "className": "text-center pt8 pb8 block wfull btn-sec-load at_comparequotes",
+                "href": "/requested_trips/1111/compare",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="icon-18 mr8 iblock"
+                    >
+                      <IconSvg />
+                    </span>,
+                    <span>
+                      Compare Quotes
+                    </span>,
+                  ],
+                  "className": "pt2 pb2 block wfull flex alignCenter justifyCenter",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "icon-18 mr8 iblock",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Compare Quotes",
+                    },
+                    "ref": null,
+                    "rendered": "Compare Quotes",
+                    "type": "span",
+                  },
+                ],
+                "type": "span",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

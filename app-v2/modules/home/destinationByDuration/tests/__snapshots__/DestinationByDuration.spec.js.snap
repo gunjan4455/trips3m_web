@@ -1,0 +1,4269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DestinationByDuration: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DestinationByDuration
+    destination=""
+    destinations={
+      Object {
+        "default": Object {
+          "durations": Array [
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/europe",
+                  "name": "europe",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/canada",
+                  "name": "canada",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "1 to 3 days",
+              "value": "2-3",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "4 to 6 days",
+              "value": "4-6",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "7 to 9 days",
+              "value": "7-9",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "10 to 12 days",
+              "value": "10-12",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "13 days or more",
+              "value": "13<=",
+            },
+          ],
+          "key": "default",
+          "title": "Default Destinations",
+        },
+        "domestic": Object {
+          "durations": Array [
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "1 to 3 days",
+              "value": "2-3",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "4 to 6 days",
+              "value": "4-6",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "7 to 9 days",
+              "value": "7-9",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "10 to 12 days",
+              "value": "10-12",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "13 days or more",
+              "value": "13<=",
+            },
+          ],
+          "key": "domestic",
+          "title": "Destinations within India",
+        },
+        "international": Object {
+          "durations": Array [
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/europe",
+                  "name": "europe",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/canada",
+                  "name": "canada",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "1 to 3 days",
+              "value": "2-3",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "4 to 6 days",
+              "value": "4-6",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "7 to 9 days",
+              "value": "7-9",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "10 to 12 days",
+              "value": "10-12",
+            },
+            Object {
+              "destinations": Array [
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/kerala",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/himachal",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/goa",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/ladakh",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "/tour-packages/andaman",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+              ],
+              "title": "13 days or more",
+              "value": "13<=",
+            },
+          ],
+          "key": "international",
+          "title": "International Destinations",
+        },
+      }
+    }
+    trackSegmentEvent={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Element
+        className="clearfix"
+        id="trips_by_duration"
+        name="section__allpackages"
+      >
+        <div
+          className="pl24 pr24"
+        >
+          <p
+            className="f20 fw9 mb24"
+          >
+            Explore best selling packages
+          </p>
+          <div
+            className="flex spaceBetween at_packages_tabGroup"
+          >
+            <div
+              className="flexFull pr8 at_packages_tab"
+            >
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips"
+                  id="International Destinations"
+                  name="packageByDestination"
+                  onChange={[Function]}
+                  type="radio"
+                  value="International"
+                />
+                <label
+                  htmlFor="International Destinations"
+                >
+                  International
+                </label>
+              </div>
+            </div>
+            <div
+              className="flexFull pl8 at_packages_tab"
+            >
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips"
+                  id="Destinations within India"
+                  name="packageByDestination"
+                  onChange={[Function]}
+                  type="radio"
+                  value="Within India "
+                />
+                <label
+                  htmlFor="Destinations within India"
+                >
+                  Within India 
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="pt32 pb24"
+        >
+          <Swiper
+            id="destination_duration_filters"
+            isFullWidthSwiper={false}
+            isSmallSwiper={true}
+            loadOnDocumentReady={false}
+            slideClass="slide"
+            slidesOffsetAfter={24}
+            slidesOffsetBefore={32}
+            slidesPerView="auto"
+            spaceBetween={8}
+            ssrAnimation={Object {}}
+            type=""
+          >
+            <div>
+              <input
+                checked={false}
+                className="input-chips chips_sm"
+                id="1 to 3 days"
+                name="destination_duration"
+                onChange={[Function]}
+                type="radio"
+              />
+              <label
+                htmlFor="1 to 3 days"
+              >
+                1 to 3 days
+              </label>
+            </div>
+            <div>
+              <input
+                checked={true}
+                className="input-chips chips_sm"
+                id="4 to 6 days"
+                name="destination_duration"
+                onChange={[Function]}
+                type="radio"
+              />
+              <label
+                htmlFor="4 to 6 days"
+              >
+                4 to 6 days
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                className="input-chips chips_sm"
+                id="7 to 9 days"
+                name="destination_duration"
+                onChange={[Function]}
+                type="radio"
+              />
+              <label
+                htmlFor="7 to 9 days"
+              >
+                7 to 9 days
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                className="input-chips chips_sm"
+                id="10 to 12 days"
+                name="destination_duration"
+                onChange={[Function]}
+                type="radio"
+              />
+              <label
+                htmlFor="10 to 12 days"
+              >
+                10 to 12 days
+              </label>
+            </div>
+            <div>
+              <input
+                checked={false}
+                className="input-chips chips_sm"
+                id="13 days or more"
+                name="destination_duration"
+                onChange={[Function]}
+                type="radio"
+              />
+              <label
+                htmlFor="13 days or more"
+              >
+                13 days or more
+              </label>
+            </div>
+          </Swiper>
+        </div>
+        <Swiper
+          id="packageByDuration"
+          isFullWidthSwiper={false}
+          isSmallSwiper={true}
+          loadOnDocumentReady={false}
+          slideClass="slide"
+          slidesOffsetAfter={24}
+          slidesOffsetBefore={24}
+          slidesPerView="auto"
+          spaceBetween={15}
+          ssrAnimation={
+            Object {
+              "height": 150,
+              "width": 120,
+            }
+          }
+          type=""
+        >
+          <div>
+            <SlideItem
+              bestTimeToVisit={
+                Array [
+                  2,
+                  5,
+                ]
+              }
+              id={56}
+              imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+              link="//tour-packages/kerala?days[]=4-6"
+              name="Kerala"
+              packageCount={100}
+              startingPrice={4000}
+            />
+          </div>
+          <div>
+            <SlideItem
+              bestTimeToVisit={
+                Array [
+                  2,
+                  5,
+                ]
+              }
+              id={57}
+              imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+              link="//tour-packages/himachal?days[]=4-6"
+              name="Himachal"
+              packageCount={101}
+              startingPrice={4000}
+            />
+          </div>
+          <div>
+            <SlideItem
+              bestTimeToVisit={
+                Array [
+                  2,
+                  5,
+                ]
+              }
+              id={58}
+              imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+              link="//tour-packages/goa?days[]=4-6"
+              name="Goa"
+              packageCount={102}
+              startingPrice={4000}
+            />
+          </div>
+          <div>
+            <SlideItem
+              bestTimeToVisit={
+                Array [
+                  2,
+                  5,
+                ]
+              }
+              id={59}
+              imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+              link="//tour-packages/ladakh?days[]=4-6"
+              name="Ladakh"
+              packageCount={103}
+              startingPrice={4000}
+            />
+          </div>
+          <div>
+            <SlideItem
+              bestTimeToVisit={
+                Array [
+                  2,
+                  5,
+                ]
+              }
+              id={60}
+              imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+              link="//tour-packages/andaman?days[]=4-6"
+              name="Andaman"
+              packageCount={104}
+              startingPrice={4000}
+            />
+          </div>
+        </Swiper>
+      </Element>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="pl24 pr24"
+          >
+            <p
+              className="f20 fw9 mb24"
+            >
+              Explore best selling packages
+            </p>
+            <div
+              className="flex spaceBetween at_packages_tabGroup"
+            >
+              <div
+                className="flexFull pr8 at_packages_tab"
+              >
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips"
+                    id="International Destinations"
+                    name="packageByDestination"
+                    onChange={[Function]}
+                    type="radio"
+                    value="International"
+                  />
+                  <label
+                    htmlFor="International Destinations"
+                  >
+                    International
+                  </label>
+                </div>
+              </div>
+              <div
+                className="flexFull pl8 at_packages_tab"
+              >
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips"
+                    id="Destinations within India"
+                    name="packageByDestination"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Within India "
+                  />
+                  <label
+                    htmlFor="Destinations within India"
+                  >
+                    Within India 
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>,
+          <div
+            className="pt32 pb24"
+          >
+            <Swiper
+              id="destination_duration_filters"
+              isFullWidthSwiper={false}
+              isSmallSwiper={true}
+              loadOnDocumentReady={false}
+              slideClass="slide"
+              slidesOffsetAfter={24}
+              slidesOffsetBefore={32}
+              slidesPerView="auto"
+              spaceBetween={8}
+              ssrAnimation={Object {}}
+              type=""
+            >
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="1 to 3 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="1 to 3 days"
+                >
+                  1 to 3 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={true}
+                  className="input-chips chips_sm"
+                  id="4 to 6 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="4 to 6 days"
+                >
+                  4 to 6 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="7 to 9 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="7 to 9 days"
+                >
+                  7 to 9 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="10 to 12 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="10 to 12 days"
+                >
+                  10 to 12 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="13 days or more"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="13 days or more"
+                >
+                  13 days or more
+                </label>
+              </div>
+            </Swiper>
+          </div>,
+          <Swiper
+            id="packageByDuration"
+            isFullWidthSwiper={false}
+            isSmallSwiper={true}
+            loadOnDocumentReady={false}
+            slideClass="slide"
+            slidesOffsetAfter={24}
+            slidesOffsetBefore={24}
+            slidesPerView="auto"
+            spaceBetween={15}
+            ssrAnimation={
+              Object {
+                "height": 150,
+                "width": 120,
+              }
+            }
+            type=""
+          >
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={56}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/kerala?days[]=4-6"
+                name="Kerala"
+                packageCount={100}
+                startingPrice={4000}
+              />
+            </div>
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={57}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/himachal?days[]=4-6"
+                name="Himachal"
+                packageCount={101}
+                startingPrice={4000}
+              />
+            </div>
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={58}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/goa?days[]=4-6"
+                name="Goa"
+                packageCount={102}
+                startingPrice={4000}
+              />
+            </div>
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={59}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/ladakh?days[]=4-6"
+                name="Ladakh"
+                packageCount={103}
+                startingPrice={4000}
+              />
+            </div>
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={60}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/andaman?days[]=4-6"
+                name="Andaman"
+                packageCount={104}
+                startingPrice={4000}
+              />
+            </div>
+          </Swiper>,
+        ],
+        "className": "clearfix",
+        "id": "trips_by_duration",
+        "name": "section__allpackages",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="f20 fw9 mb24"
+              >
+                Explore best selling packages
+              </p>,
+              <div
+                className="flex spaceBetween at_packages_tabGroup"
+              >
+                <div
+                  className="flexFull pr8 at_packages_tab"
+                >
+                  <div>
+                    <input
+                      checked={false}
+                      className="input-chips"
+                      id="International Destinations"
+                      name="packageByDestination"
+                      onChange={[Function]}
+                      type="radio"
+                      value="International"
+                    />
+                    <label
+                      htmlFor="International Destinations"
+                    >
+                      International
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="flexFull pl8 at_packages_tab"
+                >
+                  <div>
+                    <input
+                      checked={false}
+                      className="input-chips"
+                      id="Destinations within India"
+                      name="packageByDestination"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Within India "
+                    />
+                    <label
+                      htmlFor="Destinations within India"
+                    >
+                      Within India 
+                    </label>
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "pl24 pr24",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Explore best selling packages",
+                "className": "f20 fw9 mb24",
+              },
+              "ref": null,
+              "rendered": "Explore best selling packages",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="flexFull pr8 at_packages_tab"
+                  >
+                    <div>
+                      <input
+                        checked={false}
+                        className="input-chips"
+                        id="International Destinations"
+                        name="packageByDestination"
+                        onChange={[Function]}
+                        type="radio"
+                        value="International"
+                      />
+                      <label
+                        htmlFor="International Destinations"
+                      >
+                        International
+                      </label>
+                    </div>
+                  </div>,
+                  <div
+                    className="flexFull pl8 at_packages_tab"
+                  >
+                    <div>
+                      <input
+                        checked={false}
+                        className="input-chips"
+                        id="Destinations within India"
+                        name="packageByDestination"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Within India "
+                      />
+                      <label
+                        htmlFor="Destinations within India"
+                      >
+                        Within India 
+                      </label>
+                    </div>
+                  </div>,
+                ],
+                "className": "flex spaceBetween at_packages_tabGroup",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div>
+                      <input
+                        checked={false}
+                        className="input-chips"
+                        id="International Destinations"
+                        name="packageByDestination"
+                        onChange={[Function]}
+                        type="radio"
+                        value="International"
+                      />
+                      <label
+                        htmlFor="International Destinations"
+                      >
+                        International
+                      </label>
+                    </div>,
+                    "className": "flexFull pr8 at_packages_tab",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          checked={false}
+                          className="input-chips"
+                          id="International Destinations"
+                          name="packageByDestination"
+                          onChange={[Function]}
+                          type="radio"
+                          value="International"
+                        />,
+                        <label
+                          htmlFor="International Destinations"
+                        >
+                          International
+                        </label>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "checked": false,
+                          "className": "input-chips",
+                          "id": "International Destinations",
+                          "name": "packageByDestination",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "International",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "International",
+                          "htmlFor": "International Destinations",
+                        },
+                        "ref": null,
+                        "rendered": "International",
+                        "type": "label",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div>
+                      <input
+                        checked={false}
+                        className="input-chips"
+                        id="Destinations within India"
+                        name="packageByDestination"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Within India "
+                      />
+                      <label
+                        htmlFor="Destinations within India"
+                      >
+                        Within India 
+                      </label>
+                    </div>,
+                    "className": "flexFull pl8 at_packages_tab",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <input
+                          checked={false}
+                          className="input-chips"
+                          id="Destinations within India"
+                          name="packageByDestination"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Within India "
+                        />,
+                        <label
+                          htmlFor="Destinations within India"
+                        >
+                          Within India 
+                        </label>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "checked": false,
+                          "className": "input-chips",
+                          "id": "Destinations within India",
+                          "name": "packageByDestination",
+                          "onChange": [Function],
+                          "type": "radio",
+                          "value": "Within India ",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "input",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Within India ",
+                          "htmlFor": "Destinations within India",
+                        },
+                        "ref": null,
+                        "rendered": "Within India ",
+                        "type": "label",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Swiper
+              id="destination_duration_filters"
+              isFullWidthSwiper={false}
+              isSmallSwiper={true}
+              loadOnDocumentReady={false}
+              slideClass="slide"
+              slidesOffsetAfter={24}
+              slidesOffsetBefore={32}
+              slidesPerView="auto"
+              spaceBetween={8}
+              ssrAnimation={Object {}}
+              type=""
+            >
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="1 to 3 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="1 to 3 days"
+                >
+                  1 to 3 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={true}
+                  className="input-chips chips_sm"
+                  id="4 to 6 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="4 to 6 days"
+                >
+                  4 to 6 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="7 to 9 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="7 to 9 days"
+                >
+                  7 to 9 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="10 to 12 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="10 to 12 days"
+                >
+                  10 to 12 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="13 days or more"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="13 days or more"
+                >
+                  13 days or more
+                </label>
+              </div>
+            </Swiper>,
+            "className": "pt32 pb24",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="1 to 3 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="1 to 3 days"
+                  >
+                    1 to 3 days
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={true}
+                    className="input-chips chips_sm"
+                    id="4 to 6 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="4 to 6 days"
+                  >
+                    4 to 6 days
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="7 to 9 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="7 to 9 days"
+                  >
+                    7 to 9 days
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="10 to 12 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="10 to 12 days"
+                  >
+                    10 to 12 days
+                  </label>
+                </div>,
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="13 days or more"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="13 days or more"
+                  >
+                    13 days or more
+                  </label>
+                </div>,
+              ],
+              "id": "destination_duration_filters",
+              "isFullWidthSwiper": false,
+              "isSmallSwiper": true,
+              "loadOnDocumentReady": false,
+              "slideClass": "slide",
+              "slidesOffsetAfter": 24,
+              "slidesOffsetBefore": 32,
+              "slidesPerView": "auto",
+              "spaceBetween": 8,
+              "ssrAnimation": Object {},
+              "type": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="input-chips chips_sm"
+                      id="1 to 3 days"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />,
+                    <label
+                      htmlFor="1 to 3 days"
+                    >
+                      1 to 3 days
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "input-chips chips_sm",
+                      "id": "1 to 3 days",
+                      "name": "destination_duration",
+                      "onChange": [Function],
+                      "type": "radio",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "1 to 3 days",
+                      "htmlFor": "1 to 3 days",
+                    },
+                    "ref": null,
+                    "rendered": "1 to 3 days",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={true}
+                      className="input-chips chips_sm"
+                      id="4 to 6 days"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />,
+                    <label
+                      htmlFor="4 to 6 days"
+                    >
+                      4 to 6 days
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": true,
+                      "className": "input-chips chips_sm",
+                      "id": "4 to 6 days",
+                      "name": "destination_duration",
+                      "onChange": [Function],
+                      "type": "radio",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "4 to 6 days",
+                      "htmlFor": "4 to 6 days",
+                    },
+                    "ref": null,
+                    "rendered": "4 to 6 days",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="input-chips chips_sm"
+                      id="7 to 9 days"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />,
+                    <label
+                      htmlFor="7 to 9 days"
+                    >
+                      7 to 9 days
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "input-chips chips_sm",
+                      "id": "7 to 9 days",
+                      "name": "destination_duration",
+                      "onChange": [Function],
+                      "type": "radio",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "7 to 9 days",
+                      "htmlFor": "7 to 9 days",
+                    },
+                    "ref": null,
+                    "rendered": "7 to 9 days",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="input-chips chips_sm"
+                      id="10 to 12 days"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />,
+                    <label
+                      htmlFor="10 to 12 days"
+                    >
+                      10 to 12 days
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "input-chips chips_sm",
+                      "id": "10 to 12 days",
+                      "name": "destination_duration",
+                      "onChange": [Function],
+                      "type": "radio",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "10 to 12 days",
+                      "htmlFor": "10 to 12 days",
+                    },
+                    "ref": null,
+                    "rendered": "10 to 12 days",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <input
+                      checked={false}
+                      className="input-chips chips_sm"
+                      id="13 days or more"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />,
+                    <label
+                      htmlFor="13 days or more"
+                    >
+                      13 days or more
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "checked": false,
+                      "className": "input-chips chips_sm",
+                      "id": "13 days or more",
+                      "name": "destination_duration",
+                      "onChange": [Function],
+                      "type": "radio",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "input",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "13 days or more",
+                      "htmlFor": "13 days or more",
+                    },
+                    "ref": null,
+                    "rendered": "13 days or more",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={56}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/kerala?days[]=4-6"
+                  name="Kerala"
+                  packageCount={100}
+                  startingPrice={4000}
+                />
+              </div>,
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={57}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/himachal?days[]=4-6"
+                  name="Himachal"
+                  packageCount={101}
+                  startingPrice={4000}
+                />
+              </div>,
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={58}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/goa?days[]=4-6"
+                  name="Goa"
+                  packageCount={102}
+                  startingPrice={4000}
+                />
+              </div>,
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={59}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/ladakh?days[]=4-6"
+                  name="Ladakh"
+                  packageCount={103}
+                  startingPrice={4000}
+                />
+              </div>,
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={60}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/andaman?days[]=4-6"
+                  name="Andaman"
+                  packageCount={104}
+                  startingPrice={4000}
+                />
+              </div>,
+            ],
+            "id": "packageByDuration",
+            "isFullWidthSwiper": false,
+            "isSmallSwiper": true,
+            "loadOnDocumentReady": false,
+            "slideClass": "slide",
+            "slidesOffsetAfter": 24,
+            "slidesOffsetBefore": 24,
+            "slidesPerView": "auto",
+            "spaceBetween": 15,
+            "ssrAnimation": Object {
+              "height": 150,
+              "width": 120,
+            },
+            "type": "",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={56}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/kerala?days[]=4-6"
+                  name="Kerala"
+                  packageCount={100}
+                  startingPrice={4000}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 56,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "//tour-packages/kerala?days[]=4-6",
+                  "name": "Kerala",
+                  "packageCount": 100,
+                  "startingPrice": 4000,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={57}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/himachal?days[]=4-6"
+                  name="Himachal"
+                  packageCount={101}
+                  startingPrice={4000}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 57,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "//tour-packages/himachal?days[]=4-6",
+                  "name": "Himachal",
+                  "packageCount": 101,
+                  "startingPrice": 4000,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={58}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/goa?days[]=4-6"
+                  name="Goa"
+                  packageCount={102}
+                  startingPrice={4000}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 58,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "//tour-packages/goa?days[]=4-6",
+                  "name": "Goa",
+                  "packageCount": 102,
+                  "startingPrice": 4000,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={59}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/ladakh?days[]=4-6"
+                  name="Ladakh"
+                  packageCount={103}
+                  startingPrice={4000}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 59,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "//tour-packages/ladakh?days[]=4-6",
+                  "name": "Ladakh",
+                  "packageCount": 103,
+                  "startingPrice": 4000,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={60}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/andaman?days[]=4-6"
+                  name="Andaman"
+                  packageCount={104}
+                  startingPrice={4000}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "bestTimeToVisit": Array [
+                    2,
+                    5,
+                  ],
+                  "id": 60,
+                  "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                  "link": "//tour-packages/andaman?days[]=4-6",
+                  "name": "Andaman",
+                  "packageCount": 104,
+                  "startingPrice": 4000,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Element
+          className="clearfix"
+          id="trips_by_duration"
+          name="section__allpackages"
+        >
+          <div
+            className="pl24 pr24"
+          >
+            <p
+              className="f20 fw9 mb24"
+            >
+              Explore best selling packages
+            </p>
+            <div
+              className="flex spaceBetween at_packages_tabGroup"
+            >
+              <div
+                className="flexFull pr8 at_packages_tab"
+              >
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips"
+                    id="International Destinations"
+                    name="packageByDestination"
+                    onChange={[Function]}
+                    type="radio"
+                    value="International"
+                  />
+                  <label
+                    htmlFor="International Destinations"
+                  >
+                    International
+                  </label>
+                </div>
+              </div>
+              <div
+                className="flexFull pl8 at_packages_tab"
+              >
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips"
+                    id="Destinations within India"
+                    name="packageByDestination"
+                    onChange={[Function]}
+                    type="radio"
+                    value="Within India "
+                  />
+                  <label
+                    htmlFor="Destinations within India"
+                  >
+                    Within India 
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="pt32 pb24"
+          >
+            <Swiper
+              id="destination_duration_filters"
+              isFullWidthSwiper={false}
+              isSmallSwiper={true}
+              loadOnDocumentReady={false}
+              slideClass="slide"
+              slidesOffsetAfter={24}
+              slidesOffsetBefore={32}
+              slidesPerView="auto"
+              spaceBetween={8}
+              ssrAnimation={Object {}}
+              type=""
+            >
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="1 to 3 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="1 to 3 days"
+                >
+                  1 to 3 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={true}
+                  className="input-chips chips_sm"
+                  id="4 to 6 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="4 to 6 days"
+                >
+                  4 to 6 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="7 to 9 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="7 to 9 days"
+                >
+                  7 to 9 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="10 to 12 days"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="10 to 12 days"
+                >
+                  10 to 12 days
+                </label>
+              </div>
+              <div>
+                <input
+                  checked={false}
+                  className="input-chips chips_sm"
+                  id="13 days or more"
+                  name="destination_duration"
+                  onChange={[Function]}
+                  type="radio"
+                />
+                <label
+                  htmlFor="13 days or more"
+                >
+                  13 days or more
+                </label>
+              </div>
+            </Swiper>
+          </div>
+          <Swiper
+            id="packageByDuration"
+            isFullWidthSwiper={false}
+            isSmallSwiper={true}
+            loadOnDocumentReady={false}
+            slideClass="slide"
+            slidesOffsetAfter={24}
+            slidesOffsetBefore={24}
+            slidesPerView="auto"
+            spaceBetween={15}
+            ssrAnimation={
+              Object {
+                "height": 150,
+                "width": 120,
+              }
+            }
+            type=""
+          >
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={56}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/kerala?days[]=4-6"
+                name="Kerala"
+                packageCount={100}
+                startingPrice={4000}
+              />
+            </div>
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={57}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/himachal?days[]=4-6"
+                name="Himachal"
+                packageCount={101}
+                startingPrice={4000}
+              />
+            </div>
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={58}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/goa?days[]=4-6"
+                name="Goa"
+                packageCount={102}
+                startingPrice={4000}
+              />
+            </div>
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={59}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/ladakh?days[]=4-6"
+                name="Ladakh"
+                packageCount={103}
+                startingPrice={4000}
+              />
+            </div>
+            <div>
+              <SlideItem
+                bestTimeToVisit={
+                  Array [
+                    2,
+                    5,
+                  ]
+                }
+                id={60}
+                imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                link="//tour-packages/andaman?days[]=4-6"
+                name="Andaman"
+                packageCount={104}
+                startingPrice={4000}
+              />
+            </div>
+          </Swiper>
+        </Element>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="pl24 pr24"
+            >
+              <p
+                className="f20 fw9 mb24"
+              >
+                Explore best selling packages
+              </p>
+              <div
+                className="flex spaceBetween at_packages_tabGroup"
+              >
+                <div
+                  className="flexFull pr8 at_packages_tab"
+                >
+                  <div>
+                    <input
+                      checked={false}
+                      className="input-chips"
+                      id="International Destinations"
+                      name="packageByDestination"
+                      onChange={[Function]}
+                      type="radio"
+                      value="International"
+                    />
+                    <label
+                      htmlFor="International Destinations"
+                    >
+                      International
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="flexFull pl8 at_packages_tab"
+                >
+                  <div>
+                    <input
+                      checked={false}
+                      className="input-chips"
+                      id="Destinations within India"
+                      name="packageByDestination"
+                      onChange={[Function]}
+                      type="radio"
+                      value="Within India "
+                    />
+                    <label
+                      htmlFor="Destinations within India"
+                    >
+                      Within India 
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <div
+              className="pt32 pb24"
+            >
+              <Swiper
+                id="destination_duration_filters"
+                isFullWidthSwiper={false}
+                isSmallSwiper={true}
+                loadOnDocumentReady={false}
+                slideClass="slide"
+                slidesOffsetAfter={24}
+                slidesOffsetBefore={32}
+                slidesPerView="auto"
+                spaceBetween={8}
+                ssrAnimation={Object {}}
+                type=""
+              >
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="1 to 3 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="1 to 3 days"
+                  >
+                    1 to 3 days
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={true}
+                    className="input-chips chips_sm"
+                    id="4 to 6 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="4 to 6 days"
+                  >
+                    4 to 6 days
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="7 to 9 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="7 to 9 days"
+                  >
+                    7 to 9 days
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="10 to 12 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="10 to 12 days"
+                  >
+                    10 to 12 days
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="13 days or more"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="13 days or more"
+                  >
+                    13 days or more
+                  </label>
+                </div>
+              </Swiper>
+            </div>,
+            <Swiper
+              id="packageByDuration"
+              isFullWidthSwiper={false}
+              isSmallSwiper={true}
+              loadOnDocumentReady={false}
+              slideClass="slide"
+              slidesOffsetAfter={24}
+              slidesOffsetBefore={24}
+              slidesPerView="auto"
+              spaceBetween={15}
+              ssrAnimation={
+                Object {
+                  "height": 150,
+                  "width": 120,
+                }
+              }
+              type=""
+            >
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={56}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/kerala?days[]=4-6"
+                  name="Kerala"
+                  packageCount={100}
+                  startingPrice={4000}
+                />
+              </div>
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={57}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/himachal?days[]=4-6"
+                  name="Himachal"
+                  packageCount={101}
+                  startingPrice={4000}
+                />
+              </div>
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={58}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/goa?days[]=4-6"
+                  name="Goa"
+                  packageCount={102}
+                  startingPrice={4000}
+                />
+              </div>
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={59}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/ladakh?days[]=4-6"
+                  name="Ladakh"
+                  packageCount={103}
+                  startingPrice={4000}
+                />
+              </div>
+              <div>
+                <SlideItem
+                  bestTimeToVisit={
+                    Array [
+                      2,
+                      5,
+                    ]
+                  }
+                  id={60}
+                  imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                  link="//tour-packages/andaman?days[]=4-6"
+                  name="Andaman"
+                  packageCount={104}
+                  startingPrice={4000}
+                />
+              </div>
+            </Swiper>,
+          ],
+          "className": "clearfix",
+          "id": "trips_by_duration",
+          "name": "section__allpackages",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="f20 fw9 mb24"
+                >
+                  Explore best selling packages
+                </p>,
+                <div
+                  className="flex spaceBetween at_packages_tabGroup"
+                >
+                  <div
+                    className="flexFull pr8 at_packages_tab"
+                  >
+                    <div>
+                      <input
+                        checked={false}
+                        className="input-chips"
+                        id="International Destinations"
+                        name="packageByDestination"
+                        onChange={[Function]}
+                        type="radio"
+                        value="International"
+                      />
+                      <label
+                        htmlFor="International Destinations"
+                      >
+                        International
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    className="flexFull pl8 at_packages_tab"
+                  >
+                    <div>
+                      <input
+                        checked={false}
+                        className="input-chips"
+                        id="Destinations within India"
+                        name="packageByDestination"
+                        onChange={[Function]}
+                        type="radio"
+                        value="Within India "
+                      />
+                      <label
+                        htmlFor="Destinations within India"
+                      >
+                        Within India 
+                      </label>
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "className": "pl24 pr24",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Explore best selling packages",
+                  "className": "f20 fw9 mb24",
+                },
+                "ref": null,
+                "rendered": "Explore best selling packages",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="flexFull pr8 at_packages_tab"
+                    >
+                      <div>
+                        <input
+                          checked={false}
+                          className="input-chips"
+                          id="International Destinations"
+                          name="packageByDestination"
+                          onChange={[Function]}
+                          type="radio"
+                          value="International"
+                        />
+                        <label
+                          htmlFor="International Destinations"
+                        >
+                          International
+                        </label>
+                      </div>
+                    </div>,
+                    <div
+                      className="flexFull pl8 at_packages_tab"
+                    >
+                      <div>
+                        <input
+                          checked={false}
+                          className="input-chips"
+                          id="Destinations within India"
+                          name="packageByDestination"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Within India "
+                        />
+                        <label
+                          htmlFor="Destinations within India"
+                        >
+                          Within India 
+                        </label>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "flex spaceBetween at_packages_tabGroup",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div>
+                        <input
+                          checked={false}
+                          className="input-chips"
+                          id="International Destinations"
+                          name="packageByDestination"
+                          onChange={[Function]}
+                          type="radio"
+                          value="International"
+                        />
+                        <label
+                          htmlFor="International Destinations"
+                        >
+                          International
+                        </label>
+                      </div>,
+                      "className": "flexFull pr8 at_packages_tab",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            checked={false}
+                            className="input-chips"
+                            id="International Destinations"
+                            name="packageByDestination"
+                            onChange={[Function]}
+                            type="radio"
+                            value="International"
+                          />,
+                          <label
+                            htmlFor="International Destinations"
+                          >
+                            International
+                          </label>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "checked": false,
+                            "className": "input-chips",
+                            "id": "International Destinations",
+                            "name": "packageByDestination",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "International",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "International",
+                            "htmlFor": "International Destinations",
+                          },
+                          "ref": null,
+                          "rendered": "International",
+                          "type": "label",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div>
+                        <input
+                          checked={false}
+                          className="input-chips"
+                          id="Destinations within India"
+                          name="packageByDestination"
+                          onChange={[Function]}
+                          type="radio"
+                          value="Within India "
+                        />
+                        <label
+                          htmlFor="Destinations within India"
+                        >
+                          Within India 
+                        </label>
+                      </div>,
+                      "className": "flexFull pl8 at_packages_tab",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <input
+                            checked={false}
+                            className="input-chips"
+                            id="Destinations within India"
+                            name="packageByDestination"
+                            onChange={[Function]}
+                            type="radio"
+                            value="Within India "
+                          />,
+                          <label
+                            htmlFor="Destinations within India"
+                          >
+                            Within India 
+                          </label>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "checked": false,
+                            "className": "input-chips",
+                            "id": "Destinations within India",
+                            "name": "packageByDestination",
+                            "onChange": [Function],
+                            "type": "radio",
+                            "value": "Within India ",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "input",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Within India ",
+                            "htmlFor": "Destinations within India",
+                          },
+                          "ref": null,
+                          "rendered": "Within India ",
+                          "type": "label",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Swiper
+                id="destination_duration_filters"
+                isFullWidthSwiper={false}
+                isSmallSwiper={true}
+                loadOnDocumentReady={false}
+                slideClass="slide"
+                slidesOffsetAfter={24}
+                slidesOffsetBefore={32}
+                slidesPerView="auto"
+                spaceBetween={8}
+                ssrAnimation={Object {}}
+                type=""
+              >
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="1 to 3 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="1 to 3 days"
+                  >
+                    1 to 3 days
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={true}
+                    className="input-chips chips_sm"
+                    id="4 to 6 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="4 to 6 days"
+                  >
+                    4 to 6 days
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="7 to 9 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="7 to 9 days"
+                  >
+                    7 to 9 days
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="10 to 12 days"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="10 to 12 days"
+                  >
+                    10 to 12 days
+                  </label>
+                </div>
+                <div>
+                  <input
+                    checked={false}
+                    className="input-chips chips_sm"
+                    id="13 days or more"
+                    name="destination_duration"
+                    onChange={[Function]}
+                    type="radio"
+                  />
+                  <label
+                    htmlFor="13 days or more"
+                  >
+                    13 days or more
+                  </label>
+                </div>
+              </Swiper>,
+              "className": "pt32 pb24",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <div>
+                    <input
+                      checked={false}
+                      className="input-chips chips_sm"
+                      id="1 to 3 days"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />
+                    <label
+                      htmlFor="1 to 3 days"
+                    >
+                      1 to 3 days
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={true}
+                      className="input-chips chips_sm"
+                      id="4 to 6 days"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />
+                    <label
+                      htmlFor="4 to 6 days"
+                    >
+                      4 to 6 days
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      className="input-chips chips_sm"
+                      id="7 to 9 days"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />
+                    <label
+                      htmlFor="7 to 9 days"
+                    >
+                      7 to 9 days
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      className="input-chips chips_sm"
+                      id="10 to 12 days"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />
+                    <label
+                      htmlFor="10 to 12 days"
+                    >
+                      10 to 12 days
+                    </label>
+                  </div>,
+                  <div>
+                    <input
+                      checked={false}
+                      className="input-chips chips_sm"
+                      id="13 days or more"
+                      name="destination_duration"
+                      onChange={[Function]}
+                      type="radio"
+                    />
+                    <label
+                      htmlFor="13 days or more"
+                    >
+                      13 days or more
+                    </label>
+                  </div>,
+                ],
+                "id": "destination_duration_filters",
+                "isFullWidthSwiper": false,
+                "isSmallSwiper": true,
+                "loadOnDocumentReady": false,
+                "slideClass": "slide",
+                "slidesOffsetAfter": 24,
+                "slidesOffsetBefore": 32,
+                "slidesPerView": "auto",
+                "spaceBetween": 8,
+                "ssrAnimation": Object {},
+                "type": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="input-chips chips_sm"
+                        id="1 to 3 days"
+                        name="destination_duration"
+                        onChange={[Function]}
+                        type="radio"
+                      />,
+                      <label
+                        htmlFor="1 to 3 days"
+                      >
+                        1 to 3 days
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "input-chips chips_sm",
+                        "id": "1 to 3 days",
+                        "name": "destination_duration",
+                        "onChange": [Function],
+                        "type": "radio",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "1 to 3 days",
+                        "htmlFor": "1 to 3 days",
+                      },
+                      "ref": null,
+                      "rendered": "1 to 3 days",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={true}
+                        className="input-chips chips_sm"
+                        id="4 to 6 days"
+                        name="destination_duration"
+                        onChange={[Function]}
+                        type="radio"
+                      />,
+                      <label
+                        htmlFor="4 to 6 days"
+                      >
+                        4 to 6 days
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": true,
+                        "className": "input-chips chips_sm",
+                        "id": "4 to 6 days",
+                        "name": "destination_duration",
+                        "onChange": [Function],
+                        "type": "radio",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "4 to 6 days",
+                        "htmlFor": "4 to 6 days",
+                      },
+                      "ref": null,
+                      "rendered": "4 to 6 days",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="input-chips chips_sm"
+                        id="7 to 9 days"
+                        name="destination_duration"
+                        onChange={[Function]}
+                        type="radio"
+                      />,
+                      <label
+                        htmlFor="7 to 9 days"
+                      >
+                        7 to 9 days
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "input-chips chips_sm",
+                        "id": "7 to 9 days",
+                        "name": "destination_duration",
+                        "onChange": [Function],
+                        "type": "radio",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "7 to 9 days",
+                        "htmlFor": "7 to 9 days",
+                      },
+                      "ref": null,
+                      "rendered": "7 to 9 days",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "3",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="input-chips chips_sm"
+                        id="10 to 12 days"
+                        name="destination_duration"
+                        onChange={[Function]}
+                        type="radio"
+                      />,
+                      <label
+                        htmlFor="10 to 12 days"
+                      >
+                        10 to 12 days
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "input-chips chips_sm",
+                        "id": "10 to 12 days",
+                        "name": "destination_duration",
+                        "onChange": [Function],
+                        "type": "radio",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "10 to 12 days",
+                        "htmlFor": "10 to 12 days",
+                      },
+                      "ref": null,
+                      "rendered": "10 to 12 days",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "4",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <input
+                        checked={false}
+                        className="input-chips chips_sm"
+                        id="13 days or more"
+                        name="destination_duration"
+                        onChange={[Function]}
+                        type="radio"
+                      />,
+                      <label
+                        htmlFor="13 days or more"
+                      >
+                        13 days or more
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "checked": false,
+                        "className": "input-chips chips_sm",
+                        "id": "13 days or more",
+                        "name": "destination_duration",
+                        "onChange": [Function],
+                        "type": "radio",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "input",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "13 days or more",
+                        "htmlFor": "13 days or more",
+                      },
+                      "ref": null,
+                      "rendered": "13 days or more",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <div>
+                  <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={56}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/kerala?days[]=4-6"
+                    name="Kerala"
+                    packageCount={100}
+                    startingPrice={4000}
+                  />
+                </div>,
+                <div>
+                  <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={57}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/himachal?days[]=4-6"
+                    name="Himachal"
+                    packageCount={101}
+                    startingPrice={4000}
+                  />
+                </div>,
+                <div>
+                  <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={58}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/goa?days[]=4-6"
+                    name="Goa"
+                    packageCount={102}
+                    startingPrice={4000}
+                  />
+                </div>,
+                <div>
+                  <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={59}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/ladakh?days[]=4-6"
+                    name="Ladakh"
+                    packageCount={103}
+                    startingPrice={4000}
+                  />
+                </div>,
+                <div>
+                  <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={60}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/andaman?days[]=4-6"
+                    name="Andaman"
+                    packageCount={104}
+                    startingPrice={4000}
+                  />
+                </div>,
+              ],
+              "id": "packageByDuration",
+              "isFullWidthSwiper": false,
+              "isSmallSwiper": true,
+              "loadOnDocumentReady": false,
+              "slideClass": "slide",
+              "slidesOffsetAfter": 24,
+              "slidesOffsetBefore": 24,
+              "slidesPerView": "auto",
+              "spaceBetween": 15,
+              "ssrAnimation": Object {
+                "height": 150,
+                "width": 120,
+              },
+              "type": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={56}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/kerala?days[]=4-6"
+                    name="Kerala"
+                    packageCount={100}
+                    startingPrice={4000}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bestTimeToVisit": Array [
+                      2,
+                      5,
+                    ],
+                    "id": 56,
+                    "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                    "link": "//tour-packages/kerala?days[]=4-6",
+                    "name": "Kerala",
+                    "packageCount": 100,
+                    "startingPrice": 4000,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={57}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/himachal?days[]=4-6"
+                    name="Himachal"
+                    packageCount={101}
+                    startingPrice={4000}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bestTimeToVisit": Array [
+                      2,
+                      5,
+                    ],
+                    "id": 57,
+                    "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                    "link": "//tour-packages/himachal?days[]=4-6",
+                    "name": "Himachal",
+                    "packageCount": 101,
+                    "startingPrice": 4000,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={58}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/goa?days[]=4-6"
+                    name="Goa"
+                    packageCount={102}
+                    startingPrice={4000}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bestTimeToVisit": Array [
+                      2,
+                      5,
+                    ],
+                    "id": 58,
+                    "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                    "link": "//tour-packages/goa?days[]=4-6",
+                    "name": "Goa",
+                    "packageCount": 102,
+                    "startingPrice": 4000,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "3",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={59}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/ladakh?days[]=4-6"
+                    name="Ladakh"
+                    packageCount={103}
+                    startingPrice={4000}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bestTimeToVisit": Array [
+                      2,
+                      5,
+                    ],
+                    "id": 59,
+                    "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                    "link": "//tour-packages/ladakh?days[]=4-6",
+                    "name": "Ladakh",
+                    "packageCount": 103,
+                    "startingPrice": 4000,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "4",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <SlideItem
+                    bestTimeToVisit={
+                      Array [
+                        2,
+                        5,
+                      ]
+                    }
+                    id={60}
+                    imgPath="https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg"
+                    link="//tour-packages/andaman?days[]=4-6"
+                    name="Andaman"
+                    packageCount={104}
+                    startingPrice={4000}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "bestTimeToVisit": Array [
+                      2,
+                      5,
+                    ],
+                    "id": 60,
+                    "imgPath": "https://res.cloudinary.com/dxqin8fbx/image/fetch/f_auto,q_auto:eco,w_148,h_187/https://d29m6q8e2acg44.cloudfront.net/public-product/Destination_Module/Generic/Domestic/Kerala_shutterstock_493080757_2x.jpg",
+                    "link": "//tour-packages/andaman?days[]=4-6",
+                    "name": "Andaman",
+                    "packageCount": 104,
+                    "startingPrice": 4000,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

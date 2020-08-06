@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lead form module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FlightBooking
+    formValues={
+      Object {
+        "adult": "2",
+        "budget_new": true,
+        "child": 0,
+        "child_age_answers_attributes": Array [
+          Object {
+            "customization_id": "7",
+            "option_id": "29",
+            "user_input": "0",
+          },
+          Object {
+            "customization_id": "7",
+            "option_id": "30",
+            "user_input": "0",
+          },
+          Object {
+            "customization_id": "7",
+            "option_id": "31",
+            "user_input": "0",
+          },
+        ],
+        "dont_utilize_budget_new": true,
+        "email": null,
+        "hotel_category_answers_attributes": Array [
+          Object {
+            "customization_id": "2",
+            "option_id": "7",
+          },
+        ],
+        "hotel_needed_answer_attributes": Object {
+          "customization_id": "22",
+          "option_id": "95",
+        },
+        "isd_code": "+91",
+        "start_date": "2019-07-17",
+        "start_date_flexible": false,
+        "start_date_noidea": false,
+        "syncErrors": Object {
+          "email": "Enter valid email id",
+        },
+        "to_loc": "Kerala",
+        "trip_days": "2",
+      }
+    }
+    input={
+      Object {
+        "name": "\\"flight_answer_attributes\\"",
+        "onChange": [Function],
+        "value": "",
+      }
+    }
+    meta={
+      Object {
+        "active": false,
+        "asyncValidating": false,
+        "autofilled": false,
+        "dirty": false,
+        "form": "LeadForm",
+        "invalid": false,
+        "pristine": true,
+        "submitFailed": false,
+        "submitting": false,
+        "touched": false,
+        "valid": true,
+        "visited": false,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span
+          className="tick-icon-container"
+        >
+          <IconSvg />
+        </span>,
+        <div
+          className="icon-48"
+        >
+          <IconSvg />
+        </div>,
+        <input
+          className="checkbox-common"
+          defaultChecked={false}
+          id="flight-included1"
+          name="cust_23"
+          onChange={[Function]}
+          type="checkbox"
+          value={null}
+        />,
+        <p
+          className="text-center"
+        >
+          Flights
+        </p>,
+      ],
+      "className": "button-box round-icon ",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "tick-icon-container",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "icon-48",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "checkbox-common",
+          "defaultChecked": false,
+          "id": "flight-included1",
+          "name": "cust_23",
+          "onChange": [Function],
+          "type": "checkbox",
+          "value": null,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Flights",
+          "className": "text-center",
+        },
+        "ref": null,
+        "rendered": "Flights",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span
+            className="tick-icon-container"
+          >
+            <IconSvg />
+          </span>,
+          <div
+            className="icon-48"
+          >
+            <IconSvg />
+          </div>,
+          <input
+            className="checkbox-common"
+            defaultChecked={false}
+            id="flight-included1"
+            name="cust_23"
+            onChange={[Function]}
+            type="checkbox"
+            value={null}
+          />,
+          <p
+            className="text-center"
+          >
+            Flights
+          </p>,
+        ],
+        "className": "button-box round-icon ",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "tick-icon-container",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "icon-48",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "checkbox-common",
+            "defaultChecked": false,
+            "id": "flight-included1",
+            "name": "cust_23",
+            "onChange": [Function],
+            "type": "checkbox",
+            "value": null,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Flights",
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": "Flights",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

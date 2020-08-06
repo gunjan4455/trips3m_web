@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Monsoon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon/Monsoon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/monsoon">
+            <rect id="Rectangle-5" x="0" y="0" width="24" height="24"></rect>
+            <g id="Page-1" transform="translate(3.000000, 2.000000)">
+                <path d="M9.316365,1.4911 C4.433365,1.4911 0.474715,5.6581 0.474715,10.7981 L18.158015,10.7981 C18.158015,5.6581 14.200315,1.4911 9.316365,1.4911" id="Fill-1" fill="#FFFFFF"></path>
+                <path d="M9.316365,1.4911 C4.433365,1.4911 0.474715,5.6581 0.474715,10.7981 L18.158015,10.7981 C18.158015,5.6581 14.200315,1.4911 9.316365,1.4911 Z" id="Stroke-3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.316365,10.7978 L9.316365,19.1148 C9.316365,19.8798 8.727365,20.4998 7.999665,20.4998 C7.273865,20.4998 6.683915,19.8798 6.683915,19.1148 L6.683915,17.8608" id="Stroke-5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.316365,1.4911 L9.316365,0.5001" id="Stroke-7" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M13.34085,10.7978 C13.34085,2.2738 9.31665,1.4908 9.31665,1.4908 C9.31665,1.4908 5.2915,2.2738 5.2915,10.7978 L13.34085,10.7978 Z" id="Fill-9" fill="#009688"></path>
+                <path d="M13.34085,10.7978 C13.34085,2.2738 9.31665,1.4908 9.31665,1.4908 C9.31665,1.4908 5.2915,2.2738 5.2915,10.7978 L13.34085,10.7978 Z" id="Stroke-11" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

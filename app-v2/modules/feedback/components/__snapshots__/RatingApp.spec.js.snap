@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating app popup should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RatingApp
+    trackSegmentEvent={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Object {
+              "cta": "",
+              "event": "organism_viewed",
+              "section": "App Review Popup",
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <a
+          className="rating-cross"
+          href="/"
+          onClick={[Function]}
+        >
+          <IconSvg />
+        </a>,
+        <div
+          className="relative star-rating"
+        >
+          <IconSvg />
+        </div>,
+        <h3
+          className="fw9 f24 pt8 pb4 m0"
+        >
+          Please rate our App and get INR 100 cash voucher!
+        </h3>,
+        <p
+          className="m0 f14p pb32 pl15 pr15"
+        >
+          Please share the screenshot of the feedback on appfeedback@traveltriangle.com
+        </p>,
+        <a
+          className="btn-filled-pri rating-button"
+          href="https://c.singular.net/api/v1/ad?st=900297487404&h=b0c882ade525ff53572f2586d1d9c868fc3a3eaa"
+          onClick={[Function]}
+        >
+          Rate Now
+        </a>,
+      ],
+      "className": "flex flexDColumn text-center pt24 pb32 sbcw rating-popup relative",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "rating-cross",
+          "href": "/",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "a",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "relative star-rating",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Please rate our App and get INR 100 cash voucher!",
+          "className": "fw9 f24 pt8 pb4 m0",
+        },
+        "ref": null,
+        "rendered": "Please rate our App and get INR 100 cash voucher!",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Please share the screenshot of the feedback on appfeedback@traveltriangle.com",
+          "className": "m0 f14p pb32 pl15 pr15",
+        },
+        "ref": null,
+        "rendered": "Please share the screenshot of the feedback on appfeedback@traveltriangle.com",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Rate Now",
+          "className": "btn-filled-pri rating-button",
+          "href": "https://c.singular.net/api/v1/ad?st=900297487404&h=b0c882ade525ff53572f2586d1d9c868fc3a3eaa",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Rate Now",
+        "type": "a",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <a
+            className="rating-cross"
+            href="/"
+            onClick={[Function]}
+          >
+            <IconSvg />
+          </a>,
+          <div
+            className="relative star-rating"
+          >
+            <IconSvg />
+          </div>,
+          <h3
+            className="fw9 f24 pt8 pb4 m0"
+          >
+            Please rate our App and get INR 100 cash voucher!
+          </h3>,
+          <p
+            className="m0 f14p pb32 pl15 pr15"
+          >
+            Please share the screenshot of the feedback on appfeedback@traveltriangle.com
+          </p>,
+          <a
+            className="btn-filled-pri rating-button"
+            href="https://c.singular.net/api/v1/ad?st=900297487404&h=b0c882ade525ff53572f2586d1d9c868fc3a3eaa"
+            onClick={[Function]}
+          >
+            Rate Now
+          </a>,
+        ],
+        "className": "flex flexDColumn text-center pt24 pb32 sbcw rating-popup relative",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "rating-cross",
+            "href": "/",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "a",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "relative star-rating",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Please rate our App and get INR 100 cash voucher!",
+            "className": "fw9 f24 pt8 pb4 m0",
+          },
+          "ref": null,
+          "rendered": "Please rate our App and get INR 100 cash voucher!",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Please share the screenshot of the feedback on appfeedback@traveltriangle.com",
+            "className": "m0 f14p pb32 pl15 pr15",
+          },
+          "ref": null,
+          "rendered": "Please share the screenshot of the feedback on appfeedback@traveltriangle.com",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Rate Now",
+            "className": "btn-filled-pri rating-button",
+            "href": "https://c.singular.net/api/v1/ad?st=900297487404&h=b0c882ade525ff53572f2586d1d9c868fc3a3eaa",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Rate Now",
+          "type": "a",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,22 @@
+.trustCardContainer {
+  .swiper-container-horizontal > .swiper-pagination-bullets{
+    text-align: left;
+    padding-left: 24px;
+    .swiper-pagination-bullet{
+      background: #EFEFEF;
+      opacity: 1;
+    }
+    .swiper-pagination-bullet-active {
+      opacity: 1;
+      background: #B2B2B2;
+    }
+  }
+  &.trustCard_basic {
+    .swiper-slide {
+      height: auto;
+    }
+    .cardWrapper {
+      height: 100%;
+    }
+  }
+}

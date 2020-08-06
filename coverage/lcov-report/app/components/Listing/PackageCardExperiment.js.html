@@ -1,0 +1,899 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Listing/PackageCardExperiment.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/Listing</a> PackageCardExperiment.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">53.33% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>32/60</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">37.93% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>11/29</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">30% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>6/20</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">53.33% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>32/60</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router';
+import Sensor from 'react-visibility-sensor';
+import glamorous from 'glamorous';
+&nbsp;
+import PackageImgTitle from 'components/Listing/PackageImgTitle';
+import PackagePriceExperiment from 'components/Listing/PackagePriceExperiment';
+import PackageDaysDiscountExperiment from 'components/Listing/PackageDaysDiscountExperiment';
+import PackageCities from 'components/Listing/PackageCities';
+import PackageIncExc from 'components/Listing/PackageIncExc';
+import FormOneCTA from 'components/Form/FormLead/FormOneCTA';
+import {
+  trackSegment, PACKAGE_CLICKED, PACKAGE_VIEWED,
+  PACKAGE_COMPARE_ADDED, HOTEL_CATEGORY_CLICKED
+} from 'actions/segmentEvents';
+import { rescue } from 'helpers/utils';
+import './PackageCities.scss';
+import './Listing.scss';
+&nbsp;
+const GCardTagsSpan = glamorous.span({
+  height: '24px',
+  backgroundColor: '#fac22e'
+});
+&nbsp;
+class PackageCardExperiment extends Component {
+  constructor(props) {
+    super(props);
+&nbsp;
+    this.state = { hotelId: props.card.id };
+    this.sensorVisibility = false;
+&nbsp;
+    this.trackSegmentEvent = this.trackSegmentEvent.bind(this);
+    this.trackLeadClickEvent = this.trackLeadClickEvent.bind(this);
+    this.renderHotelSelections = this.renderHotelSelections.bind(this);
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  on</span>SensorChange(isVisible, ctaTextPackage, toDestination) {
+<span class="cstat-no" title="statement not covered" >    if (!this.sensorVisibility &amp;&amp; isVisible) {</span>
+<span class="cstat-no" title="statement not covered" >      this.sensorVisibility = isVisible;</span>
+<span class="cstat-no" title="statement not covered" >      this.trackSegmentEvent(PACKAGE_VIEWED, ctaTextPackage, toDestination);</span>
+    }
+  };
+&nbsp;
+  handleChange = (hotelId) =&gt; {
+    this.setState({ hotelId });
+    rescue( () =&gt; {
+      const { card, setActiveHotels } = this.props;
+      const hotelInfo = card.family_packages[hotelId];
+      setActiveHotels(card.id, hotelId);
+<span class="cstat-no" title="statement not covered" >      this.trackSegmentEvent(HOTEL_CATEGORY_CLICKED, `${hotelInfo[0]} Star`, card.destinations[0].name || '', hotelInfo[1]);</span>
+    });
+  };
+&nbsp;
+<span class="fstat-no" title="function not covered" >  tr</span>ackSegmentEvent(event, ctaTextPackage, toDestination, value) {
+<span class="cstat-no" title="statement not covered" >    rescue( <span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
+      const { card } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+      const hotelInfo = <span class="cstat-no" title="statement not covered" >card.family_packages[this.state.hotelId];</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      trackSegment({</span>
+        event: event,
+        category: `Destination:${toDestination}`,
+        section: 'Package List/View Details',
+        object: `Package/${card.id}`,
+        cta: ctaTextPackage,
+        package_id: card.id,
+        destination_list: toDestination,
+        destination_id: card.destinations[0].id,
+        label: `Days:${card.days}::Index:${this.props.index + 1}::Hotel:${hotelInfo[0]} Star`,
+        value: value ? value : hotelInfo[1],
+        package_name: card.name
+      });
+    });
+  };
+&nbsp;
+<span class="fstat-no" title="function not covered" >  tr</span>ackLeadClickEvent(ctaTextForm, toDestination) {
+    const pId = <span class="cstat-no" title="statement not covered" >this.props.card.id;</span>
+    const section = <span class="cstat-no" title="statement not covered" >'Get Quotes Button';</span>
+    const category = <span class="cstat-no" title="statement not covered" >`Destination:${toDestination}`;</span>
+    const object = <span class="cstat-no" title="statement not covered" >`Package/${pId}`;</span>
+<span class="cstat-no" title="statement not covered" >    this.props.trackLeadFunnelClick(section, category, object, ctaTextForm, pId);</span>
+<span class="cstat-no" title="statement not covered" >    return true;</span>
+  };
+&nbsp;
+  renderHotelSelections() {
+    const { card } = this.props;
+&nbsp;
+    const hotelsIds = Object.keys(card.family_packages || <span class="branch-1 cbranch-no" title="branch not covered" >{})</span>;
+&nbsp;
+    <span class="missing-if-branch" title="else path not taken" >E</span>if (hotelsIds.length) {
+      const hotelCheckboxes = hotelsIds.map(hotelId =&gt; {
+        return (
+          &lt;div key={hotelId} className="iblock hotelStarItem mr8"&gt;
+            &lt;input
+              name={`hotel_star_input_${card.id}`}
+              type="radio"
+              className="checkbox-common radio-common-round"
+              checked={hotelId.toString() === this.state.hotelId.toString()}
+              id={`input_${card.id}_${hotelId}`}
+              onChange={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >this.handleChange(hotelId)}</span>
+              value={hotelId}
+            /&gt;
+            &lt;label className="" htmlFor={`input_${card.id}_${hotelId}`}&gt;
+              {card.family_packages[hotelId][0]} Star
+            &lt;/label&gt;
+          &lt;/div&gt;
+        );
+      });
+&nbsp;
+      return &lt;div className="row row- star-ratings-selection"&gt;{hotelCheckboxes}&lt;/div&gt;;
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    return null;</span>
+  };
+&nbsp;
+  render() {
+    const {
+      card, comparingPackages, addToComparingPackages, removeFromComparingPackages, formToLocation
+    } = this.props;
+&nbsp;
+    const additionalInfoText = `Traveler has expressed interest in ${card.days} Days , ${card.nights} nights with cities ${card.cities}. For more details, see the &lt;a href='/packages/${card.set_url}'&gt;link&lt;/a&gt;`;
+&nbsp;
+    // TODO: Ugly code. Handle it differently
+    let toDestination = '';
+    try {
+      toDestination = card.destinations[0].name;
+    } catch (e) {
+<span class="cstat-no" title="statement not covered" >      toDestination = '';</span>
+    }
+    const { hotelId } = this.state;
+    const formOneToLocation = formToLocation ? <span class="branch-0 cbranch-no" title="branch not covered" >formToLocation </span>: toDestination;
+    const ctaTextPackage = 'View Details';
+    const ctaTextForm = 'Customize';
+    const { family_packages = <span class="branch-0 cbranch-no" title="branch not covered" >{} </span>} = card;
+    const hotelWithPrices = family_packages[hotelId] ? family_packages[hotelId] : [];
+&nbsp;
+    return (
+      &lt;div className="row row- mb8 mt8 relative exp-1 package-card"&gt;
+        &lt;Link
+          to={`/packages/${card.set_url}?id=${hotelId}`}
+          className="sfcw"
+          onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >this.trackSegmentEvent(PACKAGE_CLICKED, ctaTextPackage, toDestination)}</span>
+        &gt;
+          &lt;div className="relative"&gt;
+            &lt;PackageImgTitle isLargeImg={true} name={card.name} altText={card.set_url}
+                             imageUrl={card.image_url} imagekitUrl={card.imagekit_url} /&gt;
+            {card.mvp_tags.length ? <span class="branch-0 cbranch-no" title="branch not covered" >&lt;GCardTagsSpan className="absolute z2 radius2 f12 fw7 t10 l10 pfc3 pl15 pr15 flex alignCenter justifyCenter"&gt;{card.mvp_tags[0]}&lt;/GCardTagsSpan&gt; </span>: null}
+          &lt;/div&gt;
+        &lt;/Link&gt;
+        &lt;Sensor onChange={<span class="fstat-no" title="function not covered" >is</span>Visible =&gt; <span class="cstat-no" title="statement not covered" >this.onSensorChange(isVisible, ctaTextPackage, toDestination)}</span> intervalDelay={3000}/&gt;
+        &lt;div className="addCompareDiv"&gt;
+          &lt;input
+            type="checkbox"
+            id={`AddCompareCheckBox-${card.id}`}
+            className="fixed-menu-button"
+            checked={
+              /* eslint-disable eqeqeq */
+              comparingPackages.findIndex(<span class="fstat-no" title="function not covered" >pk</span>g =&gt; <span class="cstat-no" title="statement not covered" >pkg.id == card.id)</span> !== -1
+              /* eslint-enable */
+            }
+            onChange={<span class="fstat-no" title="function not covered" >(e</span>) =&gt; {
+<span class="cstat-no" title="statement not covered" >              if (e.target.checked) {</span>
+<span class="cstat-no" title="statement not covered" >                if (comparingPackages.length === 2) {</span>
+<span class="cstat-no" title="statement not covered" >                  return;</span>
+                }
+<span class="cstat-no" title="statement not covered" >                addToComparingPackages(card);</span>
+<span class="cstat-no" title="statement not covered" >                this.trackSegmentEvent(PACKAGE_COMPARE_ADDED, ctaTextPackage, toDestination);</span>
+              } else {
+<span class="cstat-no" title="statement not covered" >                removeFromComparingPackages(card);</span>
+              }
+            }}
+          /&gt;
+          &lt;label
+            className="sfcw f14 fw7"
+            htmlFor={`AddCompareCheckBox-${card.id}`}
+          &gt;Add To Compare&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div className="row row- p8 sbcw"&gt;
+          &lt;div className="pl8 pr8"&gt;
+            &lt;div className="row row-"&gt;
+              &lt;div className="col-xs-12 pl0 pr0 f10"&gt;
+                &lt;PackageCities cities={card.city_list_with_days || <span class="branch-1 cbranch-no" title="branch not covered" >{}}</span>/&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div className="row row-"&gt;
+              &lt;div className="iblock pl0"&gt;
+                &lt;PackageDaysDiscountExperiment
+                  days={card.days}
+                  nights={card.nights}
+                /&gt;
+              &lt;/div&gt;
+              &lt;div className="iblock"&gt;
+              { this.renderHotelSelections() }
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div className="row row-"&gt;
+              &lt;div className="col-xs-12 pl0 pr8"&gt;
+                &lt;PackagePriceExperiment
+                  price={hotelWithPrices.length ? hotelWithPrices[2] : card.price_total}
+                  priceUnit={card.mini_desc}
+                  currency={card.currency}
+                  discount={
+                    hotelWithPrices.length
+                      ? hotelWithPrices[2] - hotelWithPrices[1]
+                      : card.price_total - card.discounted_price
+                  }
+                  promoTag={card.promo_tag}
+                  totalPrice={card.price_total}
+                  totalDiscount={card.price_total - card.discounted_price}
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div className="row inclusion-height-box mt8"&gt;
+              &lt;PackageIncExc inclusions={card.inclusions} id={`card_${card.id}`}
+               hotelInfo={card.family_packages[`${hotelId}`]}
+              /&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div className="row row- pt8"&gt;
+            &lt;div className="col-xs-6 pl0 pr4"&gt;
+              &lt;Link
+                to={`/packages/${card.set_url}?id=${hotelId}`}
+                onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >this.trackSegmentEvent(PACKAGE_CLICKED, ctaTextPackage, toDestination)}</span>
+                className="btn-pri wfull ripple"
+              &gt;
+                &lt;div className="wave-dark"/&gt;
+                {ctaTextPackage}
+              &lt;/Link&gt;
+            &lt;/div&gt;
+            &lt;div className="col-xs-6 pl4 pr0"&gt;
+              &lt;FormOneCTA
+                rtProps={{
+                  to_loc: formOneToLocation,
+                  trip_days: card.days.toString(),
+                  packageId: card.id,
+                  page: 'Package List Page',
+                  section: 'Package List',
+                  cta: ctaTextForm,
+                  object: `Package/${card.id}`,
+                  addtl_info: additionalInfoText
+                }}
+                clickHandler={<span class="fstat-no" title="function not covered" >()</span> =&gt;  {
+<span class="cstat-no" title="statement not covered" >                  this.trackLeadClickEvent(ctaTextForm, toDestination);</span>
+                }}
+              &gt;
+                &lt;div className="btn-filled-pri wfull customized-variation " data-obj={JSON.stringify({to_loc: formOneToLocation, trip_days: card.days.toString()})}&gt;
+                  &lt;div className="wave"/&gt;
+                  {ctaTextForm}&lt;/div&gt;
+              &lt;/FormOneCTA&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+PackageCardExperiment.propTypes = {
+  card: PropTypes.object.isRequired,
+  trackLeadFunnelClick: PropTypes.func,
+  comparingPackages: PropTypes.array.isRequired,
+  addToComparingPackages: PropTypes.func,
+  removeFromComparingPackages: PropTypes.func,
+  index: PropTypes.number,
+  formToLocation: PropTypes.string,
+  promoTag: PropTypes.number,
+  setActiveHotels: PropTypes.func.isRequired
+};
+&nbsp;
+PackageCardExperiment.defaultProps = {
+  trackLeadFunnelClick: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  formToLocation: '',
+  removeFromComparingPackages: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  addToComparingPackages: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  promoTag: 0
+};
+&nbsp;
+export default PackageCardExperiment;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

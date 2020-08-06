@@ -1,0 +1,20 @@
+:local {
+  .imgWrapper {
+    height:140px;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.3);
+    }
+  }
+  .avtar {
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+  }
+  .rightSection {
+    min-width: 75px;
+  }
+}

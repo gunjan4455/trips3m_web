@@ -1,0 +1,43 @@
+:local{
+  .hotelImage{
+    overflow: hidden;
+    border-radius: 4px;
+    background: #ffffff;
+    height: 80px;
+    min-width:104px;
+    max-width: 104px;
+    .hotelCard{
+      min-width:104px;
+      min-height:80px;
+      overflow: hidden;
+    }
+    .defaultIcon {
+      min-width: 56px;
+      max-width: 56px;
+      height: 48px;
+      & svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .recommondContainer{
+    span{
+      width: 30px;
+      height: 37px;
+    }
+  }
+  .roomsContainer {
+    border-radius: 4px;
+    background: rgba(0, 150, 136, 0.05);
+  }
+  .roomCount{
+    li{
+      width:8px;
+      height:12px;
+    }
+  }
+}
+
+
+

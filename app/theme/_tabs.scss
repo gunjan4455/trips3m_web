@@ -1,0 +1,52 @@
+.tabbed > input{
+    display : none;
+  }
+  
+  .tabbed > section.tabbed-data > .tabbed-label{
+    font-size: 14px;
+        font-weight: 900;
+        position: relative;
+        padding: 15px 5px;
+        float: left;
+        cursor: pointer;
+        overflow: hidden;
+  }
+  .tabbed > section.tabbed-data > .tabbed-label::after {
+      height: 2px;
+      width: 0;
+      position: absolute;
+      content: '';
+      bottom: 0;
+      left: 0;
+  }
+  .tabbed > input:checked + section.tabbed-data > .tabbed-label::after {
+    background: #20a397;
+    width: 100%;
+    transition: all 0.7s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+  }
+  .tabbed > input:checked + section.tabbed-data > .tabbed-label {
+    background: #efefef;
+  }
+  .tabbed > input:first-child + section.tabbed-data > .tabbed-label{
+  
+  }
+  
+  .tabbed > section.tabbed-data > .tabbed-label{
+    display                 : inline-block;
+  }
+  
+  .tabbed > section.tabbed-data > div.tabs-data-main{
+    position      : relative;
+    z-index       : 2;
+    float:right;
+    width: 100%;
+    padding-top: 24px;
+    border-top :1px solid #f0f0f0;
+    margin: 48px 0 0 -100%;
+  }
+  
+  .tabbed > input:not(:checked) + section.tabbed-data > div.tabs-data-main{
+    display : none;
+  }
+  

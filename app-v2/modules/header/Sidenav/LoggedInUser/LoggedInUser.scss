@@ -1,0 +1,19 @@
+.user-img-loggedin {
+  width: 48px;
+  height: 48px;
+  background: #CCCCCC;
+  overflow: hidden;
+}
+.user-img-loggedin img {
+  min-height: 100%;
+  width: 100%;
+}
+.user-loggedin-name {
+  font-size: 18px;
+  line-height: 18px;
+  position: absolute;
+  left:10px;
+}
+.user-loggedin-name-box {
+  height: 48px;
+}

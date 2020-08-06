@@ -1,0 +1,50 @@
+/* == Layout == */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row- {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.row-8 {
+  margin-left: -8px !important;
+  margin-right: -8px !important;
+}
+.row:before,
+.row:after,
+.clearfix:before,
+.clearfix:after
+{
+  display: table;
+  content: " ";
+}
+.row:after,
+.clearfix:after {
+  clear: both;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-12 { width: 100%; }
+.col-xs-11 { width: 91.66666667%; }
+.col-xs-10 { width: 83.33333333%; }
+.col-xs-9 { width: 75%; }
+.col-xs-8 { width: 66.66666667%; }
+.col-xs-7 { width: 58.33333333%; }
+.col-xs-6 { width: 50%; }
+.col-xs-5 { width: 41.66666667%; }
+.col-xs-4 { width: 33.33333333%; }
+.col-xs-3 { width: 25%; }
+.col-xs-2 { width: 16.66666667%; }
+.col-xs-1 { width: 8.33333333%; }

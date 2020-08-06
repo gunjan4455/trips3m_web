@@ -1,0 +1,1073 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`team module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Team
+    location={
+      Object {
+        "pathname": "/team",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <HelmetWrapper
+          defer={true}
+          encodeSpecialCharacters={true}
+        >
+          <meta
+            charSet="utf-8"
+          />
+          <title>
+            Team
+          </title>
+          <link
+            href="https://traveltriangle.com/team"
+            rel="canonical"
+          />
+        </HelmetWrapper>,
+        <Connect(HeaderCommon) />,
+        <ScrollPercentage
+          onChange={[Function]}
+          threshold={0}
+        >
+          <HeaderTrialist
+            path="/team"
+          />
+          <div
+            className="clearfix"
+          >
+            <BannerVideo />
+          </div>
+          <div
+            className="clearfix p24"
+          >
+            <h3
+              className="f24 fw9 mb24 pb8 at_heading"
+            >
+              Fast Growth amidst Challenges
+            </h3>
+            <p
+              className="f14p at_text"
+            >
+              Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.
+            </p>
+          </div>
+          <ActivityBoard />
+          <div
+            className="clearfix sbc5 pt32"
+          >
+            <h3
+              className="f16a fw9 pl24"
+            >
+              Team
+            </h3>
+            <div
+              className="clearfix relative mt24 overflowh"
+            >
+              <CoreTeam />
+              <ForwardRef(render) />
+            </div>
+          </div>
+          <ForwardRef(render) />
+          <div
+            className="container p24 pr0"
+          >
+            <h3
+              className="f16a fw9 mb15 pr24 at_heading2"
+            >
+              Employee Stories
+            </h3>
+            <EmployeeStoryCard />
+          </div>
+          <div
+            className="clearfix"
+          >
+            <ApplyBanner />
+          </div>
+        </ScrollPercentage>,
+        <div>
+          <Index />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <meta
+              charSet="utf-8"
+            />,
+            <title>
+              Team
+            </title>,
+            <link
+              href="https://traveltriangle.com/team"
+              rel="canonical"
+            />,
+          ],
+          "defer": true,
+          "encodeSpecialCharacters": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "charSet": "utf-8",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Team",
+            },
+            "ref": null,
+            "rendered": "Team",
+            "type": "title",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://traveltriangle.com/team",
+              "rel": "canonical",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <HeaderTrialist
+              path="/team"
+            />,
+            <div
+              className="clearfix"
+            >
+              <BannerVideo />
+            </div>,
+            <div
+              className="clearfix p24"
+            >
+              <h3
+                className="f24 fw9 mb24 pb8 at_heading"
+              >
+                Fast Growth amidst Challenges
+              </h3>
+              <p
+                className="f14p at_text"
+              >
+                Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.
+              </p>
+            </div>,
+            <ActivityBoard />,
+            <div
+              className="clearfix sbc5 pt32"
+            >
+              <h3
+                className="f16a fw9 pl24"
+              >
+                Team
+              </h3>
+              <div
+                className="clearfix relative mt24 overflowh"
+              >
+                <CoreTeam />
+                <ForwardRef(render) />
+              </div>
+            </div>,
+            <ForwardRef(render) />,
+            <div
+              className="container p24 pr0"
+            >
+              <h3
+                className="f16a fw9 mb15 pr24 at_heading2"
+              >
+                Employee Stories
+              </h3>
+              <EmployeeStoryCard />
+            </div>,
+            <div
+              className="clearfix"
+            >
+              <ApplyBanner />
+            </div>,
+          ],
+          "onChange": [Function],
+          "threshold": 0,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "path": "/team",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <BannerVideo />,
+              "className": "clearfix",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="f24 fw9 mb24 pb8 at_heading"
+                >
+                  Fast Growth amidst Challenges
+                </h3>,
+                <p
+                  className="f14p at_text"
+                >
+                  Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.
+                </p>,
+              ],
+              "className": "clearfix p24",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Fast Growth amidst Challenges",
+                  "className": "f24 fw9 mb24 pb8 at_heading",
+                },
+                "ref": null,
+                "rendered": "Fast Growth amidst Challenges",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.",
+                  "className": "f14p at_text",
+                },
+                "ref": null,
+                "rendered": "Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="f16a fw9 pl24"
+                >
+                  Team
+                </h3>,
+                <div
+                  className="clearfix relative mt24 overflowh"
+                >
+                  <CoreTeam />
+                  <ForwardRef(render) />
+                </div>,
+              ],
+              "className": "clearfix sbc5 pt32",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Team",
+                  "className": "f16a fw9 pl24",
+                },
+                "ref": null,
+                "rendered": "Team",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <CoreTeam />,
+                    <ForwardRef(render) />,
+                  ],
+                  "className": "clearfix relative mt24 overflowh",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "div",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "background": "#fff",
+                          "height": "120px",
+                          "left": "0",
+                          "position": "absolute",
+                          "right": "0",
+                          "top": "200px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(div)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "background": "#EEEEEE",
+                  "display": "block",
+                  "height": "8px",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="f16a fw9 mb15 pr24 at_heading2"
+                >
+                  Employee Stories
+                </h3>,
+                <EmployeeStoryCard />,
+              ],
+              "className": "container p24 pr0",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Employee Stories",
+                  "className": "f16a fw9 mb15 pr24 at_heading2",
+                },
+                "ref": null,
+                "rendered": "Employee Stories",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ApplyBanner />,
+              "className": "clearfix",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Index />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <HelmetWrapper
+            defer={true}
+            encodeSpecialCharacters={true}
+          >
+            <meta
+              charSet="utf-8"
+            />
+            <title>
+              Team
+            </title>
+            <link
+              href="https://traveltriangle.com/team"
+              rel="canonical"
+            />
+          </HelmetWrapper>,
+          <Connect(HeaderCommon) />,
+          <ScrollPercentage
+            onChange={[Function]}
+            threshold={0}
+          >
+            <HeaderTrialist
+              path="/team"
+            />
+            <div
+              className="clearfix"
+            >
+              <BannerVideo />
+            </div>
+            <div
+              className="clearfix p24"
+            >
+              <h3
+                className="f24 fw9 mb24 pb8 at_heading"
+              >
+                Fast Growth amidst Challenges
+              </h3>
+              <p
+                className="f14p at_text"
+              >
+                Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.
+              </p>
+            </div>
+            <ActivityBoard />
+            <div
+              className="clearfix sbc5 pt32"
+            >
+              <h3
+                className="f16a fw9 pl24"
+              >
+                Team
+              </h3>
+              <div
+                className="clearfix relative mt24 overflowh"
+              >
+                <CoreTeam />
+                <ForwardRef(render) />
+              </div>
+            </div>
+            <ForwardRef(render) />
+            <div
+              className="container p24 pr0"
+            >
+              <h3
+                className="f16a fw9 mb15 pr24 at_heading2"
+              >
+                Employee Stories
+              </h3>
+              <EmployeeStoryCard />
+            </div>
+            <div
+              className="clearfix"
+            >
+              <ApplyBanner />
+            </div>
+          </ScrollPercentage>,
+          <div>
+            <Index />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <meta
+                charSet="utf-8"
+              />,
+              <title>
+                Team
+              </title>,
+              <link
+                href="https://traveltriangle.com/team"
+                rel="canonical"
+              />,
+            ],
+            "defer": true,
+            "encodeSpecialCharacters": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "charSet": "utf-8",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Team",
+              },
+              "ref": null,
+              "rendered": "Team",
+              "type": "title",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://traveltriangle.com/team",
+                "rel": "canonical",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <HeaderTrialist
+                path="/team"
+              />,
+              <div
+                className="clearfix"
+              >
+                <BannerVideo />
+              </div>,
+              <div
+                className="clearfix p24"
+              >
+                <h3
+                  className="f24 fw9 mb24 pb8 at_heading"
+                >
+                  Fast Growth amidst Challenges
+                </h3>
+                <p
+                  className="f14p at_text"
+                >
+                  Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.
+                </p>
+              </div>,
+              <ActivityBoard />,
+              <div
+                className="clearfix sbc5 pt32"
+              >
+                <h3
+                  className="f16a fw9 pl24"
+                >
+                  Team
+                </h3>
+                <div
+                  className="clearfix relative mt24 overflowh"
+                >
+                  <CoreTeam />
+                  <ForwardRef(render) />
+                </div>
+              </div>,
+              <ForwardRef(render) />,
+              <div
+                className="container p24 pr0"
+              >
+                <h3
+                  className="f16a fw9 mb15 pr24 at_heading2"
+                >
+                  Employee Stories
+                </h3>
+                <EmployeeStoryCard />
+              </div>,
+              <div
+                className="clearfix"
+              >
+                <ApplyBanner />
+              </div>,
+            ],
+            "onChange": [Function],
+            "threshold": 0,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "path": "/team",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <BannerVideo />,
+                "className": "clearfix",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className="f24 fw9 mb24 pb8 at_heading"
+                  >
+                    Fast Growth amidst Challenges
+                  </h3>,
+                  <p
+                    className="f14p at_text"
+                  >
+                    Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.
+                  </p>,
+                ],
+                "className": "clearfix p24",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Fast Growth amidst Challenges",
+                    "className": "f24 fw9 mb24 pb8 at_heading",
+                  },
+                  "ref": null,
+                  "rendered": "Fast Growth amidst Challenges",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.",
+                    "className": "f14p at_text",
+                  },
+                  "ref": null,
+                  "rendered": "Building the most innovative and technology driven product to address holiday woes requires the smartest and passionate people in the industry. We believe in working together,saying things as is and achieving the challenging goals that others might treat impossible.",
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className="f16a fw9 pl24"
+                  >
+                    Team
+                  </h3>,
+                  <div
+                    className="clearfix relative mt24 overflowh"
+                  >
+                    <CoreTeam />
+                    <ForwardRef(render) />
+                  </div>,
+                ],
+                "className": "clearfix sbc5 pt32",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Team",
+                    "className": "f16a fw9 pl24",
+                  },
+                  "ref": null,
+                  "rendered": "Team",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <CoreTeam />,
+                      <ForwardRef(render) />,
+                    ],
+                    "className": "clearfix relative mt24 overflowh",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "div",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "background": "#fff",
+                            "height": "120px",
+                            "left": "0",
+                            "position": "absolute",
+                            "right": "0",
+                            "top": "200px",
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(div)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "background": "#EEEEEE",
+                    "display": "block",
+                    "height": "8px",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className="f16a fw9 mb15 pr24 at_heading2"
+                  >
+                    Employee Stories
+                  </h3>,
+                  <EmployeeStoryCard />,
+                ],
+                "className": "container p24 pr0",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Employee Stories",
+                    "className": "f16a fw9 mb15 pr24 at_heading2",
+                  },
+                  "ref": null,
+                  "rendered": "Employee Stories",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ApplyBanner />,
+                "className": "clearfix",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Index />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

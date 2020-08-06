@@ -1,0 +1,28 @@
+:local {
+  .popUp {
+    position: fixed;
+    bottom: 0;
+    z-index: 20;
+    box-shadow: 0 -6px 12px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    animation: bottomAppear 0.75s;
+  }
+
+  @-webkit-keyframes bottomAppear {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes bottomAppear {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+}

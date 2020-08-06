@@ -1,0 +1,107 @@
+/* purgecss start ignore */
+.icon-hide-box .form-date-check {
+  height: 40px !important;
+  line-height: 40px !important;
+  padding: 0 8px !important;
+}
+.custom-variation-datepicker.react-datepicker {
+  top: 50px !important;
+}
+// MonthPicker
+.month-picker.custom-month-picker > .rmp-container {
+  position: absolute;
+  top: 40px;
+  height: 210px;
+  display: none !important;
+}
+.month-picker.custom-month-picker > .rmp-container.show {
+  display:block !important;
+}
+.month-picker.custom-month-picker > .rmp-container.show .rmp-overlay {
+  background: (0,0,0,0);
+}
+.month-picker.custom-month-picker > .rmp-container:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  z-index: 11;
+  left: 41%;
+  top: 3px;
+  background-color: #fff;
+  transform: rotate(45deg);
+  box-shadow: -1px -1px 1px 0px #e1e1e1;
+}
+.month-picker.custom-month-picker > .rmp-container .rmp-popup {
+  border:none;
+  box-shadow: 0 0 1px 1px #e1e1e1;
+  height: 14.4rem;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.month-picker.custom-month-picker > .rmp-container .rmp-popup.show {
+  display:block !important;
+}
+.month-picker.custom-month-picker > .rmp-container .rmp-popup .rmp-pad > div label {
+  font-size: 28px;
+  line-height: 28px;
+  padding: 10px;
+  color: #20A397;
+  background: #fff;
+  border-bottom: 2px solid #20A397;
+  font-weight: bold;
+}
+.month-picker.custom-month-picker > .rmp-container .rmp-popup .rmp-pad > div i.rmp-btn {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+  top: 8px;
+  background: #20A397;
+}
+.month-picker.custom-month-picker > .rmp-container .rmp-popup .rmp-pad > div i.rmp-btn.rmp-btn.next {
+  right: 7px;
+}
+.month-picker.custom-month-picker > .rmp-container .rmp-popup .rmp-pad > div i.rmp-btn.rmp-btn.prev {
+  left: 7px;
+}
+.month-picker.custom-month-picker .next:after,
+.month-picker.custom-month-picker .next:before,
+.month-picker.custom-month-picker .prev:after,
+.month-picker.custom-month-picker .prev:before {
+  border: 0;
+  position: absolute;
+  right: 11px;
+  top: 10px;
+  border-width: 1px 1px 0 0;
+  border-color: #fff;
+  border-style: solid;
+  content: '';
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+}
+.month-picker.custom-month-picker .prev:after,
+.month-picker.custom-month-picker .prev:before {
+  transform: rotate(-135deg);
+  left: 11px;
+}
+.week-box-width {
+  top: 0;
+}
+.month-picker.custom-month-picker > .rmp-container{
+  top:-240px !important;
+}
+.custom-variation-datepicker.react-datepicker:before,.month-picker.custom-month-picker > .rmp-container:before{
+  display: none;
+}
+.week-box-width{
+  top: -210px !important;
+}
+.back-button svg{
+  height:15px;
+}
+/* purgecss end ignore */

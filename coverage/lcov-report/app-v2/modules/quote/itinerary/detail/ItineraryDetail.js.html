@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/quote/itinerary/detail/ItineraryDetail.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/quote/itinerary/detail</a> ItineraryDetail.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">69.23% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>9/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">25% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>1/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">28.57% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>2/7</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">69.23% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>9/13</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import { Element } from 'react-scroll';
+import { Link } from 'react-router';
+import glamorous from "glamorous";
+&nbsp;
+import { CloseDark } from 'helpers/Icon/Icon';
+import { PDM_CATEGORY_ITINERARY } from 'helpers/pdmHelpers';
+import { quoteDetailPath } from 'helpers/urlHelpers';
+import { ORGANISM_CLICKED } from 'actions/segmentEvents';
+import RequestCallback from 'modules/requestCallback/index';
+import ItineraryByDay from './components/ItineraryByDay';
+import AgentChatButton from 'modules/quote/shared/AgentChatButton';
+&nbsp;
+const GItineraryDetailDiv = glamorous.div({
+  height: 'calc(100vh - 100px)',
+  overflowY: 'auto',
+});
+&nbsp;
+const ItineraryDetail = ({
+                           tripId,
+                           quoteId,
+                           itineraryInfo,
+                           trackSegment,
+                           setPdmCategory,
+                           showHidePdmView,
+                           location
+                         }) =&gt; {
+  const trackSegmentEvent = <span class="fstat-no" title="function not covered" >(e</span>vent, cta, object) =&gt; {
+<span class="cstat-no" title="statement not covered" >    trackSegment({</span>
+      event,
+      section: 'itinerary',
+      object: object || '',
+      cta
+    });
+  };
+&nbsp;
+  const handleChatClick = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    setPdmCategory(PDM_CATEGORY_ITINERARY);</span>
+<span class="cstat-no" title="statement not covered" >    showHidePdmView(true);</span>
+<span class="cstat-no" title="statement not covered" >    trackSegmentEvent(ORGANISM_CLICKED, 'Edit Package', 'Main');</span>
+  };
+&nbsp;
+  const daySelected = parseInt(location.query.day) || <span class="branch-1 cbranch-no" title="branch not covered" >1;</span>
+&nbsp;
+  return (
+    &lt;Element name="itinerary-sec"&gt;
+      &lt;div&gt;
+        &lt;div className="sbcw p15 flex relative pl48 bs6"&gt;
+          &lt;Link
+            to={quoteDetailPath(tripId, quoteId)}
+            className="absolute-center-v l10 mr8 input-24 p5 iblock"
+          &gt;
+            &lt;CloseDark /&gt;
+          &lt;/Link&gt;
+          &lt;p className="f16a m0 fw9 pfc3 flexFull flex alignCenter ellipsis"&gt;
+            Itinerary
+          &lt;/p&gt;
+          &lt;div className="absolute-center-v r10"&gt;
+            &lt;RequestCallback isIcononly={true} isWhiteIcon={false} /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;GItineraryDetailDiv&gt;
+          &lt;div className="m8"&gt;
+            {itineraryInfo.map((item, i) =&gt; (
+              &lt;ItineraryByDay
+                detail={item}
+                day={i + 1}
+                defaultOpen={i + 1 === daySelected}
+                trackSegmentEvent={trackSegmentEvent}
+                setPdmCategory={setPdmCategory}
+                showHidePdmView={showHidePdmView}
+                key={i}
+              /&gt;
+            ))}
+          &lt;/div&gt;
+          &lt;div className="fixed z5 b0 l0 wfull"&gt;
+            &lt;AgentChatButton name="Edit Package" textClassName="btn-filled-pri-large wfull radius2 pl8 pr8"
+                             handleChatClick={handleChatClick} /&gt;
+          &lt;/div&gt;
+&nbsp;
+        &lt;/GItineraryDetailDiv&gt;
+      &lt;/div&gt;
+    &lt;/Element&gt;
+  );
+};
+&nbsp;
+ItineraryDetail.propTypes = {
+  tripId: PropTypes.number.isRequired,
+  quoteId: PropTypes.number.isRequired,
+  itineraryInfo: PropTypes.array,
+  location: PropTypes.object.isRequired,
+  trackSegment: PropTypes.func,
+  showHidePdmView: PropTypes.func,
+  setPdmCategory: PropTypes.func
+};
+ItineraryDetail.defaultProps = {
+  itineraryInfo: [],
+  tracksegment: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  setPdmCategory: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  showHidePdmView: <span class="fstat-no" title="function not covered" >()</span> =&gt; {}
+};
+export default ItineraryDetail;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../../sorter.js"></script>
+</body>
+</html>

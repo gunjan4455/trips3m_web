@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="20px" viewBox="0 0 17 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>India_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Side_Menu" transform="translate(-16.000000, -190.000000)">
+            <g id="Group-14" transform="translate(0.000000, 24.000000)">
+                <g id="Inidan_Desti" transform="translate(16.000000, 167.000000)">
+                    <g id="India_icon">
+                        <rect id="Rectangle-9" x="0" y="0" width="18" height="18"/>
+                        <g transform="translate(1.000000, 0.000000)">
+                            <path d="M1.55184828,5.41644828 L1.55184828,17.6893448 L5.27598621,17.6893448 L5.27598621,11.835 C5.27598621,10.4794138 6.38764138,9.38017241 7.75874483,9.38017241 C9.12984828,9.38017241 10.2415034,10.4794138 10.2415034,11.835 L10.2415034,17.6893448 L13.9656414,17.6893448 L13.9656414,5.41644828 L1.55184828,5.41644828 Z" id="Stroke-1" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"/>
+                            <polygon id="Stroke-3" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="2.79310345 5.3702069 12.7241379 5.3702069 12.7241379 3.41689655 2.79310345 3.41689655"/>
+                            <polygon id="Stroke-5" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="4.65517241 3.41627586 10.862069 3.41627586 10.862069 1.55172414 4.65517241 1.55172414"/>
+                            <polygon id="Stroke-6" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="6.21310345 1.55172414 9.30413793 1.55172414 9.30413793 0.310344828 6.21310345 0.310344828"/>
+                            <path d="M15.2070207,7.71163448 L0.310468966,7.71163448" id="Stroke-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4.22224138,10.2413172 C4.22224138,10.6323517 3.90506897,10.9495241 3.51403448,10.9495241 C3.123,10.9495241 2.80644828,10.6323517 2.80644828,10.2413172 C2.80644828,9.85028276 3.123,9.53311034 3.51403448,9.53311034 C3.90506897,9.53311034 4.22224138,9.85028276 4.22224138,10.2413172" id="Fill-8" fill="#009688"/>
+                            <path d="M12.7945862,10.2413172 C12.7945862,10.6323517 12.4780345,10.9495241 12.0863793,10.9495241 C11.6953448,10.9495241 11.3787931,10.6323517 11.3787931,10.2413172 C11.3787931,9.85028276 11.6953448,9.53311034 12.0863793,9.53311034 C12.4780345,9.53311034 12.7945862,9.85028276 12.7945862,10.2413172" id="Fill-9" fill="#009688"/>
+                            <polygon id="Stroke-10" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="10.2413793 14.9536552 13.9655172 14.9536552 13.9655172 12.4708966 10.2413793 12.4708966"/>
+                            <polygon id="Stroke-11" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="1.55172414 14.9536552 5.27586207 14.9536552 5.27586207 12.4708966 1.55172414 12.4708966"/>
+                            <path d="M15.2070207,17.6895931 L0.310468966,17.6895931" id="Stroke-12" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.75874483,9.23908966 L7.75874483,7.71157241" id="Stroke-13" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

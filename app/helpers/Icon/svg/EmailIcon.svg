@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/email</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 4.000000)" stroke="#3E3E3E">
+            <rect id="Rectangle" x="0.5" y="0.5" width="11" height="7.4" rx="2"></rect>
+            <path d="M11.0977126,0.977461475 C10.8187363,0.677836912 10.4249248,0.5 10,0.5 L2,0.5 C1.57507518,0.5 1.18126366,0.677836912 0.902287371,0.977461475 C0.926871066,1.0059987 0.952629201,1.03374752 0.979541854,1.06066017 L4.93933983,5.02045815 C5.52512627,5.60624458 6.47487373,5.60624458 7.06066017,5.02045815 L11.0204581,1.06066017 C11.0473708,1.03374752 11.0731289,1.0059987 11.0977126,0.977461475 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

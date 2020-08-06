@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/discountEngine/components/DiscountOfferRadio.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/discountEngine/components</a> DiscountOfferRadio.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">33.33% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>3/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">33.33% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>3/9</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+&nbsp;
+import { parsePrice } from 'helpers/parsers';
+import { timeFromEndOfDay } from 'helpers/DateTime';
+import ShowMore from 'modules/shared/ShowMore';
+&nbsp;
+const RenderDiscountOfferRadioButton = <span class="fstat-no" title="function not covered" >({</span>
+                                          offer, input, id, currentOfferId,
+                                          appliedOfferId, onClickHandler
+                                        }) =&gt; {
+  const getExpirationString = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(e</span>ndDate) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    return `Expiring ${timeFromEndOfDay(endDate)}`;</span>
+  };
+&nbsp;
+  const getShowMoreProps = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(o</span>ffer) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    return {</span>
+      wrapText: offer.tnc ? offer.tnc.substr(0, 80) : '',
+      moreText: offer.tnc &amp;&amp; offer.tnc.length &gt; 80 ? offer.tnc.substr(80) : ''
+    };
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return (&lt;div</span>
+    className={` clearfix discountOfferItem ${input.value === appliedOfferId ? 'discountOfferItemApplied' : ''} `}&gt;
+    &lt;div&gt;
+      &lt;input type="radio" id={id} {...input} checked={input.value === currentOfferId}
+             className={`discountOfferInput `} onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >onClickHandler(input.value)}</span> /&gt;
+      &lt;label htmlFor={id} className="at_discountOfferRadioBtn"&gt;
+        &lt;span className="customRadio" /&gt;
+        &lt;span
+          className="discountOfferExpiredMsg absolute t8 r8 f10 fw7"&gt;
+              {getExpirationString(offer.endDate)}&lt;/span&gt;
+        &lt;div className="discountOfferData flex ml15"&gt;
+&nbsp;
+          &lt;div className="discountValueInfo p15"&gt;
+            &lt;div className="discountValue mb4"&gt;
+              &lt;div className="discountVal f16 fw9 pfc3"&gt;
+                {
+                  offer.discountType === 1
+                    ? `${parsePrice({
+                      price: offer.offerVal,
+                      currency: offer.currency,
+                      appendOnly: false
+                    })}`
+                    : `${offer.offerVal}%`
+                }
+                &lt;span className="ml8"&gt;{offer.discountType === 1 ? 'Cashback' : 'Off'} &lt;/span&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;h3 className="f14p"&gt;{offer.heading}&lt;/h3&gt;
+            &lt;div className="offerDescription f12 pfc4 m0"&gt;
+              &lt;ShowMore isDefaultShowMore={false} {...getShowMoreProps(offer)} /&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;);
+};
+&nbsp;
+RenderDiscountOfferRadioButton.propTypes = {
+  offer: PropTypes.object,
+  currentOfferId: PropTypes.number,
+  appliedOfferId: PropTypes.number,
+  input: PropTypes.object.isRequired,
+  id: PropTypes.string.isRequired,
+  onClickHandler: PropTypes.func.isRequired
+};
+&nbsp;
+RenderDiscountOfferRadioButton.defaultProps = {
+  offer: {},
+  currentOfferId: 0
+};
+&nbsp;
+export default RenderDiscountOfferRadioButton;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

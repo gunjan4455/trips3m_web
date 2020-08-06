@@ -1,0 +1,42 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import BurgerMenu from './BurgerMenu';
+import Search from 'components/Search/Search';
+import { connect } from 'react-redux';
+import { isOpen, toggle } from 'reducers/search';
+import './Header.scss';
+
+const HeaderCommon = ({ isDropDownOpen, toggleDropDown, location }) => (
+  <header>
+    <div className="header-con header-con-shadow">
+      <div className="header-con-first">
+        <BurgerMenu />
+        <div className="tt-logo"><Link to="/"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMzM3LjU1IDE3Mi4zIj48ZGVmcz48c3R5bGU+LmNscy0xLC5jbHMtM3tmaWxsOiNmZmY7fS5jbHMtMntmaWxsOiMxZDI1MzM7fS5jbHMtMiwuY2xzLTN7ZmlsbC1ydWxlOmV2ZW5vZGQ7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5Bc3NldCA1PC90aXRsZT48ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIj48ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTIzMiw2Mi4yOEgyMDcuNTdWNDZoNjYuNTZMMjY3LDYyLjI4SDI0OS42OXY2NEgyMzJaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjg3LjY3LDQ2aDM2LjcyYzEwLjIxLDAsMTguMTMsMi44NywyMy40MSw4LjE1LDQuNDgsNC40OCw2Ljg5LDEwLjc5LDYuODksMTguMzZ2LjIzYzAsMTMtNywyMS4xMS0xNy4yMSwyNC45bDE5LjYyLDI4LjY5SDMzNi40NGwtMTcuMjEtMjUuN0gzMDUuMzR2MjUuN0gyODcuNjdabTM1LjU3LDM5YzguNjEsMCwxMy41NC00LjU5LDEzLjU0LTExLjM2di0uMjNjMC03LjU3LTUuMjgtMTEuNDgtMTMuODktMTEuNDhIMzA1LjM0Vjg1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTU1NS44Nyw0Nmg2MC41OWwtNy4wOCwxNS43Mkg1NzMuNDNWNzhINjExLjNWOTMuNzNINTczLjQzdjE2Ljg3SDYxN3YxNS43Mkg1NTUuODdaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNjMyLjc2LDQ2aDE3LjY3djY0LjI2aDQwbC03LjA4LDE2LjA3SDYzMi43NloiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik03NTYuOTEsNjIuMjhINzMyLjQ3VjQ2SDc5OWwtNy4wOCwxNi4yOUg3NzQuNTl2NjRINzU2LjkxWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTgxMi41Nyw0NmgzNi43MmMxMC4yMSwwLDE4LjEzLDIuODcsMjMuNDEsOC4xNSw0LjQ3LDQuNDgsNi44OCwxMC43OSw2Ljg4LDE4LjM2di4yM2MwLDEzLTcsMjEuMTEtMTcuMjEsMjQuOUw4ODIsMTI2LjMySDg2MS4zNGwtMTcuMjEtMjUuN0g4MzAuMjR2MjUuN0g4MTIuNTdabTM1LjU3LDM5YzguNjEsMCwxMy41NC00LjU5LDEzLjU0LTExLjM2di0uMjNjMC03LjU3LTUuMjgtMTEuNDgtMTMuODktMTEuNDhIODMwLjI0Vjg1WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTg5Ni4zMyw0Nkg5MTR2ODAuMzNIODk2LjMzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTk2MS42Myw0NS43aDE2LjI5bDM0LjQzLDgwLjlIOTkzLjg3bC03LjM0LTE4aC0zNGwtNy4zNCwxOGgtMThaTTk4MC4yMiw5M2wtMTAuNjctMjZMOTU4Ljg3LDkzWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEwMjQuNzQsNDZIMTA0MWwzNy42NCw0OS40NlY0NmgxNy40NHY4MC4zM2gtMTVsLTM4LjktNTEuMDZ2NTEuMDZoLTE3LjQ0WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTExMTEuODMsODYuMzh2LS4yM2MwLTIyLjg0LDE3Ljc5LTQxLjU0LDQyLjExLTQxLjU0LDE0LjQ2LDAsMjMuMTgsMy45LDMxLjU2LDExbC0xMS4xMywxMy40M2MtNi4yLTUuMTYtMTEuNy04LjE1LTIxLTguMTUtMTIuODUsMC0yMy4wNywxMS4zNi0yMy4wNywyNXYuMjNjMCwxNC42OSwxMC4xLDI1LjQ3LDI0LjMzLDI1LjQ3LDYuNDMsMCwxMi4xNi0xLjYxLDE2LjY0LTQuODJWOTUuMzNoLTE3Ljc5VjgwLjA3aDM0Ljg4VjExNWE1Mi4xNCw1Mi4xNCwwLDAsMS0zNC4zMSwxMi43NEMxMTI5LDEyNy42OSwxMTExLjgzLDExMC4xNCwxMTExLjgzLDg2LjM4WiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEyMDUuMzUsNDZIMTIyM3Y2NC4yNmg0MEwxMjU2LDEyNi4zMmgtNTAuNjRaIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTI3Ni4zOCw0NkgxMzM3bC03LjA4LDE1LjcyaC0zNS45NVY3OGgzNy44N1Y5My43M2gtMzcuODd2MTYuODdoNDMuNjF2MTUuNzJoLTYxLjE2WiIvPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQ5MS42OSwxMjYuNDMsNDM2LjQxLDQ1Ljg4SDU0N2wtNTUuMjgsODAuNTUiLz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik00MjMuMTksNDUuODhsNTUuMjgsODAuNTVIMzY3LjkxbDU1LjI4LTgwLjU1Ii8+PHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMCwxNzIuMywzNy41NSw0My4xMmw5MS41MSw5Mi43NEwwLDE3Mi4zIi8+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTczLjMxLDAsMTM2LjE3LDEzMCw0NC4xMSwzNS4yNiwxNzMuMzEsMCIvPjwvZz48L2c+PC9zdmc+" alt="Travel Triangle" /></Link></div>
+        <div className="hide">
+          <button onClick={toggleDropDown} className="search-header-common">search</button>
+        </div>
+      </div>
+    </div>
+    <div className="pbc1 pl8 pr8 pb8 relative"><Search location={location} /></div>
+  </header>
+);
+
+HeaderCommon.propTypes = {
+  isDropDownOpen: PropTypes.bool.isRequired,
+  toggleDropDown: PropTypes.func.isRequired,
+  location: PropTypes.object
+};
+
+HeaderCommon.defaultProps = {
+  location: undefined
+};
+
+export default connect(
+  state => ({
+    isDropDownOpen: isOpen(state),
+  }),
+  {
+    toggleDropDown: toggle
+  }
+)(HeaderCommon);

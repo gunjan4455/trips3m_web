@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/preferences/fields/BudgetField.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/preferences/fields</a> BudgetField.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">13.33% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>4/30</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/29</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/7</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">13.33% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>4/30</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import { Field } from 'redux-form';
+&nbsp;
+import { numberWithCommas } from 'helpers/parsers';
+import { BudgetIcon } from 'helpers/Icon/Icon';
+import { required } from 'utils/formValidators';
+&nbsp;
+const renderBudgetTextField = <span class="fstat-no" title="function not covered" >({</span> isFlightSelected, input, meta: { touched, error } }) =&gt; (
+<span class="cstat-no" title="statement not covered" >  &lt;div className="budget-textbox at_editbudget"&gt;</span>
+    &lt;label htmlFor="From" className="f14 fw9 pb8 block pfc3"&gt;
+      Budget {isFlightSelected ? 'With' : 'Without'} Airfare :
+      &lt;span className="pfc4 fw4"&gt;(per person)&lt;/span&gt;
+    &lt;/label&gt;
+&nbsp;
+    &lt;div className="row row-"&gt;
+      &lt;div className="input-with-icon-box"&gt;
+        &lt;span className="input-icon"&gt;&lt;BudgetIcon /&gt;&lt;/span&gt;
+        &lt;input {...input} placeholder="Enter your budget value" /&gt;
+        {
+          touched &amp;&amp;
+          (error &amp;&amp; &lt;span className="input-error-text"&gt;{error}&lt;/span&gt;)
+        }
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+);
+&nbsp;
+renderBudgetTextField.propTypes = {
+  isFlightSelected: PropTypes.bool,
+  input: PropTypes.object,
+  meta: PropTypes.object
+};
+&nbsp;
+const budgetError = undefined;
+&nbsp;
+const getBudgetOptionFields = <span class="fstat-no" title="function not covered" >(b</span>udgetOptions, flightSelected) =&gt; {
+  const budgetFields = <span class="cstat-no" title="statement not covered" >budgetOptions.map(<span class="fstat-no" title="function not covered" >(b</span>udgetOption) =&gt; {</span>
+    const id = <span class="cstat-no" title="statement not covered" >`${budgetOption.min_price}-${budgetOption.max_price}`;</span>
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div className="iblock p5 pr8 pl0" key={id}&gt;
+        &lt;Field
+          name="budget"
+          component="input"
+          className="radio-common"
+          id={id}
+          type="radio"
+          value={`${budgetOption.min_price}..${budgetOption.max_price}`}
+        /&gt;
+        &lt;label className='pl15 pr15 cursorP' htmlFor={id}&gt;
+          &lt;p className="m0"&gt;
+            ₹ {numberWithCommas(budgetOption.min_price)}
+            -{numberWithCommas(budgetOption.max_price)}
+          &lt;/p&gt;
+        &lt;/label&gt;
+      &lt;/div&gt;
+    );
+  });
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;div className="clearfix"&gt;
+      &lt;p className="f14p fw7 sfc6 m0"&gt;Budget {(flightSelected) ? 'With ' : 'Without '}Airfare: ( per person )&lt;em className="pfc2"&gt;*&lt;/em&gt;&lt;/p&gt;
+      {budgetFields}
+      {budgetError &amp;&amp; &lt;span className="input-error-text"&gt;{budgetError}&lt;/span&gt;}
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+class BudgetField extends React.Component {
+  static propTypes = {
+    flightAnswerValue: PropTypes.object,
+    hotelStarsValues: PropTypes.object,
+    flightBudget: PropTypes.object,
+    hotelBudget: PropTypes.object,
+    noHotelValue: PropTypes.bool,
+  };
+&nbsp;
+<span class="fstat-no" title="function not covered" >  ge</span>tBudgetOptions() {
+    const idToStar = <span class="cstat-no" title="statement not covered" >{</span>
+      32: '2Star',
+      8: '3Star',
+      7: '4Star',
+      6: '5Star'
+    };
+    const flightOption = <span class="cstat-no" title="statement not covered" >this.props.flightAnswerValue;</span>
+    const hotelStarsOptions = <span class="cstat-no" title="statement not covered" >this.props.hotelStarsValues;</span>
+    const noHotelValue = <span class="cstat-no" title="statement not covered" >this.props.noHotelValue;</span>
+&nbsp;
+    // no preferences are there
+<span class="cstat-no" title="statement not covered" >    if (!hotelStarsOptions) {</span>
+<span class="cstat-no" title="statement not covered" >      return undefined;</span>
+    }
+&nbsp;
+    const flightBudget = <span class="cstat-no" title="statement not covered" >this.props.flightBudget &amp;&amp; this.props.flightBudget.flightPrice;</span>
+&nbsp;
+    const selectedHotelOptions = <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >    for (const hotelOption in hotelStarsOptions) {</span>
+<span class="cstat-no" title="statement not covered" >      if (hotelStarsOptions[hotelOption]) {</span>
+<span class="cstat-no" title="statement not covered" >        selectedHotelOptions.push(hotelOption);</span>
+      }
+    }
+    // get flight budget
+    const flightPrice = <span class="cstat-no" title="statement not covered" >(flightOption.customizationId === 23 &amp;&amp; flightOption.optionId === '97')</span>
+      ? flightBudget
+      : 0;
+&nbsp;
+    // get hotel budget
+    // 96 - No hotel
+<span class="cstat-no" title="statement not covered" >    if (hotelStarsOptions &amp;&amp; selectedHotelOptions.length &amp;&amp; !noHotelValue &amp;&amp; this.props.hotelBudget) {</span>
+      const hotelBudgets = <span class="cstat-no" title="statement not covered" >this.props.hotelBudget[idToStar[Math.min(...selectedHotelOptions)]];</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      return hotelBudgets.map(<span class="fstat-no" title="function not covered" >ho</span>telBudget =&gt; (</span>
+<span class="cstat-no" title="statement not covered" >        {</span>
+          max_price: hotelBudget.maxPrice + flightPrice,
+          min_price: hotelBudget.minPrice + flightPrice
+        }
+      ));
+    }
+<span class="cstat-no" title="statement not covered" >    return undefined;</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  is</span>FlightSelected() {
+<span class="cstat-no" title="statement not covered" >    return (this.props.flightAnswerValue &amp;&amp; this.props.flightAnswerValue.optionId === '97');</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  re</span>nder() {
+    const budgetOptions = <span class="cstat-no" title="statement not covered" >this.getBudgetOptions();</span>
+    const flightSelected = <span class="cstat-no" title="statement not covered" >this.isFlightSelected();</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    return budgetOptions ?</span>
+      getBudgetOptionFields(budgetOptions, flightSelected, this.error) :
+      &lt;Field
+        name="budget"
+        component={renderBudgetTextField}
+        isFlightSelected={flightSelected}
+      /&gt;;
+  }
+}
+&nbsp;
+export default BudgetField;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

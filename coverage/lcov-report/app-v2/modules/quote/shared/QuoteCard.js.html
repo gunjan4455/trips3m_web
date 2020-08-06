@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/quote/shared/QuoteCard.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/quote/shared</a> QuoteCard.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">68.42% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>13/19</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">37.5% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>3/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">40% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>2/5</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">68.42% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>13/19</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import { Element } from 'react-scroll';
+import { Parser } from 'html-to-react';
+&nbsp;
+import ShowMore from 'modules/shared/ShowMore';
+import QuoteCardHeader from "modules/quote/shared/QuoteCardHeader";
+import { ORGANISM_CLICKED } from 'actions/segmentEvents';
+import {CabIconFront, Flight, TnCIcon, InfoBlackIcon} from "helpers/Icon/Icon";
+&nbsp;
+const htmlToReactParser = new Parser();
+&nbsp;
+const QuoteCard = ({ heading, text, section, trackSegment }) =&gt; {
+&nbsp;
+  const trackSegmentEvent = <span class="fstat-no" title="function not covered" >({</span> cta }) =&gt; {
+<span class="cstat-no" title="statement not covered" >    trackSegment({</span>
+      event: ORGANISM_CLICKED,
+      section: section,
+      cta: cta
+    });
+  };
+&nbsp;
+  const handleChatClick = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    trackSegmentEvent({ cta: 'Chat' });</span>
+  };
+&nbsp;
+  let TextComp = null;
+  if (text.length &gt; 200) {
+    TextComp = (&lt;ShowMore
+      wrapText={htmlToReactParser.parse(text.substring(0, 200))}
+      moreText={htmlToReactParser.parse(text.substring(200))}
+      showMoreText="Read More"
+      showLessText="Read Less"
+      trackSegment={trackSegmentEvent}
+    /&gt;);
+  } else {
+    TextComp = htmlToReactParser.parse(text);
+  }
+&nbsp;
+  const sectionIcon = (section) =&gt;{
+    switch (section) {
+      case "cabs-sec" : <span class="cstat-no" title="statement not covered" >return (&lt;CabIconFront/&gt;);</span>
+      case "additional-info-sec" : <span class="cstat-no" title="statement not covered" >return (&lt;InfoBlackIcon /&gt;);</span>
+      case "terms-conditions-sec" : <span class="cstat-no" title="statement not covered" >return (&lt;TnCIcon /&gt;);</span>
+      case "flights-sec" : <span class="cstat-no" title="statement not covered" >return (&lt;Flight /&gt;);</span>
+    }
+  };
+&nbsp;
+  return (
+    text ?
+      &lt;Element name={section}&gt;
+        &lt;div className="pfc3 f14 sbcw mt8"&gt;
+          &lt;QuoteCardHeader heading={heading} icon={sectionIcon(section)} chatButtonName='Chat' handleChatClick={handleChatClick} /&gt;
+          &lt;div className="sbcw p15 pl48 pt0 break-word"&gt;
+            &lt;div&gt;{TextComp}&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/Element&gt; : <span class="branch-1 cbranch-no" title="branch not covered" >null</span>
+  );
+};
+&nbsp;
+QuoteCard.propTypes = {
+  heading: PropTypes.string.isRequired,
+  text: PropTypes.string,
+  section: PropTypes.string,
+  trackSegment: PropTypes.func
+};
+&nbsp;
+QuoteCard.defaultProps = {
+  section: '',
+  text: '',
+  trackSegment: <span class="fstat-no" title="function not covered" >()</span> =&gt; {}
+};
+&nbsp;
+export default QuoteCard;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/shared/RatingStar.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app-v2/modules/shared</a> RatingStar.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">14.29% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>4/28</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">14.29% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>4/28</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import glamorous from 'glamorous';
+&nbsp;
+import {
+StarIcon,
+HalfStar,
+StarIconEmpty
+} from 'helpers/Icon/Icon';
+&nbsp;
+const GRatingUl = glamorous.div({
+  margin: '0',
+  padding: '0',
+  display: 'inline-block',
+  '&amp; li': {
+    display: 'inline-block',
+    marginRight: '6px',
+    width: '10px',
+    height: '10px',
+    '&amp;:last-child': {
+      marginRight: '0',
+    },
+    '&amp; svg': {
+      width: '10px',
+      height: '10px',
+      display: 'block',
+    }
+  }
+});
+&nbsp;
+function <span class="fstat-no" title="function not covered" >getStars(</span>Component, starNum, keyType) {
+  let i = <span class="cstat-no" title="statement not covered" >0;</span>
+  const stars = <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >  while (i &lt; starNum) {</span>
+<span class="cstat-no" title="statement not covered" >    stars.push(&lt;li key={keyType + i}&gt;&lt;Component /&gt;&lt;/li&gt;);</span>
+<span class="cstat-no" title="statement not covered" >    i += 1;</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return stars;</span>
+}
+&nbsp;
+const RatingStar = <span class="fstat-no" title="function not covered" >({</span> rating, isEmptyStarsHidden }) =&gt; {
+  const stars = <span class="cstat-no" title="statement not covered" >[];</span>
+  const ratingBarRange = <span class="cstat-no" title="statement not covered" >5;</span>
+  const truncatedRating = <span class="cstat-no" title="statement not covered" >Math.trunc(rating);</span>
+  const fractionalRating = <span class="cstat-no" title="statement not covered" >parseFloat((rating - truncatedRating).toFixed(1));</span>
+  let fullStarCount = <span class="cstat-no" title="statement not covered" >0;</span>
+  let halfStarCount = <span class="cstat-no" title="statement not covered" >0;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (fractionalRating === 0.0) {</span>
+<span class="cstat-no" title="statement not covered" >    fullStarCount = rating;</span>
+  } else <span class="cstat-no" title="statement not covered" >if (fractionalRating &lt;= 0.5) {</span>
+<span class="cstat-no" title="statement not covered" >    fullStarCount = truncatedRating;</span>
+<span class="cstat-no" title="statement not covered" >    halfStarCount = 1;</span>
+  } else {
+<span class="cstat-no" title="statement not covered" >    fullStarCount = truncatedRating + 1;</span>
+  }
+&nbsp;
+  const emptyStarCount = <span class="cstat-no" title="statement not covered" >ratingBarRange - (fullStarCount + halfStarCount);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  stars.push(getStars(StarIcon, fullStarCount, 'full_star'));</span>
+<span class="cstat-no" title="statement not covered" >  stars.push(getStars(HalfStar, halfStarCount, 'half_star'));</span>
+  // stars.push(getStars(StarIconEmpty, emptyStarCount, 'empty_star'));
+<span class="cstat-no" title="statement not covered" >  if (!isEmptyStarsHidden) {</span>
+<span class="cstat-no" title="statement not covered" >    stars.push(getStars(StarIconEmpty, emptyStarCount, 'empty_star'));</span>
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;GRatingUl className="rating-star-list at_rating"&gt;
+      {
+        stars
+      }
+    &lt;/GRatingUl&gt;
+  );
+};
+&nbsp;
+RatingStar.propTypes = {
+  rating: PropTypes.number,
+  isEmptyStarsHidden: PropTypes.bool
+};
+&nbsp;
+RatingStar.defaultProps = {
+  rating: 0,
+  isEmptyStarsHidden: false
+};
+&nbsp;
+export default RatingStar;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

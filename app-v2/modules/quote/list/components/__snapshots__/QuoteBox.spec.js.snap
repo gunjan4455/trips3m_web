@@ -1,0 +1,2060 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuoteBox
+    bookNow={[MockFunction]}
+    callbackHandler={[MockFunction]}
+    comments={Object {}}
+    quote={
+      Object {
+        "adults": 2,
+        "agent": Object {
+          "agentsConvertedTrips": 1301,
+          "companyName": "Agent 128324",
+          "createdAt": "2015-02-13T10:45:32+05:30",
+          "description": "TripSailer.Com is now a pioneering Indian travel company, endorsing professional",
+          "displayName": "Agent 128324",
+          "displayRating": 3.5,
+          "email": "UserEmail128324@gmail.com",
+          "encryptedId": "3132383332342d547261-Travel-Agency-683",
+          "fullAddress": "Office No.229, 02nd Floor, Plot No.10, Vardhman Bahnhof Plaza,MLU Pocket-7, Sector-12 Dwarka, DWARKA, DELHI, India, 110078",
+          "id": 128324,
+          "landlineNumber": "47494404",
+          "mobileNumber": "09311834343",
+          "profilePicture": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+          "ratingStats": Object {
+            "fiveStar": 322,
+            "fiveStarPercentage": 23.83419689119171,
+            "fourStar": 569,
+            "fourStarPercentage": 42.11695040710585,
+            "oneStar": 3,
+            "oneStarPercentage": 0.22205773501110287,
+            "positiveRating": 891,
+            "positiveRatingPercentage": 66,
+            "ratingText": "Superb Reviews",
+            "threeStar": 442,
+            "threeStarPercentage": 32.716506291635824,
+            "totalPositiveRating": 1351,
+            "totalRating": 1351,
+            "twoStar": 15,
+            "twoStarPercentage": 1.1102886750555145,
+          },
+          "revenueEarned": 91070000,
+          "reviewsCount": 1351,
+          "testimonialUrl": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+          "updatedAt": "2019-05-29T16:27:01+05:30",
+        },
+        "cabsText": "All transfers and sightseeing by Swift AC Dezire  Ex. Kathgodam
+
+
+",
+        "childs": 0,
+        "days": 4,
+        "departureCity": "Delhi",
+        "exclusionsText": "Accomodation : Single
+Accomodation : Double
+Meal plan : Lunch
+Use of gymnasium
+English Speaking Driver
+Trip suppliments
+Cab : SIC",
+        "flightsText": "",
+        "hotelText": "Night 1,2,  Nainital Aamod Resort, Bhimtal, Executive Room 
+
+Night 3,  Gajraj Trail Resort, Premium Room + 1 Extra Mattress ",
+        "id": 8355980,
+        "inclusionsText": "Accomodation : Triple
+Meal plan : Breakfast
+Meal plan : Dinner
+Welcome Drink
+Wifi Connection
+Tv with cable connection
+Use of Swimming Pool
+Government Taxes/VAT/ Service Charges
+Toll Tax
+Trans…",
+        "invoiceShowUrl": "https://bookings-qa2.ttdev.in/invoice/download/219365",
+        "nights": 3,
+        "pricingInfo": Object {
+          "currency": "Rupee",
+          "discount": 0,
+          "flightCost": 0,
+          "perPersonBudget": 16250,
+          "perPersonText": "total",
+          "price": 31500,
+          "priceInRupee": 31500,
+          "totalPrice": 31500,
+          "visaCost": 0,
+        },
+        "status": "invoiced",
+        "statusUpdates": Array [],
+        "subAccountId": 2847,
+        "tripEndDate": "2019-06-17",
+        "tripStartDate": "2019-06-14",
+        "tripStatus": "invoiced",
+        "updatedAt": "2019-05-29T15:14:27+05:30",
+        "versionCount": 0,
+      }
+    }
+    quoteRejectionReasons={
+      Object {
+        "1": "Quotes are higher than my budget",
+        "2": "Want a different itinerary",
+        "3": "Wish to customize my existing package",
+        "4": "Want to travel to some other destination",
+        "5": "Others",
+        "6": "Not satisfied with the hotels",
+      }
+    }
+    trackSegment={[Function]}
+    tripId="4582265"
+    userDetails={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "active": true,
+      "children": <ForwardRef(render)
+        className="sbcw m8 pl15 pr15 pt8 pb8 radius2 relative at_quoteCard"
+      >
+        <ForwardRef(render)
+          className="iblock icon-18 fright z10 text-center"
+        >
+          <div
+            className="z10 icon-18 changeIcon at_tooltip"
+          >
+            <ForwardRef(render)
+              className="pbc4 absolute radius100"
+            />
+            <ForwardRef(render)
+              className="pbc4 t8 b1 absolute radius100"
+            />
+            <ForwardRef(render)
+              className="pbc4 t15 absolute radius100"
+            />
+          </div>
+          <ForwardRef(render)
+            className="at_tooltipPopup absolute r0 sbcw z2 openTooltip"
+          >
+            <RejectQuote
+              callbackHandler={[MockFunction]}
+              isQuoteCardCta={true}
+              loading={false}
+              quoteId={8355980}
+              quoteRejectionReasons={
+                Object {
+                  "1": "Quotes are higher than my budget",
+                  "2": "Want a different itinerary",
+                  "3": "Wish to customize my existing package",
+                  "4": "Want to travel to some other destination",
+                  "5": "Others",
+                  "6": "Not satisfied with the hotels",
+                }
+              }
+              trackSegment={[Function]}
+              tripId="4582265"
+            />
+          </ForwardRef(render)>
+        </ForwardRef(render)>
+        <div
+          className="flex alignCenter mb15"
+        >
+          <AgentOnlineIndicator
+            isChatIndicator={false}
+            showPresenceMessage={true}
+            userDetails={Object {}}
+            userId={128324}
+          />
+          
+        </div>
+        <Link
+          className="at_agentDetails"
+          onClick={[Function]}
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/requested_trips/4582265/quotes/8355980"
+        >
+          <AgentDetail
+            agent={
+              Object {
+                "email": "UserEmail128324@gmail.com",
+                "id": "128324_2847",
+                "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                "name": "Agent 128324",
+                "phoneNumber": "09311834343",
+                "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                "reviewsCount": 1351,
+                "star": 3.5,
+                "tripsSold": 1301,
+              }
+            }
+            userDetails={Object {}}
+          />
+        </Link>
+        <div>
+          <ModalComponent
+            customClass=""
+            customCloseTrigger={true}
+            disabled={false}
+            fullView={false}
+            hasCustomClose={false}
+            hasNoClose={false}
+            isOpen={false}
+            isTriggerFullView={false}
+            isWhiteIcon={false}
+            onAfterModalOpen={[Function]}
+            onRequestCloseCustom={[Function]}
+            trigger={null}
+          >
+            <BookNowPopup
+              agent={
+                Object {
+                  "email": "UserEmail128324@gmail.com",
+                  "id": "128324_2847",
+                  "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                  "name": "Agent 128324",
+                  "phoneNumber": "09311834343",
+                  "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                  "reviewsCount": 1351,
+                  "star": 3.5,
+                  "tripsSold": 1301,
+                }
+              }
+              bookNow={[Function]}
+              closeModal={[Function]}
+              priceInfo={
+                Object {
+                  "currency": "Rupee",
+                  "perPerson": "",
+                  "price": 31500,
+                  "priceInRupee": 31500,
+                }
+              }
+            />
+          </ModalComponent>
+        </div>
+        <ForwardRef(render)
+          className="flexFull bt pt15 mt8 mb8"
+        >
+          <p
+            className="quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 at_quoteStatus quotesStatus activeQuote sbc3"
+          >
+            <span
+              className="pl5 pr5"
+            >
+              Invoice Generated
+            </span>
+          </p>
+          
+        </ForwardRef(render)>
+        <div
+          className="flex spaceBetween alignCenter"
+        >
+          <div
+            className="f12 pfc4 at_updatedHours"
+          >
+            Updated 10 months ago
+          </div>
+          <div>
+            <QuotePrice
+              currency="Rupee"
+              discount={0}
+              lineBreak={false}
+              perPerson=""
+              price={31500}
+              priceInRupee={31500}
+              showOriginalPrice={true}
+            />
+          </div>
+        </div>
+      </ForwardRef(render)>,
+      "containment": null,
+      "delayedCall": true,
+      "intervalCheck": true,
+      "intervalDelay": 100,
+      "minTopValue": 0,
+      "offset": Object {},
+      "onChange": [Function],
+      "partialVisibility": "bottom",
+      "resizeCheck": false,
+      "resizeDelay": 250,
+      "resizeThrottle": -1,
+      "scrollCheck": false,
+      "scrollDelay": 250,
+      "scrollThrottle": -1,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)
+            className="iblock icon-18 fright z10 text-center"
+          >
+            <div
+              className="z10 icon-18 changeIcon at_tooltip"
+            >
+              <ForwardRef(render)
+                className="pbc4 absolute radius100"
+              />
+              <ForwardRef(render)
+                className="pbc4 t8 b1 absolute radius100"
+              />
+              <ForwardRef(render)
+                className="pbc4 t15 absolute radius100"
+              />
+            </div>
+            <ForwardRef(render)
+              className="at_tooltipPopup absolute r0 sbcw z2 openTooltip"
+            >
+              <RejectQuote
+                callbackHandler={[MockFunction]}
+                isQuoteCardCta={true}
+                loading={false}
+                quoteId={8355980}
+                quoteRejectionReasons={
+                  Object {
+                    "1": "Quotes are higher than my budget",
+                    "2": "Want a different itinerary",
+                    "3": "Wish to customize my existing package",
+                    "4": "Want to travel to some other destination",
+                    "5": "Others",
+                    "6": "Not satisfied with the hotels",
+                  }
+                }
+                trackSegment={[Function]}
+                tripId="4582265"
+              />
+            </ForwardRef(render)>
+          </ForwardRef(render)>,
+          <div
+            className="flex alignCenter mb15"
+          >
+            <AgentOnlineIndicator
+              isChatIndicator={false}
+              showPresenceMessage={true}
+              userDetails={Object {}}
+              userId={128324}
+            />
+            
+          </div>,
+          <Link
+            className="at_agentDetails"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/requested_trips/4582265/quotes/8355980"
+          >
+            <AgentDetail
+              agent={
+                Object {
+                  "email": "UserEmail128324@gmail.com",
+                  "id": "128324_2847",
+                  "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                  "name": "Agent 128324",
+                  "phoneNumber": "09311834343",
+                  "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                  "reviewsCount": 1351,
+                  "star": 3.5,
+                  "tripsSold": 1301,
+                }
+              }
+              userDetails={Object {}}
+            />
+          </Link>,
+          <div>
+            <ModalComponent
+              customClass=""
+              customCloseTrigger={true}
+              disabled={false}
+              fullView={false}
+              hasCustomClose={false}
+              hasNoClose={false}
+              isOpen={false}
+              isTriggerFullView={false}
+              isWhiteIcon={false}
+              onAfterModalOpen={[Function]}
+              onRequestCloseCustom={[Function]}
+              trigger={null}
+            >
+              <BookNowPopup
+                agent={
+                  Object {
+                    "email": "UserEmail128324@gmail.com",
+                    "id": "128324_2847",
+                    "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                    "name": "Agent 128324",
+                    "phoneNumber": "09311834343",
+                    "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                    "reviewsCount": 1351,
+                    "star": 3.5,
+                    "tripsSold": 1301,
+                  }
+                }
+                bookNow={[Function]}
+                closeModal={[Function]}
+                priceInfo={
+                  Object {
+                    "currency": "Rupee",
+                    "perPerson": "",
+                    "price": 31500,
+                    "priceInRupee": 31500,
+                  }
+                }
+              />
+            </ModalComponent>
+          </div>,
+          <ForwardRef(render)
+            className="flexFull bt pt15 mt8 mb8"
+          >
+            <p
+              className="quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 at_quoteStatus quotesStatus activeQuote sbc3"
+            >
+              <span
+                className="pl5 pr5"
+              >
+                Invoice Generated
+              </span>
+            </p>
+            
+          </ForwardRef(render)>,
+          <div
+            className="flex spaceBetween alignCenter"
+          >
+            <div
+              className="f12 pfc4 at_updatedHours"
+            >
+              Updated 10 months ago
+            </div>
+            <div>
+              <QuotePrice
+                currency="Rupee"
+                discount={0}
+                lineBreak={false}
+                perPerson=""
+                price={31500}
+                priceInRupee={31500}
+                showOriginalPrice={true}
+              />
+            </div>
+          </div>,
+        ],
+        "className": "sbcw m8 pl15 pr15 pt8 pb8 radius2 relative at_quoteCard",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <div
+                className="z10 icon-18 changeIcon at_tooltip"
+              >
+                <ForwardRef(render)
+                  className="pbc4 absolute radius100"
+                />
+                <ForwardRef(render)
+                  className="pbc4 t8 b1 absolute radius100"
+                />
+                <ForwardRef(render)
+                  className="pbc4 t15 absolute radius100"
+                />
+              </div>,
+              <ForwardRef(render)
+                className="at_tooltipPopup absolute r0 sbcw z2 openTooltip"
+              >
+                <RejectQuote
+                  callbackHandler={[MockFunction]}
+                  isQuoteCardCta={true}
+                  loading={false}
+                  quoteId={8355980}
+                  quoteRejectionReasons={
+                    Object {
+                      "1": "Quotes are higher than my budget",
+                      "2": "Want a different itinerary",
+                      "3": "Wish to customize my existing package",
+                      "4": "Want to travel to some other destination",
+                      "5": "Others",
+                      "6": "Not satisfied with the hotels",
+                    }
+                  }
+                  trackSegment={[Function]}
+                  tripId="4582265"
+                />
+              </ForwardRef(render)>,
+            ],
+            "className": "iblock icon-18 fright z10 text-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(render)
+                    className="pbc4 absolute radius100"
+                  />,
+                  <ForwardRef(render)
+                    className="pbc4 t8 b1 absolute radius100"
+                  />,
+                  <ForwardRef(render)
+                    className="pbc4 t15 absolute radius100"
+                  />,
+                ],
+                "className": "z10 icon-18 changeIcon at_tooltip",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "pbc4 absolute radius100",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "span",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "height": "4px",
+                        "width": "4px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(span)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "pbc4 t8 b1 absolute radius100",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "span",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "height": "4px",
+                        "width": "4px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(span)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "className": "pbc4 t15 absolute radius100",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "span",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "height": "4px",
+                        "width": "4px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(span)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <RejectQuote
+                  callbackHandler={[MockFunction]}
+                  isQuoteCardCta={true}
+                  loading={false}
+                  quoteId={8355980}
+                  quoteRejectionReasons={
+                    Object {
+                      "1": "Quotes are higher than my budget",
+                      "2": "Want a different itinerary",
+                      "3": "Wish to customize my existing package",
+                      "4": "Want to travel to some other destination",
+                      "5": "Others",
+                      "6": "Not satisfied with the hotels",
+                    }
+                  }
+                  trackSegment={[Function]}
+                  tripId="4582265"
+                />,
+                "className": "at_tooltipPopup absolute r0 sbcw z2 openTooltip",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "cta-reject-quote",
+                "nodeType": "class",
+                "props": Object {
+                  "callbackHandler": [MockFunction],
+                  "isQuoteCardCta": true,
+                  "loading": false,
+                  "quoteId": 8355980,
+                  "quoteRejectionReasons": Object {
+                    "1": "Quotes are higher than my budget",
+                    "2": "Want a different itinerary",
+                    "3": "Wish to customize my existing package",
+                    "4": "Want to travel to some other destination",
+                    "5": "Others",
+                    "6": "Not satisfied with the hotels",
+                  },
+                  "trackSegment": [Function],
+                  "tripId": "4582265",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "boxShadow": "0 0 6px #ccc",
+                    "display": "none",
+                    "minWidth": "200px",
+                    "top": "-10px",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                ":hover > .changeIcon span": Object {
+                  "backgroundColor": "#009688",
+                },
+                ":hover > .openTooltip": Object {
+                  "display": "block",
+                },
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <AgentOnlineIndicator
+                isChatIndicator={false}
+                showPresenceMessage={true}
+                userDetails={Object {}}
+                userId={128324}
+              />,
+              "",
+            ],
+            "className": "flex alignCenter mb15",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "isChatIndicator": false,
+                "showPresenceMessage": true,
+                "userDetails": Object {},
+                "userId": 128324,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <AgentDetail
+              agent={
+                Object {
+                  "email": "UserEmail128324@gmail.com",
+                  "id": "128324_2847",
+                  "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                  "name": "Agent 128324",
+                  "phoneNumber": "09311834343",
+                  "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                  "reviewsCount": 1351,
+                  "star": 3.5,
+                  "tripsSold": 1301,
+                }
+              }
+              userDetails={Object {}}
+            />,
+            "className": "at_agentDetails",
+            "onClick": [Function],
+            "onlyActiveOnIndex": false,
+            "style": Object {},
+            "to": "/requested_trips/4582265/quotes/8355980",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "agent": Object {
+                "email": "UserEmail128324@gmail.com",
+                "id": "128324_2847",
+                "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                "name": "Agent 128324",
+                "phoneNumber": "09311834343",
+                "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                "reviewsCount": 1351,
+                "star": 3.5,
+                "tripsSold": 1301,
+              },
+              "userDetails": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ModalComponent
+              customClass=""
+              customCloseTrigger={true}
+              disabled={false}
+              fullView={false}
+              hasCustomClose={false}
+              hasNoClose={false}
+              isOpen={false}
+              isTriggerFullView={false}
+              isWhiteIcon={false}
+              onAfterModalOpen={[Function]}
+              onRequestCloseCustom={[Function]}
+              trigger={null}
+            >
+              <BookNowPopup
+                agent={
+                  Object {
+                    "email": "UserEmail128324@gmail.com",
+                    "id": "128324_2847",
+                    "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                    "name": "Agent 128324",
+                    "phoneNumber": "09311834343",
+                    "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                    "reviewsCount": 1351,
+                    "star": 3.5,
+                    "tripsSold": 1301,
+                  }
+                }
+                bookNow={[Function]}
+                closeModal={[Function]}
+                priceInfo={
+                  Object {
+                    "currency": "Rupee",
+                    "perPerson": "",
+                    "price": 31500,
+                    "priceInRupee": 31500,
+                  }
+                }
+              />
+            </ModalComponent>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <BookNowPopup
+                agent={
+                  Object {
+                    "email": "UserEmail128324@gmail.com",
+                    "id": "128324_2847",
+                    "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                    "name": "Agent 128324",
+                    "phoneNumber": "09311834343",
+                    "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                    "reviewsCount": 1351,
+                    "star": 3.5,
+                    "tripsSold": 1301,
+                  }
+                }
+                bookNow={[Function]}
+                closeModal={[Function]}
+                priceInfo={
+                  Object {
+                    "currency": "Rupee",
+                    "perPerson": "",
+                    "price": 31500,
+                    "priceInRupee": 31500,
+                  }
+                }
+              />,
+              "customClass": "",
+              "customCloseTrigger": true,
+              "disabled": false,
+              "fullView": false,
+              "hasCustomClose": false,
+              "hasNoClose": false,
+              "isOpen": false,
+              "isTriggerFullView": false,
+              "isWhiteIcon": false,
+              "onAfterModalOpen": [Function],
+              "onRequestCloseCustom": [Function],
+              "trigger": null,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "agent": Object {
+                  "email": "UserEmail128324@gmail.com",
+                  "id": "128324_2847",
+                  "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                  "name": "Agent 128324",
+                  "phoneNumber": "09311834343",
+                  "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                  "reviewsCount": 1351,
+                  "star": 3.5,
+                  "tripsSold": 1301,
+                },
+                "bookNow": [Function],
+                "closeModal": [Function],
+                "priceInfo": Object {
+                  "currency": "Rupee",
+                  "perPerson": "",
+                  "price": 31500,
+                  "priceInRupee": 31500,
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p
+                className="quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 at_quoteStatus quotesStatus activeQuote sbc3"
+              >
+                <span
+                  className="pl5 pr5"
+                >
+                  Invoice Generated
+                </span>
+              </p>,
+              "",
+            ],
+            "className": "flexFull bt pt15 mt8 mb8",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span
+                  className="pl5 pr5"
+                >
+                  Invoice Generated
+                </span>,
+                "className": "quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 at_quoteStatus quotesStatus activeQuote sbc3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Invoice Generated",
+                  "className": "pl5 pr5",
+                },
+                "ref": null,
+                "rendered": "Invoice Generated",
+                "type": "span",
+              },
+              "type": "p",
+            },
+            "",
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "& .quoteStatus": Object {
+                  "height": "16px",
+                },
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="f12 pfc4 at_updatedHours"
+              >
+                Updated 10 months ago
+              </div>,
+              <div>
+                <QuotePrice
+                  currency="Rupee"
+                  discount={0}
+                  lineBreak={false}
+                  perPerson=""
+                  price={31500}
+                  priceInRupee={31500}
+                  showOriginalPrice={true}
+                />
+              </div>,
+            ],
+            "className": "flex spaceBetween alignCenter",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Updated 10 months ago",
+                "className": "f12 pfc4 at_updatedHours",
+              },
+              "ref": null,
+              "rendered": "Updated 10 months ago",
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <QuotePrice
+                  currency="Rupee"
+                  discount={0}
+                  lineBreak={false}
+                  perPerson=""
+                  price={31500}
+                  priceInRupee={31500}
+                  showOriginalPrice={true}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "Rupee",
+                  "discount": 0,
+                  "discountableType": undefined,
+                  "discountableTypeId": undefined,
+                  "lineBreak": false,
+                  "perPerson": "",
+                  "price": 31500,
+                  "priceInRupee": 31500,
+                  "showOriginalPrice": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "boxShadow": "0 0 4px #f2f2f2",
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "active": true,
+        "children": <ForwardRef(render)
+          className="sbcw m8 pl15 pr15 pt8 pb8 radius2 relative at_quoteCard"
+        >
+          <ForwardRef(render)
+            className="iblock icon-18 fright z10 text-center"
+          >
+            <div
+              className="z10 icon-18 changeIcon at_tooltip"
+            >
+              <ForwardRef(render)
+                className="pbc4 absolute radius100"
+              />
+              <ForwardRef(render)
+                className="pbc4 t8 b1 absolute radius100"
+              />
+              <ForwardRef(render)
+                className="pbc4 t15 absolute radius100"
+              />
+            </div>
+            <ForwardRef(render)
+              className="at_tooltipPopup absolute r0 sbcw z2 openTooltip"
+            >
+              <RejectQuote
+                callbackHandler={[MockFunction]}
+                isQuoteCardCta={true}
+                loading={false}
+                quoteId={8355980}
+                quoteRejectionReasons={
+                  Object {
+                    "1": "Quotes are higher than my budget",
+                    "2": "Want a different itinerary",
+                    "3": "Wish to customize my existing package",
+                    "4": "Want to travel to some other destination",
+                    "5": "Others",
+                    "6": "Not satisfied with the hotels",
+                  }
+                }
+                trackSegment={[Function]}
+                tripId="4582265"
+              />
+            </ForwardRef(render)>
+          </ForwardRef(render)>
+          <div
+            className="flex alignCenter mb15"
+          >
+            <AgentOnlineIndicator
+              isChatIndicator={false}
+              showPresenceMessage={true}
+              userDetails={Object {}}
+              userId={128324}
+            />
+            
+          </div>
+          <Link
+            className="at_agentDetails"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/requested_trips/4582265/quotes/8355980"
+          >
+            <AgentDetail
+              agent={
+                Object {
+                  "email": "UserEmail128324@gmail.com",
+                  "id": "128324_2847",
+                  "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                  "name": "Agent 128324",
+                  "phoneNumber": "09311834343",
+                  "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                  "reviewsCount": 1351,
+                  "star": 3.5,
+                  "tripsSold": 1301,
+                }
+              }
+              userDetails={Object {}}
+            />
+          </Link>
+          <div>
+            <ModalComponent
+              customClass=""
+              customCloseTrigger={true}
+              disabled={false}
+              fullView={false}
+              hasCustomClose={false}
+              hasNoClose={false}
+              isOpen={false}
+              isTriggerFullView={false}
+              isWhiteIcon={false}
+              onAfterModalOpen={[Function]}
+              onRequestCloseCustom={[Function]}
+              trigger={null}
+            >
+              <BookNowPopup
+                agent={
+                  Object {
+                    "email": "UserEmail128324@gmail.com",
+                    "id": "128324_2847",
+                    "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                    "name": "Agent 128324",
+                    "phoneNumber": "09311834343",
+                    "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                    "reviewsCount": 1351,
+                    "star": 3.5,
+                    "tripsSold": 1301,
+                  }
+                }
+                bookNow={[Function]}
+                closeModal={[Function]}
+                priceInfo={
+                  Object {
+                    "currency": "Rupee",
+                    "perPerson": "",
+                    "price": 31500,
+                    "priceInRupee": 31500,
+                  }
+                }
+              />
+            </ModalComponent>
+          </div>
+          <ForwardRef(render)
+            className="flexFull bt pt15 mt8 mb8"
+          >
+            <p
+              className="quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 at_quoteStatus quotesStatus activeQuote sbc3"
+            >
+              <span
+                className="pl5 pr5"
+              >
+                Invoice Generated
+              </span>
+            </p>
+            
+          </ForwardRef(render)>
+          <div
+            className="flex spaceBetween alignCenter"
+          >
+            <div
+              className="f12 pfc4 at_updatedHours"
+            >
+              Updated 10 months ago
+            </div>
+            <div>
+              <QuotePrice
+                currency="Rupee"
+                discount={0}
+                lineBreak={false}
+                perPerson=""
+                price={31500}
+                priceInRupee={31500}
+                showOriginalPrice={true}
+              />
+            </div>
+          </div>
+        </ForwardRef(render)>,
+        "containment": null,
+        "delayedCall": true,
+        "intervalCheck": true,
+        "intervalDelay": 100,
+        "minTopValue": 0,
+        "offset": Object {},
+        "onChange": [Function],
+        "partialVisibility": "bottom",
+        "resizeCheck": false,
+        "resizeDelay": 250,
+        "resizeThrottle": -1,
+        "scrollCheck": false,
+        "scrollDelay": 250,
+        "scrollThrottle": -1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(render)
+              className="iblock icon-18 fright z10 text-center"
+            >
+              <div
+                className="z10 icon-18 changeIcon at_tooltip"
+              >
+                <ForwardRef(render)
+                  className="pbc4 absolute radius100"
+                />
+                <ForwardRef(render)
+                  className="pbc4 t8 b1 absolute radius100"
+                />
+                <ForwardRef(render)
+                  className="pbc4 t15 absolute radius100"
+                />
+              </div>
+              <ForwardRef(render)
+                className="at_tooltipPopup absolute r0 sbcw z2 openTooltip"
+              >
+                <RejectQuote
+                  callbackHandler={[MockFunction]}
+                  isQuoteCardCta={true}
+                  loading={false}
+                  quoteId={8355980}
+                  quoteRejectionReasons={
+                    Object {
+                      "1": "Quotes are higher than my budget",
+                      "2": "Want a different itinerary",
+                      "3": "Wish to customize my existing package",
+                      "4": "Want to travel to some other destination",
+                      "5": "Others",
+                      "6": "Not satisfied with the hotels",
+                    }
+                  }
+                  trackSegment={[Function]}
+                  tripId="4582265"
+                />
+              </ForwardRef(render)>
+            </ForwardRef(render)>,
+            <div
+              className="flex alignCenter mb15"
+            >
+              <AgentOnlineIndicator
+                isChatIndicator={false}
+                showPresenceMessage={true}
+                userDetails={Object {}}
+                userId={128324}
+              />
+              
+            </div>,
+            <Link
+              className="at_agentDetails"
+              onClick={[Function]}
+              onlyActiveOnIndex={false}
+              style={Object {}}
+              to="/requested_trips/4582265/quotes/8355980"
+            >
+              <AgentDetail
+                agent={
+                  Object {
+                    "email": "UserEmail128324@gmail.com",
+                    "id": "128324_2847",
+                    "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                    "name": "Agent 128324",
+                    "phoneNumber": "09311834343",
+                    "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                    "reviewsCount": 1351,
+                    "star": 3.5,
+                    "tripsSold": 1301,
+                  }
+                }
+                userDetails={Object {}}
+              />
+            </Link>,
+            <div>
+              <ModalComponent
+                customClass=""
+                customCloseTrigger={true}
+                disabled={false}
+                fullView={false}
+                hasCustomClose={false}
+                hasNoClose={false}
+                isOpen={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={null}
+              >
+                <BookNowPopup
+                  agent={
+                    Object {
+                      "email": "UserEmail128324@gmail.com",
+                      "id": "128324_2847",
+                      "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                      "name": "Agent 128324",
+                      "phoneNumber": "09311834343",
+                      "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                      "reviewsCount": 1351,
+                      "star": 3.5,
+                      "tripsSold": 1301,
+                    }
+                  }
+                  bookNow={[Function]}
+                  closeModal={[Function]}
+                  priceInfo={
+                    Object {
+                      "currency": "Rupee",
+                      "perPerson": "",
+                      "price": 31500,
+                      "priceInRupee": 31500,
+                    }
+                  }
+                />
+              </ModalComponent>
+            </div>,
+            <ForwardRef(render)
+              className="flexFull bt pt15 mt8 mb8"
+            >
+              <p
+                className="quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 at_quoteStatus quotesStatus activeQuote sbc3"
+              >
+                <span
+                  className="pl5 pr5"
+                >
+                  Invoice Generated
+                </span>
+              </p>
+              
+            </ForwardRef(render)>,
+            <div
+              className="flex spaceBetween alignCenter"
+            >
+              <div
+                className="f12 pfc4 at_updatedHours"
+              >
+                Updated 10 months ago
+              </div>
+              <div>
+                <QuotePrice
+                  currency="Rupee"
+                  discount={0}
+                  lineBreak={false}
+                  perPerson=""
+                  price={31500}
+                  priceInRupee={31500}
+                  showOriginalPrice={true}
+                />
+              </div>
+            </div>,
+          ],
+          "className": "sbcw m8 pl15 pr15 pt8 pb8 radius2 relative at_quoteCard",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="z10 icon-18 changeIcon at_tooltip"
+                >
+                  <ForwardRef(render)
+                    className="pbc4 absolute radius100"
+                  />
+                  <ForwardRef(render)
+                    className="pbc4 t8 b1 absolute radius100"
+                  />
+                  <ForwardRef(render)
+                    className="pbc4 t15 absolute radius100"
+                  />
+                </div>,
+                <ForwardRef(render)
+                  className="at_tooltipPopup absolute r0 sbcw z2 openTooltip"
+                >
+                  <RejectQuote
+                    callbackHandler={[MockFunction]}
+                    isQuoteCardCta={true}
+                    loading={false}
+                    quoteId={8355980}
+                    quoteRejectionReasons={
+                      Object {
+                        "1": "Quotes are higher than my budget",
+                        "2": "Want a different itinerary",
+                        "3": "Wish to customize my existing package",
+                        "4": "Want to travel to some other destination",
+                        "5": "Others",
+                        "6": "Not satisfied with the hotels",
+                      }
+                    }
+                    trackSegment={[Function]}
+                    tripId="4582265"
+                  />
+                </ForwardRef(render)>,
+              ],
+              "className": "iblock icon-18 fright z10 text-center",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      className="pbc4 absolute radius100"
+                    />,
+                    <ForwardRef(render)
+                      className="pbc4 t8 b1 absolute radius100"
+                    />,
+                    <ForwardRef(render)
+                      className="pbc4 t15 absolute radius100"
+                    />,
+                  ],
+                  "className": "z10 icon-18 changeIcon at_tooltip",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "className": "pbc4 absolute radius100",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "span",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "height": "4px",
+                          "width": "4px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(span)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "className": "pbc4 t8 b1 absolute radius100",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "span",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "height": "4px",
+                          "width": "4px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(span)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "className": "pbc4 t15 absolute radius100",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "span",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "height": "4px",
+                          "width": "4px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(span)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <RejectQuote
+                    callbackHandler={[MockFunction]}
+                    isQuoteCardCta={true}
+                    loading={false}
+                    quoteId={8355980}
+                    quoteRejectionReasons={
+                      Object {
+                        "1": "Quotes are higher than my budget",
+                        "2": "Want a different itinerary",
+                        "3": "Wish to customize my existing package",
+                        "4": "Want to travel to some other destination",
+                        "5": "Others",
+                        "6": "Not satisfied with the hotels",
+                      }
+                    }
+                    trackSegment={[Function]}
+                    tripId="4582265"
+                  />,
+                  "className": "at_tooltipPopup absolute r0 sbcw z2 openTooltip",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "cta-reject-quote",
+                  "nodeType": "class",
+                  "props": Object {
+                    "callbackHandler": [MockFunction],
+                    "isQuoteCardCta": true,
+                    "loading": false,
+                    "quoteId": 8355980,
+                    "quoteRejectionReasons": Object {
+                      "1": "Quotes are higher than my budget",
+                      "2": "Want a different itinerary",
+                      "3": "Wish to customize my existing package",
+                      "4": "Want to travel to some other destination",
+                      "5": "Others",
+                      "6": "Not satisfied with the hotels",
+                    },
+                    "trackSegment": [Function],
+                    "tripId": "4582265",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "boxShadow": "0 0 6px #ccc",
+                      "display": "none",
+                      "minWidth": "200px",
+                      "top": "-10px",
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  ":hover > .changeIcon span": Object {
+                    "backgroundColor": "#009688",
+                  },
+                  ":hover > .openTooltip": Object {
+                    "display": "block",
+                  },
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <AgentOnlineIndicator
+                  isChatIndicator={false}
+                  showPresenceMessage={true}
+                  userDetails={Object {}}
+                  userId={128324}
+                />,
+                "",
+              ],
+              "className": "flex alignCenter mb15",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "isChatIndicator": false,
+                  "showPresenceMessage": true,
+                  "userDetails": Object {},
+                  "userId": 128324,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "",
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <AgentDetail
+                agent={
+                  Object {
+                    "email": "UserEmail128324@gmail.com",
+                    "id": "128324_2847",
+                    "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                    "name": "Agent 128324",
+                    "phoneNumber": "09311834343",
+                    "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                    "reviewsCount": 1351,
+                    "star": 3.5,
+                    "tripsSold": 1301,
+                  }
+                }
+                userDetails={Object {}}
+              />,
+              "className": "at_agentDetails",
+              "onClick": [Function],
+              "onlyActiveOnIndex": false,
+              "style": Object {},
+              "to": "/requested_trips/4582265/quotes/8355980",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "agent": Object {
+                  "email": "UserEmail128324@gmail.com",
+                  "id": "128324_2847",
+                  "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                  "name": "Agent 128324",
+                  "phoneNumber": "09311834343",
+                  "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                  "reviewsCount": 1351,
+                  "star": 3.5,
+                  "tripsSold": 1301,
+                },
+                "userDetails": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ModalComponent
+                customClass=""
+                customCloseTrigger={true}
+                disabled={false}
+                fullView={false}
+                hasCustomClose={false}
+                hasNoClose={false}
+                isOpen={false}
+                isTriggerFullView={false}
+                isWhiteIcon={false}
+                onAfterModalOpen={[Function]}
+                onRequestCloseCustom={[Function]}
+                trigger={null}
+              >
+                <BookNowPopup
+                  agent={
+                    Object {
+                      "email": "UserEmail128324@gmail.com",
+                      "id": "128324_2847",
+                      "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                      "name": "Agent 128324",
+                      "phoneNumber": "09311834343",
+                      "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                      "reviewsCount": 1351,
+                      "star": 3.5,
+                      "tripsSold": 1301,
+                    }
+                  }
+                  bookNow={[Function]}
+                  closeModal={[Function]}
+                  priceInfo={
+                    Object {
+                      "currency": "Rupee",
+                      "perPerson": "",
+                      "price": 31500,
+                      "priceInRupee": 31500,
+                    }
+                  }
+                />
+              </ModalComponent>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <BookNowPopup
+                  agent={
+                    Object {
+                      "email": "UserEmail128324@gmail.com",
+                      "id": "128324_2847",
+                      "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                      "name": "Agent 128324",
+                      "phoneNumber": "09311834343",
+                      "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                      "reviewsCount": 1351,
+                      "star": 3.5,
+                      "tripsSold": 1301,
+                    }
+                  }
+                  bookNow={[Function]}
+                  closeModal={[Function]}
+                  priceInfo={
+                    Object {
+                      "currency": "Rupee",
+                      "perPerson": "",
+                      "price": 31500,
+                      "priceInRupee": 31500,
+                    }
+                  }
+                />,
+                "customClass": "",
+                "customCloseTrigger": true,
+                "disabled": false,
+                "fullView": false,
+                "hasCustomClose": false,
+                "hasNoClose": false,
+                "isOpen": false,
+                "isTriggerFullView": false,
+                "isWhiteIcon": false,
+                "onAfterModalOpen": [Function],
+                "onRequestCloseCustom": [Function],
+                "trigger": null,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "agent": Object {
+                    "email": "UserEmail128324@gmail.com",
+                    "id": "128324_2847",
+                    "imageUrl": "https://res.cloudinary.com/dma3zc8eo/image/fetch/f_auto,q_auto:eco,w_300/https://d2ly56lqom12n0.cloudfront.net/attachments/tr_a_profiles/683/original/Tripsailerlogo.png",
+                    "name": "Agent 128324",
+                    "phoneNumber": "09311834343",
+                    "reviewLink": "https://bookings-qa2.ttdev.in/agents/3132383332342d547261-Travel-Agency-683",
+                    "reviewsCount": 1351,
+                    "star": 3.5,
+                    "tripsSold": 1301,
+                  },
+                  "bookNow": [Function],
+                  "closeModal": [Function],
+                  "priceInfo": Object {
+                    "currency": "Rupee",
+                    "perPerson": "",
+                    "price": 31500,
+                    "priceInRupee": 31500,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 at_quoteStatus quotesStatus activeQuote sbc3"
+                >
+                  <span
+                    className="pl5 pr5"
+                  >
+                    Invoice Generated
+                  </span>
+                </p>,
+                "",
+              ],
+              "className": "flexFull bt pt15 mt8 mb8",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span
+                    className="pl5 pr5"
+                  >
+                    Invoice Generated
+                  </span>,
+                  "className": "quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 at_quoteStatus quotesStatus activeQuote sbc3",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Invoice Generated",
+                    "className": "pl5 pr5",
+                  },
+                  "ref": null,
+                  "rendered": "Invoice Generated",
+                  "type": "span",
+                },
+                "type": "p",
+              },
+              "",
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& .quoteStatus": Object {
+                    "height": "16px",
+                  },
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="f12 pfc4 at_updatedHours"
+                >
+                  Updated 10 months ago
+                </div>,
+                <div>
+                  <QuotePrice
+                    currency="Rupee"
+                    discount={0}
+                    lineBreak={false}
+                    perPerson=""
+                    price={31500}
+                    priceInRupee={31500}
+                    showOriginalPrice={true}
+                  />
+                </div>,
+              ],
+              "className": "flex spaceBetween alignCenter",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Updated 10 months ago",
+                  "className": "f12 pfc4 at_updatedHours",
+                },
+                "ref": null,
+                "rendered": "Updated 10 months ago",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <QuotePrice
+                    currency="Rupee"
+                    discount={0}
+                    lineBreak={false}
+                    perPerson=""
+                    price={31500}
+                    priceInRupee={31500}
+                    showOriginalPrice={true}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "currency": "Rupee",
+                    "discount": 0,
+                    "discountableType": undefined,
+                    "discountableTypeId": undefined,
+                    "lineBreak": false,
+                    "perPerson": "",
+                    "price": 31500,
+                    "priceInRupee": 31500,
+                    "showOriginalPrice": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "boxShadow": "0 0 4px #f2f2f2",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

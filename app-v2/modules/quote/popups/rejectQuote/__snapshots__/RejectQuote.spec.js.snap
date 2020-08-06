@@ -1,0 +1,2288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reject Quote Popup: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RejectQuotePopup
+    closeModal={[MockFunction]}
+    loading={false}
+    quoteId={7124216}
+    rejectQuoteHandler={[MockFunction]}
+    rejectQuoteReasons={
+      Object {
+        "1": "Quotes are higher than my budget",
+        "2": "Want a different itinerary",
+        "3": "Wish to customize my existing package",
+        "4": "Want to travel to some other destination",
+        "5": "Others",
+        "6": "Not satisfied with the hotels",
+      }
+    }
+    tripId={3918699}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <ModalHeaderCustom
+          heading="Reject Quote:"
+        />,
+        <div
+          className="col-xs-12 sbcw z2 p0"
+        >
+          <div
+            className="col-xs-12 iblock p24 pb8"
+          >
+            <p
+              className="f14 fw9 pfc3 mb0 at_rejectheader"
+            >
+              Please let us know the reason for rejecting this quote
+            </p>
+          </div>
+          <div
+            className="col-xs-12 p24 pt8"
+          >
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-10"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="1"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                htmlFor="reject-quote-10"
+              >
+                Quotes are higher than my budget
+              </label>
+            </div>
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-21"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="2"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                htmlFor="reject-quote-21"
+              >
+                Want a different itinerary
+              </label>
+            </div>
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-32"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="3"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                htmlFor="reject-quote-32"
+              >
+                Wish to customize my existing package
+              </label>
+            </div>
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-43"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="4"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                htmlFor="reject-quote-43"
+              >
+                Want to travel to some other destination
+              </label>
+            </div>
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-64"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="6"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                htmlFor="reject-quote-64"
+              >
+                Not satisfied with the hotels
+              </label>
+            </div>
+            <div>
+              <ForwardRef(render)
+                checked={false}
+                className="checkbox-round"
+                id="reject-quote-5"
+                name="reject-quote-rad"
+                onChange={[Function]}
+                type="radio"
+                value="5"
+              />
+              <label
+                className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                htmlFor="reject-quote-5"
+              >
+                Others
+              </label>
+              <ForwardRef(render)
+                className="border textarea p8 mb8 at_othertextbox"
+                onChange={[Function]}
+                placeholder="Enter reason for Quote Rejection"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className="fixed b0 l0 flex wfull bs6 z10"
+          >
+            <button
+              className="flexFull link-pri pfc3 fw7 wfull radius2 pl8 pr8 pt15 pb15 MB15 iblock at_rejectcancel sbcw"
+              onClick={[Function]}
+            >
+              Cancel
+            </button>
+            <button
+              className="flexFull btn-filled-pri-large wfull radius2 pl8 pr8 at_rejectconfirm"
+              disabled={false}
+              onClick={[Function]}
+            >
+              Reject Quote
+            </button>
+          </div>
+        </div>,
+      ],
+      "className": "row row-",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "heading": "Reject Quote:",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="col-xs-12 iblock p24 pb8"
+            >
+              <p
+                className="f14 fw9 pfc3 mb0 at_rejectheader"
+              >
+                Please let us know the reason for rejecting this quote
+              </p>
+            </div>,
+            <div
+              className="col-xs-12 p24 pt8"
+            >
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-10"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-10"
+                >
+                  Quotes are higher than my budget
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-21"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-21"
+                >
+                  Want a different itinerary
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-32"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-32"
+                >
+                  Wish to customize my existing package
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-43"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="4"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-43"
+                >
+                  Want to travel to some other destination
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-64"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="6"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-64"
+                >
+                  Not satisfied with the hotels
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-5"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="5"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-5"
+                >
+                  Others
+                </label>
+                <ForwardRef(render)
+                  className="border textarea p8 mb8 at_othertextbox"
+                  onChange={[Function]}
+                  placeholder="Enter reason for Quote Rejection"
+                  value=""
+                />
+              </div>
+            </div>,
+            <div
+              className="fixed b0 l0 flex wfull bs6 z10"
+            >
+              <button
+                className="flexFull link-pri pfc3 fw7 wfull radius2 pl8 pr8 pt15 pb15 MB15 iblock at_rejectcancel sbcw"
+                onClick={[Function]}
+              >
+                Cancel
+              </button>
+              <button
+                className="flexFull btn-filled-pri-large wfull radius2 pl8 pr8 at_rejectconfirm"
+                disabled={false}
+                onClick={[Function]}
+              >
+                Reject Quote
+              </button>
+            </div>,
+          ],
+          "className": "col-xs-12 sbcw z2 p0",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="f14 fw9 pfc3 mb0 at_rejectheader"
+                >
+                  Please let us know the reason for rejecting this quote
+                </p>,
+                null,
+              ],
+              "className": "col-xs-12 iblock p24 pb8",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Please let us know the reason for rejecting this quote",
+                  "className": "f14 fw9 pfc3 mb0 at_rejectheader",
+                },
+                "ref": null,
+                "rendered": "Please let us know the reason for rejecting this quote",
+                "type": "p",
+              },
+              null,
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                Array [
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-10"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="1"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-10"
+                    >
+                      Quotes are higher than my budget
+                    </label>
+                  </div>,
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-21"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="2"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-21"
+                    >
+                      Want a different itinerary
+                    </label>
+                  </div>,
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-32"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="3"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-32"
+                    >
+                      Wish to customize my existing package
+                    </label>
+                  </div>,
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-43"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="4"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-43"
+                    >
+                      Want to travel to some other destination
+                    </label>
+                  </div>,
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-64"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="6"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-64"
+                    >
+                      Not satisfied with the hotels
+                    </label>
+                  </div>,
+                ],
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-5"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                    htmlFor="reject-quote-5"
+                  >
+                    Others
+                  </label>
+                  <ForwardRef(render)
+                    className="border textarea p8 mb8 at_othertextbox"
+                    onChange={[Function]}
+                    placeholder="Enter reason for Quote Rejection"
+                    value=""
+                  />
+                </div>,
+              ],
+              "className": "col-xs-12 p24 pt8",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "reject-quote-10",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-10"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="1"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-10"
+                    >
+                      Quotes are higher than my budget
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-10",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "1",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Quotes are higher than my budget",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                      "htmlFor": "reject-quote-10",
+                    },
+                    "ref": null,
+                    "rendered": "Quotes are higher than my budget",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "reject-quote-21",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-21"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="2"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-21"
+                    >
+                      Want a different itinerary
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-21",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "2",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Want a different itinerary",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                      "htmlFor": "reject-quote-21",
+                    },
+                    "ref": null,
+                    "rendered": "Want a different itinerary",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "reject-quote-32",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-32"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="3"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-32"
+                    >
+                      Wish to customize my existing package
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-32",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "3",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Wish to customize my existing package",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                      "htmlFor": "reject-quote-32",
+                    },
+                    "ref": null,
+                    "rendered": "Wish to customize my existing package",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "reject-quote-43",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-43"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="4"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-43"
+                    >
+                      Want to travel to some other destination
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-43",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "4",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Want to travel to some other destination",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                      "htmlFor": "reject-quote-43",
+                    },
+                    "ref": null,
+                    "rendered": "Want to travel to some other destination",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "reject-quote-64",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-64"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="6"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-64"
+                    >
+                      Not satisfied with the hotels
+                    </label>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-64",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "6",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Not satisfied with the hotels",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                      "htmlFor": "reject-quote-64",
+                    },
+                    "ref": null,
+                    "rendered": "Not satisfied with the hotels",
+                    "type": "label",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "reject-quote-5",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-5"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="5"
+                    />,
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-5"
+                    >
+                      Others
+                    </label>,
+                    <ForwardRef(render)
+                      className="border textarea p8 mb8 at_othertextbox"
+                      onChange={[Function]}
+                      placeholder="Enter reason for Quote Rejection"
+                      value=""
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "checked": false,
+                      "className": "checkbox-round",
+                      "id": "reject-quote-5",
+                      "name": "reject-quote-rad",
+                      "onChange": [Function],
+                      "type": "radio",
+                      "value": "5",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "input",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& + label": Object {
+                            ":before": Object {
+                              "borderColor": "#3e3e3e",
+                            },
+                            "color": "#3e3e3e",
+                          },
+                          "&:checked + label + .input-dropdown-box": Object {
+                            "display": "block",
+                          },
+                          "&:checked + label + .showText + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                        Object {
+                          "&:checked + label + textarea": Object {
+                            "display": "block",
+                          },
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(input)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Others",
+                      "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                      "htmlFor": "reject-quote-5",
+                    },
+                    "ref": null,
+                    "rendered": "Others",
+                    "type": "label",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "className": "border textarea p8 mb8 at_othertextbox",
+                      "onChange": [Function],
+                      "placeholder": "Enter reason for Quote Rejection",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "textarea",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "display": "none",
+                          "marginLeft": "30px",
+                          "resize": "none",
+                          "width": "calc(100% - 30px)",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(textarea)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="flexFull link-pri pfc3 fw7 wfull radius2 pl8 pr8 pt15 pb15 MB15 iblock at_rejectcancel sbcw"
+                  onClick={[Function]}
+                >
+                  Cancel
+                </button>,
+                <button
+                  className="flexFull btn-filled-pri-large wfull radius2 pl8 pr8 at_rejectconfirm"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Reject Quote
+                </button>,
+              ],
+              "className": "fixed b0 l0 flex wfull bs6 z10",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Cancel",
+                  "className": "flexFull link-pri pfc3 fw7 wfull radius2 pl8 pr8 pt15 pb15 MB15 iblock at_rejectcancel sbcw",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Cancel",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Reject Quote",
+                  "className": "flexFull btn-filled-pri-large wfull radius2 pl8 pr8 at_rejectconfirm",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Reject Quote",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        Object {
+          "height": "calc(100vh)",
+          "paddingBottom": "100px",
+        },
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ModalHeaderCustom
+            heading="Reject Quote:"
+          />,
+          <div
+            className="col-xs-12 sbcw z2 p0"
+          >
+            <div
+              className="col-xs-12 iblock p24 pb8"
+            >
+              <p
+                className="f14 fw9 pfc3 mb0 at_rejectheader"
+              >
+                Please let us know the reason for rejecting this quote
+              </p>
+            </div>
+            <div
+              className="col-xs-12 p24 pt8"
+            >
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-10"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="1"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-10"
+                >
+                  Quotes are higher than my budget
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-21"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="2"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-21"
+                >
+                  Want a different itinerary
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-32"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="3"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-32"
+                >
+                  Wish to customize my existing package
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-43"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="4"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-43"
+                >
+                  Want to travel to some other destination
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-64"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="6"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-64"
+                >
+                  Not satisfied with the hotels
+                </label>
+              </div>
+              <div>
+                <ForwardRef(render)
+                  checked={false}
+                  className="checkbox-round"
+                  id="reject-quote-5"
+                  name="reject-quote-rad"
+                  onChange={[Function]}
+                  type="radio"
+                  value="5"
+                />
+                <label
+                  className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                  htmlFor="reject-quote-5"
+                >
+                  Others
+                </label>
+                <ForwardRef(render)
+                  className="border textarea p8 mb8 at_othertextbox"
+                  onChange={[Function]}
+                  placeholder="Enter reason for Quote Rejection"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              className="fixed b0 l0 flex wfull bs6 z10"
+            >
+              <button
+                className="flexFull link-pri pfc3 fw7 wfull radius2 pl8 pr8 pt15 pb15 MB15 iblock at_rejectcancel sbcw"
+                onClick={[Function]}
+              >
+                Cancel
+              </button>
+              <button
+                className="flexFull btn-filled-pri-large wfull radius2 pl8 pr8 at_rejectconfirm"
+                disabled={false}
+                onClick={[Function]}
+              >
+                Reject Quote
+              </button>
+            </div>
+          </div>,
+        ],
+        "className": "row row-",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "heading": "Reject Quote:",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="col-xs-12 iblock p24 pb8"
+              >
+                <p
+                  className="f14 fw9 pfc3 mb0 at_rejectheader"
+                >
+                  Please let us know the reason for rejecting this quote
+                </p>
+              </div>,
+              <div
+                className="col-xs-12 p24 pt8"
+              >
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-10"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="1"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                    htmlFor="reject-quote-10"
+                  >
+                    Quotes are higher than my budget
+                  </label>
+                </div>
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-21"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="2"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                    htmlFor="reject-quote-21"
+                  >
+                    Want a different itinerary
+                  </label>
+                </div>
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-32"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="3"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                    htmlFor="reject-quote-32"
+                  >
+                    Wish to customize my existing package
+                  </label>
+                </div>
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-43"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="4"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                    htmlFor="reject-quote-43"
+                  >
+                    Want to travel to some other destination
+                  </label>
+                </div>
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-64"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="6"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                    htmlFor="reject-quote-64"
+                  >
+                    Not satisfied with the hotels
+                  </label>
+                </div>
+                <div>
+                  <ForwardRef(render)
+                    checked={false}
+                    className="checkbox-round"
+                    id="reject-quote-5"
+                    name="reject-quote-rad"
+                    onChange={[Function]}
+                    type="radio"
+                    value="5"
+                  />
+                  <label
+                    className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                    htmlFor="reject-quote-5"
+                  >
+                    Others
+                  </label>
+                  <ForwardRef(render)
+                    className="border textarea p8 mb8 at_othertextbox"
+                    onChange={[Function]}
+                    placeholder="Enter reason for Quote Rejection"
+                    value=""
+                  />
+                </div>
+              </div>,
+              <div
+                className="fixed b0 l0 flex wfull bs6 z10"
+              >
+                <button
+                  className="flexFull link-pri pfc3 fw7 wfull radius2 pl8 pr8 pt15 pb15 MB15 iblock at_rejectcancel sbcw"
+                  onClick={[Function]}
+                >
+                  Cancel
+                </button>
+                <button
+                  className="flexFull btn-filled-pri-large wfull radius2 pl8 pr8 at_rejectconfirm"
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  Reject Quote
+                </button>
+              </div>,
+            ],
+            "className": "col-xs-12 sbcw z2 p0",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="f14 fw9 pfc3 mb0 at_rejectheader"
+                  >
+                    Please let us know the reason for rejecting this quote
+                  </p>,
+                  null,
+                ],
+                "className": "col-xs-12 iblock p24 pb8",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Please let us know the reason for rejecting this quote",
+                    "className": "f14 fw9 pfc3 mb0 at_rejectheader",
+                  },
+                  "ref": null,
+                  "rendered": "Please let us know the reason for rejecting this quote",
+                  "type": "p",
+                },
+                null,
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  Array [
+                    <div>
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-10"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="1"
+                      />
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-10"
+                      >
+                        Quotes are higher than my budget
+                      </label>
+                    </div>,
+                    <div>
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-21"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="2"
+                      />
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-21"
+                      >
+                        Want a different itinerary
+                      </label>
+                    </div>,
+                    <div>
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-32"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="3"
+                      />
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-32"
+                      >
+                        Wish to customize my existing package
+                      </label>
+                    </div>,
+                    <div>
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-43"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="4"
+                      />
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-43"
+                      >
+                        Want to travel to some other destination
+                      </label>
+                    </div>,
+                    <div>
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-64"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="6"
+                      />
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-64"
+                      >
+                        Not satisfied with the hotels
+                      </label>
+                    </div>,
+                  ],
+                  <div>
+                    <ForwardRef(render)
+                      checked={false}
+                      className="checkbox-round"
+                      id="reject-quote-5"
+                      name="reject-quote-rad"
+                      onChange={[Function]}
+                      type="radio"
+                      value="5"
+                    />
+                    <label
+                      className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                      htmlFor="reject-quote-5"
+                    >
+                      Others
+                    </label>
+                    <ForwardRef(render)
+                      className="border textarea p8 mb8 at_othertextbox"
+                      onChange={[Function]}
+                      placeholder="Enter reason for Quote Rejection"
+                      value=""
+                    />
+                  </div>,
+                ],
+                "className": "col-xs-12 p24 pt8",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-10",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-10"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="1"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-10"
+                      >
+                        Quotes are higher than my budget
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-10",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "1",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Quotes are higher than my budget",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                        "htmlFor": "reject-quote-10",
+                      },
+                      "ref": null,
+                      "rendered": "Quotes are higher than my budget",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-21",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-21"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="2"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-21"
+                      >
+                        Want a different itinerary
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-21",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "2",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Want a different itinerary",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                        "htmlFor": "reject-quote-21",
+                      },
+                      "ref": null,
+                      "rendered": "Want a different itinerary",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-32",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-32"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="3"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-32"
+                      >
+                        Wish to customize my existing package
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-32",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "3",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Wish to customize my existing package",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                        "htmlFor": "reject-quote-32",
+                      },
+                      "ref": null,
+                      "rendered": "Wish to customize my existing package",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-43",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-43"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="4"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-43"
+                      >
+                        Want to travel to some other destination
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-43",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "4",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Want to travel to some other destination",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                        "htmlFor": "reject-quote-43",
+                      },
+                      "ref": null,
+                      "rendered": "Want to travel to some other destination",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-64",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-64"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="6"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-64"
+                      >
+                        Not satisfied with the hotels
+                      </label>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-64",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "6",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Not satisfied with the hotels",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                        "htmlFor": "reject-quote-64",
+                      },
+                      "ref": null,
+                      "rendered": "Not satisfied with the hotels",
+                      "type": "label",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "reject-quote-5",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ForwardRef(render)
+                        checked={false}
+                        className="checkbox-round"
+                        id="reject-quote-5"
+                        name="reject-quote-rad"
+                        onChange={[Function]}
+                        type="radio"
+                        value="5"
+                      />,
+                      <label
+                        className="iblock wfull f14 pfc3 mb8 mt8 at_rejectreason"
+                        htmlFor="reject-quote-5"
+                      >
+                        Others
+                      </label>,
+                      <ForwardRef(render)
+                        className="border textarea p8 mb8 at_othertextbox"
+                        onChange={[Function]}
+                        placeholder="Enter reason for Quote Rejection"
+                        value=""
+                      />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "checked": false,
+                        "className": "checkbox-round",
+                        "id": "reject-quote-5",
+                        "name": "reject-quote-rad",
+                        "onChange": [Function],
+                        "type": "radio",
+                        "value": "5",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "input",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "& + label": Object {
+                              ":before": Object {
+                                "borderColor": "#3e3e3e",
+                              },
+                              "color": "#3e3e3e",
+                            },
+                            "&:checked + label + .input-dropdown-box": Object {
+                              "display": "block",
+                            },
+                            "&:checked + label + .showText + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                          Object {
+                            "&:checked + label + textarea": Object {
+                              "display": "block",
+                            },
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(input)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Others",
+                        "className": "iblock wfull f14 pfc3 mb8 mt8 at_rejectreason",
+                        "htmlFor": "reject-quote-5",
+                      },
+                      "ref": null,
+                      "rendered": "Others",
+                      "type": "label",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "className": "border textarea p8 mb8 at_othertextbox",
+                        "onChange": [Function],
+                        "placeholder": "Enter reason for Quote Rejection",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "__emotion_base": "textarea",
+                        "__emotion_forwardProp": undefined,
+                        "__emotion_real": [Circular],
+                        "__emotion_styles": Array [
+                          Object {
+                            "display": "none",
+                            "marginLeft": "30px",
+                            "resize": "none",
+                            "width": "calc(100% - 30px)",
+                          },
+                        ],
+                        "defaultProps": undefined,
+                        "displayName": "Styled(textarea)",
+                        "render": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <button
+                    className="flexFull link-pri pfc3 fw7 wfull radius2 pl8 pr8 pt15 pb15 MB15 iblock at_rejectcancel sbcw"
+                    onClick={[Function]}
+                  >
+                    Cancel
+                  </button>,
+                  <button
+                    className="flexFull btn-filled-pri-large wfull radius2 pl8 pr8 at_rejectconfirm"
+                    disabled={false}
+                    onClick={[Function]}
+                  >
+                    Reject Quote
+                  </button>,
+                ],
+                "className": "fixed b0 l0 flex wfull bs6 z10",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Cancel",
+                    "className": "flexFull link-pri pfc3 fw7 wfull radius2 pl8 pr8 pt15 pb15 MB15 iblock at_rejectcancel sbcw",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Cancel",
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Reject Quote",
+                    "className": "flexFull btn-filled-pri-large wfull radius2 pl8 pr8 at_rejectconfirm",
+                    "disabled": false,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Reject Quote",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "height": "calc(100vh)",
+            "paddingBottom": "100px",
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

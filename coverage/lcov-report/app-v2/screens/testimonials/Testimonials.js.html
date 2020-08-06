@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/screens/testimonials/Testimonials.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app-v2/screens/testimonials</a> Testimonials.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">83.33% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>10/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">70.59% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>12/17</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">75% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">81.82% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>9/11</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
+&nbsp;
+import TravelerReview from 'modules/travelerReview/TravelerReview';
+import RatingBar from 'modules/testimonials/RatingBar';
+import HeaderHome from 'components/Header/HeaderHome';
+import Footer from 'modules/shared/Footer';
+import ReviewCard from 'modules/testimonials/ReviewCard';
+import Banner from 'modules/testimonials/Banner';
+import DestinationAndFilters from 'modules/testimonials/DestinationAndFilters';
+import LoadMorePackages from 'modules/shared/loadMorePackages';
+import Breadcrumb from 'modules/shared/Breadcrumb';
+import PopularPackages from 'modules/packages/popular/index';
+import TravelerStories from 'modules/travellerStory';
+import { createHelmet } from 'helpers/seoHelpers';
+import { testimonialsFilter } from './reducer';
+&nbsp;
+class Testimonials extends Component {
+  constructor(props) {
+    super(props);
+    this.pageNumber = 1;
+  }
+&nbsp;
+  loadMoreCards = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.pageNumber += 1;</span>
+<span class="cstat-no" title="statement not covered" >    this.props.loadCards(</span>
+      this.props.params.destination,
+      testimonialsFilter(this.props.location.query, 'query').filters,
+      this.pageNumber,
+    );
+  };
+&nbsp;
+  render() {
+    const { data, location, updateUrl, packages, params } = this.props;
+    const {
+      bannerImage, totalRating, positiveRating, overall, topTestimonials,
+      filters, testimonials, htmlTags, breadcrumbs
+    } = data;
+&nbsp;
+    topTestimonials.map(testimonial =&gt; testimonial.allowReadMore = false);
+&nbsp;
+    const overallRatting = {
+      'Excellent': overall.excellent || <span class="branch-1 cbranch-no" title="branch not covered" >0,</span>
+      'Very Good': overall.veryGood || <span class="branch-1 cbranch-no" title="branch not covered" >0,</span>
+      'Good': overall.good || <span class="branch-1 cbranch-no" title="branch not covered" >0,</span>
+      'Poor': overall.poor || <span class="branch-1 cbranch-no" title="branch not covered" >0,</span>
+      'Bad': overall.bad || <span class="branch-1 cbranch-no" title="branch not covered" >0</span>
+    };
+&nbsp;
+    const totalReview = overallRatting.Excellent + overallRatting['Very Good'] +
+      overallRatting.Good + overallRatting.Poor + overallRatting.Bad;
+    return (
+      &lt;div className="sbc5"&gt;
+        &lt;Helmet&gt;
+          &lt;meta charSet="utf-8" /&gt;
+          {createHelmet(htmlTags, '', location.pathname)}
+        &lt;/Helmet&gt;
+        &lt;div className='absolute t0 l0 r0 z5'&gt;
+          &lt;HeaderHome isTransparent={true} /&gt;
+        &lt;/div&gt;
+        &lt;div className='relative mb8'&gt;
+          &lt;Banner positiveRating={positiveRating} bannerPath={bannerImage.src} totalRating={totalReview}
+                bannerAlt={bannerImage.title} /&gt;
+        &lt;/div&gt;
+        &lt;div className='p24 sbcw mb8'&gt;
+          &lt;RatingBar reviewNumbers={overallRatting} totalReviews={totalReview} /&gt;
+        &lt;/div&gt;
+        &lt;div className='p15 sbcw mb8'&gt;
+          &lt;TravelerReview
+            testimonials={topTestimonials}
+            showViewAll={false}
+            data={{ title: 'Top Positive Reviews' }}
+          /&gt;
+        &lt;/div&gt;
+        &lt;DestinationAndFilters
+          filters={filters} location={location} updateUrl={updateUrl}
+          totalRating={totalRating} breadcrumbs={breadcrumbs}
+          testimonialDisplay={testimonials.length}
+          params={params}
+        /&gt;
+        &lt;div className='sbcw mb8'&gt;
+          &lt;ReviewCard testimonials={testimonials} params={params} location={location} /&gt;
+        &lt;/div&gt;
+        &lt;div className="row row- mb8"&gt;
+          &lt;LoadMorePackages
+            packagesRemaining={totalRating - testimonials.length}
+            loadMorePackages={this.loadMoreCards}
+            currentPage={location.query.page &amp;&amp; location.query.page || 1}
+            title={`packages remaining)`}
+          /&gt;
+        &lt;/div&gt;
+&nbsp;
+        {
+          packages &amp;&amp; packages.length ?
+            &lt;div className="container"&gt;
+              &lt;div className="row" id="packages-sec"&gt;
+                &lt;PopularPackages.container
+                  title={'Plan For Your Next Holiday'}
+                  heading={'Browse Packages, Choose Your Next Destination'}
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt; : null
+        }
+        &lt;div className='mb8 overflowh pl15 pr15 '&gt;
+          &lt;div className='row'&gt;
+            &lt;TravelerStories.container
+              spacingCss={{ marginBottom: '48px' }}
+              config={{ csr: true }}
+              viewAll='/blog/travelogues?referer=travelogue_testimonial'
+            /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className="p8 pt0"&gt;
+          &lt;Breadcrumb breadcrumbs={breadcrumbs} /&gt;
+        &lt;/div&gt;
+        &lt;Footer /&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+Testimonials.propTypes = {
+  data: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired,
+  updateUrl: PropTypes.func.isRequired,
+  loadCards: PropTypes.func.isRequired,
+  params: PropTypes.object.isRequired,
+  packages: PropTypes.array
+};
+&nbsp;
+export default Testimonials;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

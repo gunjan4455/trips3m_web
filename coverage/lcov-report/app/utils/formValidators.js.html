@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/utils/formValidators.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">All files</a> / <a href="index.html">app/utils</a> formValidators.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">33.33% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>13/39</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/39</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">14.29% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>2/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">35.48% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>11/31</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">15x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import dayjs from 'dayjs';
+&nbsp;
+export const required = <span class="fstat-no" title="function not covered" >va</span>lue =&gt; (<span class="cstat-no" title="statement not covered" >value ? undefined : 'required')</span>;
+&nbsp;
+export const validDate = <span class="fstat-no" title="function not covered" >fo</span>rmat =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >va</span>lue =&gt; {</span>
+  const result = (
+<span class="cstat-no" title="statement not covered" >    (value &amp;&amp; dayjs(value, format, true).isValid())</span>
+      ? undefined
+      : 'Invalid Date'
+  );
+<span class="cstat-no" title="statement not covered" >  console.log(`value: ${value}: format: ${format}: result: ${result}`);</span>
+<span class="cstat-no" title="statement not covered" >  return result;</span>
+};
+&nbsp;
+export const validDateInternalFormat = <span class="fstat-no" title="function not covered" >va</span>lue =&gt; {
+  const result = (
+<span class="cstat-no" title="statement not covered" >    (value &amp;&amp; dayjs(value, 'YYYY-MM-DD', true).isValid()) ? undefined : 'Invalid Date'</span>
+  );
+<span class="cstat-no" title="statement not covered" >  console.log(`value: ${value}: -- : result: ${result}`);</span>
+<span class="cstat-no" title="statement not covered" >  return result;</span>
+};
+&nbsp;
+export const email = <span class="fstat-no" title="function not covered" >(v</span>alue) =&gt; {
+<span class="cstat-no" title="statement not covered" >  if (value &amp;&amp; !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(value)) {</span>
+<span class="cstat-no" title="statement not covered" >    return 'Invalid Email';</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return undefined;</span>
+};
+&nbsp;
+export const number = <span class="fstat-no" title="function not covered" >va</span>lue =&gt; (
+<span class="cstat-no" title="statement not covered" >  value &amp;&amp; (`${value}` === `${parseInt(value, 10)}`)</span>
+  ? undefined
+  : 'not valid'
+);
+// should be a number and number of digits between 6 and 15
+export const phoneNumber = <span class="fstat-no" title="function not covered" >(v</span>alue) =&gt; {
+<span class="cstat-no" title="statement not covered" >  if (!value) {</span>
+<span class="cstat-no" title="statement not covered" >    return undefined;</span>
+  }
+<span class="cstat-no" title="statement not covered" >  if ((`${value}` === `${parseInt(value, 10)}`) &amp;&amp;</span>
+    value.length &gt;= 5 &amp;&amp;
+    value.length &lt;= 15
+  ) {
+<span class="cstat-no" title="statement not covered" >    return undefined;</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return 'Phone number not valid';</span>
+};
+&nbsp;
+// Works for only two fields. We will expand this if we find any use case
+export const matchFields = <span class="fstat-no" title="function not covered" >(v</span>alidateFields = <span class="branch-0 cbranch-no" title="branch not covered" >[])</span> =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(v</span>alue, fields) =&gt; (<span class="cstat-no" title="statement not covered" >fields[validateFields[0]] === fields[validateFields[1]] ? undefined : 'Passwords did not match')</span>;</span>
+&nbsp;
+export const minLength = len =&gt; <span class="fstat-no" title="function not covered" >va</span>lue =&gt; <span class="cstat-no" title="statement not covered" >value.toString().length &gt;= len ? undefined : `Must be atleast ${len} characters length`;</span>
+&nbsp;
+export const minSixChars = minLength(6);
+&nbsp;
+export const requiredWithmessage = message =&gt; <span class="fstat-no" title="function not covered" >va</span>lue =&gt; (<span class="cstat-no" title="statement not covered" >value ? undefined : message)</span>;
+&nbsp;
+export const phoneNumberRequired = <span class="fstat-no" title="function not covered" >(v</span>alue) =&gt; {
+<span class="cstat-no" title="statement not covered" >  if (!value) {</span>
+<span class="cstat-no" title="statement not covered" >    return 'Phone number is required';</span>
+  }
+<span class="cstat-no" title="statement not covered" >  if ((`${value}` === `${parseInt(value, 10)}`) &amp;&amp;</span>
+    value.length &gt;= 5 &amp;&amp;
+    value.length &lt;= 15
+  ) {
+<span class="cstat-no" title="statement not covered" >    return undefined;</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return 'Phone number not valid';</span>
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

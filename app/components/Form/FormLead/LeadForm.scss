@@ -1,0 +1,142 @@
+.form-header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+
+.header-logo-right {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  display: block;
+  svg {
+    max-height: 20px;
+  }
+}
+
+.form-part {
+  border-top: 1px solid #EFEFEF;
+}
+.form-field-label {
+
+}
+.flight-included {
+
+}
+.flight-radio {
+  display: none;
+}
+.flight-radio + label {
+  display: block;
+  padding: 2px 0;
+}
+.flight-radio + label p{
+  color: #B2B2B2;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+.flight-radio:checked + label p {
+  color: #009688;
+  font-weight: 700;
+}
+
+.flight-included .flight-icon svg {
+  display: block;
+}
+.flight-included-con {
+  border-top: 1px solid #EFEFEF;
+  border-bottom: 1px solid #EFEFEF;
+  padding: 15px;
+}
+.flight-included p {
+  padding-left: 32px;
+  min-height: 22px;
+  height: auto;
+  line-height: 22px;
+}
+.flight-included .flight-icon {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 0;
+}
+@import './FormVariation.scss';
+
+.iconSize {
+  width: 24px;
+  height: 24px;
+}
+.locationIconSize {
+  width: 24px;
+  height: 24px;
+  svg {
+    width: 16px;
+    height: 21px;
+    display: block;
+  }
+}
+.profileCon {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  svg {
+    width: 12px;
+    height: 20px;
+    display: block;
+  }
+}
+.No-hotel-input:checked+label {
+  font-weight: 900;
+}
+
+.at_whatsapp_opt_status {
+  label {
+    padding-left: 50px !important;
+    .labelIcon {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 24px;
+      top: 7px;
+    }
+  }
+  &.disabled {
+    label {
+      color: #999999;
+      cursor:initial;
+      pointer-events:none;
+      &:before {
+        border-color:#999999;
+      }
+      .labelIcon {
+        svg {
+          -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+        }
+      }
+    }
+  }
+}
+.location_logo, .contact_icon{
+  margin: 0 auto;
+  margin-top: 36px;
+  margin-bottom: 16px;
+}
+.location_logo{
+  height: 60px;
+  width: 60px;
+}
+.location_heading{
+  font-size: 20px;
+  line-height: 24px;
+  color: #009688;
+}
+.contact_icon {
+  width: 139px;
+  height: 62px;
+}
+.v2l-variation-1{
+  line-height:20px !important;
+  padding: 12px 15px !important;
+}

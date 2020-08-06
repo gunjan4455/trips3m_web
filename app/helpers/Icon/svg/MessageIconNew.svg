@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Message Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Quote" transform="translate(-17.000000, -200.000000)">
+            <g id="Group-2" transform="translate(16.000000, 16.000000)">
+                <g id="Message-Icon" transform="translate(0.000000, 183.000000)">
+                    <g id="Group-3" transform="translate(2.000000, 2.000000)">
+                        <path d="M20,20 L10.2861048,20 C4.97516212,20 0.371211791,15.9770491 0.0222155567,10.6771138 C-0.392779966,4.35719097 5.06516114,-0.808745965 11.472092,0.105242877 C15.7550458,0.716235418 19.2180084,4.14919351 19.8780013,8.42614129 C20.3159966,11.2621067 19.5450049,13.9020744 18.0230213,15.9510494 C18.0230213,15.9510494 16.480038,17.8020268 20,20 Z" id="Stroke-1" stroke="#000000"/>
+                        <path d="M5.71428571,8.57142857 L15.2380952,8.57142857" id="Stroke-3" stroke="#009688"/>
+                        <path d="M5.71428571,10.4761905 L13.3333333,10.4761905" id="Stroke-5" stroke="#009688"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

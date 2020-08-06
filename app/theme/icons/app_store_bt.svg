@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="38px" viewBox="0 0 118 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>App Store_bt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HomePage" transform="translate(-46.000000, -1498.000000)">
+            <g id="largest-travel-marketplace-copy-2" transform="translate(8.000000, 1413.000000)">
+                <g id="App-Store_bt" transform="translate(38.000000, 85.000000)">
+                    <rect id="container" fill="#000000" x="0" y="0" width="118" height="37.5" rx="3.02564103"></rect>
+                    <text id="Available-on-the" font-family="MyriadPro-Regular, Myriad Pro" font-size="10.5897436" font-weight="normal" letter-spacing="0.0907692287" fill="#FFFFFF">
+                        <tspan x="28.7435897" y="14">Available on the</tspan>
+                    </text>
+                    <text id="App-Store" font-family="MyriadPro-Regular, Myriad Pro" font-size="19.3641029" font-weight="normal" letter-spacing="-0.680769258" fill="#FFFFFF">
+                        <tspan x="28.7435897" y="30">App Store</tspan>
+                    </text>
+                    <path d="M11.0276757,6 C9.95030479,6 9.07692308,6.97689527 9.07692308,8.18665264 L9.07692308,30.8133474 C9.07692308,32.0210023 9.94933869,33 11.0276757,33 L20.741555,33 C21.818926,33 22.6923077,32.0231047 22.6923077,30.8133474 L22.6923077,8.18665264 C22.6923077,6.97899774 21.8198921,6 20.741555,6 L11.0276757,6 L11.0276757,6 Z M10.3533654,9.54098361 L10.3533654,29.4590164 L21.4158654,29.4590164 L21.4158654,9.54098361 L10.3533654,9.54098361 L10.3533654,9.54098361 Z M15.8846154,32.1147541 C16.3545885,32.1147541 16.7355769,31.718416 16.7355769,31.2295082 C16.7355769,30.7406004 16.3545885,30.3442623 15.8846154,30.3442623 C15.4146423,30.3442623 15.0336538,30.7406004 15.0336538,31.2295082 C15.0336538,31.718416 15.4146423,32.1147541 15.8846154,32.1147541 L15.8846154,32.1147541 Z M14.1826923,7.7704918 C14.1826923,8.01494571 14.3289513,8.21311475 14.5215103,8.21311475 L17.2477204,8.21311475 C17.4348445,8.21311475 17.5865385,8.00779649 17.5865385,7.7704918 C17.5865385,7.5260379 17.4402794,7.32786885 17.2477204,7.32786885 L14.5215103,7.32786885 C14.3343863,7.32786885 14.1826923,7.53318712 14.1826923,7.7704918 Z" id="iPhone" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

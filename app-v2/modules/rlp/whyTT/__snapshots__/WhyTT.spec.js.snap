@@ -1,0 +1,1194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Agent Card: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WhyTT />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "active": true,
+      "children": <div
+        className="sbcw p15 at_whyTT_section"
+      >
+        <h6
+          className="f16 pfc5 m0 text-center fw9"
+        >
+          Why Travel with TravelTriangle
+        </h6>
+        <div
+          className="mt15 mb15 text-center flex spaceBetween"
+        >
+          <div
+            className="flexFull"
+          >
+            <ForwardRef(render)
+              className="mb8 mlauto mrauto"
+            >
+              <IconSvg />
+            </ForwardRef(render)>
+            <p
+              className="f12"
+            >
+              <span
+                className="block"
+              >
+                Easy EMI
+              </span>
+               Option Available
+            </p>
+          </div>
+          <div
+            className="flexFull"
+          >
+            <ForwardRef(render)
+              className="mb8 mlauto mrauto"
+            >
+              <IconSvg />
+            </ForwardRef(render)>
+            <p
+              className="f12"
+            >
+              <span
+                className="block"
+              >
+                22Lacs+
+              </span>
+               Happy Travellers
+            </p>
+          </div>
+          <div
+            className="flexFull"
+          >
+            <ForwardRef(render)
+              className="mb8 mlauto mrauto"
+            >
+              <IconSvg />
+            </ForwardRef(render)>
+            <p
+              className="f12"
+            >
+              <span
+                className="block"
+              >
+                650+
+              </span>
+               Verified Agents
+            </p>
+          </div>
+        </div>
+        <HowItWorksVideo
+          trackSegmentEvent={[Function]}
+        />
+      </div>,
+      "containment": null,
+      "delayedCall": true,
+      "intervalCheck": true,
+      "intervalDelay": 100,
+      "minTopValue": 0,
+      "offset": Object {},
+      "onChange": [Function],
+      "partialVisibility": "bottom",
+      "resizeCheck": false,
+      "resizeDelay": 250,
+      "resizeThrottle": -1,
+      "scrollCheck": false,
+      "scrollDelay": 250,
+      "scrollThrottle": -1,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h6
+            className="f16 pfc5 m0 text-center fw9"
+          >
+            Why Travel with TravelTriangle
+          </h6>,
+          <div
+            className="mt15 mb15 text-center flex spaceBetween"
+          >
+            <div
+              className="flexFull"
+            >
+              <ForwardRef(render)
+                className="mb8 mlauto mrauto"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              <p
+                className="f12"
+              >
+                <span
+                  className="block"
+                >
+                  Easy EMI
+                </span>
+                 Option Available
+              </p>
+            </div>
+            <div
+              className="flexFull"
+            >
+              <ForwardRef(render)
+                className="mb8 mlauto mrauto"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              <p
+                className="f12"
+              >
+                <span
+                  className="block"
+                >
+                  22Lacs+
+                </span>
+                 Happy Travellers
+              </p>
+            </div>
+            <div
+              className="flexFull"
+            >
+              <ForwardRef(render)
+                className="mb8 mlauto mrauto"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              <p
+                className="f12"
+              >
+                <span
+                  className="block"
+                >
+                  650+
+                </span>
+                 Verified Agents
+              </p>
+            </div>
+          </div>,
+          <HowItWorksVideo
+            trackSegmentEvent={[Function]}
+          />,
+        ],
+        "className": "sbcw p15 at_whyTT_section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Why Travel with TravelTriangle",
+            "className": "f16 pfc5 m0 text-center fw9",
+          },
+          "ref": null,
+          "rendered": "Why Travel with TravelTriangle",
+          "type": "h6",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="flexFull"
+              >
+                <ForwardRef(render)
+                  className="mb8 mlauto mrauto"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                <p
+                  className="f12"
+                >
+                  <span
+                    className="block"
+                  >
+                    Easy EMI
+                  </span>
+                   Option Available
+                </p>
+              </div>,
+              <div
+                className="flexFull"
+              >
+                <ForwardRef(render)
+                  className="mb8 mlauto mrauto"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                <p
+                  className="f12"
+                >
+                  <span
+                    className="block"
+                  >
+                    22Lacs+
+                  </span>
+                   Happy Travellers
+                </p>
+              </div>,
+              <div
+                className="flexFull"
+              >
+                <ForwardRef(render)
+                  className="mb8 mlauto mrauto"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                <p
+                  className="f12"
+                >
+                  <span
+                    className="block"
+                  >
+                    650+
+                  </span>
+                   Verified Agents
+                </p>
+              </div>,
+            ],
+            "className": "mt15 mb15 text-center flex spaceBetween",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(render)
+                    className="mb8 mlauto mrauto"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>,
+                  <p
+                    className="f12"
+                  >
+                    <span
+                      className="block"
+                    >
+                      Easy EMI
+                    </span>
+                     Option Available
+                  </p>,
+                ],
+                "className": "flexFull",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "mb8 mlauto mrauto",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "& svg": Object {
+                          "height": "57px",
+                        },
+                        "height": "57px",
+                        "width": "65px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="block"
+                      >
+                        Easy EMI
+                      </span>,
+                      " Option Available",
+                    ],
+                    "className": "f12",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Easy EMI",
+                        "className": "block",
+                      },
+                      "ref": null,
+                      "rendered": "Easy EMI",
+                      "type": "span",
+                    },
+                    " Option Available",
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(render)
+                    className="mb8 mlauto mrauto"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>,
+                  <p
+                    className="f12"
+                  >
+                    <span
+                      className="block"
+                    >
+                      22Lacs+
+                    </span>
+                     Happy Travellers
+                  </p>,
+                ],
+                "className": "flexFull",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "mb8 mlauto mrauto",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "& svg": Object {
+                          "height": "57px",
+                        },
+                        "height": "57px",
+                        "width": "65px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="block"
+                      >
+                        22Lacs+
+                      </span>,
+                      " Happy Travellers",
+                    ],
+                    "className": "f12",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "22Lacs+",
+                        "className": "block",
+                      },
+                      "ref": null,
+                      "rendered": "22Lacs+",
+                      "type": "span",
+                    },
+                    " Happy Travellers",
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(render)
+                    className="mb8 mlauto mrauto"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>,
+                  <p
+                    className="f12"
+                  >
+                    <span
+                      className="block"
+                    >
+                      650+
+                    </span>
+                     Verified Agents
+                  </p>,
+                ],
+                "className": "flexFull",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "mb8 mlauto mrauto",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "div",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "& svg": Object {
+                          "height": "57px",
+                        },
+                        "height": "57px",
+                        "width": "65px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(div)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="block"
+                      >
+                        650+
+                      </span>,
+                      " Verified Agents",
+                    ],
+                    "className": "f12",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "650+",
+                        "className": "block",
+                      },
+                      "ref": null,
+                      "rendered": "650+",
+                      "type": "span",
+                    },
+                    " Verified Agents",
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "trackSegmentEvent": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "active": true,
+        "children": <div
+          className="sbcw p15 at_whyTT_section"
+        >
+          <h6
+            className="f16 pfc5 m0 text-center fw9"
+          >
+            Why Travel with TravelTriangle
+          </h6>
+          <div
+            className="mt15 mb15 text-center flex spaceBetween"
+          >
+            <div
+              className="flexFull"
+            >
+              <ForwardRef(render)
+                className="mb8 mlauto mrauto"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              <p
+                className="f12"
+              >
+                <span
+                  className="block"
+                >
+                  Easy EMI
+                </span>
+                 Option Available
+              </p>
+            </div>
+            <div
+              className="flexFull"
+            >
+              <ForwardRef(render)
+                className="mb8 mlauto mrauto"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              <p
+                className="f12"
+              >
+                <span
+                  className="block"
+                >
+                  22Lacs+
+                </span>
+                 Happy Travellers
+              </p>
+            </div>
+            <div
+              className="flexFull"
+            >
+              <ForwardRef(render)
+                className="mb8 mlauto mrauto"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              <p
+                className="f12"
+              >
+                <span
+                  className="block"
+                >
+                  650+
+                </span>
+                 Verified Agents
+              </p>
+            </div>
+          </div>
+          <HowItWorksVideo
+            trackSegmentEvent={[Function]}
+          />
+        </div>,
+        "containment": null,
+        "delayedCall": true,
+        "intervalCheck": true,
+        "intervalDelay": 100,
+        "minTopValue": 0,
+        "offset": Object {},
+        "onChange": [Function],
+        "partialVisibility": "bottom",
+        "resizeCheck": false,
+        "resizeDelay": 250,
+        "resizeThrottle": -1,
+        "scrollCheck": false,
+        "scrollDelay": 250,
+        "scrollThrottle": -1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h6
+              className="f16 pfc5 m0 text-center fw9"
+            >
+              Why Travel with TravelTriangle
+            </h6>,
+            <div
+              className="mt15 mb15 text-center flex spaceBetween"
+            >
+              <div
+                className="flexFull"
+              >
+                <ForwardRef(render)
+                  className="mb8 mlauto mrauto"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                <p
+                  className="f12"
+                >
+                  <span
+                    className="block"
+                  >
+                    Easy EMI
+                  </span>
+                   Option Available
+                </p>
+              </div>
+              <div
+                className="flexFull"
+              >
+                <ForwardRef(render)
+                  className="mb8 mlauto mrauto"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                <p
+                  className="f12"
+                >
+                  <span
+                    className="block"
+                  >
+                    22Lacs+
+                  </span>
+                   Happy Travellers
+                </p>
+              </div>
+              <div
+                className="flexFull"
+              >
+                <ForwardRef(render)
+                  className="mb8 mlauto mrauto"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                <p
+                  className="f12"
+                >
+                  <span
+                    className="block"
+                  >
+                    650+
+                  </span>
+                   Verified Agents
+                </p>
+              </div>
+            </div>,
+            <HowItWorksVideo
+              trackSegmentEvent={[Function]}
+            />,
+          ],
+          "className": "sbcw p15 at_whyTT_section",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Why Travel with TravelTriangle",
+              "className": "f16 pfc5 m0 text-center fw9",
+            },
+            "ref": null,
+            "rendered": "Why Travel with TravelTriangle",
+            "type": "h6",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="flexFull"
+                >
+                  <ForwardRef(render)
+                    className="mb8 mlauto mrauto"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  <p
+                    className="f12"
+                  >
+                    <span
+                      className="block"
+                    >
+                      Easy EMI
+                    </span>
+                     Option Available
+                  </p>
+                </div>,
+                <div
+                  className="flexFull"
+                >
+                  <ForwardRef(render)
+                    className="mb8 mlauto mrauto"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  <p
+                    className="f12"
+                  >
+                    <span
+                      className="block"
+                    >
+                      22Lacs+
+                    </span>
+                     Happy Travellers
+                  </p>
+                </div>,
+                <div
+                  className="flexFull"
+                >
+                  <ForwardRef(render)
+                    className="mb8 mlauto mrauto"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  <p
+                    className="f12"
+                  >
+                    <span
+                      className="block"
+                    >
+                      650+
+                    </span>
+                     Verified Agents
+                  </p>
+                </div>,
+              ],
+              "className": "mt15 mb15 text-center flex spaceBetween",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      className="mb8 mlauto mrauto"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>,
+                    <p
+                      className="f12"
+                    >
+                      <span
+                        className="block"
+                      >
+                        Easy EMI
+                      </span>
+                       Option Available
+                    </p>,
+                  ],
+                  "className": "flexFull",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "mb8 mlauto mrauto",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "div",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& svg": Object {
+                            "height": "57px",
+                          },
+                          "height": "57px",
+                          "width": "65px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(div)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="block"
+                        >
+                          Easy EMI
+                        </span>,
+                        " Option Available",
+                      ],
+                      "className": "f12",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Easy EMI",
+                          "className": "block",
+                        },
+                        "ref": null,
+                        "rendered": "Easy EMI",
+                        "type": "span",
+                      },
+                      " Option Available",
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      className="mb8 mlauto mrauto"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>,
+                    <p
+                      className="f12"
+                    >
+                      <span
+                        className="block"
+                      >
+                        22Lacs+
+                      </span>
+                       Happy Travellers
+                    </p>,
+                  ],
+                  "className": "flexFull",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "mb8 mlauto mrauto",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "div",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& svg": Object {
+                            "height": "57px",
+                          },
+                          "height": "57px",
+                          "width": "65px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(div)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="block"
+                        >
+                          22Lacs+
+                        </span>,
+                        " Happy Travellers",
+                      ],
+                      "className": "f12",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "22Lacs+",
+                          "className": "block",
+                        },
+                        "ref": null,
+                        "rendered": "22Lacs+",
+                        "type": "span",
+                      },
+                      " Happy Travellers",
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      className="mb8 mlauto mrauto"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>,
+                    <p
+                      className="f12"
+                    >
+                      <span
+                        className="block"
+                      >
+                        650+
+                      </span>
+                       Verified Agents
+                    </p>,
+                  ],
+                  "className": "flexFull",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "mb8 mlauto mrauto",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "div",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "& svg": Object {
+                            "height": "57px",
+                          },
+                          "height": "57px",
+                          "width": "65px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(div)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span
+                          className="block"
+                        >
+                          650+
+                        </span>,
+                        " Verified Agents",
+                      ],
+                      "className": "f12",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "650+",
+                          "className": "block",
+                        },
+                        "ref": null,
+                        "rendered": "650+",
+                        "type": "span",
+                      },
+                      " Verified Agents",
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "trackSegmentEvent": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

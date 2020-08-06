@@ -1,0 +1,19 @@
+.traveler-rating-star-list{
+  margin:0 auto;
+  padding: 0;
+  text-align: center;
+  display: block;
+  width: 70px;
+}
+.traveler-rating-star-list li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px;
+}
+.traveler-rating-star-list li, .traveler-rating-star-list li svg {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: relative;
+}

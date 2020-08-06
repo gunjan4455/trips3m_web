@@ -1,0 +1,42 @@
+:local {
+  .header {
+    height: 42px;
+    & li {
+      list-style: none;
+      display: inline-block;
+      & a {
+        font-size: 12px;
+        font-weight: 700;
+        display: block;
+        padding: 12px 10px;
+        position: relative;
+        &:after {
+          content: '';
+          bottom: 0;
+          right: 0;
+          left: 0;
+          position: absolute;
+          height: 2px;
+        }
+        &:hover {
+          background-color: #f2f2f2;
+          &:after {
+            background-color: #20a397;
+          }
+        }
+      }
+      &.active {
+        & a {
+          background-color: #f2f2f2;
+          &:after {
+            background-color: #20a397;
+          }
+        }
+      }
+      &:last-child {
+        float: right;
+        margin-top: 5px;
+      }
+    }
+  }
+}

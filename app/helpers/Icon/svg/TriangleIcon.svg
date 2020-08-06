@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="36px" viewBox="0 0 41 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="RLP-Mweb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Duplicate-trip" transform="translate(-160.000000, -203.000000)" stroke="#F7C42D" stroke-width="1.5">
+            <g id="Group-2" transform="translate(160.000000, 202.000000)">
+                <path d="M22.2379698,3.0520445 L39.2975449,33.0103228 C39.8441286,33.970177 39.5091066,35.1913861 38.5492524,35.7379698 C38.2476808,35.909698 37.906614,36 37.5595751,36 L3.44042488,36 C2.33585538,36 1.44042488,35.1045695 1.44042488,34 C1.44042488,33.6529611 1.53072683,33.3118943 1.70245509,33.0103228 L18.7620302,3.0520445 C19.3086139,2.09219029 20.529823,1.75716831 21.4896772,2.30375195 C21.8017705,2.48147171 22.06025,2.73995127 22.2379698,3.0520445 Z" id="Triangle" fill="#FFFFFF"></path>
+                <path d="M20.5,11.8125 L20.5,25.3125" id="Line-5" stroke-linecap="round"></path>
+                <path d="M20.5,28.6875 L20.5,29.8125" id="Line-5" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

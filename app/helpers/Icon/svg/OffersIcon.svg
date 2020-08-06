@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Offers_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Side_Menu" transform="translate(-15.000000, -404.000000)">
+            <g id="Group-14" transform="translate(0.000000, 24.000000)">
+                <g id="Login" transform="translate(0.000000, 339.000000)">
+                    <g id="Offers" transform="translate(16.000000, 42.000000)">
+                        <g id="Offers_icon">
+                            <rect id="Rectangle-9" x="0" y="0" width="18" height="18"/>
+                            <g id="Page-1">
+                                <path d="M17.099424,6.680376 L6.680304,17.099496 C6.399504,17.380296 5.943024,17.380296 5.662224,17.099496 L0.571104,12.007656 C0.289584,11.726856 0.289584,11.271096 0.571104,10.989576 L10.990224,0.571176 C11.160144,0.400536 11.404224,0.327096 11.640384,0.373896 L15.883344,1.222056 C16.167744,1.279656 16.390944,1.502136 16.447824,1.787256 L17.295984,6.030216 C17.343504,6.265656 17.269344,6.510456 17.099424,6.680376 Z" id="Stroke-1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.902848,2.767464 C15.324048,3.189384 15.324048,3.873384 14.902848,4.294584 C14.480928,4.716504 13.796928,4.716504 13.375008,4.294584 C12.953088,3.873384 12.953088,3.189384 13.375008,2.767464 C13.796928,2.345544 14.480928,2.345544 14.902848,2.767464" id="Fill-3" fill="#009688"/>
+                                <path d="M14.902848,2.767464 C15.324048,3.189384 15.324048,3.873384 14.902848,4.294584 C14.480928,4.716504 13.796928,4.716504 13.375008,4.294584 C12.953088,3.873384 12.953088,3.189384 13.375008,2.767464 C13.796928,2.345544 14.480928,2.345544 14.902848,2.767464 Z" id="Stroke-5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g id="Group-10" transform="translate(2.880000, 5.430168)">
+                                    <path d="M0.160416,7.010928 L6.983136,0.188928" id="Fill-7" fill="#009688"/>
+                                    <path d="M0.160416,7.010928 L6.983136,0.188928" id="Stroke-9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <g id="Group-14" transform="translate(5.040000, 7.590168)">
+                                    <path d="M0.639936,7.490448 L7.462656,0.668448" id="Fill-11" fill="#009688"/>
+                                    <path d="M0.639936,7.490448 L7.462656,0.668448" id="Stroke-13" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

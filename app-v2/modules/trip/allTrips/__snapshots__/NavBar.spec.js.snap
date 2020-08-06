@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All Trips NavBar component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavBar
+    goBack={[MockFunction]}
+    trackSegment={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="pt4 pb4 pr8 pl8 flex wfull justifyCenter alignCenter"
+      >
+        <button
+          className="input-24 block mr15 at_goback"
+          onClick={[MockFunction]}
+        >
+          <IconSvg />
+        </button>
+        <p
+          className="f16 flex alignCenter fw7 sfcw flexFull ellipsis"
+        >
+          All Trips
+        </p>
+      </div>,
+      "className": "pbc5 p8",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            className="input-24 block mr15 at_goback"
+            onClick={[MockFunction]}
+          >
+            <IconSvg />
+          </button>,
+          <p
+            className="f16 flex alignCenter fw7 sfcw flexFull ellipsis"
+          >
+            All Trips
+          </p>,
+        ],
+        "className": "pt4 pb4 pr8 pl8 flex wfull justifyCenter alignCenter",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "input-24 block mr15 at_goback",
+            "onClick": [MockFunction],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "All Trips",
+            "className": "f16 flex alignCenter fw7 sfcw flexFull ellipsis",
+          },
+          "ref": null,
+          "rendered": "All Trips",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="pt4 pb4 pr8 pl8 flex wfull justifyCenter alignCenter"
+        >
+          <button
+            className="input-24 block mr15 at_goback"
+            onClick={[MockFunction]}
+          >
+            <IconSvg />
+          </button>
+          <p
+            className="f16 flex alignCenter fw7 sfcw flexFull ellipsis"
+          >
+            All Trips
+          </p>
+        </div>,
+        "className": "pbc5 p8",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="input-24 block mr15 at_goback"
+              onClick={[MockFunction]}
+            >
+              <IconSvg />
+            </button>,
+            <p
+              className="f16 flex alignCenter fw7 sfcw flexFull ellipsis"
+            >
+              All Trips
+            </p>,
+          ],
+          "className": "pt4 pb4 pr8 pl8 flex wfull justifyCenter alignCenter",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <IconSvg />,
+              "className": "input-24 block mr15 at_goback",
+              "onClick": [MockFunction],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "All Trips",
+              "className": "f16 flex alignCenter fw7 sfcw flexFull ellipsis",
+            },
+            "ref": null,
+            "rendered": "All Trips",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

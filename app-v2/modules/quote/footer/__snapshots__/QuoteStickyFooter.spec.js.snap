@@ -1,0 +1,472 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sticky footer: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuoteStickyFooter
+    bookNow={[MockFunction]}
+    bookNowSuccess={false}
+    cancelBooking={[MockFunction]}
+    convertedQuote={
+      Object {
+        "id": 5,
+      }
+    }
+    currentQuote={
+      Object {
+        "installmentInfo": Object {
+          "installmentsReceived": 0,
+          "isAllPaymentReceived": false,
+          "nextScheduledDate": null,
+        },
+        "invoiceShowUrl": "",
+        "opDetails": Object {
+          "email": "damini.oberoi@traveltriangle.com",
+          "id": 2251659,
+          "image": "/pics/original/missing.png",
+          "initials": "D",
+          "name": "Damini Oberoi",
+          "phoneNo": "18001235555",
+        },
+      }
+    }
+    quoteId={7124217}
+    quoteRejectionReasons={
+      Object {
+        "1": "Quotes are higher than my budget",
+        "2": "Want a different itinerary",
+        "3": "Wish to customize my existing package",
+        "4": "Want to travel to some other destination",
+        "5": "Others",
+        "6": "Not satisfied with the hotels",
+      }
+    }
+    quoteStatus={
+      Object {
+        "isCancelled": false,
+        "isConverted": false,
+        "isInvoiceRequested": false,
+        "isInvoiced": false,
+        "isRejected": false,
+        "isRequestCancelled": false,
+      }
+    }
+    reactivateBooking={[MockFunction]}
+    reactivateQuote={[MockFunction]}
+    reactivateQuoteSuccess={false}
+    rejectQuote={[MockFunction]}
+    rejectQuoteSuccess={false}
+    showRoster={[Function]}
+    trackSegment={[Function]}
+    tripId={3918699}
+    userDetails={
+      Object {
+        "first_name": "Rahul",
+        "last_name": "Jain",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ForwardRef(render)
+        className="flex sbcw p8 bs6 at_quoteFooterSection"
+      >
+        <ExplainTheQuote
+          handleChatClick={[Function]}
+          isQuoteCardCta={false}
+        />
+        <ModalComponent
+          customClass=""
+          customCloseTrigger={true}
+          disabled={false}
+          fullView={true}
+          hasCustomClose={true}
+          hasNoClose={false}
+          isOpen={false}
+          isTriggerFullView={false}
+          isWhiteIcon={false}
+          onAfterModalOpen={[Function]}
+          onRequestCloseCustom={[Function]}
+          trigger={null}
+        >
+          <BookNowPopup
+            closeModal={[Function]}
+            opsDetail={
+              Object {
+                "email": "damini.oberoi@traveltriangle.com",
+                "id": 2251659,
+                "image": "/pics/original/missing.png",
+                "initials": "D",
+                "name": "Damini Oberoi",
+                "phoneNo": "18001235555",
+              }
+            }
+            trackSegment={[Function]}
+          />
+        </ModalComponent>
+      </ForwardRef(render)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          Array [
+            <ExplainTheQuote
+              handleChatClick={[Function]}
+              isQuoteCardCta={false}
+            />,
+          ],
+          <ModalComponent
+            customClass=""
+            customCloseTrigger={true}
+            disabled={false}
+            fullView={true}
+            hasCustomClose={true}
+            hasNoClose={false}
+            isOpen={false}
+            isTriggerFullView={false}
+            isWhiteIcon={false}
+            onAfterModalOpen={[Function]}
+            onRequestCloseCustom={[Function]}
+            trigger={null}
+          >
+            <BookNowPopup
+              closeModal={[Function]}
+              opsDetail={
+                Object {
+                  "email": "damini.oberoi@traveltriangle.com",
+                  "id": 2251659,
+                  "image": "/pics/original/missing.png",
+                  "initials": "D",
+                  "name": "Damini Oberoi",
+                  "phoneNo": "18001235555",
+                }
+              }
+              trackSegment={[Function]}
+            />
+          </ModalComponent>,
+        ],
+        "className": "flex sbcw p8 bs6 at_quoteFooterSection",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "explain-the-quote",
+          "nodeType": "class",
+          "props": Object {
+            "handleChatClick": [Function],
+            "isQuoteCardCta": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <BookNowPopup
+              closeModal={[Function]}
+              opsDetail={
+                Object {
+                  "email": "damini.oberoi@traveltriangle.com",
+                  "id": 2251659,
+                  "image": "/pics/original/missing.png",
+                  "initials": "D",
+                  "name": "Damini Oberoi",
+                  "phoneNo": "18001235555",
+                }
+              }
+              trackSegment={[Function]}
+            />,
+            "customClass": "",
+            "customCloseTrigger": true,
+            "disabled": false,
+            "fullView": true,
+            "hasCustomClose": true,
+            "hasNoClose": false,
+            "isOpen": false,
+            "isTriggerFullView": false,
+            "isWhiteIcon": false,
+            "onAfterModalOpen": [Function],
+            "onRequestCloseCustom": [Function],
+            "trigger": null,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "closeModal": [Function],
+              "opsDetail": Object {
+                "email": "damini.oberoi@traveltriangle.com",
+                "id": 2251659,
+                "image": "/pics/original/missing.png",
+                "initials": "D",
+                "name": "Damini Oberoi",
+                "phoneNo": "18001235555",
+              },
+              "trackSegment": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "bottom": "0",
+            "justifyContent": "space-between",
+            "left": "0",
+            "minHeight": "48px",
+            "position": "fixed",
+            "right": "0",
+            "zIndex": "9",
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ForwardRef(render)
+          className="flex sbcw p8 bs6 at_quoteFooterSection"
+        >
+          <ExplainTheQuote
+            handleChatClick={[Function]}
+            isQuoteCardCta={false}
+          />
+          <ModalComponent
+            customClass=""
+            customCloseTrigger={true}
+            disabled={false}
+            fullView={true}
+            hasCustomClose={true}
+            hasNoClose={false}
+            isOpen={false}
+            isTriggerFullView={false}
+            isWhiteIcon={false}
+            onAfterModalOpen={[Function]}
+            onRequestCloseCustom={[Function]}
+            trigger={null}
+          >
+            <BookNowPopup
+              closeModal={[Function]}
+              opsDetail={
+                Object {
+                  "email": "damini.oberoi@traveltriangle.com",
+                  "id": 2251659,
+                  "image": "/pics/original/missing.png",
+                  "initials": "D",
+                  "name": "Damini Oberoi",
+                  "phoneNo": "18001235555",
+                }
+              }
+              trackSegment={[Function]}
+            />
+          </ModalComponent>
+        </ForwardRef(render)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            Array [
+              <ExplainTheQuote
+                handleChatClick={[Function]}
+                isQuoteCardCta={false}
+              />,
+            ],
+            <ModalComponent
+              customClass=""
+              customCloseTrigger={true}
+              disabled={false}
+              fullView={true}
+              hasCustomClose={true}
+              hasNoClose={false}
+              isOpen={false}
+              isTriggerFullView={false}
+              isWhiteIcon={false}
+              onAfterModalOpen={[Function]}
+              onRequestCloseCustom={[Function]}
+              trigger={null}
+            >
+              <BookNowPopup
+                closeModal={[Function]}
+                opsDetail={
+                  Object {
+                    "email": "damini.oberoi@traveltriangle.com",
+                    "id": 2251659,
+                    "image": "/pics/original/missing.png",
+                    "initials": "D",
+                    "name": "Damini Oberoi",
+                    "phoneNo": "18001235555",
+                  }
+                }
+                trackSegment={[Function]}
+              />
+            </ModalComponent>,
+          ],
+          "className": "flex sbcw p8 bs6 at_quoteFooterSection",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "explain-the-quote",
+            "nodeType": "class",
+            "props": Object {
+              "handleChatClick": [Function],
+              "isQuoteCardCta": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <BookNowPopup
+                closeModal={[Function]}
+                opsDetail={
+                  Object {
+                    "email": "damini.oberoi@traveltriangle.com",
+                    "id": 2251659,
+                    "image": "/pics/original/missing.png",
+                    "initials": "D",
+                    "name": "Damini Oberoi",
+                    "phoneNo": "18001235555",
+                  }
+                }
+                trackSegment={[Function]}
+              />,
+              "customClass": "",
+              "customCloseTrigger": true,
+              "disabled": false,
+              "fullView": true,
+              "hasCustomClose": true,
+              "hasNoClose": false,
+              "isOpen": false,
+              "isTriggerFullView": false,
+              "isWhiteIcon": false,
+              "onAfterModalOpen": [Function],
+              "onRequestCloseCustom": [Function],
+              "trigger": null,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "closeModal": [Function],
+                "opsDetail": Object {
+                  "email": "damini.oberoi@traveltriangle.com",
+                  "id": 2251659,
+                  "image": "/pics/original/missing.png",
+                  "initials": "D",
+                  "name": "Damini Oberoi",
+                  "phoneNo": "18001235555",
+                },
+                "trackSegment": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "bottom": "0",
+              "justifyContent": "space-between",
+              "left": "0",
+              "minHeight": "48px",
+              "position": "fixed",
+              "right": "0",
+              "zIndex": "9",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

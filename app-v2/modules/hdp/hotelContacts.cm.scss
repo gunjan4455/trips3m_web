@@ -1,0 +1,12 @@
+:local {
+  .icon {
+    min-width: 24px;
+    max-width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    & svg {
+      max-width: 100%;
+      position: absolute;
+    }
+  }
+}

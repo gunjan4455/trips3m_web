@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/quote/inclusionExclusion/InclusionExclusion.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/quote/inclusionExclusion</a> InclusionExclusion.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">75.86% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>22/29</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">44% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>11/25</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">53.85% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>7/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">76% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>19/25</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import glamorous from 'glamorous';
+import { Element } from 'react-scroll';
+&nbsp;
+import { PDM_CATEGORY_INCLUSION } from 'helpers/pdmHelpers';
+import { ORGANISM_CLICKED } from 'actions/segmentEvents';
+import ShowMore from 'modules/shared/ShowMore';
+import QuoteCardHeader from "modules/quote/shared/QuoteCardHeader";
+import {InclusionsNewIcon, ExclusionsNewIcon} from "helpers/Icon/Icon";
+&nbsp;
+const GListItemDiv = glamorous.div(<span class="fstat-no" title="function not covered" >({</span> title }) =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  paddingLeft: '25px',
+  position: 'relative',
+  '&amp;:after': {
+    content: '\' \'',
+    width: '8px',
+    height: '8px',
+    background: title === 'Exclusions' ? '#fc5145' : '#4caf50',
+    borderRadius: '100%',
+    position: 'absolute',
+    left: '0',
+    top: '6px'
+  }
+}));
+&nbsp;
+function hideTitle(item) {
+  return item.category === 'Others' &amp;&amp; (<span class="branch-1 cbranch-no" title="branch not covered" >item.comments === null </span>||
+<span class="branch-2 cbranch-no" title="branch not covered" >    item.comments === '')</span>;
+}
+&nbsp;
+const renderComments = (comments) =&gt; (comments ? <span class="branch-0 cbranch-no" title="branch not covered" >&lt;span&gt; : {comments}&lt;/span&gt; </span>: null);
+&nbsp;
+const renderListItem = (data, title) =&gt; (
+  data.map((listItem, index) =&gt; hideTitle(listItem)
+    ? <span class="branch-0 cbranch-no" title="branch not covered" >''</span>
+    : &lt;GListItemDiv key={listItem.id || <span class="branch-1 cbranch-no" title="branch not covered" >index}</span> className="mb15" title={title}&gt;
+      {listItem.name || <span class="branch-1 cbranch-no" title="branch not covered" >listItem}</span>
+      {renderComments(listItem.comments)}
+    &lt;/GListItemDiv&gt;)
+);
+&nbsp;
+const renderList = (listItems, classNames, title, trackSegmentEvent) =&gt; {
+  <span class="missing-if-branch" title="else path not taken" >E</span>if (listItems.length &gt; 4) {
+    const wrapData = listItems.slice(0, 4);
+    const moreData = listItems.slice(5);
+&nbsp;
+    const wrapText = renderListItem(wrapData, title);
+    const moreText = renderListItem(moreData, title);
+&nbsp;
+    return (&lt;div className={"sbcw p15 pt0 pl24" + classNames}&gt;&lt;ShowMore
+      wrapText={wrapText}
+      moreText={moreText}
+      showMoreText="Read More"
+      showLessText="Read Less"
+      trackSegment={trackSegmentEvent}
+    /&gt;&lt;/div&gt;);
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return (&lt;div className={"sbcw mr8 ml8 p15" + classNames}&gt;</span>
+    {renderListItem(listItems, title)}
+  &lt;/div&gt;);
+};
+&nbsp;
+const isInclusion = (sectionName) =&gt; sectionName === 'inclusions-sec';
+&nbsp;
+const InclusionExclusion = ({
+                              title, item, classNames, sectionName,
+                              setPdmCategory, showHidePdmView, trackSegment
+                            }) =&gt; {
+&nbsp;
+  const trackSegmentEvent = <span class="fstat-no" title="function not covered" >({</span> cta }) =&gt; {
+<span class="cstat-no" title="statement not covered" >    trackSegment({</span>
+      event: ORGANISM_CLICKED,
+      section: sectionName,
+      cta: cta
+    });
+  };
+&nbsp;
+  const handleChatClick = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    if (isInclusion(sectionName)) {</span>
+<span class="cstat-no" title="statement not covered" >      setPdmCategory(PDM_CATEGORY_INCLUSION);</span>
+<span class="cstat-no" title="statement not covered" >      showHidePdmView(true);</span>
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    trackSegmentEvent({ cta: 'Chat' });</span>
+  };
+&nbsp;
+  return (
+    item ?
+      &lt;Element name={sectionName}&gt;
+        &lt;div className="pfc3 f14 sbcw mt8"&gt;
+          &lt;QuoteCardHeader heading={title}
+                           chatButtonName={isInclusion(sectionName) ? 'Edit Package' : <span class="branch-1 cbranch-no" title="branch not covered" >'Chat'}</span>
+                           handleChatClick={handleChatClick}
+          icon={isInclusion(sectionName) ? &lt;InclusionsNewIcon /&gt; : <span class="branch-1 cbranch-no" title="branch not covered" >&lt;ExclusionsNewIcon /&gt;}</span>/&gt;
+          {
+            typeof item === 'string'
+              ? &lt;div className="sbcw p15 pl48 pt0"&gt;{item}&lt;/div&gt;
+              : renderList(item, classNames, title, trackSegmentEvent)
+          }
+        &lt;/div&gt;
+      &lt;/Element&gt; : <span class="branch-1 cbranch-no" title="branch not covered" >null</span>
+  );
+};
+&nbsp;
+InclusionExclusion.propTypes = {
+  title: PropTypes.string,
+  item: PropTypes.oneOfType([PropTypes.string, PropTypes.array]).isRequired,
+  classNames: PropTypes.string,
+  sectionName: PropTypes.string,
+  setPdmCategory: PropTypes.func,
+  showHidePdmView: PropTypes.func,
+  trackSegment: PropTypes.func
+};
+&nbsp;
+InclusionExclusion.defaultProps = {
+  title: '',
+  classNames: '',
+  sectionName: '',
+  setPdmCategory: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  showHidePdmView: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  trackSegment: <span class="fstat-no" title="function not covered" >()</span> =&gt; {}
+};
+&nbsp;
+export default InclusionExclusion;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

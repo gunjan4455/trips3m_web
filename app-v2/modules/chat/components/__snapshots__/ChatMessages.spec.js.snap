@@ -1,0 +1,3734 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationList: Render Correctly  should match with the previous snapshot 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "getWrappingComponentRenderer": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+    "wrapInvoke": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": ChatMessages {
+      "_reactInternalFiber": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 130,
+        "_debugIsCurrentlyTiming": false,
+        "_debugNeedsRemount": false,
+        "_debugOwner": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 128,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "fetchHistory": [MockFunction],
+              "messages": Array [],
+              "pdmsInformation": Object {},
+              "remainingMessages": 0,
+              "userId": 2544153,
+            },
+            "refProp": null,
+            "wrappingComponentProps": null,
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "fetchHistory": [MockFunction],
+              "messages": Array [],
+              "pdmsInformation": Object {},
+              "remainingMessages": 0,
+              "userId": 2544153,
+            },
+            "wrappingComponentProps": null,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "fetchHistory": [MockFunction],
+              "messages": Array [],
+              "pdmsInformation": Object {},
+              "remainingMessages": 0,
+              "userId": 2544153,
+            },
+            "refProp": null,
+            "wrappingComponentProps": null,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 125,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 125,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "callbackPriority": 90,
+                "containerInfo": <div>
+                  <div
+                    class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+                  >
+                    <div
+                      class="absolute css-16qf8c0"
+                    >
+                      <p>
+                        Chat with our agent to 
+                        <span
+                          class="block"
+                        >
+                          customize your quote
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstPendingTime": 0,
+                "firstSuspendedTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 17,
+                "lastExpiredTime": 0,
+                "lastPingedTime": 0,
+                "lastSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextKnownPendingLevel": 0,
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "fetchHistory": [MockFunction],
+                          "messages": Array [],
+                          "pdmsInformation": Object {},
+                          "remainingMessages": 0,
+                          "userId": 2544153,
+                        }
+                      }
+                      refProp={null}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "fetchHistory": [MockFunction],
+                          "messages": Array [],
+                          "pdmsInformation": Object {},
+                          "remainingMessages": 0,
+                          "userId": 2544153,
+                        }
+                      }
+                      refProp={null}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                  Object {
+                    "fetchHistory": [MockFunction],
+                    "messages": Array [],
+                    "pdmsInformation": Object {},
+                    "remainingMessages": 0,
+                    "userId": 2544153,
+                  }
+                }
+                refProp={null}
+                wrappingComponentProps={null}
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": FiberRootNode {
+              "callbackExpirationTime": 0,
+              "callbackNode": null,
+              "callbackPriority": 90,
+              "containerInfo": <div>
+                <div
+                  class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+                >
+                  <div
+                    class="absolute css-16qf8c0"
+                  >
+                    <p>
+                      Chat with our agent to 
+                      <span
+                        class="block"
+                      >
+                        customize your quote
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedExpirationTime": 0,
+              "finishedWork": null,
+              "firstPendingTime": 0,
+              "firstSuspendedTime": 0,
+              "hydrate": false,
+              "interactionThreadID": 17,
+              "lastExpiredTime": 0,
+              "lastPingedTime": 0,
+              "lastSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextKnownPendingLevel": 0,
+              "pendingChildren": null,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "pingCache": null,
+              "tag": 0,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "fetchHistory": [MockFunction],
+                      "messages": Array [],
+                      "pdmsInformation": Object {},
+                      "remainingMessages": 0,
+                      "userId": 2544153,
+                    }
+                  }
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "wrappingComponentProps": null,
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 132,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 134,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 137,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 139,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 141,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugNeedsRemount": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 143,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 145,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": null,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "Chat with our agent to ",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "Chat with our agent to ",
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugHookTypes": null,
+                        "_debugID": 146,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugNeedsRemount": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "dependencies": null,
+                        "effectTag": 0,
+                        "elementType": "span",
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 1,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "customize your quote",
+                          "className": "block",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "customize your quote",
+                          "className": "block",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <span
+                          class="block"
+                        >
+                          customize your quote
+                        </span>,
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": "span",
+                        "updateQueue": null,
+                      },
+                      "stateNode": Chat with our agent to ,
+                      "tag": 6,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "p",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": Array [
+                        "Chat with our agent to ",
+                        <span
+                          className="block"
+                        >
+                          customize your quote
+                        </span>,
+                      ],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": Array [
+                        "Chat with our agent to ",
+                        <span
+                          className="block"
+                        >
+                          customize your quote
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <p>
+                      Chat with our agent to 
+                      <span
+                        class="block"
+                      >
+                        customize your quote
+                      </span>
+                    </p>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "p",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "dependencies": null,
+                  "effectTag": 0,
+                  "elementType": "div",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <p>
+                      Chat with our agent to 
+                      <span
+                        className="block"
+                      >
+                        customize your quote
+                      </span>
+                    </p>,
+                    "className": "absolute css-16qf8c0",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <p>
+                      Chat with our agent to 
+                      <span
+                        className="block"
+                      >
+                        customize your quote
+                      </span>
+                    </p>,
+                    "className": "absolute css-16qf8c0",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <div
+                    class="absolute css-16qf8c0"
+                  >
+                    <p>
+                      Chat with our agent to 
+                      <span
+                        class="block"
+                      >
+                        customize your quote
+                      </span>
+                    </p>
+                  </div>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "div",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "dependencies": Object {
+                  "expirationTime": 0,
+                  "firstContext": Object {
+                    "context": Object {
+                      "$$typeof": Symbol(react.context),
+                      "Consumer": Object {
+                        "$$typeof": Symbol(react.context),
+                        "_calculateChangedBits": null,
+                        "_context": [Circular],
+                      },
+                      "Provider": Object {
+                        "$$typeof": Symbol(react.provider),
+                        "_context": [Circular],
+                      },
+                      "_calculateChangedBits": null,
+                      "_currentRenderer": null,
+                      "_currentRenderer2": null,
+                      "_currentValue": Object {},
+                      "_currentValue2": Object {},
+                      "_threadCount": 0,
+                    },
+                    "next": null,
+                    "observedBits": 1073741823,
+                  },
+                  "responders": null,
+                },
+                "effectTag": 1,
+                "elementType": Object {
+                  "$$typeof": Symbol(react.context),
+                  "_calculateChangedBits": null,
+                  "_context": Object {
+                    "$$typeof": Symbol(react.context),
+                    "Consumer": [Circular],
+                    "Provider": Object {
+                      "$$typeof": Symbol(react.provider),
+                      "_context": [Circular],
+                    },
+                    "_calculateChangedBits": null,
+                    "_currentRenderer": null,
+                    "_currentRenderer2": null,
+                    "_currentValue": Object {},
+                    "_currentValue2": Object {},
+                    "_threadCount": 0,
+                  },
+                },
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": null,
+                "tag": 9,
+                "treeBaseDuration": 0,
+                "type": Object {
+                  "$$typeof": Symbol(react.context),
+                  "_calculateChangedBits": null,
+                  "_context": Object {
+                    "$$typeof": Symbol(react.context),
+                    "Consumer": [Circular],
+                    "Provider": Object {
+                      "$$typeof": Symbol(react.provider),
+                      "_context": [Circular],
+                    },
+                    "_calculateChangedBits": null,
+                    "_currentRenderer": null,
+                    "_currentRenderer2": null,
+                    "_currentValue": Object {},
+                    "_currentValue2": Object {},
+                    "_threadCount": 0,
+                  },
+                },
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "dependencies": Object {
+                "expirationTime": 0,
+                "firstContext": Object {
+                  "context": Object {
+                    "$$typeof": Symbol(react.context),
+                    "Consumer": Object {
+                      "$$typeof": Symbol(react.context),
+                      "_calculateChangedBits": null,
+                      "_context": [Circular],
+                    },
+                    "Provider": Object {
+                      "$$typeof": Symbol(react.provider),
+                      "_context": [Circular],
+                    },
+                    "_calculateChangedBits": null,
+                    "_currentRenderer": null,
+                    "_currentRenderer2": null,
+                    "_currentValue": Object {
+                      "insert": [Function],
+                      "inserted": Object {
+                        "16qf8c0": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": Object {},
+                      "sheet": StyleSheet {
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>
+                        </head>,
+                        "ctr": 2,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "tags": Array [
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>,
+                        ],
+                      },
+                    },
+                    "_currentValue2": Object {
+                      "insert": [Function],
+                      "inserted": Object {
+                        "16qf8c0": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": Object {},
+                      "sheet": StyleSheet {
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>
+                        </head>,
+                        "ctr": 2,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "tags": Array [
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>,
+                        ],
+                      },
+                    },
+                    "_threadCount": 0,
+                  },
+                  "next": null,
+                  "observedBits": 1073741823,
+                },
+                "responders": null,
+              },
+              "effectTag": 1,
+              "elementType": Object {
+                "$$typeof": Symbol(react.context),
+                "_calculateChangedBits": null,
+                "_context": Object {
+                  "$$typeof": Symbol(react.context),
+                  "Consumer": [Circular],
+                  "Provider": Object {
+                    "$$typeof": Symbol(react.provider),
+                    "_context": [Circular],
+                  },
+                  "_calculateChangedBits": null,
+                  "_currentRenderer": null,
+                  "_currentRenderer2": null,
+                  "_currentValue": Object {
+                    "insert": [Function],
+                    "inserted": Object {
+                      "16qf8c0": true,
+                    },
+                    "key": "css",
+                    "nonce": undefined,
+                    "registered": Object {},
+                    "sheet": StyleSheet {
+                      "before": null,
+                      "container": <head>
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                        </style>
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                        </style>
+                      </head>,
+                      "ctr": 2,
+                      "isSpeedy": false,
+                      "key": "css",
+                      "nonce": undefined,
+                      "tags": Array [
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                        </style>,
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                        </style>,
+                      ],
+                    },
+                  },
+                  "_currentValue2": Object {
+                    "insert": [Function],
+                    "inserted": Object {
+                      "16qf8c0": true,
+                    },
+                    "key": "css",
+                    "nonce": undefined,
+                    "registered": Object {},
+                    "sheet": StyleSheet {
+                      "before": null,
+                      "container": <head>
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                        </style>
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                        </style>
+                      </head>,
+                      "ctr": 2,
+                      "isSpeedy": false,
+                      "key": "css",
+                      "nonce": undefined,
+                      "tags": Array [
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                        </style>,
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                        </style>,
+                      ],
+                    },
+                  },
+                  "_threadCount": 0,
+                },
+              },
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": [Function],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": [Function],
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": null,
+              "tag": 9,
+              "treeBaseDuration": 0,
+              "type": Object {
+                "$$typeof": Symbol(react.context),
+                "_calculateChangedBits": null,
+                "_context": Object {
+                  "$$typeof": Symbol(react.context),
+                  "Consumer": [Circular],
+                  "Provider": Object {
+                    "$$typeof": Symbol(react.provider),
+                    "_context": [Circular],
+                  },
+                  "_calculateChangedBits": null,
+                  "_currentRenderer": null,
+                  "_currentRenderer2": null,
+                  "_currentValue": Object {
+                    "insert": [Function],
+                    "inserted": Object {
+                      "16qf8c0": true,
+                    },
+                    "key": "css",
+                    "nonce": undefined,
+                    "registered": Object {},
+                    "sheet": StyleSheet {
+                      "before": null,
+                      "container": <head>
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                        </style>
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                        </style>
+                      </head>,
+                      "ctr": 2,
+                      "isSpeedy": false,
+                      "key": "css",
+                      "nonce": undefined,
+                      "tags": Array [
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                        </style>,
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                        </style>,
+                      ],
+                    },
+                  },
+                  "_currentValue2": Object {
+                    "insert": [Function],
+                    "inserted": Object {
+                      "16qf8c0": true,
+                    },
+                    "key": "css",
+                    "nonce": undefined,
+                    "registered": Object {},
+                    "sheet": StyleSheet {
+                      "before": null,
+                      "container": <head>
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                        </style>
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                        </style>
+                      </head>,
+                      "ctr": 2,
+                      "isSpeedy": false,
+                      "key": "css",
+                      "nonce": undefined,
+                      "tags": Array [
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                        </style>,
+                        <style
+                          data-emotion="css"
+                        >
+                          
+                          .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                        </style>,
+                      ],
+                    },
+                  },
+                  "_threadCount": 0,
+                },
+              },
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "color": "#999999",
+                    "fontSize": "16px",
+                    "lineHeight": "24px",
+                    "margin": "0",
+                  },
+                  "alignItems": "center",
+                  "display": "flex",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": "0",
+                  "position": "absolute",
+                  "top": "0",
+                  "width": "100%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 1,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <p>
+                Chat with our agent to 
+                <span
+                  className="block"
+                >
+                  customize your quote
+                </span>
+              </p>,
+              "className": "absolute",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <p>
+                Chat with our agent to 
+                <span
+                  className="block"
+                >
+                  customize your quote
+                </span>
+              </p>,
+              "className": "absolute",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 135,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 2,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Array [],
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Array [],
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": null,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": null,
+            },
+            "stateNode": null,
+            "tag": 11,
+            "treeBaseDuration": 0,
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "color": "#999999",
+                    "fontSize": "16px",
+                    "lineHeight": "24px",
+                    "margin": "0",
+                  },
+                  "alignItems": "center",
+                  "display": "flex",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": "0",
+                  "position": "absolute",
+                  "top": "0",
+                  "width": "100%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 0,
+          "elementType": "div",
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              null,
+              <ForwardRef(render)
+                className="absolute"
+              >
+                <p>
+                  Chat with our agent to 
+                  <span
+                    className="block"
+                  >
+                    customize your quote
+                  </span>
+                </p>
+              </ForwardRef(render)>,
+              Array [],
+            ],
+            "className": "chatmessage_Container row row- chat-box-data p8 at_chatmessage",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              null,
+              <ForwardRef(render)
+                className="absolute"
+              >
+                <p>
+                  Chat with our agent to 
+                  <span
+                    className="block"
+                  >
+                    customize your quote
+                  </span>
+                </p>
+              </ForwardRef(render)>,
+              Array [],
+            ],
+            "className": "chatmessage_Container row row- chat-box-data p8 at_chatmessage",
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <div
+            class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+          >
+            <div
+              class="absolute css-16qf8c0"
+            >
+              <p>
+                Chat with our agent to 
+                <span
+                  class="block"
+                >
+                  customize your quote
+                </span>
+              </p>
+            </div>
+          </div>,
+          "tag": 5,
+          "treeBaseDuration": 0,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "dependencies": null,
+        "effectTag": 1,
+        "elementType": [Function],
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "fetchHistory": [MockFunction],
+          "messages": Array [],
+          "pdmsInformation": Object {},
+          "remainingMessages": 0,
+          "userId": 2544153,
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "fetchHistory": [MockFunction],
+          "messages": Array [],
+          "pdmsInformation": Object {},
+          "remainingMessages": 0,
+          "userId": 2544153,
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 128,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "fetchHistory": [MockFunction],
+              "messages": Array [],
+              "pdmsInformation": Object {},
+              "remainingMessages": 0,
+              "userId": 2544153,
+            },
+            "refProp": null,
+            "wrappingComponentProps": null,
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "fetchHistory": [MockFunction],
+              "messages": Array [],
+              "pdmsInformation": Object {},
+              "remainingMessages": 0,
+              "userId": 2544153,
+            },
+            "wrappingComponentProps": null,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "fetchHistory": [MockFunction],
+              "messages": Array [],
+              "pdmsInformation": Object {},
+              "remainingMessages": 0,
+              "userId": 2544153,
+            },
+            "refProp": null,
+            "wrappingComponentProps": null,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 125,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 125,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "callbackPriority": 90,
+                "containerInfo": <div>
+                  <div
+                    class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+                  >
+                    <div
+                      class="absolute css-16qf8c0"
+                    >
+                      <p>
+                        Chat with our agent to 
+                        <span
+                          class="block"
+                        >
+                          customize your quote
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstPendingTime": 0,
+                "firstSuspendedTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 17,
+                "lastExpiredTime": 0,
+                "lastPingedTime": 0,
+                "lastSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextKnownPendingLevel": 0,
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "fetchHistory": [MockFunction],
+                          "messages": Array [],
+                          "pdmsInformation": Object {},
+                          "remainingMessages": 0,
+                          "userId": 2544153,
+                        }
+                      }
+                      refProp={null}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "fetchHistory": [MockFunction],
+                          "messages": Array [],
+                          "pdmsInformation": Object {},
+                          "remainingMessages": 0,
+                          "userId": 2544153,
+                        }
+                      }
+                      refProp={null}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                  Object {
+                    "fetchHistory": [MockFunction],
+                    "messages": Array [],
+                    "pdmsInformation": Object {},
+                    "remainingMessages": 0,
+                    "userId": 2544153,
+                  }
+                }
+                refProp={null}
+                wrappingComponentProps={null}
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": FiberRootNode {
+              "callbackExpirationTime": 0,
+              "callbackNode": null,
+              "callbackPriority": 90,
+              "containerInfo": <div>
+                <div
+                  class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+                >
+                  <div
+                    class="absolute css-16qf8c0"
+                  >
+                    <p>
+                      Chat with our agent to 
+                      <span
+                        class="block"
+                      >
+                        customize your quote
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedExpirationTime": 0,
+              "finishedWork": null,
+              "firstPendingTime": 0,
+              "firstSuspendedTime": 0,
+              "hydrate": false,
+              "interactionThreadID": 17,
+              "lastExpiredTime": 0,
+              "lastPingedTime": 0,
+              "lastSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextKnownPendingLevel": 0,
+              "pendingChildren": null,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "pingCache": null,
+              "tag": 0,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "fetchHistory": [MockFunction],
+                      "messages": Array [],
+                      "pdmsInformation": Object {},
+                      "remainingMessages": 0,
+                      "userId": 2544153,
+                    }
+                  }
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "wrappingComponentProps": null,
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 1,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "getUsernameFromMessage": [Function],
+      "loadMore": [Function],
+      "props": Object {
+        "fetchHistory": [MockFunction],
+        "messages": Array [],
+        "pdmsInformation": Object {},
+        "remainingMessages": 0,
+        "userId": 2544153,
+      },
+      "refs": Object {},
+      "state": null,
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "fetchHistory": [MockFunction],
+      "messages": Array [],
+      "pdmsInformation": Object {},
+      "remainingMessages": 0,
+      "userId": 2544153,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+      >
+        <div
+          class="absolute css-16qf8c0"
+        >
+          <p>
+            Chat with our agent to 
+            <span
+              class="block"
+            >
+              customize your quote
+            </span>
+          </p>
+        </div>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          null,
+          <ForwardRef(render)
+            className="absolute"
+          >
+            <p>
+              Chat with our agent to 
+              <span
+                className="block"
+              >
+                customize your quote
+              </span>
+            </p>
+          </ForwardRef(render)>,
+          Array [],
+        ],
+        "className": "chatmessage_Container row row- chat-box-data p8 at_chatmessage",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <p>
+              Chat with our agent to 
+              <span
+                className="block"
+              >
+                customize your quote
+              </span>
+            </p>,
+            "className": "absolute",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": <div
+              class="absolute css-16qf8c0"
+            >
+              <p>
+                Chat with our agent to 
+                <span
+                  class="block"
+                >
+                  customize your quote
+                </span>
+              </p>
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p>
+                Chat with our agent to 
+                <span
+                  className="block"
+                >
+                  customize your quote
+                </span>
+              </p>,
+              "className": "absolute css-16qf8c0",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <p>
+                  Chat with our agent to 
+                  <span
+                    class="block"
+                  >
+                    customize your quote
+                  </span>
+                </p>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Chat with our agent to ",
+                    <span
+                      className="block"
+                    >
+                      customize your quote
+                    </span>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Chat with our agent to ",
+                  Object {
+                    "instance": <span
+                      class="block"
+                    >
+                      customize your quote
+                    </span>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "customize your quote",
+                      "className": "block",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "customize your quote",
+                    ],
+                    "type": "span",
+                  },
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "& p": Object {
+                  "color": "#999999",
+                  "fontSize": "16px",
+                  "lineHeight": "24px",
+                  "margin": "0",
+                },
+                "alignItems": "center",
+                "display": "flex",
+                "height": "100%",
+                "justifyContent": "center",
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+                "width": "100%",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        null,
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": ChatMessages {
+        "_reactInternalFiber": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 130,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 128,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "wrappingComponentProps": null,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 125,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 125,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 1073741823,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": FiberRootNode {
+                  "callbackExpirationTime": 0,
+                  "callbackNode": null,
+                  "callbackPriority": 90,
+                  "containerInfo": <div>
+                    <div
+                      class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+                    >
+                      <div
+                        class="absolute css-16qf8c0"
+                      >
+                        <p>
+                          Chat with our agent to 
+                          <span
+                            class="block"
+                          >
+                            customize your quote
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedExpirationTime": 0,
+                  "finishedWork": null,
+                  "firstPendingTime": 0,
+                  "firstSuspendedTime": 0,
+                  "hydrate": false,
+                  "interactionThreadID": 17,
+                  "lastExpiredTime": 0,
+                  "lastPingedTime": 0,
+                  "lastSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextKnownPendingLevel": 0,
+                  "pendingChildren": null,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "pingCache": null,
+                  "tag": 0,
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "fetchHistory": [MockFunction],
+                            "messages": Array [],
+                            "pdmsInformation": Object {},
+                            "remainingMessages": 0,
+                            "userId": 2544153,
+                          }
+                        }
+                        refProp={null}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "fetchHistory": [MockFunction],
+                            "messages": Array [],
+                            "pdmsInformation": Object {},
+                            "remainingMessages": 0,
+                            "userId": 2544153,
+                          }
+                        }
+                        refProp={null}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "fetchHistory": [MockFunction],
+                      "messages": Array [],
+                      "pdmsInformation": Object {},
+                      "remainingMessages": 0,
+                      "userId": 2544153,
+                    }
+                  }
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "callbackPriority": 90,
+                "containerInfo": <div>
+                  <div
+                    class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+                  >
+                    <div
+                      class="absolute css-16qf8c0"
+                    >
+                      <p>
+                        Chat with our agent to 
+                        <span
+                          class="block"
+                        >
+                          customize your quote
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstPendingTime": 0,
+                "firstSuspendedTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 17,
+                "lastExpiredTime": 0,
+                "lastPingedTime": 0,
+                "lastSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextKnownPendingLevel": 0,
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "fetchHistory": [MockFunction],
+                        "messages": Array [],
+                        "pdmsInformation": Object {},
+                        "remainingMessages": 0,
+                        "userId": 2544153,
+                      }
+                    }
+                    refProp={null}
+                    wrappingComponentProps={null}
+                  />,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "fetchHistory": [MockFunction],
+                  "messages": Array [],
+                  "pdmsInformation": Object {},
+                  "remainingMessages": 0,
+                  "userId": 2544153,
+                },
+                "refProp": null,
+                "wrappingComponentProps": null,
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "fetchHistory": [MockFunction],
+                  "messages": Array [],
+                  "pdmsInformation": Object {},
+                  "remainingMessages": 0,
+                  "userId": 2544153,
+                },
+                "wrappingComponentProps": null,
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 1,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 132,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 134,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 137,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 139,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugNeedsRemount": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 141,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 143,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugHookTypes": null,
+                        "_debugID": 145,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugNeedsRemount": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "dependencies": null,
+                        "effectTag": 0,
+                        "elementType": null,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": "Chat with our agent to ",
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": "Chat with our agent to ",
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugHookTypes": null,
+                          "_debugID": 146,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugNeedsRemount": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "dependencies": null,
+                          "effectTag": 0,
+                          "elementType": "span",
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 1,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "customize your quote",
+                            "className": "block",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "customize your quote",
+                            "className": "block",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": null,
+                          "stateNode": <span
+                            class="block"
+                          >
+                            customize your quote
+                          </span>,
+                          "tag": 5,
+                          "treeBaseDuration": 0,
+                          "type": "span",
+                          "updateQueue": null,
+                        },
+                        "stateNode": Chat with our agent to ,
+                        "tag": 6,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": null,
+                      },
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": "p",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": Array [
+                          "Chat with our agent to ",
+                          <span
+                            className="block"
+                          >
+                            customize your quote
+                          </span>,
+                        ],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": Array [
+                          "Chat with our agent to ",
+                          <span
+                            className="block"
+                          >
+                            customize your quote
+                          </span>,
+                        ],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <p>
+                        Chat with our agent to 
+                        <span
+                          class="block"
+                        >
+                          customize your quote
+                        </span>
+                      </p>,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "p",
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "div",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <p>
+                        Chat with our agent to 
+                        <span
+                          className="block"
+                        >
+                          customize your quote
+                        </span>
+                      </p>,
+                      "className": "absolute css-16qf8c0",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <p>
+                        Chat with our agent to 
+                        <span
+                          className="block"
+                        >
+                          customize your quote
+                        </span>
+                      </p>,
+                      "className": "absolute css-16qf8c0",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <div
+                      class="absolute css-16qf8c0"
+                    >
+                      <p>
+                        Chat with our agent to 
+                        <span
+                          class="block"
+                        >
+                          customize your quote
+                        </span>
+                      </p>
+                    </div>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "div",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "dependencies": Object {
+                    "expirationTime": 0,
+                    "firstContext": Object {
+                      "context": Object {
+                        "$$typeof": Symbol(react.context),
+                        "Consumer": Object {
+                          "$$typeof": Symbol(react.context),
+                          "_calculateChangedBits": null,
+                          "_context": [Circular],
+                        },
+                        "Provider": Object {
+                          "$$typeof": Symbol(react.provider),
+                          "_context": [Circular],
+                        },
+                        "_calculateChangedBits": null,
+                        "_currentRenderer": null,
+                        "_currentRenderer2": null,
+                        "_currentValue": Object {},
+                        "_currentValue2": Object {},
+                        "_threadCount": 0,
+                      },
+                      "next": null,
+                      "observedBits": 1073741823,
+                    },
+                    "responders": null,
+                  },
+                  "effectTag": 1,
+                  "elementType": Object {
+                    "$$typeof": Symbol(react.context),
+                    "_calculateChangedBits": null,
+                    "_context": Object {
+                      "$$typeof": Symbol(react.context),
+                      "Consumer": [Circular],
+                      "Provider": Object {
+                        "$$typeof": Symbol(react.provider),
+                        "_context": [Circular],
+                      },
+                      "_calculateChangedBits": null,
+                      "_currentRenderer": null,
+                      "_currentRenderer2": null,
+                      "_currentValue": Object {},
+                      "_currentValue2": Object {},
+                      "_threadCount": 0,
+                    },
+                  },
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": [Function],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": [Function],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": null,
+                  "tag": 9,
+                  "treeBaseDuration": 0,
+                  "type": Object {
+                    "$$typeof": Symbol(react.context),
+                    "_calculateChangedBits": null,
+                    "_context": Object {
+                      "$$typeof": Symbol(react.context),
+                      "Consumer": [Circular],
+                      "Provider": Object {
+                        "$$typeof": Symbol(react.provider),
+                        "_context": [Circular],
+                      },
+                      "_calculateChangedBits": null,
+                      "_currentRenderer": null,
+                      "_currentRenderer2": null,
+                      "_currentValue": Object {},
+                      "_currentValue2": Object {},
+                      "_threadCount": 0,
+                    },
+                  },
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "dependencies": Object {
+                  "expirationTime": 0,
+                  "firstContext": Object {
+                    "context": Object {
+                      "$$typeof": Symbol(react.context),
+                      "Consumer": Object {
+                        "$$typeof": Symbol(react.context),
+                        "_calculateChangedBits": null,
+                        "_context": [Circular],
+                      },
+                      "Provider": Object {
+                        "$$typeof": Symbol(react.provider),
+                        "_context": [Circular],
+                      },
+                      "_calculateChangedBits": null,
+                      "_currentRenderer": null,
+                      "_currentRenderer2": null,
+                      "_currentValue": Object {
+                        "insert": [Function],
+                        "inserted": Object {
+                          "16qf8c0": true,
+                        },
+                        "key": "css",
+                        "nonce": undefined,
+                        "registered": Object {},
+                        "sheet": StyleSheet {
+                          "before": null,
+                          "container": <head>
+                            <style
+                              data-emotion="css"
+                            >
+                              
+                              .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                            </style>
+                            <style
+                              data-emotion="css"
+                            >
+                              
+                              .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                            </style>
+                          </head>,
+                          "ctr": 2,
+                          "isSpeedy": false,
+                          "key": "css",
+                          "nonce": undefined,
+                          "tags": Array [
+                            <style
+                              data-emotion="css"
+                            >
+                              
+                              .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                            </style>,
+                            <style
+                              data-emotion="css"
+                            >
+                              
+                              .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                            </style>,
+                          ],
+                        },
+                      },
+                      "_currentValue2": Object {
+                        "insert": [Function],
+                        "inserted": Object {
+                          "16qf8c0": true,
+                        },
+                        "key": "css",
+                        "nonce": undefined,
+                        "registered": Object {},
+                        "sheet": StyleSheet {
+                          "before": null,
+                          "container": <head>
+                            <style
+                              data-emotion="css"
+                            >
+                              
+                              .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                            </style>
+                            <style
+                              data-emotion="css"
+                            >
+                              
+                              .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                            </style>
+                          </head>,
+                          "ctr": 2,
+                          "isSpeedy": false,
+                          "key": "css",
+                          "nonce": undefined,
+                          "tags": Array [
+                            <style
+                              data-emotion="css"
+                            >
+                              
+                              .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                            </style>,
+                            <style
+                              data-emotion="css"
+                            >
+                              
+                              .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                            </style>,
+                          ],
+                        },
+                      },
+                      "_threadCount": 0,
+                    },
+                    "next": null,
+                    "observedBits": 1073741823,
+                  },
+                  "responders": null,
+                },
+                "effectTag": 1,
+                "elementType": Object {
+                  "$$typeof": Symbol(react.context),
+                  "_calculateChangedBits": null,
+                  "_context": Object {
+                    "$$typeof": Symbol(react.context),
+                    "Consumer": [Circular],
+                    "Provider": Object {
+                      "$$typeof": Symbol(react.provider),
+                      "_context": [Circular],
+                    },
+                    "_calculateChangedBits": null,
+                    "_currentRenderer": null,
+                    "_currentRenderer2": null,
+                    "_currentValue": Object {
+                      "insert": [Function],
+                      "inserted": Object {
+                        "16qf8c0": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": Object {},
+                      "sheet": StyleSheet {
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>
+                        </head>,
+                        "ctr": 2,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "tags": Array [
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>,
+                        ],
+                      },
+                    },
+                    "_currentValue2": Object {
+                      "insert": [Function],
+                      "inserted": Object {
+                        "16qf8c0": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": Object {},
+                      "sheet": StyleSheet {
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>
+                        </head>,
+                        "ctr": 2,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "tags": Array [
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>,
+                        ],
+                      },
+                    },
+                    "_threadCount": 0,
+                  },
+                },
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": [Function],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": [Function],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": null,
+                "tag": 9,
+                "treeBaseDuration": 0,
+                "type": Object {
+                  "$$typeof": Symbol(react.context),
+                  "_calculateChangedBits": null,
+                  "_context": Object {
+                    "$$typeof": Symbol(react.context),
+                    "Consumer": [Circular],
+                    "Provider": Object {
+                      "$$typeof": Symbol(react.provider),
+                      "_context": [Circular],
+                    },
+                    "_calculateChangedBits": null,
+                    "_currentRenderer": null,
+                    "_currentRenderer2": null,
+                    "_currentValue": Object {
+                      "insert": [Function],
+                      "inserted": Object {
+                        "16qf8c0": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": Object {},
+                      "sheet": StyleSheet {
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>
+                        </head>,
+                        "ctr": 2,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "tags": Array [
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>,
+                        ],
+                      },
+                    },
+                    "_currentValue2": Object {
+                      "insert": [Function],
+                      "inserted": Object {
+                        "16qf8c0": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": Object {},
+                      "sheet": StyleSheet {
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>
+                        </head>,
+                        "ctr": 2,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "tags": Array [
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0{position:absolute;top:0;width:100%;height:100%;left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                          >
+                            
+                            .css-16qf8c0 p{margin:0;font-size:16px;line-height:24px;color:#999999;}
+                          </style>,
+                        ],
+                      },
+                    },
+                    "_threadCount": 0,
+                  },
+                },
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 1,
+              "elementType": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& p": Object {
+                      "color": "#999999",
+                      "fontSize": "16px",
+                      "lineHeight": "24px",
+                      "margin": "0",
+                    },
+                    "alignItems": "center",
+                    "display": "flex",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "left": "0",
+                    "position": "absolute",
+                    "top": "0",
+                    "width": "100%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <p>
+                  Chat with our agent to 
+                  <span
+                    className="block"
+                  >
+                    customize your quote
+                  </span>
+                </p>,
+                "className": "absolute",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <p>
+                  Chat with our agent to 
+                  <span
+                    className="block"
+                  >
+                    customize your quote
+                  </span>
+                </p>,
+                "className": "absolute",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 135,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Array [],
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Array [],
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": null,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": null,
+              },
+              "stateNode": null,
+              "tag": 11,
+              "treeBaseDuration": 0,
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& p": Object {
+                      "color": "#999999",
+                      "fontSize": "16px",
+                      "lineHeight": "24px",
+                      "margin": "0",
+                    },
+                    "alignItems": "center",
+                    "display": "flex",
+                    "height": "100%",
+                    "justifyContent": "center",
+                    "left": "0",
+                    "position": "absolute",
+                    "top": "0",
+                    "width": "100%",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": "div",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                null,
+                <ForwardRef(render)
+                  className="absolute"
+                >
+                  <p>
+                    Chat with our agent to 
+                    <span
+                      className="block"
+                    >
+                      customize your quote
+                    </span>
+                  </p>
+                </ForwardRef(render)>,
+                Array [],
+              ],
+              "className": "chatmessage_Container row row- chat-box-data p8 at_chatmessage",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                null,
+                <ForwardRef(render)
+                  className="absolute"
+                >
+                  <p>
+                    Chat with our agent to 
+                    <span
+                      className="block"
+                    >
+                      customize your quote
+                    </span>
+                  </p>
+                </ForwardRef(render)>,
+                Array [],
+              ],
+              "className": "chatmessage_Container row row- chat-box-data p8 at_chatmessage",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+            >
+              <div
+                class="absolute css-16qf8c0"
+              >
+                <p>
+                  Chat with our agent to 
+                  <span
+                    class="block"
+                  >
+                    customize your quote
+                  </span>
+                </p>
+              </div>
+            </div>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "fetchHistory": [MockFunction],
+            "messages": Array [],
+            "pdmsInformation": Object {},
+            "remainingMessages": 0,
+            "userId": 2544153,
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "fetchHistory": [MockFunction],
+            "messages": Array [],
+            "pdmsInformation": Object {},
+            "remainingMessages": 0,
+            "userId": 2544153,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 128,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "wrappingComponentProps": null,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "fetchHistory": [MockFunction],
+                "messages": Array [],
+                "pdmsInformation": Object {},
+                "remainingMessages": 0,
+                "userId": 2544153,
+              },
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 125,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 125,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 1073741823,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": FiberRootNode {
+                  "callbackExpirationTime": 0,
+                  "callbackNode": null,
+                  "callbackPriority": 90,
+                  "containerInfo": <div>
+                    <div
+                      class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+                    >
+                      <div
+                        class="absolute css-16qf8c0"
+                      >
+                        <p>
+                          Chat with our agent to 
+                          <span
+                            class="block"
+                          >
+                            customize your quote
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedExpirationTime": 0,
+                  "finishedWork": null,
+                  "firstPendingTime": 0,
+                  "firstSuspendedTime": 0,
+                  "hydrate": false,
+                  "interactionThreadID": 17,
+                  "lastExpiredTime": 0,
+                  "lastPingedTime": 0,
+                  "lastSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextKnownPendingLevel": 0,
+                  "pendingChildren": null,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "pingCache": null,
+                  "tag": 0,
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "fetchHistory": [MockFunction],
+                            "messages": Array [],
+                            "pdmsInformation": Object {},
+                            "remainingMessages": 0,
+                            "userId": 2544153,
+                          }
+                        }
+                        refProp={null}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "fetchHistory": [MockFunction],
+                            "messages": Array [],
+                            "pdmsInformation": Object {},
+                            "remainingMessages": 0,
+                            "userId": 2544153,
+                          }
+                        }
+                        refProp={null}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "fetchHistory": [MockFunction],
+                      "messages": Array [],
+                      "pdmsInformation": Object {},
+                      "remainingMessages": 0,
+                      "userId": 2544153,
+                    }
+                  }
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "callbackPriority": 90,
+                "containerInfo": <div>
+                  <div
+                    class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+                  >
+                    <div
+                      class="absolute css-16qf8c0"
+                    >
+                      <p>
+                        Chat with our agent to 
+                        <span
+                          class="block"
+                        >
+                          customize your quote
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstPendingTime": 0,
+                "firstSuspendedTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 17,
+                "lastExpiredTime": 0,
+                "lastPingedTime": 0,
+                "lastSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextKnownPendingLevel": 0,
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "fetchHistory": [MockFunction],
+                        "messages": Array [],
+                        "pdmsInformation": Object {},
+                        "remainingMessages": 0,
+                        "userId": 2544153,
+                      }
+                    }
+                    refProp={null}
+                    wrappingComponentProps={null}
+                  />,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "fetchHistory": [MockFunction],
+                  "messages": Array [],
+                  "pdmsInformation": Object {},
+                  "remainingMessages": 0,
+                  "userId": 2544153,
+                },
+                "refProp": null,
+                "wrappingComponentProps": null,
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "fetchHistory": [MockFunction],
+                  "messages": Array [],
+                  "pdmsInformation": Object {},
+                  "remainingMessages": 0,
+                  "userId": 2544153,
+                },
+                "wrappingComponentProps": null,
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 1,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "getUsernameFromMessage": [Function],
+        "loadMore": [Function],
+        "props": Object {
+          "fetchHistory": [MockFunction],
+          "messages": Array [],
+          "pdmsInformation": Object {},
+          "remainingMessages": 0,
+          "userId": 2544153,
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "fetchHistory": [MockFunction],
+        "messages": Array [],
+        "pdmsInformation": Object {},
+        "remainingMessages": 0,
+        "userId": 2544153,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class="chatmessage_Container row row- chat-box-data p8 at_chatmessage"
+        >
+          <div
+            class="absolute css-16qf8c0"
+          >
+            <p>
+              Chat with our agent to 
+              <span
+                class="block"
+              >
+                customize your quote
+              </span>
+            </p>
+          </div>
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            null,
+            <ForwardRef(render)
+              className="absolute"
+            >
+              <p>
+                Chat with our agent to 
+                <span
+                  className="block"
+                >
+                  customize your quote
+                </span>
+              </p>
+            </ForwardRef(render)>,
+            Array [],
+          ],
+          "className": "chatmessage_Container row row- chat-box-data p8 at_chatmessage",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <p>
+                Chat with our agent to 
+                <span
+                  className="block"
+                >
+                  customize your quote
+                </span>
+              </p>,
+              "className": "absolute",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": <div
+                class="absolute css-16qf8c0"
+              >
+                <p>
+                  Chat with our agent to 
+                  <span
+                    class="block"
+                  >
+                    customize your quote
+                  </span>
+                </p>
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <p>
+                  Chat with our agent to 
+                  <span
+                    className="block"
+                  >
+                    customize your quote
+                  </span>
+                </p>,
+                "className": "absolute css-16qf8c0",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <p>
+                    Chat with our agent to 
+                    <span
+                      class="block"
+                    >
+                      customize your quote
+                    </span>
+                  </p>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Chat with our agent to ",
+                      <span
+                        className="block"
+                      >
+                        customize your quote
+                      </span>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Chat with our agent to ",
+                    Object {
+                      "instance": <span
+                        class="block"
+                      >
+                        customize your quote
+                      </span>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "customize your quote",
+                        "className": "block",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "customize your quote",
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "p",
+                },
+              ],
+              "type": "div",
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& p": Object {
+                    "color": "#999999",
+                    "fontSize": "16px",
+                    "lineHeight": "24px",
+                    "margin": "0",
+                  },
+                  "alignItems": "center",
+                  "display": "flex",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": "0",
+                  "position": "absolute",
+                  "top": "0",
+                  "width": "100%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          null,
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__linkedRoots__): Array [],
+  Symbol(enzyme.__unrendered__): <ChatMessages
+    fetchHistory={[MockFunction]}
+    messages={Array []}
+    pdmsInformation={Object {}}
+    remainingMessages={0}
+    userId={2544153}
+  />,
+  Symbol(enzyme.__updatedBy__): null,
+}
+`;

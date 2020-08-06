@@ -1,0 +1,41 @@
+.destination-data {
+
+  .destination-data-label-box {
+    overflow-x: scroll;
+    border-bottom: 1px solid #CCC;
+  .destination-data-label {
+    display: flex;
+
+    label {
+      font-size: 16px;
+      line-height: 20px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      text-align: center;
+      min-width: 40%;
+      max-width: 40%;
+      display: table-cell;
+      position: relative;
+    }
+  }
+}
+}
+.hidden-data {
+  display: none;
+}
+.destination-data-label input {
+  display: none;
+}
+.destination-data-label input:checked + label {
+  color: #20A397;
+  font-weight: 700;
+}
+.destination-data-label input:checked + label::after {
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #20A397;
+  content: '';
+}

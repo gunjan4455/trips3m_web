@@ -1,0 +1,21 @@
+:local{
+  .timerBanner{
+    background:#fac22e;
+  }
+  .countDown{
+    margin: 0 auto;
+    width: 249px;
+    box-shadow: 2px 2px 14px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 2px 2px 14px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 2px 2px 14px 2px rgba(0, 0, 0, 0.1)  ;
+    span{
+      opacity: 0.56;
+    }
+    >div{
+      border-right:1px solid #efefef;
+      &:last-child{
+        border:0;
+      }
+    }
+  }
+}

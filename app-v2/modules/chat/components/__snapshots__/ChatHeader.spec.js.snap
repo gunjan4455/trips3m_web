@@ -1,0 +1,426 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatHeader: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ChatHeader
+    agentId={1111111}
+    agentName="Test"
+    chatKeys={
+      Object {
+        "channel": "Chat",
+        "loaded": true,
+        "publishKey": "12121",
+        "subscribeKey": "121212",
+      }
+    }
+    userDetails={
+      Object {
+        "userId": 111111,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(render)
+          className="flexFull p0 mr8"
+        >
+          <p
+            className="m0 pb4 sfcw f16 ellipsis"
+          >
+            Test
+          </p>
+          <div
+            className="clearfix relative"
+          >
+            <AgentOnlineIndicator
+              isChatIndicator={true}
+              pubnubConfig={
+                Object {
+                  "channels": Object {
+                    "chat": "Chat",
+                  },
+                  "publish_key": "12121",
+                  "subscribe_key": "121212",
+                }
+              }
+              showPresenceMessage={true}
+              userDetails={
+                Object {
+                  "userId": 111111,
+                }
+              }
+              userId={1111111}
+            />
+          </div>
+        </ForwardRef(render)>,
+        <withRouter(Connect(RequestCallback))
+          isIcononly={true}
+          isWhiteIcon={true}
+        />,
+      ],
+      "className": "row row- chat-header relative at_chatheader flex",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <p
+              className="m0 pb4 sfcw f16 ellipsis"
+            >
+              Test
+            </p>,
+            <div
+              className="clearfix relative"
+            >
+              <AgentOnlineIndicator
+                isChatIndicator={true}
+                pubnubConfig={
+                  Object {
+                    "channels": Object {
+                      "chat": "Chat",
+                    },
+                    "publish_key": "12121",
+                    "subscribe_key": "121212",
+                  }
+                }
+                showPresenceMessage={true}
+                userDetails={
+                  Object {
+                    "userId": 111111,
+                  }
+                }
+                userId={1111111}
+              />
+            </div>,
+          ],
+          "className": "flexFull p0 mr8",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Test",
+              "className": "m0 pb4 sfcw f16 ellipsis",
+            },
+            "ref": null,
+            "rendered": "Test",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <AgentOnlineIndicator
+                isChatIndicator={true}
+                pubnubConfig={
+                  Object {
+                    "channels": Object {
+                      "chat": "Chat",
+                    },
+                    "publish_key": "12121",
+                    "subscribe_key": "121212",
+                  }
+                }
+                showPresenceMessage={true}
+                userDetails={
+                  Object {
+                    "userId": 111111,
+                  }
+                }
+                userId={1111111}
+              />,
+              "className": "clearfix relative",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "isChatIndicator": true,
+                "pubnubConfig": Object {
+                  "channels": Object {
+                    "chat": "Chat",
+                  },
+                  "publish_key": "12121",
+                  "subscribe_key": "121212",
+                },
+                "showPresenceMessage": true,
+                "userDetails": Object {
+                  "userId": 111111,
+                },
+                "userId": 1111111,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "maxWidth": "calc(100% - 42px)",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "isIcononly": true,
+          "isWhiteIcon": true,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)
+            className="flexFull p0 mr8"
+          >
+            <p
+              className="m0 pb4 sfcw f16 ellipsis"
+            >
+              Test
+            </p>
+            <div
+              className="clearfix relative"
+            >
+              <AgentOnlineIndicator
+                isChatIndicator={true}
+                pubnubConfig={
+                  Object {
+                    "channels": Object {
+                      "chat": "Chat",
+                    },
+                    "publish_key": "12121",
+                    "subscribe_key": "121212",
+                  }
+                }
+                showPresenceMessage={true}
+                userDetails={
+                  Object {
+                    "userId": 111111,
+                  }
+                }
+                userId={1111111}
+              />
+            </div>
+          </ForwardRef(render)>,
+          <withRouter(Connect(RequestCallback))
+            isIcononly={true}
+            isWhiteIcon={true}
+          />,
+        ],
+        "className": "row row- chat-header relative at_chatheader flex",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p
+                className="m0 pb4 sfcw f16 ellipsis"
+              >
+                Test
+              </p>,
+              <div
+                className="clearfix relative"
+              >
+                <AgentOnlineIndicator
+                  isChatIndicator={true}
+                  pubnubConfig={
+                    Object {
+                      "channels": Object {
+                        "chat": "Chat",
+                      },
+                      "publish_key": "12121",
+                      "subscribe_key": "121212",
+                    }
+                  }
+                  showPresenceMessage={true}
+                  userDetails={
+                    Object {
+                      "userId": 111111,
+                    }
+                  }
+                  userId={1111111}
+                />
+              </div>,
+            ],
+            "className": "flexFull p0 mr8",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Test",
+                "className": "m0 pb4 sfcw f16 ellipsis",
+              },
+              "ref": null,
+              "rendered": "Test",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <AgentOnlineIndicator
+                  isChatIndicator={true}
+                  pubnubConfig={
+                    Object {
+                      "channels": Object {
+                        "chat": "Chat",
+                      },
+                      "publish_key": "12121",
+                      "subscribe_key": "121212",
+                    }
+                  }
+                  showPresenceMessage={true}
+                  userDetails={
+                    Object {
+                      "userId": 111111,
+                    }
+                  }
+                  userId={1111111}
+                />,
+                "className": "clearfix relative",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "isChatIndicator": true,
+                  "pubnubConfig": Object {
+                    "channels": Object {
+                      "chat": "Chat",
+                    },
+                    "publish_key": "12121",
+                    "subscribe_key": "121212",
+                  },
+                  "showPresenceMessage": true,
+                  "userDetails": Object {
+                    "userId": 111111,
+                  },
+                  "userId": 1111111,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "maxWidth": "calc(100% - 42px)",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "isIcononly": true,
+            "isWhiteIcon": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

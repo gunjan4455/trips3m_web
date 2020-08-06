@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Header/HeaderHome.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/Header</a> HeaderHome.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">75% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>3/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">75% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>3/4</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router';
+&nbsp;
+import { TTlogo, TTlogoSecondary } from 'helpers/Icon/Icon';
+import BurgerMenu from './BurgerMenu';
+import Search from '../../components/Search/Search';
+import './Header.scss';
+&nbsp;
+const HeaderHome = <span class="fstat-no" title="function not covered" >({</span> isTransparent }) =&gt; (
+<span class="cstat-no" title="statement not covered" >  &lt;header className="wfull z10 relative"&gt;</span>
+    &lt;div className={isTransparent ? 'header-con-transparent' : 'header-con'}&gt;
+      &lt;div className="header-con-first"&gt;
+        &lt;BurgerMenu /&gt;
+        &lt;div itemScope="itemscope" itemType="https://schema.org/Organization" className="tt-logo"&gt;
+          &lt;meta itemProp="url" content="https://traveltriangle.com" /&gt;
+          &lt;meta itemProp="logo" content="https://traveltriangle.com/pp_static/pp_new_logo.jpg" /&gt;
+          &lt;Link className="tt-logo-container" to="/"&gt;
+            {isTransparent ? &lt;TTlogoSecondary /&gt; : &lt;TTlogo /&gt; }
+          &lt;/Link&gt;
+        &lt;/div&gt;
+        &lt;input type="checkbox" id="AddToHomeButton" className="add-to-home-button" /&gt;
+        &lt;label htmlFor="AddToHomeButton"&gt;
+          &lt;div className="add-to-screen"&gt;
+            &lt;span className="add-to-home" /&gt;
+          &lt;/div&gt;
+          &lt;div className="add-to-home-info"&gt;
+            &lt;div className="transparent-cut" /&gt;
+            &lt;div className="col-xs-12 pt64 mt64 pl24 ml8 pr24 mr24 pr15 pb64"&gt;
+              &lt;h3 className="f14 fw7 sfcw text-left"&gt;Add &lt;span className="text-capitalize f18"&gt;TravelTriangle &lt;/span&gt; to&lt;/h3&gt;
+              &lt;p className="f16 sfcw text-left fwb pt5"&gt;Homescreen for quick access&lt;/p&gt;
+              &lt;p className="f16 fw3 sfcw pt24 relative tap-tag-addtohome"&gt; Tap &lt;span className="addtohomeoverlay iblock"&gt; &lt;span className="add-to-home iblock absolute t5 l9" /&gt; &lt;/span&gt; to bring up your browser menu
+              and select &lt;span className="fw7"&gt;{'"Add to home screen"'}&lt;/span&gt; to
+               pin the TravelTriangle web app &lt;/p&gt;
+              &lt;div className="btn-filled-pri mt15 ripple"&gt;&lt;div className="wave" /&gt;Got It&lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/label&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+  );
+&nbsp;
+export default HeaderHome;
+&nbsp;
+HeaderHome.propTypes = {
+  isTransparent: PropTypes.bool
+};
+&nbsp;
+HeaderHome.defaultProps = {
+  isTransparent: false
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

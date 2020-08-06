@@ -1,0 +1,19 @@
+:local{
+  .hotelDesciptionClip{
+    width:208px;
+  }
+  .hotelGrid {
+    min-width: 96px;
+    min-height: 63px;
+    background: #d4d4d4;  // for ux
+    border-radius: 2px;
+    max-width: 96px;
+    max-height: 63px;
+  }
+
+  @media screen and (max-width: 320px) {
+    .hotelGrid{
+      min-width: 75px;
+    }
+  }
+}

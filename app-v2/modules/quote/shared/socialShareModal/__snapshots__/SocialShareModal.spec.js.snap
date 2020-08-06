@@ -1,0 +1,608 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inclusions: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SocialShareModal
+    shareLink="http://some-link"
+    sharedBy="Logged-in-user"
+    trackSegment={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ModalHeaderCustom
+          heading="Share with"
+        />,
+        <div
+          className="p24"
+        >
+          <div
+            className="mb15"
+          >
+            <a
+              className="block input-with-icon-box flex alignCenter justifyCenter text-center sbc3 sfcw radius2 f14p"
+              data-action="share/whatsapp/share"
+              href="whatsapp://send?text=http://some-link"
+            >
+              <ForwardRef(render)
+                className="absolute-center-v"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              Whatsapp
+            </a>
+          </div>
+          <ForwardRef(render)>
+            <a
+              className="block input-with-icon-box flex alignCenter justifyCenter text-center pfc2 radius2 f14p"
+              href="mailto:?subject=Logged-in-user shared a quote with you on the behalf of Travel Triangle&amp;body=http://some-link"
+            >
+              <ForwardRef(render)
+                className="absolute-center-v"
+              >
+                <IconSvg />
+              </ForwardRef(render)>
+              Gmail
+            </a>
+          </ForwardRef(render)>
+        </div>,
+      ],
+      "className": "sbcw",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "heading": "Share with",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="mb15"
+            >
+              <a
+                className="block input-with-icon-box flex alignCenter justifyCenter text-center sbc3 sfcw radius2 f14p"
+                data-action="share/whatsapp/share"
+                href="whatsapp://send?text=http://some-link"
+              >
+                <ForwardRef(render)
+                  className="absolute-center-v"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                Whatsapp
+              </a>
+            </div>,
+            <ForwardRef(render)>
+              <a
+                className="block input-with-icon-box flex alignCenter justifyCenter text-center pfc2 radius2 f14p"
+                href="mailto:?subject=Logged-in-user shared a quote with you on the behalf of Travel Triangle&amp;body=http://some-link"
+              >
+                <ForwardRef(render)
+                  className="absolute-center-v"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                Gmail
+              </a>
+            </ForwardRef(render)>,
+          ],
+          "className": "p24",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                className="block input-with-icon-box flex alignCenter justifyCenter text-center sbc3 sfcw radius2 f14p"
+                data-action="share/whatsapp/share"
+                href="whatsapp://send?text=http://some-link"
+              >
+                <ForwardRef(render)
+                  className="absolute-center-v"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                Whatsapp
+              </a>,
+              "className": "mb15",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(render)
+                    className="absolute-center-v"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>,
+                  "Whatsapp",
+                ],
+                "className": "block input-with-icon-box flex alignCenter justifyCenter text-center sbc3 sfcw radius2 f14p",
+                "data-action": "share/whatsapp/share",
+                "href": "whatsapp://send?text=http://some-link",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "absolute-center-v",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "span",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "height": "24px",
+                        "left": "12px",
+                        "width": "24px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(span)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "Whatsapp",
+              ],
+              "type": "a",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <a
+                className="block input-with-icon-box flex alignCenter justifyCenter text-center pfc2 radius2 f14p"
+                href="mailto:?subject=Logged-in-user shared a quote with you on the behalf of Travel Triangle&amp;body=http://some-link"
+              >
+                <ForwardRef(render)
+                  className="absolute-center-v"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                Gmail
+              </a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef(render)
+                    className="absolute-center-v"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>,
+                  "Gmail",
+                ],
+                "className": "block input-with-icon-box flex alignCenter justifyCenter text-center pfc2 radius2 f14p",
+                "href": "mailto:?subject=Logged-in-user shared a quote with you on the behalf of Travel Triangle&amp;body=http://some-link",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "absolute-center-v",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "span",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "height": "24px",
+                        "left": "12px",
+                        "width": "24px",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(span)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "Gmail",
+              ],
+              "type": "a",
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& a": Object {
+                    "border": "1px solid #d4d4d4",
+                  },
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ModalHeaderCustom
+            heading="Share with"
+          />,
+          <div
+            className="p24"
+          >
+            <div
+              className="mb15"
+            >
+              <a
+                className="block input-with-icon-box flex alignCenter justifyCenter text-center sbc3 sfcw radius2 f14p"
+                data-action="share/whatsapp/share"
+                href="whatsapp://send?text=http://some-link"
+              >
+                <ForwardRef(render)
+                  className="absolute-center-v"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                Whatsapp
+              </a>
+            </div>
+            <ForwardRef(render)>
+              <a
+                className="block input-with-icon-box flex alignCenter justifyCenter text-center pfc2 radius2 f14p"
+                href="mailto:?subject=Logged-in-user shared a quote with you on the behalf of Travel Triangle&amp;body=http://some-link"
+              >
+                <ForwardRef(render)
+                  className="absolute-center-v"
+                >
+                  <IconSvg />
+                </ForwardRef(render)>
+                Gmail
+              </a>
+            </ForwardRef(render)>
+          </div>,
+        ],
+        "className": "sbcw",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "heading": "Share with",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="mb15"
+              >
+                <a
+                  className="block input-with-icon-box flex alignCenter justifyCenter text-center sbc3 sfcw radius2 f14p"
+                  data-action="share/whatsapp/share"
+                  href="whatsapp://send?text=http://some-link"
+                >
+                  <ForwardRef(render)
+                    className="absolute-center-v"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  Whatsapp
+                </a>
+              </div>,
+              <ForwardRef(render)>
+                <a
+                  className="block input-with-icon-box flex alignCenter justifyCenter text-center pfc2 radius2 f14p"
+                  href="mailto:?subject=Logged-in-user shared a quote with you on the behalf of Travel Triangle&amp;body=http://some-link"
+                >
+                  <ForwardRef(render)
+                    className="absolute-center-v"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  Gmail
+                </a>
+              </ForwardRef(render)>,
+            ],
+            "className": "p24",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  className="block input-with-icon-box flex alignCenter justifyCenter text-center sbc3 sfcw radius2 f14p"
+                  data-action="share/whatsapp/share"
+                  href="whatsapp://send?text=http://some-link"
+                >
+                  <ForwardRef(render)
+                    className="absolute-center-v"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  Whatsapp
+                </a>,
+                "className": "mb15",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      className="absolute-center-v"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>,
+                    "Whatsapp",
+                  ],
+                  "className": "block input-with-icon-box flex alignCenter justifyCenter text-center sbc3 sfcw radius2 f14p",
+                  "data-action": "share/whatsapp/share",
+                  "href": "whatsapp://send?text=http://some-link",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "absolute-center-v",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "span",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "height": "24px",
+                          "left": "12px",
+                          "width": "24px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(span)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  "Whatsapp",
+                ],
+                "type": "a",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <a
+                  className="block input-with-icon-box flex alignCenter justifyCenter text-center pfc2 radius2 f14p"
+                  href="mailto:?subject=Logged-in-user shared a quote with you on the behalf of Travel Triangle&amp;body=http://some-link"
+                >
+                  <ForwardRef(render)
+                    className="absolute-center-v"
+                  >
+                    <IconSvg />
+                  </ForwardRef(render)>
+                  Gmail
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef(render)
+                      className="absolute-center-v"
+                    >
+                      <IconSvg />
+                    </ForwardRef(render)>,
+                    "Gmail",
+                  ],
+                  "className": "block input-with-icon-box flex alignCenter justifyCenter text-center pfc2 radius2 f14p",
+                  "href": "mailto:?subject=Logged-in-user shared a quote with you on the behalf of Travel Triangle&amp;body=http://some-link",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <IconSvg />,
+                      "className": "absolute-center-v",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "__emotion_base": "span",
+                      "__emotion_forwardProp": undefined,
+                      "__emotion_real": [Circular],
+                      "__emotion_styles": Array [
+                        Object {
+                          "height": "24px",
+                          "left": "12px",
+                          "width": "24px",
+                        },
+                      ],
+                      "defaultProps": undefined,
+                      "displayName": "Styled(span)",
+                      "render": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  "Gmail",
+                ],
+                "type": "a",
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& a": Object {
+                      "border": "1px solid #d4d4d4",
+                    },
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,32 @@
+.similar-package-box {
+
+}
+.similar-package-img {
+  height: 140px;
+  overflow: hidden;
+}
+.similar-package-img img {
+  min-height: 140px;
+  width: 100%;
+}
+.incl-excl-con-inner{
+  height: 75px;
+}
+.inc-no-scroll {overflow: hidden;}
+.incl-excl-box {
+  min-width: 22%;
+  max-width: 22%;
+}
+.slide {
+  -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    padding: 2px;
+
+}
+.similar-package-box-data {
+  box-shadow: 0 0 2px #999;
+}

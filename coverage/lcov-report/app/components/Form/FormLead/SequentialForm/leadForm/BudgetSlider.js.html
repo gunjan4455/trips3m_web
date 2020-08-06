@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Form/FormLead/SequentialForm/leadForm/BudgetSlider.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../../../index.html">All files</a> / <a href="index.html">app/components/Form/FormLead/SequentialForm/leadForm</a> BudgetSlider.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">31.82% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>14/44</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">9.09% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>2/22</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">27.27% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/11</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">31.82% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>14/44</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+&nbsp;
+import { BudgetHigh, BudgetIconNew, BudgetLow, BudgetMedium, BudgetMin, Tick } from 'helpers/Icon/Icon';
+import { numberWithCommas } from '../../../../../utils/parsers';
+import Footer from '../footer';
+import {
+  SEQUENTIAL_FORM_FIVE,
+  SEQUENTIAL_FORM_THREE,
+} from '../../../../../constants/Slider';
+&nbsp;
+const getBudgetIcon = <span class="fstat-no" title="function not covered" >(i</span>ndex, isDefault) =&gt; {
+<span class="cstat-no" title="statement not covered" >  if (isDefault) {</span>
+<span class="cstat-no" title="statement not covered" >    if (index === 0 ) {</span>
+<span class="cstat-no" title="statement not covered" >      return &lt;BudgetMin/&gt;;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    if (index === 1) {</span>
+<span class="cstat-no" title="statement not covered" >      return &lt;BudgetLow /&gt;;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    if (index === 2) {</span>
+<span class="cstat-no" title="statement not covered" >      return &lt;BudgetMedium /&gt;;</span>
+    }
+  } else {
+<span class="cstat-no" title="statement not covered" >    if (index === 0) {</span>
+<span class="cstat-no" title="statement not covered" >      return &lt;BudgetLow /&gt;;</span>
+    }
+<span class="cstat-no" title="statement not covered" >    if (index === 1) {</span>
+<span class="cstat-no" title="statement not covered" >      return &lt;BudgetMedium /&gt;;</span>
+    }
+  }
+<span class="cstat-no" title="statement not covered" >  return &lt;BudgetHigh /&gt;;</span>
+};
+&nbsp;
+const BudgetOptions = <span class="fstat-no" title="function not covered" >({</span>
+                         budgetOptions,
+                         handleChange,
+                         getSelectedBudget,
+                         isFlightSelected,
+                         formValues
+                       }) =&gt; {
+  const budgetKeys = <span class="cstat-no" title="statement not covered" >Object.keys(budgetOptions);</span>
+  const budgetFields = <span class="cstat-no" title="statement not covered" >budgetKeys.slice(0, 3).map(<span class="fstat-no" title="function not covered" >(k</span>ey, index) =&gt; {</span>
+    const isChecked = <span class="cstat-no" title="statement not covered" >formValues.budget ===</span>
+      `${budgetOptions[key]}..${budgetOptions[budgetKeys[index + 1]]}`;
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div className={`button-box round-icon budget-icon ${isChecked ? 'active' : ''}`} key={key}&gt;
+        &lt;span className="tick-icon-container"&gt;
+          &lt;Tick/&gt;
+        &lt;/span&gt;
+        &lt;div className="icon-48"&gt;
+          {getBudgetIcon(index)}
+        &lt;/div&gt;
+        &lt;input
+          id={key}
+          type="radio"
+          className="radio-common"
+          name="budgetOptions"
+          value={`${budgetOptions[key]}..${
+            budgetOptions[budgetKeys[index + 1]]
+            }`}
+          checked={isChecked}
+          onChange={handleChange}
+        /&gt;
+        &lt;p className="text-center"&gt;₹{numberWithCommas(budgetOptions[key])} -
+          ₹{numberWithCommas(budgetOptions[budgetKeys[index + 1]])}&lt;/p&gt;
+        &lt;p className="pfc4 fw4 f12 text-center"&gt;per person&lt;/p&gt;
+      &lt;/div&gt;
+    );
+  });
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;div className="flex spaceBetween mb24 flexWrap budget-selector-container"&gt;
+      {budgetFields}
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+BudgetOptions.propTypes = {
+  budgetOptions: PropTypes.object,
+  formValues: PropTypes.object.isRequired,
+  handleChange: PropTypes.func.isRequired,
+  getSelectedBudget: PropTypes.string,
+  isFlightSelected: PropTypes.bool.isRequired,
+};
+&nbsp;
+BudgetOptions.defaultProps = {
+  getSelectedBudget: '',
+  budgetOptions: {
+    budget: 25250,
+    deluxe: 26750,
+    min: 24500,
+    standard: 26000
+  }
+};
+&nbsp;
+&nbsp;
+const DefaultBudgetOptions = <span class="fstat-no" title="function not covered" >({</span>
+                                budgetOptions,
+                                handleChange,
+                                getSelectedBudget,
+                                isFlightSelected,
+                                formValues
+                              }) =&gt; {
+  const budgetKeys = <span class="cstat-no" title="statement not covered" >Object.keys(budgetOptions);</span>
+&nbsp;
+  const displayValues = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(k</span>ey) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    if (key.min === 10000) {</span>
+<span class="cstat-no" title="statement not covered" >      return 'Below ₹20,000';</span>
+    }
+<span class="cstat-no" title="statement not covered" >    if (key.min === 60000) {</span>
+<span class="cstat-no" title="statement not covered" >      return 'Above ₹60,000';</span>
+    }
+<span class="cstat-no" title="statement not covered" >    return `₹ ${numberWithCommas(key.min)} - ₹ ${numberWithCommas(key.max)}`;</span>
+  };
+&nbsp;
+  const budgetFields = <span class="cstat-no" title="statement not covered" >budgetKeys.slice(0, 4).map(<span class="fstat-no" title="function not covered" >(k</span>ey, index) =&gt; {</span>
+    const isChecked = <span class="cstat-no" title="statement not covered" >formValues.budget ===</span>
+      `${budgetOptions[key].min}..${budgetOptions[key].max}`;
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div className={`button-box round-icon budget-icon ${isChecked ? 'active' : ''}`} key={key}&gt;
+        &lt;span className="tick-icon-container"&gt;
+          &lt;Tick/&gt;
+        &lt;/span&gt;
+        &lt;div className="icon-48"&gt;
+          {getBudgetIcon(index, true)}
+        &lt;/div&gt;
+        &lt;input
+          id={key}
+          type="radio"
+          className="radio-common"
+          name="budgetOptions"
+          value={`${budgetOptions[key].min}..${
+            budgetOptions[key].max
+            }`}
+          checked={isChecked}
+          onChange={handleChange}
+        /&gt;
+        &lt;p className="text-center"&gt;{displayValues(budgetOptions[key])}&lt;/p&gt;
+        &lt;p className="pfc4 fw4 f12 text-center"&gt;per person&lt;/p&gt;
+      &lt;/div&gt;
+    );
+  });
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;div className="flex spaceBetween mb24 flexWrap budget-selector-container"&gt;
+      {budgetFields}
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+DefaultBudgetOptions.propTypes = {
+  budgetOptions: PropTypes.object,
+  formValues: PropTypes.object.isRequired,
+  handleChange: PropTypes.func.isRequired,
+  getSelectedBudget: PropTypes.string,
+  isFlightSelected: PropTypes.bool.isRequired,
+};
+&nbsp;
+DefaultBudgetOptions.defaultProps = {
+  getSelectedBudget: '',
+  budgetOptions: {
+    "min": { "min": 10000, "max": 20000 },
+    "budget": { "min": 20000, "max": 40000 },
+    "standard": { "min": 40000, "max": 60000 },
+    "deluxe": { "min": 60000, "max": 80000 }
+  }
+};
+&nbsp;
+const BudgetText = <span class="fstat-no" title="function not covered" >({</span>
+                      handleChange,
+                      isFlightSelected,
+                      getSelectedBudget,
+                      value,
+                    }) =&gt; (
+<span class="cstat-no" title="statement not covered" >  &lt;div className="budget-textbox pb15"&gt;</span>
+    &lt;label htmlFor="From" className="f14 fw9 pb8 block pfc3"&gt;Set Your Own Budget &lt;span
+      className="pfc4 fw4 f12 fright"&gt;in INR per person&lt;/span&gt;&lt;/label&gt;
+    &lt;div className="row row-"&gt;
+      &lt;div className="input-with-icon-box"&gt;
+        &lt;span className="input-icon"&gt;
+          &lt;BudgetIconNew /&gt;
+        &lt;/span&gt;
+        &lt;input
+          type="number"
+          id="budget-text"
+          placeholder="Enter your budget value"
+          defaultValue={getSelectedBudget}
+          onChange={handleChange}
+          value={value}
+        /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+);
+&nbsp;
+BudgetText.propTypes = {
+  handleChange: PropTypes.func.isRequired,
+  isFlightSelected: PropTypes.bool,
+  getSelectedBudget: PropTypes.string,
+  value: PropTypes.string.isRequired,
+};
+&nbsp;
+BudgetText.defaultProps = {
+  isFlightSelected: false,
+  getSelectedBudget: '',
+};
+&nbsp;
+class BudgetWithAirfair extends React.Component {
+  static propTypes = {
+    input: PropTypes.object.isRequired,
+    budgetOptions: PropTypes.object,
+    getSelectedBudget: PropTypes.string,
+    callNextSlide: PropTypes.func,
+    isFlightSelected: PropTypes.bool,
+  };
+&nbsp;
+  static defaultProps = {
+    budgetOptions: {},
+    getSelectedBudget: '',
+    isFlightSelected: false,
+  };
+&nbsp;
+  handleChange = <span class="fstat-no" title="function not covered" >ev</span>ent =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.props.input.onChange(event.target.value);</span>
+  };
+&nbsp;
+  goBack = () =&gt; {
+    this.props.callNextSlide({
+      submitVariation: '',
+      variation: true,
+      variationStep: SEQUENTIAL_FORM_THREE,
+      isBackButton: true
+    });
+  };
+&nbsp;
+  goForward = () =&gt; {
+    this.props.callNextSlide({
+      submitVariation: '',
+      variation: true,
+      variationStep: SEQUENTIAL_FORM_FIVE,
+    });
+  };
+&nbsp;
+  render() {
+    return (
+      &lt;div className="row row- form-body"&gt;
+        &lt;div className="p15"&gt;
+          {Object.keys(this.props.budgetOptions).length &gt; 0 ? (
+            &lt;div&gt;
+              &lt;BudgetOptions
+                budgetOptions={this.props.budgetOptions}
+                handleChange={this.handleChange}
+                getSelectedBudget={this.props.getSelectedBudget}
+                isFlightSelected={this.props.isFlightSelected}
+                formValues={this.props.formValues}
+              /&gt;
+            &lt;/div&gt;
+          ) : (
+            &lt;DefaultBudgetOptions
+              handleChange={this.handleChange}
+              getSelectedBudget={this.props.getSelectedBudget}
+              isFlightSelected={this.props.isFlightSelected}
+              formValues={this.props.formValues}
+            /&gt;
+          )}
+          &lt;div className="or-divider"&gt;
+            &lt;span&gt;OR&lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className="p15"&gt;
+          &lt;BudgetText
+            handleChange={this.handleChange}
+            isFlightSelected={this.props.isFlightSelected}
+            value={this.props.input.value}
+          /&gt;
+        &lt;/div&gt;
+        &lt;Footer goBack={this.goBack} goForward={this.goForward} /&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+BudgetWithAirfair.propTypes = {
+  formStage: PropTypes.number,
+  formValues: PropTypes.obj,
+  progressBar: PropTypes.func
+};
+&nbsp;
+export default BudgetWithAirfair;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../../../sorter.js"></script>
+</body>
+</html>

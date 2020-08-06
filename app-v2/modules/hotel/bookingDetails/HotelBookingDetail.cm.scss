@@ -1,0 +1,38 @@
+:local{
+  .backArrow{
+    span{
+      width:18px;
+      height:18px;
+    }
+  }
+  .inlineSpacing{
+    padding:0 85px;
+  }
+  .inlineSpacing:before ,.inlineSpacing:after{
+    position: absolute;
+    content: "";
+    width: 62px;
+    height: 1px;
+    background: #b2b2b2;
+    top: 50%;
+  }
+  .inlineSpacing:before{
+    left: 0;
+  }
+  .inlineSpacing:after{
+    right:0;
+  }
+  .successIcon{
+    width:40px;
+    height:40px;
+  }
+  .sectionSpace{
+    border-bottom:8px solid #efefef;
+  }
+
+}
+@media screen and (max-width: 380px) {
+  .inlineSpacing{
+    font-size: 12px;
+  }
+}

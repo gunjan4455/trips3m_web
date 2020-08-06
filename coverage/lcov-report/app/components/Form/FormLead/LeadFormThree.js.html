@@ -1,0 +1,698 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Form/FormLead/LeadFormThree.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app/components/Form/FormLead</a> LeadFormThree.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">5.56% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>2/36</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/15</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">5.88% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>2/34</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import { Field } from 'redux-form';
+import PropTypes from 'prop-types';
+&nbsp;
+import CabforSightseeing from './CabforSightseeing';
+import TypeTour from './TypeTour';
+import CabDependentQuestion from './CabDependentQuestion';
+import LocalExperience from './LocalExperience';
+import LeadFormSubmitButton from './LeadFormSubmitButton';
+import AdditionalPrefrences from './AdditionalPrefrences';
+import BackButton from './BackButton';
+import { SLIDER_2, SET_DISPLAY_MODE } from '../../../constants/Slider';
+import { getNameType } from '../../../reducers/formOneLead';
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >getQuestions(</span>sliderQuestions, toDestination) {
+<span class="cstat-no" title="statement not covered" >  try {</span>
+    const defaultQs = <span class="cstat-no" title="statement not covered" >[...sliderQuestions.defaultLastCardQuestions[0].questions,</span>
+      ...sliderQuestions.destinationCardQuestions[toDestination.toLowerCase()].questions
+    ];
+<span class="cstat-no" title="statement not covered" >    return defaultQs.sort(<span class="fstat-no" title="function not covered" >(q</span>1, q2) =&gt; <span class="cstat-no" title="statement not covered" >q1.questionSequence - q2.questionSequence)</span>;</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    return sliderQuestions.defaultLastCardQuestions &amp;&amp; sliderQuestions.defaultLastCardQuestions[0].questions;</span>
+  }
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >checkCabDependentQuestion(</span>formValues) {
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    return formValues.other_answers_attributes.filter(<span class="fstat-no" title="function not covered" >ob</span>j =&gt; <span class="cstat-no" title="statement not covered" >obj.option_id === '99')</span>.length &gt; 0;</span>
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    return false;</span>
+  }
+}
+&nbsp;
+class LeadFormThreeElement extends React.Component {
+<span class="fstat-no" title="function not covered" >  co</span>nstructor(props) {
+<span class="cstat-no" title="statement not covered" >    super(props);</span>
+<span class="cstat-no" title="statement not covered" >    this.state = {</span>
+      isCabSelected: checkCabDependentQuestion(props.formValues)
+    };
+<span class="cstat-no" title="statement not covered" >    this.cabQuestionHandler = this.cabQuestionHandler.bind(this);</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>mponentDidMount() {
+    const param = <span class="cstat-no" title="statement not covered" >{</span>
+      funnel_step: 9,
+      section: 'Form 3',
+      object: '',
+      cta: '',
+      to_loc: this.props.commonProperties.properties.toDestination,
+      funnel_uuid: this.props.commonProperties.redisKey,
+      formType: this.props.formType
+    };
+<span class="cstat-no" title="statement not covered" >    this.props.trackFormViewedCall(param);</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  ca</span>bQuestionHandler(val) {
+<span class="cstat-no" title="statement not covered" >    this.setState({</span>
+      isCabSelected: val === '99'
+    });
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  re</span>nder() {
+    const toDestination = <span class="cstat-no" title="statement not covered" >this.props.commonProperties.properties.toDestination;</span>
+    const questions = <span class="cstat-no" title="statement not covered" >getQuestions(this.props.sliderQuestions, toDestination);</span>
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;div className="lead-form-three clearfix lead-form-transform pb0 pt8 relative"&gt;
+        &lt;div className="lead-form-three-height relative"&gt;
+          &lt;p className="f20 fwb text-center lead-form-title"&gt;{this.props.sliderTitle}&lt;/p&gt;
+          {
+            questions.map(<span class="fstat-no" title="function not covered" >(q</span>uestion, index) =&gt; {
+<span class="cstat-no" title="statement not covered" >              switch (question.templateType) {</span>
+                case 'radio_button':
+<span class="cstat-no" title="statement not covered" >                  if (question.customizationTags === 'cab') {</span>
+<span class="cstat-no" title="statement not covered" >                    return (</span>
+                      &lt;div className="form-field-label p15" key={question.id}&gt;
+                        &lt;div className="row row-"&gt;
+                          &lt;Field
+                            component={CabforSightseeing}
+                            question={question}
+                            name={getNameType(question, index)}
+                            cabQuestionHandler={this.cabQuestionHandler}
+                          /&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    );
+                  }
+<span class="cstat-no" title="statement not covered" >                  return (</span>
+                    &lt;div className="form-part form-field-label p15 pb8" key={question.id}&gt;
+                      &lt;div className="row row-"&gt;
+                        &lt;Field
+                          component={TypeTour}
+                          question={question}
+                          name={getNameType(question, index)}
+                          nameForClear={getNameType(question, index)}
+                        /&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  );
+&nbsp;
+                case 'drop_down':
+<span class="cstat-no" title="statement not covered" >                  if (question.identifier === 'cust_3' &amp;&amp; this.state.isCabSelected) {</span>
+<span class="cstat-no" title="statement not covered" >                    return (</span>
+                      &lt;div className="form-part form-field-label p15 pb8" key={question.id}&gt;
+                        &lt;div className="row row-"&gt;
+                          &lt;Field
+                            component={CabDependentQuestion}
+                            question={question}
+                            name={getNameType(question, index)}
+                            nameForClear={getNameType(question, index)}
+                            commonProperties={this.props.commonProperties}
+                          /&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    );
+                  } else <span class="cstat-no" title="statement not covered" >if (question.identifier !== 'cust_3') {</span>
+<span class="cstat-no" title="statement not covered" >                    return (</span>
+                      &lt;div className="form-part form-field-label p15 pb8" key={question.id}&gt;
+                        &lt;div className="row row-"&gt;
+                          &lt;Field
+                            component={TypeTour}
+                            question={question}
+                            name={getNameType(question, index)}
+                            nameForClear={getNameType(question, index)}
+                          /&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    );
+                  }
+<span class="cstat-no" title="statement not covered" >                  return null;</span>
+&nbsp;
+                case 'text_area':
+<span class="cstat-no" title="statement not covered" >                  return (</span>
+                    &lt;div className="form-part form-field-label p15" key={question.id}&gt;
+                      &lt;div className="row row-"&gt;
+                        &lt;Field
+                          component={AdditionalPrefrences}
+                          question={question}
+                          name={getNameType(question, index)}
+                          type="text"
+                        /&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  );
+&nbsp;
+                case 'checkbox':
+<span class="cstat-no" title="statement not covered" >                  return (</span>
+                    &lt;div className="form-part form-field-label p15 pb5" key={question.id}&gt;
+                      &lt;div className="row row-"&gt;
+                        &lt;Field
+                          component={LocalExperience}
+                          name={getNameType(question, index)}
+                          question={question}
+                          nameForClear={getNameType(question, index)}
+                        /&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  );
+                default:
+<span class="cstat-no" title="statement not covered" >                  return null;</span>
+              }
+            })
+          }
+          &lt;div className="form-part form-field-label p15 sbcw wfull lead-form-one-btn"&gt;
+            &lt;div className="row row-"&gt;
+              &lt;div className="col-xs-4 p0"&gt;
+                &lt;BackButton
+                  handleClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >                    this.props.updateFields({</span>
+                      type: SET_DISPLAY_MODE,
+                      value: SLIDER_2
+                    });
+<span class="cstat-no" title="statement not covered" >                    this.props.openFormState(SLIDER_2);</span>
+                  }}
+                /&gt;
+              &lt;/div&gt;
+              &lt;div className="col-xs-2" /&gt;
+              &lt;div className="col-xs-6 p0"&gt;
+                &lt;LeadFormSubmitButton
+                  handleClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >                    this.props.handleThankYou();</span>
+                  }}
+                /&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+&nbsp;
+LeadFormThreeElement.propTypes = {
+  sliderQuestions: PropTypes.object.isRequired,
+  updateFields: PropTypes.func.isRequired,
+  commonProperties: PropTypes.object.isRequired,
+  formValues: PropTypes.object,
+  trackFormViewedCall: PropTypes.func.isRequired,
+  sliderTitle: PropTypes.string,
+  handleThankYou: PropTypes.func.isRequired,
+  openFormState: PropTypes.func,
+  formType: PropTypes.string,
+};
+&nbsp;
+LeadFormThreeElement.defaultProps = {
+  formValues: {},
+  sliderTitle: 'Almost Done!',
+  openFormState: <span class="fstat-no" title="function not covered" >va</span>lue =&gt; <span class="cstat-no" title="statement not covered" >value,</span>
+  formType: 'Slider Close',
+};
+&nbsp;
+export default LeadFormThreeElement;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

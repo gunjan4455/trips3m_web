@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/travellerStory/TravellerStory.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app-v2/modules/travellerStory</a> TravellerStory.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">60% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>6/10</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">27.59% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>8/29</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/6</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">60% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>6/10</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React, { Component } from 'react';
+import { Link } from 'react-router';
+import PropTypes from 'prop-types';
+import Swiper from 'components/Swiper/Swiper';
+import Card from './components/Card';
+import Heading from 'modules/shared/Heading';
+&nbsp;
+export default class TravellerStory extends Component {
+  static propTypes = {
+    travellerStories: PropTypes.array,
+    config: PropTypes.object,
+    loaded: PropTypes.bool,
+    errors: PropTypes.array,
+    trackSegmentEvent: PropTypes.func,
+    fetchTravellerStories: PropTypes.func,
+    data: PropTypes.object,
+    spacingCss: PropTypes.object,
+    subHeading: PropTypes.string,
+    heading: PropTypes.string,
+    destination: PropTypes.string,
+    viewAll: PropTypes.string,
+    from: PropTypes.oneOf(['blog', 'search']).isRequired
+  };
+&nbsp;
+  static defaultProps = {
+    config: {
+      variant: 'FULL',
+      order: 10
+    },
+    trackSegmentEvent: <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+    },
+    spacingCss: {},
+    heading: 'Read Our Interesting Traveler Stories',
+    subHeading: 'They traveled. They experienced. They shared.',
+    viewAll: '/blog/travelogues?referer=travelogue_rlp'
+  };
+&nbsp;
+  trackSegment = <span class="fstat-no" title="function not covered" >(c</span>ta, cardId, miscType1, miscId1) =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.props.trackSegmentEvent({</span>
+      cta,
+      object: cardId ? `Traveler stories/${cardId}` : 'Traveler stories',
+      miscType1,
+      miscId1
+    });
+  };
+&nbsp;
+  componentDidMount() {
+    this.fetchTravellerStories(this.props);
+  }
+&nbsp;
+  fetchTravellerStories = (props) =&gt; {
+    const { config, fetchTravellerStories, destination } = props;
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (config &amp;&amp; config.csr) {
+<span class="cstat-no" title="statement not covered" >      fetchTravellerStories({</span>
+        destination: destination,
+      });
+    }
+  };
+&nbsp;
+  render() {
+    const { travellerStories = <span class="branch-0 cbranch-no" title="branch not covered" >[],</span> viewAll, errors, data, from } = this.props;
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (errors &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >errors.length)</span> {
+<span class="cstat-no" title="statement not covered" >      return null;</span>
+    }
+&nbsp;
+    return travellerStories &amp;&amp; travellerStories.length ? (
+<span class="branch-0 cbranch-no" title="branch not covered" >      &lt;div className="clearfix wfull p15 sbcw"&gt;</span>
+        &lt;div className="flex spaceBetween relative"&gt;
+          {data &amp;&amp; data.title ? (
+            &lt;div className="flexFull relative"&gt;
+              &lt;Heading data={data} /&gt;
+              {viewAll &amp;&amp; (
+                &lt;Link
+                  to={viewAll}
+                  className="absolute t2 r0 iblock f14 fw7"
+                &gt;
+                  View All
+                &lt;/Link&gt;
+              )}
+            &lt;/div&gt;
+          ) : (
+            &lt;div className="flexFull mb15"&gt;
+              &lt;h6 className="f16 m0 pfc3 fw7 pr64"&gt;
+                {this.props.heading}
+                {viewAll &amp;&amp; (
+                  &lt;Link
+                    to={viewAll}
+                    className="absolute t2 r0 iblock f14 fw7"
+                  &gt;
+                    View All
+                  &lt;/Link&gt;
+                )}
+              &lt;/h6&gt;
+              &lt;p className="f14 m0 mt4 pfc4"&gt;{this.props.subHeading}&lt;/p&gt;
+            &lt;/div&gt;
+          )}
+        &lt;/div&gt;
+        &lt;div className="clearfix"&gt;
+          &lt;Swiper
+            id="thingstodo"
+            slideClass="slide"
+            spaceBetween={15}
+            slidesPerView="auto"
+            ssrAnimation={{ width: 276, height: 217 }}
+            rebuildOnUpdate
+          &gt;
+            {
+              /* This is a shared file used from app-v2/screens/search/travellerStories/index.js (search) and
+               * app-v2/modules/travellerStory/index.js (blog). Each of them sends different type of data for the
+               * travellerStories prop. Both files in addition also sends a *from* prop that accepts if
+               * this is used from *search* or *blog*. To see what kind of data each file sends check
+               * app-v2/screens/search/Search.js (former search file) and
+               * app-v2/modules/travellerStory/reducer.js (later blog file).
+               *
+               * This is the reason we are checking if what type of image property to use to send
+               * to the Card component.
+               * */
+              travellerStories &amp;&amp; travellerStories.map(<span class="fstat-no" title="function not covered" >(t</span>ravelStory, index) =&gt; {
+<span class="cstat-no" title="statement not covered" >                return (</span>
+                  &lt;div className="clearfix radius2 relative" key={index}&gt;
+                    &lt;Card
+                      id={travelStory.id}
+                      title={travelStory.title}
+                      imagekitUrl={
+                        from === 'search' ?
+                          travelStory.imagekitUrl :
+                          travelStory.thumbnailImagePaths.imagekitUrl
+                      }
+                      thumbnailImagePath={
+                        from === 'search' ?
+                          travelStory.thumbnailImagePath :
+                          travelStory.thumbnailImagePaths.src
+                      }
+                      url={travelStory.url}
+                      trackSegment={this.trackSegment}
+                      index={index}
+                    /&gt;
+                  &lt;/div&gt;
+                );
+              })
+            }
+          &lt;/Swiper&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    ) : null;
+  }
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

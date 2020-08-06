@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatInput: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ChatInput
+    pdmsInformation={
+      Object {
+        "pdms": Object {},
+        "showPdmView": true,
+      }
+    }
+    sendMessage={[MockFunction]}
+    showHidePdmView={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(render)>
+          <withRouter(Connect(Pdm))
+            setMessage={[Function]}
+          />
+        </ForwardRef(render)>,
+        <button
+          className="hide absolute attachment-button"
+        >
+          <IconSvg />
+        </button>,
+        <div
+          className="clearfix"
+        >
+          <ForwardRef(render)
+            className="l0 absolute-center-v"
+            onClick={[Function]}
+          >
+            <span
+              className="pl4 pl4 pt8 pb8 block"
+            >
+              <IconSvg />
+            </span>
+          </ForwardRef(render)>
+          <textarea
+            className="at_chatinput"
+            onChange={[Function]}
+            onKeyPress={[Function]}
+            onKeyUp={[Function]}
+            placeholder="Type a message…"
+            value=""
+          />
+          <button
+            className="attachment-button at_chatsendbtn absolute b10 r15"
+            onClick={[Function]}
+          >
+            Send
+          </button>
+        </div>,
+      ],
+      "className": "row row- relative type-chat-con mb0 at_chatmessage",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <withRouter(Connect(Pdm))
+            setMessage={[Function]}
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "setMessage": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "bottom": "100%",
+              "left": "0",
+              "position": "absolute",
+              "right": "0",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "hide absolute attachment-button",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(render)
+              className="l0 absolute-center-v"
+              onClick={[Function]}
+            >
+              <span
+                className="pl4 pl4 pt8 pb8 block"
+              >
+                <IconSvg />
+              </span>
+            </ForwardRef(render)>,
+            <textarea
+              className="at_chatinput"
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Type a message…"
+              value=""
+            />,
+            <button
+              className="attachment-button at_chatsendbtn absolute b10 r15"
+              onClick={[Function]}
+            >
+              Send
+            </button>,
+          ],
+          "className": "clearfix",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <span
+                className="pl4 pl4 pt8 pb8 block"
+              >
+                <IconSvg />
+              </span>,
+              "className": "l0 absolute-center-v",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg />,
+                "className": "pl4 pl4 pt8 pb8 block",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "button",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& > span": Object {
+                    "& svg": Object {
+                      "height": "13px !important",
+                      "width": "26px !important",
+                    },
+                    "height": "30px",
+                    "width": "36px",
+                  },
+                  "border": "0 none",
+                  "height": "30px",
+                  "width": "36px",
+                  "zIndex": "2",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(button)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "at_chatinput",
+              "onChange": [Function],
+              "onKeyPress": [Function],
+              "onKeyUp": [Function],
+              "placeholder": "Type a message…",
+              "value": "",
+            },
+            "ref": [Function],
+            "rendered": null,
+            "type": "textarea",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Send",
+              "className": "attachment-button at_chatsendbtn absolute b10 r15",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Send",
+            "type": "button",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)>
+            <withRouter(Connect(Pdm))
+              setMessage={[Function]}
+            />
+          </ForwardRef(render)>,
+          <button
+            className="hide absolute attachment-button"
+          >
+            <IconSvg />
+          </button>,
+          <div
+            className="clearfix"
+          >
+            <ForwardRef(render)
+              className="l0 absolute-center-v"
+              onClick={[Function]}
+            >
+              <span
+                className="pl4 pl4 pt8 pb8 block"
+              >
+                <IconSvg />
+              </span>
+            </ForwardRef(render)>
+            <textarea
+              className="at_chatinput"
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Type a message…"
+              value=""
+            />
+            <button
+              className="attachment-button at_chatsendbtn absolute b10 r15"
+              onClick={[Function]}
+            >
+              Send
+            </button>
+          </div>,
+        ],
+        "className": "row row- relative type-chat-con mb0 at_chatmessage",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <withRouter(Connect(Pdm))
+              setMessage={[Function]}
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "setMessage": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "bottom": "100%",
+                "left": "0",
+                "position": "absolute",
+                "right": "0",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "hide absolute attachment-button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ForwardRef(render)
+                className="l0 absolute-center-v"
+                onClick={[Function]}
+              >
+                <span
+                  className="pl4 pl4 pt8 pb8 block"
+                >
+                  <IconSvg />
+                </span>
+              </ForwardRef(render)>,
+              <textarea
+                className="at_chatinput"
+                onChange={[Function]}
+                onKeyPress={[Function]}
+                onKeyUp={[Function]}
+                placeholder="Type a message…"
+                value=""
+              />,
+              <button
+                className="attachment-button at_chatsendbtn absolute b10 r15"
+                onClick={[Function]}
+              >
+                Send
+              </button>,
+            ],
+            "className": "clearfix",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <span
+                  className="pl4 pl4 pt8 pb8 block"
+                >
+                  <IconSvg />
+                </span>,
+                "className": "l0 absolute-center-v",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <IconSvg />,
+                  "className": "pl4 pl4 pt8 pb8 block",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "span",
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "button",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& > span": Object {
+                      "& svg": Object {
+                        "height": "13px !important",
+                        "width": "26px !important",
+                      },
+                      "height": "30px",
+                      "width": "36px",
+                    },
+                    "border": "0 none",
+                    "height": "30px",
+                    "width": "36px",
+                    "zIndex": "2",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(button)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "at_chatinput",
+                "onChange": [Function],
+                "onKeyPress": [Function],
+                "onKeyUp": [Function],
+                "placeholder": "Type a message…",
+                "value": "",
+              },
+              "ref": [Function],
+              "rendered": null,
+              "type": "textarea",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Send",
+                "className": "attachment-button at_chatsendbtn absolute b10 r15",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Send",
+              "type": "button",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

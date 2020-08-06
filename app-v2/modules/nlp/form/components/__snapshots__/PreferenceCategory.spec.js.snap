@@ -1,0 +1,797 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Preference Category  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PreferenceCategory
+    displayValue={null}
+    keyValue="maxHotelRating"
+    labels={
+      Object {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+      }
+    }
+    max={2}
+    min={0}
+    subText="Reducing hotel category will affect to a high difference in budget."
+    text="Hotel Category"
+    updateFormValues={[Function]}
+    value={3}
+    valueSuffix="Star"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex fw9 spaceBetween"
+        >
+          <p>
+            Hotel Category
+          </p>
+          <span
+            className="pfc1"
+          >
+            3
+             
+            Star
+          </span>
+        </div>,
+        <p
+          className="f12 pfc4 mt8 pb48"
+        >
+          Reducing hotel category will affect to a high difference in budget.
+        </p>,
+        <div
+          className=""
+        >
+          <RangeSlider
+            className="nurturingSlider relative"
+            keyValue="maxHotelRating"
+            labels={
+              Object {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+              }
+            }
+            max={2}
+            min={0}
+            onChange={[Function]}
+            tooltip={false}
+            value={3}
+          />
+        </div>,
+      ],
+      "className": "at_category pl24 pr24 pt24 pb15 bottomSpacing",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              Hotel Category
+            </p>,
+            <span
+              className="pfc1"
+            >
+              3
+               
+              Star
+            </span>,
+          ],
+          "className": "flex fw9 spaceBetween",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hotel Category",
+            },
+            "ref": null,
+            "rendered": "Hotel Category",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                3,
+                " ",
+                "Star",
+              ],
+              "className": "pfc1",
+            },
+            "ref": null,
+            "rendered": Array [
+              3,
+              " ",
+              "Star",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Reducing hotel category will affect to a high difference in budget.",
+          "className": "f12 pfc4 mt8 pb48",
+        },
+        "ref": null,
+        "rendered": "Reducing hotel category will affect to a high difference in budget.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RangeSlider
+            className="nurturingSlider relative"
+            keyValue="maxHotelRating"
+            labels={
+              Object {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+              }
+            }
+            max={2}
+            min={0}
+            onChange={[Function]}
+            tooltip={false}
+            value={3}
+          />,
+          "className": "",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "nurturingSlider relative",
+            "keyValue": "maxHotelRating",
+            "labels": Object {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+            },
+            "max": 2,
+            "min": 0,
+            "onChange": [Function],
+            "tooltip": false,
+            "value": 3,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex fw9 spaceBetween"
+          >
+            <p>
+              Hotel Category
+            </p>
+            <span
+              className="pfc1"
+            >
+              3
+               
+              Star
+            </span>
+          </div>,
+          <p
+            className="f12 pfc4 mt8 pb48"
+          >
+            Reducing hotel category will affect to a high difference in budget.
+          </p>,
+          <div
+            className=""
+          >
+            <RangeSlider
+              className="nurturingSlider relative"
+              keyValue="maxHotelRating"
+              labels={
+                Object {
+                  "0": "0",
+                  "1": "1",
+                  "2": "2",
+                }
+              }
+              max={2}
+              min={0}
+              onChange={[Function]}
+              tooltip={false}
+              value={3}
+            />
+          </div>,
+        ],
+        "className": "at_category pl24 pr24 pt24 pb15 bottomSpacing",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                Hotel Category
+              </p>,
+              <span
+                className="pfc1"
+              >
+                3
+                 
+                Star
+              </span>,
+            ],
+            "className": "flex fw9 spaceBetween",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hotel Category",
+              },
+              "ref": null,
+              "rendered": "Hotel Category",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  3,
+                  " ",
+                  "Star",
+                ],
+                "className": "pfc1",
+              },
+              "ref": null,
+              "rendered": Array [
+                3,
+                " ",
+                "Star",
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Reducing hotel category will affect to a high difference in budget.",
+            "className": "f12 pfc4 mt8 pb48",
+          },
+          "ref": null,
+          "rendered": "Reducing hotel category will affect to a high difference in budget.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RangeSlider
+              className="nurturingSlider relative"
+              keyValue="maxHotelRating"
+              labels={
+                Object {
+                  "0": "0",
+                  "1": "1",
+                  "2": "2",
+                }
+              }
+              max={2}
+              min={0}
+              onChange={[Function]}
+              tooltip={false}
+              value={3}
+            />,
+            "className": "",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "nurturingSlider relative",
+              "keyValue": "maxHotelRating",
+              "labels": Object {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+              },
+              "max": 2,
+              "min": 0,
+              "onChange": [Function],
+              "tooltip": false,
+              "value": 3,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Render Preference Category  should match with the previous snapshot when no props are passed 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PreferenceCategory
+    displayValue={null}
+    keyValue="maxHotelRating"
+    labels={
+      Object {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+      }
+    }
+    max={2}
+    min={0}
+    subText=""
+    text=""
+    updateFormValues={[Function]}
+    value={0}
+    valueSuffix=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="flex fw9 spaceBetween"
+        >
+          <p>
+            
+          </p>
+          <span
+            className="pfc1"
+          >
+            0
+             
+            
+          </span>
+        </div>,
+        <p
+          className="f12 pfc4 mt8 pb48"
+        >
+          
+        </p>,
+        <div
+          className=""
+        >
+          <RangeSlider
+            className="nurturingSlider relative"
+            keyValue="maxHotelRating"
+            labels={
+              Object {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+              }
+            }
+            max={2}
+            min={0}
+            onChange={[Function]}
+            tooltip={false}
+            value={0}
+          />
+        </div>,
+      ],
+      "className": "at_category pl24 pr24 pt24 pb15 bottomSpacing",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              
+            </p>,
+            <span
+              className="pfc1"
+            >
+              0
+               
+              
+            </span>,
+          ],
+          "className": "flex fw9 spaceBetween",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                0,
+                " ",
+                "",
+              ],
+              "className": "pfc1",
+            },
+            "ref": null,
+            "rendered": Array [
+              0,
+              " ",
+              "",
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+          "className": "f12 pfc4 mt8 pb48",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RangeSlider
+            className="nurturingSlider relative"
+            keyValue="maxHotelRating"
+            labels={
+              Object {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+              }
+            }
+            max={2}
+            min={0}
+            onChange={[Function]}
+            tooltip={false}
+            value={0}
+          />,
+          "className": "",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "nurturingSlider relative",
+            "keyValue": "maxHotelRating",
+            "labels": Object {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+            },
+            "max": 2,
+            "min": 0,
+            "onChange": [Function],
+            "tooltip": false,
+            "value": 0,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex fw9 spaceBetween"
+          >
+            <p>
+              
+            </p>
+            <span
+              className="pfc1"
+            >
+              0
+               
+              
+            </span>
+          </div>,
+          <p
+            className="f12 pfc4 mt8 pb48"
+          >
+            
+          </p>,
+          <div
+            className=""
+          >
+            <RangeSlider
+              className="nurturingSlider relative"
+              keyValue="maxHotelRating"
+              labels={
+                Object {
+                  "0": "0",
+                  "1": "1",
+                  "2": "2",
+                }
+              }
+              max={2}
+              min={0}
+              onChange={[Function]}
+              tooltip={false}
+              value={0}
+            />
+          </div>,
+        ],
+        "className": "at_category pl24 pr24 pt24 pb15 bottomSpacing",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p>
+                
+              </p>,
+              <span
+                className="pfc1"
+              >
+                0
+                 
+                
+              </span>,
+            ],
+            "className": "flex fw9 spaceBetween",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  0,
+                  " ",
+                  "",
+                ],
+                "className": "pfc1",
+              },
+              "ref": null,
+              "rendered": Array [
+                0,
+                " ",
+                "",
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "className": "f12 pfc4 mt8 pb48",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RangeSlider
+              className="nurturingSlider relative"
+              keyValue="maxHotelRating"
+              labels={
+                Object {
+                  "0": "0",
+                  "1": "1",
+                  "2": "2",
+                }
+              }
+              max={2}
+              min={0}
+              onChange={[Function]}
+              tooltip={false}
+              value={0}
+            />,
+            "className": "",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "nurturingSlider relative",
+              "keyValue": "maxHotelRating",
+              "labels": Object {
+                "0": "0",
+                "1": "1",
+                "2": "2",
+              },
+              "max": 2,
+              "min": 0,
+              "onChange": [Function],
+              "tooltip": false,
+              "value": 0,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

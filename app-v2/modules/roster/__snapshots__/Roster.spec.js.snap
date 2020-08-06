@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Roster: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Roster
+    allowTimeOut={true}
+    hideRoster={[MockFunction]}
+    isRosterOpen={true}
+    message="This is test message"
+    timeout={4000}
+    type="infoRoster"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <div
+        className="toaster infoRoster"
+      >
+        <div
+          className="container dynamicTextInherit p0"
+        >
+          This is test message
+          <span
+            className="rosterClose"
+            onClick={[Function]}
+          />
+        </div>
+      </div>,
+      "className": "fixed",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="container dynamicTextInherit p0"
+        >
+          This is test message
+          <span
+            className="rosterClose"
+            onClick={[Function]}
+          />
+        </div>,
+        "className": "toaster infoRoster",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "This is test message",
+            <span
+              className="rosterClose"
+              onClick={[Function]}
+            />,
+          ],
+          "className": "container dynamicTextInherit p0",
+        },
+        "ref": null,
+        "rendered": Array [
+          "This is test message",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "rosterClose",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "__emotion_base": "div",
+      "__emotion_forwardProp": undefined,
+      "__emotion_real": [Circular],
+      "__emotion_styles": Array [
+        Object {
+          "& .rosterClose": Object {
+            "&:after": Object {
+              "transform": "rotateZ(-45deg)",
+            },
+            "&:before, &:after": Object {
+              "background": "#000",
+              "content": "' '",
+              "height": "1px",
+              "left": "7px",
+              "position": "absolute",
+              "top": "10px",
+              "transform": "rotateZ(45deg)",
+              "width": "12px",
+            },
+            "cursor": "pointer",
+            "display": "block",
+            "height": "24px",
+            "position": "absolute",
+            "right": "3px",
+            "top": "3px",
+            "width": "24px",
+          },
+          "& .toaster": Object {
+            "&.errorRoster": Object {
+              "& .rosterClose:before, & .rosterClose:after": Object {
+                "background": "#cb4138",
+              },
+              "background": "#fbdbd8",
+              "borderColor": "#fd5346",
+              "color": "#cb4138",
+            },
+            "&.infoRoster": Object {
+              "& .rosterClose:before, & .rosterClose:after": Object {
+                "background": "#1a78c2",
+              },
+              "background": "#d8e8fb",
+              "borderColor": "#2196f3",
+              "color": "#1a78c2",
+            },
+            "&.sucessRoster": Object {
+              "& .rosterClose:before, & .rosterClose:after": Object {
+                "background": "#268f2a",
+              },
+              "background": "#d1f6d2",
+              "borderColor": "#268f2a",
+              "color": "#268f2a",
+            },
+            "&.warningToaster": Object {
+              "& .rosterClose:before, & .rosterClose:after": Object {
+                "background": "#3e3e3e",
+              },
+              "background": "#fbf2dc",
+              "borderColor": "#fac22e",
+              "color": "#3e3e3e",
+            },
+            "background": "#efefef",
+            "border": "1px solid #333",
+            "borderRadius": "4px",
+            "color": "#333",
+            "fontSize": "16px",
+            "padding": "12px",
+            "paddingRight": "30px",
+          },
+          "& > div": Object {
+            "position": "relative",
+          },
+          "left": "12px",
+          "top": "12px",
+          "width": "calc(100% - 24px)",
+          "zIndex": "9999",
+        },
+      ],
+      "defaultProps": undefined,
+      "displayName": "Styled(div)",
+      "render": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <div
+          className="toaster infoRoster"
+        >
+          <div
+            className="container dynamicTextInherit p0"
+          >
+            This is test message
+            <span
+              className="rosterClose"
+              onClick={[Function]}
+            />
+          </div>
+        </div>,
+        "className": "fixed",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container dynamicTextInherit p0"
+          >
+            This is test message
+            <span
+              className="rosterClose"
+              onClick={[Function]}
+            />
+          </div>,
+          "className": "toaster infoRoster",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "This is test message",
+              <span
+                className="rosterClose"
+                onClick={[Function]}
+              />,
+            ],
+            "className": "container dynamicTextInherit p0",
+          },
+          "ref": null,
+          "rendered": Array [
+            "This is test message",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "rosterClose",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "__emotion_base": "div",
+        "__emotion_forwardProp": undefined,
+        "__emotion_real": [Circular],
+        "__emotion_styles": Array [
+          Object {
+            "& .rosterClose": Object {
+              "&:after": Object {
+                "transform": "rotateZ(-45deg)",
+              },
+              "&:before, &:after": Object {
+                "background": "#000",
+                "content": "' '",
+                "height": "1px",
+                "left": "7px",
+                "position": "absolute",
+                "top": "10px",
+                "transform": "rotateZ(45deg)",
+                "width": "12px",
+              },
+              "cursor": "pointer",
+              "display": "block",
+              "height": "24px",
+              "position": "absolute",
+              "right": "3px",
+              "top": "3px",
+              "width": "24px",
+            },
+            "& .toaster": Object {
+              "&.errorRoster": Object {
+                "& .rosterClose:before, & .rosterClose:after": Object {
+                  "background": "#cb4138",
+                },
+                "background": "#fbdbd8",
+                "borderColor": "#fd5346",
+                "color": "#cb4138",
+              },
+              "&.infoRoster": Object {
+                "& .rosterClose:before, & .rosterClose:after": Object {
+                  "background": "#1a78c2",
+                },
+                "background": "#d8e8fb",
+                "borderColor": "#2196f3",
+                "color": "#1a78c2",
+              },
+              "&.sucessRoster": Object {
+                "& .rosterClose:before, & .rosterClose:after": Object {
+                  "background": "#268f2a",
+                },
+                "background": "#d1f6d2",
+                "borderColor": "#268f2a",
+                "color": "#268f2a",
+              },
+              "&.warningToaster": Object {
+                "& .rosterClose:before, & .rosterClose:after": Object {
+                  "background": "#3e3e3e",
+                },
+                "background": "#fbf2dc",
+                "borderColor": "#fac22e",
+                "color": "#3e3e3e",
+              },
+              "background": "#efefef",
+              "border": "1px solid #333",
+              "borderRadius": "4px",
+              "color": "#333",
+              "fontSize": "16px",
+              "padding": "12px",
+              "paddingRight": "30px",
+            },
+            "& > div": Object {
+              "position": "relative",
+            },
+            "left": "12px",
+            "top": "12px",
+            "width": "calc(100% - 24px)",
+            "zIndex": "9999",
+          },
+        ],
+        "defaultProps": undefined,
+        "displayName": "Styled(div)",
+        "render": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

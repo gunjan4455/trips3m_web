@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/quote/helpers.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app-v2/modules/quote</a> helpers.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">75.86% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>22/29</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">61.54% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>8/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/3</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">75.86% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>22/29</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { QUOTE_STATUS } from 'constants/quoteStatus';
+&nbsp;
+export const quoteStatusClasses = (status) =&gt; {
+  let statusClassNames = 'quotesStatus';
+&nbsp;
+  switch (status) {
+<span class="branch-0 cbranch-no" title="branch not covered" >    case QUOTE_STATUS.CONVERTED: {</span>
+<span class="cstat-no" title="statement not covered" >      statusClassNames += ' convertedQuote sbc1';</span>
+<span class="cstat-no" title="statement not covered" >      break;</span>
+    }
+    case QUOTE_STATUS.CHOSEN:
+    case QUOTE_STATUS.INVOICED:
+    case QUOTE_STATUS.ACTIVE: {
+      statusClassNames += ' activeQuote sbc3';
+      break;
+    }
+    case QUOTE_STATUS.DECLINED: {
+      statusClassNames += ' rejectedQuote';
+      break;
+    }
+<span class="branch-5 cbranch-no" title="branch not covered" >    case QUOTE_STATUS.CANCELED: {</span>
+<span class="cstat-no" title="statement not covered" >      statusClassNames += ' cancelledQuote';</span>
+<span class="cstat-no" title="statement not covered" >      break;</span>
+    }
+<span class="branch-6 cbranch-no" title="branch not covered" >    default: {</span>
+<span class="cstat-no" title="statement not covered" >      statusClassNames += '';</span>
+    }
+  }
+&nbsp;
+  return statusClassNames;
+};
+&nbsp;
+export const quoteStatusText = (text) =&gt; {
+  switch (text) {
+<span class="branch-0 cbranch-no" title="branch not covered" >    case QUOTE_STATUS.CONVERTED:</span>
+<span class="cstat-no" title="statement not covered" >      text = 'Booked';</span>
+<span class="cstat-no" title="statement not covered" >      break;</span>
+<span class="branch-1 cbranch-no" title="branch not covered" >    case QUOTE_STATUS.CANCELED:</span>
+    case QUOTE_STATUS.DECLINED:
+      text = 'Rejected';
+      break;
+    case QUOTE_STATUS.CHOSEN:
+      text = 'Invoice Awaited';
+      break;
+    case QUOTE_STATUS.INVOICED:
+      text = 'Invoice Generated';
+      break;
+    case QUOTE_STATUS.ACTIVE:
+      text = 'Active';
+      break;
+  }
+&nbsp;
+  return text;
+};
+&nbsp;
+// show status in quote box for below cases only
+export const statusToShow = [QUOTE_STATUS.CONVERTED, QUOTE_STATUS.CANCELED, QUOTE_STATUS.DECLINED,
+  QUOTE_STATUS.CHOSEN, QUOTE_STATUS.INVOICED, QUOTE_STATUS.ACTIVE];
+&nbsp;
+export const showStatusRibbon = (status) =&gt; {
+  return statusToShow.indexOf(status.toString()) &gt; -1;
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+:local {
+    .icon-destination {
+        width: 180px;
+        margin:0 auto;
+        padding: 44px 0 0px 0;
+
+        & svg {
+            width: 100%;
+            display: block;
+            height: auto;
+        }
+    }
+}

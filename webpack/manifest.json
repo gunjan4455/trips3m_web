@@ -1,0 +1,20 @@
+{
+  "short_name": "TravelTriangle",
+  "name": "TravelTriangle",
+  "icons": [
+    {
+      "src": "https://img.traveltriangle.com/attachments/pictures/901193/original/Travel-Triangle-Logo.png?tr=w-192,h-192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://img.traveltriangle.com/attachments/pictures/901193/original/Travel-Triangle-Logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?pwa_source=mobile",
+  "display": "standalone",
+  "theme_color": "#2f847d",
+  "background_color": "#ffffff"
+}

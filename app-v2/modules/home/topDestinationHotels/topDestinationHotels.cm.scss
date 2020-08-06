@@ -1,0 +1,39 @@
+:local{
+  .HotelContainer {
+    height:268px;
+    width:200px;
+    .hotelCard {
+      height: 192px;
+      img{
+        min-height: 100%;
+      }
+      .flag{
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: -16px;
+          border-top: 12px solid transparent;
+          border-left: 16px solid #009688;
+          border-bottom: 12px solid transparent;
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: -28px;
+          border-right: 12px solid transparent;
+          border-left: 15px solid rgba(0, 150, 136, 0.6);
+          border-top: 12px solid rgba(0, 150, 136, 0.6);
+          border-bottom: 12px solid rgba(0, 150, 136, 0.6);
+        }
+      }
+    }
+    .hotelInfo{
+      left:0;
+      right:0;
+      margin:0 8px;
+      box-shadow: 0 -2px 19px rgba(0, 0, 0, 0.16);
+    }
+  }
+}

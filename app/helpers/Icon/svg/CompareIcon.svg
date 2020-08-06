@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>mdpi/Icon/Compare</title>
+    <desc>Created with Sketch.</desc>
+    <g id="RLP-Mweb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Quotes-Received" transform="translate(-104.000000, -219.000000)" stroke="#2196F3">
+            <g id="Group-12" transform="translate(16.000000, 208.000000)">
+                <g id="Group-49" transform="translate(86.000000, 8.000000)">
+                    <g id="Group-7">
+                        <g id="Icon/Compare/White">
+                            <g id="Group-48" transform="translate(3.000000, 3.000000)">
+                                <polyline id="Line-4" points="18 5.29411765 0 5.29411765 4.69930963 0"></polyline>
+                                <polyline id="Line-4-Copy" transform="translate(9.000000, 15.352941) scale(-1, -1) translate(-9.000000, -15.352941) " points="18 18 0 18 4.69930963 12.7058824"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

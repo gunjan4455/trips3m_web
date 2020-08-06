@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/quote/list/components/QuoteBox.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/quote/list/components</a> QuoteBox.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">80.56% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>29/36</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">68% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>17/25</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">77.78% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>7/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">80.56% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>29/36</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">16x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router';
+import glamorous from 'glamorous';
+import Sensor from 'react-visibility-sensor';
+&nbsp;
+import { timeFromNow } from 'helpers/DateTime';
+import { quoteDetailPath } from 'helpers/urlHelpers';
+import { showStatusRibbon, quoteStatusClasses, quoteStatusText } from '../../helpers';
+import {
+  getAgentDetails,
+  getPriceInformation,
+  getDiscountInformation,
+  getCurrentQuoteStatuses
+} from 'modules/quote/reducers/quoteList';
+import { ChatIconGrey } from 'helpers/Icon/Icon';
+import Modal from 'modules/shared/GenericModal';
+import BookNow from '../../ctas/BookNow';
+import RejectQuote from '../../ctas/RejectQuote';
+import ReactivateQuote from '../../ctas/ReactivateQuote';
+import QuotePrice from 'modules/quote/shared/price/QuotePrice';
+import AgentOnlineIndicator from 'modules/shared/agentProfile/AgentOnlineIndicator';
+import AgentDetail from './AgentDetail';
+import BookNowPopup from './BookNow';
+import { ORGANISM_VIEWED, ORGANISM_CLICKED } from 'actions/segmentEvents';
+import QUOTE_EVENTS_ENUMS from 'modules/quote/EventTypes';
+&nbsp;
+const GQuoteBoxDiv = glamorous.div({
+  boxShadow: '0 0 4px #f2f2f2'
+});
+&nbsp;
+const GQuoteStatusDiv = glamorous.div({
+  '&amp; .quoteStatus': {
+    height: '16px',
+  },
+});
+&nbsp;
+const GDotButton = glamorous.span({
+  width: '4px',
+  height: '4px',
+});
+const OpenTooltipPop = glamorous.div({
+  ':hover &gt; .changeIcon span': {
+    backgroundColor: '#009688',
+  },
+  ':hover &gt; .openTooltip': {
+    display: 'block',
+  },
+});
+&nbsp;
+const GQuoteCtasDiv = glamorous.div({
+  boxShadow: '0 0 6px #ccc',
+  minWidth: '200px',
+  top: '-10px',
+  display: 'none'
+});
+&nbsp;
+const GOfferSpan = glamorous.span({
+  background: '#b7dfb9',
+  height: '16px',
+  lineHeight: '16px',
+});
+&nbsp;
+class QuoteBox extends React.Component {
+  static propTypes = {
+    tripId: PropTypes.oneOfType([
+      PropTypes.number,
+      PropTypes.string]).isRequired,
+    cardIndex: PropTypes.number.isRequired,
+    quote: PropTypes.object.isRequired,
+    comments: PropTypes.object,
+    userDetails: PropTypes.object.isRequired,
+    callbackHandler: PropTypes.func,
+    bookNow: PropTypes.func.isRequired,
+    quoteRejectionReasons: PropTypes.object,
+    trackSegment: PropTypes.func
+  };
+&nbsp;
+  static defaultProps = {};
+&nbsp;
+  static renderQuoteStatus(status) {
+    return showStatusRibbon(status) ?
+      (&lt;span className='pl5 pr5'&gt;{quoteStatusText(status)}&lt;/span&gt;) :
+<span class="branch-1 cbranch-no" title="branch not covered" >      null;</span>
+  }
+&nbsp;
+  constructor(props) {
+    super(props);
+    this.state = {
+      openModal: false,
+      closeModal: true,
+    };
+    this.isEventTracked = false;
+  }
+&nbsp;
+  closePopup = () =&gt; {
+    this.setState({ closeModal: true, openModal: false });
+  };
+&nbsp;
+  openPopup = () =&gt; {
+    this.props.trackSegment(ORGANISM_CLICKED, 'Quotes section', 'Book now', '', '', this.props.quote.id, 'quote id');
+<span class="cstat-no" title="statement not covered" >    this.setState({ openModal: true, closeModal: false });</span>
+  };
+&nbsp;
+  handleBookNow = () =&gt; {
+    const { tripId, quote, callbackHandler } = this.props;
+&nbsp;
+    callbackHandler(QUOTE_EVENTS_ENUMS.BOOK_NOW, { tripId: tripId, quoteId: quote.id });
+    this.closePopup();
+  };
+&nbsp;
+  onSensorChange = <span class="fstat-no" title="function not covered" >(i</span>sVisible) =&gt; {
+<span class="cstat-no" title="statement not covered" >    if (isVisible &amp;&amp; !this.isEventTracked) {</span>
+<span class="cstat-no" title="statement not covered" >      this.isEventTracked = true;</span>
+<span class="cstat-no" title="statement not covered" >      this.props.trackSegment(ORGANISM_VIEWED, 'Quotes section', '', '', 'card index::days::agent rating::package price', '', 'quote id');</span>
+    }
+  };
+&nbsp;
+  renderQuoteCta(quoteStatus) {
+    const { tripId, quote, callbackHandler, quoteRejectionReasons, trackSegment } = this.props;
+    if (quoteStatus.isRejected) {
+      return &lt;ReactivateQuote callbackHandler={callbackHandler} tripId={tripId} quoteId={quote.id}
+                              key="cta-reactivate-quote" isQuoteCardCta={true} /&gt;;
+    } else if (quoteStatus.isInvoiced || quoteStatus.isInvoiceRequested) {
+      return &lt;RejectQuote quoteRejectionReasons={quoteRejectionReasons}
+                          trackSegment={trackSegment}
+                          callbackHandler={callbackHandler} tripId={tripId} quoteId={quote.id}
+                          key="cta-reject-quote" isQuoteCardCta={true} /&gt;;
+    } else {
+      return &lt;div&gt;
+        &lt;RejectQuote quoteRejectionReasons={quoteRejectionReasons}
+                     trackSegment={trackSegment}
+                     callbackHandler={callbackHandler} tripId={tripId} quoteId={quote.id}
+                     key="cta-reject-quote" isQuoteCardCta={true} /&gt;
+        &lt;BookNow callbackHandler={this.openPopup} tripId={tripId} quoteId={quote.id}
+                 key="cta-book-now" isQuoteCardCta={true} /&gt;
+      &lt;/div&gt;;
+    }
+  }
+&nbsp;
+  handleQuoteClick = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+    const { quote, cardIndex } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+    const agentDetails = <span class="cstat-no" title="statement not covered" >getAgentDetails(quote);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    this.props.trackSegment(ORGANISM_CLICKED, 'Quotes section', 'View quote',</span>
+      `${cardIndex + 1}::${quote.days}::${agentDetails.star}::${quote.pricingInfo.totalPrice}`,
+      'card index::days::agent rating::package price', quote.id, 'quote id');
+  };
+&nbsp;
+  render() {
+    const { tripId, quote, userDetails, comments } = this.props;
+&nbsp;
+    const agentDetails = getAgentDetails(quote);
+    const priceInformation = getPriceInformation(quote);
+    const discountInformation = getDiscountInformation(quote);
+    const qdpPath = quoteDetailPath(tripId, quote.id);
+    const commentsCount = comments &amp;&amp; comments.commentsCount;
+    const quoteStatus = getCurrentQuoteStatuses(quote);
+&nbsp;
+    return (
+      &lt;Sensor onChange={this.onSensorChange}
+              partialVisibility='bottom'
+              delayedCall={true}&gt;
+        &lt;GQuoteBoxDiv className="sbcw m8 pl15 pr15 pt8 pb8 radius2 relative"&gt;
+          {(quoteStatus.isRequestCancelled || quoteStatus.isCancelled || quoteStatus.isConverted) ?
+<span class="branch-0 cbranch-no" title="branch not covered" >            null </span>:
+            &lt;OpenTooltipPop className='iblock icon-18 fright z10 text-center'&gt;
+              &lt;div className="z10 icon-18 changeIcon"&gt;
+                &lt;GDotButton className="pbc4 absolute radius100" /&gt;
+                &lt;GDotButton className="pbc4 t8 b1 absolute radius100" /&gt;
+                &lt;GDotButton className="pbc4 t15 absolute radius100" /&gt;
+              &lt;/div&gt;
+              &lt;GQuoteCtasDiv className={`absolute r0 sbcw z2 openTooltip`}&gt;
+                {this.renderQuoteCta(quoteStatus)}
+              &lt;/GQuoteCtasDiv&gt;
+            &lt;/OpenTooltipPop&gt;
+          }
+          &lt;div className='flex alignCenter mb15'&gt;
+            &lt;AgentOnlineIndicator
+              showPresenceMessage={true}
+              userId={quote.agent.id}
+              userDetails={userDetails}
+            /&gt;
+            {
+              commentsCount ?
+                (
+                  &lt;span
+                    className="flex ml8 at_messagesNew f12 pfc4"&gt;&lt;span
+                    className='icon-18 mr4 iblock'&gt;&lt;ChatIconGrey /&gt;&lt;/span&gt; {commentsCount} chat message{commentsCount &gt; 1 ? 's' : <span class="branch-1 cbranch-no" title="branch not covered" >''}</span>&lt;/span&gt;
+                ) : ''
+            }
+          &lt;/div&gt;
+          &lt;Link to={qdpPath} onClick={this.handleQuoteClick}&gt;
+            &lt;AgentDetail agent={agentDetails} userDetails={userDetails} /&gt;
+          &lt;/Link&gt;
+          &lt;div&gt;
+            &lt;Modal
+              trigger={null}
+              isOpen={this.state.openModal}
+              customCloseTrigger={this.state.closeModal}
+              onRequestCloseCustom={this.closePopup}
+            &gt;
+              &lt;BookNowPopup agent={agentDetails} priceInfo={priceInformation} closeModal={this.closePopup}
+                            bookNow={this.handleBookNow} /&gt;
+            &lt;/Modal&gt;
+          &lt;/div&gt;
+&nbsp;
+          &lt;GQuoteStatusDiv className="flexFull bt pt15 mt8 mb8"&gt;
+            &lt;p className={`quoteStatus radius20 pbc4 iblock  sfcw f12 pl15 pr15 ${quoteStatusClasses(quote.status)}`}&gt;
+              {QuoteBox.renderQuoteStatus(quote.status)}
+            &lt;/p&gt;
+            {discountInformation.discount &gt; 0 ?
+<span class="branch-0 cbranch-no" title="branch not covered" >              &lt;GOfferSpan className='fright radius20 iblock  sfc6 f10 pl15 pr15'&gt;Offer Applied&lt;/GOfferSpan&gt; </span>: ''}
+          &lt;/GQuoteStatusDiv&gt;
+          &lt;div className='flex spaceBetween alignCenter'&gt;
+            &lt;div className='f12 pfc4'&gt;{`Updated ${timeFromNow(quote.updatedAt)}`}&lt;/div&gt;
+            &lt;div&gt;&lt;QuotePrice {...priceInformation} {...discountInformation} /&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/GQuoteBoxDiv&gt;
+      &lt;/Sensor&gt;
+    );
+  }
+}
+&nbsp;
+export default QuoteBox;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../../sorter.js"></script>
+</body>
+</html>

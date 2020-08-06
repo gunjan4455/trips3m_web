@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NurturingLandingPage
+    params={
+      Object {
+        "secretKey": "977886e355826ccf",
+        "uniqueKey": "1582648880674_lzgfh-ur",
+      }
+    }
+    preference={
+      Object {
+        "days": 3,
+        "destinationId": 56,
+        "destinationName": "Kerala",
+        "destinationType": "domestic",
+        "flights": false,
+        "maxHotelRating": 4,
+        "priceMax": 142767,
+        "priceMin": 55152,
+        "travelMonth": 2,
+      }
+    }
+    rtripData={
+      Object {
+        "adults": 3,
+        "mapped_from_location_id": 20910,
+        "mapped_from_location_name": "Kupwara",
+        "mapped_to_loc_id": 56,
+        "mapped_to_loc_name": "Kerala",
+        "mapped_to_type": "domestic",
+        "redis_key": "0ienf4peuu8yzmq3rnj9",
+        "referrer": Object {
+          "__utmz": null,
+          "__utmzz": "utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+          "cookie_referer": null,
+          "new_referer": null,
+          "user_agent": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Mobile Safari/537.36",
+        },
+        "rtrip_params": Object {
+          "addtl_info": " ",
+          "adminComments": "  #Form_filled_on https://localhost:3000/ #trip_origin_product:public_mweb  ",
+          "adult": "2",
+          "attribution_attributes": Object {
+            "context_page_url": "https://localhost:3000/",
+            "funnel_uuid": "0Ienf4peUu8YzMQ3rnJ9",
+            "landing_page_uuid": "e7753672cd47e8985e76f26e274745cd5f4e59a2:::eijZlfoJp385EUrS8PvHkE0sxpdERM",
+            "page_uuid": "aa49966360adbcaac04771c21170c82b1ffebb77:::dvlCoZd9CS3lVzwGAvPtyOlYUnSB8E",
+            "referer_page_uuid": "e7753672cd47e8985e76f26e274745cd5f4e59a2:::eijZlfoJp385EUrS8PvHkE0sxpdERM",
+            "session_uuid": "a40b511af1d21e8f13f6d2fb06df23162636e6f1:::12-1-120",
+            "trip_origin_product": "public_mweb",
+            "trip_origin_uri": "public_mweb::F1 Page::::::",
+          },
+          "budget": "8250..9000",
+          "budget_new": true,
+          "child": "0",
+          "child_age_answers_attributes": Array [
+            Object {
+              "customization_id": "7",
+              "option_id": "29",
+              "user_input": "0",
+            },
+          ],
+          "create_your_own_id": "false",
+          "dont_utilize_budget_new": true,
+          "email": "asqwesd@gmail.com",
+          "from_loc": "Lane Number 7, Maruti Udyog, Sector 18, Gurugram, Haryana 122008, India",
+          "from_slider_form": "true",
+          "hotel_category_answers_attributes": Array [
+            Object {
+              "customization_id": "2",
+              "option_id": "7",
+            },
+          ],
+          "hotel_needed_answer_attributes": Object {
+            "customization_id": "22",
+            "option_id": "95",
+          },
+          "infant": "0",
+          "isd_code": "+91",
+          "new_form": "true",
+          "other_answers_attributes": Array [
+            Object {
+              "customization_id": "218",
+              "option_id": "712",
+            },
+          ],
+          "phone_no": "9123123123",
+          "referer": "direct",
+          "start_date": "2020-02-20",
+          "start_date_flexible": false,
+          "start_date_noidea": false,
+          "syncErrors": Object {},
+          "to_loc": "Kerala",
+          "trip_days": 3,
+          "whatsapp_opt_status": true,
+        },
+        "secret_key": "8cb0822f788b351d",
+        "start_date_month": 2,
+      }
+    }
+    savePreferences={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <BudgetBanner
+          adult={1}
+          child={0}
+          destination="Kerala"
+          priceMax={142767}
+          priceMin={55152}
+          savePreferencesAndRedirect={[Function]}
+        />,
+        Array [
+          <NurturingOption
+            Icon={[Function]}
+            disabled={false}
+            hideBottomBorder={false}
+            redirection={true}
+            savePreferencesAndRedirect={[Function]}
+            subText="View Packages based on your preferences"
+            text="Continue with the current plan"
+            title="I’m <span className=\\"pfc5\\">okay</span> with this budget"
+            trackSegmentEvent={[Function]}
+          />,
+          <NurturingOption
+            Icon={[Function]}
+            disabled={false}
+            hideBottomBorder={true}
+            redirection={false}
+            savePreferencesAndRedirect={[Function]}
+            subText="to match your budget"
+            text="Edit Preferences"
+            title="I’m <span className=\\"pfc5\\">not okay</span> with this budget"
+            trackSegmentEvent={[Function]}
+          />,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "adult": 1,
+          "child": 0,
+          "destination": "Kerala",
+          "priceMax": 142767,
+          "priceMin": 55152,
+          "savePreferencesAndRedirect": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "class",
+        "props": Object {
+          "Icon": [Function],
+          "disabled": false,
+          "hideBottomBorder": false,
+          "redirection": true,
+          "savePreferencesAndRedirect": [Function],
+          "subText": "View Packages based on your preferences",
+          "text": "Continue with the current plan",
+          "title": "I’m <span className=\\"pfc5\\">okay</span> with this budget",
+          "trackSegmentEvent": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "Icon": [Function],
+          "disabled": false,
+          "hideBottomBorder": true,
+          "redirection": false,
+          "savePreferencesAndRedirect": [Function],
+          "subText": "to match your budget",
+          "text": "Edit Preferences",
+          "title": "I’m <span className=\\"pfc5\\">not okay</span> with this budget",
+          "trackSegmentEvent": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <BudgetBanner
+            adult={1}
+            child={0}
+            destination="Kerala"
+            priceMax={142767}
+            priceMin={55152}
+            savePreferencesAndRedirect={[Function]}
+          />,
+          Array [
+            <NurturingOption
+              Icon={[Function]}
+              disabled={false}
+              hideBottomBorder={false}
+              redirection={true}
+              savePreferencesAndRedirect={[Function]}
+              subText="View Packages based on your preferences"
+              text="Continue with the current plan"
+              title="I’m <span className=\\"pfc5\\">okay</span> with this budget"
+              trackSegmentEvent={[Function]}
+            />,
+            <NurturingOption
+              Icon={[Function]}
+              disabled={false}
+              hideBottomBorder={true}
+              redirection={false}
+              savePreferencesAndRedirect={[Function]}
+              subText="to match your budget"
+              text="Edit Preferences"
+              title="I’m <span className=\\"pfc5\\">not okay</span> with this budget"
+              trackSegmentEvent={[Function]}
+            />,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "adult": 1,
+            "child": 0,
+            "destination": "Kerala",
+            "priceMax": 142767,
+            "priceMin": 55152,
+            "savePreferencesAndRedirect": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "class",
+          "props": Object {
+            "Icon": [Function],
+            "disabled": false,
+            "hideBottomBorder": false,
+            "redirection": true,
+            "savePreferencesAndRedirect": [Function],
+            "subText": "View Packages based on your preferences",
+            "text": "Continue with the current plan",
+            "title": "I’m <span className=\\"pfc5\\">okay</span> with this budget",
+            "trackSegmentEvent": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "Icon": [Function],
+            "disabled": false,
+            "hideBottomBorder": true,
+            "redirection": false,
+            "savePreferencesAndRedirect": [Function],
+            "subText": "to match your budget",
+            "text": "Edit Preferences",
+            "title": "I’m <span className=\\"pfc5\\">not okay</span> with this budget",
+            "trackSegmentEvent": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

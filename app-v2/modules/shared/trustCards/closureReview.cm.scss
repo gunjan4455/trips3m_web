@@ -1,0 +1,18 @@
+:local{
+  .reviewCard{
+    .content{
+        min-height: 90px;
+        max-height: 90px;
+        overflow: hidden;
+        line-height: 18px;
+    }
+    .image{
+      height:40px;
+      width:40px;
+      background: #2196f3;
+    }
+    .location{
+      opacity: 0.49;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+:local{
+  .dropdown {
+      .check {
+        display: none;
+      }
+
+      .sliderContent {
+        max-height: 0;
+        opacity: 0;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+      }
+
+      .check + label {
+        display: block;
+        position: relative;
+
+      }
+
+      .check:checked + label + .sliderContent {
+        display: block;
+        margin-top: 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #f0f0f0;
+        max-height:100%;
+        opacity: 1;
+      }
+      .check:checked + label > .arrow{
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        top:23px;
+      }
+  }
+
+  .arrow{
+      border: solid black;
+      border-width: 0 1px 1px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    .search{
+      width: 20px;
+      height: 16px;
+      transform: none;
+      top: 0;
+      &:after{
+        content: "Q";
+        font-size: 24px;
+        font-weight: 300;
+        color: #eb5e3c;
+        position: absolute;
+        left: 0;
+        display: block;
+      }
+    }
+}

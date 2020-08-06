@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountDownTimer component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuoteTimer
+    totalTimeInSeconds={172800}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4
+          className="text-center fw4 "
+        >
+          Hurry! Book your quote before prices increase. Quote prices expire in:
+        </h4>,
+        <div
+          className=" countDown  radius6 flex sbcw pt8 pb8 pl15 pr15"
+        >
+          <div
+            className="text-center pr15 pl15 "
+          >
+            <p
+              className="f24 fw9"
+            >
+              02
+            </p>
+            <span
+              className="f10"
+            >
+              Days
+            </span>
+          </div>
+          <div
+            className="text-center pr15 pl15 "
+          >
+            <p
+              className="f24 fw9"
+            >
+              00
+            </p>
+            <span
+              className="f10"
+            >
+              Hrs
+            </span>
+          </div>
+          <div
+            className="text-center pr15 pl15 "
+          >
+            <p
+              className="f24 fw9"
+            >
+              00
+            </p>
+            <span
+              className="f10"
+            >
+              Mins
+            </span>
+          </div>
+          <div
+            className="text-center pr15 pl15 "
+          >
+            <p
+              className="f24 fw9"
+            >
+              00
+            </p>
+            <span
+              className="f10"
+            >
+              Secs
+            </span>
+          </div>
+        </div>,
+      ],
+      "className": "relative pt15 timerBanner",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Hurry! Book your quote before prices increase. Quote prices expire in:",
+          "className": "text-center fw4 ",
+        },
+        "ref": null,
+        "rendered": "Hurry! Book your quote before prices increase. Quote prices expire in:",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="text-center pr15 pl15 "
+            >
+              <p
+                className="f24 fw9"
+              >
+                02
+              </p>
+              <span
+                className="f10"
+              >
+                Days
+              </span>
+            </div>,
+            <div
+              className="text-center pr15 pl15 "
+            >
+              <p
+                className="f24 fw9"
+              >
+                00
+              </p>
+              <span
+                className="f10"
+              >
+                Hrs
+              </span>
+            </div>,
+            <div
+              className="text-center pr15 pl15 "
+            >
+              <p
+                className="f24 fw9"
+              >
+                00
+              </p>
+              <span
+                className="f10"
+              >
+                Mins
+              </span>
+            </div>,
+            <div
+              className="text-center pr15 pl15 "
+            >
+              <p
+                className="f24 fw9"
+              >
+                00
+              </p>
+              <span
+                className="f10"
+              >
+                Secs
+              </span>
+            </div>,
+          ],
+          "className": " countDown  radius6 flex sbcw pt8 pb8 pl15 pr15",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="f24 fw9"
+                >
+                  02
+                </p>,
+                <span
+                  className="f10"
+                >
+                  Days
+                </span>,
+              ],
+              "className": "text-center pr15 pl15 ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "02",
+                  "className": "f24 fw9",
+                },
+                "ref": null,
+                "rendered": "02",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Days",
+                  "className": "f10",
+                },
+                "ref": null,
+                "rendered": "Days",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="f24 fw9"
+                >
+                  00
+                </p>,
+                <span
+                  className="f10"
+                >
+                  Hrs
+                </span>,
+              ],
+              "className": "text-center pr15 pl15 ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "00",
+                  "className": "f24 fw9",
+                },
+                "ref": null,
+                "rendered": "00",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hrs",
+                  "className": "f10",
+                },
+                "ref": null,
+                "rendered": "Hrs",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="f24 fw9"
+                >
+                  00
+                </p>,
+                <span
+                  className="f10"
+                >
+                  Mins
+                </span>,
+              ],
+              "className": "text-center pr15 pl15 ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "00",
+                  "className": "f24 fw9",
+                },
+                "ref": null,
+                "rendered": "00",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Mins",
+                  "className": "f10",
+                },
+                "ref": null,
+                "rendered": "Mins",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="f24 fw9"
+                >
+                  00
+                </p>,
+                <span
+                  className="f10"
+                >
+                  Secs
+                </span>,
+              ],
+              "className": "text-center pr15 pl15 ",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "00",
+                  "className": "f24 fw9",
+                },
+                "ref": null,
+                "rendered": "00",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Secs",
+                  "className": "f10",
+                },
+                "ref": null,
+                "rendered": "Secs",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="text-center fw4 "
+          >
+            Hurry! Book your quote before prices increase. Quote prices expire in:
+          </h4>,
+          <div
+            className=" countDown  radius6 flex sbcw pt8 pb8 pl15 pr15"
+          >
+            <div
+              className="text-center pr15 pl15 "
+            >
+              <p
+                className="f24 fw9"
+              >
+                02
+              </p>
+              <span
+                className="f10"
+              >
+                Days
+              </span>
+            </div>
+            <div
+              className="text-center pr15 pl15 "
+            >
+              <p
+                className="f24 fw9"
+              >
+                00
+              </p>
+              <span
+                className="f10"
+              >
+                Hrs
+              </span>
+            </div>
+            <div
+              className="text-center pr15 pl15 "
+            >
+              <p
+                className="f24 fw9"
+              >
+                00
+              </p>
+              <span
+                className="f10"
+              >
+                Mins
+              </span>
+            </div>
+            <div
+              className="text-center pr15 pl15 "
+            >
+              <p
+                className="f24 fw9"
+              >
+                00
+              </p>
+              <span
+                className="f10"
+              >
+                Secs
+              </span>
+            </div>
+          </div>,
+        ],
+        "className": "relative pt15 timerBanner",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Hurry! Book your quote before prices increase. Quote prices expire in:",
+            "className": "text-center fw4 ",
+          },
+          "ref": null,
+          "rendered": "Hurry! Book your quote before prices increase. Quote prices expire in:",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="text-center pr15 pl15 "
+              >
+                <p
+                  className="f24 fw9"
+                >
+                  02
+                </p>
+                <span
+                  className="f10"
+                >
+                  Days
+                </span>
+              </div>,
+              <div
+                className="text-center pr15 pl15 "
+              >
+                <p
+                  className="f24 fw9"
+                >
+                  00
+                </p>
+                <span
+                  className="f10"
+                >
+                  Hrs
+                </span>
+              </div>,
+              <div
+                className="text-center pr15 pl15 "
+              >
+                <p
+                  className="f24 fw9"
+                >
+                  00
+                </p>
+                <span
+                  className="f10"
+                >
+                  Mins
+                </span>
+              </div>,
+              <div
+                className="text-center pr15 pl15 "
+              >
+                <p
+                  className="f24 fw9"
+                >
+                  00
+                </p>
+                <span
+                  className="f10"
+                >
+                  Secs
+                </span>
+              </div>,
+            ],
+            "className": " countDown  radius6 flex sbcw pt8 pb8 pl15 pr15",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="f24 fw9"
+                  >
+                    02
+                  </p>,
+                  <span
+                    className="f10"
+                  >
+                    Days
+                  </span>,
+                ],
+                "className": "text-center pr15 pl15 ",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "02",
+                    "className": "f24 fw9",
+                  },
+                  "ref": null,
+                  "rendered": "02",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Days",
+                    "className": "f10",
+                  },
+                  "ref": null,
+                  "rendered": "Days",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="f24 fw9"
+                  >
+                    00
+                  </p>,
+                  <span
+                    className="f10"
+                  >
+                    Hrs
+                  </span>,
+                ],
+                "className": "text-center pr15 pl15 ",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "00",
+                    "className": "f24 fw9",
+                  },
+                  "ref": null,
+                  "rendered": "00",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Hrs",
+                    "className": "f10",
+                  },
+                  "ref": null,
+                  "rendered": "Hrs",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="f24 fw9"
+                  >
+                    00
+                  </p>,
+                  <span
+                    className="f10"
+                  >
+                    Mins
+                  </span>,
+                ],
+                "className": "text-center pr15 pl15 ",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "00",
+                    "className": "f24 fw9",
+                  },
+                  "ref": null,
+                  "rendered": "00",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Mins",
+                    "className": "f10",
+                  },
+                  "ref": null,
+                  "rendered": "Mins",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="f24 fw9"
+                  >
+                    00
+                  </p>,
+                  <span
+                    className="f10"
+                  >
+                    Secs
+                  </span>,
+                ],
+                "className": "text-center pr15 pl15 ",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "00",
+                    "className": "f24 fw9",
+                  },
+                  "ref": null,
+                  "rendered": "00",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Secs",
+                    "className": "f10",
+                  },
+                  "ref": null,
+                  "rendered": "Secs",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

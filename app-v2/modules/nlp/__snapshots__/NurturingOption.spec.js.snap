@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NurturingOption Module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NurturingOption
+    disabled={false}
+    hideBottomBorder={true}
+    redirection={true}
+    savePreferencesAndRedirect={[Function]}
+    subText="to match your budget"
+    text="Edit Preferences"
+    title="I’m <span className=\\"pfc5\\">not okay</span> with this budget"
+    trackSegmentEvent={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="at_nurturingOption"
+      >
+        <div
+          className="flex mb24"
+        >
+          <div
+            className="icon-24 relative mr15"
+          >
+            <UNDEFINED />
+          </div>
+          <h3
+            className="f16a fw7"
+          >
+            I’m 
+            <span
+              className="pfc5"
+            >
+              not okay
+            </span>
+             with this budget
+          </h3>
+        </div>
+        <div
+          className="block p15 relative at_nlpCard  nurturingTab"
+          onClick={[Function]}
+        >
+          <p
+            className="sfc8 mb4"
+          >
+            Edit Preferences
+          </p>
+          <span
+            className="pfc4 f12"
+          >
+            to match your budget
+          </span>
+          <div
+            className="absolute rightArrow"
+          >
+            <IconSvg />
+          </div>
+        </div>
+      </div>,
+      "className": "p24 ",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="flex mb24"
+          >
+            <div
+              className="icon-24 relative mr15"
+            >
+              <UNDEFINED />
+            </div>
+            <h3
+              className="f16a fw7"
+            >
+              I’m 
+              <span
+                className="pfc5"
+              >
+                not okay
+              </span>
+               with this budget
+            </h3>
+          </div>,
+          <div
+            className="block p15 relative at_nlpCard  nurturingTab"
+            onClick={[Function]}
+          >
+            <p
+              className="sfc8 mb4"
+            >
+              Edit Preferences
+            </p>
+            <span
+              className="pfc4 f12"
+            >
+              to match your budget
+            </span>
+            <div
+              className="absolute rightArrow"
+            >
+              <IconSvg />
+            </div>
+          </div>,
+        ],
+        "className": "at_nurturingOption",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="icon-24 relative mr15"
+              >
+                <UNDEFINED />
+              </div>,
+              <h3
+                className="f16a fw7"
+              >
+                I’m 
+                <span
+                  className="pfc5"
+                >
+                  not okay
+                </span>
+                 with this budget
+              </h3>,
+            ],
+            "className": "flex mb24",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <UNDEFINED />,
+                "className": "icon-24 relative mr15",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": undefined,
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "I’m ",
+                  <span
+                    className="pfc5"
+                  >
+                    not okay
+                  </span>,
+                  " with this budget",
+                ],
+                "className": "f16a fw7",
+              },
+              "ref": null,
+              "rendered": Array [
+                "I’m ",
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "not okay",
+                    "className": "pfc5",
+                  },
+                  "ref": null,
+                  "rendered": "not okay",
+                  "type": "span",
+                },
+                " with this budget",
+              ],
+              "type": "h3",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="sfc8 mb4"
+              >
+                Edit Preferences
+              </p>,
+              <span
+                className="pfc4 f12"
+              >
+                to match your budget
+              </span>,
+              <div
+                className="absolute rightArrow"
+              >
+                <IconSvg />
+              </div>,
+            ],
+            "className": "block p15 relative at_nlpCard  nurturingTab",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Edit Preferences",
+                "className": "sfc8 mb4",
+              },
+              "ref": null,
+              "rendered": "Edit Preferences",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "to match your budget",
+                "className": "pfc4 f12",
+              },
+              "ref": null,
+              "rendered": "to match your budget",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg />,
+                "className": "absolute rightArrow",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="at_nurturingOption"
+        >
+          <div
+            className="flex mb24"
+          >
+            <div
+              className="icon-24 relative mr15"
+            >
+              <UNDEFINED />
+            </div>
+            <h3
+              className="f16a fw7"
+            >
+              I’m 
+              <span
+                className="pfc5"
+              >
+                not okay
+              </span>
+               with this budget
+            </h3>
+          </div>
+          <div
+            className="block p15 relative at_nlpCard  nurturingTab"
+            onClick={[Function]}
+          >
+            <p
+              className="sfc8 mb4"
+            >
+              Edit Preferences
+            </p>
+            <span
+              className="pfc4 f12"
+            >
+              to match your budget
+            </span>
+            <div
+              className="absolute rightArrow"
+            >
+              <IconSvg />
+            </div>
+          </div>
+        </div>,
+        "className": "p24 ",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="flex mb24"
+            >
+              <div
+                className="icon-24 relative mr15"
+              >
+                <UNDEFINED />
+              </div>
+              <h3
+                className="f16a fw7"
+              >
+                I’m 
+                <span
+                  className="pfc5"
+                >
+                  not okay
+                </span>
+                 with this budget
+              </h3>
+            </div>,
+            <div
+              className="block p15 relative at_nlpCard  nurturingTab"
+              onClick={[Function]}
+            >
+              <p
+                className="sfc8 mb4"
+              >
+                Edit Preferences
+              </p>
+              <span
+                className="pfc4 f12"
+              >
+                to match your budget
+              </span>
+              <div
+                className="absolute rightArrow"
+              >
+                <IconSvg />
+              </div>
+            </div>,
+          ],
+          "className": "at_nurturingOption",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="icon-24 relative mr15"
+                >
+                  <UNDEFINED />
+                </div>,
+                <h3
+                  className="f16a fw7"
+                >
+                  I’m 
+                  <span
+                    className="pfc5"
+                  >
+                    not okay
+                  </span>
+                   with this budget
+                </h3>,
+              ],
+              "className": "flex mb24",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <UNDEFINED />,
+                  "className": "icon-24 relative mr15",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": undefined,
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "I’m ",
+                    <span
+                      className="pfc5"
+                    >
+                      not okay
+                    </span>,
+                    " with this budget",
+                  ],
+                  "className": "f16a fw7",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "I’m ",
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "not okay",
+                      "className": "pfc5",
+                    },
+                    "ref": null,
+                    "rendered": "not okay",
+                    "type": "span",
+                  },
+                  " with this budget",
+                ],
+                "type": "h3",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="sfc8 mb4"
+                >
+                  Edit Preferences
+                </p>,
+                <span
+                  className="pfc4 f12"
+                >
+                  to match your budget
+                </span>,
+                <div
+                  className="absolute rightArrow"
+                >
+                  <IconSvg />
+                </div>,
+              ],
+              "className": "block p15 relative at_nlpCard  nurturingTab",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Edit Preferences",
+                  "className": "sfc8 mb4",
+                },
+                "ref": null,
+                "rendered": "Edit Preferences",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "to match your budget",
+                  "className": "pfc4 f12",
+                },
+                "ref": null,
+                "rendered": "to match your budget",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <IconSvg />,
+                  "className": "absolute rightArrow",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icons/Info</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Info" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="minus">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <circle id="Oval" stroke="#000000" cx="12" cy="12" r="10.5"></circle>
+        <text id="i" font-family="Lato-Black, Lato" font-size="14" font-weight="700" fill="#000000">
+            <tspan x="10" y="17">i</tspan>
+        </text>
+    </g>
+</svg>

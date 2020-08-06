@@ -1,0 +1,26 @@
+:local{
+  .inlineSpacing{
+    padding:0 85px;
+  }
+  .inlineSpacing:before, .inlineSpacing:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 62px;
+    height: 1px;
+    background: #b2b2b2;
+  }
+  .inlineSpacing:before{
+    left: 0;
+  }
+  .inlineSpacing:after{
+    right:0;
+  }
+
+
+}
+@media screen and (max-width: 500px) {
+  .inlineSpacing{
+    font-size: 14px;
+  }
+}

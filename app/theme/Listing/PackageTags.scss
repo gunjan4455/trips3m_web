@@ -1,0 +1,26 @@
+.package-tags {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  li {
+    display: block;
+    border-radius: 20px;
+    border: 1px solid #b2b2b2;
+    font-size: 12px;
+    color: #b2b2b2;
+    padding: 3px 10px;
+    list-style: none;
+    margin: 4px;
+    line-height: 12px;
+    text-align: center;
+    height: 20px;
+    width: auto;
+  }
+}
+.package-tag-box {
+  text-align: right;
+  overflow: hidden;
+  height: 56px;
+}

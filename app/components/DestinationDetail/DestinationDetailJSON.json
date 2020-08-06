@@ -1,0 +1,68 @@
+{
+"status": {
+"httpStatusCode": 200,
+"success": true
+},
+"metadata": null,
+"data": {
+"destination": {
+"id": 68,
+"agent_count": 69,
+"best_time_to_visit": "12..1",
+"latitude": -20.3484,
+"longitude": 57.5522,
+"max_budget": 85000,
+"min_budget": 52000,
+"min_days": 3,
+"max_days": 15,
+"description": "Situated in the Indian Ocean, Mauritius is an exquisite tourist destination that conjures up images of tropical luxury and stupendous extravagance. With cobalt blue seas, white sandy beaches and finest luxury hotels, Mauritus is truly a traveler’s delight. <br/>Nature has blessed Mauritius with a magnificent country side and clean waters. The sun kissed beach at Le Monre; bedazzling colors of the sand dunes in the Chamarel village; clear waters and sandy bliss at Ile Aux Cerfs; and fierce waves forming natural fountain illusions at Le Souffleurm are among the attractions that you must see in Mauritious. Besides soaking in the soothing beauty of Mauritius, tourists can go for water activities like kayaking, kite-surfing, deep sea fishing and parasailing. <br/>",
+"name": "Mauritius",
+"image": "https://res.cloudinary.com/dyavznsqj/image/fetch/f_auto,q_auto:eco,w_630/https://s3.amazonaws.com/traveltriangle-dev-docs/attachments/destinations/68/original/Mauritius.jpg",
+"is_visa_required": true,
+"bookings_count": 1408,
+"hotel_details": [
+  {
+"name": "Le Meridien Ile Maurice",
+"picture_id": "59735",
+"picture_url": "https://d2f4ib0xhh8f79.cloudfront.net/attachments/pictures/59735/original/15639764.jpg"
+},
+  {
+"name": "The Westin Turtle Bay Resort & Spa",
+"picture_id": "51505",
+"picture_url": "https://d2f4ib0xhh8f79.cloudfront.net/attachments/pictures/51505/original/26437899.jpg"
+},
+  {
+"name": "Ambre",
+"picture_id": "604851",
+"picture_url": "https://d2f4ib0xhh8f79.cloudfront.net/attachments/pictures/604851/original/2782197_67_b_w.jpg"
+},
+  {
+"name": "Bavanoca Bungalow",
+"picture_id": "341458",
+"picture_url": "https://d2f4ib0xhh8f79.cloudfront.net/attachments/pictures/341458/original/35558212.jpg"
+},
+  {
+"name": "Bob Apartment",
+"picture_id": "47396",
+"picture_url": "https://d2f4ib0xhh8f79.cloudfront.net/attachments/pictures/47396/original/29768064.jpg"
+}
+],
+"passage_details": {
+"airport_details": {
+"passage": "By Air",
+"nearest_airport": "Sir Seewoosagur Ramgoolam Int Airport",
+"airport_code": "MRU"
+},
+"train_details": {
+"passage": "By Rail",
+"nearest_station": "",
+"station_code": ""
+},
+"bus_details": {
+"passage": "By Road",
+"road_city": ""
+}
+}
+}
+}
+}

@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/components/Sidenav/SidenavMenu.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/components/Sidenav</a> SidenavMenu.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">15% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>3/20</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/4</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">15% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>3/20</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import './Sidenav.scss';
+import PropTypes from 'prop-types';
+import { ProfileIcon, HomeIcon, VactionIcon, HoneymoonPackages, FamilyIcon,
+  WorkIcon, OffersIcon, IndianIconBlack, InternationalIconBlack,
+  BlogIcon, TestimonailsIcon, FAQIcon, AllTrips, ContactIcon,
+  LocationMarkerIcon, Seasonal, } from 'helpers/Icon/Icon';
+import { Link } from 'react-router';
+import { trackSegment, DESTINATION_LIST_CLICK, DFEAULT_VALUE, PACKAGE_LIST_CLICK } from '../../actions/segmentEvents';
+import HotelLinks from './HotelLinks';
+&nbsp;
+const SidenavMenu = <span class="fstat-no" title="function not covered" >({</span> selectHandler, isAuthenticated, handleLogout, trackWeekendListClicked }) =&gt; {
+  const section = <span class="cstat-no" title="statement not covered" >'Global Menu';</span>
+  const destinationListClick = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(t</span>ype, cta) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    selectHandler();</span>
+    let destinationName;
+<span class="cstat-no" title="statement not covered" >    if (type === 'weekend') {</span>
+<span class="cstat-no" title="statement not covered" >      destinationName = 'Delhi';</span>
+<span class="cstat-no" title="statement not covered" >      trackWeekendListClicked({</span>
+        section,
+        object: '',
+        cta,
+        destination: destinationName
+      });
+    } else {
+<span class="cstat-no" title="statement not covered" >      trackSegment({</span>
+        event: DESTINATION_LIST_CLICK,
+        section: section,
+        object: '',
+        cta: cta,
+        category: `Destination List: ${type}`,
+        destination_list: type,
+        destination_id: type,
+        value: DFEAULT_VALUE,
+        label: `Destination Type: ${type}`
+      });
+    }
+<span class="cstat-no" title="statement not covered" >    return true;</span>
+  };
+&nbsp;
+  const packageListClick = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(c</span>ategory, cta) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    selectHandler();</span>
+<span class="cstat-no" title="statement not covered" >    trackSegment({</span>
+      event: PACKAGE_LIST_CLICK,
+      section: section,
+      category: 'Destination:',
+      cta: cta,
+      object: 'Destination/0',
+      label: `Package Type: ${category}`,
+      destination_list: '',
+      destination_id: 0,
+      value: DFEAULT_VALUE
+    });
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;div className="row row-"&gt;
+      &lt;ul className="list-side-menu mb24 pb15"&gt;
+        {isAuthenticated ?
+          &lt;div&gt;
+            &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+              &lt;meta itemProp="name" content="Logout" /&gt;
+              &lt;Link itemProp="url" onClick={handleLogout} className="ripple"&gt;&lt;div className="wave-dark" /&gt;
+                &lt;span className="sidenav-icons"&gt;&lt;ProfileIcon /&gt;&lt;/span&gt;
+                Logout
+              &lt;/Link&gt;
+            &lt;/li&gt;
+            &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement" className="alltrips"&gt;
+              &lt;meta itemProp="name" content="All Trips" /&gt;
+              &lt;a itemProp="url" href="/travellers/dashboard" onClick={selectHandler} className="ripple"&gt;
+                &lt;div className="wave-dark" /&gt;
+                &lt;span className="sidenav-icons"&gt;
+                      &lt;AllTrips /&gt;
+                    &lt;/span&gt;
+                All Trips
+              &lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/div&gt; :
+          &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+            &lt;meta itemProp="name" content="Login/Sign up" /&gt;
+            &lt;Link itemProp="url" to="/users/sign_in" className="at_signUp ripple"&gt;&lt;div className="wave-dark" /&gt;
+              &lt;span className="sidenav-icons"&gt;&lt;ProfileIcon /&gt;&lt;/span&gt;
+              Login/Sign up
+            &lt;/Link&gt;
+          &lt;/li&gt;
+        }
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Home" /&gt;
+          &lt;Link itemProp="url" to="/" onClick={selectHandler} className="at_homeLink ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;HomeIcon /&gt;&lt;/span&gt;Home
+          &lt;/Link&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Tour Packages" /&gt;
+          &lt;Link itemProp="url" to="/tour-packages" onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >packageListClick('Tour', 'Tour Packages')}</span> className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;VactionIcon /&gt;&lt;/span&gt;Tour Packages&lt;/Link&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Honeymoon Packages" /&gt;
+          &lt;Link itemProp="url" to="/honeymoon-packages" onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >packageListClick('Honeymoon', 'Honeymoon Packages')}</span> className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;HoneymoonPackages /&gt;&lt;/span&gt;Honeymoon Packages&lt;/Link&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Family Packages" /&gt;
+          &lt;Link itemProp="url" to="/family-packages" onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >packageListClick('Family', 'Family Packages')}</span> className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;FamilyIcon /&gt;&lt;/span&gt;Family Packages&lt;/Link&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Indian Destinations" /&gt;
+          &lt;Link itemProp="url" to="/All-Places/?is_international=false" className="ripple"onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >destinationListClick('Indian', 'Indian Destinations')}</span>&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;IndianIconBlack /&gt;&lt;/span&gt;Indian Destinations&lt;/Link&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="International Destinations" /&gt;
+          &lt;Link itemProp="url" to="/All-Places?is_international=true" className="ripple"onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >destinationListClick('International', 'International Destinations')}</span>&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;InternationalIconBlack /&gt;&lt;/span&gt;International Destinations&lt;/Link&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;HotelLinks /&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Destination Guide" /&gt;
+          &lt;Link itemProp="url" to="/india-tourism" className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;LocationMarkerIcon /&gt;&lt;/span&gt;Destination Guide&lt;/Link&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Seasonal Packages" /&gt;
+          &lt;Link itemProp="url" to="/seasonal-packages" className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;Seasonal /&gt;&lt;/span&gt;Seasonal Packages&lt;/Link&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul className="list-side-menu m0 pb15"&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="How It Works" /&gt;
+          &lt;a itemProp="url" href="https://traveltriangle.com/how_it_works" className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;WorkIcon /&gt;&lt;/span&gt;How It Works&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Offers" /&gt;
+          &lt;a itemProp="url" href="https://traveltriangle.com/offers" className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;OffersIcon /&gt;&lt;/span&gt;Offers&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Blog" /&gt;
+          &lt;a itemProp="url" href="https://traveltriangle.com/blog" className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;BlogIcon /&gt;&lt;/span&gt;Blog&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Testimonials" /&gt;
+          &lt;a itemProp="url" href="https://traveltriangle.com/testimonials" className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;TestimonailsIcon /&gt;&lt;/span&gt;Testimonials&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="FAQ" /&gt;
+          &lt;a itemProp="url" href="https://traveltriangle.com/FAQs" className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;FAQIcon /&gt;&lt;/span&gt;FAQ&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li itemScope="itemscope" itemType="https://schema.org/SiteNavigationElement"&gt;
+          &lt;meta itemProp="name" content="Contact Us" /&gt;
+          &lt;a itemProp="url" href="https://traveltriangle.com/contact_us" className="ripple"&gt;&lt;div className="wave-dark" /&gt;&lt;span className="sidenav-icons"&gt;&lt;ContactIcon /&gt;&lt;/span&gt;Contact Us&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div className="p15"&gt;
+        &lt;p className="f14 mb8"&gt;For any help&lt;/p&gt;
+        &lt;h6 className="f16 m0 fw9"&gt;&lt;a href="tel:18001235555"&gt;1800-123-5555&lt;/a&gt;&lt;/h6&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+SidenavMenu.propTypes = {
+  selectHandler: PropTypes.func,
+  isAuthenticated: PropTypes.bool,
+  handleLogout: PropTypes.func.isRequired,
+  trackWeekendListClicked: PropTypes.func.isRequired,
+};
+&nbsp;
+SidenavMenu.defaultProps = {
+  selectHandler: <span class="fstat-no" title="function not covered" >()</span> =&gt; {},
+  isAuthenticated: false
+};
+export default SidenavMenu;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+:local {
+  .data {
+    overflow: hidden;
+    &.expanded {
+      overflow: visible;
+    }
+  }
+
+  .readMore {
+    float: right;
+    color: #2196F3;
+    padding-right: 0;
+    position: relative;
+    .downArrow {
+      width: 10px;
+      height: 6px;
+        &:before, &:after {
+          display: none;
+        }
+        & svg {
+          display: block;
+        }
+    }
+  }
+}

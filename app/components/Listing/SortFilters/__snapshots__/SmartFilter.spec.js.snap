@@ -1,0 +1,2099 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SmartFilter module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SmartFilter
+    displayType="Checkbox"
+    filterCounts={
+      Object {
+        "Disneyland": 116,
+        "Flights": 117,
+        "Visa": 115,
+        "city_25176": 0,
+        "city_25191": 73,
+        "city_25207": 0,
+        "city_25686": 2,
+        "city_25862": 1,
+        "city_26137": 85,
+        "city_26182": 10,
+        "city_26193": 67,
+        "city_26318": 4,
+        "city_26319": 2,
+        "city_26320": 238,
+        "city_26355": 6,
+        "city_26369": 145,
+        "city_26407": 156,
+        "city_26429": 1,
+        "city_26560": 62,
+        "city_26567": 2,
+        "city_26646": 0,
+        "city_26826": 4,
+        "city_27215": 10,
+        "city_27218": 6,
+        "city_71320": 1,
+        "city_72977": 1,
+        "days_10___12": 0,
+        "days_1___3": 35,
+        "days_4___6": 202,
+        "days_7___9": 57,
+        "days_gtn13": 0,
+        "hotel_ratings_2": 0,
+        "hotel_ratings_3": 159,
+        "hotel_ratings_4": 82,
+        "hotel_ratings_5": 67,
+        "inclusions_Cab": 91,
+        "inclusions_Disneyland": 0,
+        "inclusions_Flights": 0,
+        "inclusions_Meals": 294,
+        "inclusions_Shared___Coach": 97,
+        "inclusions_Visa": 0,
+        "price_ranges_0___10_000": 49,
+        "price_ranges_10_000___20_000": 157,
+        "price_ranges_20_000___40_000": 80,
+        "price_ranges_40_000___60_000": 7,
+        "price_ranges_60_000___80_000": 0,
+        "price_ranges_80_000___50_000_000": 1,
+        "total_entries": 294,
+        "trip_types_Adventure": 206,
+        "trip_types_Hill___Station": 187,
+        "trip_types_Nature": 280,
+        "trip_types_Religious": 5,
+        "trip_types_Water___Activities": 77,
+      }
+    }
+    filterSelected={[Function]}
+    id="cities"
+    onFilterCheckHandler={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "id": 25176,
+          "name": "Chalakudy",
+          "title": "Chalakudy",
+          "value": "Chalakudy",
+        },
+        Object {
+          "id": 25191,
+          "name": "Kochi",
+          "title": "Kochi",
+          "value": "Kochi",
+        },
+        Object {
+          "id": 25207,
+          "name": "Vaikom",
+          "title": "Vaikom",
+          "value": "Vaikom",
+        },
+        Object {
+          "id": 25686,
+          "name": "Kodaikanal",
+          "title": "Kodaikanal",
+          "value": "Kodaikanal",
+        },
+        Object {
+          "id": 25862,
+          "name": "Madurai",
+          "title": "Madurai",
+          "value": "Madurai",
+        },
+        Object {
+          "id": 26137,
+          "name": "Kovalam",
+          "title": "Kovalam",
+          "value": "Kovalam",
+        },
+        Object {
+          "id": 26182,
+          "name": "Kanyakumari",
+          "title": "Kanyakumari",
+          "value": "Kanyakumari",
+        },
+        Object {
+          "id": 26193,
+          "name": "Kumarakom",
+          "title": "Kumarakom",
+          "value": "Kumarakom",
+        },
+        Object {
+          "id": 26318,
+          "name": "Trivandrum",
+          "title": "Trivandrum",
+          "value": "Trivandrum",
+        },
+        Object {
+          "id": 26319,
+          "name": "Ooty",
+          "title": "Ooty",
+          "value": "Ooty",
+        },
+        Object {
+          "id": 26320,
+          "name": "Munnar",
+          "title": "Munnar",
+          "value": "Munnar",
+        },
+        Object {
+          "id": 26355,
+          "name": "Wayanad",
+          "title": "Wayanad",
+          "value": "Wayanad",
+        },
+        Object {
+          "id": 26369,
+          "name": "Thekkady",
+          "title": "Thekkady",
+          "value": "Thekkady",
+        },
+        Object {
+          "id": 26407,
+          "name": "Alleppey",
+          "title": "Alleppey",
+          "value": "Alleppey",
+        },
+        Object {
+          "id": 26429,
+          "name": "Coorg",
+          "title": "Coorg",
+          "value": "Coorg",
+        },
+        Object {
+          "id": 26560,
+          "name": "Cochin",
+          "title": "Cochin",
+          "value": "Cochin",
+        },
+        Object {
+          "id": 26567,
+          "name": "Cherai",
+          "title": "Cherai",
+          "value": "Cherai",
+        },
+        Object {
+          "id": 26646,
+          "name": "Kabini",
+          "title": "Kabini",
+          "value": "Kabini",
+        },
+        Object {
+          "id": 26826,
+          "name": "Guruvayur",
+          "title": "Guruvayur",
+          "value": "Guruvayur",
+        },
+        Object {
+          "id": 27215,
+          "name": "Athirapally",
+          "title": "Athirapally",
+          "value": "Athirapally",
+        },
+        Object {
+          "id": 27218,
+          "name": "Thanneermukkom",
+          "title": "Thanneermukkom",
+          "value": "Thanneermukkom",
+        },
+        Object {
+          "id": 71320,
+          "name": "Athirappilly",
+          "title": "Athirappilly",
+          "value": "Athirappilly",
+        },
+        Object {
+          "id": 72977,
+          "name": "Rameshwaram",
+          "title": "Rameshwaram",
+          "value": "Rameshwaram",
+        },
+      ]
+    }
+    paramsName="cities[]"
+    selectedFields={Object {}}
+    title="Cities"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "cities",
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p
+          className="fw9 pb8"
+        >
+          Cities
+        </p>,
+        <div
+          className="row row- filter-box-options"
+        >
+          <Checkbox
+            count={0}
+            disabled={true}
+            handleOnChange={[Function]}
+            id={25176}
+            isChecked={false}
+            name="cities[]"
+            title="Chalakudy"
+            value="Chalakudy"
+          />
+          <Checkbox
+            count={73}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={25191}
+            isChecked={false}
+            name="cities[]"
+            title="Kochi"
+            value="Kochi"
+          />
+          <Checkbox
+            count={0}
+            disabled={true}
+            handleOnChange={[Function]}
+            id={25207}
+            isChecked={false}
+            name="cities[]"
+            title="Vaikom"
+            value="Vaikom"
+          />
+          <Checkbox
+            count={2}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={25686}
+            isChecked={false}
+            name="cities[]"
+            title="Kodaikanal"
+            value="Kodaikanal"
+          />
+          <Checkbox
+            count={1}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={25862}
+            isChecked={false}
+            name="cities[]"
+            title="Madurai"
+            value="Madurai"
+          />
+          <Checkbox
+            count={85}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26137}
+            isChecked={false}
+            name="cities[]"
+            title="Kovalam"
+            value="Kovalam"
+          />
+          <Checkbox
+            count={10}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26182}
+            isChecked={false}
+            name="cities[]"
+            title="Kanyakumari"
+            value="Kanyakumari"
+          />
+          <Checkbox
+            count={67}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26193}
+            isChecked={false}
+            name="cities[]"
+            title="Kumarakom"
+            value="Kumarakom"
+          />
+          <Checkbox
+            count={4}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26318}
+            isChecked={false}
+            name="cities[]"
+            title="Trivandrum"
+            value="Trivandrum"
+          />
+          <Checkbox
+            count={2}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26319}
+            isChecked={false}
+            name="cities[]"
+            title="Ooty"
+            value="Ooty"
+          />
+          <Checkbox
+            count={238}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26320}
+            isChecked={false}
+            name="cities[]"
+            title="Munnar"
+            value="Munnar"
+          />
+          <Checkbox
+            count={6}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26355}
+            isChecked={false}
+            name="cities[]"
+            title="Wayanad"
+            value="Wayanad"
+          />
+          <Checkbox
+            count={145}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26369}
+            isChecked={false}
+            name="cities[]"
+            title="Thekkady"
+            value="Thekkady"
+          />
+          <Checkbox
+            count={156}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26407}
+            isChecked={false}
+            name="cities[]"
+            title="Alleppey"
+            value="Alleppey"
+          />
+          <Checkbox
+            count={1}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26429}
+            isChecked={false}
+            name="cities[]"
+            title="Coorg"
+            value="Coorg"
+          />
+          <Checkbox
+            count={62}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26560}
+            isChecked={false}
+            name="cities[]"
+            title="Cochin"
+            value="Cochin"
+          />
+          <Checkbox
+            count={2}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26567}
+            isChecked={false}
+            name="cities[]"
+            title="Cherai"
+            value="Cherai"
+          />
+          <Checkbox
+            count={0}
+            disabled={true}
+            handleOnChange={[Function]}
+            id={26646}
+            isChecked={false}
+            name="cities[]"
+            title="Kabini"
+            value="Kabini"
+          />
+          <Checkbox
+            count={4}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={26826}
+            isChecked={false}
+            name="cities[]"
+            title="Guruvayur"
+            value="Guruvayur"
+          />
+          <Checkbox
+            count={10}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={27215}
+            isChecked={false}
+            name="cities[]"
+            title="Athirapally"
+            value="Athirapally"
+          />
+          <Checkbox
+            count={6}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={27218}
+            isChecked={false}
+            name="cities[]"
+            title="Thanneermukkom"
+            value="Thanneermukkom"
+          />
+          <Checkbox
+            count={1}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={71320}
+            isChecked={false}
+            name="cities[]"
+            title="Athirappilly"
+            value="Athirappilly"
+          />
+          <Checkbox
+            count={1}
+            disabled={false}
+            handleOnChange={[Function]}
+            id={72977}
+            isChecked={false}
+            name="cities[]"
+            title="Rameshwaram"
+            value="Rameshwaram"
+          />
+        </div>,
+      ],
+      "className": "row row- mb8 pb8 pl15 pr15 pt15 sbcw",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Cities",
+          "className": "fw9 pb8",
+        },
+        "ref": null,
+        "rendered": "Cities",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Checkbox
+              count={0}
+              disabled={true}
+              handleOnChange={[Function]}
+              id={25176}
+              isChecked={false}
+              name="cities[]"
+              title="Chalakudy"
+              value="Chalakudy"
+            />,
+            <Checkbox
+              count={73}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={25191}
+              isChecked={false}
+              name="cities[]"
+              title="Kochi"
+              value="Kochi"
+            />,
+            <Checkbox
+              count={0}
+              disabled={true}
+              handleOnChange={[Function]}
+              id={25207}
+              isChecked={false}
+              name="cities[]"
+              title="Vaikom"
+              value="Vaikom"
+            />,
+            <Checkbox
+              count={2}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={25686}
+              isChecked={false}
+              name="cities[]"
+              title="Kodaikanal"
+              value="Kodaikanal"
+            />,
+            <Checkbox
+              count={1}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={25862}
+              isChecked={false}
+              name="cities[]"
+              title="Madurai"
+              value="Madurai"
+            />,
+            <Checkbox
+              count={85}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26137}
+              isChecked={false}
+              name="cities[]"
+              title="Kovalam"
+              value="Kovalam"
+            />,
+            <Checkbox
+              count={10}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26182}
+              isChecked={false}
+              name="cities[]"
+              title="Kanyakumari"
+              value="Kanyakumari"
+            />,
+            <Checkbox
+              count={67}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26193}
+              isChecked={false}
+              name="cities[]"
+              title="Kumarakom"
+              value="Kumarakom"
+            />,
+            <Checkbox
+              count={4}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26318}
+              isChecked={false}
+              name="cities[]"
+              title="Trivandrum"
+              value="Trivandrum"
+            />,
+            <Checkbox
+              count={2}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26319}
+              isChecked={false}
+              name="cities[]"
+              title="Ooty"
+              value="Ooty"
+            />,
+            <Checkbox
+              count={238}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26320}
+              isChecked={false}
+              name="cities[]"
+              title="Munnar"
+              value="Munnar"
+            />,
+            <Checkbox
+              count={6}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26355}
+              isChecked={false}
+              name="cities[]"
+              title="Wayanad"
+              value="Wayanad"
+            />,
+            <Checkbox
+              count={145}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26369}
+              isChecked={false}
+              name="cities[]"
+              title="Thekkady"
+              value="Thekkady"
+            />,
+            <Checkbox
+              count={156}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26407}
+              isChecked={false}
+              name="cities[]"
+              title="Alleppey"
+              value="Alleppey"
+            />,
+            <Checkbox
+              count={1}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26429}
+              isChecked={false}
+              name="cities[]"
+              title="Coorg"
+              value="Coorg"
+            />,
+            <Checkbox
+              count={62}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26560}
+              isChecked={false}
+              name="cities[]"
+              title="Cochin"
+              value="Cochin"
+            />,
+            <Checkbox
+              count={2}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26567}
+              isChecked={false}
+              name="cities[]"
+              title="Cherai"
+              value="Cherai"
+            />,
+            <Checkbox
+              count={0}
+              disabled={true}
+              handleOnChange={[Function]}
+              id={26646}
+              isChecked={false}
+              name="cities[]"
+              title="Kabini"
+              value="Kabini"
+            />,
+            <Checkbox
+              count={4}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26826}
+              isChecked={false}
+              name="cities[]"
+              title="Guruvayur"
+              value="Guruvayur"
+            />,
+            <Checkbox
+              count={10}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={27215}
+              isChecked={false}
+              name="cities[]"
+              title="Athirapally"
+              value="Athirapally"
+            />,
+            <Checkbox
+              count={6}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={27218}
+              isChecked={false}
+              name="cities[]"
+              title="Thanneermukkom"
+              value="Thanneermukkom"
+            />,
+            <Checkbox
+              count={1}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={71320}
+              isChecked={false}
+              name="cities[]"
+              title="Athirappilly"
+              value="Athirappilly"
+            />,
+            <Checkbox
+              count={1}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={72977}
+              isChecked={false}
+              name="cities[]"
+              title="Rameshwaram"
+              value="Rameshwaram"
+            />,
+          ],
+          "className": "row row- filter-box-options",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "25176",
+            "nodeType": "class",
+            "props": Object {
+              "count": 0,
+              "disabled": true,
+              "handleOnChange": [Function],
+              "id": 25176,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Chalakudy",
+              "value": "Chalakudy",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "25191",
+            "nodeType": "class",
+            "props": Object {
+              "count": 73,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 25191,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Kochi",
+              "value": "Kochi",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "25207",
+            "nodeType": "class",
+            "props": Object {
+              "count": 0,
+              "disabled": true,
+              "handleOnChange": [Function],
+              "id": 25207,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Vaikom",
+              "value": "Vaikom",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "25686",
+            "nodeType": "class",
+            "props": Object {
+              "count": 2,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 25686,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Kodaikanal",
+              "value": "Kodaikanal",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "25862",
+            "nodeType": "class",
+            "props": Object {
+              "count": 1,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 25862,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Madurai",
+              "value": "Madurai",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26137",
+            "nodeType": "class",
+            "props": Object {
+              "count": 85,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26137,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Kovalam",
+              "value": "Kovalam",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26182",
+            "nodeType": "class",
+            "props": Object {
+              "count": 10,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26182,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Kanyakumari",
+              "value": "Kanyakumari",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26193",
+            "nodeType": "class",
+            "props": Object {
+              "count": 67,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26193,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Kumarakom",
+              "value": "Kumarakom",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26318",
+            "nodeType": "class",
+            "props": Object {
+              "count": 4,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26318,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Trivandrum",
+              "value": "Trivandrum",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26319",
+            "nodeType": "class",
+            "props": Object {
+              "count": 2,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26319,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Ooty",
+              "value": "Ooty",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26320",
+            "nodeType": "class",
+            "props": Object {
+              "count": 238,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26320,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Munnar",
+              "value": "Munnar",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26355",
+            "nodeType": "class",
+            "props": Object {
+              "count": 6,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26355,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Wayanad",
+              "value": "Wayanad",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26369",
+            "nodeType": "class",
+            "props": Object {
+              "count": 145,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26369,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Thekkady",
+              "value": "Thekkady",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26407",
+            "nodeType": "class",
+            "props": Object {
+              "count": 156,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26407,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Alleppey",
+              "value": "Alleppey",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26429",
+            "nodeType": "class",
+            "props": Object {
+              "count": 1,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26429,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Coorg",
+              "value": "Coorg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26560",
+            "nodeType": "class",
+            "props": Object {
+              "count": 62,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26560,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Cochin",
+              "value": "Cochin",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26567",
+            "nodeType": "class",
+            "props": Object {
+              "count": 2,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26567,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Cherai",
+              "value": "Cherai",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26646",
+            "nodeType": "class",
+            "props": Object {
+              "count": 0,
+              "disabled": true,
+              "handleOnChange": [Function],
+              "id": 26646,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Kabini",
+              "value": "Kabini",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "26826",
+            "nodeType": "class",
+            "props": Object {
+              "count": 4,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 26826,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Guruvayur",
+              "value": "Guruvayur",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "27215",
+            "nodeType": "class",
+            "props": Object {
+              "count": 10,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 27215,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Athirapally",
+              "value": "Athirapally",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "27218",
+            "nodeType": "class",
+            "props": Object {
+              "count": 6,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 27218,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Thanneermukkom",
+              "value": "Thanneermukkom",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "71320",
+            "nodeType": "class",
+            "props": Object {
+              "count": 1,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 71320,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Athirappilly",
+              "value": "Athirappilly",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "72977",
+            "nodeType": "class",
+            "props": Object {
+              "count": 1,
+              "disabled": false,
+              "handleOnChange": [Function],
+              "id": 72977,
+              "isChecked": false,
+              "name": "cities[]",
+              "title": "Rameshwaram",
+              "value": "Rameshwaram",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "cities",
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p
+            className="fw9 pb8"
+          >
+            Cities
+          </p>,
+          <div
+            className="row row- filter-box-options"
+          >
+            <Checkbox
+              count={0}
+              disabled={true}
+              handleOnChange={[Function]}
+              id={25176}
+              isChecked={false}
+              name="cities[]"
+              title="Chalakudy"
+              value="Chalakudy"
+            />
+            <Checkbox
+              count={73}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={25191}
+              isChecked={false}
+              name="cities[]"
+              title="Kochi"
+              value="Kochi"
+            />
+            <Checkbox
+              count={0}
+              disabled={true}
+              handleOnChange={[Function]}
+              id={25207}
+              isChecked={false}
+              name="cities[]"
+              title="Vaikom"
+              value="Vaikom"
+            />
+            <Checkbox
+              count={2}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={25686}
+              isChecked={false}
+              name="cities[]"
+              title="Kodaikanal"
+              value="Kodaikanal"
+            />
+            <Checkbox
+              count={1}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={25862}
+              isChecked={false}
+              name="cities[]"
+              title="Madurai"
+              value="Madurai"
+            />
+            <Checkbox
+              count={85}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26137}
+              isChecked={false}
+              name="cities[]"
+              title="Kovalam"
+              value="Kovalam"
+            />
+            <Checkbox
+              count={10}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26182}
+              isChecked={false}
+              name="cities[]"
+              title="Kanyakumari"
+              value="Kanyakumari"
+            />
+            <Checkbox
+              count={67}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26193}
+              isChecked={false}
+              name="cities[]"
+              title="Kumarakom"
+              value="Kumarakom"
+            />
+            <Checkbox
+              count={4}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26318}
+              isChecked={false}
+              name="cities[]"
+              title="Trivandrum"
+              value="Trivandrum"
+            />
+            <Checkbox
+              count={2}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26319}
+              isChecked={false}
+              name="cities[]"
+              title="Ooty"
+              value="Ooty"
+            />
+            <Checkbox
+              count={238}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26320}
+              isChecked={false}
+              name="cities[]"
+              title="Munnar"
+              value="Munnar"
+            />
+            <Checkbox
+              count={6}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26355}
+              isChecked={false}
+              name="cities[]"
+              title="Wayanad"
+              value="Wayanad"
+            />
+            <Checkbox
+              count={145}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26369}
+              isChecked={false}
+              name="cities[]"
+              title="Thekkady"
+              value="Thekkady"
+            />
+            <Checkbox
+              count={156}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26407}
+              isChecked={false}
+              name="cities[]"
+              title="Alleppey"
+              value="Alleppey"
+            />
+            <Checkbox
+              count={1}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26429}
+              isChecked={false}
+              name="cities[]"
+              title="Coorg"
+              value="Coorg"
+            />
+            <Checkbox
+              count={62}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26560}
+              isChecked={false}
+              name="cities[]"
+              title="Cochin"
+              value="Cochin"
+            />
+            <Checkbox
+              count={2}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26567}
+              isChecked={false}
+              name="cities[]"
+              title="Cherai"
+              value="Cherai"
+            />
+            <Checkbox
+              count={0}
+              disabled={true}
+              handleOnChange={[Function]}
+              id={26646}
+              isChecked={false}
+              name="cities[]"
+              title="Kabini"
+              value="Kabini"
+            />
+            <Checkbox
+              count={4}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={26826}
+              isChecked={false}
+              name="cities[]"
+              title="Guruvayur"
+              value="Guruvayur"
+            />
+            <Checkbox
+              count={10}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={27215}
+              isChecked={false}
+              name="cities[]"
+              title="Athirapally"
+              value="Athirapally"
+            />
+            <Checkbox
+              count={6}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={27218}
+              isChecked={false}
+              name="cities[]"
+              title="Thanneermukkom"
+              value="Thanneermukkom"
+            />
+            <Checkbox
+              count={1}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={71320}
+              isChecked={false}
+              name="cities[]"
+              title="Athirappilly"
+              value="Athirappilly"
+            />
+            <Checkbox
+              count={1}
+              disabled={false}
+              handleOnChange={[Function]}
+              id={72977}
+              isChecked={false}
+              name="cities[]"
+              title="Rameshwaram"
+              value="Rameshwaram"
+            />
+          </div>,
+        ],
+        "className": "row row- mb8 pb8 pl15 pr15 pt15 sbcw",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Cities",
+            "className": "fw9 pb8",
+          },
+          "ref": null,
+          "rendered": "Cities",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Checkbox
+                count={0}
+                disabled={true}
+                handleOnChange={[Function]}
+                id={25176}
+                isChecked={false}
+                name="cities[]"
+                title="Chalakudy"
+                value="Chalakudy"
+              />,
+              <Checkbox
+                count={73}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={25191}
+                isChecked={false}
+                name="cities[]"
+                title="Kochi"
+                value="Kochi"
+              />,
+              <Checkbox
+                count={0}
+                disabled={true}
+                handleOnChange={[Function]}
+                id={25207}
+                isChecked={false}
+                name="cities[]"
+                title="Vaikom"
+                value="Vaikom"
+              />,
+              <Checkbox
+                count={2}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={25686}
+                isChecked={false}
+                name="cities[]"
+                title="Kodaikanal"
+                value="Kodaikanal"
+              />,
+              <Checkbox
+                count={1}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={25862}
+                isChecked={false}
+                name="cities[]"
+                title="Madurai"
+                value="Madurai"
+              />,
+              <Checkbox
+                count={85}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26137}
+                isChecked={false}
+                name="cities[]"
+                title="Kovalam"
+                value="Kovalam"
+              />,
+              <Checkbox
+                count={10}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26182}
+                isChecked={false}
+                name="cities[]"
+                title="Kanyakumari"
+                value="Kanyakumari"
+              />,
+              <Checkbox
+                count={67}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26193}
+                isChecked={false}
+                name="cities[]"
+                title="Kumarakom"
+                value="Kumarakom"
+              />,
+              <Checkbox
+                count={4}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26318}
+                isChecked={false}
+                name="cities[]"
+                title="Trivandrum"
+                value="Trivandrum"
+              />,
+              <Checkbox
+                count={2}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26319}
+                isChecked={false}
+                name="cities[]"
+                title="Ooty"
+                value="Ooty"
+              />,
+              <Checkbox
+                count={238}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26320}
+                isChecked={false}
+                name="cities[]"
+                title="Munnar"
+                value="Munnar"
+              />,
+              <Checkbox
+                count={6}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26355}
+                isChecked={false}
+                name="cities[]"
+                title="Wayanad"
+                value="Wayanad"
+              />,
+              <Checkbox
+                count={145}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26369}
+                isChecked={false}
+                name="cities[]"
+                title="Thekkady"
+                value="Thekkady"
+              />,
+              <Checkbox
+                count={156}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26407}
+                isChecked={false}
+                name="cities[]"
+                title="Alleppey"
+                value="Alleppey"
+              />,
+              <Checkbox
+                count={1}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26429}
+                isChecked={false}
+                name="cities[]"
+                title="Coorg"
+                value="Coorg"
+              />,
+              <Checkbox
+                count={62}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26560}
+                isChecked={false}
+                name="cities[]"
+                title="Cochin"
+                value="Cochin"
+              />,
+              <Checkbox
+                count={2}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26567}
+                isChecked={false}
+                name="cities[]"
+                title="Cherai"
+                value="Cherai"
+              />,
+              <Checkbox
+                count={0}
+                disabled={true}
+                handleOnChange={[Function]}
+                id={26646}
+                isChecked={false}
+                name="cities[]"
+                title="Kabini"
+                value="Kabini"
+              />,
+              <Checkbox
+                count={4}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={26826}
+                isChecked={false}
+                name="cities[]"
+                title="Guruvayur"
+                value="Guruvayur"
+              />,
+              <Checkbox
+                count={10}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={27215}
+                isChecked={false}
+                name="cities[]"
+                title="Athirapally"
+                value="Athirapally"
+              />,
+              <Checkbox
+                count={6}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={27218}
+                isChecked={false}
+                name="cities[]"
+                title="Thanneermukkom"
+                value="Thanneermukkom"
+              />,
+              <Checkbox
+                count={1}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={71320}
+                isChecked={false}
+                name="cities[]"
+                title="Athirappilly"
+                value="Athirappilly"
+              />,
+              <Checkbox
+                count={1}
+                disabled={false}
+                handleOnChange={[Function]}
+                id={72977}
+                isChecked={false}
+                name="cities[]"
+                title="Rameshwaram"
+                value="Rameshwaram"
+              />,
+            ],
+            "className": "row row- filter-box-options",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "25176",
+              "nodeType": "class",
+              "props": Object {
+                "count": 0,
+                "disabled": true,
+                "handleOnChange": [Function],
+                "id": 25176,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Chalakudy",
+                "value": "Chalakudy",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "25191",
+              "nodeType": "class",
+              "props": Object {
+                "count": 73,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 25191,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Kochi",
+                "value": "Kochi",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "25207",
+              "nodeType": "class",
+              "props": Object {
+                "count": 0,
+                "disabled": true,
+                "handleOnChange": [Function],
+                "id": 25207,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Vaikom",
+                "value": "Vaikom",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "25686",
+              "nodeType": "class",
+              "props": Object {
+                "count": 2,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 25686,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Kodaikanal",
+                "value": "Kodaikanal",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "25862",
+              "nodeType": "class",
+              "props": Object {
+                "count": 1,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 25862,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Madurai",
+                "value": "Madurai",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26137",
+              "nodeType": "class",
+              "props": Object {
+                "count": 85,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26137,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Kovalam",
+                "value": "Kovalam",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26182",
+              "nodeType": "class",
+              "props": Object {
+                "count": 10,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26182,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Kanyakumari",
+                "value": "Kanyakumari",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26193",
+              "nodeType": "class",
+              "props": Object {
+                "count": 67,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26193,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Kumarakom",
+                "value": "Kumarakom",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26318",
+              "nodeType": "class",
+              "props": Object {
+                "count": 4,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26318,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Trivandrum",
+                "value": "Trivandrum",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26319",
+              "nodeType": "class",
+              "props": Object {
+                "count": 2,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26319,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Ooty",
+                "value": "Ooty",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26320",
+              "nodeType": "class",
+              "props": Object {
+                "count": 238,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26320,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Munnar",
+                "value": "Munnar",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26355",
+              "nodeType": "class",
+              "props": Object {
+                "count": 6,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26355,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Wayanad",
+                "value": "Wayanad",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26369",
+              "nodeType": "class",
+              "props": Object {
+                "count": 145,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26369,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Thekkady",
+                "value": "Thekkady",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26407",
+              "nodeType": "class",
+              "props": Object {
+                "count": 156,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26407,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Alleppey",
+                "value": "Alleppey",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26429",
+              "nodeType": "class",
+              "props": Object {
+                "count": 1,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26429,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Coorg",
+                "value": "Coorg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26560",
+              "nodeType": "class",
+              "props": Object {
+                "count": 62,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26560,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Cochin",
+                "value": "Cochin",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26567",
+              "nodeType": "class",
+              "props": Object {
+                "count": 2,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26567,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Cherai",
+                "value": "Cherai",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26646",
+              "nodeType": "class",
+              "props": Object {
+                "count": 0,
+                "disabled": true,
+                "handleOnChange": [Function],
+                "id": 26646,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Kabini",
+                "value": "Kabini",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "26826",
+              "nodeType": "class",
+              "props": Object {
+                "count": 4,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 26826,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Guruvayur",
+                "value": "Guruvayur",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "27215",
+              "nodeType": "class",
+              "props": Object {
+                "count": 10,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 27215,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Athirapally",
+                "value": "Athirapally",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "27218",
+              "nodeType": "class",
+              "props": Object {
+                "count": 6,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 27218,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Thanneermukkom",
+                "value": "Thanneermukkom",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "71320",
+              "nodeType": "class",
+              "props": Object {
+                "count": 1,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 71320,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Athirappilly",
+                "value": "Athirappilly",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "72977",
+              "nodeType": "class",
+              "props": Object {
+                "count": 1,
+                "disabled": false,
+                "handleOnChange": [Function],
+                "id": 72977,
+                "isChecked": false,
+                "name": "cities[]",
+                "title": "Rameshwaram",
+                "value": "Rameshwaram",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

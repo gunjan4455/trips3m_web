@@ -1,0 +1,16 @@
+:local{
+  .topSectionMask {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    left: 0;
+  }
+  .topSectionMask.topSectionMaskDest {
+    height: 70%;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.2);
+  }
+
+}

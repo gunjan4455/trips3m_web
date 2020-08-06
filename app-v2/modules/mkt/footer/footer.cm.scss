@@ -1,0 +1,30 @@
+:local {
+  .genSprite {
+    background-image: url("https://img.traveltriangle.com//assets/gen_sprite_blue-6ff0d2571b31bd73ced2d19df477ad67.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+  }
+
+  .textWithIconDiv .textIcon, .textWitIconDiv .textContent {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .genSprite.callIcon {
+    background-position: -254px -5px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .genSprite.mailIcon {
+    background-position: -230px -1px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .paymentGateway {
+    height: 45px;
+  }
+
+}

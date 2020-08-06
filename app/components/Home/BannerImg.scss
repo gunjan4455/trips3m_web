@@ -1,0 +1,79 @@
+.banner-img-container {
+  height: 212px;
+  position: relative;
+  background: #CCCCCC;
+  overflow: hidden;
+}
+.banner-img-container::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: rgba(0,0,0,0.5);
+}
+.banner-img-container, .banner-img-container img{
+  min-height: 212px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.header-background.wfull.header-background-small {
+  height: 280px;
+}
+
+.home_page_header_ui_div_cls {
+  header + .m8.relative, .m8.relative + .m8.p8.sbcw.relative {
+    display: none;
+  }
+  .m8.p8.sbcw.relative + .row.row-.pl8.pr8.mb8 {
+    margin-top: 376px;
+  }
+  .row.row-.text-center.pl8.pr8.mb8 + .row.row-.text-center.pl8.pr8.mb8 {
+    margin-top: 0 !important;
+  }
+  .header-con + div {
+    background-color: transparent;
+  }
+  .search-container-main {
+    margin-top: 190px;
+  }
+  .home_page_theme_ui_div_cls {
+    top: 415px !important;
+  }
+  .at_searchButton {
+    background-color: transparent;
+  }
+  .input-search-large {
+    height: 48px;
+  }
+  header, header + div {
+    z-index: 1;
+  }
+  header .header-con, header + div {
+    background-color: transparent !important;
+  }
+  header + div {
+    margin-top: 230px;
+  }
+  .pbc1.pl8.pr8.pb8.relative + .m8.relative {
+    display: none;
+  }
+  .home_page_theme_ui_div_cls {
+    background: #fff;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .fixed-menu-container {
+    bottom: 55px;
+  }
+  .plan-holi a:hover, .plan-holi a:visited, .plan-holi a:active, .plan-holi a:focus {
+    color: #fff;
+  }
+  .tt-logo .tt-logo-container svg {
+    display: none;
+  }
+}
+

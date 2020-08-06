@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Winter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon/Winter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/winter">
+            <rect id="Rectangle-6" x="0" y="0" width="24" height="24"></rect>
+            <g id="Page-1" transform="translate(3.000000, 2.000000)">
+                <polyline id="Stroke-1" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round" points="6.3563 16.8265714 9.1883 14.1294286 12.0203 16.8265714"></polyline>
+                <polyline id="Stroke-2" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round" points="7.6053 18.1831429 9.1883 16.6755238 10.7713 18.1831429"></polyline>
+                <polyline id="Stroke-4" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round" points="12.0204 3.25057143 9.1884 5.94771429 6.3564 3.25057143"></polyline>
+                <g id="Group-15" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Stroke-5" points="10.7714 1.894 9.1884 3.40161905 7.6054 1.894"></polyline>
+                    <path d="M9.1884,12.9138095 L9.1884,19.5233333" id="Stroke-7"></path>
+                    <path d="M9.1884,0.476190476 L9.1884,6.93142857" id="Stroke-9"></path>
+                    <polyline id="Stroke-11" points="1.5634 11.0351429 5.4244 12.0475238 4.3614 15.725619"></polyline>
+                    <polyline id="Stroke-13" points="0.9423 12.7389524 3.1003 13.305619 2.5053 15.3608571"></polyline>
+                </g>
+                <polyline id="Stroke-16" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round" points="16.7557 9.0192381 12.8947 8.00685714 13.9577 4.32971429"></polyline>
+                <g id="Group-27" transform="translate(0.000000, 3.809524)" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Stroke-17" points="17.3778 3.50628571 15.2188 2.93961905 15.8138 0.883428571"></polyline>
+                    <path d="M7.1483,7.30609524 L0.5003,10.9032381" id="Stroke-19"></path>
+                    <path d="M17.8895,1.49457143 L11.2505,5.086" id="Stroke-21"></path>
+                    <polyline id="Stroke-23" points="4.4677 0.423619048 5.4737 4.11504762 1.5977 5.07409524"></polyline>
+                    <polyline id="Stroke-25" points="2.6073 0.761714286 3.1693 2.82552381 1.0033 3.36171429"></polyline>
+                </g>
+                <polyline id="Stroke-28" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round" points="13.8866 15.7630476 12.8806 12.071619 16.7566 11.1125714"></polyline>
+                <g id="Group-35" transform="translate(0.000000, 4.761905)" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Stroke-29" points="15.7469 10.6635238 15.1849 8.59971429 17.3519 8.06352381"></polyline>
+                    <path d="M7.1503,4.10152381 L0.5913,0.430095238" id="Stroke-31"></path>
+                    <path d="M17.8329,10.0818095 L11.1739,6.3532381" id="Stroke-33"></path>
+                </g>
+                <polygon id="Fill-36" fill="#009688" points="9.1884 13.0078095 5.9984 9.96971429 9.1884 6.93161905 12.3784 9.96971429"></polygon>
+                <polygon id="Stroke-37" stroke="#2B2B2B" stroke-linecap="round" stroke-linejoin="round" points="9.1884 13.0078095 5.9984 9.96971429 9.1884 6.93161905 12.3784 9.96971429"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

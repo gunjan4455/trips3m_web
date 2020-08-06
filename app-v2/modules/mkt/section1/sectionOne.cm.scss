@@ -1,0 +1,60 @@
+:local{
+  .logoContainer {
+    margin: auto;
+    width: 134px;
+  }
+
+  .HeaderTitleTxt {
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+
+    .text{
+      position: relative;
+      padding: 0 25px;
+      word-wrap: break-word;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .textBar{
+        flex-grow: 1;
+        display: inline-block;
+        width: 20px;
+        height: 1px;
+        background: #fff;
+        z-index: 2;
+      }
+    }
+
+    .heading{
+      margin-bottom: 10px;
+      font-family: "Times New Roman", Times, serif !important;
+      font-weight: 500;
+    }
+
+    .small{
+      font-size: 40px;
+    }
+
+    .large{
+      font-size: 70px;
+    }
+
+    .subHeading{
+
+      line-height: 1;
+      position: relative;
+      z-index: 2;
+      padding: 0 10px;
+      font-family: "Times New Roman", Times, serif !important;
+    }
+
+    .bigFont{
+      font-size: 25px;
+    }
+    .smallFont{
+      font-size: 15px;
+    }
+  }
+}

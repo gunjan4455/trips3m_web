@@ -1,0 +1,1620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    item={
+      Object {
+        "address": "<p><span style=ont-family: Arial; font-size: 13px; white-space: pre-wrap;>Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033</span></p>",
+        "description": "<p><strong> Lighthouse beach in Kerala</strong> is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and <a href=/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters>serene backwaters</a>, the <strong>hawa beach in Kovalam</strong> is a breath of fresh air. Tourists and locals alike flock to the <strong>lighthouse beach koval...</strong></p>",
+        "id": 99,
+        "imageAlt": "The incredible lighthouse beach in Kovalam",
+        "imageUrl": "https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg",
+        "imagekitUrl": "https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg",
+        "labels": Array [
+          "Adventure",
+          "Honeymoon",
+          "Ideal for friends",
+          "Ideal for families",
+          "Nature",
+          "Beach",
+        ],
+        "title": "Lighthouse Beach In Kovalam",
+        "urlSpotlight": "https://traveltriangle.com/kerala-tourism/kovalam/places-to-visit/lighthouse-beach",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <div
+        className="clearfix sbcw"
+      >
+        <ForwardRef(render)
+          className="relative"
+        >
+          <Img
+            alt="The incredible lighthouse beach in Kovalam"
+            defaultSrc={null}
+            height={140}
+            ikSrc="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+            onDocumentLoad={false}
+            src="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+            width={320}
+          />
+        </ForwardRef(render)>
+        <ForwardRef(render)>
+          <h3
+            className="ellipsis f14 fw7 m0 mb4"
+          >
+            Lighthouse Beach In Kovalam
+          </h3>
+          <ForwardRef(render)
+            className="f12 m0 pfc3 dynamicTextInherit"
+          >
+            <p>
+              <strong>
+                 Lighthouse beach in Kerala
+              </strong>
+               is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and 
+              <a
+                href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+              >
+                serene backwaters
+              </a>
+              , the 
+              <strong>
+                hawa beach in Kovalam
+              </strong>
+               is a breath of fresh air. Tourists and locals alike flock to the 
+              <strong>
+                lighthouse beach koval...
+              </strong>
+            </p>
+          </ForwardRef(render)>
+          <div
+            className="flex justifyEnd"
+          >
+            <button
+              className="f14 fw7 mt8 sfc1"
+            >
+              Read More
+            </button>
+          </div>
+          <ForwardRef(render)
+            className="flex mt5"
+          >
+            <ForwardRef(render)
+              className="flexFull"
+            >
+              <li
+                className="pfc3"
+              >
+                Adventure
+              </li>
+              <li
+                className="pfc3"
+              >
+                Honeymoon
+              </li>
+              <li
+                className="pfc3"
+              >
+                Ideal for friends
+              </li>
+              <li
+                className="pfc3"
+              >
+                Ideal for families
+              </li>
+              <li
+                className="pfc3"
+              >
+                Nature
+              </li>
+              <li
+                className="pfc3"
+              >
+                Beach
+              </li>
+            </ForwardRef(render)>
+          </ForwardRef(render)>
+        </ForwardRef(render)>
+      </div>,
+      "className": "pfc3 block",
+      "href": "https://traveltriangle.com/kerala-tourism/kovalam/places-to-visit/lighthouse-beach",
+      "onlyActiveOnIndex": false,
+      "style": Object {},
+      "target": "_blank",
+      "to": "https://traveltriangle.com/kerala-tourism/kovalam/places-to-visit/lighthouse-beach",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)
+            className="relative"
+          >
+            <Img
+              alt="The incredible lighthouse beach in Kovalam"
+              defaultSrc={null}
+              height={140}
+              ikSrc="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+              onDocumentLoad={false}
+              src="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+              width={320}
+            />
+          </ForwardRef(render)>,
+          <ForwardRef(render)>
+            <h3
+              className="ellipsis f14 fw7 m0 mb4"
+            >
+              Lighthouse Beach In Kovalam
+            </h3>
+            <ForwardRef(render)
+              className="f12 m0 pfc3 dynamicTextInherit"
+            >
+              <p>
+                <strong>
+                   Lighthouse beach in Kerala
+                </strong>
+                 is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and 
+                <a
+                  href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                >
+                  serene backwaters
+                </a>
+                , the 
+                <strong>
+                  hawa beach in Kovalam
+                </strong>
+                 is a breath of fresh air. Tourists and locals alike flock to the 
+                <strong>
+                  lighthouse beach koval...
+                </strong>
+              </p>
+            </ForwardRef(render)>
+            <div
+              className="flex justifyEnd"
+            >
+              <button
+                className="f14 fw7 mt8 sfc1"
+              >
+                Read More
+              </button>
+            </div>
+            <ForwardRef(render)
+              className="flex mt5"
+            >
+              <ForwardRef(render)
+                className="flexFull"
+              >
+                <li
+                  className="pfc3"
+                >
+                  Adventure
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Honeymoon
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Ideal for friends
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Ideal for families
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Nature
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Beach
+                </li>
+              </ForwardRef(render)>
+            </ForwardRef(render)>
+          </ForwardRef(render)>,
+        ],
+        "className": "clearfix sbcw",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Img
+                alt="The incredible lighthouse beach in Kovalam"
+                defaultSrc={null}
+                height={140}
+                ikSrc="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+                onDocumentLoad={false}
+                src="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+                width={320}
+              />,
+              null,
+            ],
+            "className": "relative",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "alt": "The incredible lighthouse beach in Kovalam",
+                "defaultSrc": null,
+                "height": 140,
+                "ikSrc": "https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg",
+                "onDocumentLoad": false,
+                "src": "https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg",
+                "width": 320,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "& .hoverReadMore": Object {
+                  "& span": Object {
+                    "&:hover": Object {
+                      "background": "#fff",
+                      "border": "1px solid #333",
+                      "color": "#333",
+                    },
+                    "border": "1px solid #fff",
+                    "color": "#fff",
+                    "padding": "12px 40px",
+                  },
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(0,0,0,0.4)",
+                  "display": "none",
+                  "justifyContent": "center",
+                },
+                "& img": Object {
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                },
+                "&:hover .hoverReadMore": Object {
+                  "display": "flex",
+                },
+                "backgroundColor": "#e4e4e4",
+                "height": "140px",
+                "overflow": "hidden",
+                "width": "100%",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <h3
+                className="ellipsis f14 fw7 m0 mb4"
+              >
+                Lighthouse Beach In Kovalam
+              </h3>,
+              <ForwardRef(render)
+                className="f12 m0 pfc3 dynamicTextInherit"
+              >
+                <p>
+                  <strong>
+                     Lighthouse beach in Kerala
+                  </strong>
+                   is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and 
+                  <a
+                    href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                  >
+                    serene backwaters
+                  </a>
+                  , the 
+                  <strong>
+                    hawa beach in Kovalam
+                  </strong>
+                   is a breath of fresh air. Tourists and locals alike flock to the 
+                  <strong>
+                    lighthouse beach koval...
+                  </strong>
+                </p>
+              </ForwardRef(render)>,
+              <div
+                className="flex justifyEnd"
+              >
+                <button
+                  className="f14 fw7 mt8 sfc1"
+                >
+                  Read More
+                </button>
+              </div>,
+              <ForwardRef(render)
+                className="flex mt5"
+              >
+                <ForwardRef(render)
+                  className="flexFull"
+                >
+                  <li
+                    className="pfc3"
+                  >
+                    Adventure
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Honeymoon
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Ideal for friends
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Ideal for families
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Nature
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Beach
+                  </li>
+                </ForwardRef(render)>
+              </ForwardRef(render)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lighthouse Beach In Kovalam",
+                "className": "ellipsis f14 fw7 m0 mb4",
+              },
+              "ref": null,
+              "rendered": "Lighthouse Beach In Kovalam",
+              "type": "h3",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <p>
+                  <strong>
+                     Lighthouse beach in Kerala
+                  </strong>
+                   is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and 
+                  <a
+                    href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                  >
+                    serene backwaters
+                  </a>
+                  , the 
+                  <strong>
+                    hawa beach in Kovalam
+                  </strong>
+                   is a breath of fresh air. Tourists and locals alike flock to the 
+                  <strong>
+                    lighthouse beach koval...
+                  </strong>
+                </p>,
+                "className": "f12 m0 pfc3 dynamicTextInherit",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <strong>
+                       Lighthouse beach in Kerala
+                    </strong>,
+                    " is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and ",
+                    <a
+                      href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                    >
+                      serene backwaters
+                    </a>,
+                    ", the ",
+                    <strong>
+                      hawa beach in Kovalam
+                    </strong>,
+                    " is a breath of fresh air. Tourists and locals alike flock to the ",
+                    <strong>
+                      lighthouse beach koval...
+                    </strong>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": " Lighthouse beach in Kerala",
+                    },
+                    "ref": null,
+                    "rendered": " Lighthouse beach in Kerala",
+                    "type": "strong",
+                  },
+                  " is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and ",
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "serene backwaters",
+                      "href": "/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters",
+                    },
+                    "ref": null,
+                    "rendered": "serene backwaters",
+                    "type": "a",
+                  },
+                  ", the ",
+                  Object {
+                    "instance": null,
+                    "key": "4",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "hawa beach in Kovalam",
+                    },
+                    "ref": null,
+                    "rendered": "hawa beach in Kovalam",
+                    "type": "strong",
+                  },
+                  " is a breath of fresh air. Tourists and locals alike flock to the ",
+                  Object {
+                    "instance": null,
+                    "key": "6",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "lighthouse beach koval...",
+                    },
+                    "ref": null,
+                    "rendered": "lighthouse beach koval...",
+                    "type": "strong",
+                  },
+                ],
+                "type": "p",
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "& *": Object {
+                      "fontSize": "12px !important",
+                      "lineHeight": "16px !important",
+                      "margin": "0",
+                    },
+                    "& p": Object {
+                      "fontSize": "12px !important",
+                      "lineHeight": "16px !important",
+                      "margin": "0",
+                    },
+                    "fontSize": "12px",
+                    "height": "48px",
+                    "lineHeight": "16px",
+                    "marginBottom": "8px",
+                    "overflow": "hidden",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  className="f14 fw7 mt8 sfc1"
+                >
+                  Read More
+                </button>,
+                "className": "flex justifyEnd",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Read More",
+                  "className": "f14 fw7 mt8 sfc1",
+                },
+                "ref": null,
+                "rendered": "Read More",
+                "type": "button",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <ForwardRef(render)
+                  className="flexFull"
+                >
+                  <li
+                    className="pfc3"
+                  >
+                    Adventure
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Honeymoon
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Ideal for friends
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Ideal for families
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Nature
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Beach
+                  </li>
+                </ForwardRef(render)>,
+                "className": "flex mt5",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="pfc3"
+                    >
+                      Adventure
+                    </li>,
+                    <li
+                      className="pfc3"
+                    >
+                      Honeymoon
+                    </li>,
+                    <li
+                      className="pfc3"
+                    >
+                      Ideal for friends
+                    </li>,
+                    <li
+                      className="pfc3"
+                    >
+                      Ideal for families
+                    </li>,
+                    <li
+                      className="pfc3"
+                    >
+                      Nature
+                    </li>,
+                    <li
+                      className="pfc3"
+                    >
+                      Beach
+                    </li>,
+                  ],
+                  "className": "flexFull",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Adventure",
+                      "className": "pfc3",
+                    },
+                    "ref": null,
+                    "rendered": "Adventure",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Honeymoon",
+                      "className": "pfc3",
+                    },
+                    "ref": null,
+                    "rendered": "Honeymoon",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ideal for friends",
+                      "className": "pfc3",
+                    },
+                    "ref": null,
+                    "rendered": "Ideal for friends",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "3",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ideal for families",
+                      "className": "pfc3",
+                    },
+                    "ref": null,
+                    "rendered": "Ideal for families",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "4",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Nature",
+                      "className": "pfc3",
+                    },
+                    "ref": null,
+                    "rendered": "Nature",
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "5",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Beach",
+                      "className": "pfc3",
+                    },
+                    "ref": null,
+                    "rendered": "Beach",
+                    "type": "li",
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "ul",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "& li": Object {
+                        "border": "1px solid #d4d4d4",
+                        "borderRadius": "20px",
+                        "color": "#3e3e3e",
+                        "display": "inline-block",
+                        "fontSize": "12px",
+                        "lineHeight": "12px",
+                        "listStyle": "none",
+                        "margin": "0 4px 4px 0",
+                        "padding": "5px 10px",
+                      },
+                      "height": "26px",
+                      "margin": "8px 0 0 0",
+                      "overflow": "hidden",
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(ul)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "__emotion_base": "div",
+                "__emotion_forwardProp": undefined,
+                "__emotion_real": [Circular],
+                "__emotion_styles": Array [
+                  Object {
+                    "alignItems": "center",
+                    "justifyContent": "space-between",
+                  },
+                ],
+                "defaultProps": undefined,
+                "displayName": "Styled(div)",
+                "render": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "borderBottomLeftRadius": "2px",
+                "borderBottomRightRadius": "2px",
+                "borderTop": "0",
+                "paddingBottom": "0",
+                "paddingTop": "15px",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="clearfix sbcw"
+        >
+          <ForwardRef(render)
+            className="relative"
+          >
+            <Img
+              alt="The incredible lighthouse beach in Kovalam"
+              defaultSrc={null}
+              height={140}
+              ikSrc="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+              onDocumentLoad={false}
+              src="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+              width={320}
+            />
+          </ForwardRef(render)>
+          <ForwardRef(render)>
+            <h3
+              className="ellipsis f14 fw7 m0 mb4"
+            >
+              Lighthouse Beach In Kovalam
+            </h3>
+            <ForwardRef(render)
+              className="f12 m0 pfc3 dynamicTextInherit"
+            >
+              <p>
+                <strong>
+                   Lighthouse beach in Kerala
+                </strong>
+                 is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and 
+                <a
+                  href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                >
+                  serene backwaters
+                </a>
+                , the 
+                <strong>
+                  hawa beach in Kovalam
+                </strong>
+                 is a breath of fresh air. Tourists and locals alike flock to the 
+                <strong>
+                  lighthouse beach koval...
+                </strong>
+              </p>
+            </ForwardRef(render)>
+            <div
+              className="flex justifyEnd"
+            >
+              <button
+                className="f14 fw7 mt8 sfc1"
+              >
+                Read More
+              </button>
+            </div>
+            <ForwardRef(render)
+              className="flex mt5"
+            >
+              <ForwardRef(render)
+                className="flexFull"
+              >
+                <li
+                  className="pfc3"
+                >
+                  Adventure
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Honeymoon
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Ideal for friends
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Ideal for families
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Nature
+                </li>
+                <li
+                  className="pfc3"
+                >
+                  Beach
+                </li>
+              </ForwardRef(render)>
+            </ForwardRef(render)>
+          </ForwardRef(render)>
+        </div>,
+        "className": "pfc3 block",
+        "href": "https://traveltriangle.com/kerala-tourism/kovalam/places-to-visit/lighthouse-beach",
+        "onlyActiveOnIndex": false,
+        "style": Object {},
+        "target": "_blank",
+        "to": "https://traveltriangle.com/kerala-tourism/kovalam/places-to-visit/lighthouse-beach",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ForwardRef(render)
+              className="relative"
+            >
+              <Img
+                alt="The incredible lighthouse beach in Kovalam"
+                defaultSrc={null}
+                height={140}
+                ikSrc="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+                onDocumentLoad={false}
+                src="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+                width={320}
+              />
+            </ForwardRef(render)>,
+            <ForwardRef(render)>
+              <h3
+                className="ellipsis f14 fw7 m0 mb4"
+              >
+                Lighthouse Beach In Kovalam
+              </h3>
+              <ForwardRef(render)
+                className="f12 m0 pfc3 dynamicTextInherit"
+              >
+                <p>
+                  <strong>
+                     Lighthouse beach in Kerala
+                  </strong>
+                   is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and 
+                  <a
+                    href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                  >
+                    serene backwaters
+                  </a>
+                  , the 
+                  <strong>
+                    hawa beach in Kovalam
+                  </strong>
+                   is a breath of fresh air. Tourists and locals alike flock to the 
+                  <strong>
+                    lighthouse beach koval...
+                  </strong>
+                </p>
+              </ForwardRef(render)>
+              <div
+                className="flex justifyEnd"
+              >
+                <button
+                  className="f14 fw7 mt8 sfc1"
+                >
+                  Read More
+                </button>
+              </div>
+              <ForwardRef(render)
+                className="flex mt5"
+              >
+                <ForwardRef(render)
+                  className="flexFull"
+                >
+                  <li
+                    className="pfc3"
+                  >
+                    Adventure
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Honeymoon
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Ideal for friends
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Ideal for families
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Nature
+                  </li>
+                  <li
+                    className="pfc3"
+                  >
+                    Beach
+                  </li>
+                </ForwardRef(render)>
+              </ForwardRef(render)>
+            </ForwardRef(render)>,
+          ],
+          "className": "clearfix sbcw",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Img
+                  alt="The incredible lighthouse beach in Kovalam"
+                  defaultSrc={null}
+                  height={140}
+                  ikSrc="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+                  onDocumentLoad={false}
+                  src="https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg"
+                  width={320}
+                />,
+                null,
+              ],
+              "className": "relative",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "The incredible lighthouse beach in Kovalam",
+                  "defaultSrc": null,
+                  "height": 140,
+                  "ikSrc": "https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg",
+                  "onDocumentLoad": false,
+                  "src": "https://img.traveltriangle.com/attachments/pictures/873914/original/Lighthouse_Beach_thumb.jpg",
+                  "width": 320,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              null,
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "& .hoverReadMore": Object {
+                    "& span": Object {
+                      "&:hover": Object {
+                        "background": "#fff",
+                        "border": "1px solid #333",
+                        "color": "#333",
+                      },
+                      "border": "1px solid #fff",
+                      "color": "#fff",
+                      "padding": "12px 40px",
+                    },
+                    "alignItems": "center",
+                    "backgroundColor": "rgba(0,0,0,0.4)",
+                    "display": "none",
+                    "justifyContent": "center",
+                  },
+                  "& img": Object {
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                  },
+                  "&:hover .hoverReadMore": Object {
+                    "display": "flex",
+                  },
+                  "backgroundColor": "#e4e4e4",
+                  "height": "140px",
+                  "overflow": "hidden",
+                  "width": "100%",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="ellipsis f14 fw7 m0 mb4"
+                >
+                  Lighthouse Beach In Kovalam
+                </h3>,
+                <ForwardRef(render)
+                  className="f12 m0 pfc3 dynamicTextInherit"
+                >
+                  <p>
+                    <strong>
+                       Lighthouse beach in Kerala
+                    </strong>
+                     is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and 
+                    <a
+                      href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                    >
+                      serene backwaters
+                    </a>
+                    , the 
+                    <strong>
+                      hawa beach in Kovalam
+                    </strong>
+                     is a breath of fresh air. Tourists and locals alike flock to the 
+                    <strong>
+                      lighthouse beach koval...
+                    </strong>
+                  </p>
+                </ForwardRef(render)>,
+                <div
+                  className="flex justifyEnd"
+                >
+                  <button
+                    className="f14 fw7 mt8 sfc1"
+                  >
+                    Read More
+                  </button>
+                </div>,
+                <ForwardRef(render)
+                  className="flex mt5"
+                >
+                  <ForwardRef(render)
+                    className="flexFull"
+                  >
+                    <li
+                      className="pfc3"
+                    >
+                      Adventure
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Honeymoon
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Ideal for friends
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Ideal for families
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Nature
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Beach
+                    </li>
+                  </ForwardRef(render)>
+                </ForwardRef(render)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lighthouse Beach In Kovalam",
+                  "className": "ellipsis f14 fw7 m0 mb4",
+                },
+                "ref": null,
+                "rendered": "Lighthouse Beach In Kovalam",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <p>
+                    <strong>
+                       Lighthouse beach in Kerala
+                    </strong>
+                     is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and 
+                    <a
+                      href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                    >
+                      serene backwaters
+                    </a>
+                    , the 
+                    <strong>
+                      hawa beach in Kovalam
+                    </strong>
+                     is a breath of fresh air. Tourists and locals alike flock to the 
+                    <strong>
+                      lighthouse beach koval...
+                    </strong>
+                  </p>,
+                  "className": "f12 m0 pfc3 dynamicTextInherit",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <strong>
+                         Lighthouse beach in Kerala
+                      </strong>,
+                      " is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and ",
+                      <a
+                        href="/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters"
+                      >
+                        serene backwaters
+                      </a>,
+                      ", the ",
+                      <strong>
+                        hawa beach in Kovalam
+                      </strong>,
+                      " is a breath of fresh air. Tourists and locals alike flock to the ",
+                      <strong>
+                        lighthouse beach koval...
+                      </strong>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": " Lighthouse beach in Kerala",
+                      },
+                      "ref": null,
+                      "rendered": " Lighthouse beach in Kerala",
+                      "type": "strong",
+                    },
+                    " is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and ",
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "serene backwaters",
+                        "href": "/kerala-tourism/kumarakom/places-to-visit/kumarkom-backwaters",
+                      },
+                      "ref": null,
+                      "rendered": "serene backwaters",
+                      "type": "a",
+                    },
+                    ", the ",
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "hawa beach in Kovalam",
+                      },
+                      "ref": null,
+                      "rendered": "hawa beach in Kovalam",
+                      "type": "strong",
+                    },
+                    " is a breath of fresh air. Tourists and locals alike flock to the ",
+                    Object {
+                      "instance": null,
+                      "key": "6",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "lighthouse beach koval...",
+                      },
+                      "ref": null,
+                      "rendered": "lighthouse beach koval...",
+                      "type": "strong",
+                    },
+                  ],
+                  "type": "p",
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "& *": Object {
+                        "fontSize": "12px !important",
+                        "lineHeight": "16px !important",
+                        "margin": "0",
+                      },
+                      "& p": Object {
+                        "fontSize": "12px !important",
+                        "lineHeight": "16px !important",
+                        "margin": "0",
+                      },
+                      "fontSize": "12px",
+                      "height": "48px",
+                      "lineHeight": "16px",
+                      "marginBottom": "8px",
+                      "overflow": "hidden",
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <button
+                    className="f14 fw7 mt8 sfc1"
+                  >
+                    Read More
+                  </button>,
+                  "className": "flex justifyEnd",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Read More",
+                    "className": "f14 fw7 mt8 sfc1",
+                  },
+                  "ref": null,
+                  "rendered": "Read More",
+                  "type": "button",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ForwardRef(render)
+                    className="flexFull"
+                  >
+                    <li
+                      className="pfc3"
+                    >
+                      Adventure
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Honeymoon
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Ideal for friends
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Ideal for families
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Nature
+                    </li>
+                    <li
+                      className="pfc3"
+                    >
+                      Beach
+                    </li>
+                  </ForwardRef(render)>,
+                  "className": "flex mt5",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <li
+                        className="pfc3"
+                      >
+                        Adventure
+                      </li>,
+                      <li
+                        className="pfc3"
+                      >
+                        Honeymoon
+                      </li>,
+                      <li
+                        className="pfc3"
+                      >
+                        Ideal for friends
+                      </li>,
+                      <li
+                        className="pfc3"
+                      >
+                        Ideal for families
+                      </li>,
+                      <li
+                        className="pfc3"
+                      >
+                        Nature
+                      </li>,
+                      <li
+                        className="pfc3"
+                      >
+                        Beach
+                      </li>,
+                    ],
+                    "className": "flexFull",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": "0",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Adventure",
+                        "className": "pfc3",
+                      },
+                      "ref": null,
+                      "rendered": "Adventure",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "1",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Honeymoon",
+                        "className": "pfc3",
+                      },
+                      "ref": null,
+                      "rendered": "Honeymoon",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "2",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ideal for friends",
+                        "className": "pfc3",
+                      },
+                      "ref": null,
+                      "rendered": "Ideal for friends",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "3",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ideal for families",
+                        "className": "pfc3",
+                      },
+                      "ref": null,
+                      "rendered": "Ideal for families",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "4",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Nature",
+                        "className": "pfc3",
+                      },
+                      "ref": null,
+                      "rendered": "Nature",
+                      "type": "li",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": "5",
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Beach",
+                        "className": "pfc3",
+                      },
+                      "ref": null,
+                      "rendered": "Beach",
+                      "type": "li",
+                    },
+                  ],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "__emotion_base": "ul",
+                    "__emotion_forwardProp": undefined,
+                    "__emotion_real": [Circular],
+                    "__emotion_styles": Array [
+                      Object {
+                        "& li": Object {
+                          "border": "1px solid #d4d4d4",
+                          "borderRadius": "20px",
+                          "color": "#3e3e3e",
+                          "display": "inline-block",
+                          "fontSize": "12px",
+                          "lineHeight": "12px",
+                          "listStyle": "none",
+                          "margin": "0 4px 4px 0",
+                          "padding": "5px 10px",
+                        },
+                        "height": "26px",
+                        "margin": "8px 0 0 0",
+                        "overflow": "hidden",
+                      },
+                    ],
+                    "defaultProps": undefined,
+                    "displayName": "Styled(ul)",
+                    "render": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "__emotion_base": "div",
+                  "__emotion_forwardProp": undefined,
+                  "__emotion_real": [Circular],
+                  "__emotion_styles": Array [
+                    Object {
+                      "alignItems": "center",
+                      "justifyContent": "space-between",
+                    },
+                  ],
+                  "defaultProps": undefined,
+                  "displayName": "Styled(div)",
+                  "render": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "__emotion_base": "div",
+              "__emotion_forwardProp": undefined,
+              "__emotion_real": [Circular],
+              "__emotion_styles": Array [
+                Object {
+                  "borderBottomLeftRadius": "2px",
+                  "borderBottomRightRadius": "2px",
+                  "borderTop": "0",
+                  "paddingBottom": "0",
+                  "paddingTop": "15px",
+                },
+              ],
+              "defaultProps": undefined,
+              "displayName": "Styled(div)",
+              "render": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

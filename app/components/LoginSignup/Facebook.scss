@@ -1,0 +1,28 @@
+.form-link-facebook {
+  a{
+    background: #3C5193;
+    padding: 15px;
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+    height: 48px;
+    &:hover, &:visited, &:focus, &:active {
+      color: #FFFFFF;
+      background: #3C5193;
+    }
+  }
+  span {
+    width: auto;
+  }
+}
+
+.facebookIcon {
+  display: flex;
+  justify-content: center;
+  width: 10px;
+  height: 19px;
+  svg {
+    width: 10px;
+    height: 19px;
+  }
+}

@@ -1,0 +1,89 @@
+.itinerary-container-small::before {
+  top: 5px;
+  bottom: -20px;
+  width: 2px;
+  content: '';
+  position: absolute;
+  left:0;
+  background: #B2B2B2;
+  margin-left: -3px;
+}
+.itinerary-container .itinerary-container-box:last-child .itinerary-container-small::before {
+  display: none;
+}
+.days-count p {
+  color: #B2B2B2;
+}
+.days-count::after {
+  content: '';
+  background: #B2B2B2;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  right: -2px;
+  top: 5px;
+  z-index: 2;
+  border-radius: 100%;
+  display: block;
+}
+.itinerary-container .itinerary-container-box:first-child .days-count::after{
+  background: #FE5246;
+}
+.itinerary-container .itinerary-container-box:first-child .days-count p {
+  color: #FE5246;
+}
+.itinerary-tags-box {
+
+}
+.itinerary-tags-box ul, .itinerary-list-box ul {
+  margin:0; padding: 0;
+}
+
+.itinerary-list-box ul li {
+  display: block;
+  list-style: none;
+  position: relative;
+  padding-left: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.itinerary-list-box ul li::before {
+  content: '';
+  background: #B2B2B2;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 0px;
+  top: 13px;
+  border-radius: 100%;
+  display: block;
+}
+.arrow-down {
+  width: 9px;
+  height: 6px;
+}
+.arrow-down svg{
+  display: block;
+}
+.itinerary-list-box {
+  display: none;
+}
+.iti-radio {
+  display: none;
+}
+.iti-radio + label {
+  display: block;
+}
+.iti-radio:checked + label .itinerary-list-box {
+  display: block;
+}
+.iti-radio:checked + label .arrow-down{
+  transform: rotate(-180deg);
+}
+.downSideArrow {
+  width: 10px;
+  height: 6px;
+  margin: 0 auto;
+  display: inline-block;
+  margin-left: 5px;
+}

@@ -1,0 +1,31 @@
+.reviewer__testimonial {
+    min-width: 50px;
+    max-width: 50px;
+}
+.review-card-container .user-testimonial-card:nth-child(odd) .reviewer__testimonial{ background: #761c19;}
+.review-card-container .user-testimonial-card:nth-child(even) .reviewer__testimonial{ background: #c9302c;}
+
+.review-card-container .testimonial-comment:before {
+    position: absolute;
+    top: -20px;
+    content: "";
+    height: 0;
+    width: 0;
+    left: 30px;
+    border: 10px solid transparent;
+    border-bottom-color: #EFEFEF;
+  }
+
+.activeFilter {
+    color: #009688;
+    &:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        width: 100%;
+        content: '';
+        background-color: #009688;
+    }
+}

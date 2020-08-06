@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render correctly should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CheaperDealPopUp
+    addMessage={[Function]}
+    afterSend={[Function]}
+    agent={
+      Object {
+        "email": "UserEmail_353152@gmail.com",
+        "id": 353152,
+        "imageUrl": "https://img.traveltriangle.com/stage/attachments/tr_a_profiles/1369/original/logo_we_care.jpg?tr=,w-300",
+        "name": "Agent 353152",
+        "reviewLink": "https://bookings-qa3.ttdev.in/agents/3335333135322d547261-Travel-Agency-1369",
+        "reviewsCount": 412,
+        "star": 4,
+        "tripsSold": 393,
+      }
+    }
+    closePopup={[Function]}
+    createComment={[Function]}
+    currentQuoteId={12742252}
+    trackSegment={[Function]}
+    tripId={7304969}
+    userDetails={
+      Object {
+        "dashboard_url": "/requested_trips/7304969-User-Email-",
+        "email": "UserEmail_1296977@gmail.com",
+        "first_name": "",
+        "id": 1296977,
+        "image": "https://img.traveltriangle.com/stage/attachments/users/1296977/original/photo.jpg",
+        "last_name": "",
+        "latest_active_trip": Object {
+          "destination_image": "https://img.traveltriangle.com/stage/attachments/destinations/171/original/sgd.JPG?tr=,w-50,h-50",
+          "destination_name": "Sikkim - Gangtok - Darjeeling",
+          "status_txt": "Update on Quotes here",
+          "trip_id": 7304969,
+          "trip_path": "/requested_trips/7304969-User-Email-",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="icon-24 absolute r15 t15"
+          onClick={[Function]}
+        >
+          <IconSvg />
+        </div>,
+        <div
+          className="flex flexDColumn alignCenter"
+        >
+          <div
+            className="mb15"
+            style={
+              Object {
+                "height": "81px",
+                "width": "114px",
+              }
+            }
+          >
+            <IconSvg />
+          </div>
+          <p
+            className="f20 fw9 mb8"
+          >
+            Got a Cheaper Deal?
+          </p>
+          <p
+            className="mb24 pl48 pr48 text-center"
+          >
+            Tell us if you have a better deal and we will try to match the price.
+          </p>
+          <div
+            className="sfcw fw7 sbc1 radius4 p10 wfull text-center mb15 at_better"
+            onClick={[Function]}
+          >
+            <span>
+              Yes, I Have a Better Deal
+            </span>
+          </div>
+          <p
+            className="fw7 pfc3 at_close"
+            onClick={[Function]}
+          >
+            No, I Don’t
+          </p>
+        </div>,
+      ],
+      "className": "pr15 pl15 pt32 pb24 sbcw at_CheaperDealPopup popUp",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <IconSvg />,
+          "className": "icon-24 absolute r15 t15",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="mb15"
+              style={
+                Object {
+                  "height": "81px",
+                  "width": "114px",
+                }
+              }
+            >
+              <IconSvg />
+            </div>,
+            <p
+              className="f20 fw9 mb8"
+            >
+              Got a Cheaper Deal?
+            </p>,
+            <p
+              className="mb24 pl48 pr48 text-center"
+            >
+              Tell us if you have a better deal and we will try to match the price.
+            </p>,
+            <div
+              className="sfcw fw7 sbc1 radius4 p10 wfull text-center mb15 at_better"
+              onClick={[Function]}
+            >
+              <span>
+                Yes, I Have a Better Deal
+              </span>
+            </div>,
+            <p
+              className="fw7 pfc3 at_close"
+              onClick={[Function]}
+            >
+              No, I Don’t
+            </p>,
+          ],
+          "className": "flex flexDColumn alignCenter",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <IconSvg />,
+              "className": "mb15",
+              "style": Object {
+                "height": "81px",
+                "width": "114px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Got a Cheaper Deal?",
+              "className": "f20 fw9 mb8",
+            },
+            "ref": null,
+            "rendered": "Got a Cheaper Deal?",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Tell us if you have a better deal and we will try to match the price.",
+              "className": "mb24 pl48 pr48 text-center",
+            },
+            "ref": null,
+            "rendered": "Tell us if you have a better deal and we will try to match the price.",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <span>
+                Yes, I Have a Better Deal
+              </span>,
+              "className": "sfcw fw7 sbc1 radius4 p10 wfull text-center mb15 at_better",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Yes, I Have a Better Deal",
+              },
+              "ref": null,
+              "rendered": "Yes, I Have a Better Deal",
+              "type": "span",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "No, I Don’t",
+              "className": "fw7 pfc3 at_close",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "No, I Don’t",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="icon-24 absolute r15 t15"
+            onClick={[Function]}
+          >
+            <IconSvg />
+          </div>,
+          <div
+            className="flex flexDColumn alignCenter"
+          >
+            <div
+              className="mb15"
+              style={
+                Object {
+                  "height": "81px",
+                  "width": "114px",
+                }
+              }
+            >
+              <IconSvg />
+            </div>
+            <p
+              className="f20 fw9 mb8"
+            >
+              Got a Cheaper Deal?
+            </p>
+            <p
+              className="mb24 pl48 pr48 text-center"
+            >
+              Tell us if you have a better deal and we will try to match the price.
+            </p>
+            <div
+              className="sfcw fw7 sbc1 radius4 p10 wfull text-center mb15 at_better"
+              onClick={[Function]}
+            >
+              <span>
+                Yes, I Have a Better Deal
+              </span>
+            </div>
+            <p
+              className="fw7 pfc3 at_close"
+              onClick={[Function]}
+            >
+              No, I Don’t
+            </p>
+          </div>,
+        ],
+        "className": "pr15 pl15 pt32 pb24 sbcw at_CheaperDealPopup popUp",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <IconSvg />,
+            "className": "icon-24 absolute r15 t15",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="mb15"
+                style={
+                  Object {
+                    "height": "81px",
+                    "width": "114px",
+                  }
+                }
+              >
+                <IconSvg />
+              </div>,
+              <p
+                className="f20 fw9 mb8"
+              >
+                Got a Cheaper Deal?
+              </p>,
+              <p
+                className="mb24 pl48 pr48 text-center"
+              >
+                Tell us if you have a better deal and we will try to match the price.
+              </p>,
+              <div
+                className="sfcw fw7 sbc1 radius4 p10 wfull text-center mb15 at_better"
+                onClick={[Function]}
+              >
+                <span>
+                  Yes, I Have a Better Deal
+                </span>
+              </div>,
+              <p
+                className="fw7 pfc3 at_close"
+                onClick={[Function]}
+              >
+                No, I Don’t
+              </p>,
+            ],
+            "className": "flex flexDColumn alignCenter",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <IconSvg />,
+                "className": "mb15",
+                "style": Object {
+                  "height": "81px",
+                  "width": "114px",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Got a Cheaper Deal?",
+                "className": "f20 fw9 mb8",
+              },
+              "ref": null,
+              "rendered": "Got a Cheaper Deal?",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Tell us if you have a better deal and we will try to match the price.",
+                "className": "mb24 pl48 pr48 text-center",
+              },
+              "ref": null,
+              "rendered": "Tell us if you have a better deal and we will try to match the price.",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <span>
+                  Yes, I Have a Better Deal
+                </span>,
+                "className": "sfcw fw7 sbc1 radius4 p10 wfull text-center mb15 at_better",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Yes, I Have a Better Deal",
+                },
+                "ref": null,
+                "rendered": "Yes, I Have a Better Deal",
+                "type": "span",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "No, I Don’t",
+                "className": "fw7 pfc3 at_close",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "No, I Don’t",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

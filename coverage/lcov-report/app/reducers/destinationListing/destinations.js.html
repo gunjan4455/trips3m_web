@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app/reducers/destinationListing/destinations.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app/reducers/destinationListing</a> destinations.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">40% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>10/25</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">25% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>3/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">45.45% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>5/11</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">40% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>10/25</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">140x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import _get from "lodash/get";
+&nbsp;
+import {
+  DESTINATION_LISTING_VIEWED,
+  DESTINATION_LIST_LOAD_SUCCESS,
+  LOAD_MORE_DESTINATIONS,
+  UPDATE_SELECTED_ITEM,
+  TOGGLE_SELECTION_LIST
+}
+from '../../actionConstants';
+&nbsp;
+const weekendDestinations =
+  ['Agra', 'Chandigarh', 'Jammu', 'Delhi',
+    'Jaipur', 'Dehradun', 'Mysore', 'Mumbai',
+    'Pune', 'Bangalore', 'Tirupati', 'Mangalore',
+    'Chennai', 'Kolkata', 'Ahmedabad', 'Baroda',
+    'Bhopal', 'Indore', 'Lucknow', 'Nagpur'];
+&nbsp;
+function generateWeekendOptions() {
+  return weekendDestinations.reduce((options, weekendDestination) =&gt; (
+    {
+      ...options,
+      [weekendDestination]: {
+        name: `From ${weekendDestination}`,
+        url: `/places-near/${weekendDestination}`
+      }
+    }
+  ), {});
+}
+const initialState = {
+  loaded: false,
+  list: [],
+  total: null,
+  defaultDestinationsToDisplay: 10,
+  destinationsToDisplay: 10,
+  currentPage: 1,
+  category: '',
+  weekendDestination: '',
+  options: {},
+  count: 49,
+  selectionListVisible: false,
+  selectionList: {
+    tripTypes: {
+      all: { name: 'All', url: '/All-Places' },
+      romantic: { name: 'Romantic', url: '/Romantic-Places' },
+      honeymoon: { name: 'Honeymoon', url: '/Honeymoon-Places' },
+      adventure: { name: 'Adventure', url: '/Adventure-Places' },
+      family: { name: 'Family', url: '/Family-Places' },
+      nature: { name: 'Nature', url: '/Nature-Places' },
+      // religious: { name: 'Religious', url: '/Religious-Places' },
+      wildlife: { name: 'Wildlife', url: '/Wildlife-Places' },
+      friends: { name: 'Friends / Group', url: '/Friends-Places' },
+      waterActivities: { name: 'Water Activities', url: '/Water%20Activities-Places' },
+    },
+    weekends: generateWeekendOptions(),
+  },
+  selectedItem: 'all'
+};
+&nbsp;
+function adaptDestinationList(data) {
+  const result = (data.destinations || <span class="branch-1 cbranch-no" title="branch not covered" >[])</span>.map(destination =&gt; (
+    {
+      id: destination.id,
+      bestTimeToVisit: destination.best_time_to_visit.split('..'),
+      name: destination.name,
+      ratings: destination.ratings,
+      budget: destination.budget,
+      maxDays: destination.max_days,
+      minDays: destination.min_days,
+      numberOfReviews: destination.number_of_reviews,
+      activityLabels: destination.activies,
+      imagePath: destination.image_path,
+      imagekitUrl: destination.imagekit_url,
+      flightsIncluded: destination.is_flight_present,
+      numberOfTravelers: destination.travelers,
+      numberOfPackages: destination.num_of_packages
+    }
+  ));
+  return result;
+}
+&nbsp;
+export default function reducer(state = <span class="branch-0 cbranch-no" title="branch not covered" >initialState,</span> action = <span class="branch-0 cbranch-no" title="branch not covered" >{})</span> {
+  switch (action.type) {
+<span class="branch-0 cbranch-no" title="branch not covered" >    case DESTINATION_LISTING_VIEWED:</span>
+<span class="cstat-no" title="statement not covered" >      return {</span>
+        ...state,
+        category: action.category,
+        weekendDestination: action.weekendDestination
+      };
+    case DESTINATION_LIST_LOAD_SUCCESS :
+      // var remainingPackages = state.total - state.packagesToDisplay;
+      // if(remainingPackages &lt; 0) remainingPackages = 0;
+      return {
+        ...state,
+        loading: false,
+        loaded: true,
+        list: adaptDestinationList(action.result.data),
+        count: action.result.data.total_count,
+        destinationsToDisplay: state.defaultDestinationsToDisplay,
+        weekendFromDestination: action.result.data.weekend_from_destination,
+        htmlTags: _get(action.result.data, 'trip_type.html_tags', [])
+      };
+<span class="branch-2 cbranch-no" title="branch not covered" >    case LOAD_MORE_DESTINATIONS:</span>
+<span class="cstat-no" title="statement not covered" >      return {</span>
+        ...state,
+        destinationsToDisplay: state.destinationsToDisplay + state.defaultDestinationsToDisplay
+      };
+<span class="branch-3 cbranch-no" title="branch not covered" >    case UPDATE_SELECTED_ITEM:</span>
+<span class="cstat-no" title="statement not covered" >      return {</span>
+        ...state,
+        selectedItem: action.selectedItem
+      };
+<span class="branch-4 cbranch-no" title="branch not covered" >    case TOGGLE_SELECTION_LIST:</span>
+<span class="cstat-no" title="statement not covered" >      return {</span>
+        ...state,
+        selectionListVisible: !state.selectionListVisible
+      };
+    default:
+      return state;
+  }
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >destinationListingInformation(</span>state) {
+<span class="cstat-no" title="statement not covered" >  return <span class="fstat-no" title="function not covered" >()</span> =&gt; (</span>
+<span class="cstat-no" title="statement not covered" >    {</span>
+      category: state.destinationListing.destinationListing.category,
+      weekendDestination: state.destinationListing.destinationListing.weekendDestination,
+      options: state.destinationListing.destinationListing.options
+    }
+  );
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >getSelectionList(</span>state) {
+<span class="cstat-no" title="statement not covered" >  if (state.destinationListing.destinationListing.category) {</span>
+<span class="cstat-no" title="statement not covered" >    return state.destinationListing.destinationListing.selectionList.tripTypes;</span>
+  }
+<span class="cstat-no" title="statement not covered" >  return state.destinationListing.destinationListing.selectionList.weekends;</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >getSelectedItem(</span>state) {
+<span class="cstat-no" title="statement not covered" >  return state.destinationListing.destinationListing.selectedItem;</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >isSelectionListVisible(</span>state) {
+<span class="cstat-no" title="statement not covered" >  return state.destinationListing.destinationListing.selectionListVisible;</span>
+}
+&nbsp;
+export function <span class="fstat-no" title="function not covered" >getFiltersData(</span>state) {
+<span class="cstat-no" title="statement not covered" >  try {</span>
+<span class="cstat-no" title="statement not covered" >    return {</span>
+      filters: state.destinationListing.filters.data,
+      selectedFilters: state.destinationListing.filters.selected,
+    };
+  } catch (e) {
+<span class="cstat-no" title="statement not covered" >    console.log(e);</span>
+<span class="cstat-no" title="statement not covered" >    return {</span>
+      filters: {},
+      selectedFilters: {}
+    };
+  }
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

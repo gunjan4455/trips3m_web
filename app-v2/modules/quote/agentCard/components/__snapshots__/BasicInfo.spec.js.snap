@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Basic info: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BasicInfo
+    destination="Goa"
+    discountInformation={
+      Object {
+        "discount": 0,
+        "discountableType": null,
+        "discountableTypeId": null,
+      }
+    }
+    downloadUrl="https://bookings-qa1.ttdev.in/quotes/7124217/download_quote.pdf"
+    priceInformation={
+      Object {
+        "currency": "Rupee",
+        "perPerson": "per person",
+        "price": 7499,
+        "priceInRupee": 7499,
+      }
+    }
+    showRoster={[Function]}
+    trackSegment={[Function]}
+    tripId={3918699}
+    tripStatus="cancelled"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ForwardRef(render)
+          className="p15 flex alignCenter spaceBetween at_quoteBasicInfo"
+        >
+          <p
+            className="f14 m0 mr5 flexFull at_quoteDestination"
+          >
+            Goa
+          </p>
+          <div
+            className="flexFull quotePriceInfo"
+          >
+            <QuotePrice
+              currency="Rupee"
+              discount={0}
+              discountableType={null}
+              discountableTypeId={null}
+              lineBreak={false}
+              perPerson="per person"
+              price={7499}
+              priceInRupee={7499}
+              showOriginalPrice={true}
+            />
+          </div>
+        </ForwardRef(render)>,
+        <div
+          className="p15 flex spaceBetween alignCenter"
+        >
+          <button
+            className="f14 fw7 sfc1 m0 mr5 flex alignCenter at_downloadQuoteCTA"
+            onClick={[Function]}
+          >
+            <span
+              className="input-24 iblock mr5"
+            >
+              <IconSvg />
+            </span>
+            <span>
+              Download Quote
+            </span>
+          </button>
+          <withRouter(Connect(DiscountOffer))
+            discountInformation={
+              Object {
+                "discount": 0,
+                "discountableType": null,
+                "discountableTypeId": null,
+              }
+            }
+            tripId={3918699}
+          />
+        </div>,
+      ],
+      "className": "sbcw",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <p
+              className="f14 m0 mr5 flexFull at_quoteDestination"
+            >
+              Goa
+            </p>,
+            <div
+              className="flexFull quotePriceInfo"
+            >
+              <QuotePrice
+                currency="Rupee"
+                discount={0}
+                discountableType={null}
+                discountableTypeId={null}
+                lineBreak={false}
+                perPerson="per person"
+                price={7499}
+                priceInRupee={7499}
+                showOriginalPrice={true}
+              />
+            </div>,
+          ],
+          "className": "p15 flex alignCenter spaceBetween at_quoteBasicInfo",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Goa",
+              "className": "f14 m0 mr5 flexFull at_quoteDestination",
+            },
+            "ref": null,
+            "rendered": "Goa",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <QuotePrice
+                currency="Rupee"
+                discount={0}
+                discountableType={null}
+                discountableTypeId={null}
+                lineBreak={false}
+                perPerson="per person"
+                price={7499}
+                priceInRupee={7499}
+                showOriginalPrice={true}
+              />,
+              "className": "flexFull quotePriceInfo",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "currency": "Rupee",
+                "discount": 0,
+                "discountableType": null,
+                "discountableTypeId": null,
+                "lineBreak": false,
+                "perPerson": "per person",
+                "price": 7499,
+                "priceInRupee": 7499,
+                "showOriginalPrice": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "__emotion_base": "div",
+          "__emotion_forwardProp": undefined,
+          "__emotion_real": [Circular],
+          "__emotion_styles": Array [
+            Object {
+              "& .quotePriceInfo": Object {
+                "minWidth": "200px",
+                "textAlign": "right",
+              },
+              "borderBottom": "1px solid #EFEFEF",
+              "borderTop": "1px solid #EFEFEF",
+            },
+          ],
+          "defaultProps": undefined,
+          "displayName": "Styled(div)",
+          "render": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              className="f14 fw7 sfc1 m0 mr5 flex alignCenter at_downloadQuoteCTA"
+              onClick={[Function]}
+            >
+              <span
+                className="input-24 iblock mr5"
+              >
+                <IconSvg />
+              </span>
+              <span>
+                Download Quote
+              </span>
+            </button>,
+            <withRouter(Connect(DiscountOffer))
+              discountInformation={
+                Object {
+                  "discount": 0,
+                  "discountableType": null,
+                  "discountableTypeId": null,
+                }
+              }
+              tripId={3918699}
+            />,
+          ],
+          "className": "p15 flex spaceBetween alignCenter",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="input-24 iblock mr5"
+                >
+                  <IconSvg />
+                </span>,
+                <span>
+                  Download Quote
+                </span>,
+              ],
+              "className": "f14 fw7 sfc1 m0 mr5 flex alignCenter at_downloadQuoteCTA",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <IconSvg />,
+                  "className": "input-24 iblock mr5",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Download Quote",
+                },
+                "ref": null,
+                "rendered": "Download Quote",
+                "type": "span",
+              },
+            ],
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "discountInformation": Object {
+                "discount": 0,
+                "discountableType": null,
+                "discountableTypeId": null,
+              },
+              "tripId": 3918699,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ForwardRef(render)
+            className="p15 flex alignCenter spaceBetween at_quoteBasicInfo"
+          >
+            <p
+              className="f14 m0 mr5 flexFull at_quoteDestination"
+            >
+              Goa
+            </p>
+            <div
+              className="flexFull quotePriceInfo"
+            >
+              <QuotePrice
+                currency="Rupee"
+                discount={0}
+                discountableType={null}
+                discountableTypeId={null}
+                lineBreak={false}
+                perPerson="per person"
+                price={7499}
+                priceInRupee={7499}
+                showOriginalPrice={true}
+              />
+            </div>
+          </ForwardRef(render)>,
+          <div
+            className="p15 flex spaceBetween alignCenter"
+          >
+            <button
+              className="f14 fw7 sfc1 m0 mr5 flex alignCenter at_downloadQuoteCTA"
+              onClick={[Function]}
+            >
+              <span
+                className="input-24 iblock mr5"
+              >
+                <IconSvg />
+              </span>
+              <span>
+                Download Quote
+              </span>
+            </button>
+            <withRouter(Connect(DiscountOffer))
+              discountInformation={
+                Object {
+                  "discount": 0,
+                  "discountableType": null,
+                  "discountableTypeId": null,
+                }
+              }
+              tripId={3918699}
+            />
+          </div>,
+        ],
+        "className": "sbcw",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <p
+                className="f14 m0 mr5 flexFull at_quoteDestination"
+              >
+                Goa
+              </p>,
+              <div
+                className="flexFull quotePriceInfo"
+              >
+                <QuotePrice
+                  currency="Rupee"
+                  discount={0}
+                  discountableType={null}
+                  discountableTypeId={null}
+                  lineBreak={false}
+                  perPerson="per person"
+                  price={7499}
+                  priceInRupee={7499}
+                  showOriginalPrice={true}
+                />
+              </div>,
+            ],
+            "className": "p15 flex alignCenter spaceBetween at_quoteBasicInfo",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Goa",
+                "className": "f14 m0 mr5 flexFull at_quoteDestination",
+              },
+              "ref": null,
+              "rendered": "Goa",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <QuotePrice
+                  currency="Rupee"
+                  discount={0}
+                  discountableType={null}
+                  discountableTypeId={null}
+                  lineBreak={false}
+                  perPerson="per person"
+                  price={7499}
+                  priceInRupee={7499}
+                  showOriginalPrice={true}
+                />,
+                "className": "flexFull quotePriceInfo",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "Rupee",
+                  "discount": 0,
+                  "discountableType": null,
+                  "discountableTypeId": null,
+                  "lineBreak": false,
+                  "perPerson": "per person",
+                  "price": 7499,
+                  "priceInRupee": 7499,
+                  "showOriginalPrice": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "__emotion_base": "div",
+            "__emotion_forwardProp": undefined,
+            "__emotion_real": [Circular],
+            "__emotion_styles": Array [
+              Object {
+                "& .quotePriceInfo": Object {
+                  "minWidth": "200px",
+                  "textAlign": "right",
+                },
+                "borderBottom": "1px solid #EFEFEF",
+                "borderTop": "1px solid #EFEFEF",
+              },
+            ],
+            "defaultProps": undefined,
+            "displayName": "Styled(div)",
+            "render": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <button
+                className="f14 fw7 sfc1 m0 mr5 flex alignCenter at_downloadQuoteCTA"
+                onClick={[Function]}
+              >
+                <span
+                  className="input-24 iblock mr5"
+                >
+                  <IconSvg />
+                </span>
+                <span>
+                  Download Quote
+                </span>
+              </button>,
+              <withRouter(Connect(DiscountOffer))
+                discountInformation={
+                  Object {
+                    "discount": 0,
+                    "discountableType": null,
+                    "discountableTypeId": null,
+                  }
+                }
+                tripId={3918699}
+              />,
+            ],
+            "className": "p15 flex spaceBetween alignCenter",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="input-24 iblock mr5"
+                  >
+                    <IconSvg />
+                  </span>,
+                  <span>
+                    Download Quote
+                  </span>,
+                ],
+                "className": "f14 fw7 sfc1 m0 mr5 flex alignCenter at_downloadQuoteCTA",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <IconSvg />,
+                    "className": "input-24 iblock mr5",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Download Quote",
+                  },
+                  "ref": null,
+                  "rendered": "Download Quote",
+                  "type": "span",
+                },
+              ],
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "discountInformation": Object {
+                  "discount": 0,
+                  "discountableType": null,
+                  "discountableTypeId": null,
+                },
+                "tripId": 3918699,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

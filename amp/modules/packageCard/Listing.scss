@@ -1,0 +1,147 @@
+.package-card{
+  .at_packageDaysCount{
+    color:#f07c00;
+    display: inline-block;
+  }
+  .star-ratings-selection {
+    .hotelStarItem:first-child {
+      border-left: 1px solid #b2b2b2;
+      margin-left: 8px;
+      padding-left: 8px;
+    }
+    &.more-than-three-stars{
+      .hotelStarItem:first-child {
+        border:none;
+        padding-left:0;
+        margin-left:0;
+        margin-top:8px;
+      }
+    }
+  }
+  .discount-ribbon{
+    font-size:10px;
+  }
+  .package-cities{
+    .package-cities-list {
+      .list-heading {
+        background-image: none;
+        margin-right: 0;
+        padding-right: 4px;
+        display: inline-block;
+      }
+      li{
+        font-size:10px;
+        line-height: 16px;
+      }
+    }
+  }
+  .package-cities-list{
+            padding: 4px 0 8px;
+  }
+  .package-price{
+    font-size:24px;
+    .original-price{
+      position: relative;
+      top: -4px;
+      font-size: 10px;
+    }
+  }
+  .starting-from{
+    color:#3e3e3e;
+  }
+  .package-image-title{
+    h2{
+      font-size:14px;
+    }
+  }
+  .star-ratings-selection{
+    .iblock{
+      margin-right:0;
+    }
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .package-card{
+    .at_packageDaysCount{
+        font-size:10px;
+    }
+    .checkbox-common + label, .radio-common-round + label{
+          font-size:10px;
+    }
+  }
+}
+
+.tooltipTextStyle {
+  font-size: 12px;
+  padding: 8px ;
+  width: 140px ;
+  text-align: center ;
+}
+
+
+.package-info-icon.package-info-icon-custom {
+  width: 18px;
+  height: 18px;
+  .tooltipdata-up {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    width: 140px;
+    padding: 8px;
+    background-color: #000;
+    left: -20px;
+    transform: translateX(-50%);
+    &::after {
+      content: '';
+      transform: translateX(-50%);
+      position: absolute;
+      left: calc(50% + 28px);
+      bottom: -8px;
+      border-top: 8px solid #000;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+    }
+  }
+}
+
+
+.checkbox-common, .radio-common-round {
+  display: none;
+}
+.checkbox-common + label, .radio-common-round + label{
+  padding: 0 8px 0 22px;
+  font-size:12px;
+  position: relative;
+}
+.checkbox-common:checked + label{
+  color:#20A397;
+}
+.checkbox-common:checked + label::before{
+  background-image:none;
+  background-color:#fff;
+}
+.checkbox-common:checked + label::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  border-radius:50%;
+  background: #009688;
+}
+.checkbox-common+label:before, .radio-common-round+label:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  left: 0;
+  border-radius: 20px;
+  border: 1px solid #2b2b2b;
+}
+.checkbox-common:checked+label:before, .radio-common-round:checked+label:before {
+  border-color: #20a397;
+
+}

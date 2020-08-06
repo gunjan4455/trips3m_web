@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/shared/agentProfile/AgentOnlineIndicator.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/shared/agentProfile</a> AgentOnlineIndicator.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">3.23% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>1/31</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/18</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/11</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">3.23% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>1/31</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">14x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import glamorous from 'glamorous';
+&nbsp;
+import {
+  isRtmsUserOnline,
+  getRtmsConnection,
+  RtmsChannels
+} from 'helpers/rtms';
+&nbsp;
+const GAgentLiveStatusDiv = glamorous.div({
+  color: '#3e3e3e',
+  '&amp;.online': {
+    color: '#009688'
+  },
+  '&amp; .indicator-dot': {
+    background: '#999999',
+    height: '9px',
+    width: '9px',
+    borderRadius: '50%',
+    display: 'inline-block'
+  },
+  '&amp;.online .indicator-dot': {
+    background: '#009688'
+  },
+  '&amp; p': {
+    display: 'inline-block'
+  }
+});
+&nbsp;
+class AgentOnlineIndicator extends React.Component {
+  static propTypes = {
+    showPresenceMessage: PropTypes.bool.isRequired,
+    userId: PropTypes.number.isRequired,
+    userDetails: PropTypes.object.isRequired,
+    isChatIndicator: PropTypes.bool
+  };
+&nbsp;
+  static defaultProps = {
+    isChatIndicator: false
+  };
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>nstructor(props) {
+<span class="cstat-no" title="statement not covered" >    super(props);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    this.state = {</span>
+      isOnline: false
+    };
+<span class="cstat-no" title="statement not covered" >    this.updateRtmsOnlineStatus = this.updateRtmsOnlineStatus.bind(this);</span>
+<span class="cstat-no" title="statement not covered" >    this.initializeChatUsingRtms = this.initializeChatUsingRtms.bind(this);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    this.indicatorClass = this.indicatorClass.bind(this);</span>
+<span class="cstat-no" title="statement not covered" >    this.showPresenceMessage = this.showPresenceMessage.bind(this);</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>mponentDidMount() {
+    const { userId } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+<span class="cstat-no" title="statement not covered" >    if (userId) {</span>
+<span class="cstat-no" title="statement not covered" >      this.disposeExistingRtms();</span>
+<span class="cstat-no" title="statement not covered" >      this.initializeChatUsingRtms({ userId });</span>
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>mponentDidUpdate({ userId }) {
+<span class="cstat-no" title="statement not covered" >    if (userId !== this.props.userId) {</span>
+<span class="cstat-no" title="statement not covered" >      this.disposeExistingRtms();</span>
+<span class="cstat-no" title="statement not covered" >      this.initializeChatUsingRtms({ userId });</span>
+    }
+  }
+&nbsp;
+  disposeExistingRtms = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+    // close web socket connection and remove all listners
+<span class="cstat-no" title="statement not covered" >    if (this.rtms_) {</span>
+<span class="cstat-no" title="statement not covered" >      this.rtms_.close();</span>
+    }
+  };
+&nbsp;
+<span class="fstat-no" title="function not covered" >  as</span>ync initializeChatUsingRtms({ userId: channelId }) {
+    const currentUserId = <span class="cstat-no" title="statement not covered" >this.props.userDetails.id;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    if (channelId &amp;&amp; currentUserId) {</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      this.rtms_ = await getRtmsConnection({ userId: currentUserId, channel: RtmsChannels.CHAT });</span>
+&nbsp;
+      const subscription = <span class="cstat-no" title="statement not covered" >this.rtms_.subscribeToChannel({</span>
+        channelId
+      });
+<span class="cstat-no" title="statement not covered" >      subscription.on(</span>
+        "status",
+<span class="fstat-no" title="function not covered" >        fu</span>nction (status) {
+<span class="cstat-no" title="statement not covered" >          this.updateRtmsOnlineStatus({ status });</span>
+        }.bind(this)
+      );
+    }
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  up</span>dateRtmsOnlineStatus({ status }) {
+    const isOnline = <span class="cstat-no" title="statement not covered" >isRtmsUserOnline({ status });</span>
+<span class="cstat-no" title="statement not covered" >    this.setState({ isOnline });</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>mponentWillUnmount() {
+<span class="cstat-no" title="statement not covered" >    this.disposeExistingRtms();</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  in</span>dicatorClass() {
+<span class="cstat-no" title="statement not covered" >    return this.state.isOnline</span>
+      ? 'online-ofline-indicator online'
+      : 'online-ofline-indicator';
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  sh</span>owPresenceMessage() {
+<span class="cstat-no" title="statement not covered" >    if (this.props.showPresenceMessage) {</span>
+<span class="cstat-no" title="statement not covered" >      return this.state.isOnline ? 'Online' : 'Offline';</span>
+    }
+<span class="cstat-no" title="statement not covered" >    return null;</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  re</span>nder() {
+    const { isChatIndicator } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      &lt;GAgentLiveStatusDiv className={this.indicatorClass()}&gt;
+        &lt;span className="indicator-dot mr5" /&gt;
+        &lt;p className={`${isChatIndicator ? 'sfcw ' : ' '}` + `m0 ml4 f12`}&gt;{this.showPresenceMessage()}&lt;/p&gt;
+      &lt;/GAgentLiveStatusDiv&gt;
+    );
+  }
+}
+&nbsp;
+export default AgentOnlineIndicator;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Icon/Traveller@svg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/Traveller" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/agent">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            <g id="Page-1" transform="translate(6.000000, 2.000000)">
+                <path d="M10,4 C10,6.20953468 8.20927909,8 6.00057102,8 C3.79072091,8 2,6.20953468 2,4 C2,1.79046532 3.79072091,0 6.00057102,0 C8.20927909,0 10,1.79046532 10,4 Z" id="fill" fill="#009688"></path>
+                <path d="M9.5,4 C9.5,2.06677817 7.93330718,0.5 6.00057102,0.5 C4.06684731,0.5 2.5,2.06662367 2.5,4 C2.5,5.93337633 4.06684731,7.5 6.00057102,7.5 C7.93330718,7.5 9.5,5.93322183 9.5,4 Z" id="Stroke-3" stroke="#000000"></path>
+                <path d="M11.5,19.5 L11.5,14.5004832 C11.5,11.748581 9.04721806,9.5 6,9.5 C2.9534598,9.5 0.5,11.7489295 0.5,14.5004832 L0.5,19.5 L11.5,19.5 Z" id="Stroke-7" stroke="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

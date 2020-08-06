@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Blog_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Side_Menu" transform="translate(-15.000000, -448.000000)">
+            <g id="Group-14" transform="translate(0.000000, 24.000000)">
+                <g id="Login" transform="translate(0.000000, 339.000000)">
+                    <g id="blog" transform="translate(16.000000, 84.000000)">
+                        <g id="Blog_icon">
+                            <rect id="Rectangle-9" x="0" y="0" width="18" height="18"/>
+                            <g id="Page-1" transform="translate(9.000000, 8.500000) scale(-1, 1) translate(-9.000000, -8.500000) translate(0.000000, 2.000000)">
+                                <path d="M1.27818621,4.29206897 L5.68073793,3.22075862 L5.68073793,9.81372414 L1.29928966,8.87958621 C0.723289655,8.75668966 0.313013793,8.24648276 0.316737931,7.65744828 L0.330393103,5.49062069 C0.334117241,4.92082759 0.724531034,4.42675862 1.27818621,4.29206897" id="Fill-1" fill="#009688"/>
+                                <path d="M15.1946069,0.310282759 L15.2194345,12.7240759 L1.2141931,8.7678 C0.67977931,8.61697241 0.310468966,8.12911034 0.310468966,7.57297241 L0.310468966,5.46076552 C0.310468966,4.90524828 0.679158621,4.41738621 1.21357241,4.26655862 L15.1946069,0.310282759 Z" id="Stroke-3" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5.68061379,3.22069655 L5.68061379,9.81428276" id="Stroke-5" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M1.55184828,8.86326207 C1.55184828,8.86326207 2.30971034,15.6126414 9.48115862,11.103331" id="Stroke-7" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.4484,2.03902759 L17.6897793,2.03902759" id="Stroke-9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16.4484,4.71177931 L17.6897793,4.71177931" id="Stroke-11" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

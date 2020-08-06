@@ -1,0 +1,1175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopularPackageCard test suit should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PackageCardExperiment
+    card={
+      Object {
+        "currency": "Rupee",
+        "days": 6,
+        "destinations": "kerala",
+        "discount": 3648,
+        "discounted_price": 19717,
+        "id": 547,
+        "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+        "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+        "inclusions": Array [],
+        "mini_desc": "per person",
+        "name": "Amazing Kerala Trip: Hills, Backwaters & Safari",
+        "nights": 5,
+        "packageUrl": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+        "price": 20065,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Link
+          className="sfcw"
+          onClick={[Function]}
+          onlyActiveOnIndex={false}
+          style={Object {}}
+          to="/packages/2nights-3days-kerala-munnar-tour?id=597"
+        >
+          <div
+            className="relative"
+          >
+            <PackageImgTitle
+              imageUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630"
+              imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg"
+              isLargeImg={true}
+              name="kerala"
+            />
+          </div>
+        </Link>,
+        <VisibilitySensor
+          active={true}
+          containment={null}
+          delayedCall={false}
+          intervalCheck={true}
+          intervalDelay={3000}
+          minTopValue={0}
+          offset={Object {}}
+          onChange={[Function]}
+          partialVisibility={false}
+          resizeCheck={false}
+          resizeDelay={250}
+          resizeThrottle={-1}
+          scrollCheck={false}
+          scrollDelay={250}
+          scrollThrottle={-1}
+        >
+          <span />
+        </VisibilitySensor>,
+        <div
+          className="row row- sbcw 'pt8 pb8'}"
+        >
+          <div>
+            <div
+              className="row row-"
+            >
+              <div
+                className="col-xs-12 pl0 pr0 f10"
+              >
+                <PackageCities
+                  cities={Object {}}
+                  isDealsCard={false}
+                />
+              </div>
+            </div>
+            <div
+              className="row row-"
+            >
+              <div
+                className="iblock pl0"
+              >
+                <PackageDaysDiscountExperiment
+                  days={6}
+                  isPackageRevamp={true}
+                  nights={5}
+                />
+              </div>
+              <div
+                className="block"
+              />
+            </div>
+            <div
+              className="row row-"
+            >
+              <div
+                className="col-xs-12 pl0 pr8"
+              >
+                <PackagePriceExperiment
+                  currency="Rupee"
+                  discount={NaN}
+                  displayRange={false}
+                  hideDiscount={false}
+                  price={20065}
+                  priceFrom={null}
+                  priceTo={null}
+                  priceUnit="per person"
+                  totalDiscount={NaN}
+                  totalPrice={20065}
+                />
+              </div>
+            </div>
+            <div
+              className="row inclusion-height-box mt8"
+            >
+              <PackageIncExc
+                id="card_547"
+                inclusions={Array []}
+                isPackageRevamp={true}
+                noScroll={false}
+              />
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": "row row- mb8 mt8 relative exp-1 package-card",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div
+            className="relative"
+          >
+            <PackageImgTitle
+              imageUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630"
+              imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg"
+              isLargeImg={true}
+              name="kerala"
+            />
+          </div>,
+          "className": "sfcw",
+          "onClick": [Function],
+          "onlyActiveOnIndex": false,
+          "style": Object {},
+          "to": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <PackageImgTitle
+              imageUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630"
+              imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg"
+              isLargeImg={true}
+              name="kerala"
+            />,
+            "className": "relative",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "altText": undefined,
+              "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+              "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+              "isLargeImg": true,
+              "name": "kerala",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "active": true,
+          "children": <span />,
+          "containment": null,
+          "delayedCall": false,
+          "intervalCheck": true,
+          "intervalDelay": 3000,
+          "minTopValue": 0,
+          "offset": Object {},
+          "onChange": [Function],
+          "partialVisibility": false,
+          "resizeCheck": false,
+          "resizeDelay": 250,
+          "resizeThrottle": -1,
+          "scrollCheck": false,
+          "scrollDelay": 250,
+          "scrollThrottle": -1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div>
+            <div
+              className="row row-"
+            >
+              <div
+                className="col-xs-12 pl0 pr0 f10"
+              >
+                <PackageCities
+                  cities={Object {}}
+                  isDealsCard={false}
+                />
+              </div>
+            </div>
+            <div
+              className="row row-"
+            >
+              <div
+                className="iblock pl0"
+              >
+                <PackageDaysDiscountExperiment
+                  days={6}
+                  isPackageRevamp={true}
+                  nights={5}
+                />
+              </div>
+              <div
+                className="block"
+              />
+            </div>
+            <div
+              className="row row-"
+            >
+              <div
+                className="col-xs-12 pl0 pr8"
+              >
+                <PackagePriceExperiment
+                  currency="Rupee"
+                  discount={NaN}
+                  displayRange={false}
+                  hideDiscount={false}
+                  price={20065}
+                  priceFrom={null}
+                  priceTo={null}
+                  priceUnit="per person"
+                  totalDiscount={NaN}
+                  totalPrice={20065}
+                />
+              </div>
+            </div>
+            <div
+              className="row inclusion-height-box mt8"
+            >
+              <PackageIncExc
+                id="card_547"
+                inclusions={Array []}
+                isPackageRevamp={true}
+                noScroll={false}
+              />
+            </div>
+          </div>,
+          "className": "row row- sbcw 'pt8 pb8'}",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr0 f10"
+                >
+                  <PackageCities
+                    cities={Object {}}
+                    isDealsCard={false}
+                  />
+                </div>
+              </div>,
+              <div
+                className="row row-"
+              >
+                <div
+                  className="iblock pl0"
+                >
+                  <PackageDaysDiscountExperiment
+                    days={6}
+                    isPackageRevamp={true}
+                    nights={5}
+                  />
+                </div>
+                <div
+                  className="block"
+                />
+              </div>,
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr8"
+                >
+                  <PackagePriceExperiment
+                    currency="Rupee"
+                    discount={NaN}
+                    displayRange={false}
+                    hideDiscount={false}
+                    price={20065}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="per person"
+                    totalDiscount={NaN}
+                    totalPrice={20065}
+                  />
+                </div>
+              </div>,
+              <div
+                className="row inclusion-height-box mt8"
+              >
+                <PackageIncExc
+                  id="card_547"
+                  inclusions={Array []}
+                  isPackageRevamp={true}
+                  noScroll={false}
+                />
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="col-xs-12 pl0 pr0 f10"
+                >
+                  <PackageCities
+                    cities={Object {}}
+                    isDealsCard={false}
+                  />
+                </div>,
+                "className": "row row-",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PackageCities
+                    cities={Object {}}
+                    isDealsCard={false}
+                  />,
+                  "className": "col-xs-12 pl0 pr0 f10",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "cities": Object {},
+                    "isDealsCard": false,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="iblock pl0"
+                  >
+                    <PackageDaysDiscountExperiment
+                      days={6}
+                      isPackageRevamp={true}
+                      nights={5}
+                    />
+                  </div>,
+                  <div
+                    className="block"
+                  />,
+                ],
+                "className": "row row-",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PackageDaysDiscountExperiment
+                      days={6}
+                      isPackageRevamp={true}
+                      nights={5}
+                    />,
+                    "className": "iblock pl0",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "days": 6,
+                      "isPackageRevamp": true,
+                      "nights": 5,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": null,
+                    "className": "block",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="col-xs-12 pl0 pr8"
+                >
+                  <PackagePriceExperiment
+                    currency="Rupee"
+                    discount={NaN}
+                    displayRange={false}
+                    hideDiscount={false}
+                    price={20065}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="per person"
+                    totalDiscount={NaN}
+                    totalPrice={20065}
+                  />
+                </div>,
+                "className": "row row-",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PackagePriceExperiment
+                    currency="Rupee"
+                    discount={NaN}
+                    displayRange={false}
+                    hideDiscount={false}
+                    price={20065}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="per person"
+                    totalDiscount={NaN}
+                    totalPrice={20065}
+                  />,
+                  "className": "col-xs-12 pl0 pr8",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "currency": "Rupee",
+                    "discount": NaN,
+                    "displayRange": false,
+                    "hideDiscount": false,
+                    "price": 20065,
+                    "priceFrom": null,
+                    "priceTo": null,
+                    "priceUnit": "per person",
+                    "promoTag": undefined,
+                    "totalDiscount": NaN,
+                    "totalPrice": 20065,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <PackageIncExc
+                  id="card_547"
+                  inclusions={Array []}
+                  isPackageRevamp={true}
+                  noScroll={false}
+                />,
+                "className": "row inclusion-height-box mt8",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "hotelInfo": undefined,
+                  "id": "card_547",
+                  "inclusions": Array [],
+                  "isPackageRevamp": true,
+                  "noScroll": false,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            className="sfcw"
+            onClick={[Function]}
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/packages/2nights-3days-kerala-munnar-tour?id=597"
+          >
+            <div
+              className="relative"
+            >
+              <PackageImgTitle
+                imageUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630"
+                imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg"
+                isLargeImg={true}
+                name="kerala"
+              />
+            </div>
+          </Link>,
+          <VisibilitySensor
+            active={true}
+            containment={null}
+            delayedCall={false}
+            intervalCheck={true}
+            intervalDelay={3000}
+            minTopValue={0}
+            offset={Object {}}
+            onChange={[Function]}
+            partialVisibility={false}
+            resizeCheck={false}
+            resizeDelay={250}
+            resizeThrottle={-1}
+            scrollCheck={false}
+            scrollDelay={250}
+            scrollThrottle={-1}
+          >
+            <span />
+          </VisibilitySensor>,
+          <div
+            className="row row- sbcw 'pt8 pb8'}"
+          >
+            <div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr0 f10"
+                >
+                  <PackageCities
+                    cities={Object {}}
+                    isDealsCard={false}
+                  />
+                </div>
+              </div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="iblock pl0"
+                >
+                  <PackageDaysDiscountExperiment
+                    days={6}
+                    isPackageRevamp={true}
+                    nights={5}
+                  />
+                </div>
+                <div
+                  className="block"
+                />
+              </div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr8"
+                >
+                  <PackagePriceExperiment
+                    currency="Rupee"
+                    discount={NaN}
+                    displayRange={false}
+                    hideDiscount={false}
+                    price={20065}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="per person"
+                    totalDiscount={NaN}
+                    totalPrice={20065}
+                  />
+                </div>
+              </div>
+              <div
+                className="row inclusion-height-box mt8"
+              >
+                <PackageIncExc
+                  id="card_547"
+                  inclusions={Array []}
+                  isPackageRevamp={true}
+                  noScroll={false}
+                />
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": "row row- mb8 mt8 relative exp-1 package-card",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <div
+              className="relative"
+            >
+              <PackageImgTitle
+                imageUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630"
+                imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg"
+                isLargeImg={true}
+                name="kerala"
+              />
+            </div>,
+            "className": "sfcw",
+            "onClick": [Function],
+            "onlyActiveOnIndex": false,
+            "style": Object {},
+            "to": "/packages/2nights-3days-kerala-munnar-tour?id=597",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <PackageImgTitle
+                imageUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630"
+                imagekitUrl="https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg"
+                isLargeImg={true}
+                name="kerala"
+              />,
+              "className": "relative",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "altText": undefined,
+                "imageUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg?tr=,w-630",
+                "imagekitUrl": "https://img.traveltriangle.com/stage/attachments/pictures/842065/original/Thekkady_River.jpg",
+                "isLargeImg": true,
+                "name": "kerala",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": true,
+            "children": <span />,
+            "containment": null,
+            "delayedCall": false,
+            "intervalCheck": true,
+            "intervalDelay": 3000,
+            "minTopValue": 0,
+            "offset": Object {},
+            "onChange": [Function],
+            "partialVisibility": false,
+            "resizeCheck": false,
+            "resizeDelay": 250,
+            "resizeThrottle": -1,
+            "scrollCheck": false,
+            "scrollDelay": 250,
+            "scrollThrottle": -1,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr0 f10"
+                >
+                  <PackageCities
+                    cities={Object {}}
+                    isDealsCard={false}
+                  />
+                </div>
+              </div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="iblock pl0"
+                >
+                  <PackageDaysDiscountExperiment
+                    days={6}
+                    isPackageRevamp={true}
+                    nights={5}
+                  />
+                </div>
+                <div
+                  className="block"
+                />
+              </div>
+              <div
+                className="row row-"
+              >
+                <div
+                  className="col-xs-12 pl0 pr8"
+                >
+                  <PackagePriceExperiment
+                    currency="Rupee"
+                    discount={NaN}
+                    displayRange={false}
+                    hideDiscount={false}
+                    price={20065}
+                    priceFrom={null}
+                    priceTo={null}
+                    priceUnit="per person"
+                    totalDiscount={NaN}
+                    totalPrice={20065}
+                  />
+                </div>
+              </div>
+              <div
+                className="row inclusion-height-box mt8"
+              >
+                <PackageIncExc
+                  id="card_547"
+                  inclusions={Array []}
+                  isPackageRevamp={true}
+                  noScroll={false}
+                />
+              </div>
+            </div>,
+            "className": "row row- sbcw 'pt8 pb8'}",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12 pl0 pr0 f10"
+                  >
+                    <PackageCities
+                      cities={Object {}}
+                      isDealsCard={false}
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="iblock pl0"
+                  >
+                    <PackageDaysDiscountExperiment
+                      days={6}
+                      isPackageRevamp={true}
+                      nights={5}
+                    />
+                  </div>
+                  <div
+                    className="block"
+                  />
+                </div>,
+                <div
+                  className="row row-"
+                >
+                  <div
+                    className="col-xs-12 pl0 pr8"
+                  >
+                    <PackagePriceExperiment
+                      currency="Rupee"
+                      discount={NaN}
+                      displayRange={false}
+                      hideDiscount={false}
+                      price={20065}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="per person"
+                      totalDiscount={NaN}
+                      totalPrice={20065}
+                    />
+                  </div>
+                </div>,
+                <div
+                  className="row inclusion-height-box mt8"
+                >
+                  <PackageIncExc
+                    id="card_547"
+                    inclusions={Array []}
+                    isPackageRevamp={true}
+                    noScroll={false}
+                  />
+                </div>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-xs-12 pl0 pr0 f10"
+                  >
+                    <PackageCities
+                      cities={Object {}}
+                      isDealsCard={false}
+                    />
+                  </div>,
+                  "className": "row row-",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PackageCities
+                      cities={Object {}}
+                      isDealsCard={false}
+                    />,
+                    "className": "col-xs-12 pl0 pr0 f10",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "cities": Object {},
+                      "isDealsCard": false,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="iblock pl0"
+                    >
+                      <PackageDaysDiscountExperiment
+                        days={6}
+                        isPackageRevamp={true}
+                        nights={5}
+                      />
+                    </div>,
+                    <div
+                      className="block"
+                    />,
+                  ],
+                  "className": "row row-",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <PackageDaysDiscountExperiment
+                        days={6}
+                        isPackageRevamp={true}
+                        nights={5}
+                      />,
+                      "className": "iblock pl0",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "days": 6,
+                        "isPackageRevamp": true,
+                        "nights": 5,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": null,
+                      "className": "block",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-xs-12 pl0 pr8"
+                  >
+                    <PackagePriceExperiment
+                      currency="Rupee"
+                      discount={NaN}
+                      displayRange={false}
+                      hideDiscount={false}
+                      price={20065}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="per person"
+                      totalDiscount={NaN}
+                      totalPrice={20065}
+                    />
+                  </div>,
+                  "className": "row row-",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <PackagePriceExperiment
+                      currency="Rupee"
+                      discount={NaN}
+                      displayRange={false}
+                      hideDiscount={false}
+                      price={20065}
+                      priceFrom={null}
+                      priceTo={null}
+                      priceUnit="per person"
+                      totalDiscount={NaN}
+                      totalPrice={20065}
+                    />,
+                    "className": "col-xs-12 pl0 pr8",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "currency": "Rupee",
+                      "discount": NaN,
+                      "displayRange": false,
+                      "hideDiscount": false,
+                      "price": 20065,
+                      "priceFrom": null,
+                      "priceTo": null,
+                      "priceUnit": "per person",
+                      "promoTag": undefined,
+                      "totalDiscount": NaN,
+                      "totalPrice": 20065,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <PackageIncExc
+                    id="card_547"
+                    inclusions={Array []}
+                    isPackageRevamp={true}
+                    noScroll={false}
+                  />,
+                  "className": "row inclusion-height-box mt8",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "hotelInfo": undefined,
+                    "id": "card_547",
+                    "inclusions": Array [],
+                    "isPackageRevamp": true,
+                    "noScroll": false,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

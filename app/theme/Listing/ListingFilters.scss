@@ -1,0 +1,141 @@
+.filter-row {
+
+}
+.filter-row-container {
+  display: none;
+}
+.filter-row-container + label {
+  display: block;
+}
+.filter-row-container:checked + label .destination-type-btn>span svg {
+  -moz-transform: translate(-50%, -50%) rotate(180deg);
+  -webkit-transform: translate(-50%, -50%) rotate(180deg);
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+.destination-type-btn {
+  padding-right: 30px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  span {
+    width: 10px;
+    height: 6px;
+    right: 0;
+    display: block;
+    left: auto;
+    svg {
+      display: block;
+    }
+  }
+}
+.destination-type-body {
+  display: none;
+
+}
+.filter-row-container:checked + label .destination-type-body {
+  display: block;
+}
+.destination-type-body .checkbox-common + label {
+  display: inline-block; font-weight: 400;
+  cursor: pointer;
+}
+.destination-type-body .checkbox-common + label {
+  svg {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+}
+.destination-type-body .checkbox-common + label:nth-of-type(2n-1) {
+  margin-right: 20px;
+}
+.destination-type-body .custom-dest .checkbox-common + label:nth-of-type(2n-1){
+  margin-right: 5px;
+}
+.stars-checkbox {
+  display: inline-block;
+  span {
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+  }
+  svg {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+  }
+}
+
+.activity-icon label svg{
+  width: 18px;
+  margin-right:8px;
+  float:left;
+}
+.filter-city-destination{
+  max-height:300px;
+  overflow-y: auto;
+}
+.pl30{
+  padding-left:30px;
+}
+
+
+
+.filter-type-row {
+  display: none;
+}
+.weekend-filter-heading span {
+  width: 10px;
+  height: 6px;
+  transition: all 0.5s ease-in 0s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  top: 5px;
+  svg {
+    display: block;
+  }
+}
+.weekend-filter-content {
+  display: none;
+}
+.filter-type-row:checked + label .weekend-filter-content {
+  display: block;
+}
+.filter-type-row:checked + label .weekend-filter-heading span {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.filter-icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,50%);
+}
+.filter-icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+  left: 30px;
+}
+.filter-icon svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+}
+.weekend-filter-icon-content label {
+  padding-left: 70px;
+}
+
+// test use for other pages (impactfull)
+.filter-row-container.cityBlockFilterShow {
+  display: block;
+}
+.filter-row-container.cityBlockFilterShow .destination-type-body {
+  display: block;
+}

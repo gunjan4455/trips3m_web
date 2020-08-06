@@ -1,0 +1,22 @@
+.breadcrumb-list{
+  li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 3px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  a {
+    color: #2196F3;
+    &:after{
+      content: '>';
+      padding-left: 2px;
+    }
+  }
+  li:last-child a{
+    color : #2B2B2B;
+    &:after{
+      content: '';
+    }
+  }
+}

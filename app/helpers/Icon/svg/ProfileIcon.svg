@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Profile</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Side_Menu" transform="translate(-19.000000, -23.000000)" stroke="#2B2B2B">
+            <g id="menu_card">
+                <g id="login" transform="translate(16.000000, 23.949403)">
+                    <g id="Profile">
+                        <g transform="translate(4.000000, 0.000000)">
+                            <path d="M7.919928,3.23302566 C7.919928,4.82015258 6.630408,6.10695398 5.039928,6.10695398 C3.449448,6.10695398 2.159928,4.82015258 2.159928,3.23302566 C2.159928,1.64589875 3.449448,0.359097344 5.039928,0.359097344 C6.630408,0.359097344 7.919928,1.64589875 7.919928,3.23302566 Z" id="Stroke-3" fill="#009688"/>
+                            <path d="M9.719928,17.6328435 L0.359928,17.6328435 L0.359928,12.96271 C0.359928,10.3833593 2.455128,8.29257647 5.039928,8.29257647 C7.624728,8.29257647 9.719928,10.3833593 9.719928,12.96271 L9.719928,17.6328435 Z" id="Stroke-5"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

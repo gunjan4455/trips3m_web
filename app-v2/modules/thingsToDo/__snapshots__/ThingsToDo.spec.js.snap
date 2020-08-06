@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThingsToDo module should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ThingsToDo
+    config={
+      Object {
+        "order": 8,
+        "variant": "FULL",
+      }
+    }
+    data={Object {}}
+    externalCss=""
+    fetchThingsToDoData={[Function]}
+    layout={Object {}}
+    loaded={false}
+    thingsToDo={
+      Object {
+        "activities": Array [
+          Object {
+            "description": "Lighthouse beach in Kerala is a beautiful sandy beach with a lighthouse. In a state that offers so much to travelers like dense forests, picturesque hill stations, lush green plantations, and serene backwaters, the hawa beach in Kovalam is a breath of fresh air.",
+            "image_alt": "https://www.hlimg.com/images/places2see/738X538/kerala-tours3.jpg",
+            "image_url": "https://www.hlimg.com/images/places2see/738X538/kerala-tours3.jpg",
+            "labels": Array [
+              "Beaches",
+              "Nature",
+            ],
+            "navigation_url": "",
+            "title": "Lighthouse Beach in Kovalam",
+            "url_spotlight": "",
+          },
+        ],
+        "destination_name": "Karela",
+        "sub_heading": "Your list of the best things to do, compiled on the basis of actual traveler experiences",
+        "view_all_url": "",
+      }
+    }
+    trackSegmentEvent={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="clearfix container pl0 pr0"
+        style={
+          Object {
+            "flex": "",
+            "marginBottom": "",
+            "order": 8,
+          }
+        }
+      >
+        <LoaderCard
+          cardVisible={Object {}}
+          lineVisible={Object {}}
+        />
+      </div>,
+      "className": "",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <LoaderCard
+          cardVisible={Object {}}
+          lineVisible={Object {}}
+        />,
+        "className": "clearfix container pl0 pr0",
+        "style": Object {
+          "flex": "",
+          "marginBottom": "",
+          "order": 8,
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "cardVisible": Object {},
+          "lineVisible": Object {},
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="clearfix container pl0 pr0"
+          style={
+            Object {
+              "flex": "",
+              "marginBottom": "",
+              "order": 8,
+            }
+          }
+        >
+          <LoaderCard
+            cardVisible={Object {}}
+            lineVisible={Object {}}
+          />
+        </div>,
+        "className": "",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <LoaderCard
+            cardVisible={Object {}}
+            lineVisible={Object {}}
+          />,
+          "className": "clearfix container pl0 pr0",
+          "style": Object {
+            "flex": "",
+            "marginBottom": "",
+            "order": 8,
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "cardVisible": Object {},
+            "lineVisible": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

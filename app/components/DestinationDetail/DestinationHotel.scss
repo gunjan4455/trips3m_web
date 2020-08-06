@@ -1,0 +1,24 @@
+.detail-hotel-slider {
+  overflow-x: scroll;
+  padding-left: 8px;
+  padding-right: 8px;
+  .detail-hotel-slider-box {
+    display: flex;
+    padding-bottom: 8px;
+  .detail-hotel-slider-con {
+    position: relative;
+    max-width: 84%;
+    min-width: 84%;
+    display: table-cell;
+    margin: 0 8px;
+    .hotel-slider {
+      overflow: hidden;
+      height: 140px;
+      img {
+        min-height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,179 @@
+.search-container-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+  &.always-visible {
+    // display: none;
+    &::after {
+      display: none
+    }
+  }
+  &::after {
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    content: '';
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    // display: none;
+  }
+}
+// .search-container-box
+.search-container-main {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  min-height: 0px;
+}
+.search-bar {
+  box-shadow: 1px 1px 3px #999999;
+  z-index: 2;
+  position: relative;
+}
+
+.input-search {
+  height: 40px;
+  border: 0 none;
+  padding:5px 8px 5px 8px;
+  font-size: 14px;
+  line-height: 18px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.input-search-large {
+  height: 48px;
+}
+.input-search-small {
+  height: 34px;
+}
+.clear-form {
+  min-width: 24px;
+  max-width: 24px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+    svg {
+        display: block;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.destination-search-listing {
+  margin:0;
+  padding: 0;
+  display: block;
+    li {
+        padding: 15px 15px 15px 48px;
+        position: relative;
+        &::before {
+          background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjIxcHgiIHZpZXdCb3g9IjAgMCAxNiAyMSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4gICAgICAgIDx0aXRsZT5NYXJrZXJfaWNvbjwvdGl0bGU+ICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPiAgICA8ZGVmcz48L2RlZnM+ICAgIDxnIGlkPSJXZWxjb21lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4gICAgICAgIDxnIGlkPSJTZWFyY2hfZGVzdGluYXRpb24iIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMC4wMDAwMDAsIC04OS4wMDAwMDApIj4gICAgICAgICAgICA8ZyBpZD0iU2VhcmNoIj4gICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCA3Ni4wMDAwMDApIj4gICAgICAgICAgICAgICAgICAgIDxnIGlkPSJNYXJrZXJfaWNvbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYuMDAwMDAwLCAxMi4wMDAwMDApIj4gICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLTkiIHg9IjAiIHk9IjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PC9yZWN0PiAgICAgICAgICAgICAgICAgICAgICAgIDxnIGlkPSJQYWdlLTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUuMDAwMDAwLCAyLjAwMDAwMCkiPiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTQuMTM3NzkzMSw3LjI0MTE3MjQxIEMxNC4xMzc3OTMxLDEyLjY0NDYyMDcgNy4yNTIyNzU4NiwxOS43NjE4NjIxIDcuMjUyMjc1ODYsMTkuNzYxODYyMSBDNy4yNTIyNzU4NiwxOS43NjE4NjIxIDAuMzQ0Njg5NjU1LDEyLjY0NDYyMDcgMC4zNDQ2ODk2NTUsNy4yNDExNzI0MSBDMC4zNDQ2ODk2NTUsMy40MzI4OTY1NSAzLjQzMjk2NTUyLDAuMzQ0NjIwNjkgNy4yNDEyNDEzOCwwLjM0NDYyMDY5IEMxMS4wNTAyMDY5LDAuMzQ0NjIwNjkgMTQuMTM3NzkzMSwzLjQzMjg5NjU1IDE0LjEzNzc5MzEsNy4yNDExNzI0MSBaIiBpZD0iU3Ryb2tlLTEiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48L3BhdGg+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik05LjMxMDIwNjksNS45MzQ2MjA2OSBDOS4zMTAyMDY5LDcuMDc3Mzc5MzEgOC4zODQsOC4wMDM1ODYyMSA3LjI0MTI0MTM4LDguMDAzNTg2MjEgQzYuMDk4NDgyNzYsOC4wMDM1ODYyMSA1LjE3MjI3NTg2LDcuMDc3Mzc5MzEgNS4xNzIyNzU4Niw1LjkzNDYyMDY5IEM1LjE3MjI3NTg2LDQuNzkxODYyMDcgNi4wOTg0ODI3NiwzLjg2NTY1NTE3IDcuMjQxMjQxMzgsMy44NjU2NTUxNyBDOC4zODQsMy44NjU2NTUxNyA5LjMxMDIwNjksNC43OTE4NjIwNyA5LjMxMDIwNjksNS45MzQ2MjA2OSIgaWQ9IkZpbGwtMyIgZmlsbD0iIzAwOTY4OCI+PC9wYXRoPiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNOS4zMTAyMDY5LDUuOTM0NjIwNjkgQzkuMzEwMjA2OSw3LjA3NzM3OTMxIDguMzg0LDguMDAzNTg2MjEgNy4yNDEyNDEzOCw4LjAwMzU4NjIxIEM2LjA5ODQ4Mjc2LDguMDAzNTg2MjEgNS4xNzIyNzU4Niw3LjA3NzM3OTMxIDUuMTcyMjc1ODYsNS45MzQ2MjA2OSBDNS4xNzIyNzU4Niw0Ljc5MTg2MjA3IDYuMDk4NDgyNzYsMy44NjU2NTUxNyA3LjI0MTI0MTM4LDMuODY1NjU1MTcgQzguMzg0LDMuODY1NjU1MTcgOS4zMTAyMDY5LDQuNzkxODYyMDcgOS4zMTAyMDY5LDUuOTM0NjIwNjkgWiIgaWQ9IlN0cm9rZS01IiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPiAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4gICAgICAgICAgICAgICAgICAgIDwvZz4gICAgICAgICAgICAgICAgPC9nPiAgICAgICAgICAgIDwvZz4gICAgICAgIDwvZz4gICAgPC9nPjwvc3ZnPg==);
+          content: '';
+          width: 16px;
+          height: 21px;
+          top: 50%;
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          left: 15px;
+          background-repeat: no-repeat;
+          background-size: 100%;
+          position: absolute;
+        }
+        button {
+          position: absolute;
+          border: 0 none;
+          left: 0;
+          background: transparent;
+          top: 0;
+          padding: 15px 48px;
+          width: 100%;
+          text-align: left;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+    }
+}
+
+.search-button-loader {
+  border: 0 none;
+  padding: 0;
+  display: block;
+  background-color: #f2f2f2;
+  margin-top: 0;
+  min-width: 40px;
+  max-width: 40px;
+  height: 40px;
+  z-index: 2;
+}
+
+.search-button {
+    border: 0 none; padding: 0; display: block; margin-top: 0; min-width: 40px; max-width: 40px; height: 48px;
+    background-color: #f2f2f2;
+    z-index: 2;
+    & svg {
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+}
+.destination-search-container-box-layer {
+  height: calc(100vh - 90px);
+  top: calc(100% + 8px);
+  left: -8px;
+  right: -8px;
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+}
+.smallHeight {
+  height: 34px !important;
+}
+
+.input-search::placeholder {
+  color: #cccccc;
+  opacity: 1; /* Firefox */
+}
+
+.input-search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #cccccc;
+}
+
+.input-search::-ms-input-placeholder { /* Microsoft Edge */
+ color: #cccccc;
+}
+
+.homgePageSearch {
+
+  border: 4px solid rgba(255, 255, 255, 0.2);
+
+  .search-button {
+    background: none;
+    min-width: 56px;
+  }
+
+  .input-search {
+    padding: 15px;
+  }
+
+  .input-search::placeholder {
+    color: #3e3e3e;
+    opacity: 1; /* Firefox */
+  }
+
+  .input-search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #3e3e3e;
+  }
+
+  .input-search::-ms-input-placeholder { /* Microsoft Edge */
+    color: #3e3e3e;
+  }
+}

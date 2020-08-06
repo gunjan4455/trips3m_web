@@ -1,0 +1,20 @@
+.hotel-card {box-shadow: 0 0 4px #CCCCCC;}
+.hotel-img {
+  height: 140px;
+  overflow: hidden;
+  .hotelCardSlider{
+    width:100%;
+  }
+}
+.hotel-data-box {
+  height: 163px;
+  overflow: hidden;
+}
+.hotel-data-box-tags {
+  height: 90px;
+  overflow: hidden;
+}
+.hotel-data-box .traveler-rating-star-list{
+  width: auto;
+  text-align: left;
+}

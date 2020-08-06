@@ -1,0 +1,78 @@
+:local {
+
+  .cardImg {
+    height: 200px;
+    border-radius: 4px;
+    background: #efefef;
+  }
+
+  .cardData {
+    border-top: 0 none;
+    min-height: 190px;
+  }
+
+  .cardData_noCTA {
+    border-top: 0 none;
+    min-height: 125px;
+  }
+
+  .imgDetail {
+    height: 40%;
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%,rgba(0,0,0,0.65) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%,rgba(0,0,0,0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 65%,rgba(0,0,0,0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00000000", endColorstr="#a6000000",GradientType=0 );
+    -webkit-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00000000", endColorstr="#a6000000",GradientType=0 );
+  }
+
+  .hotelPlaceholder {
+    & svg {
+      width: 105px;
+      height: 69px;
+    }
+  }
+
+  .dealLabel:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -16px;
+    border-top: 13px solid transparent;
+    border-left: 16px solid #009688;
+    border-bottom: 13px solid transparent;
+  }
+
+  .dealLabel:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -28px;
+    border-right: 12px solid transparent;
+    border-left: 15px solid rgba(0, 150, 136, 0.6);
+    border-top: 13px solid rgba(0, 150, 136, 0.6);
+    border-bottom: 13px solid rgba(0, 150, 136, 0.6);
+  }
+  .dealOff {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    & span {
+      line-height: 1;
+    }
+  }
+  .dealOff_val {
+    font-size: 28px;
+    margin-top: -3px;
+    margin-right: 2px;
+  }
+
+  .ratingSection {
+
+  }
+
+/*  .cardTitle {
+    min-height: 40px;
+    max-height: 40px;
+    overflow: hidden;
+  }*/
+}

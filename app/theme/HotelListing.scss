@@ -1,0 +1,26 @@
+@import 'Listing/PackageIncExc';
+@import 'Listing/ListingFilters';
+@import 'Common/Faq';
+
+
+.hotel-filter-row {
+  .filter-type-row {
+    display: none;
+    & + label {
+      height: auto;
+      overflow: hidden;
+    }
+    & + label .filterData{
+      height: auto;
+      overflow: auto;
+      max-height: 280px;
+    }
+    &:checked + label .filterData{
+      height: 0;
+      overflow: hidden;
+    }
+    &:checked + label .filterArrow{
+      transform: rotate(0deg);
+    }
+  }
+}

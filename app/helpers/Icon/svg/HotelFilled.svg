@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="46px" viewBox="0 0 38 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icon/Hotel/Black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-copy" transform="translate(-86.000000, -111.000000)">
+            <g id="Group-2" transform="translate(32.000000, 74.000000)">
+                <g id="Group-4" transform="translate(37.000000, 24.000000)">
+                    <g id="Icon/Hotel/Black" transform="translate(12.000000, 13.000000)">
+                        <g id="icon/hotel">
+                            <rect id="Rectangle-3" x="0" y="0" width="48" height="48"></rect>
+                            <g id="Page-1" transform="translate(5.000000, 0.000000)">
+                                <polygon id="Stroke-4" stroke="#000000" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="1.50044444 4.44444444 37.056 4.44444444 37.056 0.888888889 1.50044444 0.888888889"></polygon>
+                                <polyline id="Stroke-6" stroke="#000000" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="3.27768889 45.3335111 3.27768889 4.44106667 35.2776889 4.44106667 35.2776889 45.3086222"></polyline>
+                                <polygon id="Stroke-8" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="6.88 16.8764444 12.2133333 16.8764444 12.2133333 11.5431111 6.88 11.5431111"></polygon>
+                                <polygon id="Stroke-9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="26.4266667 16.8764444 31.76 16.8764444 31.76 11.5431111 26.4266667 11.5431111"></polygon>
+                                <polygon id="Stroke-10" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="6.88 31.6906667 12.2133333 31.6906667 12.2133333 26.3573333 6.88 26.3573333"></polygon>
+                                <polygon id="Stroke-11" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" points="26.4266667 31.6906667 31.76 31.6906667 31.76 26.3573333 26.4266667 26.3573333"></polygon>
+                                <g id="Group-16" transform="translate(14.222222, 33.777778)">
+                                    <path d="M8.30542222,11.5557333 L1.19431111,11.5557333 L1.19431111,4.98684444 C1.19431111,3.02417778 2.7872,1.43128889 4.74986667,1.43128889 C6.71253333,1.43128889 8.30542222,3.02417778 8.30542222,4.98684444 L8.30542222,11.5557333 Z" id="Fill-12" fill="#009688"></path>
+                                    <path d="M8.30542222,11.5557333 L1.19431111,11.5557333 L1.19431111,4.98684444 C1.19431111,3.02417778 2.7872,1.43128889 4.74986667,1.43128889 C6.71253333,1.43128889 8.30542222,3.02417778 8.30542222,4.98684444 L8.30542222,11.5557333 Z" id="Stroke-14" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </g>
+                                <path d="M37.0554667,45.3084444 L0.888355556,45.3084444" id="Stroke-1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

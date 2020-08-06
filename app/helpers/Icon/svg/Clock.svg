@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon/Clock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Marker_icon-Copy">
+            <rect id="Rectangle-9" x="0" y="0" width="24" height="24"></rect>
+            <g id="Page-1" transform="translate(2.000000, 2.000000)" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9.99993103,19.6551724 C4.66751724,19.6551724 0.344758621,15.3324138 0.344758621,10 C0.344758621,4.66758621 4.66751724,0.344827586 9.99993103,0.344827586 C15.3323448,0.344827586 19.6551034,4.66758621 19.6551034,10 C19.6551034,15.3324138 15.3323448,19.6551724 9.99993103,19.6551724 Z" id="Stroke-1" stroke="#000000"></path>
+                <polyline id="Stroke-3" stroke="#009688" points="9.99993103 3.10344828 9.99993103 10 16.8964828 10"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

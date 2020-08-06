@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/chat/action.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">app-v2/modules/chat</a> action.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">45.45% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>20/44</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/15</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">51.28% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>20/39</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { chatKeysUrl, commentsHistoryUrl, commentCreateUrl } from 'helpers/urlHelpers';
+&nbsp;
+export const FETCH_CHAT_KEYS_LOAD = 'chat/fetch_chat_keys_load';
+export const FETCH_CHAT_KEYS_SUCCESS = 'chat/fetch_chat_keys_success';
+export const FETCH_CHAT_KEYS_FAIL = 'chat/fetch_chat_keys_fail';
+&nbsp;
+export const FETCH_HISTORY_LOAD = 'chat/fetch_HISTORY_load';
+export const FETCH_HISTORY_SUCCESS = 'chat/fetch_HISTORY_success';
+export const FETCH_HISTORY_FAIL = 'chat/fetch_HISTORY_fail';
+&nbsp;
+export const LOAD_MORE_MESSAGES = 'chat/load_more_messages_load';
+export const LOAD_MORE_MESSAGES_SUCCESS = 'chat/load_more_messages_success';
+export const LOAD_MORE_MESSAGES_FAIL = 'chat/load_more_messages_fail';
+&nbsp;
+export const CREATE_COMMENT_LOAD = 'chat/CREATE_COMMENT_load';
+export const CREATE_COMMENT_SUCCESS = 'chat/CREATE_COMMENT_success';
+export const CREATE_COMMENT_FAIL = 'chat/CREATE_COMMENT_fail';
+&nbsp;
+export const ADD_MESSAGE = 'chat/add_message';
+export const CLEAR_CHAT_MESSAGES = 'chat/clear_chat_messages';
+&nbsp;
+export const fetchChatKeys = <span class="fstat-no" title="function not covered" >(u</span>serId, quoteId) =&gt; {
+<span class="cstat-no" title="statement not covered" >  if (userId) {</span>
+<span class="cstat-no" title="statement not covered" >    return {</span>
+      types: [FETCH_CHAT_KEYS_LOAD, FETCH_CHAT_KEYS_SUCCESS, FETCH_CHAT_KEYS_FAIL],
+      promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.get(chatKeysUrl(userId), { params: { quoteId } }),</span>
+      withoutCamelCasing: false
+    };
+  }
+<span class="cstat-no" title="statement not covered" >  return {</span>
+    type: FETCH_CHAT_KEYS_FAIL
+  };
+};
+&nbsp;
+export const fetchHistory = <span class="fstat-no" title="function not covered" >(t</span>ripId, quoteId) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(d</span>ispatch) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  dispatch({</span>
+    types: [FETCH_HISTORY_LOAD, FETCH_HISTORY_SUCCESS, FETCH_HISTORY_FAIL],
+    promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.get(`${commentsHistoryUrl(tripId, quoteId)}`, {</span>
+      params: {
+        limit: 10,
+        offset: 0,
+      }
+    }),
+    withoutCamelCasing: false
+  });
+};
+&nbsp;
+export const loadMoreMessages = <span class="fstat-no" title="function not covered" >(t</span>ripId, quoteId) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(d</span>ispatch, getState) =&gt; {</span>
+  const state = <span class="cstat-no" title="statement not covered" >getState();</span>
+  const remainingMessages = <span class="cstat-no" title="statement not covered" >(state.chat &amp;&amp; state.chat.remainingMessages) || 0;</span>
+  const offset = <span class="cstat-no" title="statement not covered" >state.chat &amp;&amp; state.chat.offset;</span>
+  let limit = <span class="cstat-no" title="statement not covered" >0;</span>
+<span class="cstat-no" title="statement not covered" >  if (remainingMessages) {</span>
+<span class="cstat-no" title="statement not covered" >    limit = 10;</span>
+  }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  dispatch({</span>
+    types: [LOAD_MORE_MESSAGES, LOAD_MORE_MESSAGES_SUCCESS, LOAD_MORE_MESSAGES_FAIL],
+    promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.get(`${commentsHistoryUrl(tripId, quoteId)}`, {</span>
+      params: {
+        offset,
+        limit
+      }
+    }),
+    withoutCamelCasing: false
+  });
+};
+&nbsp;
+export const addMessage = <span class="fstat-no" title="function not covered" >(m</span>essage, quoteId) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(d</span>ispatch) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  message = (typeof message === 'string') ? JSON.parse(message) : message;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (message.commentable_id === quoteId</span>
+    &amp;&amp; message.commentable_type === 'Quote') {
+<span class="cstat-no" title="statement not covered" >    dispatch({</span>
+      type: ADD_MESSAGE,
+      message
+    });
+  }
+};
+&nbsp;
+export const createComment = <span class="fstat-no" title="function not covered" >(t</span>ripId, quoteId, messageObj) =&gt; <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(d</span>ispatch, getState) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >  dispatch({</span>
+    types: [CREATE_COMMENT_LOAD, CREATE_COMMENT_SUCCESS, CREATE_COMMENT_FAIL],
+    promise: <span class="fstat-no" title="function not covered" >cl</span>ient =&gt; <span class="cstat-no" title="statement not covered" >client.post(`${commentCreateUrl(tripId, quoteId)}`, {</span>
+      params: {
+        user_platform: 'Not_mobile',
+        comment: {
+          title: 'h',
+          comment: messageObj.comment,
+        }
+&nbsp;
+      }
+    }),
+    withoutCamelCasing: false
+  });
+};
+&nbsp;
+export const clearMessages = <span class="fstat-no" title="function not covered" >()</span> =&gt; (<span class="cstat-no" title="statement not covered" >{</span>
+  type: CLEAR_CHAT_MESSAGES,
+});
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>

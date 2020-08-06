@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/trip/list/TripList.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/trip/list</a> TripList.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">42.86% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>12/28</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">41.67% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>5/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">21.43% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">42.86% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>12/28</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import glamorous from 'glamorous';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router';
+&nbsp;
+import { rtripPath } from 'helpers/urlHelpers';
+import { DownArrow } from 'helpers/Icon/Icon';
+import { ORGANISM_CLICKED } from 'actions/segmentEvents';
+import { rescue } from 'helpers/utils';
+import {
+  GTripListDiv, GDropdownButton, GTripsListUl, GArrowDownSpan
+} from './G';
+&nbsp;
+class TripList extends React.Component {
+&nbsp;
+  constructor(props) {
+    super(props);
+    this.state = {
+      dropDownOpen: false
+    };
+    this.getTrips = this.getTrips.bind(this);
+    this.toggleDropDown = this.toggleDropDown.bind(this);
+    this.handleClickOutside = this.handleClickOutside.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+  }
+&nbsp;
+  componentDidMount() {
+    document.addEventListener('click', this.handleClickOutside);
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  co</span>mponentWillUnmount() {
+<span class="cstat-no" title="statement not covered" >    document.removeEventListener('click', this.handleClickOutside);</span>
+  }
+&nbsp;
+  handleClickOutside = <span class="fstat-no" title="function not covered" >ev</span>ent =&gt; {
+<span class="cstat-no" title="statement not covered" >    if (this.state.dropDownOpen &amp;&amp; !this.tripListElement_.contains(event.target)) {</span>
+<span class="cstat-no" title="statement not covered" >      this.setState({ dropDownOpen: false });</span>
+    }
+  };
+&nbsp;
+  trackSegmentEvent = <span class="fstat-no" title="function not covered" >(e</span>vent, section, object, cta) =&gt; {
+    const { trackSegment } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    rescue(<span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >      trackSegment({</span>
+        event,
+        section,
+        object,
+        cta
+      });
+    });
+  };
+&nbsp;
+  handleChange = <span class="fstat-no" title="function not covered" >(t</span>rip) =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.trackSegmentEvent(ORGANISM_CLICKED, 'Trips dropdown section', '', trip.firstDestinationName);</span>
+<span class="cstat-no" title="statement not covered" >    this.setState({ dropDownOpen: !this.state.dropDownOpen });</span>
+  };
+&nbsp;
+  toggleDropDown = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+<span class="cstat-no" title="statement not covered" >    this.setState({ dropDownOpen: !this.state.dropDownOpen });</span>
+  };
+&nbsp;
+  getTrips = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+    const { trips } = <span class="cstat-no" title="statement not covered" >this.props;</span>
+<span class="cstat-no" title="statement not covered" >    return (trips.allIds.map(<span class="fstat-no" title="function not covered" >tr</span>ipId =&gt; {</span>
+      const trip = <span class="cstat-no" title="statement not covered" >trips.byId[tripId];</span>
+      const rTripUrl = <span class="cstat-no" title="statement not covered" >rtripPath(trip.id);</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >      return (</span>
+        &lt;li key={trip.id}&gt;
+          &lt;Link to={rTripUrl} onClick={<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >this.handleChange(trip)}</span>&gt;
+            &lt;span title={trip.firstDestinationName} className="block ellipsis f14"&gt;{trip.firstDestinationName}&lt;/span&gt;
+            &lt;span className="block f12 pfc1"&gt;Booking ID #{trip.id}&lt;/span&gt;
+          &lt;/Link&gt;
+        &lt;/li&gt;
+      );
+    }));
+  };
+&nbsp;
+  render() {
+    const { trips, currentTripId } = this.props;
+    const currentTrip = trips.byId[currentTripId];
+&nbsp;
+    return (
+      &lt;GTripListDiv className="flexFull relative sbcw radius2"&gt;
+        {/*&lt;div className='icon-18 absolute-center-v absolute r10 p4 lineHeight0'&gt;
+          &lt;DownArrow /&gt;
+        &lt;/div&gt;
+        &lt;select className='pl8' onChange={handleChange} value={currentTrip.id}&gt;
+          {
+            trips.allIds.map(tripId =&gt; (
+              &lt;option value={tripId} key={tripId}&gt;
+                {trips.byId[tripId].firstDestinationName}
+              &lt;/option&gt;
+            ))
+          }
+        &lt;/select&gt;*/}
+        &lt;div className="clearfix relative"&gt;
+          &lt;div ref={<span class="fstat-no" title="function not covered" >(r</span>ef) =&gt; <span class="cstat-no" title="statement not covered" >this.tripListElement_ = ref}</span>&gt;
+            &lt;GDropdownButton className="radius2 at_tripListButton relative" onClick={this.toggleDropDown}&gt;
+              &lt;span className="fw7"&gt;{currentTrip.firstDestinationName}&lt;/span&gt;
+              {
+                &lt;GArrowDownSpan className={!this.state.dropDownOpen ? '' : <span class="branch-1 cbranch-no" title="branch not covered" >'arrowDown'}</span>&gt;
+                  &lt;DownArrow /&gt;
+                &lt;/GArrowDownSpan&gt;
+              }
+            &lt;/GDropdownButton&gt;
+            &lt;GTripsListUl
+              className={`dropDownList radius2 bs4 mt3 sbcw ${!this.state.dropDownOpen ? ' dropdownClosed' : <span class="branch-1 cbranch-no" title="branch not covered" >''}</span>`}&gt;
+              {
+                this.props.trips.allIds &amp;&amp; this.props.trips.allIds.length &gt; 0
+                  ? <span class="branch-0 cbranch-no" title="branch not covered" >this.getTrips()</span>
+                  : null
+              }
+            &lt;/GTripsListUl&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/GTripListDiv&gt;
+    );
+  }
+}
+&nbsp;
+TripList.propTypes = {
+  trips: PropTypes.object.isRequired,
+  currentTripId: PropTypes.number.isRequired,
+  trackSegment: PropTypes.func,
+  push: PropTypes.func,
+};
+&nbsp;
+TripList.defaultProps = {
+  trackSegment: <span class="fstat-no" title="function not covered" >()</span> =&gt; {
+  }
+};
+&nbsp;
+export default TripList;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

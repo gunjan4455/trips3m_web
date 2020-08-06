@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Discount Engine: Render Correctly  should match with the previous snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DiscountOffer
+    appliedOffer={Object {}}
+    applyDiscountCoupon={[Function]}
+    clearFormSubmitError={[Function]}
+    discountInformation={
+      Object {
+        "discount": 0,
+        "discountableType": null,
+        "discountableTypeId": null,
+      }
+    }
+    offers={
+      Array [
+        Object {
+          "code": "1BB2D9D87",
+          "couponId": 393,
+          "couponType": "Normal",
+          "desc": "Rs. 1000 Off ",
+          "discountCurrency": "Rupee",
+          "discountType": 1,
+          "endDate": "2019-07-21",
+          "heading": "TEST_NE_Jan_1000_Referral",
+          "offerVal": 1000,
+          "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+          "type": "Coupon",
+        },
+        Object {
+          "code": "1BB2D9D86",
+          "couponId": 395,
+          "couponType": "Normal",
+          "desc": "Rs. 1000 Off ",
+          "discountCurrency": "Rupee",
+          "discountType": 1,
+          "endDate": "2019-07-21",
+          "heading": "TEST2_NE_Jan_1000_Referral",
+          "offerVal": 1000,
+          "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+          "type": "Coupon",
+        },
+        Object {
+          "code": "1BB2D9D88",
+          "couponId": 394,
+          "couponType": "View Only",
+          "desc": "Rs. 1000 Off ",
+          "discountCurrency": "Rupee",
+          "discountType": 2,
+          "endDate": "2019-07-21",
+          "heading": "TEST1_NE_Jan_1000_Referral",
+          "offerVal": 1000,
+          "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+          "type": "Coupon",
+        },
+      ]
+    }
+    params={
+      Object {
+        "quoteid": "7124217",
+        "requestedTripId": "3918699",
+      }
+    }
+    removeDiscountCoupon={[Function]}
+    renderAppliedCoupon={false}
+    tripId="3918699"
+    updateDiscountCoupon={[Function]}
+    updateFormField={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <DiscountOfferPopup
+        appliedOfferId={0}
+        discountInformation={
+          Object {
+            "discount": 0,
+            "discountableType": null,
+            "discountableTypeId": null,
+          }
+        }
+        handleSubmit={[Function]}
+        hasDiscountApplied={false}
+        offers={
+          Array [
+            Object {
+              "code": "1BB2D9D87",
+              "couponId": 393,
+              "couponType": "Normal",
+              "desc": "Rs. 1000 Off ",
+              "discountCurrency": "Rupee",
+              "discountType": 1,
+              "endDate": "2019-07-21",
+              "heading": "TEST_NE_Jan_1000_Referral",
+              "offerVal": 1000,
+              "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+              "type": "Coupon",
+            },
+            Object {
+              "code": "1BB2D9D86",
+              "couponId": 395,
+              "couponType": "Normal",
+              "desc": "Rs. 1000 Off ",
+              "discountCurrency": "Rupee",
+              "discountType": 1,
+              "endDate": "2019-07-21",
+              "heading": "TEST2_NE_Jan_1000_Referral",
+              "offerVal": 1000,
+              "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+              "type": "Coupon",
+            },
+            Object {
+              "code": "1BB2D9D88",
+              "couponId": 394,
+              "couponType": "View Only",
+              "desc": "Rs. 1000 Off ",
+              "discountCurrency": "Rupee",
+              "discountType": 2,
+              "endDate": "2019-07-21",
+              "heading": "TEST1_NE_Jan_1000_Referral",
+              "offerVal": 1000,
+              "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+              "type": "Coupon",
+            },
+          ]
+        }
+        trackSegmentEvent={[Function]}
+        updateFormField={[Function]}
+      />,
+      "closeModal": false,
+      "customClass": "",
+      "customCloseTrigger": false,
+      "disabled": false,
+      "fullView": true,
+      "hasCustomClose": true,
+      "hasNoClose": false,
+      "isDefaultModal": false,
+      "isTriggerFullView": false,
+      "isWhiteIcon": false,
+      "onAfterModalClose": [Function],
+      "onAfterModalOpen": [Function],
+      "onRequestCloseCustom": [Function],
+      "trigger": <button
+        className="sfc1 f14 fw7 m0 ml5 flex alignCenter cursorP at_getOffersCTA"
+        type="button"
+      >
+        <span
+          className="input-24 mr8 p2 iblock"
+        >
+          <IconSvg />
+        </span>
+         Get Offers
+      </button>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "appliedOfferId": 0,
+        "discountInformation": Object {
+          "discount": 0,
+          "discountableType": null,
+          "discountableTypeId": null,
+        },
+        "handleSubmit": [Function],
+        "hasDiscountApplied": false,
+        "offers": Array [
+          Object {
+            "code": "1BB2D9D87",
+            "couponId": 393,
+            "couponType": "Normal",
+            "desc": "Rs. 1000 Off ",
+            "discountCurrency": "Rupee",
+            "discountType": 1,
+            "endDate": "2019-07-21",
+            "heading": "TEST_NE_Jan_1000_Referral",
+            "offerVal": 1000,
+            "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+            "type": "Coupon",
+          },
+          Object {
+            "code": "1BB2D9D86",
+            "couponId": 395,
+            "couponType": "Normal",
+            "desc": "Rs. 1000 Off ",
+            "discountCurrency": "Rupee",
+            "discountType": 1,
+            "endDate": "2019-07-21",
+            "heading": "TEST2_NE_Jan_1000_Referral",
+            "offerVal": 1000,
+            "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+            "type": "Coupon",
+          },
+          Object {
+            "code": "1BB2D9D88",
+            "couponId": 394,
+            "couponType": "View Only",
+            "desc": "Rs. 1000 Off ",
+            "discountCurrency": "Rupee",
+            "discountType": 2,
+            "endDate": "2019-07-21",
+            "heading": "TEST1_NE_Jan_1000_Referral",
+            "offerVal": 1000,
+            "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+            "type": "Coupon",
+          },
+        ],
+        "trackSegmentEvent": [Function],
+        "updateFormField": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <DiscountOfferPopup
+          appliedOfferId={0}
+          discountInformation={
+            Object {
+              "discount": 0,
+              "discountableType": null,
+              "discountableTypeId": null,
+            }
+          }
+          handleSubmit={[Function]}
+          hasDiscountApplied={false}
+          offers={
+            Array [
+              Object {
+                "code": "1BB2D9D87",
+                "couponId": 393,
+                "couponType": "Normal",
+                "desc": "Rs. 1000 Off ",
+                "discountCurrency": "Rupee",
+                "discountType": 1,
+                "endDate": "2019-07-21",
+                "heading": "TEST_NE_Jan_1000_Referral",
+                "offerVal": 1000,
+                "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+                "type": "Coupon",
+              },
+              Object {
+                "code": "1BB2D9D86",
+                "couponId": 395,
+                "couponType": "Normal",
+                "desc": "Rs. 1000 Off ",
+                "discountCurrency": "Rupee",
+                "discountType": 1,
+                "endDate": "2019-07-21",
+                "heading": "TEST2_NE_Jan_1000_Referral",
+                "offerVal": 1000,
+                "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+                "type": "Coupon",
+              },
+              Object {
+                "code": "1BB2D9D88",
+                "couponId": 394,
+                "couponType": "View Only",
+                "desc": "Rs. 1000 Off ",
+                "discountCurrency": "Rupee",
+                "discountType": 2,
+                "endDate": "2019-07-21",
+                "heading": "TEST1_NE_Jan_1000_Referral",
+                "offerVal": 1000,
+                "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+                "type": "Coupon",
+              },
+            ]
+          }
+          trackSegmentEvent={[Function]}
+          updateFormField={[Function]}
+        />,
+        "closeModal": false,
+        "customClass": "",
+        "customCloseTrigger": false,
+        "disabled": false,
+        "fullView": true,
+        "hasCustomClose": true,
+        "hasNoClose": false,
+        "isDefaultModal": false,
+        "isTriggerFullView": false,
+        "isWhiteIcon": false,
+        "onAfterModalClose": [Function],
+        "onAfterModalOpen": [Function],
+        "onRequestCloseCustom": [Function],
+        "trigger": <button
+          className="sfc1 f14 fw7 m0 ml5 flex alignCenter cursorP at_getOffersCTA"
+          type="button"
+        >
+          <span
+            className="input-24 mr8 p2 iblock"
+          >
+            <IconSvg />
+          </span>
+           Get Offers
+        </button>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "appliedOfferId": 0,
+          "discountInformation": Object {
+            "discount": 0,
+            "discountableType": null,
+            "discountableTypeId": null,
+          },
+          "handleSubmit": [Function],
+          "hasDiscountApplied": false,
+          "offers": Array [
+            Object {
+              "code": "1BB2D9D87",
+              "couponId": 393,
+              "couponType": "Normal",
+              "desc": "Rs. 1000 Off ",
+              "discountCurrency": "Rupee",
+              "discountType": 1,
+              "endDate": "2019-07-21",
+              "heading": "TEST_NE_Jan_1000_Referral",
+              "offerVal": 1000,
+              "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+              "type": "Coupon",
+            },
+            Object {
+              "code": "1BB2D9D86",
+              "couponId": 395,
+              "couponType": "Normal",
+              "desc": "Rs. 1000 Off ",
+              "discountCurrency": "Rupee",
+              "discountType": 1,
+              "endDate": "2019-07-21",
+              "heading": "TEST2_NE_Jan_1000_Referral",
+              "offerVal": 1000,
+              "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+              "type": "Coupon",
+            },
+            Object {
+              "code": "1BB2D9D88",
+              "couponId": 394,
+              "couponType": "View Only",
+              "desc": "Rs. 1000 Off ",
+              "discountCurrency": "Rupee",
+              "discountType": 2,
+              "endDate": "2019-07-21",
+              "heading": "TEST1_NE_Jan_1000_Referral",
+              "offerVal": 1000,
+              "tnc": "- A flat discount value of Rs. 1000 will be applied to the quotes.
+- The discounts will be applicable only after Trip is converted.
+- If the Trip is cancelled after booking, discount value will be reverted.",
+              "type": "Coupon",
+            },
+          ],
+          "trackSegmentEvent": [Function],
+          "updateFormField": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

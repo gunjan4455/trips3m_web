@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Testimonails_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Side_Menu" transform="translate(-15.000000, -488.000000)">
+            <g id="Group-14" transform="translate(0.000000, 24.000000)">
+                <g id="Login" transform="translate(0.000000, 339.000000)">
+                    <g id="Testimonail" transform="translate(16.000000, 126.000000)">
+                        <g id="Testimonails_icon">
+                            <rect id="Rectangle-9" x="0" y="0" width="18" height="18"/>
+                            <g id="Page-1" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17.639928,17.639928 L9.246888,17.639928 C4.657608,17.639928 0.680328,14.163768 0.379368,9.584568 C0.020088,4.124808 4.736088,-0.338472 10.271448,0.450648 C13.972248,0.978408 16.964568,3.945528 17.534808,7.639848 C17.912808,10.090008 17.247528,12.371688 15.932088,14.141448 C15.932088,14.141448 14.598648,15.740568 17.639928,17.639928 Z" id="Stroke-1" stroke="#000000"/>
+                                <path d="M5.389056,7.850664 L13.789296,7.850664" id="Stroke-3" stroke="#009688"/>
+                                <path d="M5.389056,10.190664 L12.349296,10.190664" id="Stroke-5" stroke="#009688"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

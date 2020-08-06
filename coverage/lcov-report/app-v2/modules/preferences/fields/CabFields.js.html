@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for app-v2/modules/preferences/fields/CabFields.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">app-v2/modules/preferences/fields</a> CabFields.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">9.38% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>3/32</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/17</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/9</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">9.68% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>3/31</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+import PropTypes from 'prop-types';
+import { Field } from 'redux-form';
+&nbsp;
+import { CabCustomizationDetail as CabCustomizations } from '../constants';
+import { CabIconFront } from 'helpers/Icon/Icon';
+import glamorous from 'glamorous';
+&nbsp;
+const GCabRadioDiv = glamorous.div({
+  '&amp; .cab-radio:checked + label p': {
+    color: '#20A397 !important'
+  },
+});
+&nbsp;
+const CabFields = <span class="fstat-no" title="function not covered" >({</span> cabRequiredPreference, cabQuestionsPreference, destinationsList, singleOptionValues }) =&gt; {
+  const destinationType = <span class="cstat-no" title="statement not covered" >destinationsList &amp;&amp; destinationsList[0] &amp;&amp; destinationsList[0].destinationType;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  if (!cabRequiredPreference) {</span>
+<span class="cstat-no" title="statement not covered" >    return null;</span>
+  }
+&nbsp;
+  const cabYesOption = <span class="cstat-no" title="statement not covered" >cabRequiredPreference.options.find(<span class="fstat-no" title="function not covered" >op</span>tion =&gt; <span class="cstat-no" title="statement not covered" >option.name === 'Yes')</span>;</span>
+  let cabSelectedOption = <span class="cstat-no" title="statement not covered" >undefined;</span>
+<span class="cstat-no" title="statement not covered" >  if (singleOptionValues) {</span>
+<span class="cstat-no" title="statement not covered" >    cabSelectedOption = singleOptionValues[CabCustomizations.required.id];</span>
+  }
+&nbsp;
+  const getCabOptions = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(p</span>refernce, selectedOptions = <span class="branch-0 cbranch-no" title="branch not covered" >undefined,</span> inputClass = <span class="branch-0 cbranch-no" title="branch not covered" >'radio-common')</span> =&gt; {</span>
+    const options = <span class="cstat-no" title="statement not covered" >selectedOptions || prefernce.options;</span>
+<span class="cstat-no" title="statement not covered" >    return (</span>
+      options.map(<span class="fstat-no" title="function not covered" >(o</span>ption) =&gt; {
+        const elementId = <span class="cstat-no" title="statement not covered" >`option-radio-${option.id}`;</span>
+<span class="cstat-no" title="statement not covered" >        return (</span>
+          &lt;div key={option.id}&gt;
+            &lt;GCabRadioDiv className='p5'&gt;
+            &lt;Field
+              name={`singleValueOptions[${prefernce.id}][optionId]`}
+              component="input"
+              className={inputClass}
+              id={elementId}
+              type="radio"
+              value={option.id.toString()}
+            /&gt;
+            &lt;label
+              htmlFor={elementId}
+              className="cursorP block pr8 pl8"
+            &gt;
+              &lt;p className="m0 fw7 text-uppercase"&gt;{option.name}&lt;/p&gt;
+            &lt;/label&gt;
+            &lt;/GCabRadioDiv&gt;
+          &lt;/div&gt;
+        );
+      })
+    );
+  };
+&nbsp;
+  const getCabDomesticOptions = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >op</span>tions =&gt;</span>
+<span class="cstat-no" title="statement not covered" >    options.map(<span class="fstat-no" title="function not covered" >(o</span>ption) =&gt; {</span>
+      const elementId = <span class="cstat-no" title="statement not covered" >`option-radio-${option}`;</span>
+<span class="cstat-no" title="statement not covered" >      return (</span>
+        &lt;div key={option} className="col-xs-6 p5 pt4"&gt;
+          &lt;Field
+            name="driverSpeaks"
+            component="input"
+            className="radio-common"
+            id={elementId}
+            type="radio"
+            value={option}
+          /&gt;
+          &lt;label
+            htmlFor={elementId}
+            className="cursorP"
+          &gt;
+            &lt;p className="m0"&gt;{option}&lt;/p&gt;
+          &lt;/label&gt;
+        &lt;/div&gt;
+      );
+    });
+&nbsp;
+  const getCabNestedQuestion = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >()</span> =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >    if (cabSelectedOption &amp;&amp; cabSelectedOption.optionId === cabYesOption.id.toString()) {</span>
+<span class="cstat-no" title="statement not covered" >      if (destinationType === 'International') {</span>
+        const options = <span class="cstat-no" title="statement not covered" >cabQuestionsPreference.options</span>
+          .filter(<span class="fstat-no" title="function not covered" >op</span>tion =&gt; <span class="cstat-no" title="statement not covered" >option.id !== CabCustomizations.domesticDestinationOptionId)</span>;
+<span class="cstat-no" title="statement not covered" >        return (</span>
+          &lt;div className="clearfix mb8"&gt;
+            &lt;div className="col-md-12 will-book-comp"&gt;
+              &lt;p className="f14p fw7 sfc6 m0 iblock pb3"&gt;{cabQuestionsPreference.title}&lt;/p&gt;
+              &lt;div className="clearfix pl4 pt0"&gt;
+                &lt;div className="row row-8 flex"&gt;
+                  {getCabOptions(cabQuestionsPreference, options)}
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        );
+      }
+&nbsp;
+      const option = <span class="cstat-no" title="statement not covered" >cabQuestionsPreference.options</span>
+        .find(<span class="fstat-no" title="function not covered" >op</span>t =&gt; <span class="cstat-no" title="statement not covered" >opt.id === CabCustomizations.domesticDestinationOptionId)</span>;
+      const options = <span class="cstat-no" title="statement not covered" >['English', 'Hindi'];</span>
+<span class="cstat-no" title="statement not covered" >      return (</span>
+        &lt;div className="clearfix mb8"&gt;
+          &lt;div className="col-md-12 will-book-comp"&gt;
+            &lt;p className="f14p fw7 sfc6 m0 iblock"&gt;{option.name}&lt;/p&gt;
+            &lt;div className="clearfix pl4 pt0"&gt;
+              &lt;div className="row row-8"&gt;
+                {getCabDomesticOptions(options)}
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      );
+    }
+<span class="cstat-no" title="statement not covered" >    return '';</span>
+  };
+&nbsp;
+<span class="cstat-no" title="statement not covered" >  return (</span>
+    &lt;div&gt;
+      &lt;div className="clearfix mb8"&gt;
+        &lt;div className="at_editcabs flex alignCenter spaceBetween"&gt;
+          &lt;div className="flight-included col-md-8 pr0 pl0"&gt;
+            &lt;div className="fw9 relative m0 flex alignCenter"&gt;
+              &lt;span className="flight-icon input-24 relative block mr8"&gt;&lt;CabIconFront /&gt;&lt;/span&gt;
+              &lt;p className='f14p fw7 sfc6'&gt;{cabRequiredPreference.title}&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div className="text-right flex"&gt;
+            {getCabOptions(cabRequiredPreference, '', 'cab-radio hide')}
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      {getCabNestedQuestion()}
+    &lt;/div&gt;
+  );
+};
+&nbsp;
+export default CabFields;
+&nbsp;
+CabFields.propTypes = {
+  cabRequiredPreference: PropTypes.object.isRequired,
+  cabQuestionsPreference: PropTypes.object.isRequired,
+  destinationsList: PropTypes.array.isRequired,
+  singleOptionValues: PropTypes.object
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jul 23 2019 11:08:43 GMT+0530 (IST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

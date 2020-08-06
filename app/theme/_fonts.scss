@@ -1,0 +1,75 @@
+/* == Fonts == */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v13/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v13/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v13/G2uphNnNqGFMHLRsO_72ngLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v13/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
+/* --------------------- font size / line height ------------------------------- */
+.f144 { font-size: 144px; line-height: 170px; }
+.f32 { font-size: 32px; line-height: 48px; }
+.f24 { font-size: 24px; line-height: 28px; }
+.f20 { font-size: 20px; line-height: 24px; }
+.f18 { font-size: 18px; line-height: 24px; }
+.f16 { font-size: 16px; line-height: 20px; }
+.f16a { font-size: 16px; line-height: 24px; }
+.f14 { font-size: 14px; line-height: 18px; }
+.f14p { font-size: 14px; line-height: 20px; }
+.f12 { font-size: 12px; line-height: 16px; }
+.f10 { font-size: 10px; line-height: 10px; }
+/* ----------------------- font style----------------------------- */
+.fitalic { font-style: italic; }
+.fnormal { font-style: normal; }
+/* ----------------------- font weight----------------------------- */
+.fw3 { font-weight: 300; }
+.fw4 { font-weight: 400; }
+.fw7 { font-weight: 700; }
+.fwb { font-weight: 900; }
+.fw9 { font-weight: 900; }
+/* --------------------- text decoration------------------------------- */
+.tdn { text-decoration: none; }
+.tdu { text-decoration: underline; }
+.tdo { text-decoration: overline; }
+.tdl { text-decoration: line-through; }
+/* --------------------- text align------------------------------- */
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.text-nowrap { white-space: nowrap; }
+.text-lowercase { text-transform: lowercase; }
+.text-uppercase { text-transform: uppercase; }
+.text-capitalize { text-transform: capitalize; }
+.first-letter-caps:first-letter { text-transform: capitalize; }
+/* ----------------------- line height----------------------------- */
+.lh24 { line-height: 24px; }

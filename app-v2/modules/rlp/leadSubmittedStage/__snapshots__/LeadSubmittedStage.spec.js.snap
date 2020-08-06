@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RLP page should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LeadSubmittedStage
+    currentTripId={4982978}
+    reactivateBooking={[MockFunction]}
+    sendActivationMail={[MockFunction]}
+    trips={
+      Object {
+        "allIds": Array [
+          "4809460",
+          "4982568",
+          "4982590",
+          "4982978",
+        ],
+        "byId": Object {
+          "4809460": Object {
+            "adult": 2,
+            "bookingStatusLabel": "Incomplete",
+            "budget": "38000..41000",
+            "child": 0,
+            "currency": "Rupee",
+            "exclusivePreferencesValues": Object {
+              "cabs": "Included",
+              "flights": "Included",
+              "hotels": "4 Star",
+            },
+            "firstDestinationName": "Sri Lanka",
+            "fromLoc": "Chennai, Tamil Nadu, India",
+            "id": 4809460,
+            "info": "",
+            "phoneNo": "+919480946000",
+            "quotesCount": 3,
+            "startDate": "2019-07-04",
+            "status": "Cancelled",
+            "toLoc": "Sri Lanka",
+            "tripDays": 5,
+            "tripStage": 3,
+          },
+          "4982568": Object {
+            "adult": 2,
+            "bookingStatusLabel": "Incomplete",
+            "budget": null,
+            "child": 0,
+            "currency": null,
+            "exclusivePreferencesValues": Object {
+              "cabs": "Included",
+              "flights": "Included",
+              "hotels": "3 Star, 2 Star",
+            },
+            "firstDestinationName": "Singapore",
+            "fromLoc": "Chennai, Tamil Nadu, India",
+            "id": 4982568,
+            "info": "",
+            "phoneNo": "+919498256800",
+            "quotesCount": 0,
+            "startDate": "2019-08-11",
+            "status": "Dormant",
+            "toLoc": "Singapore",
+            "tripDays": 9,
+            "tripStage": 2,
+          },
+          "4982590": Object {
+            "adult": 4,
+            "bookingStatusLabel": "Incomplete",
+            "budget": "33500..33500",
+            "child": 0,
+            "currency": "Rupee",
+            "exclusivePreferencesValues": Object {
+              "cabs": "Included",
+              "flights": "Excluded",
+              "hotels": "3 Star",
+            },
+            "firstDestinationName": "Singapore",
+            "fromLoc": "Chennai",
+            "id": 4982590,
+            "info": "",
+            "phoneNo": "+919498259000",
+            "quotesCount": 0,
+            "startDate": "2019-08-19",
+            "status": "Dormant",
+            "toLoc": "Singapore",
+            "tripDays": 7,
+            "tripStage": 3,
+          },
+          "4982978": Object {
+            "adult": 4,
+            "bookingStatusLabel": "Active",
+            "budget": "33500..33500",
+            "child": 0,
+            "currency": "Rupee",
+            "exclusivePreferencesValues": Object {
+              "cabs": "Included",
+              "flights": "Excluded",
+              "hotels": "3 Star",
+            },
+            "firstDestinationName": "Singapore",
+            "fromLoc": "Chennai",
+            "id": 4982978,
+            "info": "",
+            "phoneNo": "+919498297800",
+            "quotesCount": 3,
+            "startDate": "2019-08-19",
+            "status": "Active",
+            "toLoc": "Singapore",
+            "tripDays": 7,
+            "tripStage": 3,
+          },
+        },
+        "loaded": true,
+        "loading": false,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "message": Object {
+        "ctas": Array [],
+        "header": "",
+        "icon": "DEFAULT",
+        "message": "Please wait while we are working on your request.",
+      },
+      "trackSegment": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "message": Object {
+          "ctas": Array [],
+          "header": "",
+          "icon": "DEFAULT",
+          "message": "Please wait while we are working on your request.",
+        },
+        "trackSegment": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

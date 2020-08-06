@@ -1,0 +1,55 @@
+.list-side-menu {
+  list-style: none;
+  border-bottom: solid 1px #D4D4D4;
+  li {
+    display: block;
+  }
+  a {
+    display: block;
+    color: #2B2B2B;
+    padding: 13px 16px 13px 60px;
+    font-size: 14px;
+    position: relative;
+    line-height: 14px;
+    height: 40px;
+
+    &.view-all {
+      color: #2196F3;
+      display: inline-block;
+      height: auto;
+      padding: 0;
+    }
+
+  .sidenav-icons {
+    height: 40px;
+    width: 36px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+      svg {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        max-width: 20px;
+        max-height: 20px;
+      }
+    }
+    .seasonalSvg {
+      svg {
+        max-width: 25px;
+        max-height: 25px;
+      }
+    }
+  }
+  a:hover {
+    color: #2b2b2b;
+  }
+}
+.alltrips {
+  border-bottom: solid 1px #D4D4D4;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}

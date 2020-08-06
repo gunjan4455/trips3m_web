@@ -1,0 +1,30 @@
+@mixin transform($deg) {
+    -webkit-transform: rotate($deg);
+    -moz-transform: rotate($deg);
+    -ms-transform: rotate($deg);
+    transform: rotate($deg);
+}
+
+.rotate0 { @include transform(0deg); }
+.rotate45 { @include transform(45deg); }
+.rotate90 { @include transform(90deg); }
+.rotate135 { @include transform(135deg); }
+.rotate180 { @include transform(180deg); }
+.rotate270 { @include transform(270deg); }
+.rotate360 { @include transform(360deg); }
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+
+  .radius0 { @include border-radius(0px); }
+  .radius2 { @include border-radius(2px); }
+  .radius4 { @include border-radius(4px); }
+  .radius6 { @include border-radius(6px); }
+  .radius8 { @include border-radius(8px); }
+  .radius10 { @include border-radius(10px); }
+  .radius20 { @include border-radius(20px); }
+  .radius100 { @include border-radius(100%); }
